@@ -136,6 +136,11 @@
 
     <PreferenceCategory
         android:title="@string/statusbar_category_title">
+	<Preference
+            android:key="clock_settings"
+            android:title="@string/status_bar_clock"
+            android:summary="@string/status_bar_clock_summary"
+            android:fragment="com.android.settings.arrow.ClockDateSettings" />
 
 	<Preference
             android:key="systemui_tuner_statusbar"
@@ -144,7 +149,7 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
         </Preference>
-    </PreferenceCategory>
+    </PreferenceCategory >
 
     <PreferenceCategory
         android:title="@string/buttons_category_title">
