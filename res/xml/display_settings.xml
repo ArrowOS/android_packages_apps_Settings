@@ -130,6 +130,15 @@
         android:summary="@string/tap_to_wake_summary" />
 
     <PreferenceCategory
+        android:title="@string/statusbar_category_title">
+	<Preference
+            android:key="clock_settings"
+            android:title="@string/status_bar_clock"
+            android:summary="@string/status_bar_clock_summary"
+            android:fragment="com.android.settings.arrow.ClockDateSettings" />
+    </PreferenceCategory >
+
+    <PreferenceCategory
         android:title="@string/buttons_category_title">
         <PreferenceScreen
             android:key="hardware_keys"
