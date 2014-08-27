@@ -25,6 +25,20 @@
         android:layout_height="match_parent"
         android:padding="@dimen/sim_content_padding">
 
+       <LinearLayout
+    	   android:gravity="center"
+    	   android:layout_width="match_parent"
+    	   android:layout_height="wrap_content"
+           android:selectable="false">
+            <ImageView
+    	   android:layout_width="625dp"
+    	   android:layout_height="140dp"
+    	   android:src="@drawable/ic_arrow_logo"
+    	   android:adjustViewBounds="true"
+    	   android:scaleType="centerInside"
+    	   android:tint="?android:attr/colorAccent" />
+         </LinearLayout>
+
         <TextView
             style="@style/device_info_dialog_label"
             android:id="@+id/firmware_version_label"
