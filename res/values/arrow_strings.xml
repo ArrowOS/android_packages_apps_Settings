@@ -242,4 +242,9 @@
 
     <!-- QuickSettings Panel Transparency -->
     <string name="qs_panel_alpha_title">QS panel opacity</string>
+
+	    <!-- Changelog -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_error">Unable to load changelog</string>
 </resources>
