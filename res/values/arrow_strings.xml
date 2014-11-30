@@ -224,4 +224,8 @@
     <string name="dc_dimming_main_switch_title">Use DC Dimming</string>
     <string name="keywords_display_dc_dimming">dc dimming, anti, flicker, eye, strain</string>
 
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+
 </resources>
