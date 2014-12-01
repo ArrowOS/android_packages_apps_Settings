@@ -143,6 +143,7 @@
     <string name="navigation_keys_summary">Customise on-screen navigation bar</string>
     <string name="hardware_keys_category">Hardware navigation buttons</string>
     <string name="hardware_keys_disable_title">Disable hardware buttons</string>
+    <string name="hardware_keys_wake_title">Wake device</string>
 
     <!-- Settings categories -->
     <string name="buttons_category_title">Buttons</string>
