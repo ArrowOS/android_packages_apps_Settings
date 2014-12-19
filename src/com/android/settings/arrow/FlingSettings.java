@@ -18,7 +18,7 @@ package com.android.settings.arrow;
 
 import java.util.ArrayList;
 
-import net.margaritov.preference.colorpicker.ColorPickerPreference;
+import com.android.settings.arrow.margaritov.preference.colorpicker.ColorPickerPreference;
 
 import com.android.settings.arrow.preferences.CustomSeekBarPreference;
 
