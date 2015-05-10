@@ -170,4 +170,8 @@
     <!-- Tiles on secure keyguard -->
     <string name="use_tiles_on_secure_keyguard_title">Require unlocking to use sensitive tiles</string>
     <string name="use_tiles_on_secure_keyguard_summary">Ask to unlock lockscreen when using sensitive tiles</string>
+
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Hide on lockscreen</string>
+    <string name="power_menu_hide_on_secure_summary">Hide the power menu on a secure lockscreen</string>
 </resources>
