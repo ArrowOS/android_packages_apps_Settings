@@ -257,4 +257,8 @@
     <string name="disable_qs_title">Hide QS in secure lockscreen</string>
     <string name="disable_qs_summary">Hides QS if device is locked. Does not disable notification shade</string>
 
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Disable power menu on lock screen</string>
+    <string name="power_menu_hide_on_secure_summary">This will only disable the power menu on secure lockscreen</string>
+
 </resources>
