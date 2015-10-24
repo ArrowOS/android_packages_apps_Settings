@@ -192,4 +192,8 @@
     <string name="hidden_label">Hidden</string>
     <string name="long_label">Long</string>
 
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Display media cover art</string>
+    <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+
 </resources>
