@@ -9162,4 +9162,8 @@
 
     <!-- QuickSettings Panel Transparency -->
     <string name="qs_panel_alpha_title">QS panel opacity</string>
+
+    <!-- Volume key controls media stream -->
+    <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
+    <string name="volume_keys_control_media_stream_summary">Force volume keys to control media stream</string>
 </resources>
