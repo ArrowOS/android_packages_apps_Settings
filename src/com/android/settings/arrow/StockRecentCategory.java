@@ -46,6 +46,9 @@ public class StockRecentCategory extends SettingsPreferenceFragment implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+	mFooterPreferenceMixin.createFooterPreference()
+		.setTitle("This options work only with AOSP recents");
+
         addPreferencesFromResource(R.xml.recents);
 
         ContentResolver resolver = getActivity().getContentResolver();
