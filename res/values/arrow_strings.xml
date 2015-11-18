@@ -460,4 +460,6 @@
     <string name="app_ops_start_foreground">start foreground</string>
     <string name="app_ops_bluetooth_scan">bluetooth scan</string>
     <string name="app_ops_boot_completed">auto start</string>
+
+    <string name="link_volume_option_title">Link ring and notification volume</string>
 </resources>
