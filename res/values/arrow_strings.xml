@@ -49,12 +49,6 @@
     <string name="color_mode_balance_blue">Blue strength</string>
     <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
 
-    <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
-
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">Build date</string>
     <string name="arrow_version">ArrowOS version</string>
@@ -75,10 +69,8 @@
     <string name="platform_revision">Platform</string>
     <string name="total_ram">Total RAM</string>
 
-    <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
-
-    <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
 
 </resources>
