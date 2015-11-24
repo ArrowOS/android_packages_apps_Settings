@@ -475,4 +475,9 @@
     <string name="app_ops_settings_title">App Ops</string>
 
     <string name="enlighten">This options are only meant to work with old card stack recents(O recents)</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
 </resources>
