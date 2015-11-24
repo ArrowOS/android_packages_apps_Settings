@@ -479,4 +479,8 @@
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Music visualizer</string>
     <string name="lockscreen_visualizer_summary">Show visualizer on lockscreen when music is playing</string>
+
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
 </resources>
