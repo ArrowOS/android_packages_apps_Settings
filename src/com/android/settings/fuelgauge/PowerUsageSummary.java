@@ -27,6 +27,12 @@ import android.content.IntentFilter;
 import android.database.ContentObserver;
 import android.icu.text.NumberFormat;
 import android.net.Uri;
+<<<<<<< HEAD   (c5d178 Allow to longpress power to toggle flashlight [2/2])
+=======
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.os.BatteryStats;
+>>>>>>> CHANGE (ad01d3 Settings: Reset battery stats [2/2])
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.PowerManager;
@@ -99,6 +105,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     static final int BATTERY_TIP_LOADER = 2;
     @VisibleForTesting
     static final int MENU_ADVANCED_BATTERY = Menu.FIRST + 1;
+    static final int MENU_STATS_RESET = Menu.FIRST + 2;
     public static final int DEBUG_INFO_LOADER = 3;
 
     @VisibleForTesting
@@ -320,9 +327,39 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+<<<<<<< HEAD   (c5d178 Allow to longpress power to toggle flashlight [2/2])
+=======
+        if (DEBUG) {
+            menu.add(Menu.NONE, MENU_STATS_TYPE, Menu.NONE, R.string.menu_stats_total)
+                    .setIcon(com.android.internal.R.drawable.ic_menu_info_details)
+                    .setAlphabeticShortcut('t');
+        }
+
+        MenuItem reset = menu.add(0, MENU_STATS_RESET, 0, R.string.battery_stats_reset)
+                .setIcon(R.drawable.ic_delete)
+                .setAlphabeticShortcut('d');
+        reset.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
+
+>>>>>>> CHANGE (ad01d3 Settings: Reset battery stats [2/2])
         menu.add(Menu.NONE, MENU_ADVANCED_BATTERY, Menu.NONE, R.string.advanced_battery_title);
 
         super.onCreateOptionsMenu(menu, inflater);
+    }
+
+    private void resetStats() {
+        AlertDialog dialog = new AlertDialog.Builder(getActivity())
+            .setTitle(R.string.battery_stats_reset)
+            .setMessage(R.string.battery_stats_message)
+            .setPositiveButton(R.string.ok_string, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    mStatsHelper.resetStatistics();
+                    refreshUi(BatteryUpdateType.MANUAL);
+                }
+            })
+            .setNegativeButton(R.string.cancel, null)
+            .create();
+        dialog.show();
     }
 
     @Override
@@ -333,6 +370,20 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
+<<<<<<< HEAD   (c5d178 Allow to longpress power to toggle flashlight [2/2])
+=======
+            case MENU_STATS_RESET:
+                resetStats();
+                return true;
+            case MENU_STATS_TYPE:
+                if (mStatsType == BatteryStats.STATS_SINCE_CHARGED) {
+                    mStatsType = BatteryStats.STATS_SINCE_UNPLUGGED;
+                } else {
+                    mStatsType = BatteryStats.STATS_SINCE_CHARGED;
+                }
+                refreshUi(BatteryUpdateType.MANUAL);
+                return true;
+>>>>>>> CHANGE (ad01d3 Settings: Reset battery stats [2/2])
             case MENU_ADVANCED_BATTERY:
                 new SubSettingLauncher(getContext())
                         .setDestination(PowerUsageAdvanced.class.getName())
