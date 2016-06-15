@@ -227,6 +227,11 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
     }
 
     @Override
+    protected boolean usesExtendedActionsList() {
+        return true;
+    }
+
+    @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.ARROW;
     }
