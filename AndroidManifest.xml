@@ -3296,6 +3296,10 @@
             </intent-filter>
         </activity>
 
+        <!-- Battery and notification lights -->
+        <activity android:name="com.android.settins.arrow.batterylight.NotificationLightSettings" />
+        <activity android:name="com.android.settins.arrow.batterylight.BatteryLightSettings" />
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
