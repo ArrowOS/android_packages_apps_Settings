@@ -553,4 +553,8 @@
 
     <!-- Daydream category -->
     <string name="daydream_settings_category">Daydream settings</string>
+
+    <!-- Notification light settings -->
+    <string name="lights_category_title">Light settings</string>
+    <string name="notification_light_title">Notification light</string>
 </resources>
