@@ -68,6 +68,19 @@
         android:fragment="com.android.settings.notification.ZenModeSettings"
         settings:allowDividerAbove="false" />
 
+    <!-- Lights settings -->
+    <PreferenceCategory
+        android:key="lights_category"
+        android:title="@string/lights_category_title"
+        settings:allowDividerAbove="false"
+        android:order="17">
+        <!-- Pulse notification light -->
+        <SwitchPreference
+            android:key="notification_pulse"
+            android:title="@string/notification_light_title"
+            android:order="18"/>
+    </PreferenceCategory>
+
     <!-- Empty category to draw divider -->
     <PreferenceCategory
         android:key="all_notifications_divider"
