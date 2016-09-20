@@ -194,6 +194,12 @@
         android:title="@string/double_tap_sleep_lockscreen"
         android:defaultValue="true" />
 
+    <com.android.settings.arrow.preferences.SecureSettingSwitchPreference
+        android:key="lockscreen_visualizer_enabled"
+        android:title="@string/lockscreen_visualizer_title"
+        android:summary="@string/lockscreen_visualizer_summary"
+        android:defaultValue="false" />
+
     <Preference
         android:key="weather"
         android:fragment="com.android.settings.arrow.Weather"
