@@ -475,4 +475,8 @@
     <string name="app_ops_settings_title">App Ops</string>
 
     <string name="enlighten">This options are only meant to work with old card stack recents(O recents)</string>
+
+    <!-- Lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">Music visualizer</string>
+    <string name="lockscreen_visualizer_summary">Show visualizer on lockscreen when music is playing</string>
 </resources>
