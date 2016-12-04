@@ -280,4 +280,12 @@
    <!-- Battery temp -->
     <string name="battery_temp_title">Battery temperature</string>
     <string name="battery_temp_summary">Tap to switch scale</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_mobile">Mobile data</string>
+    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 </resources>
