@@ -165,4 +165,8 @@
 
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
+
+    <!-- Onehand UI mode -->
+    <string name="one_hand_mode_title">Enable using one-hand mode</string>
+    <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
 </resources>
