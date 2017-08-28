@@ -179,5 +179,5 @@ public class Settings extends SettingsActivity {
 
     // Custom dashboard settings
     public static class GestureSettings extends SettingsActivity { /* empty */ }
-
+    public static class GlobalActionsSettingsActivity extends SettingsActivity { /* empty */ }
 }
