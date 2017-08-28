@@ -20,6 +20,25 @@
                   android:title="@string/development_settings_title">
 
     <PreferenceCategory
+        android:key="advanced_powermenu_category"
+        android:title="@string/advanced_powermenu_category_title"
+        android:order="50">
+
+        <Preference
+            android:key="global_actions"
+            android:title="@string/global_actions_title"
+            android:summary="@string/global_actions_summary"
+            android:fragment="com.android.settings.arrow.GlobalActionsSettings" />
+
+        <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+            android:key="advanced_reboot"
+            android:title="@string/global_actions_advanced_reboot_title"
+            android:summary="@string/global_actions_advanced_reboot_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="debug_misc_category"
         android:order="100">
 
