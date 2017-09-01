@@ -336,4 +336,8 @@
 
     <!--Double Tap to Sleep Lockscreen-->
     <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string>
+
+    <!--Quick pulldown-->
+    <string name="status_bar_quick_qs_pulldown">Quick Pulldown</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Pulldown statusbar from right side to show QS panel</string>
 </resources>
