@@ -97,4 +97,15 @@
             android:defaultValue="true" />
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="lockscreen_gestures_category"
+        android:title="@string/lockscreen_gestures_category_title">
+
+        <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_lockscreen"
+            android:title="@string/double_tap_sleep_lockscreen_title"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
