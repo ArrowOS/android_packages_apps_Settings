@@ -179,6 +179,11 @@
                 android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
     </Preference>
 
+    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+	android:key="double_tap_sleep_lockscreen"
+        android:title="@string/double_tap_sleep_lockscreen"
+        android:defaultValue="true" />
+
     <Preference
         android:key="weather"
         android:fragment="com.android.settings.arrow.Weather"
