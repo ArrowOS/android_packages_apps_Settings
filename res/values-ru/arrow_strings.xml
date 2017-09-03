@@ -52,4 +52,9 @@
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Управление воспроизведением</string>
     <string name="volume_button_music_control_summary">Когда экран выключен, долгое нажатие на кнопки громкости переключает композиции</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Фонарик по кнопке питания</string>
+    <string name="torch_power_button_gesture_none">Отключено</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания (более медленный отклик на одно нажатие), отключает двойное нажатие кнопки питания для камеры.</string>
+    <string name="torch_power_button_gesture_lp">Длительное нажатие кнопки питания</string>
 </resources>
