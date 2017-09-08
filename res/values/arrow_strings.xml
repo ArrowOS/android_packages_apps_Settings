@@ -196,4 +196,7 @@
     <string name="clock_date_format">Date format</string>
     <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Enter string</string>
+
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Navigation bar configs</string>
 </resources>
