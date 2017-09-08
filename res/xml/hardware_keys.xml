@@ -34,6 +34,14 @@
             android:key="navigation_bar_show"
             android:title="@string/navigation_keys"
             android:defaultValue="false" />
+
+    <Preference
+            android:title="@string/navbar_tuner_title" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.NavBarActivity" />
+    </Preference>
+
     </PreferenceCategory>
 
     <PreferenceCategory android:key="hardware_keys"
