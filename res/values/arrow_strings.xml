@@ -165,4 +165,7 @@
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume wake</string>
     <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Navigation bar configs</string>
 </resources>
