@@ -55,6 +55,14 @@
         settings:keywords="@string/keywords_system_navigation" />
 
     <Preference
+            android:title="@string/navbar_tuner_title" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.NavBarActivity" />
+    </Preference>
+
+    <Preference
         android:key="gesture_one_handed"
         android:title="@string/one_handed_title"
         android:fragment="com.android.settings.gestures.OneHandedSettings"

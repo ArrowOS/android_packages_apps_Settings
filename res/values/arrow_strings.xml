@@ -139,4 +139,7 @@
     <!-- Keyguard force small clock -->
     <string name="lockscreen_small_clock_title">Force small clock</string>
     <string name="lockscreen_small_clock_summary">Don\'t switch to the big clock when there are no notifications</string>
+
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Invert navigation bar layout</string>
 </resources>
