@@ -146,6 +146,7 @@
     <string name="hardware_keys_wake_title">Wake device</string>
 
     <!-- Settings categories -->
+    <string name="statusbar_category_title">StatusBar</string>
     <string name="buttons_category_title">Buttons</string>
     <string name="misc_category_title">Misc</string>
 
@@ -225,4 +226,10 @@
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Brightness slider icon</string>
     <string name="brightness_icon_summary">Show a brightness icon to the left of the brightness slider to toggle auto-brightness</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbar items</string>
+
+     <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
 </resources>
