@@ -136,6 +136,8 @@ import com.android.settings.arrow.NavigationBar;
 import com.android.settings.arrow.PulseSettings;
 import com.android.settings.arrow.SmartbarSettings;
 
+import com.android.settings.custom.ButtonSettings;
+
 public class SettingsGateway {
 
     /**
@@ -261,6 +263,7 @@ public class SettingsGateway {
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
             PulseSettings.class.getName()
+            ButtonSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -303,5 +306,6 @@ public class SettingsGateway {
             Settings.FlingSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
             Settings.PulseSettingsActivity.class.getName()
+            Settings.ButtonSettingsActivity.class.getName(),
     };
 }
