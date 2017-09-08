@@ -146,6 +146,7 @@
     <string name="hardware_keys_wake_title">Wake device</string>
 
     <!-- Settings categories -->
+    <string name="statusbar_category_title">StatusBar</string>
     <string name="buttons_category_title">Buttons</string>
     <string name="misc_category_title">Misc</string>
 
@@ -221,4 +222,10 @@
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbar items</string>
+
+     <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
 </resources>

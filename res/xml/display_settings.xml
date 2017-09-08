@@ -135,6 +135,18 @@
         android:summary="@string/proximity_wake_summary" />
 
     <PreferenceCategory
+        android:title="@string/statusbar_category_title">
+
+	<Preference
+            android:key="systemui_tuner_statusbar"
+            android:title="@string/statusbar_items_title" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/buttons_category_title">
         <PreferenceScreen
             android:key="hardware_keys"
@@ -149,6 +161,13 @@
             android:key="recents"
             android:fragment="com.android.settings.arrow.StockRecentCategory"
             android:title="@string/aosp_recents_title" />
+
+    <Preference
+            android:title="@string/lockscreen_tuner_title" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
+    </Preference>
     </PreferenceCategory >
 
     <PreferenceCategory>
