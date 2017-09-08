@@ -224,6 +224,9 @@
     <string name="hardware_keys_disable_title">Disable hardware buttons</string>
     <string name="hardware_keys_wake_title">Wake device</string>
 
+    <!-- Settings categories -->
+    <string name="statusbar_category_title">StatusBar</string>
+
     <!-- Button brightness -->
     <string name="button_backlight_options_category">Backlight options</string>
     <string name="button_backlight_enable_title">Allow button backlight</string>
@@ -253,4 +256,7 @@
     <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
     <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbar items</string>
 </resources>
