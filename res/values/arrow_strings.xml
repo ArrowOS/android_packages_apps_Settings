@@ -111,4 +111,7 @@
 
     <!-- Other gestures -->
     <string name="other_gestures">Other gestures</string>
+
+    <!-- Buttons -->
+    <string name="button_settings">Buttons</string>
 </resources>
