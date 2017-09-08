@@ -20,3 +20,10 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/system_navigation_title"
     settings:keywords="@string/keywords_system_navigation"/>
+
+    <Preference
+            android:title="@string/navbar_tuner_title" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.NavBarActivity" />
+    </Preference>
