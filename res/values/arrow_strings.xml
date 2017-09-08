@@ -62,4 +62,10 @@
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Playback control</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbar items</string>
+
+    <!-- Display customization category -->
+    <string name="customization_category_title">Customization</string>
 </resources>
