@@ -27,6 +27,11 @@
         <intent android:action="com.android.intent.action.SHOW_BRIGHTNESS_DIALOG" />
     </Preference>
 
+    <Preference
+        android:key="qs_rows_columns"
+        android:fragment="com.android.settings.arrow.QsRowsColumns"
+        android:title="@string/qs_rows_columns_title"/>
+
     <com.android.settings.display.NightDisplayPreference
         android:key="night_display"
         android:title="@string/night_display_title"
