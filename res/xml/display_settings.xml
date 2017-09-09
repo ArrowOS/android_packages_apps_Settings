@@ -163,6 +163,11 @@
             android:title="@string/aosp_recents_title" />
 
     <Preference
+        android:key="qs_rows_columns"
+        android:fragment="com.android.settings.arrow.QsRowsColumns"
+        android:title="@string/qs_rows_columns_title"/>
+
+    <Preference
             android:title="@string/lockscreen_tuner_title" >
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.systemui"
