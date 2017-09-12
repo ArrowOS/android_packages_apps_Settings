@@ -51,6 +51,14 @@
         settings:userRestriction="no_config_mobile_networks"
         settings:useAdminDisabledSummary="true" />
 
+    <Preference
+        android:key="traffic"
+        android:fragment="com.android.settings.arrow.Traffic"
+        android:order="-10"
+        android:icon="@drawable/ic_traffic"
+        android:title="@string/traffic_title"
+        android:summary="@string/traffic_summary" />
+
     <com.android.settingslib.RestrictedSwitchPreference
         android:key="airplane_mode"
         android:title="@string/airplane_mode"
