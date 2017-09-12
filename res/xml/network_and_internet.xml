@@ -48,9 +48,15 @@
             android:targetClass="com.android.phone.MobileNetworkSettings" />
     </com.android.settingslib.RestrictedPreference>
 
+    <Preference
+        android:key="traffic"
+        android:fragment="com.android.settings.arrow.Traffic"
+        android:icon="@drawable/ic_traffic"
+        android:title="@string/traffic_title" />
+
     <com.android.settingslib.RestrictedPreference
         android:fragment="com.android.settings.TetherSettings"
-        android:key="tether_settings"
+    android:key="tether_settings"
         android:title="@string/tether_settings_title_all"
         android:icon="@drawable/ic_wifi_tethering"
         android:order="-5"
