@@ -44,6 +44,12 @@
         settings:useAdminDisabledSummary="true">
     </com.android.settingslib.RestrictedPreference>
 
+    <Preference
+        android:key="traffic"
+        android:fragment="com.android.settings.arrow.Traffic"
+        android:icon="@drawable/ic_traffic"
+        android:title="@string/traffic_title" />
+
     <com.android.settingslib.RestrictedPreference
         android:fragment="com.android.settings.TetherSettings"
         android:key="tether_settings"
