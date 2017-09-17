@@ -58,4 +58,11 @@
 
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">Double-tap anywhere on the screen to wake or sleep device</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="traffic_title">Traffic indicators</string>
+    <string name="network_traffic_state_title">Network traffic</string>
+    <string name="network_traffic_state_summary">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+
 </resources>
