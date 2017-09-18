@@ -9162,4 +9162,7 @@
 
     <!-- QuickSettings Panel Transparency -->
     <string name="qs_panel_alpha_title">QS panel opacity</string>
+
+    <!-- Statusbar Iten -->
+    <string name="statusbar_items_category">Statusbar items</string>
 </resources>

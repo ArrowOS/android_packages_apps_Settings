@@ -32,6 +32,15 @@
         android:fragment="com.android.settings.arrow.QsRowsColumns"
         android:title="@string/qs_rows_columns_title"/>
 
+	<Preference
+            android:key="systemui_tuner_statusbar"
+            android:title="@string/statusbar_items_category"
+            android:icon="@drawable/ic_systemui_tuner_statusbaritems" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+    </Preference>
+
     <com.android.settings.display.NightDisplayPreference
         android:key="night_display"
         android:title="@string/night_display_title"
