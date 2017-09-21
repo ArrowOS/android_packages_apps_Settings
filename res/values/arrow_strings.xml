@@ -611,4 +611,7 @@
     <string name="night_auto_value_min">Minimum brightness</string>
     <string name="night_bright_low">Low brightness</string>
     <string name="night_bright_midlow">Mid low brightness</string>
+
+    <!-- Vibrate on plug -->
+    <string name="vibration_on_charge_state_changed_title">Vibrate on USB plug</string>
 </resources>
