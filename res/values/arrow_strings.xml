@@ -471,4 +471,6 @@
     <string name="app_ops_reset_counters">Reset allow/deny counters</string>
     <string name="app_ops_reset_confirm_title">Confirm counters reset</string>
     <string name="app_ops_reset_confirm_mesg">Are you sure you wish to reset counters?</string>
+
+    <string name="app_ops_settings_title">App Ops</string>
 </resources>
