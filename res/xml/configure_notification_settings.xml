@@ -25,6 +25,12 @@
         android:title="@string/lock_screen_notifications_title"
         android:summary="@string/summary_placeholder"/>
 
+    <!-- Heads up -->
+    <Preference
+        android:key="heads_up_notifications"
+        android:title="@string/heads_up_notifications"
+        android:fragment="com.android.settings.arrow.HeadsUpSettings" />
+
     <!-- Notification badging -->
     <SwitchPreference
         android:key="notification_badging"
