@@ -25,12 +25,20 @@
         settings:controller="com.android.settings.widget.VideoPreferenceController"
         android:persistent="false" />
 
+    <!-- Heads up -->
+    <Preference
+        android:key="heads_up_notifications"
+        android:title="@string/heads_up_notifications"
+        android:summary="@string/heads_up_notifications_summary"
+        android:order="1"
+        settings:allowDividerAbove="true"
+        settings:allowDividerBelow="false"
+        android:fragment="com.android.settings.arrow.HeadsUpSettings" />
+
     <Preference
         android:key="notification_history"
         android:title="@string/notification_history"
         android:summary="@string/notification_history_summary"
-        settings:allowDividerAbove="true"
-        settings:allowDividerBelow="false"
         android:order="2">
         <intent
             android:action="android.intent.action.MAIN"
