@@ -42,6 +42,17 @@
         android:key="all_app_info_divider"
         android:order="-190" />
 
+    <!-- AppOps -->
+        <Preference
+            android:key="app_ops_settings"
+	    android:order="5"
+            android:title="@string/app_ops_settings_title"
+            android:layout="@layout/preference_benzoextra_appops">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.settings"
+                android:targetClass="com.android.settings.applications.appops.AppOpsSummary" />
+        </Preference>
+
     <!-- Notifications (appears before manage_perms), default apps (appears after) -->
     <PreferenceCategory
         android:key="dashboard_tile_placeholder"
