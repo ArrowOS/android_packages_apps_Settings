@@ -647,4 +647,10 @@
     <string name="systemui_theme_style_light">Light</string>
     <string name="systemui_theme_style_dark">Dark</string>
     <string name="systemui_theme_style_black">Black</string>
+
+    <!-- ArrowOS Updater -->
+    <string name="update_settings_title">ArrowOS Updater</string>
+    <string name="update_settings_summary">Check for the latest version of the rom</string>
+    <string name="update_package" translatable="false">org.lineageos.updater</string>
+    <string name="update_activity" translatable="false">org.lineageos.updater.UpdatesActivity</string>
 </resources>
