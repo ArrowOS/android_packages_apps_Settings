@@ -78,6 +78,10 @@
             settings:allowDividerAbove="true" />
 
     </PreferenceCategory>
+	<Preference
+            android:key="ringtone_headset_settings"
+            android:title="@string/ringtone_headset_settings_title"
+            android:fragment="com.android.settings.arrow.HeadSet"/>
 
     <!-- Default notification ringtone -->
     <com.android.settings.DefaultRingtonePreference
