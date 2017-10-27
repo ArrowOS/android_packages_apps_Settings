@@ -83,4 +83,13 @@
     <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
     <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+
+    <!-- Power Menu -->
+    <string name="advanced_power_menu">Power menu options</string>
+    <string name="arrow_reboot_menu">Advanced reboot menu</string>
+    <string name="powermenu_reboot_title">Reboot</string>
+    <string name="powermenu_airplane_title">Airplane mode</string>
+    <string name="powermenu_settings_title">Settings</string>
+    <string name="powermenu_lockdown_title">Lock now</string>
+    <string name="powermenu_soundpanel_title">Sound panel</string>
 </resources>
