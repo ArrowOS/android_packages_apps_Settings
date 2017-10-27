@@ -46,6 +46,16 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:title="@string/advanced_power_menu">
+
+        <Preference
+            android:key="powermenu"
+            android:title="@string/arrow_reboot_menu"
+            android:fragment="com.android.settings.arrow.PowerMenu" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="power_management"
         android:title="@string/battery_power_management">
 
