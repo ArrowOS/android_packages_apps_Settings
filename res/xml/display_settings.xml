@@ -168,6 +168,11 @@
             android:summary="@string/weather_config_summary"
             android:title="@string/weather_title" />
 
+         <Preference
+            android:key="recents"
+            android:fragment="com.android.settings.arrow.StockRecentCategory"
+            android:title="@string/aosp_recents_title" />
+
          <!-- Pocket Mode -->
          <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
             android:key="pocket_judge"
