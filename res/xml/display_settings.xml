@@ -138,6 +138,13 @@
             android:fragment="com.android.settings.arrow.HardwareKeys" />
     </PreferenceCategory >
 
+    <PreferenceCategory
+        android:title="@string/misc_category_title">
+         <Preference
+            android:key="recents"
+            android:fragment="com.android.settings.arrow.StockRecentCategory"
+            android:title="@string/aosp_recents_title" />
+    </PreferenceCategory >
 
     <PreferenceCategory>
     <Preference
