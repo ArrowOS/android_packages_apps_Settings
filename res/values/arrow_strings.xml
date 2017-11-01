@@ -221,4 +221,8 @@
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Brightness slider icon</string>
+    <string name="brightness_icon_summary">Show a brightness icon to the left of the brightness slider to toggle auto-brightness</string>
 </resources>
