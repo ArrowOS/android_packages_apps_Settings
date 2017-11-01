@@ -506,4 +506,8 @@
     <string name="heads_up_blacklist_choose_app">Select app</string>
     <string name="heads_up_blacklist_dialog_delete_title">Delete</string>
     <string name="heads_up_blacklist_dialog_delete_message">Remove selected item?</string>
+
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Brightness slider icon</string>
+    <string name="brightness_icon_summary">Show a brightness icon to the left of the brightness slider to toggle auto-brightness</string>
 </resources>
