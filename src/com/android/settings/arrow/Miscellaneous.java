@@ -17,6 +17,7 @@
 package com.android.settings.arrow;
 
 import android.content.ContentResolver;
+import android.content.Context;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.support.v7.preference.PreferenceCategory;
@@ -33,11 +34,16 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 
 import com.android.internal.logging.nano.MetricsProto;
+import android.hardware.fingerprint.FingerprintManager;
 
 public class Miscellaneous extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
 
+    private static final String PREF_FINGERPRINT_VIBE = "fingerprint_success_vib";
     private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
+
+    private FingerprintManager mFingerprintManager;
     private ListPreference mTorchPowerButton;
+    private SwitchPreference mFingerprintSuccessVib;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -46,7 +52,7 @@ public class Miscellaneous extends SettingsPreferenceFragment implements Prefere
 
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
-    
+
         if (!DUActionUtils.deviceSupportsFlashLight(getContext())) {
             Preference toRemove = prefScreen.findPreference(TORCH_POWER_BUTTON_GESTURE);
             if (toRemove != null) {
@@ -60,6 +66,14 @@ public class Miscellaneous extends SettingsPreferenceFragment implements Prefere
             mTorchPowerButton.setSummary(mTorchPowerButton.getEntry());
             mTorchPowerButton.setOnPreferenceChangeListener(this);
         }
+
+        // Remove the fingerprint success vibration toggle for device that doesnt support it
+        mFingerprintManager = (FingerprintManager) this.getSystemService( Context.FINGERPRINT_SERVICE);
+        mFingerprintSuccessVib = (SwitchPreference) findPreference(PREF_FINGERPRINT_VIBE);
+        if (mFingerprintManager == null) {
+            getPreferenceScreen().removePreference(mFingerprintSuccessVib);
+        }
+
     }
 
     @Override
