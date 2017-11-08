@@ -493,4 +493,9 @@
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
 
     <string name="link_volume_option_title">Link ring and notification volume</string>
+
+    <!-- Heads up -->
+    <string name="heads_up_title">Heads up</string>
+    <string name="heads_up_summary_enabled">Pop-up notifications are enabled</string>
+    <string name="heads_up_summary_disabled">Pop-up notifications are disabled</string>
 </resources>
