@@ -23,4 +23,7 @@
     <!-- Whether to show min/max refresh rate in display settings -->
     <bool name="config_show_refresh_rate_controls">false</bool>
 
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage" translatable="false"></string>
+
 </resources>
