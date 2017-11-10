@@ -21,6 +21,16 @@
     settings:keywords="@string/keywords_display">
 
         <PreferenceScreen
+            android:key="BatteryLightSettings"
+            android:title="@string/batterylight_title"
+            android:fragment="com.android.settings.arrow.batterylight.BatteryLightSettings" />
+
+        <PreferenceScreen
+            android:key="NotificationLightSettings"
+            android:title="@string/notification_light_title"
+            android:fragment="com.android.settings.arrow.batterylight.NotificationLightSettings" />
+
+        <PreferenceScreen
             android:key="navigation_keys"
             android:title="@string/navigation_keys"
             android:fragment="com.android.settings.arrow.NavigationBar" />

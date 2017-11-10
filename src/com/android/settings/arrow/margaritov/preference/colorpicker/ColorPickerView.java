@@ -34,6 +34,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
+import com.android.settings.arrow.margaritov.preference.colorpicker.AlphaPatternDrawable;
 /**
  * Displays a color picker to the user and allow them
  * to select a color. A slider for the alpha channel is
@@ -911,13 +912,16 @@ public class ColorPickerView extends View {
             mValShader = null;
             mSatShader = null;
             mHueShader = null;
-            mAlphaShader = null;;
+            mAlphaShader = null;
 
             requestLayout();
         }
 
     }
 
+    public boolean isAlphaSliderVisible() {
+        return mShowAlphaPanel;
+    }
     public void setSliderTrackerColor(int color){
         mSliderTrackerColor = color;
 
