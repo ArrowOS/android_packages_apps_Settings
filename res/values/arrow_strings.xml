@@ -91,6 +91,12 @@
     <string name="lockscreen_vibrate_enabled_title">Vibrate</string>
     <string name="lockscreen_vibrate_enabled_head">Vibrate when unlocking</string>
 
+    <!-- Bottom navigation -->
+    <string name="bottom_nav_system_title">System</string>
+    <string name="bottom_nav_lockscreen_title">Lockscreen</string>
+    <string name="bottom_nav_statusbar_title">Statusbar</string>
+    <string name="bottom_nav_navigation_title">Navigation</string>
+    <string name="bottom_nav_multitasking_title">Multitasking</string>
     <string name="navigation_keys">Navigation Keys</string>
     <string name="hardware_keys">Hardware buttons</string>
 </resources>
