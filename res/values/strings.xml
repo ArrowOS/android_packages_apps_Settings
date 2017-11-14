@@ -9177,4 +9177,8 @@
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Playback control</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+
+    <!-- Volume key rotation -->
+    <string name="swap_volume_buttons_title">Reorient</string>
+    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
 </resources>
