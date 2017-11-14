@@ -253,5 +253,10 @@
             android:defaultValue="false"
             android:disableDependentsState="true" />
 
+        <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+            android:key="swap_volume_buttons"
+            android:title="@string/swap_volume_buttons_title"
+            android:summary="@string/swap_volume_buttons_summary"
+            android:defaultValue="false" />
     </PreferenceCategory>
 </PreferenceScreen>
