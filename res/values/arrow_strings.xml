@@ -58,6 +58,9 @@
      <!-- Hide Lockscreen clock, date, & alarm -->
     <string name="lockscreen_items_other">Other</string>
 
+
+    <string name="reset">Reset</string>
+
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_category">Brightness</string>
     <string name="night_brightness_value_title">Lower brightness if Night Light</string>
