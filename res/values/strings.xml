@@ -9357,7 +9357,6 @@
     <string name="hardware_keys">Hardware Keys</string>
     <string name="hardware_keys_summary">Customise physical buttons</string>
 
-
     <!-- Hardware button navigation -->
     <string name="hardware_keys_volume_keys_title">Volume rocker</string>
     <string name="hardware_keys_home_key_title">Home button</string>
@@ -9400,4 +9399,7 @@
     <!-- Volume key rotation -->
     <string name="swap_volume_buttons_title">Reorient</string>
     <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
+ 
+    <string name="smartbar_double_tap_sleep_title">Double tap to sleep</string>
+    <string name="smartbar_double_tap_sleep_summary">Double tap on empty navbar areas to sleep</string>
 </resources>
