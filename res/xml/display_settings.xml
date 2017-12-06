@@ -139,6 +139,15 @@
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
 
+    <PreferenceCategory
+        android:title="@string/buttons_category_title">
+        <PreferenceScreen
+            android:key="hardware_keys"
+            android:title="@string/hardware_keys"
+            android:summary="@string/hardware_keys_summary"
+            android:fragment="com.android.settings.arrow.HardwareKeys" />
+    </PreferenceCategory >
+
     <!--<ListPreference
         android:key="theme"
         android:title="@string/device_theme"
