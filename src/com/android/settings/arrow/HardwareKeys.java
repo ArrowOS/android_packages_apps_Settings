@@ -38,7 +38,10 @@ import com.android.internal.util.hwkeys.ActionUtils;
 import com.android.settings.arrow.preferences.ActionFragment;
 
 public class HardwareKeys extends ActionFragment implements Preference.OnPreferenceChangeListener {
+    private static final String HWKEY_DISABLE = "hardware_keys_disable";
+
     // category keys
+    private static final String CATEGORY_HWKEY = "hardware_keys";
     private static final String CATEGORY_BACK = "back_key";
     private static final String CATEGORY_HOME = "home_key";
     private static final String CATEGORY_MENU = "menu_key";
@@ -55,12 +58,32 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
     public static final int KEY_MASK_APP_SWITCH = 0x10;
     public static final int KEY_MASK_CAMERA = 0x20;
     public static final int KEY_MASK_VOLUME = 0x40;
-     @Override
+
+    private SwitchPreference mHwKeyDisable;
+
+    @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.hardware_keys);
-         final PreferenceScreen prefScreen = getPreferenceScreen();
-         // bits for hardware keys present on device
+
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
+        final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen
+                .findPreference(CATEGORY_HWKEY);
+        int keysDisabled = 0;
+        if (!needsNavbar) {
+            mHwKeyDisable = (SwitchPreference) findPreference(HWKEY_DISABLE);
+            keysDisabled = Settings.Secure.getIntForUser(getContentResolver(),
+                    Settings.Secure.HARDWARE_KEYS_DISABLE, 0,
+                    UserHandle.USER_CURRENT);
+            mHwKeyDisable.setChecked(keysDisabled != 0);
+            mHwKeyDisable.setOnPreferenceChangeListener(this);
+        } else {
+            prefScreen.removePreference(hwkeyCat);
+        }
+
+        // bits for hardware keys present on device
         final int deviceKeys = getResources().getInteger(
                 com.android.internal.R.integer.config_deviceHardwareKeys);
          // read bits for present hardware keys
@@ -103,9 +126,19 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
         }
          // let super know we can load ActionPreferences
         onPreferenceScreenLoaded(ActionConstants.getDefaults(ActionConstants.HWKEYS));
+
+        // load preferences first
+        setActionPreferencesEnabled(keysDisabled == 0);
     }
      @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mHwKeyDisable) {
+            boolean value = (Boolean) newValue;
+            Settings.Secure.putInt(getContentResolver(), Settings.Secure.HARDWARE_KEYS_DISABLE,
+                    value ? 1 : 0);
+            setActionPreferencesEnabled(!value);
+            return true;
+        }
         return false;
     }
      @Override
