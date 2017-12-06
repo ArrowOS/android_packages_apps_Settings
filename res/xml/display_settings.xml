@@ -20,6 +20,16 @@
     android:title="@string/display_settings"
     settings:keywords="@string/keywords_display">
 
+        <PreferenceScreen
+            android:key="navigation_keys"
+            android:title="@string/navigation_keys"
+            android:fragment="com.android.settings.arrow.NavigationBar" />
+
+        <PreferenceScreen
+            android:key="hardware_keys"
+            android:title="@string/hardware_keys"
+            android:fragment="com.android.settings.arrow.HardwareKeys" />
+
     <Preference
         android:key="brightness"
         android:title="@string/brightness"

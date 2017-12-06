@@ -90,4 +90,7 @@
     <!-- Lock screen vibrate settings -->
     <string name="lockscreen_vibrate_enabled_title">Vibrate</string>
     <string name="lockscreen_vibrate_enabled_head">Vibrate when unlocking</string>
+
+    <string name="navigation_keys">Navigation Keys</string>
+    <string name="hardware_keys">Hardware buttons</string>
 </resources>
