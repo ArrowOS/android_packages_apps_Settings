@@ -37,4 +37,15 @@
         android:key="powermenu_airplane"
         android:title="@string/powermenu_airplane_title"
         android:defaultValue="false" />
+
+    <PreferenceCategory
+        android:title="@string/powermenu_category_other">
+
+        <com.arrow.preferences.SystemSettingSwitchPreference
+            android:key="powermenu_lockscreen"
+            android:title="@string/powermenu_lockscreen_title"
+            android:summary="@string/powermenu_lockscreen_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
 </PreferenceScreen>
