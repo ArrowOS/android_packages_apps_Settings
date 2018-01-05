@@ -531,4 +531,12 @@
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_flash_title">Torch gestures</string>
+    <string name="torch_power_button_flash_summary">Power button flash gestures</string>
+    <string name="torch_power_button_gesture_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
 </resources>

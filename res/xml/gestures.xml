@@ -22,6 +22,12 @@
     android:title="@string/gesture_preference_title">
 
     <Preference
+        android:key="power_button_flash"
+        android:fragment="com.android.settings.arrow.Miscellaneous"
+        android:title="@string/torch_power_button_flash_title"
+        android:summary="@string/torch_power_button_flash_summary" />
+
+    <Preference
         android:key="gesture_assist_input_summary"
         android:title="@string/assist_gesture_title"
         android:fragment="com.android.settings.gestures.AssistGestureSettings"
