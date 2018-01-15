@@ -53,4 +53,7 @@
 
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Color bucket</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>
