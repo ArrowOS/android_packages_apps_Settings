@@ -602,4 +602,7 @@
     <string name="night_auto_value_min">Minimum brightness</string>
     <string name="night_bright_low">Low brightness</string>
     <string name="night_bright_midlow">Mid low brightness</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>
