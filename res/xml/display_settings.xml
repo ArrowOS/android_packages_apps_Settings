@@ -162,6 +162,13 @@
             android:fragment="com.android.settings.arrow.Weather"
             android:summary="@string/weather_config_summary"
             android:title="@string/weather_title" />
+
+         <!-- Pocket Mode -->
+         <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+            android:key="pocket_judge"
+            android:title="@string/pocket_judge_title"
+            android:summary="@string/pocket_judge_summary"
+            android:defaultValue="false" />
     </PreferenceCategory>
 
     <!-- Hide night mode for now
