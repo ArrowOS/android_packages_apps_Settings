@@ -491,4 +491,8 @@
     <!-- Quick Setting tile titles -->
     <string name="qs_tile_title_visibility_title">Tile title</string> 
     <string name="qs_tile_title_visibility_summary">Display title below each tile</string> 
+
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
 </resources>

@@ -139,6 +139,13 @@
         android:title="@string/proximity_wake_title"
         android:summary="@string/proximity_wake_summary" />
 
+         <!-- Pocket Mode -->
+         <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+            android:key="pocket_judge"
+            android:title="@string/pocket_judge_title"
+            android:summary="@string/pocket_judge_summary"
+            android:defaultValue="false" />
+
     <PreferenceCategory
         android:title="@string/statusbar_category_title">
 	<Preference
