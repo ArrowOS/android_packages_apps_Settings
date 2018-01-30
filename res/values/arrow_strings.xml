@@ -582,4 +582,9 @@
     <string name="show_network_traffic_all">Uplink and Downlink</string>
     <string name="network_traffic_state_title">Show net activity in statusbar</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+
+    <!-- Face auto unlock -->
+    <string name="face_auto_unlock_title">Face auto unlock</string>
+    <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
+
 </resources>
