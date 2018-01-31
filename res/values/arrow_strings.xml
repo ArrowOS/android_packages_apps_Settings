@@ -90,9 +90,16 @@
     <string name="powermenu_reboot_title">Reboot</string>
     <string name="powermenu_airplane_title">Airplane mode</string>
     <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
-    <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for options to reboot to recovery, bootloader, restart systemui or trigger a hot reboot</string>
+    <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
     <string name="powermenu_screenshot_title">Screenshot</string>
-    <string name="powermenu_category_other">Other</string>
-    <string name="powermenu_lockscreen_title">Lockscreen visibility</string>
+    <string name="powermenu_category_visibility">Lockscreen options</string>
+    <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
     <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
+    <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
+    <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
+    <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
+    <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
+
+     <!-- Hide Lockscreen clock, date, & alarm -->
+    <string name="lockscreen_items_other">Other</string>
 </resources>
