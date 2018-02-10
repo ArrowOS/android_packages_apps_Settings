@@ -145,6 +145,18 @@
         android:entries="@array/night_mode_entries"
         android:entryValues="@array/night_mode_values" /> -->
 
+    <ListPreference
+        android:key="theme"
+        android:title="@string/device_theme"
+        android:summary="@string/summary_placeholder" />
+
+    <ListPreference
+        android:key="systemui_theme_style"
+        android:title="@string/systemui_theme_style_title"
+        android:entries="@array/systemui_theme_style_entries"
+        android:entryValues="@array/systemui_theme_style_values"
+        android:persistent="false" />
+
     <SwitchPreference
         android:key="camera_gesture"
         android:title="@string/camera_gesture_title"
@@ -158,11 +170,6 @@
         android:key="tap_to_wake"
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
-
-    <ListPreference
-        android:key="theme"
-        android:title="@string/device_theme"
-        android:summary="@string/summary_placeholder" />
 
     <Preference
         android:key="vr_display_pref"
