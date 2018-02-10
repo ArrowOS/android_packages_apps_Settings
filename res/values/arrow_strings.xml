@@ -149,6 +149,7 @@
     <string name="statusbar_category_title">StatusBar</string>
     <string name="buttons_category_title">Buttons</string>
     <string name="misc_category_title">Misc</string>
+    <string name="theme_category_title">System theme</string>
 
     <!-- Button brightness -->
     <string name="button_backlight_options_category">Backlight options</string>
@@ -258,4 +259,10 @@
     <string name="battery_light_medium_color">Medium battery</string>
     <string name="battery_light_full_color">Almost full battery</string>
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
+
+    <!-- SystemUI theme -->
+    <string name="systemui_theme_style_title">SystemUI theme</string>
+    <string name="systemui_theme_style_auto">Automatic (wallpaper based)</string>
+    <string name="systemui_theme_style_light">Light</string>
+    <string name="systemui_theme_style_dark">Dark</string>
 </resources>
