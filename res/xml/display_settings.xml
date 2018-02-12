@@ -147,6 +147,13 @@
             android:summary="@string/status_bar_clock_summary"
             android:fragment="com.android.settings.arrow.ClockDateSettings" />
 
+	<ListPreference
+            android:key="battery_style"
+            android:title="@string/battery_style_title"
+            android:summary="@string/battery_style_summary"
+            android:entries="@array/battery_style_entries"
+            android:entryValues="@array/battery_style_values" />
+
 	<Preference
             android:key="systemui_tuner_statusbar"
             android:title="@string/statusbar_items_title" >
