@@ -221,4 +221,12 @@
             android:key="accent_picker"
             android:title="@string/theme_accent_picker_title" />
     </PreferenceCategory >
+
+	<ListPreference
+            android:key="battery_style"
+            android:title="@string/battery_style_title"
+            android:summary="@string/battery_style_summary"
+            android:entries="@array/battery_style_entries"
+            android:entryValues="@array/battery_style_values" />
+
 </PreferenceScreen>
