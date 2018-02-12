@@ -130,4 +130,11 @@
             android:title="@string/status_bar_clock"
             android:fragment="com.android.settings.arrow.ClockDateSettings" />
 
+	<ListPreference
+            android:key="battery_style"
+            android:title="@string/battery_style_title"
+            android:summary="@string/battery_style_summary"
+            android:entries="@array/battery_style_entries"
+            android:entryValues="@array/battery_style_values" />
+
 </PreferenceScreen>
