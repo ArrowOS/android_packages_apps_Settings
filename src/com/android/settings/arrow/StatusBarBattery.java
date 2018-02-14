@@ -25,8 +25,6 @@ import android.text.TextUtils;
 import android.view.View;
 
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.arrow.preferences.CustomSeekBarPreference;
-import com.android.settings.arrow.preferences.SystemSettingSwitchPreference;
 import com.android.settings.Utils;
 import android.util.Log;
 
@@ -36,13 +34,11 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Collections;
 
-public class BatteryStyles extends SettingsPreferenceFragment implements
+public class StatusBarBattery extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
     private static final String BATTERY_STYLE = "battery_style";
 
-    private CustomSeekBarPreference mThreshold;
-    private SystemSettingSwitchPreference mNetMonitor;
     private ListPreference mBatteryIconStyle;
     private SwitchPreference mBatteryPercentage;
 
@@ -50,7 +46,7 @@ public class BatteryStyles extends SettingsPreferenceFragment implements
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.statusbar);
+        addPreferencesFromResource(R.xml.statusbar_battery);
 
         PreferenceScreen prefSet = getPreferenceScreen();
         final ContentResolver resolver = getActivity().getContentResolver();
@@ -93,5 +89,4 @@ public class BatteryStyles extends SettingsPreferenceFragment implements
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.ARROW;
     }
-
 }

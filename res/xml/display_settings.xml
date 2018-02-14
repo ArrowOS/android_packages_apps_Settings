@@ -222,21 +222,8 @@
             android:title="@string/theme_accent_picker_title" />
     </PreferenceCategory >
 
-    <PreferenceCategory
-        android:key="battery_style_category"
-        android:title="@string/battery_style_category_title" >
-
-	<ListPreference
-            android:key="battery_style"
-            android:title="@string/battery_style_title"
-            android:summary="@string/battery_style_summary"
-            android:entries="@array/battery_style_entries"
-            android:entryValues="@array/battery_style_values" />
-
-        <SwitchPreference
-            android:key="show_battery_percent"
-            android:title="@string/show_battery_percent_title"
-            android:summary="@string/show_battery_percent_summary"
-            android:defaultValue="true" />
-    </PreferenceCategory>
+    <Preference
+            android:key="battery_settings"
+            android:fragment="com.android.settings.arrow.StatusBarBattery"
+            android:title="@string/battery_style_title" />
 </PreferenceScreen>
