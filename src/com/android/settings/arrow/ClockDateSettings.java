@@ -67,6 +67,7 @@ public class ClockDateSettings extends SettingsPreferenceFragment implements
     private ListPreference mClockDateDisplay;
     private ListPreference mClockDateStyle;
     private ListPreference mClockDateFormat;
+    private ListPreference mClockDatePosition;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -135,6 +136,17 @@ public class ClockDateSettings extends SettingsPreferenceFragment implements
         }
 
         parseClockDateFormats();
+
+        mClockDatePosition.setValue(Integer.toString(Settings.System.getInt(getActivity()
+                .getContentResolver(), Settings.System.STATUSBAR_CLOCK_DATE_POSITION,
+                0)));
+        mClockDatePosition.setSummary(mClockDatePosition.getEntry());
+        mClockDatePosition.setOnPreferenceChangeListener(this);
+         int clockDatePosition = Settings.System.getInt(resolver,
+                Settings.System.STATUSBAR_CLOCK_DATE_POSITION, 0);
+        mClockDatePosition.setValue(String.valueOf(clockDatePosition));
+        mClockDatePosition.setSummary(mClockDatePosition.getEntry());
+        mClockDatePosition.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -182,9 +194,11 @@ public class ClockDateSettings extends SettingsPreferenceFragment implements
             if (clockDateDisplay == 0) {
                 mClockDateStyle.setEnabled(false);
                 mClockDateFormat.setEnabled(false);
+                mClockDatePosition.setEnabled(false);
             } else {
                 mClockDateStyle.setEnabled(true);
                 mClockDateFormat.setEnabled(true);
+                mClockDatePosition.setEnabled(true);
             }
             return true;
         } else if (preference == mClockDateStyle) {
