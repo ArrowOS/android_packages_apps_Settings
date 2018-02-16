@@ -22,7 +22,6 @@
     <color name="material_empty_color_light">#FFCED7DB</color>
 
     <color name="bluetooth_dialog_text_color">#8a000000</color>
-
     <color name="crypt_keeper_clock_background">#ff9a9a9a</color>
     <color name="crypt_keeper_clock_foreground">#ff666666</color>
     <color name="crypt_keeper_clock_am_pm">#ff9a9a9a</color>
@@ -116,4 +115,8 @@
     <!-- Suggestion/condition colors -->
     <color name="suggestion_condition_background">#f2f2f2</color>
     <color name="condition_card_background">#f8f8f8</color>
+
+    <!-- Accent picker -->
+    <color name="accent_picker_white_accent">@android:color/white</color>
+    <color name="accent_picker_dark_accent">@android:color/black</color>
 </resources>
