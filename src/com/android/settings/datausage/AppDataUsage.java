@@ -301,8 +301,8 @@ public class AppDataUsage extends DataUsageBase implements Preference.OnPreferen
             } else {
                 mRestrictBackground.setEnabled(true);
                 mRestrictBackground.setChecked(!restrictBackground);
-                mRestrictBackground.setDisabledByAdmin(admin);
             }
+            mRestrictBackground.setDisabledByAdmin(admin);
         }
         if (mRestrictData != null) {
             mRestrictData.setChecked(!restrictData);
