@@ -173,6 +173,12 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
     </Preference>
+
+    <Preference
+        android:key="weather"
+        android:fragment="com.android.settings.arrow.Weather"
+        android:title="@string/weather_title" />
+
     </PreferenceCategory >
 
     <Preference
