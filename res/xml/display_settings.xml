@@ -101,6 +101,21 @@
         android:entries="@array/night_mode_entries"
         android:entryValues="@array/night_mode_values" /> -->
 
+	<Preference
+            android:key="clock_settings"
+            android:title="@string/status_bar_clock"
+            android:fragment="com.android.settings.arrow.ClockDateSettings" />
+
+	<Preference
+            android:key="battery_settings"
+            android:fragment="com.android.settings.arrow.StatusBarBattery"
+            android:title="@string/battery_style_title" />
+
+         <Preference
+            android:key="weather"
+            android:fragment="com.android.settings.arrow.Weather"
+            android:title="@string/weather_title" />
+
     <SwitchPreference
         android:key="camera_gesture"
         android:title="@string/camera_gesture_title"
@@ -135,7 +150,7 @@
             android:fragment="com.android.settings.arrow.StatusBarBattery"
             android:title="@string/battery_style_title" />
 
-	<com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
             android:key="roaming_indicator_icon"
             android:title="@string/roaming_indicator_icon_title"
             android:summary="@string/roaming_indicator_icon_summary"
