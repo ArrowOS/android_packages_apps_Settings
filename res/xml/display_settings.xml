@@ -167,6 +167,11 @@
 
     <PreferenceCategory
         android:title="@string/customization_category_title">
+       <Preference
+             android:key="weather"
+            android:fragment="com.android.settings.arrow.Weather"
+            android:title="@string/weather_title" />
+        </Preference>
 
 	<Preference
             android:key="systemui_tuner_statusbar"
