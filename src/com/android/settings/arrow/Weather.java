@@ -26,7 +26,9 @@ import android.content.pm.ResolveInfo;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.provider.Settings;
+
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
@@ -46,14 +48,15 @@ public class Weather extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
 
     private static final String TAG = "OmniJawsSettings";
-    private static final String CATEGORY_WEATHER = "weather_category";
     private static final String WEATHER_ICON_PACK = "weather_icon_pack";
     private static final String DEFAULT_WEATHER_ICON_PACKAGE = "org.omnirom.omnijaws";
     private static final String WEATHER_SERVICE_PACKAGE = "org.omnirom.omnijaws";
     private static final String CHRONUS_ICON_PACK_INTENT = "com.dvtonder.chronus.ICON_PACK";
+    private static final String PREF_STATUS_BAR_WEATHER = "status_bar_show_weather_temp";
 
     private PreferenceCategory mWeatherCategory;
     private ListPreference mWeatherIconPack;
+    private ListPreference mStatusBarWeather;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -67,10 +70,7 @@ public class Weather extends SettingsPreferenceFragment
         final ContentResolver resolver = getActivity().getContentResolver();
         final PackageManager pm = getActivity().getPackageManager();
 
-        mWeatherCategory = (PreferenceCategory) prefSet.findPreference(CATEGORY_WEATHER);
-        if (mWeatherCategory != null && (!Utils.isPackageInstalled(WEATHER_SERVICE_PACKAGE, pm))) {
-            prefSet.removePreference(mWeatherCategory);
-        } else {
+        if (Utils.isPackageInstalled(WEATHER_SERVICE_PACKAGE, pm)) {
             String settingsJaws = Settings.System.getString(resolver,
                     Settings.System.OMNIJAWS_WEATHER_ICON_PACK);
             if (settingsJaws == null) {
@@ -96,6 +96,19 @@ public class Weather extends SettingsPreferenceFragment
             mWeatherIconPack.setSummary(mWeatherIconPack.getEntry());
             mWeatherIconPack.setOnPreferenceChangeListener(this);
         }
+
+       // Status bar weather
+       mStatusBarWeather = (ListPreference) findPreference(PREF_STATUS_BAR_WEATHER);
+       int temperatureShow = Settings.System.getIntForUser(resolver,
+               Settings.System.STATUS_BAR_SHOW_WEATHER_TEMP, 0,
+               UserHandle.USER_CURRENT);
+       mStatusBarWeather.setValue(String.valueOf(temperatureShow));
+       if (temperatureShow == 0) {
+           mStatusBarWeather.setSummary(R.string.statusbar_weather_summary);
+       } else {
+           mStatusBarWeather.setSummary(mStatusBarWeather.getEntry());
+       }
+          mStatusBarWeather.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -115,8 +128,21 @@ public class Weather extends SettingsPreferenceFragment
                     Settings.System.OMNIJAWS_WEATHER_ICON_PACK, value);
             int valueIndex = mWeatherIconPack.findIndexOfValue(value);
             mWeatherIconPack.setSummary(mWeatherIconPack.getEntries()[valueIndex]);
+        } else if (preference == mStatusBarWeather) {
+            int temperatureShow = Integer.valueOf((String) objValue);
+            int index = mStatusBarWeather.findIndexOfValue((String) objValue);
+            Settings.System.putIntForUser(getActivity().getContentResolver(),
+                   Settings.System.STATUS_BAR_SHOW_WEATHER_TEMP,
+                   temperatureShow, UserHandle.USER_CURRENT);
+            if (temperatureShow == 0) {
+                mStatusBarWeather.setSummary(R.string.statusbar_weather_summary);
+            } else {
+                mStatusBarWeather.setSummary(
+                mStatusBarWeather.getEntries()[index]);
+            }
+            return true;
         }
-        return true;
+        return false;
     }
 
     private boolean isOmniJawsServiceInstalled() {
