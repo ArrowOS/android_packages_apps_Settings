@@ -173,6 +173,10 @@
             android:title="@string/theme_customization_icon_shape_title"/>
     </PreferenceCategory>
 
+    <Preference
+        android:key="weather"
+        android:fragment="com.android.settings.arrow.Weather"
+        android:title="@string/weather_title" />
 
     <Preference
         android:key="vr_display_pref"
