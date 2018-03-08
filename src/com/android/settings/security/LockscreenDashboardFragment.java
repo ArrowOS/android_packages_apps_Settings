@@ -33,6 +33,7 @@ import com.android.settings.gestures.PickupGesturePreferenceController;
 import com.android.settings.notification.LockScreenNotificationPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.security.screenlock.LockScreenPreferenceController;
+import com.android.settings.security.ProximityOnWakePreferenceController;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
@@ -116,6 +117,7 @@ public class LockscreenDashboardFragment extends DashboardFragment
         controllers.add(mOwnerInfoPreferenceController);
 	controllers.add(new FPVibrationPreferenceController(context));
 	controllers.add(new FPUnlockKeystorePreferenceController(context));
+        controllers.add(new ProximityOnWakePreferenceController(context));
         return controllers;
     }
 
