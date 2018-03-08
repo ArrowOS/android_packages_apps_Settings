@@ -70,4 +70,22 @@
 
     <!-- Display customization category -->
     <string name="customization_category_title">Customization</string>
+<<<<<<< HEAD   (bb0ae2 Settings: Run statusbar icons from Settings)
+=======
+
+    <!-- Battery light -->
+    <string name="battery_light_settings">Battery charging light</string>
+    <string name="battery_light_enable">Battery light</string>
+    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
+    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
+    <string name="battery_light_cat">Battery light color when charging</string>
+    <string name="battery_light_low_color">Low battery</string>
+    <string name="battery_light_medium_color">Medium battery</string>
+    <string name="battery_light_full_color">Almost full battery</string>
+    <string name="battery_light_reallyfull_color">Full (100) battery</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+>>>>>>> CHANGE (434338 Settings: Add toggle for proximity wake)
 </resources>
