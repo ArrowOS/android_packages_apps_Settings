@@ -84,4 +84,8 @@
     <!-- Less boring heads up -->
     <string name="less_boring_heads_up_title">Saner Heads-Up</string>
     <string name="less_boring_heads_up_summary">Quickly disable heads up for all apps but keep them enabled for dialer and messaging apps</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 </resources>
