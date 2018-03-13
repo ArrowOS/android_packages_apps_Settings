@@ -23,8 +23,10 @@ import com.android.settings.search.Indexable;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settings.arrow.preferences.SystemSettingSwitchPreference;
 
+import com.android.settings.core.PreferenceControllerMixin;
+
 public class ProximityOnWakePreferenceController extends AbstractPreferenceController implements
-        Preference.OnPreferenceChangeListener {
+        Preference.OnPreferenceChangeListener, PreferenceControllerMixin {
 
     private static final String KEY_PROXIMITY_WAKE = "proximity_on_wake";
 
