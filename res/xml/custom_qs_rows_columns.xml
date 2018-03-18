@@ -44,4 +44,12 @@
         android:max="9"
         settings:min="1"
         settings:units="" />
+
+    <com.android.settings.arrow.preferences.CustomSeekBarPreference
+        android:key="qs_panel_alpha"
+        android:title="@string/qs_panel_alpha_title"
+        android:max="255"
+        settings:min="0"
+        settings:units=""
+        android:persistent="false" />
 </PreferenceScreen>
