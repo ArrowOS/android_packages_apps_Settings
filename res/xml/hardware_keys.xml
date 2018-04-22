@@ -171,4 +171,15 @@
         </com.android.settings.arrow.preferences.ActionPreference>
 
     </PreferenceCategory>
+    <PreferenceCategory
+        android:key="volume_keys"
+        android:title="@string/hardware_keys_volume_keys_title" >
+
+        <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+            android:key="volume_button_music_control"
+            android:title="@string/volume_button_music_control_title"
+            android:summary="@string/volume_button_music_control_summary"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
 </PreferenceScreen>
