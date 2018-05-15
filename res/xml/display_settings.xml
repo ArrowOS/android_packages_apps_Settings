@@ -125,4 +125,9 @@
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
+	<Preference
+            android:key="clock_settings"
+            android:title="@string/status_bar_clock"
+            android:fragment="com.android.settings.arrow.ClockDateSettings" />
+
 </PreferenceScreen>
