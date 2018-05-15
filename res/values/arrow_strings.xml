@@ -102,4 +102,8 @@
 
      <!-- Hide Lockscreen clock, date, & alarm -->
     <string name="lockscreen_items_other">Other</string>
+
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
 </resources>
