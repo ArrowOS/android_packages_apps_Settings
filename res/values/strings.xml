@@ -8518,12 +8518,6 @@
     <string name="theme_accent_picker_summary">Select system theme accent color</string>
     <string name="theme_accent_picker_default">Default</string>
 
-    <!-- SystemUI theme -->
-    <string name="systemui_theme_style_title">SystemUI theme</string>
-    <string name="systemui_theme_style_auto">Automatic (wallpaper based)</string>
-    <string name="systemui_theme_style_light">Light</string>
-    <string name="systemui_theme_style_dark">Dark</string>
-
     <!-- Title of developer options to set the smallest width of the screen [CHAR LIMIT=60]-->
     <string name="developer_smallest_width">Smallest width</string>
 
