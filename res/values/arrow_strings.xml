@@ -70,4 +70,8 @@
 
     <!-- Display customization category -->
     <string name="customization_category_title">Customization</string>
+
+    <!-- Hardware info -->
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">Total RAM</string>
 </resources>
