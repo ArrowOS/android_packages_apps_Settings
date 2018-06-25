@@ -29,4 +29,7 @@
 
     <!-- Device specific gesture package -->
     <string name="config_customGesturePackage" translatable="false"></string>
+
+    <!-- Whether to disable eab provision -->
+    <bool name="config_is_eab_provisioned">true</bool>
 </resources>
