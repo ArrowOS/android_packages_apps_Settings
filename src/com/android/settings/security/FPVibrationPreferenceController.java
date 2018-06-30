@@ -31,30 +31,30 @@ import com.android.settings.R;
 import com.android.settingslib.core.AbstractPreferenceController;
 import android.hardware.fingerprint.FingerprintManager;
 
-import static android.provider.Settings.System.FP_UNLOCK_KEYSTORE;
+import static android.provider.Settings.System.FINGERPRINT_SUCCESS_VIB;
 
-public class FPUnlockKeystorePreferenceController extends AbstractPreferenceController implements
+public class FPVibrationPreferenceController extends AbstractPreferenceController implements
         PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
 
-    private static final String PREF_FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
+    private static final String PREF_FINGERPRINT_VIBE = "fingerprint_success_vib";
 
     private FingerprintManager mFingerprintManager;
-    private SystemSettingSwitchPreference mFpKeystore;
+    private SystemSettingSwitchPreference mFingerprintSuccessVib;
 
-    public FPUnlockKeystorePreferenceController(Context context) {
+    public FPVibrationPreferenceController(Context context) {
 	super(context);
     }
 
     @Override
     public String getPreferenceKey() {
-	return PREF_FP_UNLOCK_KEYSTORE;
+	return PREF_FINGERPRINT_VIBE;
     }
 
     @Override
     public void updateState(Preference preference) {
-	int FPKeystoreValue = Settings.System.getInt(mContext.getContentResolver(),
-                FP_UNLOCK_KEYSTORE, 1);
-	((SystemSettingSwitchPreference) preference).setChecked(FPKeystoreValue != 0);
+	int FPVibrationValue = Settings.System.getInt(mContext.getContentResolver(),
+                FINGERPRINT_SUCCESS_VIB, 1);
+	((SystemSettingSwitchPreference) preference).setChecked(FPVibrationValue != 0);
     }
 
    @Override
@@ -68,18 +68,18 @@ public class FPUnlockKeystorePreferenceController extends AbstractPreferenceCont
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        boolean FPKeystoreValue = (Boolean) newValue;
-        Settings.System.putInt(mContext.getContentResolver(), FP_UNLOCK_KEYSTORE, FPKeystoreValue ? 1 : 0);
+        boolean FPVibrationValue = (Boolean) newValue;
+        Settings.System.putInt(mContext.getContentResolver(), FINGERPRINT_SUCCESS_VIB, FPVibrationValue ? 1 : 0);
         return true;
     }
 
     @Override
     public ResultPayload getResultPayload() {
         final Intent intent = DatabaseIndexingUtils.buildSearchResultPageIntent(mContext,
-                LockscreenDashboardFragment.class.getName(), PREF_FP_UNLOCK_KEYSTORE,
+                LockscreenDashboardFragment.class.getName(), PREF_FINGERPRINT_VIBE,
                 mContext.getString(R.string.lockscreen_settings_title));
 
-        return new InlineSwitchPayload(FP_UNLOCK_KEYSTORE,
+        return new InlineSwitchPayload(FINGERPRINT_SUCCESS_VIB,
                 ResultPayload.SettingsSource.SYSTEM, 1, intent,
                 isAvailable(), 1);
     }
