@@ -20,34 +20,11 @@
     android:title="@string/display_settings"
     settings:keywords="@string/keywords_display">
 
-        <PreferenceScreen
-            android:key="navigation_keys"
-            android:title="@string/navigation_keys"
-            android:fragment="com.android.settings.arrow.NavigationBar" />
-
-        <PreferenceScreen
-            android:key="hardware_keys"
-            android:title="@string/hardware_keys"
-            android:fragment="com.android.settings.arrow.HardwareKeys" />
-
     <Preference
         android:key="brightness"
         android:title="@string/brightness"
         settings:keywords="@string/keywords_display_brightness_level">
         <intent android:action="com.android.intent.action.SHOW_BRIGHTNESS_DIALOG" />
-    </Preference>
-
-    <Preference
-        android:key="qs_rows_columns"
-        android:fragment="com.android.settings.arrow.QsRowsColumns"
-        android:title="@string/qs_rows_columns_title"/>
-
-	<Preference
-            android:key="systemui_tuner_statusbar"
-            android:title="@string/statusbar_items_category" >
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
 
     <com.android.settings.display.NightDisplayPreference
@@ -74,6 +51,50 @@
             android:targetPackage="@string/config_wallpaper_picker_package"
             android:targetClass="@string/config_wallpaper_picker_class" />
     </com.android.settingslib.RestrictedPreference>
+
+	<Preference
+            android:key="battery_settings"
+            android:fragment="com.android.settings.arrow.StatusBarBattery"
+            android:summary="@string/battery_style_summary"
+            android:title="@string/battery_style_title" />
+
+	<Preference
+            android:key="clock_settings"
+            android:title="@string/status_bar_clock"
+            android:summary="@string/status_bar_clock_summary"
+            android:fragment="com.android.settings.arrow.ClockDateSettings" />
+
+        <PreferenceScreen
+            android:key="hardware_keys"
+            android:title="@string/hardware_keys"
+            android:summary="@string/hardware_keys_summary"
+            android:fragment="com.android.settings.arrow.HardwareKeys" />
+
+        <PreferenceScreen
+            android:key="navigation_keys"
+            android:title="@string/navigation_keys"
+            android:summary="@string/navigation_keys_summary"
+            android:fragment="com.android.settings.arrow.NavigationBar" />
+
+        <Preference
+            android:key="qs_rows_columns"
+            android:fragment="com.android.settings.arrow.QsRowsColumns"
+            android:summary="@string/qs_rows_columns_summary"
+            android:title="@string/qs_rows_columns_title"/>
+
+	<Preference
+            android:key="systemui_tuner_statusbar"
+            android:title="@string/statusbar_items_category" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+	</Preference>
+
+         <Preference
+            android:key="weather"
+            android:fragment="com.android.settings.arrow.Weather"
+            android:summary="@string/weather_config_summary"
+            android:title="@string/weather_title" />
 
     <!-- Cross-listed item, if you change this, also change it in power_usage_summary.xml -->
     <com.android.settings.TimeoutListPreference
@@ -123,21 +144,6 @@
         android:summary="@string/night_mode_summary"
         android:entries="@array/night_mode_entries"
         android:entryValues="@array/night_mode_values" /> -->
-
-	<Preference
-            android:key="clock_settings"
-            android:title="@string/status_bar_clock"
-            android:fragment="com.android.settings.arrow.ClockDateSettings" />
-
-	<Preference
-            android:key="battery_settings"
-            android:fragment="com.android.settings.arrow.StatusBarBattery"
-            android:title="@string/battery_style_title" />
-
-         <Preference
-            android:key="weather"
-            android:fragment="com.android.settings.arrow.Weather"
-            android:title="@string/weather_title" />
 
     <SwitchPreference
         android:key="camera_gesture"
