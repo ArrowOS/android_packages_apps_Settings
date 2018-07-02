@@ -9094,6 +9094,7 @@
 
     <!-- Battery Styles -->
     <string name="battery_style_title">Battery icon style</string>
+    <string name="battery_style_summary">Statusbar battery icon customizations</string>
     <string name="battery_style_port">Portrait</string>
     <string name="battery_style_land">Landscape</string>
     <string name="battery_style_circle">Circle</string>
@@ -9116,7 +9117,7 @@
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Weather</string>
     <string name="weather_config_title">Service settings</string>
-    <string name="weather_config_summary"></string>
+    <string name="weather_config_summary">Stautusbar and lockscreen weather</string>
     <string name="header_weather_title">Header view weather</string>
     <string name="header_weather_summary">Enable notification panel header weather display</string>
     <string name="weather_icon_pack_title">Condition icon pack</string>
@@ -9151,10 +9152,11 @@
 
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_summary">Display charger max current, voltage and battery temperature on lockscreen while charging</string>
 
     <!-- QS rows and columns -->
     <string name="qs_rows_columns_title">QS panel tweaks</string>
+    <string name="qs_rows_columns_summary">Quicksettings rows and columns, QS panel opacity</string>
     <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
     <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
     <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
@@ -9354,8 +9356,8 @@
     <string name="set">Set</string>
     <string name="color_default">Default</string>
 
-    <string name="hardware_keys">Hardware Keys</string>
-    <string name="hardware_keys_summary">Customise physical buttons</string>
+    <string name="navigation_keys_summary">Customise on-screen navigation keys</string>
+    <string name="hardware_keys_summary">Customise hardware buttons</string>
 
     <!-- Hardware button navigation -->
     <string name="hardware_keys_volume_keys_title">Volume rocker</string>
