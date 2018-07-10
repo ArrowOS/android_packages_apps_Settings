@@ -129,4 +129,10 @@
 
     <!--Double Tap to Sleep Statusbar-->
     <string name="double_tap_sleep_gesture_title">Double tap to sleep on status bar</string>
+
+    <!-- Settings categories -->
+    <string name="display_category_title">Display</string>
+    <string name="statusbar_category_title">StatusBar</string>
+    <string name="buttons_category_title">Buttons</string>
+    <string name="misc_category_title">Misc</string>
 </resources>

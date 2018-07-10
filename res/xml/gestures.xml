@@ -19,6 +19,21 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/gesture_preference_title" >
 
+    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_lockscreen"
+        android:title="@string/double_tap_sleep_lockscreen"
+        android:defaultValue="true" />
+
+    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_gesture"
+        android:title="@string/double_tap_sleep_gesture_title"
+        android:defaultValue="true" />
+
+    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+        android:key="proximity_on_wake"
+        android:title="@string/proximity_wake_title"
+        android:summary="@string/proximity_wake_summary" />
+
     <Preference
         android:key="gesture_assist_input_summary"
         android:title="@string/assist_gesture_title"
