@@ -92,6 +92,12 @@
 
     </PreferenceCategory>
 
+        <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_battery_info"
+            android:title="@string/lockscreen_battery_info_title"
+            android:summary="@string/lockscreen_battery_info_summary"
+            android:defaultValue="true" />
+
     <PreferenceCategory
         android:key="app_list"
         android:title="@string/power_usage_list_summary"/>
