@@ -64,6 +64,12 @@
             android:key="battery_saver_summary"
             android:title="@string/battery_saver"/>
 
+	<Preference
+            android:key="battery_settings"
+            android:fragment="com.android.settings.arrow.StatusBarBattery"
+            android:summary="@string/battery_style_summary"
+            android:title="@string/battery_style_title" />
+
         <!--
         <SwitchPreference
             android:key="battery_percentage"
@@ -92,6 +98,12 @@
             android:fragment="com.android.settings.display.AmbientDisplaySettings" />
 
     </PreferenceCategory>
+
+        <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_battery_info"
+            android:title="@string/lockscreen_battery_info_title"
+            android:summary="@string/lockscreen_battery_info_summary"
+            android:defaultValue="true" />
 
     <PreferenceCategory
         android:key="app_list"
