@@ -129,4 +129,8 @@
 
     <!--Double Tap to Sleep Statusbar-->
     <string name="double_tap_sleep_gesture_title">Double tap to sleep on status bar</string>
+
+    <!--Arrow Mods-->
+    <string name="arrowmods_title">Statubar, QS panel and navigation</string>
+    <string name="arrowmods_title_summary">battery styles, clock, weather, QS panel, on screen and capacitive keys </string>
 </resources>
