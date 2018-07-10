@@ -38,8 +38,8 @@
     <string name="sub_deactivate_success">SIM deactivated.</string>
     <string name="sub_deactivate_failed">Deactivation failed.</string>
 
-    <string name="advanced_power_menu">Power button tweaks</string>
-    <string name="arrow_reboot_menu">Power menu </string>
+    <string name="advanced_power_menu">Power menu</string>
+    <string name="arrow_reboot_menu">Advanced reboot</string>
 
     <!-- Power Menu -->
     <string name="powermenu_reboot_title">Reboot</string>
@@ -129,4 +129,9 @@
 
     <!--Double Tap to Sleep Statusbar-->
     <string name="double_tap_sleep_gesture_title">Double tap to sleep on status bar</string>
+
+    <!-- Settings categories -->
+    <string name="statusbar_category_title">StatusBar</string>
+    <string name="buttons_category_title">Buttons</string>
+    <string name="misc_category_title">Misc</string>
 </resources>
