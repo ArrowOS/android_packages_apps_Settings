@@ -18,90 +18,408 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="rom_version_title">ArrowOS version</string>
+  <string name="rom_version_title">ArrowOS versio</string>
   <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-  <string name="sim_disabled">disabled</string>
-  <string name="sim_missing">missing or faulty</string>
-  <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
-  <string name="sim_enabler_will_disable_sim_title">Attention</string>
-  <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
-  <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
-  <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
-  <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
-  <string name="sim_enabler_enabling">Activating\u2026</string>
-  <string name="sim_enabler_disabling">Deactivating\u2026</string>
-  <string name="sub_activate_success">SIM activated.</string>
-  <string name="sub_activate_failed">Activation failed.</string>
-  <string name="sub_deactivate_success">SIM deactivated.</string>
-  <string name="sub_deactivate_failed">Deactivation failed.</string>
-  <string name="advanced_power_menu">Power button tweaks</string>
-  <string name="arrow_reboot_menu">Power menu </string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> on <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_disabled">ei käytössä</string>
+  <string name="sim_missing">puuttuu tai on viallinen</string>
+  <string name="sim_enabler_need_disable_sim">SIM-kortti poistetaan käytöstä. Haluatko jatkaa?</string>
+  <string name="sim_enabler_will_disable_sim_title">Huomio</string>
+  <string name="sim_enabler_need_switch_data_service">Tämä SIM-kortti poistetaan käytöstä ja SIM <xliff:g id="slotid">%1$s</xliff:g>:n datapalvelut otetaan käyttöön. Haluatko varmasti jatkaa?</string>
+  <string name="sim_enabler_airplane_on">Toimintoa ei voida suorittaa kun lentotila on päällä.</string>
+  <string name="sim_enabler_in_call">Toimintoa ei voida suorittaa puhelun aikana.</string>
+  <string name="sim_enabler_both_inactive">Kaikkia SIM-kortteja ei voi poistaa käytöstä</string>
+  <string name="sim_enabler_enabling">Aktivoidaan\u2026</string>
+  <string name="sim_enabler_disabling">Deaktivoidaan\u2026</string>
+  <string name="sub_activate_success">SIM aktivoitu.</string>
+  <string name="sub_activate_failed">Aktivointi epäonnistui.</string>
+  <string name="sub_deactivate_success">SIM deaktivoitu.</string>
+  <string name="sub_deactivate_failed">Deaktivointi epäonnistui.</string>
+  <string name="advanced_power_menu">Käynnistysvalikko</string>
+  <string name="arrow_reboot_menu">Edistynyt uudelleenkäynnistys</string>
   <!-- Power Menu -->
-  <string name="powermenu_reboot_title">Reboot</string>
-  <string name="powermenu_airplane_title">Airplane mode</string>
-  <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
-  <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
-  <string name="powermenu_screenshot_title">Screenshot</string>
-  <string name="powermenu_category_visibility">Lockscreen options</string>
-  <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
-  <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
-  <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
-  <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
-  <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
-  <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
+  <string name="powermenu_reboot_title">Uudelleenkäynnistys</string>
+  <string name="powermenu_airplane_title">Lentotila</string>
+  <string name="powermenu_advanced_reboot_title">Edistynyt uudelleenkäynnistys</string>
+  <string name="powermenu_advanced_reboot_summary">Ottaa käyttöön kehittyneet uudelleenkäynnistys asetukset kuten nopea, palautustila sekä bootloader-tila. Lisää myös mahdollisuuden SystemUI: n uudelleenkäynnistykseen</string>
+  <string name="powermenu_screenshot_title">Ruudunkaappaus</string>
+  <string name="powermenu_category_visibility">Lukitusnäytön asetukset</string>
+  <string name="powermenu_lockscreen_title">Näkyvyys lukitusnäytöllä</string>
+  <string name="powermenu_lockscreen_summary">Valitse näyttääksesi virta-asetukset lukitusnäytöllä</string>
+  <string name="powermenu_ls_reboot_summary">Näytä uudellenkäynnistys</string>
+  <string name="powermenu_ls_advanced_reboot_summary">Näytä kehittyneet uudelleenkäynnistyksen vaihtoehdot lukitusnäytöllä</string>
+  <string name="powermenu_ls_screenshot_summary">Näytä ruudunkaappaus vaihtoehto lukitusnäytöllä</string>
+  <string name="powermenu_ls_airplane_summary">Näytä lentokonetilan vaihtoehto lukitusnäytöllä</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
-  <string name="lockscreen_items_other">Other</string>
-  <string name="reset">Reset</string>
+  <string name="lockscreen_items_other">Muu</string>
+  <string name="reset">Nollaa</string>
   <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">Brightness</string>
-  <string name="night_brightness_value_title">Lower brightness if Night Light</string>
-  <string name="night_bright_disabled">Disabled</string>
-  <string name="night_bright_minimum">Minimum brightness</string>
-  <string name="night_bright_low">Low brightness</string>
-  <string name="night_bright_medium">Medium brightness</string>
+  <string name="night_brightness_category">Kirkkaus</string>
+  <string name="night_brightness_value_title">Vähennä kirkkautta jos Nigh Light on päällä</string>
+  <string name="night_bright_disabled">Ei käytössä</string>
+  <string name="night_bright_minimum">Minimi kirkkaus</string>
+  <string name="night_bright_low">Alhainen kirkkaus</string>
+  <string name="night_bright_medium">Keskitason kirkkaus</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Cellular data</string>
-  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_data">Mobiilidata</string>
+  <string name="data_usage_app_restrict_data_summary">Ota mobiilidata käyttöön</string>
+  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi tiedot</string>
+  <string name="data_usage_app_restrict_wifi_summary">Salli Wi?\u2011Fi:n tietojen käyttö</string>
   <!-- Sizes for pattern lockscreen -->
-  <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+  <string name="lock_settings_picker_pattern_size_message">Valitse lukituskuvion koko</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-  <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+  <string name="lockpattern_settings_enable_error_path_title">Näytä lukiyuskuvionkuvion virhe</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-  <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+  <string name="lockpattern_settings_enable_dots_title">Näytä lukituskuvion pisteet</string>
   <!-- Lock screen vibrate settings -->
-  <string name="lockscreen_vibrate_enabled_title">Vibrate</string>
-  <string name="lockscreen_vibrate_enabled_head">Vibrate when unlocking</string>
+  <string name="lockscreen_vibrate_enabled_title">Värinä</string>
+  <string name="lockscreen_vibrate_enabled_head">Värise lukituksen avaamisen aikana</string>
   <!-- Bottom navigation -->
-  <string name="bottom_nav_system_title">System</string>
-  <string name="bottom_nav_lockscreen_title">Lockscreen</string>
-  <string name="bottom_nav_statusbar_title">Statusbar</string>
-  <string name="bottom_nav_navigation_title">Navigation</string>
-  <string name="bottom_nav_multitasking_title">Multitasking</string>
-  <string name="navigation_keys">Navigation Keys</string>
-  <string name="hardware_keys">Hardware buttons</string>
+  <string name="bottom_nav_system_title">Järjestelmä</string>
+  <string name="bottom_nav_lockscreen_title">Lukitusnäyttö</string>
+  <string name="bottom_nav_statusbar_title">Tilapalkki</string>
+  <string name="bottom_nav_navigation_title">Navigointi</string>
+  <string name="bottom_nav_multitasking_title">Moniajo</string>
+  <string name="navigation_keys">Ohjausnäppäimet</string>
+  <string name="hardware_keys">Laitepainikkeet</string>
   <!-- Format string for fingerprint location message -->
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_custom">Locate the fingerprint sensor on the <xliff:g id="sensor_location">%1$s</xliff:g> of your phone.</string>
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_custom">Etsi sormenjälkitunnistin puhelimen <xliff:g id="sensor_location">%1$s</xliff:g>.</string>
   <!-- Fingerprint sensor locations -->
-  <string name="security_settings_fingerprint_sensor_location_back">back</string>
-  <string name="security_settings_fingerprint_sensor_location_front">front</string>
-  <string name="security_settings_fingerprint_sensor_location_left">left side</string>
-  <string name="security_settings_fingerprint_sensor_location_right">right side</string>
+  <string name="security_settings_fingerprint_sensor_location_back">takaisin</string>
+  <string name="security_settings_fingerprint_sensor_location_front">etuosa</string>
+  <string name="security_settings_fingerprint_sensor_location_left">vasen puoli</string>
+  <string name="security_settings_fingerprint_sensor_location_right">oikea puoli</string>
   <!-- Other gestures -->
-  <string name="other_gestures">Other gestures</string>
+  <string name="other_gestures">Muut eleet</string>
   <!-- Proximity wake -->
-  <string name="proximity_wake_title">Prevent accidental wake-up</string>
-  <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
-  <string name="applying_theme_toast">Applying theme, please wait...</string>
-  <string name="theme_applied_toast">Theme applied!</string>
-  <string name="substratum_installed_title">System themes are unavailable because a Substratum overlay is installed. Please uninstall all overlays targeting Android System to proceed.</string>
+  <string name="proximity_wake_title">Estä vahinkoherätykset</string>
+  <string name="proximity_wake_summary">Tarkista lähesyysanturi ennen näytön herättämistä</string>
+  <string name="applying_theme_toast">Asetetaan teemaa, odota hetki...</string>
+  <string name="theme_applied_toast">Teema asetettu!</string>
+  <string name="substratum_installed_title">Teemat eivät ole saatavilla koska Substratum teema on asnnettu. Poista kaikki Android System teemat ennen jatkamista.</string>
   <!--Double Tap to Sleep Lockscreen-->
-  <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string>
+  <string name="double_tap_sleep_lockscreen">Mene nukkumaan tuplanäpäyttämällä lukitusnäyttöä</string>
   <!--Quick pulldown-->
-  <string name="status_bar_quick_qs_pulldown">Quick Pulldown</string>
-  <string name="status_bar_quick_qs_pulldown_summary">Pulldown statusbar from right side to show QS panel</string>
+  <string name="status_bar_quick_qs_pulldown">Nopea alasveto</string>
+  <string name="status_bar_quick_qs_pulldown_summary">Vedä tilapalkki alas Pika-Asetus paneelin oikeasta kulmasta</string>
   <!--Double Tap to Sleep Statusbar-->
-  <string name="double_tap_sleep_gesture_title">Double tap to sleep on status bar</string>
+  <string name="double_tap_sleep_gesture_title">Siirry unitiltilaan tuplatäppäämällä tilavalikkoa</string>
+  <!-- Settings categories -->
+  <string name="statusbar_category_title">Tilapalkki</string>
+  <string name="buttons_category_title">Painikkeet</string>
+  <string name="misc_category_title">Sekalaista</string>
+  <!-- Status bar clock options -->
+  <string name="status_bar_clock">Clock and Date</string>
+  <string name="status_bar_clock_summary">Configure statusbar clock and date appearance</string>
+  <string name="clock_title_enable">Alignment</string>
+  <string name="clock_enabled">Enabled</string>
+  <string name="clock_disabled">Disabled</string>
+  <string name="status_bar_clock_style_reset">Reset color</string>
+  <string name="status_bar_show_clock_title">Show clock and date</string>
+  <string name="status_bar_clock_seconds_title">Show seconds</string>
+  <string name="status_bar_am_pm_title">AM/PM</string>
+  <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+  <string name="enable_clock_weekday">Day of the week</string>
+  <string name="enable_clock_weekday_summary">Abbreviated day of the week before the time</string>
+  <string name="right_clock">Right clock</string>
+  <string name="center_clock">Center clock</string>
+  <string name="left_clock">Left clock</string>
+  <string name="dont_show">Don\'t show</string>
+  <string name="clock_date_display">Date</string>
+  <string name="clock_date_display_summary">Display custom date before the clock</string>
+  <string name="clock_date_style">Date style</string>
+  <string name="clock_date_format">Date format</string>
+  <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+  <string name="clock_date_string_edittext_summary">Enter string</string>
+  <string name="am_pm_clock_normal">Normal font size</string>
+  <string name="am_pm_clock_small">Small font size</string>
+  <string name="am_pm_clock_none">Don\'t show</string>
+  <string name="clock_date_display_none">Don\'t show</string>
+  <string name="clock_date_display_small">Small font size</string>
+  <string name="clock_date_display_normal">Normal font size</string>
+  <string name="clock_date_style_normal">Normal</string>
+  <string name="clock_date_style_lowercase">Lowercase</string>
+  <string name="clock_date_style_uppercase">Uppercase</string>
+  <string name="clock_date_format_custom">Custom java format</string>
+  <string name="clock_date_right">Right of time</string>
+  <string name="clock_date_left">Left of time</string>
+  <string name="clock_date_position">Date position</string>
+  <!-- Battery Styles -->
+  <string name="battery_style_title">Battery icon style</string>
+  <string name="battery_style_summary">Statusbar battery icon customizations</string>
+  <string name="battery_style_port">Portrait</string>
+  <string name="battery_style_land">Landscape</string>
+  <string name="battery_style_circle">Circle</string>
+  <string name="battery_style_dotted_circle">Dotted circle</string>
+  <string name="battery_style_big_circle">Big circle</string>
+  <string name="battery_style_big_dotted_circle">Big dotted circle</string>
+  <string name="battery_style_square">Square</string>
+  <string name="battery_style_text">Text</string>
+  <string name="battery_style_hidden">Hidden</string>
+  <string name="show_battery_percent_title">Show battery percentage</string>
+  <string name="battery_style_category_title">Battery icon</string>
+  <string name="battery_percent_none">Don\'t show</string>
+  <string name="battery_percent_outside">Show near icon</string>
+  <string name="battery_percent_inside">Show inside icon</string>
+  <!-- Roaming indicator icon -->
+  <string name="roaming_indicator_icon_title">Roaming indicator</string>
+  <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+  <!-- Weather - OmniJaws Settings -->
+  <string name="weather_title">Weather</string>
+  <string name="weather_config_title">Service settings</string>
+  <string name="weather_config_summary">Stautusbar and lockscreen weather</string>
+  <string name="header_weather_title">Header view weather</string>
+  <string name="header_weather_summary">Enable notification panel header weather display</string>
+  <string name="weather_icon_pack_title">Condition icon pack</string>
+  <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+  <!-- StatusBar weather settings -->
+  <string name="statusbar_weather_title">Status bar weather</string>
+  <string name="statusbar_weather_summary">Configure from QS settings/Weather</string>
+  <string name="statusbar_weather_dialog_title">Status bar weather style</string>
+  <string name="status_bar_weather_hidden">Hide weather</string>
+  <string name="status_bar_temperature_image_show_scale">Show temp with scale and image</string>
+  <string name="status_bar_temperature_image_hide_scale">Show temp with image without scale</string>
+  <string name="status_bar_temperature_show_scale_hide_image">Show temp with scale</string>
+  <string name="status_bar_temperature_hide_scale_hide_image">Show temp without scale</string>
+  <string name="status_bar_show_image">Show image</string>
+  <!-- Lockscreen Weather -->
+  <string name="lock_screen_weather_category_title">Lockscreen</string>
+  <string name="lock_screen_show_weather_title">Weather display</string>
+  <string name="lock_screen_show_weather_summaryOn">Weather is shown on Lockscreen</string>
+  <string name="lock_screen_show_weather_summaryOff">Weather is hidden on Lockscreen</string>
+  <string name="lock_screen_show_location_title">Location display</string>
+  <string name="lock_screen_show_location_summaryOn">Location is shown on Lockscreen</string>
+  <string name="lock_screen_show_location_summaryOff">Location is hidden on Lockscreen</string>
+  <string name="lock_screen_weather_condition_icon_title">Condition icon display</string>
+  <string name="lock_screen_weather_condition_icon_summaryOn">Condition icon is shown on Lockscreen</string>
+  <string name="lock_screen_weather_condition_icon_summaryOff">Condition icon is hidden on Lockscreen</string>
+  <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Screenshot sound</string>
+  <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
+  <!-- Lockscreen battery info indicator  -->
+  <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+  <string name="lockscreen_battery_info_summary">Display charger max current, voltage and battery temperature on lockscreen while charging</string>
+  <!-- QS rows and columns -->
+  <string name="qs_rows_columns_title">QS panel tweaks</string>
+  <string name="qs_rows_columns_summary">Quicksettings rows and columns, QS panel opacity</string>
+  <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
+  <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
+  <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
+  <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
+  <!-- QuickSettings Panel Transparency -->
+  <string name="qs_panel_alpha_title">QS panel opacity</string>
+  <!-- Statusbar Iten -->
+  <string name="statusbar_items_category">Statusbar items</string>
+  <!-- DUI -->
+  <string name="navbar_interface_title">Interface</string>
+  <string name="navbar_size">Bar size</string>
+  <string name="navbar_mode">Navigation mode</string>
+  <string name="navbar_mode_summary">Select which navigation mode to use on your device</string>
+  <string name="navbar_visibility">Allow navigation bar</string>
+  <string name="navigationbar_settings_title">Navigation bar</string>
+  <string name="navigationbar_settings_summary">Customize navigation style and behavior</string>
+  <string name="navbar_general_title">Advanced</string>
+  <string name="navigation_bar_left_title">Left-handed mode</string>
+  <string name="navigation_bar_left_summary">Place the navigation bar on the left side of the screen in landscape mode</string>
+  <string name="smartbar_interface">SmartBar</string>
+  <string name="icon_pack_picker_dialog_title">Icon packs</string>
+  <string name="image_exceeds_max_allowed_size">Image must not exceed 512x512</string>
+  <string name="invalid_icon_from_uri">Unable to load image from content provider</string>
+  <string name="picker_activities">Activities</string>
+  <string name="select_custom_app_title">Select custom app</string>
+  <string name="select_custom_activity_title">Select custom activity</string>
+  <string name="profile_applist_title">Applications</string>
+  <string name="default_string">Stock</string>
+  <string name="default_settings">Stock settings</string>
+  <string name="default_settings_summary">Stock AOSP navigation bar</string>
+  <!-- Actions dialog and default task values set in ActionPreference xml-->
+  <string name="choose_action_title">Choose action</string>
+  <string name="action_entry_default_action">Default settings</string>
+  <string name="action_entry_select_app">Select application</string>
+  <string name="action_entry_custom_action">Select custom action</string>
+  <!-- Fling -->
+  <string name="fling_settings">Fling settings</string>
+  <string name="fling_settings_summary">A very unique and fully-customizable gesture-based navigation bar</string>
+  <string name="fling_interface">Fling</string>
+  <string name="fling_enable_title">Enable Fling</string>
+  <string name="fling_back_home_policy">Back and Home are required to be set at all times. To change a Back or Home assignment, set the desired assignment first.\n\nAlso, setting a double tap action will delay single tap a bit.</string>
+  <string name="fling_split_bar_policy">When only a right or left action is assigned, the action applies to the full bar.</string>
+  <string name="fling_def_summary">No action set</string>
+  <string name="fling_swipe_actions">Swipe gestures</string>
+  <string name="fling_tap_actions">Tap gestures</string>
+  <string name="fling_short_swipe_right">Right short swipe</string>
+  <string name="fling_short_swipe_left">Left short swipe</string>
+  <string name="fling_long_swipe_right">Right long swipe</string>
+  <string name="fling_long_swipe_left">Left long swipe</string>
+  <string name="fling_right_up_swipe">Right side swipe up</string>
+  <string name="fling_left_up_swipe">Left side swipe up</string>
+  <string name="fling_single_tap">Single tap right</string>
+  <string name="fling_double_tap">Double tap right</string>
+  <string name="fling_long_press">Long press right</string>
+  <string name="fling_single_left_tap">Single tap left</string>
+  <string name="fling_double_left_tap">Double tap left</string>
+  <string name="fling_long_left_press">Long press left</string>
+  <string name="long_swipe_portrait_title">Portrait</string>
+  <string name="long_swipe_landscape_title">Landscape</string>
+  <string name="portrait_right_swipe_title">Portrait right swipe</string>
+  <string name="portrait_left_swipe_title">Portrait left swipe</string>
+  <string name="landscape_right_swipe_title">Landscape right swipe</string>
+  <string name="landscape_left_swipe_title">Landscape left swipe</string>
+  <string name="vertical_up_swipe_title">Vertical up swipe</string>
+  <string name="vertical_down_swipe_title">Vertical down swipe</string>
+  <string name="up_swipe_title">Up swipe</string>
+  <string name="down_swipe_title">Down swipe</string>
+  <string name="long_swipe_reset">Reset</string>
+  <string name="fling_advanced">Advanced</string>
+  <string name="fling_long_swipe_title">Long swipe thresholds</string>
+  <string name="fling_long_swipe_summary">Fine tune long swipe thresholds based on a percentage of Fling interface width or height</string>
+  <string name="fling_trails_enable_title">Enable gesture trails</string>
+  <string name="fling_trails_enable_summary">Show a trail on swipe gestures</string>
+  <string name="fling_trails_color_title">Trail color</string>
+  <string name="fling_trails_width_title">Trail width</string>
+  <string name="fling_appearance">Appearance</string>
+  <string name="fling_show_logo_title">Show Fling logo</string>
+  <string name="fling_animate_logo_title">Animate logo</string>
+  <string name="fling_animate_logo_summary">Logo animates on touch events</string>
+  <string name="fling_logo_color">Logo color</string>
+  <string name="fling_logo_custom_logo_pick_title">Custom logo icon</string>
+  <string name="fling_logo_custom_logo_image_pick_title">Custom logo image</string>
+  <string name="fling_logo_custom_logo_reset_title">Reset logo icon</string>
+  <string name="fling_show_ripple_title">Show ripple</string>
+  <string name="fling_show_ripple_summary">Ripple effect on touch events</string>
+  <string name="fling_ripple_color">Ripple color</string>
+  <string name="fling_longpress_timeout_label_left">Less delay</string>
+  <string name="fling_longpress_timeout_label_right">More delay</string>
+  <string name="fling_longpress_title">Long press delay</string>
+  <string name="fling_longpress_summary">Increase or decrease the time it takes to execute a long press</string>
+  <string name="fling_keyboard_cursors_title">Dynamic keyboard cursors action</string>
+  <string name="fling_keyboard_cursors_summary">Double tap left and right actions becomes left and right keyboard cursor actions if keyboard is open</string>
+  <string name="fling_logo_opacity_title">Fling logo opacity</string>
+  <!-- Pulse navigation bar music visualizer -->
+  <string name="pulse_help_policy_notice_summary">Pulse does not work with some audio sources when listening on device speaker</string>
+  <string name="pulse_settings">Pulse</string>
+  <string name="pulse_settings_summary">Navigation bar audio graphic equalizer</string>
+  <string name="fling_show_pulse_title">Allow Pulse</string>
+  <string name="fling_show_pulse_summary">Audio graphic equalizer on the navigation bar</string>
+  <string name="pulse_render_mode_title">Render mode</string>
+  <string name="pulse_render_mode_fading_bars">Fading blocks</string>
+  <string name="pulse_render_mode_solid_lines">Solid lines</string>
+  <string name="fling_pulse_color">Pulse color</string>
+  <string name="eos_fling_lavalamp_title">Turn on Lava Lamp</string>
+  <string name="eos_fling_lavalamp_summary">Pulse animates a smooth lava lamp style color blend</string>
+  <string name="pulse_advanced_category">Advanced</string>
+  <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
+  <string name="pulse_custom_fudge_factor">Sanity level</string>
+  <string name="lavamp_solid_speed_title">Lava Lamp speed</string>
+  <string name="pulse_solid_units_count">Solid lines count</string>
+  <string name="pulse_solid_lines_count">Solid lines count</string>
+  <string name="pulse_solid_units_opacity">Solid lines opacity</string>
+  <string name="pulse_solid_dimen_category">Solid lines mode settings</string>
+  <string name="pulse_custom_buttons_opacity_title">Smartbar buttons opacity on Pulse</string>
+  <!-- Pulse config -->
+  <string name="pulse_custom_dimen">Bar width</string>
+  <string name="pulse_custom_div">Bar spacing</string>
+  <string name="pulse_filled_block_size">Block size</string>
+  <string name="pulse_empty_block_size">Block spacing</string>
+  <!-- Navbar height -->
+  <string name="navigation_bar_size_title">Bar size</string>
+  <string name="portrait_title">Portrait height</string>
+  <string name="land_vert_title">Landscape width</string>
+  <string name="land_hor_title">Landscape height</string>
+  <string name="positive_done">Done</string>
+  <!-- SmartBar -->
+  <string name="smartbar_category">Smartbar</string>
+  <string name="smartbar_settings_title">Smartbar settings</string>
+  <string name="smartbar_settings_summary">Fully-customizable navigation bar</string>
+  <string name="smartbar_editor_title">Start edit mode</string>
+  <string name="smartbar_editor_summary">Open smartbar buttons editor</string>
+  <string name="smartbar_help_policy_notice_summary">When in editor mode, medium press and drag a button to change its position or long press a button to show the edit menu. Button position may be changed while menu is showing.\n\nSetting a double tap action will delay single tap a bit.</string>
+  <string name="smartbar_context_menu_position_title">Context buttons layout position</string>
+  <string name="smartbar_context_menu_position_summary">Set the position of contextual buttons such as menu and ime selector</string>
+  <string name="smartbar_right">Right</string>
+  <string name="smartbar_left">Left</string>
+  <string name="smartbar_button_animation_title">Button touch animation</string>
+  <string name="smartbar_button_animation_summary">Set the animation style of the primary buttons when they are pressed</string>
+  <string name="smartbar_button_animation_ripple">Ripple</string>
+  <string name="smartbar_button_animation_spring">Spring</string>
+  <string name="smartbar_button_animation_flip">Flip</string>
+  <string name="smartbar_button_animation_pixel">Pixel (all buttons)</string>
+  <string name="smartbar_button_animation_pixel_home">Pixel (Home button only)</string>
+  <string name="smartbar_button_animation_pixel_home_ripple">Pixel (Home button only) and Ripple</string>
+  <string name="smartbar_factory_reset_title">Reset to stock</string>
+  <string name="smartbar_factory_reset_confirm">Are you sure you want to reset Smartbar to stock settings?</string>
+  <string name="smartbar_ime_action_title">Input method and media actions</string>
+  <string name="smartbar_ime_action_summary">Set what buttons to show when a on-screen keyboard is showing or music is playing</string>
+  <string name="smartbar_ime_action_none">None</string>
+  <string name="smartbar_ime_action_arrows">Input arrows</string>
+  <string name="smartbar_ime_action_switcher">Keyboard switcher</string>
+  <string name="smartbar_ime_action_dynamic">Input/media arrows</string>
+  <string name="smartbar_backup_current_config_title">Save profile</string>
+  <string name="smartbar_restore_config_title">Restore profile</string>
+  <string name="smartbar_config_name_edit_dialog_title">Smartbar profile name</string>
+  <string name="smartbar_config_name_edit_dialog_message">Enter name or leave blank</string>
+  <string name="smartbar_config_dialog_title">Smartbar profiles</string>
+  <string name="smartbar_config_backup_success_toast">Smartbar profile successfully saved</string>
+  <string name="smartbar_config_restore_success_toast">Smartbar profile successfully restored</string>
+  <string name="smartbar_config_backup_error_toast">Error saving Smartbar profile</string>
+  <string name="smartbar_config_restore_error_toast">Error restoring Smartbar profile</string>
+  <string name="navbar_buttons_alpha_title">Button transparency</string>
+  <string name="smartbar_longpress_delay_title">Button longpress delay</string>
+  <string name="smartbar_longpress_delay_summary">Set how long the system will wait before triggering a longpress action</string>
+  <string name="smartbar_longpress_delay_default">Default delay (fast)</string>
+  <string name="smartbar_longpress_delay_normal">Normal delay</string>
+  <string name="smartbar_longpress_delay_long">Long delay</string>
+  <string name="smartbar_custom_icon_size_title">Custom icon scaling</string>
+  <string name="one_handed_mode_title">One handed mode</string>
+  <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>
+  <!-- Color Picker -->
+  <string name="dialog_color_picker">Color Picker</string>
+  <string name="press_color_to_apply">Press on color below to apply</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">Set</string>
+  <string name="color_default">Default</string>
+  <string name="navigation_keys_summary">Customise on-screen navigation keys</string>
+  <string name="hardware_keys_summary">Customise hardware buttons</string>
+  <!-- Hardware button navigation -->
+  <string name="hardware_keys_volume_keys_title">Volume rocker</string>
+  <string name="hardware_keys_home_key_title">Home button</string>
+  <string name="hardware_keys_menu_key_title">Menu button</string>
+  <string name="hardware_keys_assist_key_title">Search button</string>
+  <string name="hardware_keys_appswitch_key_title">Overview button</string>
+  <string name="hardware_keys_back_key_title">Back button</string>
+  <string name="hardware_keys_double_tap_summary">Set double tap action</string>
+  <string name="hardware_keys_single_tap_summary">Set single tap action</string>
+  <string name="hardware_keys_long_press_summary">Set long press action</string>
+  <string name="hardware_keys_single_tap_title">Single tap action</string>
+  <string name="hardware_keys_long_press_title">Long press action</string>
+  <string name="hardware_keys_double_tap_title">Double tap action</string>
+  <string name="hardware_keys_category">Navigation buttons</string>
+  <string name="hardware_keys_disable_title">Disable navigation buttons</string>
+  <string name="hardware_keys_wake_title">Wake device</string>
+  <!-- Button brightness -->
+  <string name="button_backlight_options_category">Backlight options</string>
+  <string name="button_backlight_enable_title">Allow button backlight</string>
+  <string name="button_link_brightness">Link to screen brightness</string>
+  <string name="button_link_brightness_summary">Button backlight brightness will adjust based on the screen\'s brightness level</string>
+  <string name="button_manual_brightness">Brightness level</string>
+  <string name="button_timeout_title">Backlight timeout</string>
+  <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
+  <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
+  <!-- Volume rocker music control -->
+  <string name="volume_button_music_control_title">Playback control</string>
+  <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+  <!-- Volume key controls media stream -->
+  <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
+  <string name="volume_keys_control_media_stream_summary">Force volume keys to control media stream</string>
+  <!-- Volume rocker wake -->
+  <string name="volume_rocker_wake_title">Volume wake</string>
+  <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+  <!-- Volume key rotation -->
+  <string name="swap_volume_buttons_title">Reorient</string>
+  <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
+  <string name="smartbar_double_tap_sleep_title">Double tap to sleep</string>
+  <string name="smartbar_double_tap_sleep_summary">Double tap on empty navbar areas to sleep</string>
 </resources>
