@@ -83,65 +83,65 @@
   <string name="navigation_keys">Boutons de navigation</string>
   <string name="hardware_keys">Boutons physiques</string>
   <!-- Format string for fingerprint location message -->
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_custom">Locate the fingerprint sensor on the <xliff:g id="sensor_location">%1$s</xliff:g> of your phone.</string>
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_custom">Repérez le capteur d’empreintes digitales sur <xliff:g id="sensor_location">%1$s </xliff:g> de votre téléphone.</string>
   <!-- Fingerprint sensor locations -->
-  <string name="security_settings_fingerprint_sensor_location_back">back</string>
+  <string name="security_settings_fingerprint_sensor_location_back">retour</string>
   <string name="security_settings_fingerprint_sensor_location_front">front</string>
   <string name="security_settings_fingerprint_sensor_location_left">left side</string>
   <string name="security_settings_fingerprint_sensor_location_right">right side</string>
   <!-- Other gestures -->
-  <string name="other_gestures">Other gestures</string>
+  <string name="other_gestures">Autres gestes</string>
   <!-- Proximity wake -->
-  <string name="proximity_wake_title">Prevent accidental wake-up</string>
-  <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
-  <string name="applying_theme_toast">Applying theme, please wait...</string>
-  <string name="theme_applied_toast">Theme applied!</string>
-  <string name="substratum_installed_title">System themes are unavailable because a Substratum overlay is installed. Please uninstall all overlays targeting Android System to proceed.</string>
+  <string name="proximity_wake_title">Empêcher un réveil accidentel</string>
+  <string name="proximity_wake_summary">Utiliser le capteur de proximité pour prévenir les réveils accidentels de l\'écran</string>
+  <string name="applying_theme_toast">Application du nouveau thème, veuillez patienter...</string>
+  <string name="theme_applied_toast">Thème appliqué !</string>
+  <string name="substratum_installed_title">Les thèmes systèmes sont indisponibles car un overlay Substratum est installé. Merci de désinstaller tous les overlays touchant le système Android avant de réessayer.</string>
   <!--Double Tap to Sleep Lockscreen-->
-  <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string>
+  <string name="double_tap_sleep_lockscreen">Double appui pour mettre en veille sur l\'écran de verrouillage</string>
   <!--Quick pulldown-->
-  <string name="status_bar_quick_qs_pulldown">Quick Pulldown</string>
-  <string name="status_bar_quick_qs_pulldown_summary">Pulldown statusbar from right side to show QS panel</string>
+  <string name="status_bar_quick_qs_pulldown">Déroulement rapide</string>
+  <string name="status_bar_quick_qs_pulldown_summary">Tirer le barre d\'état à droite pour afficher les réglages rapides</string>
   <!--Double Tap to Sleep Statusbar-->
-  <string name="double_tap_sleep_gesture_title">Double tap to sleep on status bar</string>
+  <string name="double_tap_sleep_gesture_title">Double appui pour mettre en veille sur la barre d\'état</string>
   <!-- Settings categories -->
-  <string name="statusbar_category_title">StatusBar</string>
-  <string name="buttons_category_title">Buttons</string>
-  <string name="misc_category_title">Misc</string>
+  <string name="statusbar_category_title">Barre d\'état</string>
+  <string name="buttons_category_title">Touches</string>
+  <string name="misc_category_title">Divers</string>
   <!-- Status bar clock options -->
-  <string name="status_bar_clock">Clock and Date</string>
-  <string name="status_bar_clock_summary">Configure statusbar clock and date appearance</string>
-  <string name="clock_title_enable">Alignment</string>
-  <string name="clock_enabled">Enabled</string>
-  <string name="clock_disabled">Disabled</string>
-  <string name="status_bar_clock_style_reset">Reset color</string>
-  <string name="status_bar_show_clock_title">Show clock and date</string>
-  <string name="status_bar_clock_seconds_title">Show seconds</string>
+  <string name="status_bar_clock">Horloge et date</string>
+  <string name="status_bar_clock_summary">Configurer l\'apparence de l\'horloge et de la date dans la barre d\'état</string>
+  <string name="clock_title_enable">Alignement</string>
+  <string name="clock_enabled">Activé</string>
+  <string name="clock_disabled">Désactivé</string>
+  <string name="status_bar_clock_style_reset">Réinitialiser la couleur</string>
+  <string name="status_bar_show_clock_title">Afficher la date et l\'heure</string>
+  <string name="status_bar_clock_seconds_title">Afficher les secondes</string>
   <string name="status_bar_am_pm_title">AM/PM</string>
-  <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
-  <string name="enable_clock_weekday">Day of the week</string>
-  <string name="enable_clock_weekday_summary">Abbreviated day of the week before the time</string>
-  <string name="right_clock">Right clock</string>
-  <string name="center_clock">Center clock</string>
-  <string name="left_clock">Left clock</string>
-  <string name="dont_show">Don\'t show</string>
+  <string name="status_bar_am_pm_info">Mode horloge 24 heures activé</string>
+  <string name="enable_clock_weekday">Jour de la semaine</string>
+  <string name="enable_clock_weekday_summary">Jour de la semaine abrégé avant l\'heure</string>
+  <string name="right_clock">À droite</string>
+  <string name="center_clock">Au centre</string>
+  <string name="left_clock">À gauche</string>
+  <string name="dont_show">Ne pas afficher</string>
   <string name="clock_date_display">Date</string>
-  <string name="clock_date_display_summary">Display custom date before the clock</string>
-  <string name="clock_date_style">Date style</string>
-  <string name="clock_date_format">Date format</string>
-  <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
-  <string name="clock_date_string_edittext_summary">Enter string</string>
-  <string name="am_pm_clock_normal">Normal font size</string>
-  <string name="am_pm_clock_small">Small font size</string>
-  <string name="am_pm_clock_none">Don\'t show</string>
-  <string name="clock_date_display_none">Don\'t show</string>
-  <string name="clock_date_display_small">Small font size</string>
-  <string name="clock_date_display_normal">Normal font size</string>
+  <string name="clock_date_display_summary">Afficher la date personnalisée avant l\'horloge</string>
+  <string name="clock_date_style">Style de la date</string>
+  <string name="clock_date_format">Format de la date</string>
+  <string name="clock_date_string_edittext_title">Doit être dans le format MM/dd/yy</string>
+  <string name="clock_date_string_edittext_summary">Entrez la valeur</string>
+  <string name="am_pm_clock_normal">Police de taille normale</string>
+  <string name="am_pm_clock_small">Police de petite taille</string>
+  <string name="am_pm_clock_none">Ne pas afficher</string>
+  <string name="clock_date_display_none">Ne pas afficher</string>
+  <string name="clock_date_display_small">Police de petite taille</string>
+  <string name="clock_date_display_normal">Police de taille normale</string>
   <string name="clock_date_style_normal">Normal</string>
-  <string name="clock_date_style_lowercase">Lowercase</string>
-  <string name="clock_date_style_uppercase">Uppercase</string>
-  <string name="clock_date_format_custom">Custom java format</string>
-  <string name="clock_date_right">Right of time</string>
+  <string name="clock_date_style_lowercase">Minuscule</string>
+  <string name="clock_date_style_uppercase">Majuscule</string>
+  <string name="clock_date_format_custom">Format java personnalisé</string>
+  <string name="clock_date_right">À droite de l\'heure</string>
   <string name="clock_date_left">Left of time</string>
   <string name="clock_date_position">Date position</string>
   <!-- Battery Styles -->
@@ -195,25 +195,25 @@
   <string name="lock_screen_weather_condition_icon_summaryOff">Condition icon is hidden on Lockscreen</string>
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Screenshot sound</string>
-  <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
+  <string name="screenshot_sound_summary">Émettre un son lors de la capture d\'écran</string>
   <!-- Lockscreen battery info indicator  -->
-  <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-  <string name="lockscreen_battery_info_summary">Display charger max current, voltage and battery temperature on lockscreen while charging</string>
+  <string name="lockscreen_battery_info_title">Informations de charge sur l\'écran de verrouillage</string>
+  <string name="lockscreen_battery_info_summary">Affichage du courant, de la tension et de la température de la batterie sur l’écran de verrouillage pendant la charge</string>
   <!-- QS rows and columns -->
-  <string name="qs_rows_columns_title">QS panel tweaks</string>
-  <string name="qs_rows_columns_summary">Quicksettings rows and columns, QS panel opacity</string>
-  <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
-  <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
-  <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
-  <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
+  <string name="qs_rows_columns_title">QS panneau réglages</string>
+  <string name="qs_rows_columns_summary">QuickSettings lignes et colonnes, QS panneau opacité</string>
+  <string name="qs_rows_portrait_title">Rangées de tuiles en mode portrait</string>
+  <string name="qs_rows_landscape_title">Rangées de tuiles en mode paysage</string>
+  <string name="qs_columns_portrait_title">Colonnes de tuiles en mode portrait</string>
+  <string name="qs_columns_landscape_title">Colonnes de tuiles en mode paysage</string>
   <!-- QuickSettings Panel Transparency -->
-  <string name="qs_panel_alpha_title">QS panel opacity</string>
+  <string name="qs_panel_alpha_title">Transparence du panneau des réglages rapides</string>
   <!-- Statusbar Iten -->
-  <string name="statusbar_items_category">Statusbar items</string>
+  <string name="statusbar_items_category">Éléments de la barre d\'état</string>
   <!-- DUI -->
   <string name="navbar_interface_title">Interface</string>
-  <string name="navbar_size">Bar size</string>
-  <string name="navbar_mode">Navigation mode</string>
+  <string name="navbar_size">Taille de la barre</string>
+  <string name="navbar_mode">Mode de navigation</string>
   <string name="navbar_mode_summary">Select which navigation mode to use on your device</string>
   <string name="navbar_visibility">Allow navigation bar</string>
   <string name="navigationbar_settings_title">Navigation bar</string>

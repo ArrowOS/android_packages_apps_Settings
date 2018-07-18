@@ -426,20 +426,20 @@
   <string name="torch_power_button_flash_title">Torch gestures</string>
   <string name="torch_power_button_flash_summary">Power button flash gestures</string>
   <string name="torch_power_button_gesture_title">Screen off power button torch</string>
-  <string name="torch_power_button_gesture_none">Disabled</string>
+  <string name="torch_power_button_gesture_none">Uitgeschakeld</string>
   <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
-  <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
-  <string name="link_volume_option_title">Link ring and notification volume</string>
+  <string name="torch_power_button_gesture_lp">Aan/uit-knop lang indrukken voor zaklamp</string>
+  <string name="link_volume_option_title">Koppel bel- en notificatievolume</string>
   <!-- Heads up -->
   <string name="headsup_title">Heads up</string>
   <string name="headsup_summary">Configure heads up options</string>
   <string name="heads_up_title">Allow Heads up</string>
   <string name="heads_up_summary_enabled">Heads-up notifications are enabled</string>
   <string name="heads_up_summary_disabled">Heads-up notifications are disabled</string>
-  <string name="heads_up_blacklist_add_package_title">Add app</string>
+  <string name="heads_up_blacklist_add_package_title">App toevoegen</string>
   <string name="heads_up_blacklist_add_package_summary">Disable heads-up notifications in these applications</string>
-  <string name="heads_up_blacklist_title">Blacklist</string>
-  <string name="heads_up_blacklist_choose_app">Select app</string>
-  <string name="heads_up_blacklist_dialog_delete_title">Delete</string>
-  <string name="heads_up_blacklist_dialog_delete_message">Remove selected item?</string>
+  <string name="heads_up_blacklist_title">Uitgesloten</string>
+  <string name="heads_up_blacklist_choose_app">Selecteer app</string>
+  <string name="heads_up_blacklist_dialog_delete_title">Verwijderen</string>
+  <string name="heads_up_blacklist_dialog_delete_message">Geselecteerd item verwijderen?</string>
 </resources>
