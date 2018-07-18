@@ -422,4 +422,24 @@
   <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
   <string name="smartbar_double_tap_sleep_title">Double tap to sleep</string>
   <string name="smartbar_double_tap_sleep_summary">Double tap on empty navbar areas to sleep</string>
+  <!-- Torch Power button gestures -->
+  <string name="torch_power_button_flash_title">Torch gestures</string>
+  <string name="torch_power_button_flash_summary">Power button flash gestures</string>
+  <string name="torch_power_button_gesture_title">Screen off power button torch</string>
+  <string name="torch_power_button_gesture_none">Disabled</string>
+  <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
+  <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+  <string name="link_volume_option_title">Link ring and notification volume</string>
+  <!-- Heads up -->
+  <string name="headsup_title">Heads up</string>
+  <string name="headsup_summary">Configure heads up options</string>
+  <string name="heads_up_title">Allow Heads up</string>
+  <string name="heads_up_summary_enabled">Heads-up notifications are enabled</string>
+  <string name="heads_up_summary_disabled">Heads-up notifications are disabled</string>
+  <string name="heads_up_blacklist_add_package_title">Add app</string>
+  <string name="heads_up_blacklist_add_package_summary">Disable heads-up notifications in these applications</string>
+  <string name="heads_up_blacklist_title">Blacklist</string>
+  <string name="heads_up_blacklist_choose_app">Select app</string>
+  <string name="heads_up_blacklist_dialog_delete_title">Delete</string>
+  <string name="heads_up_blacklist_dialog_delete_message">Remove selected item?</string>
 </resources>

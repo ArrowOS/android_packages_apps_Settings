@@ -20,7 +20,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="rom_version_title">Phiên bản ArrowOS</string>
   <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> là <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_disabled">đã tắt</string>
   <string name="sim_missing">thiếu hoặc bị lỗi</string>
   <string name="sim_enabler_need_disable_sim">Thẻ SIM sẽ bị ngừng hoạt động. Bạn có muốn tiếp tục?</string>
@@ -141,8 +141,8 @@
   <string name="clock_date_style_lowercase">Chữ thường</string>
   <string name="clock_date_style_uppercase">Chữ in hoa</string>
   <string name="clock_date_format_custom">Định dạng java tùy chỉnh</string>
-  <string name="clock_date_right">Right of time</string>
-  <string name="clock_date_left">Left of time</string>
+  <string name="clock_date_right">Đúng thời điểm</string>
+  <string name="clock_date_left">Trái thời điểm</string>
   <string name="clock_date_position">Vị trí ngày</string>
   <!-- Battery Styles -->
   <string name="battery_style_title">Kiểu biểu tượng pin</string>
@@ -191,61 +191,61 @@
   <string name="lock_screen_show_location_summaryOn">Vị trí được hiển thị trên Màn hình khóa</string>
   <string name="lock_screen_show_location_summaryOff">Vị trí được ẩn trên Màn hình khóa</string>
   <string name="lock_screen_weather_condition_icon_title">Gói biểu tượng thời tiết</string>
-  <string name="lock_screen_weather_condition_icon_summaryOn">Condition icon is shown on Lockscreen</string>
-  <string name="lock_screen_weather_condition_icon_summaryOff">Condition icon is hidden on Lockscreen</string>
+  <string name="lock_screen_weather_condition_icon_summaryOn">Gói biểu tượng thời tiết được hiển thị ở màn hình khoá</string>
+  <string name="lock_screen_weather_condition_icon_summaryOff">Gói biểu tượng thời tiết được ẩn ở màn hình khoá</string>
   <!-- Screenshot sound -->
-  <string name="screenshot_sound_title">Screenshot sound</string>
-  <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
+  <string name="screenshot_sound_title">Âm thanh chụp màn hình</string>
+  <string name="screenshot_sound_summary">Phát âm thanh khi màn hình được chụp</string>
   <!-- Lockscreen battery info indicator  -->
-  <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-  <string name="lockscreen_battery_info_summary">Display charger max current, voltage and battery temperature on lockscreen while charging</string>
+  <string name="lockscreen_battery_info_title">Thông tin sạc trên màn hình khóa</string>
+  <string name="lockscreen_battery_info_summary">Hiển thị điện áp bộ sạc tối đa hiện tại đã ước tính và nhiệt độ pin trên màn hình khóa trong khi sạc</string>
   <!-- QS rows and columns -->
-  <string name="qs_rows_columns_title">QS panel tweaks</string>
-  <string name="qs_rows_columns_summary">Quicksettings rows and columns, QS panel opacity</string>
-  <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
-  <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
-  <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
-  <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
+  <string name="qs_rows_columns_title">Bảng điều chỉnh Cài đặt nhanh</string>
+  <string name="qs_rows_columns_summary">Quicksettings hàng và cột, độ mờ của QS</string>
+  <string name="qs_rows_portrait_title">Số hàng theo chiều dọc</string>
+  <string name="qs_rows_landscape_title">Số hàng theo chiều ngang</string>
+  <string name="qs_columns_portrait_title">Số cột theo chiều dọc</string>
+  <string name="qs_columns_landscape_title">Số cột theo chiều ngang</string>
   <!-- QuickSettings Panel Transparency -->
-  <string name="qs_panel_alpha_title">QS panel opacity</string>
+  <string name="qs_panel_alpha_title">Độ trong suốt bảng điều khiển nhanh</string>
   <!-- Statusbar Iten -->
-  <string name="statusbar_items_category">Statusbar items</string>
+  <string name="statusbar_items_category">Biểu tượng thanh trạng thái</string>
   <!-- DUI -->
-  <string name="navbar_interface_title">Interface</string>
-  <string name="navbar_size">Bar size</string>
-  <string name="navbar_mode">Navigation mode</string>
-  <string name="navbar_mode_summary">Select which navigation mode to use on your device</string>
-  <string name="navbar_visibility">Allow navigation bar</string>
-  <string name="navigationbar_settings_title">Navigation bar</string>
-  <string name="navigationbar_settings_summary">Customize navigation style and behavior</string>
-  <string name="navbar_general_title">Advanced</string>
-  <string name="navigation_bar_left_title">Left-handed mode</string>
-  <string name="navigation_bar_left_summary">Place the navigation bar on the left side of the screen in landscape mode</string>
-  <string name="smartbar_interface">SmartBar</string>
-  <string name="icon_pack_picker_dialog_title">Icon packs</string>
-  <string name="image_exceeds_max_allowed_size">Image must not exceed 512x512</string>
-  <string name="invalid_icon_from_uri">Unable to load image from content provider</string>
-  <string name="picker_activities">Activities</string>
-  <string name="select_custom_app_title">Select custom app</string>
-  <string name="select_custom_activity_title">Select custom activity</string>
-  <string name="profile_applist_title">Applications</string>
-  <string name="default_string">Stock</string>
-  <string name="default_settings">Stock settings</string>
-  <string name="default_settings_summary">Stock AOSP navigation bar</string>
+  <string name="navbar_interface_title">Giao diện</string>
+  <string name="navbar_size">Kích thước thanh</string>
+  <string name="navbar_mode">Chế độ thanh điều hướng</string>
+  <string name="navbar_mode_summary">Chọn chế độ thanh điều hướng để sử dụng trên thiết bị của bạn</string>
+  <string name="navbar_visibility">Cho phép thanh điều hướng</string>
+  <string name="navigationbar_settings_title">Thanh điều hướng</string>
+  <string name="navigationbar_settings_summary">Tùy chỉnh kiểu điều hướng và cách tương tác</string>
+  <string name="navbar_general_title">Nâng cao</string>
+  <string name="navigation_bar_left_title">Chế độ thuận tay trái</string>
+  <string name="navigation_bar_left_summary">Đặt thanh điều hướng ở cạnh bên trái của màn hình trong chế độ nằm ngang</string>
+  <string name="smartbar_interface">Thanh thông minh</string>
+  <string name="icon_pack_picker_dialog_title">Gói biểu tượng</string>
+  <string name="image_exceeds_max_allowed_size">Hình ảnh không vượt quá 512x512</string>
+  <string name="invalid_icon_from_uri">Không thể tải hình ảnh từ nội dung của nhà cung cấp</string>
+  <string name="picker_activities">Hoạt động</string>
+  <string name="select_custom_app_title">Chọn ứng dụng tùy chỉnh</string>
+  <string name="select_custom_activity_title">Chọn hành động tùy chỉnh</string>
+  <string name="profile_applist_title">Ứng dụng</string>
+  <string name="default_string">Gốc</string>
+  <string name="default_settings">Cài đặt gốc</string>
+  <string name="default_settings_summary">Thanh điều hướng AOSP gốc</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
-  <string name="choose_action_title">Choose action</string>
-  <string name="action_entry_default_action">Default settings</string>
-  <string name="action_entry_select_app">Select application</string>
-  <string name="action_entry_custom_action">Select custom action</string>
+  <string name="choose_action_title">Chọn hành động</string>
+  <string name="action_entry_default_action">Cài đặt mặc định</string>
+  <string name="action_entry_select_app">Chọn ứng dụng</string>
+  <string name="action_entry_custom_action">Chọn hành động tùy chỉnh</string>
   <!-- Fling -->
-  <string name="fling_settings">Fling settings</string>
-  <string name="fling_settings_summary">A very unique and fully-customizable gesture-based navigation bar</string>
+  <string name="fling_settings">Cài đặt Fling</string>
+  <string name="fling_settings_summary">Thanh điều hướng theo cử chỉ rất cụ thể và có thể tuỳ chỉnh hoàn toàn</string>
   <string name="fling_interface">Fling</string>
-  <string name="fling_enable_title">Enable Fling</string>
-  <string name="fling_back_home_policy">Back and Home are required to be set at all times. To change a Back or Home assignment, set the desired assignment first.\n\nAlso, setting a double tap action will delay single tap a bit.</string>
-  <string name="fling_split_bar_policy">When only a right or left action is assigned, the action applies to the full bar.</string>
-  <string name="fling_def_summary">No action set</string>
-  <string name="fling_swipe_actions">Swipe gestures</string>
+  <string name="fling_enable_title">Bật Fling</string>
+  <string name="fling_back_home_policy">Quay lại và Trang chủ phải được đặt mọi lúc. Để thay đổi nhiệm vụ của Quay lại hoặc Trang chủ, trước tiên hãy thiết lập công việc bạn muốn.\n\nNgoài ra, cài đặt thao tác nhấp đôi sẽ làm chậm trễ nhấp đơn một chút.</string>
+  <string name="fling_split_bar_policy">Khi chỉ có một bên hành động phải hoặc trái được ấn định, hành động này áp dụng cho toàn bộ thanh.</string>
+  <string name="fling_def_summary">Không có cài đặt hành động nào</string>
+  <string name="fling_swipe_actions">Cử chỉ vuốt</string>
   <string name="fling_tap_actions">Cử chỉ chạm</string>
   <string name="fling_short_swipe_right">Vuốt ngắn bên phải</string>
   <string name="fling_short_swipe_left">Vuốt ngắn bên trái</string>
@@ -315,7 +315,7 @@
   <string name="pulse_solid_lines_count">Số đường liền nét</string>
   <string name="pulse_solid_units_opacity">Độ đậm đường liền nét</string>
   <string name="pulse_solid_dimen_category">Cài đặt chế độ đường liền nét</string>
-  <string name="pulse_custom_buttons_opacity_title">Smartbar buttons opacity on Pulse</string>
+  <string name="pulse_custom_buttons_opacity_title">Độ mờ nút bấm thanh thông minh khi nhấp nháy</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Độ rộng thanh</string>
   <string name="pulse_custom_div">Khoảng cách thanh</string>
@@ -323,34 +323,34 @@
   <string name="pulse_empty_block_size">Khoảng cách khối</string>
   <!-- Navbar height -->
   <string name="navigation_bar_size_title">Kích thước thanh</string>
-  <string name="portrait_title">Portrait height</string>
-  <string name="land_vert_title">Landscape width</string>
-  <string name="land_hor_title">Landscape height</string>
-  <string name="positive_done">Done</string>
+  <string name="portrait_title">Chiều cao nằm dọc</string>
+  <string name="land_vert_title">Chiều rộng nằm ngang</string>
+  <string name="land_hor_title">Chiều cao nằm ngang</string>
+  <string name="positive_done">Xong</string>
   <!-- SmartBar -->
-  <string name="smartbar_category">Smartbar</string>
-  <string name="smartbar_settings_title">Smartbar settings</string>
-  <string name="smartbar_settings_summary">Fully-customizable navigation bar</string>
-  <string name="smartbar_editor_title">Start edit mode</string>
-  <string name="smartbar_editor_summary">Open smartbar buttons editor</string>
-  <string name="smartbar_help_policy_notice_summary">When in editor mode, medium press and drag a button to change its position or long press a button to show the edit menu. Button position may be changed while menu is showing.\n\nSetting a double tap action will delay single tap a bit.</string>
-  <string name="smartbar_context_menu_position_title">Context buttons layout position</string>
-  <string name="smartbar_context_menu_position_summary">Set the position of contextual buttons such as menu and ime selector</string>
-  <string name="smartbar_right">Right</string>
-  <string name="smartbar_left">Left</string>
-  <string name="smartbar_button_animation_title">Button touch animation</string>
-  <string name="smartbar_button_animation_summary">Set the animation style of the primary buttons when they are pressed</string>
-  <string name="smartbar_button_animation_ripple">Ripple</string>
-  <string name="smartbar_button_animation_spring">Spring</string>
-  <string name="smartbar_button_animation_flip">Flip</string>
-  <string name="smartbar_button_animation_pixel">Pixel (all buttons)</string>
-  <string name="smartbar_button_animation_pixel_home">Pixel (Home button only)</string>
-  <string name="smartbar_button_animation_pixel_home_ripple">Pixel (Home button only) and Ripple</string>
-  <string name="smartbar_factory_reset_title">Reset to stock</string>
-  <string name="smartbar_factory_reset_confirm">Are you sure you want to reset Smartbar to stock settings?</string>
-  <string name="smartbar_ime_action_title">Input method and media actions</string>
-  <string name="smartbar_ime_action_summary">Set what buttons to show when a on-screen keyboard is showing or music is playing</string>
-  <string name="smartbar_ime_action_none">None</string>
+  <string name="smartbar_category">Thanh thông minh</string>
+  <string name="smartbar_settings_title">Cài đặt Thanh thông minh</string>
+  <string name="smartbar_settings_summary">Tùy biến thanh điều hướng đầy đủ</string>
+  <string name="smartbar_editor_title">Bắt đầu chế độ chỉnh sửa</string>
+  <string name="smartbar_editor_summary">Mở trình chỉnh sửa nút thanh thông minh</string>
+  <string name="smartbar_help_policy_notice_summary">Khi ở chế độ chỉnh sửa, nhấn vừa và kéo một nút để thay đổi vị trí hoặc nhấn lâu một nút để hiển thị trình đơn chỉnh sửa. Vị trí nút có thể thay đổi trong khi trình đơn đang hiển thị.\n\nCài đặt một thao tác nhấn đúp sẽ làm chậm trễ một chút.</string>
+  <string name="smartbar_context_menu_position_title">Vị trí bố cục các nút ngữ cảnh</string>
+  <string name="smartbar_context_menu_position_summary">Đặt vị trí của các nút theo ngữ cảnh như trình đơn và trình chọn bàn phím</string>
+  <string name="smartbar_right">Phải</string>
+  <string name="smartbar_left">Trái</string>
+  <string name="smartbar_button_animation_title">Hoạt ảnh chạm nút</string>
+  <string name="smartbar_button_animation_summary">Thiết lập kiểu hoạt ảnh của các nút chính khi chúng được nhấn</string>
+  <string name="smartbar_button_animation_ripple">Gợn sóng</string>
+  <string name="smartbar_button_animation_spring">Nhún nhảy</string>
+  <string name="smartbar_button_animation_flip">Lật</string>
+  <string name="smartbar_button_animation_pixel">Điểm ảnh (Tất cả các nút)</string>
+  <string name="smartbar_button_animation_pixel_home">Điểm ảnh (chỉ nút Home)</string>
+  <string name="smartbar_button_animation_pixel_home_ripple">Điểm ảnh (chỉ nút Home) và Gợn sóng</string>
+  <string name="smartbar_factory_reset_title">Thiết lập lại về gốc</string>
+  <string name="smartbar_factory_reset_confirm">Bạn có chắc chắn muốn thiết lập lại Thanh thông minh về cài đặt gốc?</string>
+  <string name="smartbar_ime_action_title">Phương thức nhập và các hành động phương tiện</string>
+  <string name="smartbar_ime_action_summary">Cài đặt phím nào hiện khi bàn phím trên màn hình đang hiển thị hoặc âm nhạc đang phát</string>
+  <string name="smartbar_ime_action_none">Bỏ chọn tất cả</string>
   <string name="smartbar_ime_action_arrows">Mũi tên nhập liệu</string>
   <string name="smartbar_ime_action_switcher">Chuyển đổi bàn phím</string>
   <string name="smartbar_ime_action_dynamic">Mũi tên đầu vào/phương tiện</string>
@@ -384,7 +384,7 @@
   <string name="navigation_keys_summary">Tùy chỉnh phím điều hướng trong màn hình</string>
   <string name="hardware_keys_summary">Tùy chỉnh các nút phần cứng</string>
   <!-- Hardware button navigation -->
-  <string name="hardware_keys_volume_keys_title">Volume rocker</string>
+  <string name="hardware_keys_volume_keys_title">Nút âm lượng</string>
   <string name="hardware_keys_home_key_title">Nút Home</string>
   <string name="hardware_keys_menu_key_title">Nút Menu</string>
   <string name="hardware_keys_assist_key_title">Nút Tìm kiếm</string>
@@ -404,22 +404,42 @@
   <string name="button_backlight_enable_title">Bật đèn nền phím</string>
   <string name="button_link_brightness">Liên kết đến độ sáng màn hình</string>
   <string name="button_link_brightness_summary">Nút đèn nền sẽ điều chỉnh dựa trên mức độ sáng màn hình</string>
-  <string name="button_manual_brightness">Brightness level</string>
-  <string name="button_timeout_title">Backlight timeout</string>
-  <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
-  <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
+  <string name="button_manual_brightness">Cường độ ánh sáng</string>
+  <string name="button_timeout_title">Thời gian chờ của đèn nền phím</string>
+  <string name="button_backlight_on_touch_only_title">Thời gian chờ đèn nền</string>
+  <string name="button_backlight_on_touch_only_summary">Đèn nền phím chỉ sáng khi chạm vào các nút điện dung. Tự động tắt khi hết thời gian chờ đèn nền phím.</string>
   <!-- Volume rocker music control -->
-  <string name="volume_button_music_control_title">Playback control</string>
-  <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+  <string name="volume_button_music_control_title">Điều khiển phát lại</string>
+  <string name="volume_button_music_control_summary">Khi màn hình tắt, nhấn giữ các nút âm lượng chuyển bài</string>
   <!-- Volume key controls media stream -->
-  <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
-  <string name="volume_keys_control_media_stream_summary">Force volume keys to control media stream</string>
+  <string name="volume_keys_control_media_stream_title">Phím âm lượng điều khiển âm lượng phương tiện</string>
+  <string name="volume_keys_control_media_stream_summary">Luôn dùng nút âm lượng để điều khiển các phương tiện truyền thông</string>
   <!-- Volume rocker wake -->
-  <string name="volume_rocker_wake_title">Volume wake</string>
-  <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+  <string name="volume_rocker_wake_title">Đánh thức bằng phím âm lượng</string>
+  <string name="volume_rocker_wake_summary">Đánh thức thiết bị bằng phím âm lượng</string>
   <!-- Volume key rotation -->
-  <string name="swap_volume_buttons_title">Reorient</string>
-  <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
-  <string name="smartbar_double_tap_sleep_title">Double tap to sleep</string>
-  <string name="smartbar_double_tap_sleep_summary">Double tap on empty navbar areas to sleep</string>
+  <string name="swap_volume_buttons_title">Đảo chiều phím âm lượng</string>
+  <string name="swap_volume_buttons_summary">Đảo vị trí các nút âm lượng khi màn hình xoay</string>
+  <string name="smartbar_double_tap_sleep_title">Chạm hai lần để tắt màn hình</string>
+  <string name="smartbar_double_tap_sleep_summary">Nhấn đúp vào vùng trống thanh điều hướng để tắt màn hình</string>
+  <!-- Torch Power button gestures -->
+  <string name="torch_power_button_flash_title">Torch gestures</string>
+  <string name="torch_power_button_flash_summary">Power button flash gestures</string>
+  <string name="torch_power_button_gesture_title">Screen off power button torch</string>
+  <string name="torch_power_button_gesture_none">Disabled</string>
+  <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
+  <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+  <string name="link_volume_option_title">Link ring and notification volume</string>
+  <!-- Heads up -->
+  <string name="headsup_title">Heads up</string>
+  <string name="headsup_summary">Configure heads up options</string>
+  <string name="heads_up_title">Allow Heads up</string>
+  <string name="heads_up_summary_enabled">Heads-up notifications are enabled</string>
+  <string name="heads_up_summary_disabled">Heads-up notifications are disabled</string>
+  <string name="heads_up_blacklist_add_package_title">Add app</string>
+  <string name="heads_up_blacklist_add_package_summary">Disable heads-up notifications in these applications</string>
+  <string name="heads_up_blacklist_title">Blacklist</string>
+  <string name="heads_up_blacklist_choose_app">Select app</string>
+  <string name="heads_up_blacklist_dialog_delete_title">Delete</string>
+  <string name="heads_up_blacklist_dialog_delete_message">Remove selected item?</string>
 </resources>
