@@ -20,7 +20,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="rom_version_title">Phiên bản ArrowOS</string>
   <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> là <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabler_summary"><xliff:g id="tên hiển thị">%1$s</xliff:g> là <xliff:g id="trạng thái" thí dụ="tàn tật">%2$s</xliff:g></string>
   <string name="sim_disabled">đã tắt</string>
   <string name="sim_missing">thiếu hoặc bị lỗi</string>
   <string name="sim_enabler_need_disable_sim">Thẻ SIM sẽ bị ngừng hoạt động. Bạn có muốn tiếp tục?</string>
