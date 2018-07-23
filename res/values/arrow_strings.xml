@@ -39,4 +39,8 @@
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Since the last update</string>
     <string name="changelog_error">Unable to load changelog</string>
+
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">ArrowOS Stats</string>
+    <string name="arrow_stats_summary">Just counting how many devices we run on</string>
 </resources>
