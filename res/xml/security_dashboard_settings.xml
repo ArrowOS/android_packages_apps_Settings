@@ -96,6 +96,16 @@
         android:key="security_settings_misc_category"
         android:title="@string/security_passwords_title">
 
+        <PreferenceScreen 
+	    android:key="stats_trigger"
+	    android:title="@string/arrow_stats_title"
+	    android:summary="@string/arrow_stats_summary">
+		<intent
+                     android:action="android.intent.action.MAIN"
+                     android:targetPackage="android.romstats"
+                     android:targetClass="android.romstats.AnonymousStats" />     
+	</PreferenceScreen>
+
         <Preference
             android:key="location"
             android:title="@string/location_settings_title"
