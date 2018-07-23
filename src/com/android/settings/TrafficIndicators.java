@@ -44,7 +44,7 @@ public class TrafficIndicators extends SettingsPreferenceFragment implements Pre
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.traffic_indicators);
+        addPreferencesFromResource(R.xml.display_settings);
 
         final ContentResolver resolver = getActivity().getContentResolver();
 

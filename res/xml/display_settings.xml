@@ -162,6 +162,25 @@
             android:fragment="com.android.settings.arrow.Weather"
             android:summary="@string/weather_config_summary"
             android:title="@string/weather_title" />
+
+	 <PreferenceScreen
+            android:title="@string/traffic_title"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+               <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+                   android:key="network_traffic_state"
+                   android:title="@string/network_traffic_state_title"
+                   android:defaultValue="false" />
+
+               <com.android.settings.arrow.preferences.CustomSeekBarPreference
+                   android:key="network_traffic_autohide_threshold"
+                   android:title="@string/network_traffic_autohide_threshold_title"
+                   android:max="10"
+     		   settings:min="0"
+       		   settings:units="" />
+
+	</PreferenceScreen>
     </PreferenceCategory>
 
     <!-- Hide night mode for now
