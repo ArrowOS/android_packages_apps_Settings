@@ -73,4 +73,8 @@
 
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Screenshot sound</string>
+
+    <!-- meh ganeshi4u -->
+    <string name="arrow_stats_title">ArrowOS Stats</string>
+    <string name="arrow_stats_summary">we ain\'t stealing your nuds!</string>
 </resources>
