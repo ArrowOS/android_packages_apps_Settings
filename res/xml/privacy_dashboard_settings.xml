@@ -44,6 +44,17 @@
         <intent android:action="android.intent.action.REVIEW_ACCESSIBILITY_SERVICES"/>
     </Preference>
 
+    <!-- ArrowOS stats -->
+    <Preference
+        android:key="stats_trigger"
+        android:title="@string/arrow_stats_title"
+        android:summary="@string/arrow_stats_summary">
+        <intent
+             android:action="android.intent.action.MAIN"
+             android:targetPackage="android.romstats"
+             android:targetClass="android.romstats.AnonymousStats" />
+    </Preference>
+
     <!-- Permissions usage -->
     <Preference
         android:key="privacy_permissions_usage"
