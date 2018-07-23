@@ -39,4 +39,8 @@
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Since the last update</string>
     <string name="changelog_error">Unable to load changelog</string>
+
+    <!-- meh ganeshi4u -->
+    <string name="arrow_stats_title">ArrowOS Stats</string>
+    <string name="arrow_stats_summary">we ain\'t stealing your nuds!</string>
 </resources>
