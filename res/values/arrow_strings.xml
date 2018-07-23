@@ -569,4 +569,7 @@
     <string name="led_color_green">Green</string>
     <string name="led_color_red">Red</string>
     <string name="led_color_blue">Blue</string>
+
+    <string name="arrow_stats_title">ArrowOS Stats</string>
+    <string name="arrow_stats_summary">we ain\'t stealing your nuds!</string>
 </resources>
