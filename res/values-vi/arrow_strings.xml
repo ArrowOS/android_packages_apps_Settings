@@ -20,7 +20,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="rom_version_title">Phiên bản ArrowOS</string>
   <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> là <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabler_summary"><xliff:g id="tên hiển thị">%1$s</xliff:g> là <xliff:g id="trạng thái" thí dụ="tàn tật">%2$s</xliff:g></string>
   <string name="sim_disabled">đã tắt</string>
   <string name="sim_missing">thiếu hoặc bị lỗi</string>
   <string name="sim_enabler_need_disable_sim">Thẻ SIM sẽ bị ngừng hoạt động. Bạn có muốn tiếp tục?</string>
@@ -52,7 +52,6 @@
   <string name="powermenu_ls_airplane_summary">Hiển thị tùy chọn chế độ máy bay trên màn hình khóa</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="lockscreen_items_other">Khác</string>
-  <string name="reset">Thiết lập lại</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Độ sáng</string>
   <string name="night_brightness_value_title">Giảm độ sáng nếu ánh sáng ban đêm</string>
@@ -163,7 +162,7 @@
   <string name="battery_percent_inside">Hiển thị bên trong biểu tượng</string>
   <!-- Roaming indicator icon -->
   <string name="roaming_indicator_icon_title">Hiển thị chỉ báo chuyển vùng</string>
-  <string name="roaming_indicator_icon_summary">Hiển thị chỉ số chuyển vùng trong biểu tượng tín hiệu khi ở chế độ chuyểm vùng</string>
+  <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Thời tiết</string>
   <string name="weather_config_title">Cài đặt dịch vụ</string>
@@ -442,4 +441,79 @@
   <string name="heads_up_blacklist_choose_app">Select app</string>
   <string name="heads_up_blacklist_dialog_delete_title">Delete</string>
   <string name="heads_up_blacklist_dialog_delete_message">Remove selected item?</string>
+  <!-- Quick Settings brightness icon -->
+  <string name="brightness_icon_title">Brightness slider icon</string>
+  <string name="brightness_icon_summary">Quick Settings brightness icon to toggle auto-brightness</string>
+  <!-- Notification light dialogs -->
+  <string name="ok">Okay</string>
+  <string name="reset">Thiết lập lại</string>
+  <string name="advanced">Advanced</string>
+  <string name="profiles_add">Add...</string>
+  <string name="edit_light_settings">Edit light settings</string>
+  <string name="pulse_speed_title">Pulse length and speed</string>
+  <string name="default_time">Normal</string>
+  <string name="custom_time">Custom</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_always_on">Always on</string>
+  <string name="pulse_length_very_short">Very short</string>
+  <string name="pulse_length_short">Short</string>
+  <string name="pulse_length_normal">Normal</string>
+  <string name="pulse_length_long">Long</string>
+  <string name="pulse_length_very_long">Very long</string>
+  <string name="pulse_speed_very_fast">Very fast</string>
+  <string name="pulse_speed_fast">Fast</string>
+  <string name="pulse_speed_normal">Normal</string>
+  <string name="pulse_speed_slow">Slow</string>
+  <string name="pulse_speed_very_slow">Very slow</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">Notification light</string>
+  <string name="notification_light_title_summary">Enable pulsing notification LED</string>
+  <string name="notification_light_general_title">General</string>
+  <string name="notification_light_applist_title">Apps</string>
+  <string name="notification_light_phonelist_title">Phone</string>
+  <string name="notification_light_use_custom">Use custom values</string>
+  <string name="notification_light_use_custom_summary">Enable to set per app notification colors</string>
+  <string name="notification_light_default_value">Default</string>
+  <string name="notification_light_missed_call_title">Missed call</string>
+  <string name="notification_light_voicemail_title">Voicemail</string>
+  <string name="notification_light_screen_on">Lights with screen on</string>
+  <string name="notification_light_zen_mode">Lights in Do Not Disturb mode</string>
+  <string name="notification_light_use_multiple_leds">Multiple LEDs</string>
+  <!-- Notification light settings -->
+  <string name="leds_category_title">LED Options</string>
+  <string name="battery_light_settings">Battery light</string>
+  <string name="led_notification_title">Light settings</string>
+  <string name="led_notification_text">LED light enabled by settings</string>
+  <string name="notification_light_no_apps_summary">To add per app control, activate \'%1$s\' and press \'\u002b\' on the menu bar</string>
+  <!-- Battery light settings  -->
+  <string name="batterylight_title">Battery LED settings</string>
+  <string name="battery_light_enable">Enable</string>
+  <string name="battery_low_pulse_title">Pulse if battery low</string>
+  <string name="battery_light_only_full_charge_title">Only light up when fully charged</string>
+  <string name="battery_light_list_title">Colors</string>
+  <string name="battery_light_low_color_title">Battery low</string>
+  <string name="battery_light_medium_color_title">Charging</string>
+  <string name="battery_light_full_color_title">Charged (90%)</string>
+  <string name="battery_light_really_full_color_title">Charged (100%)</string>
+  <string name="edit_battery_settings">Edit battery settings</string>
+  <string name="led_color_green">Green</string>
+  <string name="led_color_red">Red</string>
+  <string name="led_color_blue">Blue</string>
+  <string name="arrow_stats_title">ArrowOS Stats</string>
+  <string name="arrow_stats_summary">we ain\'t stealing your nuds!</string>
+  <!-- Network traffic -->
+  <string name="traffic_title">Traffic indicators</string>
+  <string name="network_traffic_title">Network traffic</string>
+  <string name="network_traffic_type">Select net activity type</string>
+  <string name="show_network_traffic_up">Uplink</string>
+  <string name="show_network_traffic_down">Downlink</string>
+  <string name="show_network_traffic_all">Uplink and Downlink</string>
+  <string name="network_traffic_state_title">Show net activity in statusbar</string>
+  <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+  <!-- Pocket judge -->
+  <string name="pocket_judge_title">Pocket detection</string>
+  <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+  <!-- Face auto unlock -->
+  <string name="face_auto_unlock_title">Face auto unlock</string>
+  <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
 </resources>
