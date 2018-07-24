@@ -18,6 +18,7 @@ package com.android.settings.notification;
 
 import android.content.Context;
 import android.content.Intent;
+import android.hardware.fingerprint.FingerprintManager;
 import android.media.AudioManager;
 import android.os.Bundle;
 import android.os.Handler;
@@ -28,8 +29,10 @@ import android.preference.SeekBarVolumizer;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v7.preference.TwoStatePreference;
+import android.support.v14.preference.SwitchPreference;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -58,9 +61,12 @@ public class SoundSettings extends DashboardFragment {
 
     private final VolumePreferenceCallback mVolumeCallback = new VolumePreferenceCallback();
     private final H mHandler = new H();
+    private final PreferenceScreen prefScreen = getPreferenceScreen();
 
     private RingtonePreference mRequestPreference;
     private TwoStatePreference mVolumeLinkNotification;
+    private FingerprintManager mFingerprintManager;
+    private SwitchPreference mFingerprintVib;
 
     @Override
     public void onAttach(Context context) {
@@ -88,6 +94,13 @@ public class SoundSettings extends DashboardFragment {
             updateVolumeLinkNotification();
         } else {
             removePreference(KEY_VOLUME_LINK_NOTIFICATION);
+        }
+
+	// Remove the fingerprint success vibration toggle for device that doesnt support it
+        mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
+        mFingerprintVib = (SwitchPreference) prefScreen.findPreference("fingerprint_success_vib");
+        if (!mFingerprintManager.isHardwareDetected()){
+            prefScreen.removePreference(mFingerprintVib);
         }
     }
 
