@@ -189,7 +189,7 @@
 
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">Roaming indicator</string>
-    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+    <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
 
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Weather</string>
@@ -507,7 +507,7 @@
 
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Brightness slider icon</string>
-    <string name="brightness_icon_summary">Show a brightness icon to the left of the brightness slider to toggle auto-brightness</string>
+    <string name="brightness_icon_summary">brightness icon to toggle auto-brightness</string>
 
     <!-- Notification light dialogs -->
     <string name="ok">Okay</string>
