@@ -107,7 +107,7 @@
     <string name="security_settings_fingerprint_sensor_location_right">right side</string>
 
     <!-- Other gestures -->
-    <string name="other_gestures">Other gestures</string>
+    <string name="other_gestures">Device specific gestures</string>
 
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
@@ -483,8 +483,8 @@
     <string name="smartbar_double_tap_sleep_summary">Double tap on empty navbar areas to sleep</string>
 
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_flash_title">Torch gestures</string>
-    <string name="torch_power_button_flash_summary">Power button flash gestures</string>
+    <string name="torch_power_button_flash_title">Miscellaneous gestures</string>
+    <string name="torch_power_button_flash_summary">Moar gestures</string>
     <string name="torch_power_button_gesture_title">Screen off power button torch</string>
     <string name="torch_power_button_gesture_none">Disabled</string>
     <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
@@ -630,4 +630,8 @@
     <string name="recents_clear_all_location_bottom_right">Bottom right</string>
     <string name="recents_clear_all_location_bottom_left">Bottom left</string>
     <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+
+    <!-- Bottom Navigations -->
+    <string name="use_bottom_gesture_title">Use swipe up gestures for navigation</string>
+    <string name="use_bottom_gesture_summary">Works only with navigation bar disable</string>
 </resources>
