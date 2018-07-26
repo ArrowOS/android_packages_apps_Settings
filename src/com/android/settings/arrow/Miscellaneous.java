@@ -37,7 +37,10 @@ import com.android.internal.logging.nano.MetricsProto;
 public class Miscellaneous extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
 
     private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
+    private static final String USE_GESTURE_NAVIGATION = "use_bottom_gesture";
+
     private ListPreference mTorchPowerButton;
+    private SwitchPreference mGestureNavigation;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -46,7 +49,12 @@ public class Miscellaneous extends SettingsPreferenceFragment implements Prefere
 
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
-    
+
+	mGestureNavigation = (SwitchPreference) findPreference(USE_GESTURE_NAVIGATION);
+        mGestureNavigation.setChecked(Settings.System.getInt(resolver,
+               Settings.System.USE_BOTTOM_GESTURE_NAVIGATION, 0) == 1);
+        mGestureNavigation.setOnPreferenceChangeListener(this);
+
         if (!DUActionUtils.deviceSupportsFlashLight(getContext())) {
             Preference toRemove = prefScreen.findPreference(TORCH_POWER_BUTTON_GESTURE);
             if (toRemove != null) {
@@ -77,6 +85,11 @@ public class Miscellaneous extends SettingsPreferenceFragment implements Prefere
                 Settings.Secure.putInt(resolver, Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED,
                         1);
             }
+            return true;
+        } else if (preference == mGestureNavigation) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.USE_BOTTOM_GESTURE_NAVIGATION, value ? 1 : 0);
             return true;
         }
         return false;
