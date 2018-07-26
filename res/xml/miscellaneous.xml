@@ -20,4 +20,10 @@
         android:title="@string/torch_power_button_gesture_title"
         android:entries="@array/torch_power_button_gesture_entries"
         android:entryValues="@array/torch_power_button_gesture_values" />
+
+    <SwitchPreference
+        android:key="use_bottom_gesture"
+        android:title="@string/use_bottom_gesture_title"
+        android:summary="@string/use_bottom_gesture_summary"
+        android:persistent="false" />
 </PreferenceScreen>
