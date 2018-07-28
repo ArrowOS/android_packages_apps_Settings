@@ -95,7 +95,7 @@
   <string name="proximity_wake_summary">Controllare il sensore di prossimità prima di riattivare lo schermo</string>
   <string name="applying_theme_toast">Applicazione del tema in corso, attendere prego...</string>
   <string name="theme_applied_toast">Tema applicato!</string>
-  <string name="substratum_installed_title">System themes are unavailable because a Substratum overlay is installed. Please uninstall all overlays targeting Android System to proceed.</string>
+  <string name="substratum_installed_title">I temi di sistema non sono disponibili perché è installato Substratum. Si prega di disinstallare tutti i temi di Substratum con targeting Android System per procedere.</string>
   <!--Double Tap to Sleep Lockscreen-->
   <string name="double_tap_sleep_lockscreen">Doppio tap per spegnere lo schermo dalla schermata di blocco</string>
   <!--Quick pulldown-->
@@ -162,13 +162,13 @@
   <string name="battery_percent_inside">Mostra all\'interno dell\'icona</string>
   <!-- Roaming indicator icon -->
   <string name="roaming_indicator_icon_title">Indicatore roaming</string>
-  <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
+  <string name="roaming_indicator_icon_summary">Visualizza l\'indicatore di roaming nell\'icona del segnale quando si è in modalità roaming</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Meteo</string>
   <string name="weather_config_title">Impostazioni servizio meteo</string>
   <string name="weather_config_summary">Meteo nella barra di stato e nella schermata di blocco</string>
   <string name="header_weather_title">Visualizza meteo nell\'intestazione</string>
-  <string name="header_weather_summary">Enable notification panel header weather display</string>
+  <string name="header_weather_summary">Attiva la visualizzazione del meteo nell\'intestazione del pannello delle notifiche</string>
   <string name="weather_icon_pack_title">Pacchetto icone condizioni meteo</string>
   <string name="weather_icon_pack_note">Nota\u003a puoi installare nuovi pacchetti dal play store cercando \"Chronus icons\"</string>
   <!-- StatusBar weather settings -->
@@ -201,10 +201,10 @@
   <!-- QS rows and columns -->
   <string name="qs_rows_columns_title">Ritocchi pannello impostazioni rapide</string>
   <string name="qs_rows_columns_summary">Righe e colonne pannello impostazioni rapide, opacità panello impostazioni rapide</string>
-  <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
-  <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
-  <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
-  <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
+  <string name="qs_rows_portrait_title">Righe dei tiles in verticale</string>
+  <string name="qs_rows_landscape_title">Righe dei tiles in orizzontale</string>
+  <string name="qs_columns_portrait_title">Colonne dei tiles in verticale</string>
+  <string name="qs_columns_landscape_title">Colonne dei tiles in orizzontale</string>
   <!-- QuickSettings Panel Transparency -->
   <string name="qs_panel_alpha_title">Opacità pannello impostazioni rapide</string>
   <!-- Statusbar Iten -->
@@ -237,10 +237,10 @@
   <string name="action_entry_select_app">Seleziona applicazione</string>
   <string name="action_entry_custom_action">Seleziona azione personalizzata</string>
   <!-- Fling -->
-  <string name="fling_settings">Fling settings</string>
+  <string name="fling_settings">Impostazioni Fling</string>
   <string name="fling_settings_summary">Una barra di navigazione unica completamente personalizzabile e basata sulle gesture</string>
   <string name="fling_interface">Fling</string>
-  <string name="fling_enable_title">Enable Fling</string>
+  <string name="fling_enable_title">Abilita Fling</string>
   <string name="fling_back_home_policy">Indietro e Home devono sempre essere impostati. Per cambiare un\'assegnazione dei pulsanti Indietro o Home, imposta prima la funzione desiderata.\n\nInoltre, impostare un\'azione a doppio tocco rallenterà leggermente l\'azione al tocco singolo.</string>
   <string name="fling_split_bar_policy">Quando è assegnata solamente un\'azione a destra o a sinistra, l\'azione viene applicata su tutta la barra.</string>
   <string name="fling_def_summary">Nessuna azione impostata</string>
@@ -271,13 +271,13 @@
   <string name="long_swipe_reset">Ripristina</string>
   <string name="fling_advanced">Avanzate</string>
   <string name="fling_long_swipe_title">Limite di strisciata lunga</string>
-  <string name="fling_long_swipe_summary">Fine tune long swipe thresholds based on a percentage of Fling interface width or height</string>
+  <string name="fling_long_swipe_summary">Regola la soglia dello scorrimento lungo basata su una percentuale dell\'altezza o della larghezza dell\'interfaccia di Fling</string>
   <string name="fling_trails_enable_title">Abilita traccia gesti</string>
   <string name="fling_trails_enable_summary">Mostra una scia durante i gesti di strisciamento delle dita</string>
   <string name="fling_trails_color_title">Colore della scia</string>
   <string name="fling_trails_width_title">Larghezza della scia</string>
   <string name="fling_appearance">Aspetto</string>
-  <string name="fling_show_logo_title">Show Fling logo</string>
+  <string name="fling_show_logo_title">Mostra logo Fling</string>
   <string name="fling_animate_logo_title">Logo animato</string>
   <string name="fling_animate_logo_summary">Logo animato al tocco</string>
   <string name="fling_logo_color">Colore logo</string>
@@ -516,4 +516,39 @@
   <!-- Face auto unlock -->
   <string name="face_auto_unlock_title">Face auto unlock</string>
   <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+  <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+  <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered. It is recommended that you use a pin under 6 digits. If PIN Crosses 6 digits, you may be locked out. You have been warned!</string>
+  <!-- Battery stats reset -->
+  <string name="battery_stats_reset">Reset stats</string>
+  <string name="battery_stats_message">Battery history stats are going to be reset</string>
+  <string name="ok_string">Ok</string>
+  <!-- Expanded desktop -->
+  <string name="power_menu_expanded_desktop">Expanded desktop</string>
+  <string name="expanded_hide_nothing">Hide nothing</string>
+  <string name="expanded_hide_status">Hide status bar</string>
+  <string name="expanded_hide_navigation">Hide navigation bar</string>
+  <string name="expanded_hide_both">Hide both</string>
+  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
+  <string name="expanded_desktop_state">Expanded state</string>
+  <string name="expanded_enabled_for_all">Enabled for all</string>
+  <string name="expanded_user_configurable">User configurable</string>
+  <string name="expanded_desktop_style">Expanded desktop style</string>
+  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
+  <string name="expanded_desktop_title">Expanded desktop options</string>
+  <!-- Clear all recents -->
+  <string name="aosp_recents_title">AOSP recents</string>
+  <string name="show_clear_all_recents_button_title">Clear-all FAB</string>
+  <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
+  <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
+  <string name="recents_clear_all_location_title">Clear all FAB location</string>
+  <string name="recents_clear_all_location_top_right">Top right</string>
+  <string name="recents_clear_all_location_top_left">Top left</string>
+  <string name="recents_clear_all_location_top_center">Top center</string>
+  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
 </resources>

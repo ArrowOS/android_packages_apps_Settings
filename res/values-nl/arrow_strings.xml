@@ -162,7 +162,7 @@
   <string name="battery_percent_inside">Toon in het pictogram</string>
   <!-- Roaming indicator icon -->
   <string name="roaming_indicator_icon_title">Roaming Indicator</string>
-  <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
+  <string name="roaming_indicator_icon_summary">Toon roaming indicator in het signaal pictogram wanneer het toestel aan het roamen is</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Weer</string>
   <string name="weather_config_title">Service-instellingen</string>
@@ -442,78 +442,113 @@
   <string name="heads_up_blacklist_dialog_delete_title">Verwijderen</string>
   <string name="heads_up_blacklist_dialog_delete_message">Geselecteerd item verwijderen?</string>
   <!-- Quick Settings brightness icon -->
-  <string name="brightness_icon_title">Brightness slider icon</string>
-  <string name="brightness_icon_summary">Quick Settings brightness icon to toggle auto-brightness</string>
+  <string name="brightness_icon_title">Schuifregelaar helderheid pictogram</string>
+  <string name="brightness_icon_summary">Snelle instelling helderheid pictogram voor Auto-Helderheid in te schakelen</string>
   <!-- Notification light dialogs -->
-  <string name="ok">Okay</string>
+  <string name="ok">Oké</string>
   <string name="reset">Reset</string>
-  <string name="advanced">Advanced</string>
-  <string name="profiles_add">Add...</string>
-  <string name="edit_light_settings">Edit light settings</string>
-  <string name="pulse_speed_title">Pulse length and speed</string>
-  <string name="default_time">Normal</string>
-  <string name="custom_time">Custom</string>
+  <string name="advanced">Geavanceerd</string>
+  <string name="profiles_add">Toevoegen...</string>
+  <string name="edit_light_settings">Lichtinstellingen aanpassen</string>
+  <string name="pulse_speed_title">Duur en snelheid van knipperen</string>
+  <string name="default_time">Normaal</string>
+  <string name="custom_time">Aangepast</string>
   <!-- Values for the notification light pulse spinners -->
-  <string name="pulse_length_always_on">Always on</string>
-  <string name="pulse_length_very_short">Very short</string>
-  <string name="pulse_length_short">Short</string>
-  <string name="pulse_length_normal">Normal</string>
-  <string name="pulse_length_long">Long</string>
-  <string name="pulse_length_very_long">Very long</string>
-  <string name="pulse_speed_very_fast">Very fast</string>
-  <string name="pulse_speed_fast">Fast</string>
-  <string name="pulse_speed_normal">Normal</string>
-  <string name="pulse_speed_slow">Slow</string>
-  <string name="pulse_speed_very_slow">Very slow</string>
+  <string name="pulse_length_always_on">Altijd aan</string>
+  <string name="pulse_length_very_short">Zeer kort</string>
+  <string name="pulse_length_short">Kort</string>
+  <string name="pulse_length_normal">Normaal</string>
+  <string name="pulse_length_long">Lang</string>
+  <string name="pulse_length_very_long">Zeer lang</string>
+  <string name="pulse_speed_very_fast">Zeer snel</string>
+  <string name="pulse_speed_fast">Snel</string>
+  <string name="pulse_speed_normal">Normaal</string>
+  <string name="pulse_speed_slow">Langzaam</string>
+  <string name="pulse_speed_very_slow">Zeer langzaam</string>
   <!-- Lights settings screen, notification light settings -->
-  <string name="notification_light_title">Notification light</string>
-  <string name="notification_light_title_summary">Enable pulsing notification LED</string>
-  <string name="notification_light_general_title">General</string>
+  <string name="notification_light_title">Meldingsled</string>
+  <string name="notification_light_title_summary">Pulserende notificatie LED aanzetten</string>
+  <string name="notification_light_general_title">Algemeen</string>
   <string name="notification_light_applist_title">Apps</string>
-  <string name="notification_light_phonelist_title">Phone</string>
-  <string name="notification_light_use_custom">Use custom values</string>
-  <string name="notification_light_use_custom_summary">Enable to set per app notification colors</string>
-  <string name="notification_light_default_value">Default</string>
-  <string name="notification_light_missed_call_title">Missed call</string>
+  <string name="notification_light_phonelist_title">Telefoon</string>
+  <string name="notification_light_use_custom">Aangepaste waarden gebruiken</string>
+  <string name="notification_light_use_custom_summary">Toestaan om per app notificatiekleuren in te stellen</string>
+  <string name="notification_light_default_value">Standaard</string>
+  <string name="notification_light_missed_call_title">Gemiste oproep</string>
   <string name="notification_light_voicemail_title">Voicemail</string>
-  <string name="notification_light_screen_on">Lights with screen on</string>
-  <string name="notification_light_zen_mode">Lights in Do Not Disturb mode</string>
-  <string name="notification_light_use_multiple_leds">Multiple LEDs</string>
+  <string name="notification_light_screen_on">Meldingsled met scherm aan</string>
+  <string name="notification_light_zen_mode">Meldingsled in modus \'Niet storen\'</string>
+  <string name="notification_light_use_multiple_leds">Meerdere LEDs</string>
   <!-- Notification light settings -->
-  <string name="leds_category_title">LED Options</string>
-  <string name="battery_light_settings">Battery light</string>
-  <string name="led_notification_title">Light settings</string>
-  <string name="led_notification_text">LED light enabled by settings</string>
-  <string name="notification_light_no_apps_summary">To add per app control, activate \'%1$s\' and press \'\u002b\' on the menu bar</string>
+  <string name="leds_category_title">LED-instellingen</string>
+  <string name="battery_light_settings">Batterij licht</string>
+  <string name="led_notification_title">Licht instellingen</string>
+  <string name="led_notification_text">LED-verlichting ingeschakeld door instellingen</string>
+  <string name="notification_light_no_apps_summary">Om controle per app toe te voegen, activeer %1$s en tik \'\u002b\' op de menubalk</string>
   <!-- Battery light settings  -->
-  <string name="batterylight_title">Battery LED settings</string>
-  <string name="battery_light_enable">Enable</string>
-  <string name="battery_low_pulse_title">Pulse if battery low</string>
-  <string name="battery_light_only_full_charge_title">Only light up when fully charged</string>
-  <string name="battery_light_list_title">Colors</string>
-  <string name="battery_light_low_color_title">Battery low</string>
-  <string name="battery_light_medium_color_title">Charging</string>
-  <string name="battery_light_full_color_title">Charged (90%)</string>
-  <string name="battery_light_really_full_color_title">Charged (100%)</string>
-  <string name="edit_battery_settings">Edit battery settings</string>
-  <string name="led_color_green">Green</string>
-  <string name="led_color_red">Red</string>
-  <string name="led_color_blue">Blue</string>
-  <string name="arrow_stats_title">ArrowOS Stats</string>
-  <string name="arrow_stats_summary">we ain\'t stealing your nuds!</string>
+  <string name="batterylight_title">Batterij LED instellingen</string>
+  <string name="battery_light_enable">Inschakelen</string>
+  <string name="battery_low_pulse_title">Knipperen bij laag batterijniveau</string>
+  <string name="battery_light_only_full_charge_title">Alleen oplichten bij volledig opgeladen batterij</string>
+  <string name="battery_light_list_title">Kleuren</string>
+  <string name="battery_light_low_color_title">Laag batterijniveau</string>
+  <string name="battery_light_medium_color_title">Opladen</string>
+  <string name="battery_light_full_color_title">Opgeladen (90%)</string>
+  <string name="battery_light_really_full_color_title">Opgeladen (100%)</string>
+  <string name="edit_battery_settings">Batterij instellingen bewerken</string>
+  <string name="led_color_green">Groen</string>
+  <string name="led_color_red">Rood</string>
+  <string name="led_color_blue">Blauw</string>
+  <string name="arrow_stats_title">ArrowOS Statistieken</string>
+  <string name="arrow_stats_summary">we stelen uw informatie niet!</string>
   <!-- Network traffic -->
-  <string name="traffic_title">Traffic indicators</string>
-  <string name="network_traffic_title">Network traffic</string>
-  <string name="network_traffic_type">Select net activity type</string>
-  <string name="show_network_traffic_up">Uplink</string>
-  <string name="show_network_traffic_down">Downlink</string>
-  <string name="show_network_traffic_all">Uplink and Downlink</string>
-  <string name="network_traffic_state_title">Show net activity in statusbar</string>
-  <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+  <string name="traffic_title">Data indicatoren</string>
+  <string name="network_traffic_title">Netwerkverkeer</string>
+  <string name="network_traffic_type">Selecteer het type netwerkactiviteit</string>
+  <string name="show_network_traffic_up">Upload</string>
+  <string name="show_network_traffic_down">Download</string>
+  <string name="show_network_traffic_all">Upload en Download</string>
+  <string name="network_traffic_state_title">Netwerkactiviteit weergeven in statusbalk</string>
+  <string name="network_traffic_autohide_threshold_title">Weergavedrempel voor netwerkactiviteit (KB/s)</string>
   <!-- Pocket judge -->
-  <string name="pocket_judge_title">Pocket detection</string>
-  <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+  <string name="pocket_judge_title">Broekzak detectie</string>
+  <string name="pocket_judge_summary">Scherm en toetsaanrakingen blokkeren wanneer het apparaat in de broekzak zit</string>
   <!-- Face auto unlock -->
-  <string name="face_auto_unlock_title">Face auto unlock</string>
-  <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
+  <string name="face_auto_unlock_title">Automatisch ontgrendelen door gezichtsherkenning</string>
+  <string name="face_auto_unlock_summary">Vergrendelscherm uitschakelen na gezichtsontgrendeling</string>
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+  <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+  <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered. It is recommended that you use a pin under 6 digits. If PIN Crosses 6 digits, you may be locked out. You have been warned!</string>
+  <!-- Battery stats reset -->
+  <string name="battery_stats_reset">Reset stats</string>
+  <string name="battery_stats_message">Battery history stats are going to be reset</string>
+  <string name="ok_string">Ok</string>
+  <!-- Expanded desktop -->
+  <string name="power_menu_expanded_desktop">Expanded desktop</string>
+  <string name="expanded_hide_nothing">Hide nothing</string>
+  <string name="expanded_hide_status">Hide status bar</string>
+  <string name="expanded_hide_navigation">Hide navigation bar</string>
+  <string name="expanded_hide_both">Hide both</string>
+  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
+  <string name="expanded_desktop_state">Expanded state</string>
+  <string name="expanded_enabled_for_all">Enabled for all</string>
+  <string name="expanded_user_configurable">User configurable</string>
+  <string name="expanded_desktop_style">Expanded desktop style</string>
+  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
+  <string name="expanded_desktop_title">Expanded desktop options</string>
+  <!-- Clear all recents -->
+  <string name="aosp_recents_title">AOSP recents</string>
+  <string name="show_clear_all_recents_button_title">Clear-all FAB</string>
+  <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
+  <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
+  <string name="recents_clear_all_location_title">Clear all FAB location</string>
+  <string name="recents_clear_all_location_top_right">Top right</string>
+  <string name="recents_clear_all_location_top_left">Top left</string>
+  <string name="recents_clear_all_location_top_center">Top center</string>
+  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
 </resources>
