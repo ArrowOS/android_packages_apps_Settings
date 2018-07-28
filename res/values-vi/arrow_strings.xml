@@ -20,7 +20,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="rom_version_title">Phiên bản ArrowOS</string>
   <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> là <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabler_summary"><xliff:g id="tên hiển thị">%1$s</xliff:g> là <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_disabled">đã tắt</string>
   <string name="sim_missing">thiếu hoặc bị lỗi</string>
   <string name="sim_enabler_need_disable_sim">Thẻ SIM sẽ bị ngừng hoạt động. Bạn có muốn tiếp tục?</string>
@@ -162,7 +162,7 @@
   <string name="battery_percent_inside">Hiển thị bên trong biểu tượng</string>
   <!-- Roaming indicator icon -->
   <string name="roaming_indicator_icon_title">Hiển thị chỉ báo chuyển vùng</string>
-  <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
+  <string name="roaming_indicator_icon_summary">Hiển thị biểu tượng tín hiệu chuyển vùng khi ở chế độ chuyển vùng</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Thời tiết</string>
   <string name="weather_config_title">Cài đặt dịch vụ</string>
@@ -422,98 +422,133 @@
   <string name="smartbar_double_tap_sleep_title">Chạm hai lần để tắt màn hình</string>
   <string name="smartbar_double_tap_sleep_summary">Nhấn đúp vào vùng trống thanh điều hướng để tắt màn hình</string>
   <!-- Torch Power button gestures -->
-  <string name="torch_power_button_flash_title">Torch gestures</string>
-  <string name="torch_power_button_flash_summary">Power button flash gestures</string>
-  <string name="torch_power_button_gesture_title">Screen off power button torch</string>
-  <string name="torch_power_button_gesture_none">Disabled</string>
-  <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
-  <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
-  <string name="link_volume_option_title">Link ring and notification volume</string>
+  <string name="torch_power_button_flash_title">Cử chỉ đèn pin</string>
+  <string name="torch_power_button_flash_summary">Cử chỉ flash nút nguồn</string>
+  <string name="torch_power_button_gesture_title">Phím nguồn bật đèn pin khi màn hình tắt</string>
+  <string name="torch_power_button_gesture_none">Đã vô hiệu</string>
+  <string name="torch_power_button_gesture_dt">Ấn đúp phím nguồn để bật đèn pin (tăng độ trễ khi ấn phím 1 lần)</string>
+  <string name="torch_power_button_gesture_lp">Nhấn giữ nút nguồn để bật đèn pin</string>
+  <string name="link_volume_option_title">Liên kết âm lượng nhạc chuông và thông báo</string>
   <!-- Heads up -->
-  <string name="headsup_title">Heads up</string>
-  <string name="headsup_summary">Configure heads up options</string>
-  <string name="heads_up_title">Allow Heads up</string>
-  <string name="heads_up_summary_enabled">Heads-up notifications are enabled</string>
-  <string name="heads_up_summary_disabled">Heads-up notifications are disabled</string>
-  <string name="heads_up_blacklist_add_package_title">Add app</string>
-  <string name="heads_up_blacklist_add_package_summary">Disable heads-up notifications in these applications</string>
-  <string name="heads_up_blacklist_title">Blacklist</string>
-  <string name="heads_up_blacklist_choose_app">Select app</string>
-  <string name="heads_up_blacklist_dialog_delete_title">Delete</string>
-  <string name="heads_up_blacklist_dialog_delete_message">Remove selected item?</string>
+  <string name="headsup_title">Thông báo nổi</string>
+  <string name="headsup_summary">Tùy chọn cấu hình thông báo nổi</string>
+  <string name="heads_up_title">Cho phép Thông báo nổi</string>
+  <string name="heads_up_summary_enabled">Thông báo nổi được kích hoạt</string>
+  <string name="heads_up_summary_disabled">Thông báo nổi bị vô hiệu hóa</string>
+  <string name="heads_up_blacklist_add_package_title">Thêm ứng dụng</string>
+  <string name="heads_up_blacklist_add_package_summary">Vô hiệu hoá các thông báo nổi trong các ứng dụng này</string>
+  <string name="heads_up_blacklist_title">Danh sách đen</string>
+  <string name="heads_up_blacklist_choose_app">Chọn ứng dụng</string>
+  <string name="heads_up_blacklist_dialog_delete_title">Xóa</string>
+  <string name="heads_up_blacklist_dialog_delete_message">Xóa mục đã chọn?</string>
   <!-- Quick Settings brightness icon -->
-  <string name="brightness_icon_title">Brightness slider icon</string>
-  <string name="brightness_icon_summary">Quick Settings brightness icon to toggle auto-brightness</string>
+  <string name="brightness_icon_title">Thanh trượt độ sáng</string>
+  <string name="brightness_icon_summary">Thiết lập biểu tượng độ sáng để bật/tắt độ sáng tự động</string>
   <!-- Notification light dialogs -->
-  <string name="ok">Okay</string>
+  <string name="ok">Đồng ý</string>
   <string name="reset">Thiết lập lại</string>
-  <string name="advanced">Advanced</string>
-  <string name="profiles_add">Add...</string>
-  <string name="edit_light_settings">Edit light settings</string>
-  <string name="pulse_speed_title">Pulse length and speed</string>
-  <string name="default_time">Normal</string>
-  <string name="custom_time">Custom</string>
+  <string name="advanced">Nâng cao</string>
+  <string name="profiles_add">Thêm...</string>
+  <string name="edit_light_settings">Chỉnh sửa cài đặt đèn báo</string>
+  <string name="pulse_speed_title">Độ dài và tốc độ nháy</string>
+  <string name="default_time">Bình thường</string>
+  <string name="custom_time">Tùy chọn</string>
   <!-- Values for the notification light pulse spinners -->
-  <string name="pulse_length_always_on">Always on</string>
-  <string name="pulse_length_very_short">Very short</string>
-  <string name="pulse_length_short">Short</string>
-  <string name="pulse_length_normal">Normal</string>
-  <string name="pulse_length_long">Long</string>
-  <string name="pulse_length_very_long">Very long</string>
-  <string name="pulse_speed_very_fast">Very fast</string>
-  <string name="pulse_speed_fast">Fast</string>
-  <string name="pulse_speed_normal">Normal</string>
-  <string name="pulse_speed_slow">Slow</string>
-  <string name="pulse_speed_very_slow">Very slow</string>
+  <string name="pulse_length_always_on">Luôn bật</string>
+  <string name="pulse_length_very_short">Rất ngắn</string>
+  <string name="pulse_length_short">Ngắn</string>
+  <string name="pulse_length_normal">Bình thường</string>
+  <string name="pulse_length_long">Dài</string>
+  <string name="pulse_length_very_long">Rất dài</string>
+  <string name="pulse_speed_very_fast">Rất nhanh</string>
+  <string name="pulse_speed_fast">Nhanh</string>
+  <string name="pulse_speed_normal">Bình thường</string>
+  <string name="pulse_speed_slow">Chậm</string>
+  <string name="pulse_speed_very_slow">Rất chậm</string>
   <!-- Lights settings screen, notification light settings -->
-  <string name="notification_light_title">Notification light</string>
-  <string name="notification_light_title_summary">Enable pulsing notification LED</string>
-  <string name="notification_light_general_title">General</string>
-  <string name="notification_light_applist_title">Apps</string>
-  <string name="notification_light_phonelist_title">Phone</string>
-  <string name="notification_light_use_custom">Use custom values</string>
-  <string name="notification_light_use_custom_summary">Enable to set per app notification colors</string>
-  <string name="notification_light_default_value">Default</string>
-  <string name="notification_light_missed_call_title">Missed call</string>
-  <string name="notification_light_voicemail_title">Voicemail</string>
-  <string name="notification_light_screen_on">Lights with screen on</string>
-  <string name="notification_light_zen_mode">Lights in Do Not Disturb mode</string>
-  <string name="notification_light_use_multiple_leds">Multiple LEDs</string>
+  <string name="notification_light_title">Đèn thông báo</string>
+  <string name="notification_light_title_summary">Bật nhấp nháy đèn LED</string>
+  <string name="notification_light_general_title">Chung</string>
+  <string name="notification_light_applist_title">Ứng dụng</string>
+  <string name="notification_light_phonelist_title">Điện thoại</string>
+  <string name="notification_light_use_custom">Sử dụng giá trị tùy chỉnh</string>
+  <string name="notification_light_use_custom_summary">Bật để đặt màu cho mỗi thông báo ứng dụng</string>
+  <string name="notification_light_default_value">Mặc định</string>
+  <string name="notification_light_missed_call_title">Cuộc gọi nhỡ</string>
+  <string name="notification_light_voicemail_title">Thư thoại</string>
+  <string name="notification_light_screen_on">Bật thông báo kho đèn màn hình bật</string>
+  <string name="notification_light_zen_mode">Đèn báo trong chế độ Không Làm Phiền</string>
+  <string name="notification_light_use_multiple_leds">Thông báo nhiều màu LED</string>
   <!-- Notification light settings -->
-  <string name="leds_category_title">LED Options</string>
-  <string name="battery_light_settings">Battery light</string>
-  <string name="led_notification_title">Light settings</string>
-  <string name="led_notification_text">LED light enabled by settings</string>
-  <string name="notification_light_no_apps_summary">To add per app control, activate \'%1$s\' and press \'\u002b\' on the menu bar</string>
+  <string name="leds_category_title">Tùy chọn LED</string>
+  <string name="battery_light_settings">Đèn báo pin</string>
+  <string name="led_notification_title">Cài đặt đèn báo</string>
+  <string name="led_notification_text">Đèn LED đã bật theo cài đặt</string>
+  <string name="notification_light_no_apps_summary">Để thêm một điều khiển ứng dụng, kích hoạt \'%1$s\' và nhấn \'\u002b\' trên thanh trình đơn</string>
   <!-- Battery light settings  -->
-  <string name="batterylight_title">Battery LED settings</string>
-  <string name="battery_light_enable">Enable</string>
-  <string name="battery_low_pulse_title">Pulse if battery low</string>
-  <string name="battery_light_only_full_charge_title">Only light up when fully charged</string>
-  <string name="battery_light_list_title">Colors</string>
-  <string name="battery_light_low_color_title">Battery low</string>
-  <string name="battery_light_medium_color_title">Charging</string>
-  <string name="battery_light_full_color_title">Charged (90%)</string>
-  <string name="battery_light_really_full_color_title">Charged (100%)</string>
-  <string name="edit_battery_settings">Edit battery settings</string>
-  <string name="led_color_green">Green</string>
-  <string name="led_color_red">Red</string>
-  <string name="led_color_blue">Blue</string>
-  <string name="arrow_stats_title">ArrowOS Stats</string>
-  <string name="arrow_stats_summary">we ain\'t stealing your nuds!</string>
+  <string name="batterylight_title">Cài đặt LED Pin</string>
+  <string name="battery_light_enable">Bật</string>
+  <string name="battery_low_pulse_title">Nhấp nháy nếu pin yếu</string>
+  <string name="battery_light_only_full_charge_title">Chỉ sáng khi sạc đầy</string>
+  <string name="battery_light_list_title">Màu sắc</string>
+  <string name="battery_light_low_color_title">Pin yếu</string>
+  <string name="battery_light_medium_color_title">Đang sạc</string>
+  <string name="battery_light_full_color_title">Đã sạc (90%)</string>
+  <string name="battery_light_really_full_color_title">Đã sạc (100%)</string>
+  <string name="edit_battery_settings">Chỉnh sửa cài đặt pin</string>
+  <string name="led_color_green">Xanh</string>
+  <string name="led_color_red">Đỏ</string>
+  <string name="led_color_blue">Xanh da trời</string>
+  <string name="arrow_stats_title">Số liệu thống kê của ArrowOS</string>
+  <string name="arrow_stats_summary">chúng tôi không lấy cắp thông tin của bạn!</string>
   <!-- Network traffic -->
-  <string name="traffic_title">Traffic indicators</string>
-  <string name="network_traffic_title">Network traffic</string>
-  <string name="network_traffic_type">Select net activity type</string>
-  <string name="show_network_traffic_up">Uplink</string>
-  <string name="show_network_traffic_down">Downlink</string>
-  <string name="show_network_traffic_all">Uplink and Downlink</string>
-  <string name="network_traffic_state_title">Show net activity in statusbar</string>
-  <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+  <string name="traffic_title">Bộ giám sát lưu lượng mạng</string>
+  <string name="network_traffic_title">Tốc độ mạng</string>
+  <string name="network_traffic_type">Chọn kiểu hoạt động mạng</string>
+  <string name="show_network_traffic_up">Tải lên</string>
+  <string name="show_network_traffic_down">Tải xuống</string>
+  <string name="show_network_traffic_all">Tải lên và Tải xuống</string>
+  <string name="network_traffic_state_title">Hiển thị hoạt động mạng trong thanh trạng thái</string>
+  <string name="network_traffic_autohide_threshold_title">Ngưỡng tự động ẩn hoạt động mạng (KB/s)</string>
   <!-- Pocket judge -->
-  <string name="pocket_judge_title">Pocket detection</string>
-  <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+  <string name="pocket_judge_title">Phát hiện khi trong túi</string>
+  <string name="pocket_judge_summary">Chặn màn hình và các nút bấm khi thiết bị ở trong túi</string>
   <!-- Face auto unlock -->
-  <string name="face_auto_unlock_title">Face auto unlock</string>
-  <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
+  <string name="face_auto_unlock_title">Tự động mở khoá khuôn mặt</string>
+  <string name="face_auto_unlock_summary">Bỏ qua màn hình khoá sau mở khoá gương mặt</string>
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+  <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+  <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered. It is recommended that you use a pin under 6 digits. If PIN Crosses 6 digits, you may be locked out. You have been warned!</string>
+  <!-- Battery stats reset -->
+  <string name="battery_stats_reset">Reset stats</string>
+  <string name="battery_stats_message">Battery history stats are going to be reset</string>
+  <string name="ok_string">Ok</string>
+  <!-- Expanded desktop -->
+  <string name="power_menu_expanded_desktop">Expanded desktop</string>
+  <string name="expanded_hide_nothing">Hide nothing</string>
+  <string name="expanded_hide_status">Hide status bar</string>
+  <string name="expanded_hide_navigation">Hide navigation bar</string>
+  <string name="expanded_hide_both">Hide both</string>
+  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
+  <string name="expanded_desktop_state">Expanded state</string>
+  <string name="expanded_enabled_for_all">Enabled for all</string>
+  <string name="expanded_user_configurable">User configurable</string>
+  <string name="expanded_desktop_style">Expanded desktop style</string>
+  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
+  <string name="expanded_desktop_title">Expanded desktop options</string>
+  <!-- Clear all recents -->
+  <string name="aosp_recents_title">AOSP recents</string>
+  <string name="show_clear_all_recents_button_title">Clear-all FAB</string>
+  <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
+  <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
+  <string name="recents_clear_all_location_title">Clear all FAB location</string>
+  <string name="recents_clear_all_location_top_right">Top right</string>
+  <string name="recents_clear_all_location_top_left">Top left</string>
+  <string name="recents_clear_all_location_top_center">Top center</string>
+  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
 </resources>
