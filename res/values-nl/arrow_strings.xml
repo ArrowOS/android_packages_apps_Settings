@@ -517,38 +517,43 @@
   <string name="face_auto_unlock_title">Automatisch ontgrendelen door gezichtsherkenning</string>
   <string name="face_auto_unlock_summary">Vergrendelscherm uitschakelen na gezichtsontgrendeling</string>
   <!-- Scramble PIN Layout on Lockscreen -->
-  <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-  <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+  <string name="unlock_scramble_pin_layout_title">Lay-out husselen</string>
+  <string name="unlock_scramble_pin_layout_summary">PIN-lay-out door elkaar husselen bij apparaat ontgrendelen</string>
   <!-- Quick unlock -->
-  <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-  <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered. It is recommended that you use a pin under 6 digits. If PIN Crosses 6 digits, you may be locked out. You have been warned!</string>
+  <string name="unlock_quick_unlock_control_title">Snel ontgrendelen</string>
+  <string name="unlock_quick_unlock_control_summary">Ontgrendeld automatisch wanneer juiste pincode/wachtwoord wordt ingevoerd. Het wordt aanbevolen een pin met minder dan 6 cijfers te gebruiken. Als PIN meer dan 6 cijfers bevat kunt u worden buitengesloten. U bent gewaarschuwd!</string>
   <!-- Battery stats reset -->
-  <string name="battery_stats_reset">Reset stats</string>
-  <string name="battery_stats_message">Battery history stats are going to be reset</string>
-  <string name="ok_string">Ok</string>
+  <string name="battery_stats_reset">Statistieken resetten</string>
+  <string name="battery_stats_message">Batterij geschiedenis zal worden gereset</string>
+  <string name="ok_string">Oké</string>
   <!-- Expanded desktop -->
-  <string name="power_menu_expanded_desktop">Expanded desktop</string>
-  <string name="expanded_hide_nothing">Hide nothing</string>
-  <string name="expanded_hide_status">Hide status bar</string>
-  <string name="expanded_hide_navigation">Hide navigation bar</string>
-  <string name="expanded_hide_both">Hide both</string>
-  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-  <string name="expanded_desktop_state">Expanded state</string>
-  <string name="expanded_enabled_for_all">Enabled for all</string>
-  <string name="expanded_user_configurable">User configurable</string>
-  <string name="expanded_desktop_style">Expanded desktop style</string>
-  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-  <string name="expanded_desktop_title">Expanded desktop options</string>
+  <string name="power_menu_expanded_desktop">Uitgebreid bureaublad</string>
+  <string name="expanded_hide_nothing">Niets verbergen</string>
+  <string name="expanded_hide_status">Statusbalk verbergen</string>
+  <string name="expanded_hide_navigation">Navigatiebalk verbergen</string>
+  <string name="expanded_hide_both">Beide verbergen</string>
+  <string name="expanded_nothing_to_show">Om een aangepaste, per app configuratie, voor uitgebreid bureaublad toe te voegen, schakel \'Voor alle ingeschakeld\' uit</string>
+  <string name="expanded_desktop_state">Uitgebreide status</string>
+  <string name="expanded_enabled_for_all">Voor alle ingeschakeld</string>
+  <string name="expanded_user_configurable">Gebruiker configureerbaar</string>
+  <string name="expanded_desktop_style">Stijl uitgebreid bureaublad</string>
+  <string name="expanded_desktop_style_description">Kies een standaard uitgebreid bureaublad stijl</string>
+  <string name="expanded_desktop_title">Opties voor uitgebreid bureaublad</string>
   <!-- Clear all recents -->
-  <string name="aosp_recents_title">AOSP recents</string>
-  <string name="show_clear_all_recents_button_title">Clear-all FAB</string>
-  <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
-  <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
-  <string name="recents_clear_all_location_title">Clear all FAB location</string>
-  <string name="recents_clear_all_location_top_right">Top right</string>
-  <string name="recents_clear_all_location_top_left">Top left</string>
-  <string name="recents_clear_all_location_top_center">Top center</string>
-  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+  <string name="aosp_recents_title">AOSP Recente apps</string>
+  <string name="show_clear_all_recents_button_title">Alles wissen FAB</string>
+  <string name="show_clear_all_recents_button_summary_on">Knop alles wissen weergeven</string>
+  <string name="show_clear_all_recents_button_summary_off">Toon AOSP alles wissen</string>
+  <string name="recents_clear_all_location_title">Alles wissen FAB locatie</string>
+  <string name="recents_clear_all_location_top_right">Rechtsboven</string>
+  <string name="recents_clear_all_location_top_left">Linksboven</string>
+  <string name="recents_clear_all_location_top_center">Middenboven</string>
+  <string name="recents_clear_all_location_bottom_right">Rechtsonder</string>
+  <string name="recents_clear_all_location_bottom_left">Linksonder</string>
+  <string name="recents_clear_all_location_bottom_center">Middenonder</string>
+  <!-- Headset ringtone audio focus -->
+  <string name="ringtone_headset_settings_title">Headset and ringtone settings</string>
+  <string name="ringtone_focus_mode_title">Where to play ringtones from</string>
+  <string name="ringtone_focus_mode_dynamic">From headset if connected and playing music</string>
+  <string name="ringtone_focus_mode_stock">"From speakerphone (aosp default)"</string>
 </resources>

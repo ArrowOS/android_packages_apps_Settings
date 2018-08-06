@@ -41,7 +41,7 @@
   <string name="powermenu_reboot_title">再起動</string>
   <string name="powermenu_airplane_title">機内モード</string>
   <string name="powermenu_advanced_reboot_title">高度な再起動</string>
-  <string name="powermenu_advanced_reboot_summary">ソフトリブート、リカバリの起動、ブートローダの起動、またはシステムUIの再起動を行うための高度な再起動メニューを有効にします。</string>
+  <string name="powermenu_advanced_reboot_summary">ソフトリブート、リカバリーの起動、ブートローダーの起動、またはシステムUIの再起動を行うための高度な再起動メニューを有効にします。</string>
   <string name="powermenu_screenshot_title">スクリーンショット</string>
   <string name="powermenu_category_visibility">ロック画面のオプション</string>
   <string name="powermenu_lockscreen_title">ロック画面における表示</string>
@@ -517,38 +517,43 @@
   <string name="face_auto_unlock_title">顔認証で自動ロック解除</string>
   <string name="face_auto_unlock_summary">顔認証したときロック画面をスキップする</string>
   <!-- Scramble PIN Layout on Lockscreen -->
-  <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-  <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+  <string name="unlock_scramble_pin_layout_title">ランダムなレイアウト</string>
+  <string name="unlock_scramble_pin_layout_summary">端末のロック解除時にPINレイアウトをランダムにする</string>
   <!-- Quick unlock -->
-  <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-  <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered. It is recommended that you use a pin under 6 digits. If PIN Crosses 6 digits, you may be locked out. You have been warned!</string>
+  <string name="unlock_quick_unlock_control_title">クイックアンロック</string>
+  <string name="unlock_quick_unlock_control_summary">正しいPIN / パスワードが入力されると、自動的にロック解除されます。 6桁以下のピンを使用することをお勧めします。 PIN / パスワードが6桁を超えると、ロック解除できなくなる可能性があります。注意してください!</string>
   <!-- Battery stats reset -->
-  <string name="battery_stats_reset">Reset stats</string>
-  <string name="battery_stats_message">Battery history stats are going to be reset</string>
-  <string name="ok_string">Ok</string>
+  <string name="battery_stats_reset">統計をリセット</string>
+  <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
+  <string name="ok_string">OK</string>
   <!-- Expanded desktop -->
-  <string name="power_menu_expanded_desktop">Expanded desktop</string>
-  <string name="expanded_hide_nothing">Hide nothing</string>
-  <string name="expanded_hide_status">Hide status bar</string>
-  <string name="expanded_hide_navigation">Hide navigation bar</string>
-  <string name="expanded_hide_both">Hide both</string>
-  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-  <string name="expanded_desktop_state">Expanded state</string>
-  <string name="expanded_enabled_for_all">Enabled for all</string>
-  <string name="expanded_user_configurable">User configurable</string>
-  <string name="expanded_desktop_style">Expanded desktop style</string>
-  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-  <string name="expanded_desktop_title">Expanded desktop options</string>
+  <string name="power_menu_expanded_desktop">拡張デスクトップ</string>
+  <string name="expanded_hide_nothing">非表示にしない</string>
+  <string name="expanded_hide_status">ステータスバーを非表示</string>
+  <string name="expanded_hide_navigation">ナビゲーションバーを非表示</string>
+  <string name="expanded_hide_both">両方を非表示</string>
+  <string name="expanded_nothing_to_show">アプリごとの拡張の状態のカスタム設定を追加するには「すべて拡張」をオフにしてください</string>
+  <string name="expanded_desktop_state">拡張の状態</string>
+  <string name="expanded_enabled_for_all">すべて拡張</string>
+  <string name="expanded_user_configurable">ユーザー設定</string>
+  <string name="expanded_desktop_style">拡張デスクトップのスタイル</string>
+  <string name="expanded_desktop_style_description">既定の拡張デスクトップスタイルを選択する</string>
+  <string name="expanded_desktop_title">拡張デスクトップのオプション</string>
   <!-- Clear all recents -->
-  <string name="aosp_recents_title">AOSP recents</string>
-  <string name="show_clear_all_recents_button_title">Clear-all FAB</string>
-  <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
-  <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
-  <string name="recents_clear_all_location_title">Clear all FAB location</string>
-  <string name="recents_clear_all_location_top_right">Top right</string>
-  <string name="recents_clear_all_location_top_left">Top left</string>
-  <string name="recents_clear_all_location_top_center">Top center</string>
-  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+  <string name="aosp_recents_title">AOSPのアプリ履歴</string>
+  <string name="show_clear_all_recents_button_title">全て終了ボタン</string>
+  <string name="show_clear_all_recents_button_summary_on">全て終了ボタンを表示する</string>
+  <string name="show_clear_all_recents_button_summary_off">AOSPの全て終了ボタンを表示</string>
+  <string name="recents_clear_all_location_title">全て終了ボタンの位置</string>
+  <string name="recents_clear_all_location_top_right">右上</string>
+  <string name="recents_clear_all_location_top_left">左上</string>
+  <string name="recents_clear_all_location_top_center">中央上</string>
+  <string name="recents_clear_all_location_bottom_right">右下</string>
+  <string name="recents_clear_all_location_bottom_left">左下</string>
+  <string name="recents_clear_all_location_bottom_center">中央下</string>
+  <!-- Headset ringtone audio focus -->
+  <string name="ringtone_headset_settings_title">Headset and ringtone settings</string>
+  <string name="ringtone_focus_mode_title">Where to play ringtones from</string>
+  <string name="ringtone_focus_mode_dynamic">From headset if connected and playing music</string>
+  <string name="ringtone_focus_mode_stock">"From speakerphone (aosp default)"</string>
 </resources>
