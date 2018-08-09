@@ -17,5 +17,8 @@
 <resources>
    <color name="accent_picker_white_accent">@android:color/white</color>
    <color name="accent_picker_dark_accent">@android:color/black</color>
+
+   <!-- App ops -->
+    <color name="switch_accent_color">@*android:color/accent_device_default_light</color>
 </resources>
 
