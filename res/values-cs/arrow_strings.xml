@@ -517,38 +517,43 @@
   <string name="face_auto_unlock_title">Automatické odemčení pomocí obličeje</string>
   <string name="face_auto_unlock_summary">Odstraní zamykací obrazovku po odemknutí obličejem</string>
   <!-- Scramble PIN Layout on Lockscreen -->
-  <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-  <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+  <string name="unlock_scramble_pin_layout_title">Přeházet rozložení</string>
+  <string name="unlock_scramble_pin_layout_summary">Přeházet rozložení pro zadání PINu při odemykání zařízení</string>
   <!-- Quick unlock -->
-  <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-  <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered. It is recommended that you use a pin under 6 digits. If PIN Crosses 6 digits, you may be locked out. You have been warned!</string>
+  <string name="unlock_quick_unlock_control_title">Rychlé odemknutí</string>
+  <string name="unlock_quick_unlock_control_summary">Automatické odemknutí při zadání správného PINu/hesla. Doporučuje se použít PIN menší než 6 číslic. Pokud PIN překročí 6 číslic, může dojít k zamknutí. Byli jste vyrováni!</string>
   <!-- Battery stats reset -->
-  <string name="battery_stats_reset">Reset stats</string>
-  <string name="battery_stats_message">Battery history stats are going to be reset</string>
+  <string name="battery_stats_reset">Vynulovat statistiky</string>
+  <string name="battery_stats_message">Chystáte se obnovit historii statistiky baterie</string>
   <string name="ok_string">Ok</string>
   <!-- Expanded desktop -->
-  <string name="power_menu_expanded_desktop">Expanded desktop</string>
-  <string name="expanded_hide_nothing">Hide nothing</string>
-  <string name="expanded_hide_status">Hide status bar</string>
-  <string name="expanded_hide_navigation">Hide navigation bar</string>
-  <string name="expanded_hide_both">Hide both</string>
-  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-  <string name="expanded_desktop_state">Expanded state</string>
-  <string name="expanded_enabled_for_all">Enabled for all</string>
-  <string name="expanded_user_configurable">User configurable</string>
-  <string name="expanded_desktop_style">Expanded desktop style</string>
-  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-  <string name="expanded_desktop_title">Expanded desktop options</string>
+  <string name="power_menu_expanded_desktop">Rozšířená plocha</string>
+  <string name="expanded_hide_nothing">Nic neskrývat</string>
+  <string name="expanded_hide_status">Skrýt stavovou lištu</string>
+  <string name="expanded_hide_navigation">Skrýt navigační panel</string>
+  <string name="expanded_hide_both">Skrýt obojí</string>
+  <string name="expanded_nothing_to_show">Dotykem přidejte nastavení pro aplikace, nebo přepněte na vypnuto pro \"Povoleno pro všechny aplikace\"</string>
+  <string name="expanded_desktop_state">Rozšířená obrazovka</string>
+  <string name="expanded_enabled_for_all">Povoleno pro všechny aplikace</string>
+  <string name="expanded_user_configurable">Uživatelsky nastavitelné</string>
+  <string name="expanded_desktop_style">Vzhled rozšířené plochy</string>
+  <string name="expanded_desktop_style_description">Vyberte výchozí styl rozšířené plochy</string>
+  <string name="expanded_desktop_title">Možnosti rozšířené plochy</string>
   <!-- Clear all recents -->
-  <string name="aosp_recents_title">AOSP recents</string>
-  <string name="show_clear_all_recents_button_title">Clear-all FAB</string>
-  <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
-  <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
-  <string name="recents_clear_all_location_title">Clear all FAB location</string>
-  <string name="recents_clear_all_location_top_right">Top right</string>
-  <string name="recents_clear_all_location_top_left">Top left</string>
-  <string name="recents_clear_all_location_top_center">Top center</string>
-  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+  <string name="aosp_recents_title">AOSP nedávné</string>
+  <string name="show_clear_all_recents_button_title">Tlačítko \"Vyčistit vše\"</string>
+  <string name="show_clear_all_recents_button_summary_on">Zobrazit tlačítko \"Vyčistit vše\"</string>
+  <string name="show_clear_all_recents_button_summary_off">Zobrazit AOSP tlačítko \"Vyčistit vše\"</string>
+  <string name="recents_clear_all_location_title">Pozice tlačítka \"Vyčistit vše\"</string>
+  <string name="recents_clear_all_location_top_right">Nahoře vpravo</string>
+  <string name="recents_clear_all_location_top_left">Nahoře vlevo</string>
+  <string name="recents_clear_all_location_top_center">Nahoře uprostřed</string>
+  <string name="recents_clear_all_location_bottom_right">Dole vpravo</string>
+  <string name="recents_clear_all_location_bottom_left">Dole vlevo</string>
+  <string name="recents_clear_all_location_bottom_center">Dole uprostřed</string>
+  <!-- Headset ringtone audio focus -->
+  <string name="ringtone_headset_settings_title">Nastavení náhlavní soupravy a vyzvánění</string>
+  <string name="ringtone_focus_mode_title">Kde budou hrát vyzváněcí tóny</string>
+  <string name="ringtone_focus_mode_dynamic">Ze sluchátek, pokud jsou připojena a hraje hudby</string>
+  <string name="ringtone_focus_mode_stock">"Z reproduktoru (AOSP výchozí)"</string>
 </resources>

@@ -18,34 +18,34 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="rom_version_title">ArrowOS version</string>
+  <string name="rom_version_title">ArrowOS Version</string>
   <!-- Manual provisioning support -->
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-  <string name="sim_disabled">disabled</string>
-  <string name="sim_missing">missing or faulty</string>
-  <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
-  <string name="sim_enabler_will_disable_sim_title">Attention</string>
-  <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
-  <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
-  <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
-  <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
-  <string name="sim_enabler_enabling">Activating\u2026</string>
-  <string name="sim_enabler_disabling">Deactivating\u2026</string>
-  <string name="sub_activate_success">SIM activated.</string>
-  <string name="sub_activate_failed">Activation failed.</string>
-  <string name="sub_deactivate_success">SIM deactivated.</string>
-  <string name="sub_deactivate_failed">Deactivation failed.</string>
-  <string name="advanced_power_menu">Power menu</string>
-  <string name="arrow_reboot_menu">Advanced reboot</string>
+  <string name="sim_disabled">deaktiviert</string>
+  <string name="sim_missing">fehlt oder ist defekt</string>
+  <string name="sim_enabler_need_disable_sim">SIM-Karte wird deaktiviert. Möchten Sie fortfahren?</string>
+  <string name="sim_enabler_will_disable_sim_title">Achtung</string>
+  <string name="sim_enabler_need_switch_data_service">Diese SIM-Karte wird deaktiviert und SIM-Karte <xliff:g id="slotid">%1$s</xliff:g> wird für Datendienste weiterverwendet. Sind Sie sicher, dass Sie fortfahren möchten?</string>
+  <string name="sim_enabler_airplane_on">Vorgang kann nicht im Flugmodus durchgeführt werden.</string>
+  <string name="sim_enabler_in_call">Vorgang kann nicht während eines Anrufs durchgeführt werden.</string>
+  <string name="sim_enabler_both_inactive">Es können nicht alle SIM-Karten deaktiviert werden</string>
+  <string name="sim_enabler_enabling">Aktiviere\u2026</string>
+  <string name="sim_enabler_disabling">Deaktiviere\u2026</string>
+  <string name="sub_activate_success">SIM aktiviert.</string>
+  <string name="sub_activate_failed">Aktivierung fehlgeschlagen.</string>
+  <string name="sub_deactivate_success">SIM deaktiviert.</string>
+  <string name="sub_deactivate_failed">Deaktivierung fehlgeschlagen.</string>
+  <string name="advanced_power_menu">Power Menü</string>
+  <string name="arrow_reboot_menu">Erweiterter Neustart</string>
   <!-- Power Menu -->
-  <string name="powermenu_reboot_title">Reboot</string>
-  <string name="powermenu_airplane_title">Airplane mode</string>
-  <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
-  <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
-  <string name="powermenu_screenshot_title">Screenshot</string>
-  <string name="powermenu_category_visibility">Lockscreen options</string>
-  <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
-  <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
+  <string name="powermenu_reboot_title">Neustart</string>
+  <string name="powermenu_airplane_title">Flugmodus</string>
+  <string name="powermenu_advanced_reboot_title">Erweiterter Neustart</string>
+  <string name="powermenu_advanced_reboot_summary">Aktiviert das erweiterte Neustartmenü für Neustartoptionen wie Warmstart, Recovery und Bootloader. Fügt auch eine Option zum Neustart von SystemUI hinzu</string>
+  <string name="powermenu_screenshot_title">Bildschirmfoto</string>
+  <string name="powermenu_category_visibility">Sperrbildschirmoptionen</string>
+  <string name="powermenu_lockscreen_title">Sichtbarkeit auf dem Sperrbildschirm</string>
+  <string name="powermenu_lockscreen_summary">Powermenü auf dem Sperrbildschirm anzeigen und verwenden</string>
   <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
   <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
   <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
@@ -551,4 +551,9 @@
   <string name="recents_clear_all_location_bottom_right">Bottom right</string>
   <string name="recents_clear_all_location_bottom_left">Bottom left</string>
   <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+  <!-- Headset ringtone audio focus -->
+  <string name="ringtone_headset_settings_title">Headset and ringtone settings</string>
+  <string name="ringtone_focus_mode_title">Where to play ringtones from</string>
+  <string name="ringtone_focus_mode_dynamic">From headset if connected and playing music</string>
+  <string name="ringtone_focus_mode_stock">"From speakerphone (aosp default)"</string>
 </resources>
