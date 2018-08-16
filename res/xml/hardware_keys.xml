@@ -17,6 +17,12 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+        <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+            android:key="navigation_bar_show"
+            android:title="@string/navigation_keys"
+            android:summary="@string/navigation_keys_summary"
+            android:defaultValue="false" />
+
     <PreferenceCategory android:key="hardware_keys"
 	android:title="@string/hardware_keys_category">
 	<SwitchPreference android:key="hardware_keys_disable"
