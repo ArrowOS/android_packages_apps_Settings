@@ -36,11 +36,14 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.hwkeys.ActionConstants;
 import com.android.internal.util.hwkeys.ActionUtils;
 import com.android.settings.arrow.preferences.ActionFragment;
+import com.android.settings.arrow.preferences.SystemSettingSwitchPreference;
+import com.android.internal.util.arrow.ArrowUtils;
 
 public class HardwareKeys extends ActionFragment implements Preference.OnPreferenceChangeListener {
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
 
     // category keys
+    private static final String CATEGORY_KEYS = "button_keys";
     private static final String CATEGORY_HWKEY = "hardware_keys";
     private static final String CATEGORY_BACK = "back_key";
     private static final String CATEGORY_HOME = "home_key";
@@ -49,6 +52,8 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
     private static final String CATEGORY_APPSWITCH = "app_switch_key";
     private static final String CATEGORY_VOLUME = "volume_keys";
     private static final String CATEGORY_POWER = "power_key";
+
+    private static final String KEYS_SHOW_NAVBAR_KEY = "navigation_bar_show";
      // Masks for checking presence of hardware keys.
     // Must match values in frameworks/base/core/res/res/values/config.xml
     public static final int KEY_MASK_HOME = 0x01;
@@ -59,6 +64,7 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
     public static final int KEY_MASK_CAMERA = 0x20;
     public static final int KEY_MASK_VOLUME = 0x40;
 
+    private SystemSettingSwitchPreference mEnableNavBar;
     private SwitchPreference mHwKeyDisable;
 
     @Override
@@ -67,6 +73,14 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
         addPreferencesFromResource(R.xml.hardware_keys);
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
+        final PreferenceCategory keysCategory =
+                (PreferenceCategory) prefScreen.findPreference(CATEGORY_KEYS);
+
+        boolean showNavBarDefault = ArrowUtils.deviceSupportNavigationBar(getActivity());
+        boolean showNavBar = Settings.System.getInt(resolver,
+                Settings.System.OMNI_NAVIGATION_BAR_SHOW, showNavBarDefault ? 1 : 0) == 1;
+        mEnableNavBar = (SystemSettingSwitchPreference) prefScreen.findPreference(KEYS_SHOW_NAVBAR_KEY);
+        mEnableNavBar.setChecked(showNavBar);
 
         final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
         final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen
