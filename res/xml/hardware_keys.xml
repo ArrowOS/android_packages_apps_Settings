@@ -37,6 +37,11 @@
     <PreferenceCategory
             android:title="@string/navigation_keys_title">
 
+    <SwitchPreference
+            android:key="navigation_bar_show_new"
+            android:title="@string/navigation_keys"
+            android:summary="@string/navigation_keys_summary" />
+
     <com.android.settings.arrow.preferences.SecureSettingSwitchPreference
             android:key="sysui_nav_bar_inverse"
             android:title="@string/navbar_invert_layout_title"
