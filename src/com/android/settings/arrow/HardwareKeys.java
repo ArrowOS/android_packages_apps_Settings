@@ -39,11 +39,14 @@ import com.android.internal.util.hwkeys.ActionConstants;
 import com.android.internal.util.hwkeys.ActionUtils;
 import com.android.settings.arrow.preferences.ActionFragment;
 import com.android.settings.arrow.preferences.CustomSeekBarPreference;
+import com.android.settings.arrow.preferences.SystemSettingSwitchPreference;
+import com.android.internal.util.arrow.ArrowUtils;
 
 public class HardwareKeys extends ActionFragment implements Preference.OnPreferenceChangeListener {
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
 
     // category keys
+    private static final String CATEGORY_KEYS = "button_keys";
     private static final String CATEGORY_HWKEY = "hardware_keys";
     private static final String CATEGORY_BACK = "back_key";
     private static final String CATEGORY_HOME = "home_key";
@@ -55,6 +58,7 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
     private static final String KEY_BUTTON_MANUAL_BRIGHTNESS_NEW = "button_manual_brightness_new";
     private static final String KEY_BUTTON_TIMEOUT = "button_timeout";
     private static final String KEY_BUTON_BACKLIGHT_OPTIONS = "button_backlight_options_category";
+    private static final String KEYS_SHOW_NAVBAR_KEY = "navigation_bar_show_new";
 
     // Masks for checking presence of hardware keys.
     // Must match values in frameworks/base/core/res/res/values/config.xml
@@ -66,6 +70,7 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
     public static final int KEY_MASK_CAMERA = 0x20;
     public static final int KEY_MASK_VOLUME = 0x40;
 
+    private SwitchPreference mEnableNavBar;
     private SwitchPreference mHwKeyDisable;
 
     private CustomSeekBarPreference mButtonTimoutBar;
@@ -79,6 +84,8 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getContentResolver();
+        final PreferenceCategory keysCategory =
+                (PreferenceCategory) prefScreen.findPreference(CATEGORY_KEYS);
 
         mManualButtonBrightness = (CustomSeekBarPreference) findPreference(
                 KEY_BUTTON_MANUAL_BRIGHTNESS_NEW);
@@ -96,6 +103,13 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
                 Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 0);
         mButtonTimoutBar.setValue(currentTimeout);
         mButtonTimoutBar.setOnPreferenceChangeListener(this);
+
+        mEnableNavBar = (SwitchPreference) prefScreen.findPreference(KEYS_SHOW_NAVBAR_KEY);
+        final boolean showNavBarDefault = ActionUtils.hasNavbarByDefault(getActivity());
+
+        boolean showNavBar = Settings.System.getIntForUser(getActivity().getContentResolver(),
+                Settings.System.FORCE_SHOW_NAVBAR, showNavBarDefault ? 1 : 0, UserHandle.USER_CURRENT) != 0;
+        mEnableNavBar.setChecked(showNavBar);
 
         final boolean enableBacklightOptions = getResources().getBoolean(
                 com.android.internal.R.bool.config_button_brightness_support);
@@ -225,6 +239,17 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
             return false;
         }
         return true;
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(Preference preference) {
+        if (preference == mEnableNavBar) {
+            boolean checked = ((SwitchPreference)preference).isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.FORCE_SHOW_NAVBAR, checked ? 1:0);
+            return true;
+        }
+        return false;
     }
 
     @Override
