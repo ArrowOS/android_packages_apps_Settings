@@ -229,8 +229,9 @@
     <string name="hardware_keys_double_tap_title">Double tap action</string>
     <string name="hard_soft_keys">Buttons</string>
     <string name="hard_soft_keys_summary">Customise device buttons</string>
-    <string name="navigation_keys">Enable navigation bar</string>
     <string name="navigation_keys_title">Onscreen navigation bar</string>
+    <string name="navigation_keys">Navigation bar</string>
+    <string name="navigation_keys_summary">Enable or disable navigation bar</string>
     <string name="hardware_keys_category">Hardware navigation buttons</string>
     <string name="hardware_keys_disable_title">Disable hardware buttons</string>
     <string name="hardware_keys_wake_title">Wake device</string>
