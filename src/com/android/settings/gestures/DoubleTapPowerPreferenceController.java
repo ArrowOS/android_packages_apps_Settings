@@ -18,12 +18,14 @@ package com.android.settings.gestures;
 
 import static android.provider.Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.provider.Settings;
 import android.support.annotation.VisibleForTesting;
 import android.text.TextUtils;
+import android.widget.Toast;
 
 import com.android.settings.R;
 import com.android.settings.search.DatabaseIndexingUtils;
@@ -81,8 +83,20 @@ public class DoubleTapPowerPreferenceController extends GesturePreferenceControl
 
     @Override
     public boolean setChecked(boolean isChecked) {
-        return Settings.Secure.putInt(mContext.getContentResolver(), SECURE_KEY,
+        boolean returnValue = Settings.Secure.putInt(mContext.getContentResolver(), SECURE_KEY,
                 isChecked ? ON : OFF);
+        int previousTorchPref = Settings.Secure.getInt(mContext.getContentResolver(),
+                Settings.Secure.TORCH_POWER_BUTTON_GESTURE, 0);
+        if (isChecked && (previousTorchPref == 1)) {
+            // if double-tap for torch was active but double tap for camera is enabled here,
+            // disable torch action and send a toast
+            Settings.Secure.putInt(mContext.getContentResolver(),
+                    Settings.Secure.TORCH_POWER_BUTTON_GESTURE, 0);
+            Toast.makeText((Activity) mContext,
+                    (R.string.gesture_double_tap_power_torch_toast),
+                    Toast.LENGTH_SHORT).show();
+        }
+        return returnValue;
     }
 
     @Override
