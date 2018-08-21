@@ -551,4 +551,9 @@
   <string name="recents_clear_all_location_bottom_right">Bottom right</string>
   <string name="recents_clear_all_location_bottom_left">Bottom left</string>
   <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+  <!-- Headset ringtone audio focus -->
+  <string name="ringtone_headset_settings_title">Headset and ringtone settings</string>
+  <string name="ringtone_focus_mode_title">Where to play ringtones from</string>
+  <string name="ringtone_focus_mode_dynamic">From headset if connected and playing music</string>
+  <string name="ringtone_focus_mode_stock">"From speakerphone (aosp default)"</string>
 </resources>

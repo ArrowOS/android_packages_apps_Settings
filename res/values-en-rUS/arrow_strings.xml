@@ -250,7 +250,7 @@
   <string name="fling_short_swipe_left">Left short swipe</string>
   <string name="fling_long_swipe_right">Right long swipe</string>
   <string name="fling_long_swipe_left">Left long swipe</string>
-  <string name="fling_right_up_swipe">Right side swipe up</string>
+  <string name="fling_right_up_swipe">Condition icon is hidden on Lockscreen</string>
   <string name="fling_left_up_swipe">Left side swipe up</string>
   <string name="fling_single_tap">Single tap right</string>
   <string name="fling_double_tap">Double tap right</string>
@@ -354,7 +354,7 @@
   <string name="smartbar_ime_action_switcher">Keyboard switcher</string>
   <string name="smartbar_ime_action_dynamic">Input/media arrows</string>
   <string name="smartbar_backup_current_config_title">Save profile</string>
-  <string name="smartbar_restore_config_title">Restore profile</string>
+  <string name="smartbar_restore_config_title">Render mode</string>
   <string name="smartbar_config_name_edit_dialog_title">Smartbar profile name</string>
   <string name="smartbar_config_name_edit_dialog_message">Enter name or leave blank</string>
   <string name="smartbar_config_dialog_title">Smartbar profiles</string>
@@ -551,4 +551,9 @@
   <string name="recents_clear_all_location_bottom_right">Bottom right</string>
   <string name="recents_clear_all_location_bottom_left">Bottom left</string>
   <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+  <!-- Headset ringtone audio focus -->
+  <string name="ringtone_headset_settings_title">Headset and ringtone settings</string>
+  <string name="ringtone_focus_mode_title">Where to play ringtones from</string>
+  <string name="ringtone_focus_mode_dynamic">From headset if connected and playing music</string>
+  <string name="ringtone_focus_mode_stock">"From speakerphone (aosp default)"</string>
 </resources>
