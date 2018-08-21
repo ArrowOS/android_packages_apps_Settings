@@ -228,6 +228,17 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
     }
 
     @Override
+    public boolean onPreferenceTreeClick(Preference preference) {
+        if (preference == mEnableNavBar) {
+            boolean checked = ((SwitchPreference)preference).isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.OMNI_NAVIGATION_BAR_SHOW, checked ? 1:0);
+            return true;
+        }
+        return super.onPreferenceTreeClick(preference);
+    }
+
+    @Override
     protected boolean usesExtendedActionsList() {
         return true;
     }
