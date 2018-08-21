@@ -37,10 +37,15 @@
     <PreferenceCategory
             android:title="@string/navigation_keys_title">
 
+    <SwitchPreference
+        android:key="navbar_visibility"
+        android:title="@string/navbar_visibility" />
+
     <com.android.settings.arrow.preferences.SecureSettingSwitchPreference
             android:key="sysui_nav_bar_inverse"
             android:title="@string/navbar_invert_layout_title"
-            android:defaultValue="false" />
+            android:defaultValue="false"
+            android:dependency="navbar_visibility"/>
 
     </PreferenceCategory>
 
