@@ -71,7 +71,7 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
     public static final int KEY_MASK_CAMERA = 0x20;
     public static final int KEY_MASK_VOLUME = 0x40;
 
-    private SystemSettingSwitchPreference mEnableNavBar;
+    private SwitchPreference mEnableNavBar;
     private SwitchPreference mHwKeyDisable;
 
     private CustomSeekBarPreference mButtonTimoutBar;
@@ -105,10 +105,10 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
         mButtonTimoutBar.setValue(currentTimeout);
         mButtonTimoutBar.setOnPreferenceChangeListener(this);
 
+        mEnableNavBar = (SwitchPreference) prefScreen.findPreference(KEYS_SHOW_NAVBAR_KEY);
         boolean showNavBarDefault = ArrowUtils.deviceSupportNavigationBar(getActivity());
         boolean showNavBar = Settings.System.getInt(resolver,
                 Settings.System.OMNI_NAVIGATION_BAR_SHOW, showNavBarDefault ? 1 : 0) == 1;
-        mEnableNavBar = (SystemSettingSwitchPreference) prefScreen.findPreference(KEYS_SHOW_NAVBAR_KEY);
         mEnableNavBar.setChecked(showNavBar);
 
         final boolean enableBacklightOptions = getResources().getBoolean(
@@ -239,6 +239,17 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
             return false;
         }
         return true;
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(Preference preference) {
+        if (preference == mEnableNavBar) {
+            boolean checked = ((SwitchPreference)preference).isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.OMNI_NAVIGATION_BAR_SHOW, checked ? 1:0);
+            return true;
+        }
+        return super.onPreferenceTreeClick(preference);
     }
 
     @Override

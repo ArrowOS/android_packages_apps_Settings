@@ -30,10 +30,10 @@
     <PreferenceCategory
             android:title="@string/navigation_keys_title">
 
-    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+    <SwitchPreference
             android:key="navigation_bar_show"
             android:title="@string/navigation_keys"
-            android:defaultValue="false" />
+            android:persistent="false" />
 
     <Preference
             android:title="@string/navbar_tuner_title" >
