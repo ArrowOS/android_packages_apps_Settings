@@ -16,7 +16,6 @@
 * limitations under the License.
 */
 -->
-
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Manual provisioning support -->
@@ -40,4 +39,6 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
+
+    <string name="rom_version_title">ArrowOS version</string>
 </resources>
