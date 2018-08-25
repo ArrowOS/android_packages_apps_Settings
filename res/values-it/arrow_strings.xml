@@ -556,4 +556,7 @@
   <string name="ringtone_focus_mode_title">Dove riprodurre le suonerie da</string>
   <string name="ringtone_focus_mode_dynamic">Dall\'auricolare se collegato e in riproduzione</string>
   <string name="ringtone_focus_mode_stock">"Dall'altoparlante (predefinito aosp)"</string>
+  <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Warning color</string>
+  <string name="battery_saver_color_summary">Enable orange status - navigation bars when battery saver is activated</string>
 </resources>

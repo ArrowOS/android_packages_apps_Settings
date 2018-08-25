@@ -556,4 +556,7 @@
   <string name="ringtone_focus_mode_title">Zil sesini nereden çal</string>
   <string name="ringtone_focus_mode_dynamic">Kulaklık bağlıysa ve müzik çalıyorsa</string>
   <string name="ringtone_focus_mode_stock">"Hoparlörden (aosp varsayılan)"</string>
+  <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Warning color</string>
+  <string name="battery_saver_color_summary">Enable orange status - navigation bars when battery saver is activated</string>
 </resources>
