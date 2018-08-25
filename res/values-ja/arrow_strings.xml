@@ -46,7 +46,7 @@
   <string name="powermenu_category_visibility">ロック画面のオプション</string>
   <string name="powermenu_lockscreen_title">ロック画面における表示</string>
   <string name="powermenu_lockscreen_summary">ロック画面で電源メニューの表示と使用を可能にする</string>
-  <string name="powermenu_ls_reboot_summary">ロックスクリーンに再起動オプションを表示する</string>
+  <string name="powermenu_ls_reboot_summary">ロック画面に再起動オプションを表示する</string>
   <string name="powermenu_ls_advanced_reboot_summary">ロック画面に高度な再起動オプションを表示する</string>
   <string name="powermenu_ls_screenshot_summary">ロック画面にスクリーンショットオプションを表示する</string>
   <string name="powermenu_ls_airplane_summary">ロック画面に機内モードオプションを表示する</string>
@@ -197,7 +197,7 @@
   <string name="screenshot_sound_summary">スクリーンショットを取得した際に効果音を鳴らす</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">ロック画面での充電情報</string>
-  <string name="lockscreen_battery_info_summary">充電中のロック画面に接続した充電器の最大電流・最大電圧・バッテリー温度を表示する</string>
+  <string name="lockscreen_battery_info_summary">充電中のロック画面に接続した充電器の最大電流/最大電圧/バッテリー温度を表示する</string>
   <!-- QS rows and columns -->
   <string name="qs_rows_columns_title">クイック設定パネルの調整</string>
   <string name="qs_rows_columns_summary">クイック設定の行数、列数、不透明度</string>
@@ -210,7 +210,7 @@
   <!-- Statusbar Iten -->
   <string name="statusbar_items_category">ステータスバーの項目</string>
   <!-- DUI -->
-  <string name="navbar_interface_title">インターフェイス</string>
+  <string name="navbar_interface_title">インターフェース</string>
   <string name="navbar_size">バーのサイズ</string>
   <string name="navbar_mode">ナビゲーションモード</string>
   <string name="navbar_mode_summary">端末で使用するナビゲーションモードを選択する</string>
@@ -271,7 +271,7 @@
   <string name="long_swipe_reset">リセット</string>
   <string name="fling_advanced">高度な設定</string>
   <string name="fling_long_swipe_title">長いスワイプのしきい値</string>
-  <string name="fling_long_swipe_summary">Flingインターフェイスの幅または高さのパーセンテージに基づいて長いスワイプのしきい値を微調整する</string>
+  <string name="fling_long_swipe_summary">Flingインターフェースの幅または高さのパーセンテージに基づいて長いスワイプのしきい値を微調整する</string>
   <string name="fling_trails_enable_title">ジェスチャーの軌跡を有効化</string>
   <string name="fling_trails_enable_summary">スワイプジェスチャーの軌跡を表示する</string>
   <string name="fling_trails_color_title">軌跡の色</string>
@@ -556,4 +556,7 @@
   <string name="ringtone_focus_mode_title">着信音の再生デバイスの指定</string>
   <string name="ringtone_focus_mode_dynamic">ヘッドセットを接続して音楽再生中ならヘッドセットから</string>
   <string name="ringtone_focus_mode_stock">"内蔵スピーカー（AOSP既定）"</string>
+  <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Warning color</string>
+  <string name="battery_saver_color_summary">Enable orange status - navigation bars when battery saver is activated</string>
 </resources>
