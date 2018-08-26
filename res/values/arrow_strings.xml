@@ -51,6 +51,7 @@
 
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">Build date</string>
+    <string name="arrow_version">ArrowOS version</string>
 
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
