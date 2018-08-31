@@ -34,4 +34,15 @@
         android:key="weather_icon_pack"
         android:title="@string/weather_icon_pack_title"
         android:persistent="false" />
+
+    <com.arrow.support.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_weather_enabled"
+        android:title="@string/lockscreen_weather_title"
+        android:summary="@string/lockscreen_weather_summary"
+        android:defaultValue="false" />
+
+    <Preference
+        android:icon="@drawable/ic_info_outline_24dp"
+        android:persistent="false"
+        android:summary="@string/lockscreen_items_aod_info_title" />
 </PreferenceScreen>
