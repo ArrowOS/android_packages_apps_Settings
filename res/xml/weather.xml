@@ -41,4 +41,15 @@
         android:dialogTitle="@string/statusbar_weather_dialog_title"
         android:entries="@array/status_bar_weather_entries"
         android:entryValues="@array/status_bar_weather_values" />
+
+    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_weather_enabled"
+        android:title="@string/lockscreen_weather_title"
+        android:summary="@string/lockscreen_weather_summary"
+        android:defaultValue="false" />
+
+    <Preference
+        android:icon="@drawable/ic_info_outline_24dp"
+        android:persistent="false"
+        android:summary="@string/lockscreen_items_aod_info_title" />
 </PreferenceScreen>
