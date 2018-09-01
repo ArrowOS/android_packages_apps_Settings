@@ -178,8 +178,8 @@
 
         <PreferenceScreen
             android:key="hardware_keys"
-            android:title="@string/hardware_keys"
-            android:summary="@string/hardware_keys_summary"
+            android:title="@string/hard_soft_keys"
+            android:summary="@string/hard_soft_keys_summary"
             android:fragment="com.android.settings.arrow.HardwareKeys" />
     </PreferenceCategory >
 
