@@ -46,20 +46,21 @@ public class SELinuxStatusPreferenceController extends AbstractPreferenceControl
         return KEY_SELINUX_STATUS;
     }
 
+    private String getenforce() {
+        String value = SystemProperties.get(PROPERTY_SELINUX_STATUS);
+        String status = "unknown";
+        if (value != null) {
+            return value;
+        }
+        return status;
+    }
+
     @Override
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
         final Preference pref = screen.findPreference(KEY_SELINUX_STATUS);
-        if (pref == null) {
-            return;
-        }
-        if (!SELinux.isSELinuxEnabled()) {
-            String status = mContext.getResources().getString(R.string.selinux_status_disabled);
-            pref.setSummary(status);
-        } else if (!SELinux.isSELinuxEnforced()) {
-            String status = mContext.getResources().getString(R.string.selinux_status_permissive);
-            pref.setSummary(status);
-        }
+        if (pref == null) return;
+        pref.setSummary(getenforce());
     }
 }
 
