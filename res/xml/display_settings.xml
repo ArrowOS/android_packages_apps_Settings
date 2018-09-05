@@ -175,7 +175,6 @@
     </Preference>
     </PreferenceCategory >
 
-    <PreferenceCategory>
     <Preference
         android:key="vr_display_pref"
         android:title="@string/display_vr_pref_title"
@@ -192,5 +191,4 @@
         android:entries="@array/systemui_theme_entries"
         android:entryValues="@array/systemui_theme_values"
         settings:controller="com.android.settings.display.SystemUiThemePreferenceController" />
-    </PreferenceCategory >
 </PreferenceScreen>
