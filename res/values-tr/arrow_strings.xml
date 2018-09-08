@@ -557,6 +557,6 @@
   <string name="ringtone_focus_mode_dynamic">Kulaklık bağlıysa ve müzik çalıyorsa</string>
   <string name="ringtone_focus_mode_stock">"Hoparlörden (aosp varsayılan)"</string>
   <!-- Battery saver color -->
-  <string name="battery_saver_color_title">Warning color</string>
-  <string name="battery_saver_color_summary">Enable orange status - navigation bars when battery saver is activated</string>
+  <string name="battery_saver_color_title">Uyarı rengi</string>
+  <string name="battery_saver_color_summary">Pil tasarrufu aktif olduğunda turuncu durum ve gezinme çubuklarını etkinleştir</string>
 </resources>

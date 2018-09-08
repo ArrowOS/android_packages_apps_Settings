@@ -557,6 +557,6 @@
   <string name="ringtone_focus_mode_dynamic">Наушники, если они подключены и включена музыка</string>
   <string name="ringtone_focus_mode_stock">"Через динамик (по умолчанию)"</string>
   <!-- Battery saver color -->
-  <string name="battery_saver_color_title">Warning color</string>
-  <string name="battery_saver_color_summary">Enable orange status - navigation bars when battery saver is activated</string>
+  <string name="battery_saver_color_title">Цвет предупреждения</string>
+  <string name="battery_saver_color_summary">Окрашивать статусбар и панель навигации в оранжевый, когда включён режим энергосбережения</string>
 </resources>
