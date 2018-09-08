@@ -557,6 +557,6 @@
   <string name="ringtone_focus_mode_dynamic">Ze sluchátek, pokud jsou připojena a hraje hudby</string>
   <string name="ringtone_focus_mode_stock">"Z reproduktoru (AOSP výchozí)"</string>
   <!-- Battery saver color -->
-  <string name="battery_saver_color_title">Warning color</string>
-  <string name="battery_saver_color_summary">Enable orange status - navigation bars when battery saver is activated</string>
+  <string name="battery_saver_color_title">Výstražná barva</string>
+  <string name="battery_saver_color_summary">Povolit oranžovou barvu stavové lišty - navigačního panelu při aktivaci spořiče baterie</string>
 </resources>
