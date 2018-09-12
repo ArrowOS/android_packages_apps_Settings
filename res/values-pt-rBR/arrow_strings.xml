@@ -18,40 +18,40 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="rom_version_title">ArrowOS version</string>
+  <string name="rom_version_title">Versão ArrowOS</string>
   <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-  <string name="sim_disabled">disabled</string>
-  <string name="sim_missing">missing or faulty</string>
-  <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
-  <string name="sim_enabler_will_disable_sim_title">Attention</string>
-  <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
-  <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
-  <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
-  <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
-  <string name="sim_enabler_enabling">Activating\u2026</string>
-  <string name="sim_enabler_disabling">Deactivating\u2026</string>
-  <string name="sub_activate_success">SIM activated.</string>
-  <string name="sub_activate_failed">Activation failed.</string>
-  <string name="sub_deactivate_success">SIM deactivated.</string>
-  <string name="sub_deactivate_failed">Deactivation failed.</string>
+  <string name="sim_enabler_summary"><xliff:g id="text">%1$s</xliff:g>, <xliff:g id="size" example="230 kB">%2$s</xliff:g>/s</string>
+  <string name="sim_disabled">desativado</string>
+  <string name="sim_missing">em falta ou com defeito</string>
+  <string name="sim_enabler_need_disable_sim">O cartão SIM será desativado. Quer continuar?</string>
+  <string name="sim_enabler_will_disable_sim_title">Atenção</string>
+  <string name="sim_enabler_need_switch_data_service">Este cartão SIM será desativado e o cartão SIM <xliff:g id="slotid">%1$s</xliff:g> será usado para serviços de dados. Tem certeza que deseja continuar?</string>
+  <string name="sim_enabler_airplane_on">Não é possível executar a operação enquanto o modo avião está ativado.</string>
+  <string name="sim_enabler_in_call">Não é possível executar a operação enquanto estiver numa chamada.</string>
+  <string name="sim_enabler_both_inactive">Não é possível desabilitar todos os cartões SIM</string>
+  <string name="sim_enabler_enabling">Ativando\u2026</string>
+  <string name="sim_enabler_disabling">Desativando\u2026</string>
+  <string name="sub_activate_success">SIM ativado.</string>
+  <string name="sub_activate_failed">Ativação falhou.</string>
+  <string name="sub_deactivate_success">SIM desativado.</string>
+  <string name="sub_deactivate_failed">A desativação falhou.</string>
   <string name="advanced_power_menu">Power menu</string>
   <string name="arrow_reboot_menu">Advanced reboot</string>
   <!-- Power Menu -->
-  <string name="powermenu_reboot_title">Reboot</string>
-  <string name="powermenu_airplane_title">Airplane mode</string>
-  <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
-  <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
-  <string name="powermenu_screenshot_title">Screenshot</string>
-  <string name="powermenu_category_visibility">Lockscreen options</string>
-  <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
-  <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
-  <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
-  <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
-  <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
-  <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
+  <string name="powermenu_reboot_title">Reinicialização</string>
+  <string name="powermenu_airplane_title">Modo avião</string>
+  <string name="powermenu_advanced_reboot_title">Reinicialização avançada</string>
+  <string name="powermenu_advanced_reboot_summary">Habilita o menu de reinicialização avançada para reinicializar opções como reinício rápido, recuperação e bootloader. Também adiciona como uma opção para reiniciar a Interface Sistema</string>
+  <string name="powermenu_screenshot_title">Captura de tela</string>
+  <string name="powermenu_category_visibility">Opções da tela de bloqueio</string>
+  <string name="powermenu_lockscreen_title">Visibilidade na tela de bloqueio</string>
+  <string name="powermenu_lockscreen_summary">Mostrar o menu de energia na tela de bloqueio</string>
+  <string name="powermenu_ls_reboot_summary">Exibir a opção de reinicio na tela de bloqueio</string>
+  <string name="powermenu_ls_advanced_reboot_summary">Mostrar a opção de reinicialização avançada na tela de bloqueio</string>
+  <string name="powermenu_ls_screenshot_summary">Exibir a opção de captura de tela na tela de bloqueio</string>
+  <string name="powermenu_ls_airplane_summary">Exibir o modo avião na Tela de Bloqueio</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
-  <string name="lockscreen_items_other">Other</string>
+  <string name="lockscreen_items_other">Outro</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Brightness</string>
   <string name="night_brightness_value_title">Lower brightness if Night Light</string>
@@ -60,10 +60,10 @@
   <string name="night_bright_low">Low brightness</string>
   <string name="night_bright_medium">Medium brightness</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Cellular data</string>
-  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_data">Dados móveis</string>
+  <string name="data_usage_app_restrict_data_summary">Permitir o uso de dados móveis</string>
+  <string name="data_usage_app_restrict_wifi">Dados Wi-Fi</string>
+  <string name="data_usage_app_restrict_wifi_summary">Permitir o uso de dados Wi-Fi</string>
   <!-- Sizes for pattern lockscreen -->
   <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -91,8 +91,8 @@
   <!-- Other gestures -->
   <string name="other_gestures">Other gestures</string>
   <!-- Proximity wake -->
-  <string name="proximity_wake_title">Prevent accidental wake-up</string>
-  <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+  <string name="proximity_wake_title">Evitar despertar acidental</string>
+  <string name="proximity_wake_summary">Verificar o sensor de proximidade antes de ligar a tela</string>
   <string name="applying_theme_toast">Applying theme, please wait...</string>
   <string name="theme_applied_toast">Theme applied!</string>
   <string name="substratum_installed_title">System themes are unavailable because a Substratum overlay is installed. Please uninstall all overlays targeting Android System to proceed.</string>
@@ -104,9 +104,9 @@
   <!--Double Tap to Sleep Statusbar-->
   <string name="double_tap_sleep_gesture_title">Double tap to sleep on status bar</string>
   <!-- Settings categories -->
-  <string name="statusbar_category_title">StatusBar</string>
-  <string name="buttons_category_title">Buttons</string>
-  <string name="misc_category_title">Misc</string>
+  <string name="statusbar_category_title">Barra de Status</string>
+  <string name="buttons_category_title">Botões</string>
+  <string name="misc_category_title">Variados</string>
   <!-- Status bar clock options -->
   <string name="status_bar_clock">Clock and Date</string>
   <string name="status_bar_clock_summary">Configure statusbar clock and date appearance</string>
@@ -193,20 +193,20 @@
   <string name="lock_screen_weather_condition_icon_summaryOn">Condition icon is shown on Lockscreen</string>
   <string name="lock_screen_weather_condition_icon_summaryOff">Condition icon is hidden on Lockscreen</string>
   <!-- Screenshot sound -->
-  <string name="screenshot_sound_title">Screenshot sound</string>
+  <string name="screenshot_sound_title">Som de captura de tela</string>
   <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
   <!-- Lockscreen battery info indicator  -->
-  <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+  <string name="lockscreen_battery_info_title">Informação de carregamento na tela de bloqueio</string>
   <string name="lockscreen_battery_info_summary">Display charger max current, voltage and battery temperature on lockscreen while charging</string>
   <!-- QS rows and columns -->
-  <string name="qs_rows_columns_title">QS panel tweaks</string>
+  <string name="qs_rows_columns_title">QS painel Ajustes</string>
   <string name="qs_rows_columns_summary">Quicksettings rows and columns, QS panel opacity</string>
-  <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
-  <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
-  <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
-  <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
+  <string name="qs_rows_portrait_title">Número de linhas (retrato)</string>
+  <string name="qs_rows_landscape_title">Número de linhas (paisagem)</string>
+  <string name="qs_columns_portrait_title">Número de colunas (retrato)</string>
+  <string name="qs_columns_landscape_title">Número de colunas (paisagem)</string>
   <!-- QuickSettings Panel Transparency -->
-  <string name="qs_panel_alpha_title">QS panel opacity</string>
+  <string name="qs_panel_alpha_title">Opacidade do painel Conf. Rápidas</string>
   <!-- Statusbar Iten -->
   <string name="statusbar_items_category">Statusbar items</string>
   <!-- DUI -->
@@ -224,7 +224,7 @@
   <string name="icon_pack_picker_dialog_title">Icon packs</string>
   <string name="image_exceeds_max_allowed_size">Image must not exceed 512x512</string>
   <string name="invalid_icon_from_uri">Unable to load image from content provider</string>
-  <string name="picker_activities">Activities</string>
+  <string name="picker_activities">Atividades</string>
   <string name="select_custom_app_title">Select custom app</string>
   <string name="select_custom_activity_title">Select custom activity</string>
   <string name="profile_applist_title">Applications</string>
