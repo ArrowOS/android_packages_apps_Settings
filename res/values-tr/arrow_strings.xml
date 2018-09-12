@@ -124,6 +124,7 @@
   <string name="statusbar_category_title">Durum çubuğu</string>
   <string name="buttons_category_title">Tuşlar</string>
   <string name="misc_category_title">Çeşitli</string>
+  <string name="theme_category_title">System theme</string>
   <!-- Button brightness -->
   <string name="button_backlight_options_category">Aydınlatma ışığı</string>
   <string name="button_backlight_enable_title">Tuş aydınlatılmasına izin ver</string>
@@ -216,4 +217,29 @@
   <string name="battery_light_medium_color">Medium battery</string>
   <string name="battery_light_full_color">Almost full battery</string>
   <string name="battery_light_reallyfull_color">Full (100) battery</string>
+  <!-- SystemUI theme -->
+  <string name="systemui_theme_style_title">SystemUI theme</string>
+  <string name="systemui_theme_style_auto">Automatic (wallpaper based)</string>
+  <string name="systemui_theme_style_light">Light</string>
+  <string name="systemui_theme_style_dark">Dark</string>
+  <string name="system_theme_style_black">Black</string>
+  <string name="applying_theme_toast">Applying theme, please wait...</string>
+  <string name="theme_applied_toast">Theme applied!</string>
+  <!-- Weather - OmniJaws Settings -->
+  <string name="weather_title">Weather</string>
+  <string name="weather_config_title">Service settings</string>
+  <string name="weather_config_summary"></string>
+  <string name="header_weather_title">Header view weather</string>
+  <string name="header_weather_summary">Enable notification panel header weather display</string>
+  <string name="weather_icon_pack_title">Condition icon pack</string>
+  <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+  <!-- Network traffic -->
+  <string name="traffic_title">Traffic indicators</string>
+  <string name="network_traffic_title">Network traffic</string>
+  <string name="network_traffic_type">Select net activity type</string>
+  <string name="show_network_traffic_up">Uplink</string>
+  <string name="show_network_traffic_down">Downlink</string>
+  <string name="show_network_traffic_all">Uplink and Downlink</string>
+  <string name="network_traffic_state_title">Show net activity in statusbar</string>
+  <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
 </resources>

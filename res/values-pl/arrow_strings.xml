@@ -35,9 +35,9 @@
   <string name="sub_deactivate_success">SIM dezaktywowana.</string>
   <string name="sub_deactivate_failed">Dezaktywacja nie powiodła się.</string>
   <!-- Fingerprint location message -->
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Zlokalizuj czytnik linii papilarnych z przodu Twojego telefonu.</string>
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Zlokalizuj czytnik linii papilarnych po lewej stronie Twojego telefonu.</string>
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Zlokalizuj czytnik linii papilarnych po prawej stronie Twojego telefonu.</string>
   <!-- Manage applications, package string displayed in app snippet -->
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
   <string name="rom_version_title">Wersja ArrowOS</string>
@@ -58,10 +58,10 @@
   <string name="unlock_scramble_pin_layout_summary">Pomieszany układ cyfr przy odblokowywaniu urządzenia kodem PIN</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Szybkie odblokowanie</string>
-  <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+  <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie kiedy zostanie podany prawidłowy PIN/hasło</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Informacje o ładowaniu na ekranie blokady</string>
-  <string name="lockscreen_battery_info_summary">Show charging current, voltage and battery temperature on lockscreen while charging</string>
+  <string name="lockscreen_battery_info_summary">Wyświetl szacowane maksymalne napięcie oraz temperaturę baterii na ekranie blokady podczas ładowania</string>
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Dźwięk zrzutu ekranu</string>
   <!-- meh ganeshi4u -->
@@ -73,8 +73,8 @@
   <string name="data_usage_app_restrict_wifi">Dane Wi\u2011Fi</string>
   <string name="data_usage_app_restrict_wifi_summary">Włącz użycie danych Wi\u2011Fi</string>
   <!-- Power Menu -->
-  <string name="advanced_power_menu">Power button options</string>
-  <string name="arrow_reboot_menu">Advanced reboot menu</string>
+  <string name="advanced_power_menu">Działania przycisku zasilania</string>
+  <string name="arrow_reboot_menu">Zaawansowane menu restartu</string>
   <string name="powermenu_reboot_title">Restart</string>
   <string name="powermenu_airplane_title">Tryb samolotowy</string>
   <string name="powermenu_advanced_reboot_title">Zaawansowany restart</string>
@@ -113,22 +113,23 @@
   <string name="hardware_keys_single_tap_title">Akcja pojedyńczego stuknięcia</string>
   <string name="hardware_keys_long_press_title">Akcja długiego naciśnięcia</string>
   <string name="hardware_keys_double_tap_title">Akcja dwukrotnego stuknięcia</string>
-  <string name="hard_soft_keys">Device buttons and navbar</string>
-  <string name="hard_soft_keys_summary">Hardware buttons and navigation bar options</string>
-  <string name="navigation_keys">Enable navigation bar</string>
-  <string name="navigation_keys_title">Onscreen navigation bar</string>
-  <string name="hardware_keys_category">Hardware navigation buttons</string>
-  <string name="hardware_keys_disable_title">Disable hardware buttons</string>
+  <string name="hard_soft_keys">Przyciski urządzenia i pasek nawigacyjny</string>
+  <string name="hard_soft_keys_summary">Przyciski sprzętowe i opcje paska nawigacji</string>
+  <string name="navigation_keys">Włącz pasek nawigacji</string>
+  <string name="navigation_keys_title">Pasek nawigacji na ekranie</string>
+  <string name="hardware_keys_category">Sprzętowe przyciski nawigacji</string>
+  <string name="hardware_keys_disable_title">Wyłącz przyciski sprzętowe</string>
   <string name="hardware_keys_wake_title">Wybudź urządzenie</string>
   <!-- Settings categories -->
   <string name="statusbar_category_title">Pasek stanu</string>
   <string name="buttons_category_title">Przyciski</string>
   <string name="misc_category_title">Inne</string>
+  <string name="theme_category_title">System theme</string>
   <!-- Button brightness -->
   <string name="button_backlight_options_category">Opcje podświetlenia</string>
   <string name="button_backlight_enable_title">Zezwól na podświetlanie przycisków</string>
   <string name="button_link_brightness">Połącz z jasnością ekranu</string>
-  <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
+  <string name="button_link_brightness_summary">Jasność podświetlenia przycisków dostosuje się w zależności od poziomu jasności ekranu</string>
   <string name="button_manual_brightness">Poziom jasności</string>
   <string name="button_timeout_title">Czas podświetlania</string>
   <string name="button_backlight_on_touch_only_title">Podświetlenie przycisków podczas dotyku</string>
@@ -140,38 +141,38 @@
   <string name="volume_rocker_wake_title">Wybudź klawiszami głośności</string>
   <string name="volume_rocker_wake_summary">Wybudź przy użyciu przycisków głośności</string>
   <!-- Navbar tuner -->
-  <string name="navbar_tuner_title">Navigation bar configs</string>
+  <string name="navbar_tuner_title">Wysokość paska nawigacji</string>
   <!-- Heads up -->
-  <string name="heads_up_notifications">Heads up</string>
-  <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-  <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-  <string name="add_heads_up_package">Add app</string>
-  <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-  <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-  <string name="heads_up_stoplist_title">Stoplist</string>
+  <string name="heads_up_notifications">Wyskakujące powiadomienia</string>
+  <string name="summary_heads_up_enabled">Wyskakujące powiadomienia są włączone</string>
+  <string name="summary_heads_up_disabled">Wyskakujące powiadomienia są wyłączone</string>
+  <string name="add_heads_up_package">Dodaj aplikację</string>
+  <string name="add_heads_up_stoplist_summary">Wyłącz wyskakujące powiadomienia dla tych aplikacji</string>
+  <string name="add_heads_up_blacklist_summary">Wyłącz wyskakujące powiadomienia z tych aplikacji</string>
+  <string name="heads_up_stoplist_title">Lista wstrzymanych</string>
   <string name="heads_up_blacklist_title">Czarna lista</string>
-  <string name="profile_choose_app">Choose app</string>
-  <string name="dialog_delete_title">Delete</string>
-  <string name="dialog_delete_message">Remove selected item?</string>
+  <string name="profile_choose_app">Wybierz aplikację</string>
+  <string name="dialog_delete_title">Usuń</string>
+  <string name="dialog_delete_message">Usunąć wybrany element?</string>
   <!-- Heads up timeout -->
-  <string name="heads_up_time_out_title">Time out</string>
-  <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-  <string name="heads_up_time_out_2sec">2 seconds</string>
-  <string name="heads_up_time_out_4sec">4 seconds</string>
-  <string name="heads_up_time_out_5sec">5 seconds</string>
-  <string name="heads_up_time_out_6sec">6 seconds</string>
-  <string name="heads_up_time_out_8sec">8 seconds</string>
-  <string name="heads_up_time_out_10sec">10 seconds</string>
+  <string name="heads_up_time_out_title">Czas wyświetlania</string>
+  <string name="heads_up_time_out_summary">Wyskakujące powiadomienia będą wyświetlane przez <xliff:g id="number">%d</xliff:g> sekund</string>
+  <string name="heads_up_time_out_2sec">2 sekundy</string>
+  <string name="heads_up_time_out_4sec">4 sekundy</string>
+  <string name="heads_up_time_out_5sec">5 sekund</string>
+  <string name="heads_up_time_out_6sec">6 sekund</string>
+  <string name="heads_up_time_out_8sec">8 sekund</string>
+  <string name="heads_up_time_out_10sec">10 sekund</string>
   <!-- Heads up snooze -->
-  <string name="heads_up_snooze_title">Snooze timer</string>
-  <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-  <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-  <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-  <string name="heads_up_snooze_1min">1 minute</string>
-  <string name="heads_up_snooze_5min">5 minutes</string>
-  <string name="heads_up_snooze_10min">10 minutes</string>
-  <string name="heads_up_snooze_15min">15 minutes</string>
-  <string name="heads_up_snooze_20min">20 minutes</string>
+  <string name="heads_up_snooze_title">Drzemka</string>
+  <string name="heads_up_snooze_summary_one_minute">Przesunięcie palcem w górę na wyskakującym powiadomieniu usypia powiadomienia z tej aplikacji na 1 minutę</string>
+  <string name="heads_up_snooze_summary">Przesunięcie palcem w górę na wyskakującym powiadomieniu usypia powiadomienia z tej aplikacji <xliff:g id="number">%d</xliff:g> minut</string>
+  <string name="heads_up_snooze_disabled_summary">Drzemka jest wyłączona</string>
+  <string name="heads_up_snooze_1min">1 minuta</string>
+  <string name="heads_up_snooze_5min">5 minut</string>
+  <string name="heads_up_snooze_10min">10 minut</string>
+  <string name="heads_up_snooze_15min">15 minut</string>
+  <string name="heads_up_snooze_20min">20 minut</string>
   <!-- Clear all recents -->
   <string name="aosp_recents_title">Ostatnio uruchomione AOSP</string>
   <string name="show_clear_all_recents_button_title">Przycisk \"Wyczyść wszystkie\"</string>
@@ -188,9 +189,9 @@
   <string name="proximity_wake_title">Zapobiegaj przypadkowemu wybudzeniu</string>
   <string name="proximity_wake_summary">Używaj czujnika zbliżeniowego podczas wybudzania ekranu</string>
   <!-- Statusbar Tuner -->
-  <string name="statusbar_items_title">Statusbar items</string>
+  <string name="statusbar_items_title">Elementy paska stanu</string>
   <!-- Lockscreen icons -->
-  <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
+  <string name="lockscreen_tuner_title">Skróty ekranu blokady</string>
   <!-- QS rows and columns -->
   <string name="qs_rows_columns_title">Modyfikacje panelu szybkich ustawień</string>
   <string name="qs_rows_portrait_title">Ilość kafelków w pionie</string>
@@ -203,17 +204,42 @@
   <!-- QuickSettings Panel Transparency -->
   <string name="qs_panel_alpha_title">Przeźroczystość panelu Szybkich Ustawień</string>
   <!-- Changelog -->
-  <string name="changelog_title">Changelog</string>
-  <string name="changelog_summary">Since the last update</string>
-  <string name="changelog_error">Unable to load changelog</string>
+  <string name="changelog_title">Zmiany w najnowszej wersji</string>
+  <string name="changelog_summary">Od ostatniej aktualizacji</string>
+  <string name="changelog_error">Nie można załadować listy zmian</string>
   <!-- Battery light -->
-  <string name="battery_light_settings">Battery charging light</string>
-  <string name="battery_light_enable">Battery light</string>
-  <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-  <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-  <string name="battery_light_cat">Battery light color when charging</string>
-  <string name="battery_light_low_color">Low battery</string>
-  <string name="battery_light_medium_color">Medium battery</string>
-  <string name="battery_light_full_color">Almost full battery</string>
-  <string name="battery_light_reallyfull_color">Full (100) battery</string>
+  <string name="battery_light_settings">Dioda ładowania baterii</string>
+  <string name="battery_light_enable">Dioda baterii</string>
+  <string name="battery_light_allow_on_dnd_title">Dioda baterii w trybie \"Nie przeszkadzać\"</string>
+  <string name="battery_light_low_blinking_title">Miganie diody gdy jest słaba bateria</string>
+  <string name="battery_light_cat">Kolor diody LED podczas ładowania</string>
+  <string name="battery_light_low_color">Niski poziom baterii</string>
+  <string name="battery_light_medium_color">Średni poziom baterii</string>
+  <string name="battery_light_full_color">Prawie pełna bateria</string>
+  <string name="battery_light_reallyfull_color">Pełna bateria (100%)</string>
+  <!-- SystemUI theme -->
+  <string name="systemui_theme_style_title">SystemUI theme</string>
+  <string name="systemui_theme_style_auto">Automatic (wallpaper based)</string>
+  <string name="systemui_theme_style_light">Light</string>
+  <string name="systemui_theme_style_dark">Dark</string>
+  <string name="system_theme_style_black">Black</string>
+  <string name="applying_theme_toast">Applying theme, please wait...</string>
+  <string name="theme_applied_toast">Theme applied!</string>
+  <!-- Weather - OmniJaws Settings -->
+  <string name="weather_title">Weather</string>
+  <string name="weather_config_title">Service settings</string>
+  <string name="weather_config_summary"></string>
+  <string name="header_weather_title">Header view weather</string>
+  <string name="header_weather_summary">Enable notification panel header weather display</string>
+  <string name="weather_icon_pack_title">Condition icon pack</string>
+  <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+  <!-- Network traffic -->
+  <string name="traffic_title">Traffic indicators</string>
+  <string name="network_traffic_title">Network traffic</string>
+  <string name="network_traffic_type">Select net activity type</string>
+  <string name="show_network_traffic_up">Uplink</string>
+  <string name="show_network_traffic_down">Downlink</string>
+  <string name="show_network_traffic_all">Uplink and Downlink</string>
+  <string name="network_traffic_state_title">Show net activity in statusbar</string>
+  <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
 </resources>
