@@ -473,4 +473,6 @@
     <string name="app_ops_reset_confirm_mesg">Are you sure you wish to reset counters?</string>
 
     <string name="app_ops_settings_title">App Ops</string>
+
+    <string name="enlighten">This options are only meant to work with old card stack recents(O recents)</string>
 </resources>
