@@ -66,13 +66,14 @@ import java.util.List;
  * consumed since the last time it was unplugged.
  */
 public class PowerUsageSummary extends PowerUsageBase implements OnLongClickListener,
-        BatteryTipPreferenceController.BatteryTipListener {
+        OnClickListener, BatteryTipPreferenceController.BatteryTipListener {
 
     static final String TAG = "PowerUsageSummary";
 
     private static final boolean DEBUG = false;
     private static final String KEY_BATTERY_HEADER = "battery_header";
     private static final String KEY_BATTERY_TIP = "battery_tip";
+    private static final String KEY_SHOW_ALL_APPS = "show_all_apps";
 
     private static final String KEY_SCREEN_USAGE = "screen_usage";
     private static final String KEY_TIME_SINCE_LAST_FULL_CHARGE = "last_full_charge";
@@ -227,6 +228,15 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     }
 
     @Override
+    public boolean onPreferenceTreeClick(Preference preference) {
+        if (KEY_BATTERY_HEADER.equals(preference.getKey())) {
+            performBatteryHeaderClick();
+            return true;
+        }
+        return super.onPreferenceTreeClick(preference);
+    }
+
+    @Override
     protected String getLogTag() {
         return TAG;
     }
@@ -290,6 +300,22 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
+        }
+    }
+
+    private void performBatteryHeaderClick() {
+        if (mPowerFeatureProvider.isAdvancedUiEnabled()) {
+            Utils.startWithFragment(getContext(), PowerUsageAdvanced.class.getName(), null,
+                    null, 0, R.string.advanced_battery_title, null, getMetricsCategory());
+        } else {
+            mStatsHelper.storeStatsHistoryInFile(BatteryHistoryDetail.BATTERY_HISTORY_FILE);
+            Bundle args = new Bundle(2);
+            args.putString(BatteryHistoryDetail.EXTRA_STATS,
+                    BatteryHistoryDetail.BATTERY_HISTORY_FILE);
+            args.putParcelable(BatteryHistoryDetail.EXTRA_BROADCAST,
+                    mStatsHelper.getBatteryBroadcast());
+            Utils.startWithFragment(getContext(), BatteryHistoryDetail.class.getName(), args,
+                    null, 0, R.string.history_details_title, null, getMetricsCategory());
         }
     }
 
@@ -381,9 +407,12 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         getLoaderManager().restartLoader(BATTERY_INFO_LOADER, Bundle.EMPTY,
                 mBatteryInfoLoaderCallbacks);
         if (mPowerFeatureProvider.isEstimateDebugEnabled()) {
-            // Set long click action for summary to show debug info
+            // Unfortunately setting a long click listener on a view means it will no
+            // longer pass the regular click event to the parent, so we have to register
+            // a regular click listener as well.
             View header = mBatteryLayoutPref.findViewById(R.id.summary1);
             header.setOnLongClickListener(this);
+            header.setOnClickListener(this);
         }
     }
 
@@ -397,6 +426,11 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         showBothEstimates();
         view.setOnLongClickListener(null);
         return true;
+    }
+
+    @Override
+    public void onClick(View view) {
+        performBatteryHeaderClick();
     }
 
     @Override
