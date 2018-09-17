@@ -31,6 +31,7 @@ import com.android.settings.dashboard.SummaryLoader;
 import com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController;
 import com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController;
 import com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController;
+import com.android.settings.deviceinfo.SELinuxStatusPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -133,6 +134,7 @@ public class DeviceInfoSettings extends DashboardFragment implements Indexable {
         controllers.add(new WifiMacAddressPreferenceController(context, lifecycle));
         controllers.add(new BluetoothAddressPreferenceController(context, lifecycle));
         controllers.add(new RegulatoryInfoPreferenceController(context));
+        controllers.add(new SELinuxStatusPreferenceController(context));
         controllers.add(new SafetyInfoPreferenceController(context));
         controllers.add(new ManualPreferenceController(context));
         //controllers.add(new FeedbackPreferenceController(fragment, context));
