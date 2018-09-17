@@ -128,6 +128,13 @@
         android:title="@string/fcc_equipment_id"
         android:summary="@string/summary_placeholder"/>
 
+     <!-- SELinux status information -->
+     <Preference
+        android:key="selinux_status"
+        android:order="42"
+        android:title="@string/selinux_status"
+        android:summary="@string/selinux_status_enforcing"/>
+
     <!-- Build number -->
     <Preference
         android:key="build_number"
@@ -135,5 +142,11 @@
         android:title="@string/build_number"
         android:summary="@string/summary_placeholder"
         settings:allowDividerAbove="true"/>
+
+        <!-- SELinux status information -->
+        <Preference android:key="selinux_status"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/selinux_status"
+                android:summary="@string/selinux_status_enforcing"/>
 
 </PreferenceScreen>
