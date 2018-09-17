@@ -135,5 +135,5 @@
         android:title="@string/build_number"
         android:summary="@string/summary_placeholder"
         settings:allowDividerAbove="true"/>
-
+  
 </PreferenceScreen>
