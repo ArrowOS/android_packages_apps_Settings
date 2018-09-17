@@ -2785,6 +2785,9 @@
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_number">Build number</string>
 
+    <!-- About phone screen,  setting option name-->
+    <string name="selinux_status">SELinux status</string>
+
     <!-- About phone screen, show when a value of some status item is unavailable. -->
     <string name="device_info_not_available">Not available</string>
     <!-- About phone screen, phone status screen title -->
@@ -6403,7 +6406,11 @@
     from their cell phone carrier. The use of the string is similar to the string
     "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->
     <string name="additional_system_update_settings_list_item_title">Additional system updates</string>
-
+    <!-- These statuses are displayed when a device was built with SE Android supoprt.
+    These are displayed by the settings app in the about section. -->
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Notification of installed CA Certs --> <skip/>
 
     <!-- Shows up when there is a user SSL CA Cert installed on the
@@ -6433,7 +6440,6 @@
         <item quantity="one">Check certificate</item>
         <item quantity="other">Check certificates</item>
     </plurals>
-
     <!-- User settings -->
     <skip/>
 
