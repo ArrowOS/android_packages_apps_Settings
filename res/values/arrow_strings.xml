@@ -574,5 +574,8 @@
 
     <string name="brightness_slider_bottom_title">Bottom brightness slider</string>
     <string name="brightness_slider_bottom_summary">Show brightness slider on the bottom of the quick settings panel</string>
+
+    <string name="qs_show_brightness_title">Brightness slider</string>
+    <string name="qs_show_brightness_summary">Option to show or hide the qs brightness slider</string>
 </resources>
 
