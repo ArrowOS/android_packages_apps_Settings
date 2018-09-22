@@ -546,4 +546,6 @@
     <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
     <string name="expanded_desktop_title">Expanded desktop options</string>
 
+    <!-- Density category -->
+    <string name="density_category">Density options</string>
 </resources>
