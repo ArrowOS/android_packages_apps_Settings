@@ -35,9 +35,9 @@
   <string name="sub_deactivate_success">SIMをアクティベート解除しました</string>
   <string name="sub_deactivate_failed">アクティベート解除に失敗しました</string>
   <!-- Fingerprint location message -->
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_front">端末前面にある指紋認証センサーを探します</string>
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_left">端末左側にある指紋認証センサーを探します</string>
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_right">端末右側にある指紋認証センサーを探します</string>
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
   <!-- Manage applications, package string displayed in app snippet -->
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
   <string name="rom_version_title">ArrowOSバージョン</string>
@@ -58,10 +58,10 @@
   <string name="unlock_scramble_pin_layout_summary">端末のロック解除時にPINレイアウトをランダムにする</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">クイックアンロック</string>
-  <string name="unlock_quick_unlock_control_summary">正しいPIN/パスワードが入力された時はロックを自動的に解除する</string>
+  <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">ロック画面での充電情報</string>
-  <string name="lockscreen_battery_info_summary">充電中のロック画面に接続した充電器の電流/電圧/バッテリー温度を表示する</string>
+  <string name="lockscreen_battery_info_summary">Show charging current, voltage and battery temperature on lockscreen while charging</string>
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">スクリーンショットの音</string>
   <!-- meh ganeshi4u -->
@@ -73,8 +73,8 @@
   <string name="data_usage_app_restrict_wifi">Wi\u2011Fiデータ使用量</string>
   <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fiデータ使用量を有効化する</string>
   <!-- Power Menu -->
-  <string name="advanced_power_menu">電源ボタンのアクション</string>
-  <string name="arrow_reboot_menu">高度な再起動メニュー</string>
+  <string name="advanced_power_menu">Power button options</string>
+  <string name="arrow_reboot_menu">Advanced reboot menu</string>
   <string name="powermenu_reboot_title">再起動</string>
   <string name="powermenu_airplane_title">機内モード</string>
   <string name="powermenu_advanced_reboot_title">高度な再起動</string>
@@ -113,12 +113,12 @@
   <string name="hardware_keys_single_tap_title">シングルタップアクション</string>
   <string name="hardware_keys_long_press_title">ロングプレスアクション</string>
   <string name="hardware_keys_double_tap_title">ダブルタップアクション</string>
-  <string name="hard_soft_keys">端末のボタンとナビゲーションバー</string>
-  <string name="hard_soft_keys_summary">ハードウェアボタンやナビゲーションバーのオプション</string>
-  <string name="navigation_keys">ナビゲーションバーを有効化</string>
-  <string name="navigation_keys_title">オンスクリーンナビゲーションバーを有効化</string>
-  <string name="hardware_keys_category">ハードウェアナビゲーションボタン</string>
-  <string name="hardware_keys_disable_title">ハードウェアボタンを無効化</string>
+  <string name="hard_soft_keys">Device buttons and navbar</string>
+  <string name="hard_soft_keys_summary">Hardware buttons and navigation bar options</string>
+  <string name="navigation_keys">Enable navigation bar</string>
+  <string name="navigation_keys_title">Onscreen navigation bar</string>
+  <string name="hardware_keys_category">Hardware navigation buttons</string>
+  <string name="hardware_keys_disable_title">Disable hardware buttons</string>
   <string name="hardware_keys_wake_title">スリープ解除</string>
   <!-- Settings categories -->
   <string name="statusbar_category_title">ステータスバー</string>
@@ -129,7 +129,7 @@
   <string name="button_backlight_options_category">バックライトの設定</string>
   <string name="button_backlight_enable_title">ボタンのバックライトを許可</string>
   <string name="button_link_brightness">画面の明るさとリンクする</string>
-  <string name="button_link_brightness_summary">ボタンのバックライトの明るさは現在の画面の明るさのレベルに応じて調整されます</string>
+  <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
   <string name="button_manual_brightness">明るさレベル</string>
   <string name="button_timeout_title">バックライトの消灯時間</string>
   <string name="button_backlight_on_touch_only_title">タッチ時にのみバックライトを点灯</string>
@@ -141,38 +141,38 @@
   <string name="volume_rocker_wake_title">音量ボタンでスリープ解除</string>
   <string name="volume_rocker_wake_summary">音量ボタンを押して端末をスリープ解除する</string>
   <!-- Navbar tuner -->
-  <string name="navbar_tuner_title">ナビゲーションバーの編集</string>
+  <string name="navbar_tuner_title">Navigation bar configs</string>
   <!-- Heads up -->
-  <string name="heads_up_notifications">Heads Up</string>
-  <string name="summary_heads_up_enabled">ポップアップ通知は有効です</string>
-  <string name="summary_heads_up_disabled">ポップアップ通知は無効です</string>
-  <string name="add_heads_up_package">アプリを追加</string>
-  <string name="add_heads_up_stoplist_summary">これらのアプリ起動中にはHeads Upを無効化する</string>
-  <string name="add_heads_up_blacklist_summary">このアプリのHeads Upを無効にする</string>
-  <string name="heads_up_stoplist_title">ストップリスト</string>
+  <string name="heads_up_notifications">Heads up</string>
+  <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
+  <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
+  <string name="add_heads_up_package">Add app</string>
+  <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
+  <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
+  <string name="heads_up_stoplist_title">Stoplist</string>
   <string name="heads_up_blacklist_title">ブラックリスト</string>
-  <string name="profile_choose_app">アプリを選択</string>
-  <string name="dialog_delete_title">削除</string>
-  <string name="dialog_delete_message">選択した項目を削除しますか？</string>
+  <string name="profile_choose_app">Choose app</string>
+  <string name="dialog_delete_title">Delete</string>
+  <string name="dialog_delete_message">Remove selected item?</string>
   <!-- Heads up timeout -->
-  <string name="heads_up_time_out_title">表示時間</string>
-  <string name="heads_up_time_out_summary">通知は<xliff:g id="number">%d</xliff:g>秒間表示されます</string>
-  <string name="heads_up_time_out_2sec">2秒</string>
-  <string name="heads_up_time_out_4sec">4秒</string>
-  <string name="heads_up_time_out_5sec">5秒</string>
-  <string name="heads_up_time_out_6sec">6秒</string>
-  <string name="heads_up_time_out_8sec">8秒</string>
-  <string name="heads_up_time_out_10sec">10秒</string>
+  <string name="heads_up_time_out_title">Time out</string>
+  <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
+  <string name="heads_up_time_out_2sec">2 seconds</string>
+  <string name="heads_up_time_out_4sec">4 seconds</string>
+  <string name="heads_up_time_out_5sec">5 seconds</string>
+  <string name="heads_up_time_out_6sec">6 seconds</string>
+  <string name="heads_up_time_out_8sec">8 seconds</string>
+  <string name="heads_up_time_out_10sec">10 seconds</string>
   <!-- Heads up snooze -->
-  <string name="heads_up_snooze_title">スヌーズタイマー</string>
-  <string name="heads_up_snooze_summary_one_minute">表示された通知を上にスワイプするとこのアプリからの通知を1分間無効にします</string>
-  <string name="heads_up_snooze_summary">表示された通知を上にスワイプするとこのアプリからの通知を<xliff:g id="number">%d</xliff:g>分間無効にします</string>
-  <string name="heads_up_snooze_disabled_summary">スヌーズタイマーは無効です</string>
-  <string name="heads_up_snooze_1min">1分</string>
-  <string name="heads_up_snooze_5min">5分</string>
-  <string name="heads_up_snooze_10min">10分</string>
-  <string name="heads_up_snooze_15min">15分</string>
-  <string name="heads_up_snooze_20min">20分</string>
+  <string name="heads_up_snooze_title">Snooze timer</string>
+  <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
+  <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
+  <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+  <string name="heads_up_snooze_1min">1 minute</string>
+  <string name="heads_up_snooze_5min">5 minutes</string>
+  <string name="heads_up_snooze_10min">10 minutes</string>
+  <string name="heads_up_snooze_15min">15 minutes</string>
+  <string name="heads_up_snooze_20min">20 minutes</string>
   <!-- Clear all recents -->
   <string name="aosp_recents_title">AOSPのアプリ履歴</string>
   <string name="show_clear_all_recents_button_title">全て終了ボタン</string>
@@ -189,9 +189,9 @@
   <string name="proximity_wake_title">偶発的なスリープ解除を防止</string>
   <string name="proximity_wake_summary">スリープ解除する前に接近センサーで確認する</string>
   <!-- Statusbar Tuner -->
-  <string name="statusbar_items_title">ステータスバーの項目</string>
+  <string name="statusbar_items_title">Statusbar items</string>
   <!-- Lockscreen icons -->
-  <string name="lockscreen_tuner_title">ロック画面のショートカット</string>
+  <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
   <!-- QS rows and columns -->
   <string name="qs_rows_columns_title">クイック設定パネルの調整</string>
   <string name="qs_rows_portrait_title">縦向き時の行数</string>
@@ -204,42 +204,217 @@
   <!-- QuickSettings Panel Transparency -->
   <string name="qs_panel_alpha_title">クイック設定パネルの不透明度</string>
   <!-- Changelog -->
-  <string name="changelog_title">変更履歴</string>
-  <string name="changelog_summary">前回の更新から</string>
-  <string name="changelog_error">更新履歴を読み込めませんでした</string>
+  <string name="changelog_title">Changelog</string>
+  <string name="changelog_summary">Since the last update</string>
+  <string name="changelog_error">Unable to load changelog</string>
   <!-- Battery light -->
-  <string name="battery_light_settings">バッテリー充電時のライト</string>
-  <string name="battery_light_enable">バッテリーライト</string>
-  <string name="battery_light_allow_on_dnd_title">マナーモード中のバッテリーライト</string>
-  <string name="battery_light_low_blinking_title">バッテリ低下時のライト点滅</string>
-  <string name="battery_light_cat">バッテリー充電中のライトの色</string>
-  <string name="battery_light_low_color">バッテリー残量低下</string>
-  <string name="battery_light_medium_color">中程度のバッテリー残量</string>
-  <string name="battery_light_full_color">ほぼ充電完了</string>
-  <string name="battery_light_reallyfull_color">充電完了</string>
+  <string name="battery_light_settings">Battery charging light</string>
+  <string name="battery_light_enable">Battery light</string>
+  <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
+  <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
+  <string name="battery_light_cat">Battery light color when charging</string>
+  <string name="battery_light_low_color">Low battery</string>
+  <string name="battery_light_medium_color">Medium battery</string>
+  <string name="battery_light_full_color">Almost full battery</string>
+  <string name="battery_light_reallyfull_color">Full (100) battery</string>
   <!-- SystemUI theme -->
   <string name="systemui_theme_style_title">SystemUI theme</string>
   <string name="systemui_theme_style_auto">Automatic (wallpaper based)</string>
   <string name="systemui_theme_style_light">Light</string>
   <string name="systemui_theme_style_dark">Dark</string>
   <string name="system_theme_style_black">Black</string>
-  <string name="applying_theme_toast">Applying theme, please wait...</string>
-  <string name="theme_applied_toast">Theme applied!</string>
+  <string name="applying_theme_toast">テーマを適用中です。しばらくお待ちください...</string>
+  <string name="theme_applied_toast">テーマが適用されました</string>
   <!-- Weather - OmniJaws Settings -->
-  <string name="weather_title">Weather</string>
-  <string name="weather_config_title">Service settings</string>
+  <string name="weather_title">天気</string>
+  <string name="weather_config_title">サービスの設定</string>
   <string name="weather_config_summary"></string>
-  <string name="header_weather_title">Header view weather</string>
-  <string name="header_weather_summary">Enable notification panel header weather display</string>
-  <string name="weather_icon_pack_title">Condition icon pack</string>
-  <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+  <string name="header_weather_title">ヘッダーに天気を表示</string>
+  <string name="header_weather_summary">通知パネルの天気ヘッダー画像を有効にする</string>
+  <string name="weather_icon_pack_title">天候アイコンパック</string>
+  <string name="weather_icon_pack_note">備考\u003a プレイストアで「Chronusアイコン」を検索することで新しいアイコンパックをインストールできます</string>
   <!-- Network traffic -->
-  <string name="traffic_title">Traffic indicators</string>
-  <string name="network_traffic_title">Network traffic</string>
-  <string name="network_traffic_type">Select net activity type</string>
-  <string name="show_network_traffic_up">Uplink</string>
-  <string name="show_network_traffic_down">Downlink</string>
-  <string name="show_network_traffic_all">Uplink and Downlink</string>
-  <string name="network_traffic_state_title">Show net activity in statusbar</string>
-  <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+  <string name="traffic_title">トラフィックインジケーター</string>
+  <string name="network_traffic_title">ネットワークトラフィック</string>
+  <string name="network_traffic_type">表示する通信方向を選択</string>
+  <string name="show_network_traffic_up">送信</string>
+  <string name="show_network_traffic_down">受信</string>
+  <string name="show_network_traffic_all">送信と受信</string>
+  <string name="network_traffic_state_title">ステータスバーに通信速度を表示</string>
+  <string name="network_traffic_autohide_threshold_title">自動的に非表示にする通信速度のしきい値（KB/s）</string>
+  <!-- StatusBar weather settings -->
+  <string name="statusbar_weather_title">ステータスバー上の天気</string>
+  <string name="statusbar_weather_summary">クイック設定/天気から設定する</string>
+  <string name="statusbar_weather_dialog_title">ステータスバー上の天気</string>
+  <string name="status_bar_weather_hidden">天気を非表示</string>
+  <string name="status_bar_temperature_image_show_scale">単位付きの温度と画像を表示</string>
+  <string name="status_bar_temperature_image_hide_scale">単位と画像なしで温度を表示</string>
+  <string name="status_bar_temperature_show_scale_hide_image">単位付きで温度を表示</string>
+  <string name="status_bar_temperature_hide_scale_hide_image">単位なしで温度を表示</string>
+  <string name="status_bar_show_image">画像を表示</string>
+  <!-- Lockscreen weather settings -->
+  <string name="lockscreen_weather_title">Lockscreen weather</string>
+  <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
+  <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
+  <!-- Statusbar Clock -->
+  <string name="status_bar_clock">時計と日付</string>
+  <string name="status_bar_clock_summary">ステータスバーの時計と日付の外観を設定する</string>
+  <string name="status_bar_clock_title">Clock settings</string>
+  <string name="status_bar_clock_show">Show clock and date</string>
+  <string name="status_bar_clock_style_title">Clock style</string>
+  <string name="status_bar_clock_style_right">Right</string>
+  <string name="status_bar_clock_style_center">Center</string>
+  <string name="status_bar_clock_style_left">Left</string>
+  <string name="status_bar_am_pm_title">AM/PM style</string>
+  <string name="status_bar_am_pm_info">24時間表示が有効です</string>
+  <string name="status_bar_am_pm_normal">Normal</string>
+  <string name="status_bar_am_pm_small">Small</string>
+  <string name="status_bar_am_pm_hidden">Hidden (default)</string>
+  <string name="clock_seconds_display">Show seconds</string>
+  <string name="clock_date_display">日付</string>
+  <string name="clock_date_display_summary">時計の前にカスタムの日付を表示</string>
+  <string name="clock_date_display_none">非表示</string>
+  <string name="clock_date_display_small">小さいフォントサイズ</string>
+  <string name="clock_date_display_normal">通常のフォントサイズ</string>
+  <string name="clock_date_style">日付のスタイル</string>
+  <string name="clock_date_style_normal">標準</string>
+  <string name="clock_date_style_lowercase">小文字</string>
+  <string name="clock_date_style_uppercase">大文字</string>
+  <string name="clock_date_format_custom">カスタムjava形式</string>
+  <string name="clock_date_format">日付の形式</string>
+  <string name="clock_date_string_edittext_title">DateFormat形式で入力します 例）MM/dd/yy</string>
+  <string name="clock_date_string_edittext_summary">文字列を入力</string>
+  <!--Double Tap to Sleep Lockscreen-->
+  <string name="double_tap_sleep_lockscreen">ロック画面でダブルタップするとスリープ</string>
+  <!--Quick pulldown-->
+  <string name="status_bar_quick_qs_pulldown">クイックプルダウン</string>
+  <string name="status_bar_quick_qs_pulldown_summary">ステータスバーの右側でプルダウンするとクイック設定パネルを表示します</string>
+  <!--Double Tap to Sleep Statusbar-->
+  <string name="double_tap_sleep_gesture_title">ステータスバーのダブルタップでスリープ</string>
+  <!-- Sizes for pattern lockscreen -->
+  <string name="lock_settings_picker_pattern_size_message">パターンサイズを選択</string>
+  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <string name="lockpattern_settings_enable_error_path_title">パターンエラーを表示</string>
+  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <string name="lockpattern_settings_enable_dots_title">パターンのドットを表示</string>
+  <!-- Lock screen vibrate settings -->
+  <string name="lockscreen_vibrate_enabled_title">振動</string>
+  <string name="lockscreen_vibrate_enabled_head">ロック解除時に振動</string>
+  <!-- Battery Styles -->
+  <string name="battery_style_title">バッテリーアイコンのスタイル</string>
+  <string name="battery_style_port">縦</string>
+  <string name="battery_style_land">横</string>
+  <string name="battery_style_circle">円</string>
+  <string name="battery_style_dotted_circle">点線の円</string>
+  <string name="battery_style_big_circle">大きな円</string>
+  <string name="battery_style_big_dotted_circle">大きい点線の円</string>
+  <string name="battery_style_text">テキスト</string>
+  <string name="battery_style_hidden">非表示</string>
+  <string name="show_battery_percent_title">バッテリー残量の表示</string>
+  <string name="battery_style_category_title">バッテリーアイコン</string>
+  <string name="battery_percent_none">非表示</string>
+  <string name="battery_percent_outside">アイコンの外側</string>
+  <string name="battery_percent_inside">アイコンの内側</string>
+  <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">Location</string>
+  <string name="app_ops_cat_personal">Personal</string>
+  <string name="app_ops_cat_messaging">Messaging</string>
+  <string name="app_ops_cat_media">Media</string>
+  <string name="app_ops_cat_device">Device</string>
+  <string name="app_ops_cat_bootup">Bootup</string>
+  <!-- App ops labels -->
+  <string name="app_ops_access_camera">camera</string>
+  <string name="app_ops_access_location">location</string>
+  <string name="app_ops_access_notifications">notifications</string>
+  <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">autostart</string>
+  <string name="app_ops_delete_call_log">delete call log</string>
+  <string name="app_ops_delete_contacts">delete contacts</string>
+  <string name="app_ops_delete_mms">delete MMS</string>
+  <string name="app_ops_delete_sms">delete SMS</string>
+  <string name="app_ops_draw_on_top">draw on top</string>
+  <string name="app_ops_get_usage_stats">get usage stats</string>
+  <string name="app_ops_keep_device_awake">keep awake</string>
+  <string name="app_ops_make_phone_call">make call</string>
+  <string name="app_ops_modify_calendar">update calendar</string>
+  <string name="app_ops_modify_call_log">update call log</string>
+  <string name="app_ops_modify_clipboard">modify clipboard</string>
+  <string name="app_ops_modify_contacts">update contacts</string>
+  <string name="app_ops_modify_settings">update settings</string>
+  <string name="app_ops_mute_unmute_microphone">mute/unmutee mic</string>
+  <string name="app_ops_play_audio">play audio</string>
+  <string name="app_ops_post_notification">post notification</string>
+  <string name="app_ops_project_media">project media</string>
+  <string name="app_ops_read_calendar">read calendar</string>
+  <string name="app_ops_read_call_log">read call log</string>
+  <string name="app_ops_read_clipboard">read clipboard</string>
+  <string name="app_ops_read_contacts">read contacts</string>
+  <string name="app_ops_read_mms">read MMS</string>
+  <string name="app_ops_read_sms">read SMS</string>
+  <string name="app_ops_receive_sms">receive SMS</string>
+  <string name="app_ops_record_audio">record audio</string>
+  <string name="app_ops_send_mms">send MMS</string>
+  <string name="app_ops_send_sms">send SMS</string>
+  <string name="app_ops_toast_window">toast messages</string>
+  <string name="app_ops_use_alarm_volume">alarm volume</string>
+  <string name="app_ops_use_audio_focus">audio focus</string>
+  <string name="app_ops_use_bluetooth_volume">Bluetooth volume</string>
+  <string name="app_ops_use_master_volume">master volume</string>
+  <string name="app_ops_use_media_buttons">media buttons</string>
+  <string name="app_ops_use_media_volume">media volume</string>
+  <string name="app_ops_use_notification_volume">notification volume</string>
+  <string name="app_ops_use_ring_volume">ringtone volume</string>
+  <string name="app_ops_use_vibrate">haptic feedback</string>
+  <string name="app_ops_use_voice_volume">voice call volume</string>
+  <string name="app_ops_write_mms">write MMS</string>
+  <string name="app_ops_write_sms">write SMSe</string>
+  <string name="app_ops_use_fingerprint">fingerprint</string>
+  <string name="app_ops_add_voicemail">voicemail</string>
+  <string name="app_ops_read_phone_state">access phone state</string>
+  <string name="app_ops_scan_wifi">Scan WiFi Networks</string>
+  <string name="app_ops_change_wallpaper">change wallpaper</string>
+  <string name="app_ops_assist_structure">assist structure</string>
+  <string name="app_ops_assist_screenshot">screenshot</string>
+  <string name="app_ops_use_body_sensors">body sensors</string>
+  <string name="app_ops_read_cell_broadcasts">cell broadcasts</string>
+  <string name="app_ops_mock_location">mock location</string>
+  <string name="app_ops_read_external_storage">read ext. stor.</string>
+  <string name="app_ops_write_external_storage">write ext. stor.</string>
+  <string name="app_ops_turn_on_screen">turn screen on</string>
+  <string name="app_ops_get_accounts">device accounts</string>
+  <string name="app_ops_run_in_background">run in background</string>
+  <string name="app_ops_accessibility_volume">accessibility volume</string>
+  <string name="app_ops_read_phone_numbers">read phone num.</string>
+  <string name="app_ops_request_install_packages">install packages</string>
+  <string name="app_ops_picture_in_picture">pip</string>
+  <string name="app_ops_app_start_foreground">start foreground</string>
+  <string name="app_ops_answer_phone_calls">answer calls</string>
+  <string name="app_ops_run_any_in_background">run background</string>
+  <string name="app_ops_change_wifi_state">change wifi state</string>
+  <string name="app_ops_request_delete_packages">delete packages</string>
+  <string name="app_ops_bind_accessibility_service">bind to accessibility</string>
+  <string name="app_ops_accept_handover">accept handover</string>
+  <string name="app_ops_manage_ipsec_tunnels">manage ip tunnels</string>
+  <string name="app_ops_start_foreground">start foreground</string>
+  <string name="app_ops_bluetooth_scan">bluetooth scan</string>
+  <string name="app_ops_boot_completed">auto start</string>
+  <!-- App ops detail -->
+  <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (used <xliff:g id="count">%2$s</xliff:g>)</string>
+  <string name="app_ops_allowed_count">Allowed <xliff:g id="count" example="2 times">%s</xliff:g></string>
+  <string name="app_ops_ignored_count">Denied <xliff:g id="count" example="2 times">%s</xliff:g></string>
+  <string name="app_ops_both_count">Allowed <xliff:g id="count">%1$s</xliff:g>, denied <xliff:g id="count">%2$s</xliff:g></string>
+  <!-- App ops menu options -->
+  <string name="app_ops_show_user_apps">Show user apps</string>
+  <string name="app_ops_show_system_apps">Show built-in apps</string>
+  <string name="app_ops_reset_counters">Reset allow/deny counters</string>
+  <string name="app_ops_reset_confirm_title">Confirm counters reset</string>
+  <string name="app_ops_reset_confirm_mesg">Are you sure you wish to reset counters?</string>
+  <string name="app_ops_settings_title">App Ops</string>
+  <string name="enlighten">This options are only meant to work with old card stack recents(O recents)</string>
+  <!-- Lock screen visualizer -->
+  <string name="lockscreen_visualizer_title">Music visualizer</string>
+  <string name="lockscreen_visualizer_summary">Show visualizer on lockscreen when music is playing</string>
+  <string name="battery_stats_reset">統計をリセット</string>
+  <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
+  <string name="ok_string">OK</string>
 </resources>
