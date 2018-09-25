@@ -24,12 +24,14 @@ import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
-
+import android.hardware.fingerprint.FingerprintManager;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
-
+import android.content.Context;
 import com.android.internal.logging.nano.MetricsProto;
+
+import com.android.settings.arrow.preferences.SystemSettingSwitchPreference;
 
 public class PowerMenu extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
 
@@ -38,17 +40,20 @@ public class PowerMenu extends SettingsPreferenceFragment implements Preference.
     private static final String KEY_POWERMENU_LS_ADVANCED_REBOOT = "powermenu_ls_advanced_reboot";
     private static final String KEY_POWERMENU_LS_SCREENSHOT = "powermenu_ls_screenshot";
     private static final String KEY_POWERMENU_LS_AIRPLANE = "powermenu_ls_airplane";
+    private static final String FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
 
     private SwitchPreference mPowerMenuLockscreen;
     private SwitchPreference mPowerMenuReboot;
     private SwitchPreference mPowerMenuAdvancedReboot;
     private SwitchPreference mPowerMenuScreenshot;
     private SwitchPreference mPowerMenuAirplane;
+    private FingerprintManager mFingerprintManager;
+    private SystemSettingSwitchPreference mFpKeystore;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+	final PreferenceScreen prefScreen = getPreferenceScreen();
         addPreferencesFromResource(R.xml.powermenu);
 
         mPowerMenuLockscreen = (SwitchPreference) findPreference(KEY_POWERMENU_LOCKSCREEN);
@@ -75,6 +80,12 @@ public class PowerMenu extends SettingsPreferenceFragment implements Preference.
         mPowerMenuAirplane.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.POWERMENU_LS_AIRPLANE, 0) == 1));
         mPowerMenuAirplane.setOnPreferenceChangeListener(this);
+
+	mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
+	mFpKeystore = (SystemSettingSwitchPreference) findPreference(FP_UNLOCK_KEYSTORE);
+        if (mFingerprintManager == null){
+            prefScreen.removePreference(mFpKeystore);
+        }
 
         updateLockscreen();
     }
