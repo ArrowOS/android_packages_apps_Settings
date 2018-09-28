@@ -47,6 +47,7 @@ import android.widget.Toast;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.arrow.preferences.SystemSettingSwitchPreference;
 import com.android.settings.SubSettings;
 import com.android.settings.Utils;
 import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
@@ -128,6 +129,7 @@ public class FingerprintSettings extends SubSettings {
         private static final String KEY_FINGERPRINT_ENABLE_KEYGUARD_TOGGLE =
                 "fingerprint_enable_keyguard_toggle";
         private static final String KEY_LAUNCHED_CONFIRM = "launched_confirm";
+	private static final String FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
 
         private static final int MSG_REFRESH_FINGERPRINT_TEMPLATES = 1000;
         private static final int MSG_FINGER_AUTH_SUCCESS = 1001;
@@ -139,10 +141,10 @@ public class FingerprintSettings extends SubSettings {
         private static final int CHOOSE_LOCK_GENERIC_REQUEST = 102;
 
         private static final int ADD_FINGERPRINT_REQUEST = 10;
-
+	private FingerprintManager mFingerprintManager;
+        private SystemSettingSwitchPreference mFpKeystore;
         protected static final boolean DEBUG = true;
 
-        private FingerprintManager mFingerprintManager;
         private boolean mInFingerprintLockout;
         private byte[] mToken;
         private boolean mLaunchedConfirm;
@@ -289,7 +291,8 @@ public class FingerprintSettings extends SubSettings {
         public void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
 
-            Activity activity = getActivity();
+            final PreferenceScreen prefScreen = getPreferenceScreen();
+	    Activity activity = getActivity();
             mFingerprintManager = Utils.getFingerprintManagerOrNull(activity);
 
             mAuthenticateSidecar = (FingerprintAuthenticateSidecar)
@@ -352,6 +355,11 @@ public class FingerprintSettings extends SubSettings {
                             .security_settings_fingerprint_enroll_disclaimer_lockscreen_disabled
                             : R.string.security_settings_fingerprint_enroll_disclaimer),
                     linkInfo, adminLinkInfo));
+	    mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
+	    mFpKeystore = (SystemSettingSwitchPreference) findPreference(FP_UNLOCK_KEYSTORE);
+            if (mFingerprintManager == null){
+                prefScreen.removePreference(mFpKeystore);
+            }
         }
 
         protected void removeFingerprintPreference(int fingerprintId) {
