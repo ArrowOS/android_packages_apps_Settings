@@ -495,4 +495,8 @@
     <!-- Quick Setting tile titles -->
     <string name="qs_tile_title_visibility_title">Tile title</string> 
     <string name="qs_tile_title_visibility_summary">Display title below each tile, (requires SystemUI restart)</string> 
+
+    <!-- Fingerprint unlock keystore -->  
+    <string name="fp_unlock_keystore_title">Fingerprint unlock</string>  
+    <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
 </resources>
