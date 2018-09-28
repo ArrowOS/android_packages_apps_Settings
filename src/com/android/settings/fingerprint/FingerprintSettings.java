@@ -130,6 +130,8 @@ public class FingerprintSettings extends SubSettings {
                 "fingerprint_enable_keyguard_toggle";
         private static final String KEY_LAUNCHED_CONFIRM = "launched_confirm";
 	private static final String FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
+	private static final String FP_CAT = "lockscreen_ui_general_category";
+        private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
 
         private static final int MSG_REFRESH_FINGERPRINT_TEMPLATES = 1000;
         private static final int MSG_FINGER_AUTH_SUCCESS = 1001;
@@ -156,6 +158,7 @@ public class FingerprintSettings extends SubSettings {
         private FingerprintAuthenticateSidecar mAuthenticateSidecar;
         private FingerprintRemoveSidecar mRemovalSidecar;
         private HashMap<Integer, String> mFingerprintsRenaming;
+	private SystemSettingSwitchPreference mFingerprintVib;
 
         FingerprintAuthenticateSidecar.Listener mAuthenticateListener =
             new FingerprintAuthenticateSidecar.Listener() {
@@ -360,6 +363,17 @@ public class FingerprintSettings extends SubSettings {
             if (mFingerprintManager == null){
                 prefScreen.removePreference(mFpKeystore);
             }
+
+	   PreferenceCategory fingerprintCategory = (PreferenceCategory) findPreference(FP_CAT);
+           mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
+           mFingerprintVib = (SystemSettingSwitchPreference) findPreference(FINGERPRINT_VIB);
+           if (mFingerprintManager != null && mFingerprintManager.isHardwareDetected()){
+           mFingerprintVib.setChecked((Settings.System.getInt(getContentResolver(),
+                    Settings.System.FINGERPRINT_SUCCESS_VIB, 1) == 1));
+           mFingerprintVib.setOnPreferenceChangeListener(this);
+           } else {
+                fingerprintCategory.removePreference(mFingerprintVib);
+           } 
         }
 
         protected void removeFingerprintPreference(int fingerprintId) {
@@ -545,10 +559,16 @@ public class FingerprintSettings extends SubSettings {
         @Override
         public boolean onPreferenceChange(Preference preference, Object value) {
             boolean result = true;
-            final String key = preference.getKey();
+            ContentResolver resolver = getActivity().getContentResolver();
+	    final String key = preference.getKey();
             if (KEY_FINGERPRINT_ENABLE_KEYGUARD_TOGGLE.equals(key)) {
                 // TODO
-            } else {
+            } else if (preference == mFingerprintVib) {
+            	boolean value = (Boolean) objValue;
+            	Settings.System.putInt(getActivity().getContentResolver(),
+                     Settings.System.FINGERPRINT_SUCCESS_VIB, value ? 1 : 0);
+                return true;
+	    } else {
                 Log.v(TAG, "Unknown key:" + key);
             }
             return result;
