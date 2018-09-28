@@ -487,4 +487,10 @@
     <!-- Fingerprint unlock keystore -->  
     <string name="fp_unlock_keystore_title">Fingerprint unlock</string>  
     <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
 </resources>

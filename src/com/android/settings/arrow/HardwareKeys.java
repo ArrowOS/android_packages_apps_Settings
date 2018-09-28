@@ -60,6 +60,7 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
     private static final String KEY_BUTTON_TIMEOUT = "button_timeout";
     private static final String KEY_BUTON_BACKLIGHT_OPTIONS = "button_backlight_options_category";
     private static final String KEYS_SHOW_NAVBAR_KEY = "navigation_bar_show";
+    private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
 
     // Masks for checking presence of hardware keys.
     // Must match values in frameworks/base/core/res/res/values/config.xml
@@ -73,7 +74,7 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
 
     private SwitchPreference mEnableNavBar;
     private SwitchPreference mHwKeyDisable;
-
+    private ListPreference mTorchPowerButton;
     private CustomSeekBarPreference mButtonTimoutBar;
     private CustomSeekBarPreference mManualButtonBrightness;
     private PreferenceCategory mButtonBackLightCategory;
@@ -134,6 +135,13 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
         } else {
             prefScreen.removePreference(hwkeyCat);
         }
+	
+	mTorchPowerButton = (ListPreference) findPreference(TORCH_POWER_BUTTON_GESTURE);
+        int mTorchPowerButtonValue = Settings.System.getInt(resolver,
+                    Settings.System.TORCH_POWER_BUTTON_GESTURE, 0);
+        mTorchPowerButton.setValue(Integer.toString(mTorchPowerButtonValue));
+        mTorchPowerButton.setSummary(mTorchPowerButton.getEntry());
+        mTorchPowerButton.setOnPreferenceChangeListener(this);
 
         // bits for hardware keys present on device
         final int deviceKeys = getResources().getInteger(
@@ -220,6 +228,14 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
         setActionPreferencesEnabled(keysDisabled == 0);
     }
 
+   private ListPreference initActionList(String key, int value) {
+        ListPreference list = (ListPreference) getPreferenceScreen().findPreference(key);
+        list.setValue(Integer.toString(value));
+        list.setSummary(list.getEntry());
+        list.setOnPreferenceChangeListener(this);
+        return list;
+    }
+
      @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mHwKeyDisable) {
@@ -235,7 +251,18 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
             int buttonBrightness = (Integer) newValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.CUSTOM_BUTTON_BRIGHTNESS, buttonBrightness);
-        } else {
+        } else if (preference == mTorchPowerButton) {
+            int mTorchPowerButtonValue = Integer.valueOf((String) newValue);
+            int index = mTorchPowerButton.findIndexOfValue((String) newValue);
+            mTorchPowerButton.setSummary(
+                    mTorchPowerButton.getEntries()[index]);
+            Settings.System.putInt(getActivity().getContentResolver(), Settings.System.TORCH_POWER_BUTTON_GESTURE,
+                    mTorchPowerButtonValue);
+            if (mTorchPowerButtonValue == 1) {
+                //if doubletap for torch is enabled, switch off double tap for camera
+                Settings.Secure.putInt(getActivity().getContentResolver(), Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED,1);
+	    }
+           } else {
             return false;
         }
         return true;

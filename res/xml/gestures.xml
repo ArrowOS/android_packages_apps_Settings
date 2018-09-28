@@ -69,4 +69,8 @@
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingPreferenceController" />
 
+    <Preference
+        android:key="torch_power_button_gesture"
+    	android:title="@string/torch_power_button_gesture_title"
+        settings:controller="com.android.settings.arrow.HardwareKeys" />
 </PreferenceScreen>
