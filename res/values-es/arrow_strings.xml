@@ -35,9 +35,9 @@
   <string name="sub_deactivate_success">SIM desactivada.</string>
   <string name="sub_deactivate_failed">Error de desactivación.</string>
   <!-- Fingerprint location message -->
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Localiza el sensor de huellas dactilares en la parte frontal del dispositivo.</string>
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Localiza el sensor de huellas dactilares en el lado izquierdo del dispositivo.</string>
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Localiza el sensor de huellas dactilares en el lado derecho del dispositivo.</string>
   <!-- Manage applications, package string displayed in app snippet -->
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
   <string name="rom_version_title">Versión ArrowOS</string>
@@ -58,10 +58,10 @@
   <string name="unlock_scramble_pin_layout_summary">Disposición aleatorio de PIN al desbloquear el dispositivo</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
-  <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+  <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente al introducir el PIN/contraseña correctos</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Información de carga en pantalla de bloqueo</string>
-  <string name="lockscreen_battery_info_summary">Show charging current, voltage and battery temperature on lockscreen while charging</string>
+  <string name="lockscreen_battery_info_summary">Mostrar corriente, voltaje y temperatura de la batería en la pantalla de bloqueo durante la carga</string>
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Sonido de la captura de pantalla</string>
   <!-- meh ganeshi4u -->
@@ -121,7 +121,7 @@
   <string name="hardware_keys_disable_title">Desactivar los botones físicos</string>
   <string name="hardware_keys_wake_title">Despertar dispositivo</string>
   <!-- Settings categories -->
-  <string name="statusbar_category_title">Barra de Estado</string>
+  <string name="statusbar_category_title">Barra de estado</string>
   <string name="buttons_category_title">Botones</string>
   <string name="misc_category_title">Misceláneo</string>
   <string name="theme_category_title">Tema del sistema</string>
@@ -175,6 +175,7 @@
   <string name="heads_up_snooze_20min">20 minutos</string>
   <!-- Clear all recents -->
   <string name="aosp_recents_title">Recientes de AOSP</string>
+  <string name="aosp_recents_title_summary">Oreo style recents configs, clear all FAB</string>
   <string name="show_clear_all_recents_button_title">FAB de borrar todo</string>
   <string name="show_clear_all_recents_button_summary_on">Mostrar un FAB de Limpiar todo</string>
   <string name="show_clear_all_recents_button_summary_off">Mostrar eliminar todos de AOSP</string>
@@ -190,10 +191,12 @@
   <string name="proximity_wake_summary">Comprobar el sensor de proximidad antes de encender la pantalla</string>
   <!-- Statusbar Tuner -->
   <string name="statusbar_items_title">Elementos de la barra de estado</string>
+  <string name="statusbar_items_title_summary">Enable or disable statusbar icons</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Atajos de la pantalla de bloqueo</string>
   <!-- QS rows and columns -->
   <string name="qs_rows_columns_title">Ajustes del panel QS</string>
+  <string name="qs_rows_columns_summary">Quicksettings rows and columns, titles, panel opacity</string>
   <string name="qs_rows_portrait_title">Filas en modo vertical</string>
   <string name="qs_rows_landscape_title">Filas en modo horizontal</string>
   <string name="qs_columns_portrait_title">Columnas en modo vertical</string>
@@ -209,24 +212,25 @@
   <string name="changelog_error">No se pudo cargar el registro de cambios</string>
   <!-- Battery light -->
   <string name="battery_light_settings">Luz de batería cargando</string>
-  <string name="battery_light_enable">Battery light</string>
-  <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-  <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-  <string name="battery_light_cat">Battery light color when charging</string>
-  <string name="battery_light_low_color">Low battery</string>
-  <string name="battery_light_medium_color">Medium battery</string>
-  <string name="battery_light_full_color">Almost full battery</string>
-  <string name="battery_light_reallyfull_color">Full (100) battery</string>
+  <string name="battery_light_enable">Indicador de carga</string>
+  <string name="battery_light_allow_on_dnd_title">Indicador de carga en modo No Molestar</string>
+  <string name="battery_light_low_blinking_title">LED intermitente con batería baja</string>
+  <string name="battery_light_cat">Color del LED durante la carga</string>
+  <string name="battery_light_low_color">Batería baja</string>
+  <string name="battery_light_medium_color">Media carga</string>
+  <string name="battery_light_full_color">Carga casi completa</string>
+  <string name="battery_light_reallyfull_color">Bateria llena (100%)</string>
   <!-- SystemUI theme -->
-  <string name="systemui_theme_style_title">SystemUI theme</string>
-  <string name="systemui_theme_style_auto">Automatic (wallpaper based)</string>
-  <string name="systemui_theme_style_light">Light</string>
-  <string name="systemui_theme_style_dark">Dark</string>
-  <string name="system_theme_style_black">Black</string>
+  <string name="systemui_theme_style_title">Tema de la interfaz de usuario</string>
+  <string name="systemui_theme_style_auto">Automático (basado en el fondo de pantalla)</string>
+  <string name="systemui_theme_style_light">Claro</string>
+  <string name="systemui_theme_style_dark">Oscuro</string>
+  <string name="system_theme_style_black">Negro</string>
   <string name="applying_theme_toast">Aplicando tema, por favor espere...</string>
   <string name="theme_applied_toast">¡Tema aplicado!</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Tiempo metereològico</string>
+  <string name="weather_config_title_summary">Stautusbar and lockscreen weather</string>
   <string name="weather_config_title">Ajustes del servicio</string>
   <string name="weather_config_summary"></string>
   <string name="header_weather_title">Vista del tiempo en el encabezado</string>
@@ -253,24 +257,24 @@
   <string name="status_bar_temperature_hide_scale_hide_image">Mostrar temperatura sin escala</string>
   <string name="status_bar_show_image">Mostrar imagen</string>
   <!-- Lockscreen weather settings -->
-  <string name="lockscreen_weather_title">Lockscreen weather</string>
-  <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
-  <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
+  <string name="lockscreen_weather_title">Tiempo en la pantalla de bloqueo</string>
+  <string name="lockscreen_weather_summary">Mostrar tiempo meteorológico y temperatura actual en la pantalla de bloqueo</string>
+  <string name="lockscreen_items_aod_info_title">La configuración de visibilidad también se aplica en la pantalla ambiente</string>
   <!-- Statusbar Clock -->
   <string name="status_bar_clock">Reloj y fecha</string>
   <string name="status_bar_clock_summary">Configurar el reloj de la barra de estado y forrmato de la fecha</string>
-  <string name="status_bar_clock_title">Clock settings</string>
-  <string name="status_bar_clock_show">Show clock and date</string>
-  <string name="status_bar_clock_style_title">Clock style</string>
-  <string name="status_bar_clock_style_right">Right</string>
-  <string name="status_bar_clock_style_center">Center</string>
-  <string name="status_bar_clock_style_left">Left</string>
-  <string name="status_bar_am_pm_title">AM/PM style</string>
+  <string name="status_bar_clock_title">Ajustes del reloj</string>
+  <string name="status_bar_clock_show">Mostrar hora y fecha</string>
+  <string name="status_bar_clock_style_title">Estilo de reloj</string>
+  <string name="status_bar_clock_style_right">Derecha</string>
+  <string name="status_bar_clock_style_center">Centrado</string>
+  <string name="status_bar_clock_style_left">Izquierda</string>
+  <string name="status_bar_am_pm_title">Formato AM/PM</string>
   <string name="status_bar_am_pm_info">Reloj 24-horas habilitado</string>
   <string name="status_bar_am_pm_normal">Normal</string>
-  <string name="status_bar_am_pm_small">Small</string>
-  <string name="status_bar_am_pm_hidden">Hidden (default)</string>
-  <string name="clock_seconds_display">Show seconds</string>
+  <string name="status_bar_am_pm_small">Pequeño</string>
+  <string name="status_bar_am_pm_hidden">Oculto (por defecto)</string>
+  <string name="clock_seconds_display">Mostrar segundos</string>
   <string name="clock_date_display">Fecha</string>
   <string name="clock_date_display_summary">Muestra la fecha personalizada antes del reloj</string>
   <string name="clock_date_display_none">No mostrar</string>
@@ -316,24 +320,24 @@
   <string name="battery_percent_outside">Mostrar al lado del icono</string>
   <string name="battery_percent_inside">Mostrar dentro del ícono</string>
   <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">Location</string>
+  <string name="app_ops_cat_location">Ubicación</string>
   <string name="app_ops_cat_personal">Personal</string>
-  <string name="app_ops_cat_messaging">Messaging</string>
+  <string name="app_ops_cat_messaging">Mensajería</string>
   <string name="app_ops_cat_media">Media</string>
-  <string name="app_ops_cat_device">Device</string>
-  <string name="app_ops_cat_bootup">Bootup</string>
+  <string name="app_ops_cat_device">Dispositivo</string>
+  <string name="app_ops_cat_bootup">Arranque</string>
   <!-- App ops labels -->
-  <string name="app_ops_access_camera">camera</string>
-  <string name="app_ops_access_location">location</string>
-  <string name="app_ops_access_notifications">notifications</string>
+  <string name="app_ops_access_camera">cámara</string>
+  <string name="app_ops_access_location">ubicación</string>
+  <string name="app_ops_access_notifications">notificaciones</string>
   <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">autostart</string>
-  <string name="app_ops_delete_call_log">delete call log</string>
-  <string name="app_ops_delete_contacts">delete contacts</string>
-  <string name="app_ops_delete_mms">delete MMS</string>
-  <string name="app_ops_delete_sms">delete SMS</string>
-  <string name="app_ops_draw_on_top">draw on top</string>
-  <string name="app_ops_get_usage_stats">get usage stats</string>
+  <string name="app_ops_auto_start">inicio automático</string>
+  <string name="app_ops_delete_call_log">borrar registro de llamadas</string>
+  <string name="app_ops_delete_contacts">eliminar contactos</string>
+  <string name="app_ops_delete_mms">borrar MMS</string>
+  <string name="app_ops_delete_sms">borrar SMS</string>
+  <string name="app_ops_draw_on_top">superposición</string>
+  <string name="app_ops_get_usage_stats">obtener estadísticas de uso</string>
   <string name="app_ops_keep_device_awake">mantener despierto</string>
   <string name="app_ops_make_phone_call">realizar llamada</string>
   <string name="app_ops_modify_calendar">actualizar calendario</string>
@@ -359,13 +363,13 @@
   <string name="app_ops_use_alarm_volume">volumen de alarma</string>
   <string name="app_ops_use_audio_focus">foco de sonido</string>
   <string name="app_ops_use_bluetooth_volume">volumen de Bluetooth</string>
-  <string name="app_ops_use_master_volume">master volume</string>
-  <string name="app_ops_use_media_buttons">media buttons</string>
-  <string name="app_ops_use_media_volume">media volume</string>
-  <string name="app_ops_use_notification_volume">notification volume</string>
-  <string name="app_ops_use_ring_volume">ringtone volume</string>
-  <string name="app_ops_use_vibrate">haptic feedback</string>
-  <string name="app_ops_use_voice_volume">voice call volume</string>
+  <string name="app_ops_use_master_volume">volumen general</string>
+  <string name="app_ops_use_media_buttons">botones multimedia</string>
+  <string name="app_ops_use_media_volume">volumen multimedia</string>
+  <string name="app_ops_use_notification_volume">volumen de notificaciones</string>
+  <string name="app_ops_use_ring_volume">volumen de tono de llamada</string>
+  <string name="app_ops_use_vibrate">respuesta háptica</string>
+  <string name="app_ops_use_voice_volume">volumen de llamada de voz</string>
   <string name="app_ops_write_mms">escribir MMS</string>
   <string name="app_ops_write_sms">escribir SMS</string>
   <string name="app_ops_use_fingerprint">huella digital</string>
@@ -373,7 +377,7 @@
   <string name="app_ops_read_phone_state">acceder al estado del teléfono</string>
   <string name="app_ops_scan_wifi">Escanear redes Wi-Fi</string>
   <string name="app_ops_change_wallpaper">cambiar fondo de pantalla</string>
-  <string name="app_ops_assist_structure">assist structure</string>
+  <string name="app_ops_assist_structure">asistente de estructura</string>
   <string name="app_ops_assist_screenshot">captura de pantalla</string>
   <string name="app_ops_use_body_sensors">sensores corporales</string>
   <string name="app_ops_read_cell_broadcasts">transmisiones móviles</string>
@@ -384,19 +388,19 @@
   <string name="app_ops_get_accounts">cuentas del dispositivo</string>
   <string name="app_ops_run_in_background">ejecutar en segundo plano</string>
   <string name="app_ops_accessibility_volume">volumen de accesibilidad</string>
-  <string name="app_ops_read_phone_numbers">read phone num.</string>
-  <string name="app_ops_request_install_packages">install packages</string>
+  <string name="app_ops_read_phone_numbers">leer número de teléfono</string>
+  <string name="app_ops_request_install_packages">instalar paquetes</string>
   <string name="app_ops_picture_in_picture">pip</string>
-  <string name="app_ops_app_start_foreground">start foreground</string>
-  <string name="app_ops_answer_phone_calls">answer calls</string>
-  <string name="app_ops_run_any_in_background">run background</string>
-  <string name="app_ops_change_wifi_state">change wifi state</string>
-  <string name="app_ops_request_delete_packages">delete packages</string>
-  <string name="app_ops_bind_accessibility_service">bind to accessibility</string>
-  <string name="app_ops_accept_handover">accept handover</string>
-  <string name="app_ops_manage_ipsec_tunnels">manage ip tunnels</string>
-  <string name="app_ops_start_foreground">start foreground</string>
-  <string name="app_ops_bluetooth_scan">bluetooth scan</string>
+  <string name="app_ops_app_start_foreground">inicio en primer plano</string>
+  <string name="app_ops_answer_phone_calls">contestar llamadas</string>
+  <string name="app_ops_run_any_in_background">ejecutar en segundo plano</string>
+  <string name="app_ops_change_wifi_state">cambiar estado de Wi-Fi</string>
+  <string name="app_ops_request_delete_packages">eliminar paquetes</string>
+  <string name="app_ops_bind_accessibility_service">unir a accesibilidad</string>
+  <string name="app_ops_accept_handover">aceptar la entrega</string>
+  <string name="app_ops_manage_ipsec_tunnels">administrar túneles ip</string>
+  <string name="app_ops_start_foreground">inicio en primer plano</string>
+  <string name="app_ops_bluetooth_scan">escaneo bluetooth</string>
   <string name="app_ops_boot_completed">auto start</string>
   <!-- App ops detail -->
   <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (used <xliff:g id="count">%2$s</xliff:g>)</string>
@@ -417,4 +421,10 @@
   <string name="battery_stats_reset">Resetear estadísticas</string>
   <string name="battery_stats_message">Las estadísticas de la batería van a restablecerse</string>
   <string name="ok_string">Vale</string>
+  <!-- Pocket judge -->
+  <string name="pocket_judge_title">Pocket detection</string>
+  <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+  <!-- Quick Setting tile titles -->
+  <string name="qs_tile_title_visibility_title">Tile title</string>
+  <string name="qs_tile_title_visibility_summary">Display title below each tile, (requires SystemUI restart)</string>
 </resources>
