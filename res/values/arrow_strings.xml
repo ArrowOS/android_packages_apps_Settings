@@ -209,6 +209,7 @@
 
     <!-- Clear all recents -->
     <string name="aosp_recents_title">AOSP recents</string>
+    <string name="aosp_recents_title_summary">Oreo style recents configs, clear all FAB</string>
     <string name="show_clear_all_recents_button_title">Clear-all FAB</string>
     <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
     <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
@@ -226,12 +227,14 @@
 
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title_summary">Enable or disable statusbar icons</string>
 
      <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
 
     <!-- QS rows and columns -->
     <string name="qs_rows_columns_title">QS panel tweaks</string>
+    <string name="qs_rows_columns_summary">Quicksettings rows and columns, titles, panel opacity</string>
     <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
     <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
     <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
@@ -272,6 +275,7 @@
 
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Weather</string>
+    <string name="weather_config_title_summary">Stautusbar and lockscreen weather</string>
     <string name="weather_config_title">Service settings</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">Header view weather</string>
