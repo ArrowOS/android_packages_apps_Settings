@@ -175,6 +175,7 @@
   <string name="heads_up_snooze_20min">20 minutes</string>
   <!-- Clear all recents -->
   <string name="aosp_recents_title">Ostatnio uruchomione AOSP</string>
+  <string name="aosp_recents_title_summary">Oreo style recents configs, clear all FAB</string>
   <string name="show_clear_all_recents_button_title">Przycisk \"Wyczyść wszystkie\"</string>
   <string name="show_clear_all_recents_button_summary_on">Pokaż przycisk \"Wyczyść wszystkie\"</string>
   <string name="show_clear_all_recents_button_summary_off">Pokaż AOSP \"Wyczyść wszystkie\"</string>
@@ -190,10 +191,12 @@
   <string name="proximity_wake_summary">Używaj czujnika zbliżeniowego podczas wybudzania ekranu</string>
   <!-- Statusbar Tuner -->
   <string name="statusbar_items_title">Statusbar items</string>
+  <string name="statusbar_items_title_summary">Enable or disable statusbar icons</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
   <!-- QS rows and columns -->
   <string name="qs_rows_columns_title">Modyfikacje panelu szybkich ustawień</string>
+  <string name="qs_rows_columns_summary">Quicksettings rows and columns, titles, panel opacity</string>
   <string name="qs_rows_portrait_title">Ilość kafelków w pionie</string>
   <string name="qs_rows_landscape_title">Ilość kafelków w poziomie</string>
   <string name="qs_columns_portrait_title">Ilość kolumn w pionie</string>
@@ -227,6 +230,7 @@
   <string name="theme_applied_toast">Zastosowano motyw!</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Pogoda</string>
+  <string name="weather_config_title_summary">Stautusbar and lockscreen weather</string>
   <string name="weather_config_title">Ustawienia usługi</string>
   <string name="weather_config_summary"></string>
   <string name="header_weather_title">Pogoda w nagłówku</string>
@@ -417,4 +421,10 @@
   <string name="battery_stats_reset">Zresetuj statystyki</string>
   <string name="battery_stats_message">Statystyki baterii zostaną zresetowane</string>
   <string name="ok_string">OK</string>
+  <!-- Pocket judge -->
+  <string name="pocket_judge_title">Pocket detection</string>
+  <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+  <!-- Quick Setting tile titles -->
+  <string name="qs_tile_title_visibility_title">Tile title</string>
+  <string name="qs_tile_title_visibility_summary">Display title below each tile, (requires SystemUI restart)</string>
 </resources>

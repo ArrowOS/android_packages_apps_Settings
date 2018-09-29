@@ -175,6 +175,7 @@
   <string name="heads_up_snooze_20min">20 minutes</string>
   <!-- Clear all recents -->
   <string name="aosp_recents_title">AOSP recents</string>
+  <string name="aosp_recents_title_summary">Oreo style recents configs, clear all FAB</string>
   <string name="show_clear_all_recents_button_title">Clear-all FAB</string>
   <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
   <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
@@ -190,10 +191,12 @@
   <string name="proximity_wake_summary">स्क्रीन जगाने से पहले निकटता सेंसर की जांच करें</string>
   <!-- Statusbar Tuner -->
   <string name="statusbar_items_title">Statusbar items</string>
+  <string name="statusbar_items_title_summary">Enable or disable statusbar icons</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
   <!-- QS rows and columns -->
   <string name="qs_rows_columns_title">QS panel tweaks</string>
+  <string name="qs_rows_columns_summary">Quicksettings rows and columns, titles, panel opacity</string>
   <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
   <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
   <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
@@ -227,6 +230,7 @@
   <string name="theme_applied_toast">Theme applied!</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Weather</string>
+  <string name="weather_config_title_summary">Stautusbar and lockscreen weather</string>
   <string name="weather_config_title">Service settings</string>
   <string name="weather_config_summary"></string>
   <string name="header_weather_title">Header view weather</string>
@@ -417,4 +421,10 @@
   <string name="battery_stats_reset">Reset stats</string>
   <string name="battery_stats_message">Battery history stats are going to be reset</string>
   <string name="ok_string">Ok</string>
+  <!-- Pocket judge -->
+  <string name="pocket_judge_title">Pocket detection</string>
+  <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+  <!-- Quick Setting tile titles -->
+  <string name="qs_tile_title_visibility_title">Tile title</string>
+  <string name="qs_tile_title_visibility_summary">Display title below each tile, (requires SystemUI restart)</string>
 </resources>

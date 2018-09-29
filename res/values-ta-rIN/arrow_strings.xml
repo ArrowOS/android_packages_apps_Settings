@@ -20,36 +20,36 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Manual provisioning support -->
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-  <string name="sim_disabled">disabled</string>
+  <string name="sim_disabled">முடக்கப்பட்டது</string>
   <string name="sim_missing">காணவில்லை அல்லது கோளாறு</string>
-  <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
-  <string name="sim_enabler_will_disable_sim_title">Attention</string>
+  <string name="sim_enabler_need_disable_sim">SIM அட்டை முடக்கப்படும். நீங்கள் தொடர விரும்புகிறீர்களா?</string>
+  <string name="sim_enabler_will_disable_sim_title">எச்சரிக்கை</string>
   <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
   <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
   <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
   <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
-  <string name="sim_enabler_enabling">Activating\u2026</string>
-  <string name="sim_enabler_disabling">Deactivating\u2026</string>
-  <string name="sub_activate_success">SIM activated.</string>
-  <string name="sub_activate_failed">Activation failed.</string>
-  <string name="sub_deactivate_success">SIM deactivated.</string>
-  <string name="sub_deactivate_failed">Deactivation failed.</string>
+  <string name="sim_enabler_enabling">செயல்படுத்துகிறது\u2026</string>
+  <string name="sim_enabler_disabling">முடக்குகிறது\u2026</string>
+  <string name="sub_activate_success">சிம் செயல்படுத்தப்பட்டது.</string>
+  <string name="sub_activate_failed">செயல்படுத்துதல் தோல்வியடைந்தது.</string>
+  <string name="sub_deactivate_success">SIM முடக்கப்பட்டது.</string>
+  <string name="sub_deactivate_failed">முடக்குதல் தோல்வியடைந்தது.</string>
   <!-- Fingerprint location message -->
   <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
   <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
   <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
   <!-- Manage applications, package string displayed in app snippet -->
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
-  <string name="rom_version_title">ArrowOS version</string>
+  <string name="rom_version_title">ArrowOS பதிப்பு</string>
   <!-- Color Picker -->
-  <string name="dialog_color_picker">Color Picker</string>
+  <string name="dialog_color_picker">வண்ண தேர்வு</string>
   <string name="press_color_to_apply">Press on color below to apply</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
   <string name="set">Set</string>
-  <string name="color_default">Default</string>
+  <string name="color_default">இயல்புநிலை</string>
   <!-- Face auto unlock -->
   <string name="face_auto_unlock_title">Face auto unlock</string>
   <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
@@ -57,47 +57,47 @@
   <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
   <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
   <!-- Quick unlock -->
-  <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-  <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+  <string name="unlock_quick_unlock_control_title">விரைவாக திற</string>
+  <string name="unlock_quick_unlock_control_summary">திறப்பதற்காக தானாகவே சரியான PIN/கடவுச்சொல்லை நுழைந்தபோது உள்ளிடப்படும்</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
   <string name="lockscreen_battery_info_summary">Show charging current, voltage and battery temperature on lockscreen while charging</string>
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Screenshot sound</string>
   <!-- meh ganeshi4u -->
-  <string name="arrow_stats_title">ArrowOS Stats</string>
+  <string name="arrow_stats_title">ArrowOS விபரம்</string>
   <string name="arrow_stats_summary">we ain\'t stealing your nuds!</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Cellular data</string>
+  <string name="data_usage_app_restrict_data">செல்லுலார் தரவு</string>
   <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
   <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
   <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
   <!-- Power Menu -->
   <string name="advanced_power_menu">Power button options</string>
   <string name="arrow_reboot_menu">Advanced reboot menu</string>
-  <string name="powermenu_reboot_title">Reboot</string>
-  <string name="powermenu_airplane_title">Airplane mode</string>
-  <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
-  <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
-  <string name="powermenu_screenshot_title">Screenshot</string>
-  <string name="powermenu_category_visibility">Lockscreen options</string>
-  <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
+  <string name="powermenu_reboot_title">மறுதொடக்கம்</string>
+  <string name="powermenu_airplane_title">விமானப் பயன்முறை</string>
+  <string name="powermenu_advanced_reboot_title">மேம்படுத்தப்பட்ட மறுதொடக்கம்</string>
+  <string name="powermenu_advanced_reboot_summary">மேம்பட்ட மறுஇயக்கம் மெனு விருப்பங்கள் போன்ற சூடான எதிர்கொண்டால், மீட்பு &amp; துவக்கேற்றி, உதவுகிறது. SystemUI-க்கு மறுதொடக்கம் ஒரு வாய்ப்பாக சேர்க்கிறது</string>
+  <string name="powermenu_screenshot_title">திரைப்பிடிப்பு</string>
+  <string name="powermenu_category_visibility">பூட்டுத்திரை விருப்பங்கள்</string>
+  <string name="powermenu_lockscreen_title">பூட்டுத்திரையில் தெரியும்</string>
   <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
-  <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
-  <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
-  <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
-  <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
+  <string name="powermenu_ls_reboot_summary">மறுதொடக்க விருப்பத்தை பூட்டுத்திரையல் காண்பி</string>
+  <string name="powermenu_ls_advanced_reboot_summary">மேம்பட்ட மறுதொடக்க விருப்பத்தை, பூட்டுத்திரையில் காண்பி</string>
+  <string name="powermenu_ls_screenshot_summary">திரைப்பிடிப்பு விருப்பத்தை பூட்டுத்திரையல் காண்பி</string>
+  <string name="powermenu_ls_airplane_summary">விமானப் பயன்முறை விருப்பத்தை பூட்டுத்திரையல் காண்பி</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
-  <string name="lockscreen_items_other">Other</string>
+  <string name="lockscreen_items_other">பிற</string>
   <!-- Roaming indicator icon -->
   <string name="roaming_indicator_icon_title">Roaming indicator</string>
   <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
   <!-- Hardware button navigation -->
   <string name="picker_activities">Activities</string>
-  <string name="select_custom_app_title">Select custom app</string>
-  <string name="select_custom_activity_title">Select custom activity</string>
-  <string name="profile_applist_title">Applications</string>
-  <string name="choose_action_title">Choose action</string>
+  <string name="select_custom_app_title">தனிப்பயன் பயன்பாட்டை தேர்வுசெய்க</string>
+  <string name="select_custom_activity_title">தனிப்பயன் செயலைத் தேர்வுசெய்க</string>
+  <string name="profile_applist_title">செயலிகள்</string>
+  <string name="choose_action_title">செயலைத் தேர்வுசெய்க</string>
   <string name="action_entry_default_action">Default settings</string>
   <string name="action_entry_select_app">Select application</string>
   <string name="action_entry_custom_action">Select custom action</string>
@@ -118,11 +118,11 @@
   <string name="navigation_keys">Enable navigation bar</string>
   <string name="navigation_keys_title">Onscreen navigation bar</string>
   <string name="hardware_keys_category">Hardware navigation buttons</string>
-  <string name="hardware_keys_disable_title">Disable hardware buttons</string>
-  <string name="hardware_keys_wake_title">Wake device</string>
+  <string name="hardware_keys_disable_title">வன்பொருள் பொத்தான்களை முடக்கு</string>
+  <string name="hardware_keys_wake_title">சாதனத்தை எழுப்பு</string>
   <!-- Settings categories -->
   <string name="statusbar_category_title">StatusBar</string>
-  <string name="buttons_category_title">Buttons</string>
+  <string name="buttons_category_title">பொத்தான்கள்</string>
   <string name="misc_category_title">Misc</string>
   <string name="theme_category_title">System theme</string>
   <!-- Button brightness -->
@@ -151,30 +151,31 @@
   <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
   <string name="heads_up_stoplist_title">Stoplist</string>
   <string name="heads_up_blacklist_title">Blacklist</string>
-  <string name="profile_choose_app">Choose app</string>
-  <string name="dialog_delete_title">Delete</string>
-  <string name="dialog_delete_message">Remove selected item?</string>
+  <string name="profile_choose_app">பயன்பாட்டைத் தேர்வு செய்க</string>
+  <string name="dialog_delete_title">நீக்கு</string>
+  <string name="dialog_delete_message">தேர்ந்தெடுத்த உருப்படி அகற்றவா?</string>
   <!-- Heads up timeout -->
-  <string name="heads_up_time_out_title">Time out</string>
+  <string name="heads_up_time_out_title">நேரந் தீர்வு</string>
   <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-  <string name="heads_up_time_out_2sec">2 seconds</string>
-  <string name="heads_up_time_out_4sec">4 seconds</string>
-  <string name="heads_up_time_out_5sec">5 seconds</string>
-  <string name="heads_up_time_out_6sec">6 seconds</string>
-  <string name="heads_up_time_out_8sec">8 seconds</string>
-  <string name="heads_up_time_out_10sec">10 seconds</string>
+  <string name="heads_up_time_out_2sec">2 நொடிகள்</string>
+  <string name="heads_up_time_out_4sec">4 நொடிகள்</string>
+  <string name="heads_up_time_out_5sec">5 நொடிகள்</string>
+  <string name="heads_up_time_out_6sec">6 நொடிகள்</string>
+  <string name="heads_up_time_out_8sec">8 நொடிகள்</string>
+  <string name="heads_up_time_out_10sec">10 நொடிகள்</string>
   <!-- Heads up snooze -->
   <string name="heads_up_snooze_title">Snooze timer</string>
   <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
   <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
   <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-  <string name="heads_up_snooze_1min">1 minute</string>
-  <string name="heads_up_snooze_5min">5 minutes</string>
-  <string name="heads_up_snooze_10min">10 minutes</string>
-  <string name="heads_up_snooze_15min">15 minutes</string>
-  <string name="heads_up_snooze_20min">20 minutes</string>
+  <string name="heads_up_snooze_1min">1 நிமிடம்</string>
+  <string name="heads_up_snooze_5min">5 நிமிடங்கள்</string>
+  <string name="heads_up_snooze_10min">10 நிமிடங்கள்</string>
+  <string name="heads_up_snooze_15min">15 நிமிடங்கள்</string>
+  <string name="heads_up_snooze_20min">20 நிமிடங்கள்</string>
   <!-- Clear all recents -->
-  <string name="aosp_recents_title">AOSP recents</string>
+  <string name="aosp_recents_title">சமீபத்திய AOSP -க்கள்</string>
+  <string name="aosp_recents_title_summary">Oreo style recents configs, clear all FAB</string>
   <string name="show_clear_all_recents_button_title">Clear-all FAB</string>
   <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
   <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
@@ -190,10 +191,12 @@
   <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
   <!-- Statusbar Tuner -->
   <string name="statusbar_items_title">Statusbar items</string>
+  <string name="statusbar_items_title_summary">Enable or disable statusbar icons</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
   <!-- QS rows and columns -->
   <string name="qs_rows_columns_title">QS panel tweaks</string>
+  <string name="qs_rows_columns_summary">Quicksettings rows and columns, titles, panel opacity</string>
   <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
   <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
   <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
@@ -227,6 +230,7 @@
   <string name="theme_applied_toast">Theme applied!</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Weather</string>
+  <string name="weather_config_title_summary">Stautusbar and lockscreen weather</string>
   <string name="weather_config_title">Service settings</string>
   <string name="weather_config_summary"></string>
   <string name="header_weather_title">Header view weather</string>
@@ -417,4 +421,10 @@
   <string name="battery_stats_reset">Reset stats</string>
   <string name="battery_stats_message">Battery history stats are going to be reset</string>
   <string name="ok_string">Ok</string>
+  <!-- Pocket judge -->
+  <string name="pocket_judge_title">Pocket detection</string>
+  <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+  <!-- Quick Setting tile titles -->
+  <string name="qs_tile_title_visibility_title">Tile title</string>
+  <string name="qs_tile_title_visibility_summary">Display title below each tile, (requires SystemUI restart)</string>
 </resources>
