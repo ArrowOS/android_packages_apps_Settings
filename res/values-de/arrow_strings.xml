@@ -164,10 +164,10 @@
   <string name="heads_up_time_out_8sec">8 Sekunden</string>
   <string name="heads_up_time_out_10sec">10 Sekunden</string>
   <!-- Heads up snooze -->
-  <string name="heads_up_snooze_title">Snooze timer</string>
+  <string name="heads_up_snooze_title">Schlummer-Timer</string>
   <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
   <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-  <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+  <string name="heads_up_snooze_disabled_summary">Schlummer-Timer ist deaktiviert</string>
   <string name="heads_up_snooze_1min">1 Minute</string>
   <string name="heads_up_snooze_5min">5 Minuten</string>
   <string name="heads_up_snooze_10min">10 Minuten</string>
@@ -191,11 +191,11 @@
   <string name="proximity_wake_summary">Näherungssensor vor dem Einschalten des Bildschirms überprüfen</string>
   <!-- Statusbar Tuner -->
   <string name="statusbar_items_title">Statusleisten Elemente</string>
-  <string name="statusbar_items_title_summary">Enable or disable statusbar icons</string>
+  <string name="statusbar_items_title_summary">Aktiviere oder deaktiviere Statusleistensymbole</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Sperrbildschirm Verknüpfungen</string>
   <!-- QS rows and columns -->
-  <string name="qs_rows_columns_title">QS panel tweaks</string>
+  <string name="qs_rows_columns_title">QS Panel Optimierungen</string>
   <string name="qs_rows_columns_summary">Quicksettings rows and columns, titles, panel opacity</string>
   <string name="qs_rows_portrait_title">Kachel-Zeilen im Hochformat</string>
   <string name="qs_rows_landscape_title">Kachel-Zeilen im Querformat</string>
@@ -215,13 +215,13 @@
   <string name="battery_light_enable">Akku-Licht</string>
   <string name="battery_light_allow_on_dnd_title">Akku-Licht im \"Nicht stören\"-Modus</string>
   <string name="battery_light_low_blinking_title">Blinkendes Licht bei schwachem Akku</string>
-  <string name="battery_light_cat">Battery light color when charging</string>
+  <string name="battery_light_cat">Benachrichtigungs-LED Farbe beim Laden</string>
   <string name="battery_light_low_color">Niedriger Akkustand</string>
   <string name="battery_light_medium_color">Mittlerer Akkustand</string>
   <string name="battery_light_full_color">Akku fast voll</string>
   <string name="battery_light_reallyfull_color">Akku voll (100%)</string>
   <!-- SystemUI theme -->
-  <string name="systemui_theme_style_title">SystemUI theme</string>
+  <string name="systemui_theme_style_title">SystemUI Thema</string>
   <string name="systemui_theme_style_auto">Automatisch (Hintergrundbasierend)</string>
   <string name="systemui_theme_style_light">Hell</string>
   <string name="systemui_theme_style_dark">Dunkel</string>
@@ -230,25 +230,25 @@
   <string name="theme_applied_toast">Thema angewendet!</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Wetter</string>
-  <string name="weather_config_title_summary">Stautusbar and lockscreen weather</string>
+  <string name="weather_config_title_summary">Statusleiste und Sperrbildschirm Wetter</string>
   <string name="weather_config_title">Service-Einstellungen</string>
   <string name="weather_config_summary"></string>
-  <string name="header_weather_title">Header view weather</string>
-  <string name="header_weather_summary">Enable notification panel header weather display</string>
+  <string name="header_weather_title">Kopfzeile Wetter</string>
+  <string name="header_weather_summary">Aktiviere Wetteranzeige in den Benachrichtigungen</string>
   <string name="weather_icon_pack_title">Wetter Symbol-Paket</string>
   <string name="weather_icon_pack_note">Hinweis\u003a Sie können neue Symbol-Pakete aus dem Play Store installieren, indem Sie nach \"Chronus Icons\" suchen</string>
   <!-- Network traffic -->
-  <string name="traffic_title">Traffic indicators</string>
+  <string name="traffic_title">Verkehrsindikatoren</string>
   <string name="network_traffic_title">Netzwerkverkehr</string>
-  <string name="network_traffic_type">Select net activity type</string>
+  <string name="network_traffic_type">Wähle Art der Netzwerkaktivität</string>
   <string name="show_network_traffic_up">Uplink</string>
   <string name="show_network_traffic_down">Downlink</string>
   <string name="show_network_traffic_all">Uplink and Downlink</string>
-  <string name="network_traffic_state_title">Show net activity in statusbar</string>
-  <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+  <string name="network_traffic_state_title">Zeige Netzwerkaktivität in der Statusleiste an</string>
+  <string name="network_traffic_autohide_threshold_title">Schwellenwert für die Netzwerkaktivität automatisch ausblenden (KB/s)</string>
   <!-- StatusBar weather settings -->
   <string name="statusbar_weather_title">Wetter in der Statusleiste</string>
-  <string name="statusbar_weather_summary">Configure from QS settings/Weather</string>
+  <string name="statusbar_weather_summary">Konfiguration von QS Einstellungen/Wetter</string>
   <string name="statusbar_weather_dialog_title">Wetterstil in der Statusleiste</string>
   <string name="status_bar_weather_hidden">Wetter ausblenden</string>
   <string name="status_bar_temperature_image_show_scale">Zeige Temperatur mit Bild und Einheit</string>
@@ -259,7 +259,7 @@
   <!-- Lockscreen weather settings -->
   <string name="lockscreen_weather_title">Sperrbildschirm Wetter</string>
   <string name="lockscreen_weather_summary">Aktuelle Wetterlage und Temperatur auf dem Sperrbildschirm anzeigen</string>
-  <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
+  <string name="lockscreen_items_aod_info_title">Die Sichtbarkeitskonfiguration gilt auch für das Inaktivitätsdisplay</string>
   <!-- Statusbar Clock -->
   <string name="status_bar_clock">Uhrzeit und Datum</string>
   <string name="status_bar_clock_summary">Aussehen der Uhr und Datum in der Statusleisten konfigurieren</string>
@@ -348,7 +348,7 @@
   <string name="app_ops_mute_unmute_microphone">Mikrofon aktivieren/deaktivieren</string>
   <string name="app_ops_play_audio">Audio wiedergeben</string>
   <string name="app_ops_post_notification">Benachrichtigung anzeigen</string>
-  <string name="app_ops_project_media">project media</string>
+  <string name="app_ops_project_media"Projektmedien</string>
   <string name="app_ops_read_calendar">Kalender lesen</string>
   <string name="app_ops_read_call_log">Anrufprotokoll lesen</string>
   <string name="app_ops_read_clipboard">Zwischenablage lesen</string>
@@ -364,30 +364,30 @@
   <string name="app_ops_use_audio_focus">Audiofokus</string>
   <string name="app_ops_use_bluetooth_volume">Bluetooth-Lautstärke</string>
   <string name="app_ops_use_master_volume">Gesamtlautstärke</string>
-  <string name="app_ops_use_media_buttons">media buttons</string>
-  <string name="app_ops_use_media_volume">media volume</string>
-  <string name="app_ops_use_notification_volume">notification volume</string>
-  <string name="app_ops_use_ring_volume">ringtone volume</string>
-  <string name="app_ops_use_vibrate">haptic feedback</string>
-  <string name="app_ops_use_voice_volume">voice call volume</string>
+  <string name="app_ops_use_media_buttons">Tasten Medien</string>
+  <string name="app_ops_use_media_volume">Lautstärke Medien</string>
+  <string name="app_ops_use_notification_volume">Lautstärke Benachrichtigungen</string>
+  <string name="app_ops_use_ring_volume">Lautstärke Klingelton</string>
+  <string name="app_ops_use_vibrate">Haptisches Feedback</string>
+  <string name="app_ops_use_voice_volume">Lautstärke Sprachanruf</string>
   <string name="app_ops_write_mms">MMS schreiben</string>
   <string name="app_ops_write_sms">SMS schreiben</string>
   <string name="app_ops_use_fingerprint">Fingerabdruck</string>
   <string name="app_ops_add_voicemail">voicemail</string>
-  <string name="app_ops_read_phone_state">access phone state</string>
-  <string name="app_ops_scan_wifi">Scan WiFi Networks</string>
-  <string name="app_ops_change_wallpaper">change wallpaper</string>
-  <string name="app_ops_assist_structure">assist structure</string>
+  <string name="app_ops_read_phone_state">Zugriff auf Telefonstatus</string>
+  <string name="app_ops_scan_wifi">Nach WiFi Netzwerken scannen</string>
+  <string name="app_ops_change_wallpaper">Ändere Hintergrund</string>
+  <string name="app_ops_assist_structure">Hilfsstruktur</string>
   <string name="app_ops_assist_screenshot">Bildschirmfoto</string>
   <string name="app_ops_use_body_sensors">Körpersensoren</string>
-  <string name="app_ops_read_cell_broadcasts">cell broadcasts</string>
-  <string name="app_ops_mock_location">mock location</string>
-  <string name="app_ops_read_external_storage">read ext. stor.</string>
-  <string name="app_ops_write_external_storage">write ext. stor.</string>
+  <string name="app_ops_read_cell_broadcasts">Cell Broadcasts</string>
+  <string name="app_ops_mock_location">Falscher Standort</string>
+  <string name="app_ops_read_external_storage">Ext. Speicher lesen</string>
+  <string name="app_ops_write_external_storage">Ext. Speicher beschreiben</string>
   <string name="app_ops_turn_on_screen">Bildschirm einschalten</string>
   <string name="app_ops_get_accounts">Gerätekonten</string>
   <string name="app_ops_run_in_background">im Hintergrund ausführen</string>
-  <string name="app_ops_accessibility_volume">accessibility volume</string>
+  <string name="app_ops_accessibility_volume">Barrierefreie Lautstärke</string>
   <string name="app_ops_read_phone_numbers">Telefonnummer lesen</string>
   <string name="app_ops_request_install_packages">Pakete installieren</string>
   <string name="app_ops_picture_in_picture">Bild in Bild</string>
@@ -396,8 +396,8 @@
   <string name="app_ops_run_any_in_background">im Hintergrund ausführen</string>
   <string name="app_ops_change_wifi_state">WLAN-Status ändern</string>
   <string name="app_ops_request_delete_packages">Pakete löschen</string>
-  <string name="app_ops_bind_accessibility_service">bind to accessibility</string>
-  <string name="app_ops_accept_handover">accept handover</string>
+  <string name="app_ops_bind_accessibility_service">an Barrierefreiheit binden</string>
+  <string name="app_ops_accept_handover">Übergabe annehmen</string>
   <string name="app_ops_manage_ipsec_tunnels">Verwaltete IP-Tunnel</string>
   <string name="app_ops_start_foreground">Im Vordergrund starten</string>
   <string name="app_ops_bluetooth_scan">Bluetooth-Suche</string>
@@ -422,9 +422,9 @@
   <string name="battery_stats_message">Akkustatistiken werden zurückgesetzt</string>
   <string name="ok_string">Ok</string>
   <!-- Pocket judge -->
-  <string name="pocket_judge_title">Pocket detection</string>
-  <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+  <string name="pocket_judge_title">Taschenmodus</string>
+  <string name="pocket_judge_summary">Sperre Bildschirm und Tasten, wenn sich das Gerät in der Tasche befindet</string>
   <!-- Quick Setting tile titles -->
-  <string name="qs_tile_title_visibility_title">Tile title</string>
-  <string name="qs_tile_title_visibility_summary">Display title below each tile, (requires SystemUI restart)</string>
+  <string name="qs_tile_title_visibility_title">Titel titel</string>
+  <string name="qs_tile_title_visibility_summary">Zeigt Titel unter dem Titel an, (erfordert SystemUI Neustart)</string>
 </resources>
