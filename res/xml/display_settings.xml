@@ -149,6 +149,12 @@
         android:title="@string/double_tap_sleep_gesture_title"
         android:defaultValue="true" />
 
+        <SwitchPreference
+	android:key="hide_notch"
+        android:title="@string/hide_notch_title"
+        android:summary="@string/hide_notch_summary"
+        android:defaultValue="false" />
+
 	<Preference
             android:key="clock_settings"
             android:title="@string/status_bar_clock"
