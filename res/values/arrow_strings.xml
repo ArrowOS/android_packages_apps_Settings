@@ -519,4 +519,8 @@
     <string name="theme_accent_picker_title">Accent color</string>
     <string name="theme_accent_picker_summary">Select system theme accent color</string>
     <string name="theme_accent_picker_default">Default</string>
+
+    <!-- Hide notch -->
+    <string name="hide_notch_title">Hide notch</string>
+    <string name="hide_notch_summary">Apps can not use the notch area</string>
 </resources>
