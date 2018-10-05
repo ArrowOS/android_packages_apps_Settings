@@ -65,7 +65,7 @@
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Som de captura de tela</string>
   <!-- meh ganeshi4u -->
-  <string name="arrow_stats_title">ArrowOS Stats</string>
+  <string name="arrow_stats_title">Estatísticas ArrowOS</string>
   <string name="arrow_stats_summary">we ain\'t stealing your nuds!</string>
   <!-- Per-app data restrictions -->
   <string name="data_usage_app_restrict_data">Dados móveis</string>
@@ -73,8 +73,8 @@
   <string name="data_usage_app_restrict_wifi">Dados Wi-Fi</string>
   <string name="data_usage_app_restrict_wifi_summary">Permitir o uso de dados Wi-Fi</string>
   <!-- Power Menu -->
-  <string name="advanced_power_menu">Power button options</string>
-  <string name="arrow_reboot_menu">Advanced reboot menu</string>
+  <string name="advanced_power_menu">Opções do botão de energia</string>
+  <string name="arrow_reboot_menu">Menu de reinício avançado</string>
   <string name="powermenu_reboot_title">Reinicialização</string>
   <string name="powermenu_airplane_title">Modo avião</string>
   <string name="powermenu_advanced_reboot_title">Reinicialização avançada</string>
@@ -91,10 +91,10 @@
   <string name="lockscreen_items_other">Outro</string>
   <!-- Roaming indicator icon -->
   <string name="roaming_indicator_icon_title">Indicador de Roaming</string>
-  <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
+  <string name="roaming_indicator_icon_summary">Indicador de Roaming no ícone de sinal quando estiver no modo roaming</string>
   <!-- Hardware button navigation -->
   <string name="picker_activities">Atividades</string>
-  <string name="select_custom_app_title">Select custom app</string>
+  <string name="select_custom_app_title">Selecione uma aplicação personalizada</string>
   <string name="select_custom_activity_title">Select custom activity</string>
   <string name="profile_applist_title">Applications</string>
   <string name="choose_action_title">Choose action</string>
@@ -110,21 +110,21 @@
   <string name="hardware_keys_double_tap_summary">Set double tap action</string>
   <string name="hardware_keys_single_tap_summary">Set single tap action</string>
   <string name="hardware_keys_long_press_summary">Set long press action</string>
-  <string name="hardware_keys_single_tap_title">Single tap action</string>
-  <string name="hardware_keys_long_press_title">Long press action</string>
-  <string name="hardware_keys_double_tap_title">Double tap action</string>
-  <string name="hard_soft_keys">Device buttons and navbar</string>
+  <string name="hardware_keys_single_tap_title">Ação de um toque</string>
+  <string name="hardware_keys_long_press_title">Ação toque longo</string>
+  <string name="hardware_keys_double_tap_title">Ação toque duplo</string>
+  <string name="hard_soft_keys">Botões e barra de navegação do dispositivo</string>
   <string name="hard_soft_keys_summary">Hardware buttons and navigation bar options</string>
-  <string name="navigation_keys">Enable navigation bar</string>
-  <string name="navigation_keys_title">Onscreen navigation bar</string>
+  <string name="navigation_keys">Habilitar barra de navegação</string>
+  <string name="navigation_keys_title">Barra de navegação na tela</string>
   <string name="hardware_keys_category">Hardware navigation buttons</string>
-  <string name="hardware_keys_disable_title">Disable hardware buttons</string>
+  <string name="hardware_keys_disable_title">Desabilitar os botões físicos</string>
   <string name="hardware_keys_wake_title">Wake device</string>
   <!-- Settings categories -->
   <string name="statusbar_category_title">Barra de Status</string>
   <string name="buttons_category_title">Botões</string>
   <string name="misc_category_title">Variados</string>
-  <string name="theme_category_title">System theme</string>
+  <string name="theme_category_title">Tema do sistema</string>
   <!-- Button brightness -->
   <string name="button_backlight_options_category">Backlight options</string>
   <string name="button_backlight_enable_title">Allow button backlight</string>
@@ -141,9 +141,9 @@
   <string name="volume_rocker_wake_title">Volume wake</string>
   <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
   <!-- Navbar tuner -->
-  <string name="navbar_tuner_title">Navigation bar configs</string>
+  <string name="navbar_tuner_title">Configuração da barra de navegação</string>
   <!-- Heads up -->
-  <string name="heads_up_notifications">Heads up</string>
+  <string name="heads_up_notifications">Notificação flutuante</string>
   <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
   <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
   <string name="add_heads_up_package">Add app</string>

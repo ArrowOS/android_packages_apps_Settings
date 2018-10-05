@@ -175,7 +175,7 @@
   <string name="heads_up_snooze_20min">20 минути</string>
   <!-- Clear all recents -->
   <string name="aosp_recents_title">AOSP скорошни</string>
-  <string name="aosp_recents_title_summary">Oreo style recents configs, clear all FAB</string>
+  <string name="aosp_recents_title_summary">Oreo стил Последни довереник, изчистете всички FAB</string>
   <string name="show_clear_all_recents_button_title">Изчистване на всички активни приложения</string>
   <string name="show_clear_all_recents_button_summary_on">Покажи бутона за изчистване на всички активни приложения</string>
   <string name="show_clear_all_recents_button_summary_off">Показване на AOSP изчистване на всички</string>
@@ -191,12 +191,12 @@
   <string name="proximity_wake_summary">Провери сензора за близост преди събуждане на екрана</string>
   <!-- Statusbar Tuner -->
   <string name="statusbar_items_title">Елементи на лентата на състоянието</string>
-  <string name="statusbar_items_title_summary">Enable or disable statusbar icons</string>
+  <string name="statusbar_items_title_summary">Разрешаване или забраняване на социални икони</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Преки пътища на заключен екран</string>
   <!-- QS rows and columns -->
   <string name="qs_rows_columns_title">Промени по QS панела</string>
-  <string name="qs_rows_columns_summary">Quicksettings rows and columns, titles, panel opacity</string>
+  <string name="qs_rows_columns_summary">Бързи редове и колони, непрозрачност на Qs панела</string>
   <string name="qs_rows_portrait_title">Брой редове във вертикален режим</string>
   <string name="qs_rows_landscape_title">Брой редове в хоризонтален режим</string>
   <string name="qs_columns_portrait_title">Брой колони във вертикален режим</string>
@@ -230,7 +230,7 @@
   <string name="theme_applied_toast">Темата е приложена!</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Метеорологични условия</string>
-  <string name="weather_config_title_summary">Stautusbar and lockscreen weather</string>
+  <string name="weather_config_title_summary">Stautusbar и lockscreen време</string>
   <string name="weather_config_title">Настройки на услугата</string>
   <string name="weather_config_summary"></string>
   <string name="header_weather_title">Горен изглед време</string>
@@ -422,9 +422,9 @@
   <string name="battery_stats_message">Историята за използване на батерията ще бъде изчистена</string>
   <string name="ok_string">Добре</string>
   <!-- Pocket judge -->
-  <string name="pocket_judge_title">Pocket detection</string>
-  <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+  <string name="pocket_judge_title">Разпознаване при носене</string>
+  <string name="pocket_judge_summary">Блокиране екран и бутоните, когато устройството е в джоба</string>
   <!-- Quick Setting tile titles -->
-  <string name="qs_tile_title_visibility_title">Tile title</string>
-  <string name="qs_tile_title_visibility_summary">Display title below each tile, (requires SystemUI restart)</string>
+  <string name="qs_tile_title_visibility_title">Заглавие на плочките</string>
+  <string name="qs_tile_title_visibility_summary">Покажи заглавие под всяка плочка, (изисква рестартиране на SystemUI)</string>
 </resources>
