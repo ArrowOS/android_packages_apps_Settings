@@ -175,7 +175,7 @@
   <string name="heads_up_snooze_20min">20 minuti</string>
   <!-- Clear all recents -->
   <string name="aosp_recents_title">Recenti AOSP</string>
-  <string name="aosp_recents_title_summary">Oreo style recents configs, clear all FAB</string>
+  <string name="aosp_recents_title_summary">Configurazione della lista recenti stile Oreo, bottone cancella tutto</string>
   <string name="show_clear_all_recents_button_title">Pulsante cancella tutto</string>
   <string name="show_clear_all_recents_button_summary_on">Mostra il pulsante cancella tutto</string>
   <string name="show_clear_all_recents_button_summary_off">Mostra il pulsante cancella tutto AOSP</string>
@@ -191,12 +191,12 @@
   <string name="proximity_wake_summary">Controllare il sensore di prossimità prima di riattivare lo schermo</string>
   <!-- Statusbar Tuner -->
   <string name="statusbar_items_title">Elementi della barra di stato</string>
-  <string name="statusbar_items_title_summary">Enable or disable statusbar icons</string>
+  <string name="statusbar_items_title_summary">Attiva o disattiva le icone di sistema della barra di stato</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Scorciatoie schermata di blocco</string>
   <!-- QS rows and columns -->
   <string name="qs_rows_columns_title">Ritocchi pannello impostazioni rapide</string>
-  <string name="qs_rows_columns_summary">Quicksettings rows and columns, titles, panel opacity</string>
+  <string name="qs_rows_columns_summary">Righe e colonne pannello impostazioni rapide, titoli, opacità panello</string>
   <string name="qs_rows_portrait_title">Righe dei tiles in verticale</string>
   <string name="qs_rows_landscape_title">Righe dei tiles in orizzontale</string>
   <string name="qs_columns_portrait_title">Colonne dei tiles in verticale</string>
@@ -230,7 +230,7 @@
   <string name="theme_applied_toast">Tema applicato!</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Meteo</string>
-  <string name="weather_config_title_summary">Stautusbar and lockscreen weather</string>
+  <string name="weather_config_title_summary">Meteo nella barra di stato e nella schermata di blocco</string>
   <string name="weather_config_title">Impostazioni del servizio</string>
   <string name="weather_config_summary"></string>
   <string name="header_weather_title">Visualizza meteo nell\'intestazione</string>
@@ -241,8 +241,8 @@
   <string name="traffic_title">Indicatori di traffico</string>
   <string name="network_traffic_title">Traffico di rete</string>
   <string name="network_traffic_type">Seleziona il tipo di attività di rete</string>
-  <string name="show_network_traffic_up">Upload</string>
-  <string name="show_network_traffic_down">Download</string>
+  <string name="show_network_traffic_up">In uscita</string>
+  <string name="show_network_traffic_down">In entrata</string>
   <string name="show_network_traffic_all">In uscita e in entrata</string>
   <string name="network_traffic_state_title">Mostra attività di rete nella barra di stato</string>
   <string name="network_traffic_autohide_threshold_title">Soglia alla quale nascondere l\'attività di rete (KB/s)</string>
@@ -289,12 +289,12 @@
   <string name="clock_date_string_edittext_title">Deve essere in formato data Es.: mm/gg/aa</string>
   <string name="clock_date_string_edittext_summary">Inserisci stringa di testo</string>
   <!--Double Tap to Sleep Lockscreen-->
-  <string name="double_tap_sleep_lockscreen">Doppio tap per spegnere lo schermo dalla schermata di blocco</string>
+  <string name="double_tap_sleep_lockscreen">Doppio tocco per spegnere lo schermo sulla schermata di blocco</string>
   <!--Quick pulldown-->
   <string name="status_bar_quick_qs_pulldown">Discesa tendina rapida</string>
   <string name="status_bar_quick_qs_pulldown_summary">Scorri il dito dal lato destro della barra di stato per mostrare il pannello delle impostazioni rapide</string>
   <!--Double Tap to Sleep Statusbar-->
-  <string name="double_tap_sleep_gesture_title">Doppio tap per spegnere lo schermo dalla barra di stato</string>
+  <string name="double_tap_sleep_gesture_title">Doppio tocco per spegnere lo schermo sulla barra di stato</string>
   <!-- Sizes for pattern lockscreen -->
   <string name="lock_settings_picker_pattern_size_message">Scegli la dimensione della sequenza</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -422,9 +422,9 @@
   <string name="battery_stats_message">Le statistiche della batteria stanno per essere resettate</string>
   <string name="ok_string">Ok</string>
   <!-- Pocket judge -->
-  <string name="pocket_judge_title">Pocket detection</string>
-  <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+  <string name="pocket_judge_title">Rilevamento telefono in tasca</string>
+  <string name="pocket_judge_summary">Blocca lo schermo e i tasti quando il dispositivo è in tasca</string>
   <!-- Quick Setting tile titles -->
-  <string name="qs_tile_title_visibility_title">Tile title</string>
-  <string name="qs_tile_title_visibility_summary">Display title below each tile, (requires SystemUI restart)</string>
+  <string name="qs_tile_title_visibility_title">Titolo tile</string>
+  <string name="qs_tile_title_visibility_summary">Mostra titolo sotto ogni tile (richiede riavvio della SystemUI)</string>
 </resources>

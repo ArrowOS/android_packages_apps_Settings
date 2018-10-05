@@ -175,7 +175,7 @@
   <string name="heads_up_snooze_20min">20 минут</string>
   <!-- Clear all recents -->
   <string name="aosp_recents_title">Панель недавних приложений AOSP</string>
-  <string name="aosp_recents_title_summary">Oreo style recents configs, clear all FAB</string>
+  <string name="aosp_recents_title_summary">Меню недавних в стиле Oreo, кнопка Очистить все</string>
   <string name="show_clear_all_recents_button_title">Кнопка Очистить все</string>
   <string name="show_clear_all_recents_button_summary_on">Показать кнопку Очистить все</string>
   <string name="show_clear_all_recents_button_summary_off">Показывать стандартную кнопку Очистить все</string>
@@ -191,12 +191,12 @@
   <string name="proximity_wake_summary">Проверка датчика приближения перед включением экрана</string>
   <!-- Statusbar Tuner -->
   <string name="statusbar_items_title">Значки строки состояния</string>
-  <string name="statusbar_items_title_summary">Enable or disable statusbar icons</string>
+  <string name="statusbar_items_title_summary">Включить или выключить значки строки состояния</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Ярлыки экрана блокировки</string>
   <!-- QS rows and columns -->
   <string name="qs_rows_columns_title">Настройка панели быстрых настроек</string>
-  <string name="qs_rows_columns_summary">Quicksettings rows and columns, titles, panel opacity</string>
+  <string name="qs_rows_columns_summary">Столбцы и строки панели быстрых настроек, подписи, прозрачность панели быстрых настроек</string>
   <string name="qs_rows_portrait_title">Строки (портрет)</string>
   <string name="qs_rows_landscape_title">Строки (ландшафт)</string>
   <string name="qs_columns_portrait_title">Колонки (портрет)</string>
@@ -230,7 +230,7 @@
   <string name="theme_applied_toast">Тема применена!</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Погода</string>
-  <string name="weather_config_title_summary">Stautusbar and lockscreen weather</string>
+  <string name="weather_config_title_summary">Погода в строке состояния и на экране блокировки</string>
   <string name="weather_config_title">Настройки службы</string>
   <string name="weather_config_summary"></string>
   <string name="header_weather_title">Погода в заголовке панели уведомлений</string>
@@ -422,9 +422,9 @@
   <string name="battery_stats_message">Статистика батареи будет сброшена</string>
   <string name="ok_string">Ok</string>
   <!-- Pocket judge -->
-  <string name="pocket_judge_title">Pocket detection</string>
-  <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+  <string name="pocket_judge_title">Режим \"В кармане\"</string>
+  <string name="pocket_judge_summary">Блокировать экран и физические кнопки, когда устройство находится в кармане</string>
   <!-- Quick Setting tile titles -->
-  <string name="qs_tile_title_visibility_title">Tile title</string>
-  <string name="qs_tile_title_visibility_summary">Display title below each tile, (requires SystemUI restart)</string>
+  <string name="qs_tile_title_visibility_title">Подпись плиток</string>
+  <string name="qs_tile_title_visibility_summary">Показывать подписи под каждой плиткой (требует перезагрузку SystemUI)</string>
 </resources>
