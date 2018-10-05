@@ -175,7 +175,7 @@
   <string name="heads_up_snooze_20min">20 dakika</string>
   <!-- Clear all recents -->
   <string name="aosp_recents_title">Aosp son uygulamalar</string>
-  <string name="aosp_recents_title_summary">Oreo style recents configs, clear all FAB</string>
+  <string name="aosp_recents_title_summary">Oreo stilindeki son uygulamalar yapılandırmaları, tümüne temizleme</string>
   <string name="show_clear_all_recents_button_title">Tümünü temizleme tuşu</string>
   <string name="show_clear_all_recents_button_summary_on">Tümünü temizleme tuşunu göster</string>
   <string name="show_clear_all_recents_button_summary_off">Aosp tümünü temizle tuşu gösteriliyor</string>
@@ -191,12 +191,12 @@
   <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol et</string>
   <!-- Statusbar Tuner -->
   <string name="statusbar_items_title">Durum çubuğu ögeleri</string>
-  <string name="statusbar_items_title_summary">Enable or disable statusbar icons</string>
+  <string name="statusbar_items_title_summary">Durum çubuğu simgelerini etkinleştirme veya devre dışı bırakma</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Kilit ekranı kısayolları</string>
   <!-- QS rows and columns -->
   <string name="qs_rows_columns_title">Hızlı ayarlar paneli özelleştirmeleri</string>
-  <string name="qs_rows_columns_summary">Quicksettings rows and columns, titles, panel opacity</string>
+  <string name="qs_rows_columns_summary">Hızlı ayarlar satırları ve sütunları, kareler, paneli şeffaflığı</string>
   <string name="qs_rows_portrait_title">Dikey modda satırlar</string>
   <string name="qs_rows_landscape_title">Yatay modda satırlar</string>
   <string name="qs_columns_portrait_title">Dikey modda sütunlar</string>
@@ -230,7 +230,7 @@
   <string name="theme_applied_toast">Tema uygulandı!</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Hava durumu</string>
-  <string name="weather_config_title_summary">Stautusbar and lockscreen weather</string>
+  <string name="weather_config_title_summary">Durum çubuğunda ve kilit ekranında hava durumu</string>
   <string name="weather_config_title">Servis ayarları</string>
   <string name="weather_config_summary"></string>
   <string name="header_weather_title">Başlık görünümünde hava durumu</string>
@@ -422,9 +422,9 @@
   <string name="battery_stats_message">Pil geçmişi istatistikleri sıfırlanacak</string>
   <string name="ok_string">Tamam</string>
   <!-- Pocket judge -->
-  <string name="pocket_judge_title">Pocket detection</string>
-  <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+  <string name="pocket_judge_title">Cep algılama</string>
+  <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelleyin</string>
   <!-- Quick Setting tile titles -->
-  <string name="qs_tile_title_visibility_title">Tile title</string>
-  <string name="qs_tile_title_visibility_summary">Display title below each tile, (requires SystemUI restart)</string>
+  <string name="qs_tile_title_visibility_title">Kare başlığı</string>
+  <string name="qs_tile_title_visibility_summary">Her kare altında başlık görüntüle (Sistem arayüzünü yeniden başlatma gerektirir)</string>
 </resources>

@@ -43,16 +43,16 @@
   <string name="rom_version_title">ArrowOS Version</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Farbauswahl</string>
-  <string name="press_color_to_apply">Press on color below to apply</string>
+  <string name="press_color_to_apply">Drücke auf eine Farbe um sie anzuwenden</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
-  <string name="set">Set</string>
+  <string name="set">Festlegen</string>
   <string name="color_default">Standard</string>
   <!-- Face auto unlock -->
-  <string name="face_auto_unlock_title">Face auto unlock</string>
-  <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
+  <string name="face_auto_unlock_title">Automatische Gesichtsentsperrung</string>
+  <string name="face_auto_unlock_summary">Nach Gesichts-Entsperrung Sperrbildschirm nicht anzeigen</string>
   <!-- Scramble PIN Layout on Lockscreen -->
   <string name="unlock_scramble_pin_layout_title">Zufälliges Layout</string>
   <string name="unlock_scramble_pin_layout_summary">PIN-Layout zufällig neu anordnen, wenn das Gerät entsperrt wird</string>
@@ -61,7 +61,7 @@
   <string name="unlock_quick_unlock_control_summary">Automatisch entsperren, wenn die korrekte PIN/Passwort eingegeben wird</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Ladeinformation auf dem Sperrbildschirm</string>
-  <string name="lockscreen_battery_info_summary">Show charging current, voltage and battery temperature on lockscreen while charging</string>
+  <string name="lockscreen_battery_info_summary">Zeige auf dem Sperrbildschirm die aktuelle Ladung, Spannung und Akkutemperatur während des Ladens</string>
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Bildschirmfoto-Auslöseton</string>
   <!-- meh ganeshi4u -->
@@ -129,25 +129,25 @@
   <string name="button_backlight_options_category">Hintergrundbeleuchtungsoptionen</string>
   <string name="button_backlight_enable_title">Tasten-Hintergrundbeleuchtung erlauben</string>
   <string name="button_link_brightness">Verknüpfen mit Bildschirmhelligkeit</string>
-  <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
+  <string name="button_link_brightness_summary">Die Hintergrundbelichtung der Tasten, passt sich der aktuellen Hellichkeit des Bildschirms an</string>
   <string name="button_manual_brightness">Helligkeitsstufe</string>
-  <string name="button_timeout_title">Backlight timeout</string>
-  <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
+  <string name="button_timeout_title">Zeitabschaltung der Hintergrundbeleuchtung</string>
+  <string name="button_backlight_on_touch_only_title">Tastenbeleuchtung bei Berührung</string>
   <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
   <!-- Volume rocker music control -->
-  <string name="volume_button_music_control_title">Playback control</string>
-  <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+  <string name="volume_button_music_control_title">Wiedergabe Steuerung</string>
+  <string name="volume_button_music_control_summary">Bei ausgeschaltetem Bildschirm, lassen sich Musiktitel durch langes Drücken der Lautstärketasten überspringen</string>
   <!-- Volume rocker wake -->
   <string name="volume_rocker_wake_title">Volume wake</string>
-  <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+  <string name="volume_rocker_wake_summary">Gerät aufwecken durch das Drücken der Lautstärketasten</string>
   <!-- Navbar tuner -->
-  <string name="navbar_tuner_title">Navigation bar configs</string>
+  <string name="navbar_tuner_title">Navigationsleiste Konfiguration</string>
   <!-- Heads up -->
-  <string name="heads_up_notifications">Heads up</string>
+  <string name="heads_up_notifications">Pop-Up</string>
   <string name="summary_heads_up_enabled">Pop-up-Benachrichtigungen sind aktiviert</string>
   <string name="summary_heads_up_disabled">Pop-up-Benachrichtigungen sind deaktiviert</string>
   <string name="add_heads_up_package">App hinzufügen</string>
-  <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
+  <string name="add_heads_up_stoplist_summary">Pop-Up Benachrichtigungen für diese Apps deaktivieren</string>
   <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
   <string name="heads_up_stoplist_title">Stopliste</string>
   <string name="heads_up_blacklist_title">Negativliste</string>
@@ -156,7 +156,7 @@
   <string name="dialog_delete_message">Ausgewähltes Element entfernen?</string>
   <!-- Heads up timeout -->
   <string name="heads_up_time_out_title">Time-out</string>
-  <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
+  <string name="heads_up_time_out_summary">Pop-Up Benachrichtigungen werden für <xliff:g id="number">%d</xliff:g> Sekunden angezeigt</string>
   <string name="heads_up_time_out_2sec">2 Sekunden</string>
   <string name="heads_up_time_out_4sec">4 Sekunden</string>
   <string name="heads_up_time_out_5sec">5 Sekunden</string>
@@ -164,10 +164,10 @@
   <string name="heads_up_time_out_8sec">8 Sekunden</string>
   <string name="heads_up_time_out_10sec">10 Sekunden</string>
   <!-- Heads up snooze -->
-  <string name="heads_up_snooze_title">Snooze timer</string>
-  <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-  <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-  <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+  <string name="heads_up_snooze_title">Schlummerzeit</string>
+  <string name="heads_up_snooze_summary_one_minute">Durch das Hochwischen der Pop-Up Benachrichtigung werden alle Meldungen der entsprechenden App für 1 Minute pausiert</string>
+  <string name="heads_up_snooze_summary">Durch das Hochwischen der Pop-Up Benachrichtigung, werden alle Meldungen der entsprechenden App für <xliff:g id="number">%d</xliff:g> Minuten pausiert</string>
+  <string name="heads_up_snooze_disabled_summary">Schlummerzeit ist deaktiviert</string>
   <string name="heads_up_snooze_1min">1 Minute</string>
   <string name="heads_up_snooze_5min">5 Minuten</string>
   <string name="heads_up_snooze_10min">10 Minuten</string>
@@ -191,12 +191,12 @@
   <string name="proximity_wake_summary">Näherungssensor vor dem Einschalten des Bildschirms überprüfen</string>
   <!-- Statusbar Tuner -->
   <string name="statusbar_items_title">Statusleisten Elemente</string>
-  <string name="statusbar_items_title_summary">Enable or disable statusbar icons</string>
+  <string name="statusbar_items_title_summary">Statusbar Symbole aktivieren oder deaktivieren</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Sperrbildschirm Verknüpfungen</string>
   <!-- QS rows and columns -->
   <string name="qs_rows_columns_title">QS panel tweaks</string>
-  <string name="qs_rows_columns_summary">Quicksettings rows and columns, titles, panel opacity</string>
+  <string name="qs_rows_columns_summary">Schnelleinstellungen Zeilen, Spalten, Titel und Transparenz</string>
   <string name="qs_rows_portrait_title">Kachel-Zeilen im Hochformat</string>
   <string name="qs_rows_landscape_title">Kachel-Zeilen im Querformat</string>
   <string name="qs_columns_portrait_title">Kachel-Spalten im Hochformat</string>
@@ -215,13 +215,13 @@
   <string name="battery_light_enable">Akku-Licht</string>
   <string name="battery_light_allow_on_dnd_title">Akku-Licht im \"Nicht stören\"-Modus</string>
   <string name="battery_light_low_blinking_title">Blinkendes Licht bei schwachem Akku</string>
-  <string name="battery_light_cat">Battery light color when charging</string>
+  <string name="battery_light_cat">Farbe des Batterie-Lichts während des Ladens</string>
   <string name="battery_light_low_color">Niedriger Akkustand</string>
   <string name="battery_light_medium_color">Mittlerer Akkustand</string>
   <string name="battery_light_full_color">Akku fast voll</string>
   <string name="battery_light_reallyfull_color">Akku voll (100%)</string>
   <!-- SystemUI theme -->
-  <string name="systemui_theme_style_title">SystemUI theme</string>
+  <string name="systemui_theme_style_title">Oberflächen Thema</string>
   <string name="systemui_theme_style_auto">Automatisch (Hintergrundbasierend)</string>
   <string name="systemui_theme_style_light">Hell</string>
   <string name="systemui_theme_style_dark">Dunkel</string>
@@ -230,22 +230,22 @@
   <string name="theme_applied_toast">Thema angewendet!</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Wetter</string>
-  <string name="weather_config_title_summary">Stautusbar and lockscreen weather</string>
+  <string name="weather_config_title_summary">Statusleiste und Sperrbildschirm Wetter</string>
   <string name="weather_config_title">Service-Einstellungen</string>
   <string name="weather_config_summary"></string>
-  <string name="header_weather_title">Header view weather</string>
+  <string name="header_weather_title">Wetter in der Statusleiste</string>
   <string name="header_weather_summary">Enable notification panel header weather display</string>
   <string name="weather_icon_pack_title">Wetter Symbol-Paket</string>
   <string name="weather_icon_pack_note">Hinweis\u003a Sie können neue Symbol-Pakete aus dem Play Store installieren, indem Sie nach \"Chronus Icons\" suchen</string>
   <!-- Network traffic -->
-  <string name="traffic_title">Traffic indicators</string>
+  <string name="traffic_title">Netzwerk-Datenverkehr</string>
   <string name="network_traffic_title">Netzwerkverkehr</string>
-  <string name="network_traffic_type">Select net activity type</string>
-  <string name="show_network_traffic_up">Uplink</string>
-  <string name="show_network_traffic_down">Downlink</string>
-  <string name="show_network_traffic_all">Uplink and Downlink</string>
-  <string name="network_traffic_state_title">Show net activity in statusbar</string>
-  <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+  <string name="network_traffic_type">Netzwerkverbindungsart wählen</string>
+  <string name="show_network_traffic_up">Aktuelle Hochlade-Rate</string>
+  <string name="show_network_traffic_down">Aktuelle Herunterlade-Rate</string>
+  <string name="show_network_traffic_all">Hoch - und Herunterlade Rate</string>
+  <string name="network_traffic_state_title">Zeige Netzwerkaktivität in der Statusleiste</string>
+  <string name="network_traffic_autohide_threshold_title">Netzwerkaktivität bei Schwellenwert ausbleden (in KB/s)</string>
   <!-- StatusBar weather settings -->
   <string name="statusbar_weather_title">Wetter in der Statusleiste</string>
   <string name="statusbar_weather_summary">Configure from QS settings/Weather</string>
@@ -259,12 +259,12 @@
   <!-- Lockscreen weather settings -->
   <string name="lockscreen_weather_title">Sperrbildschirm Wetter</string>
   <string name="lockscreen_weather_summary">Aktuelle Wetterlage und Temperatur auf dem Sperrbildschirm anzeigen</string>
-  <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
+  <string name="lockscreen_items_aod_info_title">Diese Sichtbarkeits-Konfiguration wirkt sich ebenfalls auf den Ambient-Bildschirm aus</string>
   <!-- Statusbar Clock -->
   <string name="status_bar_clock">Uhrzeit und Datum</string>
   <string name="status_bar_clock_summary">Aussehen der Uhr und Datum in der Statusleisten konfigurieren</string>
   <string name="status_bar_clock_title">Uhr-Einstellungen</string>
-  <string name="status_bar_clock_show">Show clock and date</string>
+  <string name="status_bar_clock_show">Uhrzeit und Datum anzeigen</string>
   <string name="status_bar_clock_style_title">Uhr-Stil</string>
   <string name="status_bar_clock_style_right">Rechts</string>
   <string name="status_bar_clock_style_center">Zentriert</string>
@@ -286,7 +286,7 @@
   <string name="clock_date_style_uppercase">Großbuchstaben</string>
   <string name="clock_date_format_custom">Benutzerdefiniertes Java Format</string>
   <string name="clock_date_format">Datumsformat</string>
-  <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+  <string name="clock_date_string_edittext_title">Muss ein Datum sein z.B. MM/tt/jj</string>
   <string name="clock_date_string_edittext_summary">Zeichenfolge eingeben</string>
   <!--Double Tap to Sleep Lockscreen-->
   <string name="double_tap_sleep_lockscreen">Doppeltipp auf dem Sperrbildschirm, um den Bildschirm auszuschalten</string>
@@ -348,7 +348,7 @@
   <string name="app_ops_mute_unmute_microphone">Mikrofon aktivieren/deaktivieren</string>
   <string name="app_ops_play_audio">Audio wiedergeben</string>
   <string name="app_ops_post_notification">Benachrichtigung anzeigen</string>
-  <string name="app_ops_project_media">project media</string>
+  <string name="app_ops_project_media">Projektmedien</string>
   <string name="app_ops_read_calendar">Kalender lesen</string>
   <string name="app_ops_read_call_log">Anrufprotokoll lesen</string>
   <string name="app_ops_read_clipboard">Zwischenablage lesen</string>
@@ -364,26 +364,26 @@
   <string name="app_ops_use_audio_focus">Audiofokus</string>
   <string name="app_ops_use_bluetooth_volume">Bluetooth-Lautstärke</string>
   <string name="app_ops_use_master_volume">Gesamtlautstärke</string>
-  <string name="app_ops_use_media_buttons">media buttons</string>
-  <string name="app_ops_use_media_volume">media volume</string>
-  <string name="app_ops_use_notification_volume">notification volume</string>
-  <string name="app_ops_use_ring_volume">ringtone volume</string>
-  <string name="app_ops_use_vibrate">haptic feedback</string>
-  <string name="app_ops_use_voice_volume">voice call volume</string>
+  <string name="app_ops_use_media_buttons">Medientasten</string>
+  <string name="app_ops_use_media_volume">Medienlautstärke</string>
+  <string name="app_ops_use_notification_volume">Benachrichtigungslautstärke</string>
+  <string name="app_ops_use_ring_volume">Klingeltonlautstärke</string>
+  <string name="app_ops_use_vibrate">Haptische Rückmeldung</string>
+  <string name="app_ops_use_voice_volume">Sprachanruflautstärke</string>
   <string name="app_ops_write_mms">MMS schreiben</string>
   <string name="app_ops_write_sms">SMS schreiben</string>
   <string name="app_ops_use_fingerprint">Fingerabdruck</string>
-  <string name="app_ops_add_voicemail">voicemail</string>
-  <string name="app_ops_read_phone_state">access phone state</string>
-  <string name="app_ops_scan_wifi">Scan WiFi Networks</string>
-  <string name="app_ops_change_wallpaper">change wallpaper</string>
+  <string name="app_ops_add_voicemail">Sprachnachricht</string>
+  <string name="app_ops_read_phone_state">Auf Telefonstatus zugreifen</string>
+  <string name="app_ops_scan_wifi">Nach WiFi-Netzwerken suchen</string>
+  <string name="app_ops_change_wallpaper">Hintergrundbild ändern</string>
   <string name="app_ops_assist_structure">assist structure</string>
   <string name="app_ops_assist_screenshot">Bildschirmfoto</string>
   <string name="app_ops_use_body_sensors">Körpersensoren</string>
   <string name="app_ops_read_cell_broadcasts">cell broadcasts</string>
   <string name="app_ops_mock_location">mock location</string>
-  <string name="app_ops_read_external_storage">read ext. stor.</string>
-  <string name="app_ops_write_external_storage">write ext. stor.</string>
+  <string name="app_ops_read_external_storage">Externen Speicher lesen</string>
+  <string name="app_ops_write_external_storage">Externen Speicher schreiben</string>
   <string name="app_ops_turn_on_screen">Bildschirm einschalten</string>
   <string name="app_ops_get_accounts">Gerätekonten</string>
   <string name="app_ops_run_in_background">im Hintergrund ausführen</string>
@@ -414,7 +414,7 @@
   <string name="app_ops_reset_confirm_title">Zurücksetzen der Zähler bestätigen</string>
   <string name="app_ops_reset_confirm_mesg">Wollen Sie die Zähler wirklich zurücksetzen?</string>
   <string name="app_ops_settings_title">App Ops</string>
-  <string name="enlighten">This options are only meant to work with old card stack recents(O recents)</string>
+  <string name="enlighten">Diese Funktionen funktionieren nur mit dem alten Stapel-Anwendungsverlauf (Oreo Anwendungsverlauf)</string>
   <!-- Lock screen visualizer -->
   <string name="lockscreen_visualizer_title">Musikvisualisierung</string>
   <string name="lockscreen_visualizer_summary">Visualisierung auf dem Sperrbildschirm anzeigen, wenn Musik abgespielt wird</string>
@@ -422,9 +422,9 @@
   <string name="battery_stats_message">Akkustatistiken werden zurückgesetzt</string>
   <string name="ok_string">Ok</string>
   <!-- Pocket judge -->
-  <string name="pocket_judge_title">Pocket detection</string>
-  <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+  <string name="pocket_judge_title">Trageerkennung</string>
+  <string name="pocket_judge_summary">Verhindert Bildschirm- und Tasteneingaben, wenn sich das Gerät in der Hosentasche befindet</string>
   <!-- Quick Setting tile titles -->
-  <string name="qs_tile_title_visibility_title">Tile title</string>
-  <string name="qs_tile_title_visibility_summary">Display title below each tile, (requires SystemUI restart)</string>
+  <string name="qs_tile_title_visibility_title">Symbolbeschriftung</string>
+  <string name="qs_tile_title_visibility_summary">Zeige Titel unter App-Symbolen an (erfordert Neustart der Oberfläche)</string>
 </resources>

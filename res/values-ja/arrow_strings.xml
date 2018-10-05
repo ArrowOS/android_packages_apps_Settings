@@ -175,7 +175,7 @@
   <string name="heads_up_snooze_20min">20分</string>
   <!-- Clear all recents -->
   <string name="aosp_recents_title">AOSPのアプリ履歴</string>
-  <string name="aosp_recents_title_summary">Oreo style recents configs, clear all FAB</string>
+  <string name="aosp_recents_title_summary">Oreoスタイルのアプリ履歴の編集、全てクリアボタン</string>
   <string name="show_clear_all_recents_button_title">全て終了ボタン</string>
   <string name="show_clear_all_recents_button_summary_on">全て終了ボタンを表示する</string>
   <string name="show_clear_all_recents_button_summary_off">AOSPの全て終了ボタンを表示</string>
@@ -191,12 +191,12 @@
   <string name="proximity_wake_summary">スリープ解除する前に接近センサーで確認する</string>
   <!-- Statusbar Tuner -->
   <string name="statusbar_items_title">ステータスバーの項目</string>
-  <string name="statusbar_items_title_summary">Enable or disable statusbar icons</string>
+  <string name="statusbar_items_title_summary">ステータスバーアイコンの切替え</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">ロック画面のショートカット</string>
   <!-- QS rows and columns -->
   <string name="qs_rows_columns_title">クイック設定パネルの調整</string>
-  <string name="qs_rows_columns_summary">Quicksettings rows and columns, titles, panel opacity</string>
+  <string name="qs_rows_columns_summary">クイック設定の行数、タイトル、不透明度</string>
   <string name="qs_rows_portrait_title">縦向き時の行数</string>
   <string name="qs_rows_landscape_title">横向き時の行数</string>
   <string name="qs_columns_portrait_title">縦向き時の列数</string>
@@ -230,7 +230,7 @@
   <string name="theme_applied_toast">テーマが適用されました</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">天気</string>
-  <string name="weather_config_title_summary">Stautusbar and lockscreen weather</string>
+  <string name="weather_config_title_summary">ステータスバーとロック画面の天気</string>
   <string name="weather_config_title">サービスの設定</string>
   <string name="weather_config_summary"></string>
   <string name="header_weather_title">ヘッダーに天気を表示</string>
@@ -422,9 +422,9 @@
   <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
   <string name="ok_string">OK</string>
   <!-- Pocket judge -->
-  <string name="pocket_judge_title">Pocket detection</string>
-  <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+  <string name="pocket_judge_title">ポケット検出</string>
+  <string name="pocket_judge_summary">ポケットに入っている時にタッチやボタン入力を無効化する</string>
   <!-- Quick Setting tile titles -->
-  <string name="qs_tile_title_visibility_title">Tile title</string>
-  <string name="qs_tile_title_visibility_summary">Display title below each tile, (requires SystemUI restart)</string>
+  <string name="qs_tile_title_visibility_title">タイルの名称</string>
+  <string name="qs_tile_title_visibility_summary">各タイルの下にタイトルを表示する（システムUIの再起動が必要です）</string>
 </resources>
