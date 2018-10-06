@@ -421,10 +421,10 @@
   <string name="battery_stats_reset">Сбросить статистику</string>
   <string name="battery_stats_message">Статистика батареи будет сброшена</string>
   <string name="ok_string">Ok</string>
-  <!-- Pocket judge -->
-  <string name="pocket_judge_title">Режим \"В кармане\"</string>
-  <string name="pocket_judge_summary">Блокировать экран и физические кнопки, когда устройство находится в кармане</string>
   <!-- Quick Setting tile titles -->
   <string name="qs_tile_title_visibility_title">Подпись плиток</string>
   <string name="qs_tile_title_visibility_summary">Показывать подписи под каждой плиткой (требует перезагрузку SystemUI)</string>
+  <!-- Pocket judge -->
+  <string name="pocket_judge_title">Режим \"В кармане\"</string>
+  <string name="pocket_judge_summary">Блокировать экран и физические кнопки, когда устройство находится в кармане</string>
 </resources>

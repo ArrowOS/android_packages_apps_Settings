@@ -421,10 +421,10 @@
   <string name="battery_stats_reset">Zresetuj statystyki</string>
   <string name="battery_stats_message">Statystyki baterii zostaną zresetowane</string>
   <string name="ok_string">OK</string>
-  <!-- Pocket judge -->
-  <string name="pocket_judge_title">Wykrywanie kieszeni</string>
-  <string name="pocket_judge_summary">Zablokuj funkcje ekranu i przycisków, gdy urządzenie jest w kieszeni</string>
   <!-- Quick Setting tile titles -->
   <string name="qs_tile_title_visibility_title">Tile title</string>
   <string name="qs_tile_title_visibility_summary">Wyświetl tytuł poniżej każdego kafla (wymagany SystemUI restart)</string>
+  <!-- Pocket judge -->
+  <string name="pocket_judge_title">Wykrywanie kieszeni</string>
+  <string name="pocket_judge_summary">Zablokuj funkcje ekranu i przycisków, gdy urządzenie jest w kieszeni</string>
 </resources>

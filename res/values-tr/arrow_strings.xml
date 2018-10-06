@@ -421,10 +421,10 @@
   <string name="battery_stats_reset">İstatistikleri sıfırla</string>
   <string name="battery_stats_message">Pil geçmişi istatistikleri sıfırlanacak</string>
   <string name="ok_string">Tamam</string>
-  <!-- Pocket judge -->
-  <string name="pocket_judge_title">Cep algılama</string>
-  <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelleyin</string>
   <!-- Quick Setting tile titles -->
   <string name="qs_tile_title_visibility_title">Kare başlığı</string>
   <string name="qs_tile_title_visibility_summary">Her kare altında başlık görüntüle (Sistem arayüzünü yeniden başlatma gerektirir)</string>
+  <!-- Pocket judge -->
+  <string name="pocket_judge_title">Cep algılama</string>
+  <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelleyin</string>
 </resources>

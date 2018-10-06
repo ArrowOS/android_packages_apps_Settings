@@ -421,10 +421,10 @@
   <string name="battery_stats_reset">Vynulovat statistiky</string>
   <string name="battery_stats_message">Chystáte se obnovit historii statistiky baterie</string>
   <string name="ok_string">Ok</string>
-  <!-- Pocket judge -->
-  <string name="pocket_judge_title">Detekce uložení v kapse</string>
-  <string name="pocket_judge_summary">Blokovat obrazovku a hardwarová tlačítka, když je zařízení v kapse</string>
   <!-- Quick Setting tile titles -->
   <string name="qs_tile_title_visibility_title">Názvy dlaždic</string>
   <string name="qs_tile_title_visibility_summary">Zobrazit název pod každou dlaždicí (vyžaduje restart SystemUI)</string>
+  <!-- Pocket judge -->
+  <string name="pocket_judge_title">Detekce uložení v kapse</string>
+  <string name="pocket_judge_summary">Blokovat obrazovku a hardwarová tlačítka, když je zařízení v kapse</string>
 </resources>

@@ -421,10 +421,10 @@
   <string name="battery_stats_reset">重置统计数据</string>
   <string name="battery_stats_message">电池的历史数据将被重置</string>
   <string name="ok_string">确定</string>
-  <!-- Pocket judge -->
-  <string name="pocket_judge_title">检测设备是否在口袋中</string>
-  <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
   <!-- Quick Setting tile titles -->
   <string name="qs_tile_title_visibility_title">瓷贴标题</string>
   <string name="qs_tile_title_visibility_summary">显示每个瓷贴的标题 (需要 SystemUI 重新启动)</string>
+  <!-- Pocket judge -->
+  <string name="pocket_judge_title">检测设备是否在口袋中</string>
+  <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
 </resources>

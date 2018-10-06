@@ -148,7 +148,7 @@
   <string name="summary_heads_up_disabled">Pop-up-Benachrichtigungen sind deaktiviert</string>
   <string name="add_heads_up_package">App hinzufügen</string>
   <string name="add_heads_up_stoplist_summary">Pop-Up Benachrichtigungen für diese Apps deaktivieren</string>
-  <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
+  <string name="add_heads_up_blacklist_summary">Deaktiviere Pop-Up Benachrichtigungen von diesen Anwendungen</string>
   <string name="heads_up_stoplist_title">Stopliste</string>
   <string name="heads_up_blacklist_title">Negativliste</string>
   <string name="profile_choose_app">App wählen</string>
@@ -176,10 +176,10 @@
   <!-- Clear all recents -->
   <string name="aosp_recents_title">AOSP-Anwendungsverlauf</string>
   <string name="aosp_recents_title_summary">Oreo style recents configs, clear all FAB</string>
-  <string name="show_clear_all_recents_button_title">Clear-all FAB</string>
-  <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
-  <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
-  <string name="recents_clear_all_location_title">Clear all FAB location</string>
+  <string name="show_clear_all_recents_button_title">\"Alle löschen\" FAB</string>
+  <string name="show_clear_all_recents_button_summary_on">\"Alle löschen\" FAB anzeigen</string>
+  <string name="show_clear_all_recents_button_summary_off">Zeige AOSP \"Alle löschen\"</string>
+  <string name="recents_clear_all_location_title">Position des \"Alle löschen\" FAB</string>
   <string name="recents_clear_all_location_top_right">Oben rechts</string>
   <string name="recents_clear_all_location_top_left">Oben links</string>
   <string name="recents_clear_all_location_top_center">Oben mittig</string>
@@ -195,7 +195,7 @@
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Sperrbildschirm Verknüpfungen</string>
   <!-- QS rows and columns -->
-  <string name="qs_rows_columns_title">QS panel tweaks</string>
+  <string name="qs_rows_columns_title">QS Bedienfeld-Anpassungen</string>
   <string name="qs_rows_columns_summary">Schnelleinstellungen Zeilen, Spalten, Titel und Transparenz</string>
   <string name="qs_rows_portrait_title">Kachel-Zeilen im Hochformat</string>
   <string name="qs_rows_landscape_title">Kachel-Zeilen im Querformat</string>
@@ -380,14 +380,14 @@
   <string name="app_ops_assist_structure">assist structure</string>
   <string name="app_ops_assist_screenshot">Bildschirmfoto</string>
   <string name="app_ops_use_body_sensors">Körpersensoren</string>
-  <string name="app_ops_read_cell_broadcasts">cell broadcasts</string>
-  <string name="app_ops_mock_location">mock location</string>
+  <string name="app_ops_read_cell_broadcasts">Cell Broadcast</string>
+  <string name="app_ops_mock_location">Standort simulieren</string>
   <string name="app_ops_read_external_storage">Externen Speicher lesen</string>
   <string name="app_ops_write_external_storage">Externen Speicher schreiben</string>
   <string name="app_ops_turn_on_screen">Bildschirm einschalten</string>
   <string name="app_ops_get_accounts">Gerätekonten</string>
   <string name="app_ops_run_in_background">im Hintergrund ausführen</string>
-  <string name="app_ops_accessibility_volume">accessibility volume</string>
+  <string name="app_ops_accessibility_volume">Bedienungshilfen-Lautstärke</string>
   <string name="app_ops_read_phone_numbers">Telefonnummer lesen</string>
   <string name="app_ops_request_install_packages">Pakete installieren</string>
   <string name="app_ops_picture_in_picture">Bild in Bild</string>
@@ -397,7 +397,7 @@
   <string name="app_ops_change_wifi_state">WLAN-Status ändern</string>
   <string name="app_ops_request_delete_packages">Pakete löschen</string>
   <string name="app_ops_bind_accessibility_service">bind to accessibility</string>
-  <string name="app_ops_accept_handover">accept handover</string>
+  <string name="app_ops_accept_handover">Übergabe akzeptieren</string>
   <string name="app_ops_manage_ipsec_tunnels">Verwaltete IP-Tunnel</string>
   <string name="app_ops_start_foreground">Im Vordergrund starten</string>
   <string name="app_ops_bluetooth_scan">Bluetooth-Suche</string>
@@ -421,10 +421,10 @@
   <string name="battery_stats_reset">Statistiken zurücksetzen</string>
   <string name="battery_stats_message">Akkustatistiken werden zurückgesetzt</string>
   <string name="ok_string">Ok</string>
-  <!-- Pocket judge -->
-  <string name="pocket_judge_title">Trageerkennung</string>
-  <string name="pocket_judge_summary">Verhindert Bildschirm- und Tasteneingaben, wenn sich das Gerät in der Hosentasche befindet</string>
   <!-- Quick Setting tile titles -->
   <string name="qs_tile_title_visibility_title">Symbolbeschriftung</string>
   <string name="qs_tile_title_visibility_summary">Zeige Titel unter App-Symbolen an (erfordert Neustart der Oberfläche)</string>
+  <!-- Pocket judge -->
+  <string name="pocket_judge_title">Trageerkennung</string>
+  <string name="pocket_judge_summary">Verhindert Bildschirm- und Tasteneingaben, wenn sich das Gerät in der Hosentasche befindet</string>
 </resources>
