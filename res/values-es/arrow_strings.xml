@@ -421,10 +421,10 @@
   <string name="battery_stats_reset">Resetear estadísticas</string>
   <string name="battery_stats_message">Las estadísticas de la batería van a restablecerse</string>
   <string name="ok_string">Vale</string>
-  <!-- Pocket judge -->
-  <string name="pocket_judge_title">Detección de bolsillo</string>
-  <string name="pocket_judge_summary">Bloquear la pantalla y botones cuando el dispositivo esta en el bolsillo</string>
   <!-- Quick Setting tile titles -->
   <string name="qs_tile_title_visibility_title">Título de ajuste rápido</string>
   <string name="qs_tile_title_visibility_summary">Mostrar titulo debajo de cada ajuste rápido, (Requiere reiniciar la interfaz de usuario)</string>
+  <!-- Pocket judge -->
+  <string name="pocket_judge_title">Detección de bolsillo</string>
+  <string name="pocket_judge_summary">Bloquear la pantalla y botones cuando el dispositivo esta en el bolsillo</string>
 </resources>

@@ -421,10 +421,10 @@
   <string name="battery_stats_reset">Изчисти статистика</string>
   <string name="battery_stats_message">Историята за използване на батерията ще бъде изчистена</string>
   <string name="ok_string">Добре</string>
-  <!-- Pocket judge -->
-  <string name="pocket_judge_title">Разпознаване при носене</string>
-  <string name="pocket_judge_summary">Блокиране екран и бутоните, когато устройството е в джоба</string>
   <!-- Quick Setting tile titles -->
   <string name="qs_tile_title_visibility_title">Заглавие на плочките</string>
   <string name="qs_tile_title_visibility_summary">Покажи заглавие под всяка плочка, (изисква рестартиране на SystemUI)</string>
+  <!-- Pocket judge -->
+  <string name="pocket_judge_title">Разпознаване при носене</string>
+  <string name="pocket_judge_summary">Блокиране екран и бутоните, когато устройството е в джоба</string>
 </resources>

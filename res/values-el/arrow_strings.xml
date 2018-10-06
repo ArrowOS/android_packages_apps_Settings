@@ -421,10 +421,10 @@
   <string name="battery_stats_reset">Επαναφορά στατιστικών</string>
   <string name="battery_stats_message">Επαναφορά στατιστικών λειτουργίας μπαταρίας</string>
   <string name="ok_string">Εντάξει</string>
-  <!-- Pocket judge -->
-  <string name="pocket_judge_title">Αναγνώριση τσέπης</string>
-  <string name="pocket_judge_summary">Μπλοκάρετε την οθόνη και τα κουμπιά όταν η συσκευή είναι σε τσέπη</string>
   <!-- Quick Setting tile titles -->
   <string name="qs_tile_title_visibility_title">Τίτλος πλακιδιου</string>
   <string name="qs_tile_title_visibility_summary">Εμφάνιση τίτλου πλακιδιου (χρειάζεται επανεκκίνηση)</string>
+  <!-- Pocket judge -->
+  <string name="pocket_judge_title">Αναγνώριση τσέπης</string>
+  <string name="pocket_judge_summary">Μπλοκάρετε την οθόνη και τα κουμπιά όταν η συσκευή είναι σε τσέπη</string>
 </resources>
