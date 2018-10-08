@@ -43,6 +43,20 @@
         android:entryValues="@array/status_bar_weather_values" />
 
     <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+	android:key="lockscreen_weather_show_city"
+        android:title="@string/lockscreen_weather_show_city_title"
+        android:summary="@string/lockscreen_weather_show_city_summary"
+        android:dependency="lockscreen_weather_enabled"
+        android:defaultValue="false" />
+
+    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+	android:key="lockscreen_weather_show_temp"
+        android:title="@string/lockscreen_weather_show_temp_title"
+        android:summary="@string/lockscreen_weather_show_temp_summary"
+        android:dependency="lockscreen_weather_enabled"
+        android:defaultValue="true" />
+
+    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_weather_enabled"
         android:title="@string/lockscreen_weather_title"
         android:summary="@string/lockscreen_weather_summary"
