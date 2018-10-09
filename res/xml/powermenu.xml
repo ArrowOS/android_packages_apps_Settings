@@ -34,6 +34,12 @@
         android:defaultValue="false" />
 
     <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+        android:key="powermenu_lockdown"
+        android:title="@string/lockdown_settings_title"
+        android:summary="@string/lockdown_settings_summary"
+        android:defaultValue="false" />
+
+    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
         android:key="powermenu_airplane"
         android:title="@string/powermenu_airplane_title"
         android:defaultValue="false" />
@@ -74,6 +80,13 @@
             android:title="@string/powermenu_airplane_title"
             android:summary="@string/powermenu_ls_airplane_summary"
             android:dependency="powermenu_airplane"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="powermenu_ls_lockdown"
+            android:title="@string/powermenu_lockdown_title"
+            android:summary="@string/powermenu_ls_lockdown_summary"
+            android:dependency="powermenu_lockdown"
             android:defaultValue="false" />
 
     </PreferenceCategory>
