@@ -99,6 +99,8 @@
     <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
     <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
     <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
+    <string name="powermenu_lockdown_title">Lockdown</string>
+    <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
 
      <!-- Hide Lockscreen clock, date, & alarm -->
     <string name="lockscreen_items_other">Other</string>

@@ -34,12 +34,6 @@
         android:title="@string/owner_info_settings_title"
         android:summary="@string/owner_info_settings_summary" />
 
-    <SwitchPreference
-        android:key="security_setting_lockdown_enabled"
-        android:title="@string/lockdown_settings_title"
-        android:summary="@string/lockdown_settings_summary"
-        settings:controller="com.android.settings.security.LockdownButtonPreferenceController"/>
-
     <Preference
         android:title="@string/lockscreen_tuner_title" >
         <intent android:action="android.intent.action.MAIN"

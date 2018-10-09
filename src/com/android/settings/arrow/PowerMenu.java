@@ -38,12 +38,14 @@ public class PowerMenu extends SettingsPreferenceFragment implements Preference.
     private static final String KEY_POWERMENU_LS_ADVANCED_REBOOT = "powermenu_ls_advanced_reboot";
     private static final String KEY_POWERMENU_LS_SCREENSHOT = "powermenu_ls_screenshot";
     private static final String KEY_POWERMENU_LS_AIRPLANE = "powermenu_ls_airplane";
+    private static final String KEY_POWERMENU_LS_LOCKDOWN = "powermenu_ls_lockdown";
 
     private SwitchPreference mPowerMenuLockscreen;
     private SwitchPreference mPowerMenuReboot;
     private SwitchPreference mPowerMenuAdvancedReboot;
     private SwitchPreference mPowerMenuScreenshot;
     private SwitchPreference mPowerMenuAirplane;
+    private SwitchPreference mPowerMenuLockdown;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -76,6 +78,11 @@ public class PowerMenu extends SettingsPreferenceFragment implements Preference.
                 Settings.System.POWERMENU_LS_AIRPLANE, 0) == 1));
         mPowerMenuAirplane.setOnPreferenceChangeListener(this);
 
+        mPowerMenuLockdown = (SwitchPreference) findPreference(KEY_POWERMENU_LS_LOCKDOWN);
+        mPowerMenuLockdown.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.POWERMENU_LS_LOCKDOWN, 0) == 1));
+        mPowerMenuLockdown.setOnPreferenceChangeListener(this);
+
         updateLockscreen();
     }
 
@@ -106,6 +113,11 @@ public class PowerMenu extends SettingsPreferenceFragment implements Preference.
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.POWERMENU_LS_AIRPLANE, value ? 1 : 0);
             return true;
+        } else if (preference == mPowerMenuLockdown) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.POWERMENU_LS_LOCKDOWN, value ? 1 : 0);
+            return true;
         }
         return false;
     }
@@ -125,11 +137,13 @@ public class PowerMenu extends SettingsPreferenceFragment implements Preference.
             mPowerMenuAdvancedReboot.setEnabled(true);
             mPowerMenuScreenshot.setEnabled(true);
             mPowerMenuAirplane.setEnabled(true);
+            mPowerMenuLockdown.setEnabled(true);
         } else {
             mPowerMenuReboot.setEnabled(false);
             mPowerMenuAdvancedReboot.setEnabled(false);
             mPowerMenuScreenshot.setEnabled(false);
             mPowerMenuAirplane.setEnabled(false);
+            mPowerMenuLockdown.setEnabled(false);
         }
     }
 
