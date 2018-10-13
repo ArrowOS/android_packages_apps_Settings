@@ -514,4 +514,12 @@
     <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
     <string name="pixel_navbar_anim_summary">Requires a config change(display size, navbar position, reboot) themes may overwrite</string>
 
+    <!-- Accent picker -->
+    <string name="theme_category_title">System theme</string>
+    <string name="systemui_theme_style_title">Background color</string>
+    <string name="accent_picker_dialog_title">Select an accent color</string>
+    <string name="theme_accent_picker_title">Accent color</string>
+    <string name="theme_accent_picker_summary">Select system theme accent color</string>
+    <string name="theme_accent_picker_default">Default</string>
+
 </resources>
