@@ -88,7 +88,7 @@
   <string name="powermenu_ls_screenshot_summary">Kilit ekranında ekran görüntüsü seçeneğini göster</string>
   <string name="powermenu_ls_airplane_summary">Kilit ekranında uçak modu seçeneğini göster</string>
   <string name="powermenu_lockdown_title">Kilitleme</string>
-  <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
+  <string name="powermenu_ls_lockdown_summary">Genişletilmiş erişimi ve parmak izi kilidini kapatan güç tuşu seçeneklerini görüntüleme</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="lockscreen_items_other">Diğer</string>
   <!-- Roaming indicator icon -->
@@ -442,4 +442,9 @@
   <!-- Navbar Animation -->
   <string name="pixel_navbar_anim_title">Pixel gezinme çubuğu animasyonu</string>
   <string name="pixel_navbar_anim_summary">Bir yapılandırma değişikliği gerektirir (ekran boyutu, gezinme çubuğu konumu, yeniden başlatma) temalar üzerine yazabilir</string>
+  <!-- Accent Picker -->
+  <string name="accent_picker_dialog_title">Select an accent color</string>
+  <string name="theme_accent_picker_title">Accent color</string>
+  <string name="theme_accent_picker_summary">Select system theme accent color</string>
+  <string name="theme_accent_picker_default">Default</string>
 </resources>
