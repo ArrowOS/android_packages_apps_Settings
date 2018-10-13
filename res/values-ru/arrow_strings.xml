@@ -443,8 +443,8 @@
   <string name="pixel_navbar_anim_title">Анимация навигационной панели Пиксель</string>
   <string name="pixel_navbar_anim_summary">Для применения выбранных изменений требуется перезагрузка</string>
   <!-- Accent Picker -->
-  <string name="accent_picker_dialog_title">Select an accent color</string>
-  <string name="theme_accent_picker_title">Accent color</string>
-  <string name="theme_accent_picker_summary">Select system theme accent color</string>
-  <string name="theme_accent_picker_default">Default</string>
+  <string name="accent_picker_dialog_title">Выберите цвет акцента</string>
+  <string name="theme_accent_picker_title">Цвет акцента</string>
+  <string name="theme_accent_picker_summary">Выберите цвет акцента системной темы</string>
+  <string name="theme_accent_picker_default">По умолчанию</string>
 </resources>
