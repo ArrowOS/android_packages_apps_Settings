@@ -443,8 +443,8 @@
   <string name="pixel_navbar_anim_title">Pixel gezinme çubuğu animasyonu</string>
   <string name="pixel_navbar_anim_summary">Bir yapılandırma değişikliği gerektirir (ekran boyutu, gezinme çubuğu konumu, yeniden başlatma) temalar üzerine yazabilir</string>
   <!-- Accent Picker -->
-  <string name="accent_picker_dialog_title">Select an accent color</string>
-  <string name="theme_accent_picker_title">Accent color</string>
-  <string name="theme_accent_picker_summary">Select system theme accent color</string>
-  <string name="theme_accent_picker_default">Default</string>
+  <string name="accent_picker_dialog_title">Bir vurgu rengi seçin</string>
+  <string name="theme_accent_picker_title">Vurgu rengi</string>
+  <string name="theme_accent_picker_summary">Sistem teması için vurgu rengi seçin</string>
+  <string name="theme_accent_picker_default">Varsayılan</string>
 </resources>
