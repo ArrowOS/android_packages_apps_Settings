@@ -87,6 +87,8 @@
   <string name="powermenu_ls_advanced_reboot_summary">Kilit ekranında gelişmiş yeniden başlatma seçeneğini göster</string>
   <string name="powermenu_ls_screenshot_summary">Kilit ekranında ekran görüntüsü seçeneğini göster</string>
   <string name="powermenu_ls_airplane_summary">Kilit ekranında uçak modu seçeneğini göster</string>
+  <string name="powermenu_lockdown_title">Kilitleme</string>
+  <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="lockscreen_items_other">Diğer</string>
   <!-- Roaming indicator icon -->
@@ -260,6 +262,10 @@
   <string name="lockscreen_weather_title">Kilit ekranı hava durumu</string>
   <string name="lockscreen_weather_summary">Kilit ekranında mevcut hava durumunu ve sıcaklığını göster</string>
   <string name="lockscreen_items_aod_info_title">Bu görüş konfigürasyonu aynı zamanda ortam ekranı için de geçerlidir</string>
+  <string name="lockscreen_weather_show_city_title">Şehir adını göster</string>
+  <string name="lockscreen_weather_show_city_summary">Resmin solunda mevcut şehrin adını göster</string>
+  <string name="lockscreen_weather_show_temp_title">Sıcaklığı göster</string>
+  <string name="lockscreen_weather_show_temp_summary">Resmin sağında mevcut şehir sıcaklığını göster</string>
   <!-- Statusbar Clock -->
   <string name="status_bar_clock">Saat ve tarih</string>
   <string name="status_bar_clock_summary">Durum çubuğunda saati ve tarih görünümünü yapılandırma</string>
@@ -427,4 +433,13 @@
   <!-- Pocket judge -->
   <string name="pocket_judge_title">Cep algılama</string>
   <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelleyin</string>
+  <!-- Auto-brightness toggle -->
+  <string name="brightness_icon_title">Otomatik parlaklık simgesi</string>
+  <string name="brightness_icon_summary">Hızlı ayarlar panelinde otomatik parlaklık simgesini göster</string>
+  <!-- QS footer warnings -->
+  <string name="qs_footer_warnings_title">Bilgi uyarıları</string>
+  <string name="qs_footer_warnings_summary">Ağ harici uygulamalar veya VPN tarafından izlendiğinizde hızlı ayarlar panelinin altına bir uyarı göster</string>
+  <!-- Navbar Animation -->
+  <string name="pixel_navbar_anim_title">Pixel gezinme çubuğu animasyonu</string>
+  <string name="pixel_navbar_anim_summary">Bir yapılandırma değişikliği gerektirir (ekran boyutu, gezinme çubuğu konumu, yeniden başlatma) temalar üzerine yazabilir</string>
 </resources>
