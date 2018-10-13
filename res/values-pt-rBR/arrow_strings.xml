@@ -66,7 +66,7 @@
   <string name="screenshot_sound_title">Som de captura de tela</string>
   <!-- meh ganeshi4u -->
   <string name="arrow_stats_title">Estatísticas ArrowOS</string>
-  <string name="arrow_stats_summary">we ain\'t stealing your nuds!</string>
+  <string name="arrow_stats_summary">não roubamos seu nuds!</string>
   <!-- Per-app data restrictions -->
   <string name="data_usage_app_restrict_data">Dados móveis</string>
   <string name="data_usage_app_restrict_data_summary">Permitir o uso de dados móveis</string>
@@ -87,6 +87,8 @@
   <string name="powermenu_ls_advanced_reboot_summary">Mostrar a opção de reinicialização avançada na tela de bloqueio</string>
   <string name="powermenu_ls_screenshot_summary">Exibir a opção de captura de tela na tela de bloqueio</string>
   <string name="powermenu_ls_airplane_summary">Exibir o modo avião na Tela de Bloqueio</string>
+  <string name="powermenu_lockdown_title">Lockdown</string>
+  <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="lockscreen_items_other">Outro</string>
   <!-- Roaming indicator icon -->
@@ -95,186 +97,190 @@
   <!-- Hardware button navigation -->
   <string name="picker_activities">Atividades</string>
   <string name="select_custom_app_title">Selecione uma aplicação personalizada</string>
-  <string name="select_custom_activity_title">Select custom activity</string>
-  <string name="profile_applist_title">Applications</string>
-  <string name="choose_action_title">Choose action</string>
-  <string name="action_entry_default_action">Default settings</string>
-  <string name="action_entry_select_app">Select application</string>
-  <string name="action_entry_custom_action">Select custom action</string>
-  <string name="hardware_keys_volume_keys_title">Volume rocker</string>
-  <string name="hardware_keys_home_key_title">Home button</string>
-  <string name="hardware_keys_menu_key_title">Menu button</string>
-  <string name="hardware_keys_assist_key_title">Search button</string>
-  <string name="hardware_keys_appswitch_key_title">Overview button</string>
-  <string name="hardware_keys_back_key_title">Back button</string>
-  <string name="hardware_keys_double_tap_summary">Set double tap action</string>
-  <string name="hardware_keys_single_tap_summary">Set single tap action</string>
-  <string name="hardware_keys_long_press_summary">Set long press action</string>
+  <string name="select_custom_activity_title">Escolher atividade personalizada</string>
+  <string name="profile_applist_title">Aplicativos</string>
+  <string name="choose_action_title">Selecionar ação</string>
+  <string name="action_entry_default_action">Definições padrão</string>
+  <string name="action_entry_select_app">Selecione Aplicação</string>
+  <string name="action_entry_custom_action">Selecionar ação personalizada</string>
+  <string name="hardware_keys_volume_keys_title">Seletor de volume</string>
+  <string name="hardware_keys_home_key_title">Botão Início</string>
+  <string name="hardware_keys_menu_key_title">Botão menu</string>
+  <string name="hardware_keys_assist_key_title">Botão de pesquisa</string>
+  <string name="hardware_keys_appswitch_key_title">Botão recentes</string>
+  <string name="hardware_keys_back_key_title">Botão voltar</string>
+  <string name="hardware_keys_double_tap_summary">Definir ação para toque duplo</string>
+  <string name="hardware_keys_single_tap_summary">Definir ação para toque único</string>
+  <string name="hardware_keys_long_press_summary">Definir ação para toque longo</string>
   <string name="hardware_keys_single_tap_title">Ação de um toque</string>
   <string name="hardware_keys_long_press_title">Ação toque longo</string>
   <string name="hardware_keys_double_tap_title">Ação toque duplo</string>
   <string name="hard_soft_keys">Botões e barra de navegação do dispositivo</string>
-  <string name="hard_soft_keys_summary">Hardware buttons and navigation bar options</string>
+  <string name="hard_soft_keys_summary">Opções de botões de hardware e da barra de navegação</string>
   <string name="navigation_keys">Habilitar barra de navegação</string>
   <string name="navigation_keys_title">Barra de navegação na tela</string>
-  <string name="hardware_keys_category">Hardware navigation buttons</string>
+  <string name="hardware_keys_category">Botões de navegação físicos</string>
   <string name="hardware_keys_disable_title">Desabilitar os botões físicos</string>
-  <string name="hardware_keys_wake_title">Wake device</string>
+  <string name="hardware_keys_wake_title">Acordar o dispositivo</string>
   <!-- Settings categories -->
   <string name="statusbar_category_title">Barra de Status</string>
   <string name="buttons_category_title">Botões</string>
   <string name="misc_category_title">Variados</string>
   <string name="theme_category_title">Tema do sistema</string>
   <!-- Button brightness -->
-  <string name="button_backlight_options_category">Backlight options</string>
-  <string name="button_backlight_enable_title">Allow button backlight</string>
-  <string name="button_link_brightness">Link to screen brightness</string>
-  <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
-  <string name="button_manual_brightness">Brightness level</string>
-  <string name="button_timeout_title">Backlight timeout</string>
-  <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
-  <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
+  <string name="button_backlight_options_category">Opções de luz de fundo</string>
+  <string name="button_backlight_enable_title">Permitir luz de fundo dos botões</string>
+  <string name="button_link_brightness">Atalho para o brilho da tela</string>
+  <string name="button_link_brightness_summary">Brilho de luz de fundo do botão irá ajustar com base no nível de brilho da tela</string>
+  <string name="button_manual_brightness">Nivel de brilho</string>
+  <string name="button_timeout_title">Tempo limite da luz de fundo</string>
+  <string name="button_backlight_on_touch_only_title">Tempo de brilho dos botões</string>
+  <string name="button_backlight_on_touch_only_summary">A iluminação do botão só aparece quando os botões são pressionados, em vez do tempo todo. O tempo limite ainda afeta esse recurso.</string>
   <!-- Volume rocker music control -->
-  <string name="volume_button_music_control_title">Playback control</string>
-  <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+  <string name="volume_button_music_control_title">Controle de reprodução</string>
+  <string name="volume_button_music_control_summary">Quando a tela estiver desligada, pressione e segure as teclas de volume para pular faixas de música</string>
   <!-- Volume rocker wake -->
-  <string name="volume_rocker_wake_title">Volume wake</string>
-  <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+  <string name="volume_rocker_wake_title">Despertar com som</string>
+  <string name="volume_rocker_wake_summary">Acorde o seu dispositivo pressionando as teclas de volume</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Configuração da barra de navegação</string>
   <!-- Heads up -->
   <string name="heads_up_notifications">Notificação flutuante</string>
-  <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-  <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-  <string name="add_heads_up_package">Add app</string>
-  <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-  <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-  <string name="heads_up_stoplist_title">Stoplist</string>
-  <string name="heads_up_blacklist_title">Blacklist</string>
-  <string name="profile_choose_app">Choose app</string>
-  <string name="dialog_delete_title">Delete</string>
-  <string name="dialog_delete_message">Remove selected item?</string>
+  <string name="summary_heads_up_enabled">As notificações pop-up estão ativadas</string>
+  <string name="summary_heads_up_disabled">As notificações pop-up estão desativadas</string>
+  <string name="add_heads_up_package">Adicionar aplicativo</string>
+  <string name="add_heads_up_stoplist_summary">Desativar notificações pop-up nestes aplicativos</string>
+  <string name="add_heads_up_blacklist_summary">Desativar avisos para estes aplicativos</string>
+  <string name="heads_up_stoplist_title">Bloquear pertubações visuais</string>
+  <string name="heads_up_blacklist_title">Lista negra</string>
+  <string name="profile_choose_app">Selecionar app</string>
+  <string name="dialog_delete_title">Excluir</string>
+  <string name="dialog_delete_message">Remover ítem selecionado?</string>
   <!-- Heads up timeout -->
-  <string name="heads_up_time_out_title">Time out</string>
-  <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-  <string name="heads_up_time_out_2sec">2 seconds</string>
-  <string name="heads_up_time_out_4sec">4 seconds</string>
-  <string name="heads_up_time_out_5sec">5 seconds</string>
-  <string name="heads_up_time_out_6sec">6 seconds</string>
-  <string name="heads_up_time_out_8sec">8 seconds</string>
-  <string name="heads_up_time_out_10sec">10 seconds</string>
+  <string name="heads_up_time_out_title">Tempo limite</string>
+  <string name="heads_up_time_out_summary">Mostrar notificação por <xliff:g id="number">%d</xliff:g> segundos</string>
+  <string name="heads_up_time_out_2sec">2 segundos</string>
+  <string name="heads_up_time_out_4sec">4 segundos</string>
+  <string name="heads_up_time_out_5sec">5 segundos</string>
+  <string name="heads_up_time_out_6sec">6 segundos</string>
+  <string name="heads_up_time_out_8sec">8 segundos</string>
+  <string name="heads_up_time_out_10sec">10 segundos</string>
   <!-- Heads up snooze -->
-  <string name="heads_up_snooze_title">Snooze timer</string>
-  <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-  <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-  <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-  <string name="heads_up_snooze_1min">1 minute</string>
-  <string name="heads_up_snooze_5min">5 minutes</string>
-  <string name="heads_up_snooze_10min">10 minutes</string>
-  <string name="heads_up_snooze_15min">15 minutes</string>
-  <string name="heads_up_snooze_20min">20 minutes</string>
+  <string name="heads_up_snooze_title">Temporizador da soneca</string>
+  <string name="heads_up_snooze_summary_one_minute">Deslizar sobre alguma notificação vai silenciar as notificações flutuantes desse aplicativo por 1 minuto</string>
+  <string name="heads_up_snooze_summary">Deslizar sobre alguma notificação vai silenciar as notificações flutuantes desse aplicativo por <xliff:g id="number">%d</xliff:g> minutos</string>
+  <string name="heads_up_snooze_disabled_summary">Tempo da Soneca está desativado</string>
+  <string name="heads_up_snooze_1min">1 minuto</string>
+  <string name="heads_up_snooze_5min">5 minutos</string>
+  <string name="heads_up_snooze_10min">10 minutos</string>
+  <string name="heads_up_snooze_15min">15 minutos</string>
+  <string name="heads_up_snooze_20min">20 minutos</string>
   <!-- Clear all recents -->
-  <string name="aosp_recents_title">AOSP recents</string>
-  <string name="aosp_recents_title_summary">Oreo style recents configs, clear all FAB</string>
-  <string name="show_clear_all_recents_button_title">Clear-all FAB</string>
-  <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
-  <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
-  <string name="recents_clear_all_location_title">Clear all FAB location</string>
-  <string name="recents_clear_all_location_top_right">Top right</string>
-  <string name="recents_clear_all_location_top_left">Top left</string>
-  <string name="recents_clear_all_location_top_center">Top center</string>
-  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+  <string name="aosp_recents_title">Recentes AOSP</string>
+  <string name="aosp_recents_title_summary">Oreo estilo configurações recentes, desmarque todos os FAB</string>
+  <string name="show_clear_all_recents_button_title">Limpar todos recentes</string>
+  <string name="show_clear_all_recents_button_summary_on">Exibir limpar todos recentes</string>
+  <string name="show_clear_all_recents_button_summary_off">Exibir AOSP limpar todos</string>
+  <string name="recents_clear_all_location_title">Limpar toda localização</string>
+  <string name="recents_clear_all_location_top_right">Canto superior direito</string>
+  <string name="recents_clear_all_location_top_left">Superior Esquerdo</string>
+  <string name="recents_clear_all_location_top_center">Superior no centro</string>
+  <string name="recents_clear_all_location_bottom_right">Botão direito</string>
+  <string name="recents_clear_all_location_bottom_left">Botão esquerdo</string>
+  <string name="recents_clear_all_location_bottom_center">Botão central</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Evitar despertar acidental</string>
   <string name="proximity_wake_summary">Verificar o sensor de proximidade antes de ligar a tela</string>
   <!-- Statusbar Tuner -->
-  <string name="statusbar_items_title">Statusbar items</string>
-  <string name="statusbar_items_title_summary">Enable or disable statusbar icons</string>
+  <string name="statusbar_items_title">Itens da barra de status</string>
+  <string name="statusbar_items_title_summary">Ativar ou desativar ícones do sistema da barra de status</string>
   <!-- Lockscreen icons -->
-  <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
+  <string name="lockscreen_tuner_title">Atalhos da tela de bloqueio</string>
   <!-- QS rows and columns -->
   <string name="qs_rows_columns_title">QS painel Ajustes</string>
-  <string name="qs_rows_columns_summary">Quicksettings rows and columns, titles, panel opacity</string>
+  <string name="qs_rows_columns_summary">Configurações rápidas das linhas e colunas, Qs painel de opacidade</string>
   <string name="qs_rows_portrait_title">Número de linhas (retrato)</string>
   <string name="qs_rows_landscape_title">Número de linhas (paisagem)</string>
   <string name="qs_columns_portrait_title">Número de colunas (retrato)</string>
   <string name="qs_columns_landscape_title">Número de colunas (paisagem)</string>
   <!-- Volume key rotation -->
-  <string name="swap_volume_buttons_title">Reorient</string>
-  <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
+  <string name="swap_volume_buttons_title">Reorientar</string>
+  <string name="swap_volume_buttons_summary">Inverter botões de volume quando virar a tela</string>
   <!-- QuickSettings Panel Transparency -->
   <string name="qs_panel_alpha_title">Opacidade do painel Conf. Rápidas</string>
   <!-- Changelog -->
-  <string name="changelog_title">Changelog</string>
-  <string name="changelog_summary">Since the last update</string>
-  <string name="changelog_error">Unable to load changelog</string>
+  <string name="changelog_title">Relatório de Mudanças</string>
+  <string name="changelog_summary">Desde a última atualização</string>
+  <string name="changelog_error">Impossível carregar a lista de alterações</string>
   <!-- Battery light -->
-  <string name="battery_light_settings">Battery charging light</string>
-  <string name="battery_light_enable">Battery light</string>
-  <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-  <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-  <string name="battery_light_cat">Battery light color when charging</string>
-  <string name="battery_light_low_color">Low battery</string>
-  <string name="battery_light_medium_color">Medium battery</string>
-  <string name="battery_light_full_color">Almost full battery</string>
-  <string name="battery_light_reallyfull_color">Full (100) battery</string>
+  <string name="battery_light_settings">Luz de carga da bateria</string>
+  <string name="battery_light_enable">Luz da bateria</string>
+  <string name="battery_light_allow_on_dnd_title">Luz da bateria no modo Não Perturbe</string>
+  <string name="battery_light_low_blinking_title">Luz piscando quando bateria fraca</string>
+  <string name="battery_light_cat">Cor da luz da bateria ao carregar</string>
+  <string name="battery_light_low_color">Bateria baixa</string>
+  <string name="battery_light_medium_color">Bateria média</string>
+  <string name="battery_light_full_color">Bateria quase cheia</string>
+  <string name="battery_light_reallyfull_color">Bateria carregada</string>
   <!-- SystemUI theme -->
-  <string name="systemui_theme_style_title">SystemUI theme</string>
-  <string name="systemui_theme_style_auto">Automatic (wallpaper based)</string>
-  <string name="systemui_theme_style_light">Light</string>
-  <string name="systemui_theme_style_dark">Dark</string>
-  <string name="system_theme_style_black">Black</string>
+  <string name="systemui_theme_style_title">Tema do sistema</string>
+  <string name="systemui_theme_style_auto">Automático (baseado no papel de parede)</string>
+  <string name="systemui_theme_style_light">Claro</string>
+  <string name="systemui_theme_style_dark">Escuro</string>
+  <string name="system_theme_style_black">Preto</string>
   <string name="applying_theme_toast">Aplicando tema, por favor aguarde...</string>
   <string name="theme_applied_toast">Tema aplicado!</string>
   <!-- Weather - OmniJaws Settings -->
-  <string name="weather_title">Weather</string>
-  <string name="weather_config_title_summary">Stautusbar and lockscreen weather</string>
-  <string name="weather_config_title">Service settings</string>
+  <string name="weather_title">Clima</string>
+  <string name="weather_config_title_summary">Clima na barra de status e tela de bloqueio</string>
+  <string name="weather_config_title">Configurações do serviço</string>
   <string name="weather_config_summary"></string>
-  <string name="header_weather_title">Header view weather</string>
-  <string name="header_weather_summary">Enable notification panel header weather display</string>
-  <string name="weather_icon_pack_title">Condition icon pack</string>
-  <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+  <string name="header_weather_title">Previsão do tempo no cabeçalho</string>
+  <string name="header_weather_summary">Ativar notificação de clima no cabeçalho do painel de notificações</string>
+  <string name="weather_icon_pack_title">Pacote de ícones climáticos</string>
+  <string name="weather_icon_pack_note">Nota\u003a Você pode instalar novos pacotes de ícones da play store procurando por \"Chronus icons\"</string>
   <!-- Network traffic -->
-  <string name="traffic_title">Traffic indicators</string>
-  <string name="network_traffic_title">Network traffic</string>
-  <string name="network_traffic_type">Select net activity type</string>
-  <string name="show_network_traffic_up">Uplink</string>
-  <string name="show_network_traffic_down">Downlink</string>
-  <string name="show_network_traffic_all">Uplink and Downlink</string>
-  <string name="network_traffic_state_title">Show net activity in statusbar</string>
-  <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+  <string name="traffic_title">Indicador de tráfego de rede</string>
+  <string name="network_traffic_title">Tráfego de rede</string>
+  <string name="network_traffic_type">Selecionar tipo de atividade de rede</string>
+  <string name="show_network_traffic_up">Saída</string>
+  <string name="show_network_traffic_down">Entrada</string>
+  <string name="show_network_traffic_all">Saída e entrada</string>
+  <string name="network_traffic_state_title">Mostrar a atividade da rede na barra de status</string>
+  <string name="network_traffic_autohide_threshold_title">Limite para auto ocultar atividade da rede (KB/s)</string>
   <!-- StatusBar weather settings -->
-  <string name="statusbar_weather_title">Status bar weather</string>
-  <string name="statusbar_weather_summary">Configure from QS settings/Weather</string>
-  <string name="statusbar_weather_dialog_title">Status bar weather style</string>
-  <string name="status_bar_weather_hidden">Hide weather</string>
-  <string name="status_bar_temperature_image_show_scale">Show temp with scale and image</string>
-  <string name="status_bar_temperature_image_hide_scale">Show temp with image without scale</string>
-  <string name="status_bar_temperature_show_scale_hide_image">Show temp with scale</string>
-  <string name="status_bar_temperature_hide_scale_hide_image">Show temp without scale</string>
-  <string name="status_bar_show_image">Show image</string>
+  <string name="statusbar_weather_title">Clima na barra de status</string>
+  <string name="statusbar_weather_summary">Configurar a partir das configurações rápidas/meteorologia</string>
+  <string name="statusbar_weather_dialog_title">Estilo da barra de status do clima</string>
+  <string name="status_bar_weather_hidden">Ocultar clima</string>
+  <string name="status_bar_temperature_image_show_scale">Exibir temperatura com escala e imagem</string>
+  <string name="status_bar_temperature_image_hide_scale">Exibir temperatura com imagem sem escala</string>
+  <string name="status_bar_temperature_show_scale_hide_image">Exibir temperatura com escala</string>
+  <string name="status_bar_temperature_hide_scale_hide_image">Exibir temperatura sem escala</string>
+  <string name="status_bar_show_image">Exibir imagem</string>
   <!-- Lockscreen weather settings -->
-  <string name="lockscreen_weather_title">Lockscreen weather</string>
-  <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
-  <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
+  <string name="lockscreen_weather_title">Tempo na tela de bloqueio</string>
+  <string name="lockscreen_weather_summary">Mostrar a atual condição de tempo e temperatura na tela de bloqueio</string>
+  <string name="lockscreen_items_aod_info_title">Esta configuração de visibilidade também se aplica à exibição ambiente</string>
+  <string name="lockscreen_weather_show_city_title">Show city name</string>
+  <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+  <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+  <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
   <!-- Statusbar Clock -->
   <string name="status_bar_clock">Relógio e Data</string>
   <string name="status_bar_clock_summary">Configurar o relógio da barra de status e a aparência da data</string>
-  <string name="status_bar_clock_title">Clock settings</string>
-  <string name="status_bar_clock_show">Show clock and date</string>
-  <string name="status_bar_clock_style_title">Clock style</string>
-  <string name="status_bar_clock_style_right">Right</string>
-  <string name="status_bar_clock_style_center">Center</string>
-  <string name="status_bar_clock_style_left">Left</string>
-  <string name="status_bar_am_pm_title">AM/PM style</string>
+  <string name="status_bar_clock_title">Configurações do Relógio</string>
+  <string name="status_bar_clock_show">Mostrar relógio e data</string>
+  <string name="status_bar_clock_style_title">Estilo do relógio</string>
+  <string name="status_bar_clock_style_right">Direita</string>
+  <string name="status_bar_clock_style_center">Centro</string>
+  <string name="status_bar_clock_style_left">Esquerda</string>
+  <string name="status_bar_am_pm_title">Estilo AM/PM</string>
   <string name="status_bar_am_pm_info">Relógio de 24 horas está ativado</string>
   <string name="status_bar_am_pm_normal">Normal</string>
-  <string name="status_bar_am_pm_small">Small</string>
-  <string name="status_bar_am_pm_hidden">Hidden (default)</string>
-  <string name="clock_seconds_display">Show seconds</string>
+  <string name="status_bar_am_pm_small">Pequeno</string>
+  <string name="status_bar_am_pm_hidden">Oculto (padrão)</string>
+  <string name="clock_seconds_display">Mostrar segundos</string>
   <string name="clock_date_display">Data</string>
   <string name="clock_date_display_summary">Exibir data personalizada antes do relógio</string>
   <string name="clock_date_display_none">Não mostrar</string>
@@ -320,111 +326,120 @@
   <string name="battery_percent_outside">Mostrar ícone próximo</string>
   <string name="battery_percent_inside">Mostrar ícone interno</string>
   <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">Location</string>
-  <string name="app_ops_cat_personal">Personal</string>
-  <string name="app_ops_cat_messaging">Messaging</string>
-  <string name="app_ops_cat_media">Media</string>
-  <string name="app_ops_cat_device">Device</string>
-  <string name="app_ops_cat_bootup">Bootup</string>
+  <string name="app_ops_cat_location">Localização</string>
+  <string name="app_ops_cat_personal">Pessoal</string>
+  <string name="app_ops_cat_messaging">Mensagens</string>
+  <string name="app_ops_cat_media">Mídia</string>
+  <string name="app_ops_cat_device">Dispositivo</string>
+  <string name="app_ops_cat_bootup">Inicialização</string>
   <!-- App ops labels -->
-  <string name="app_ops_access_camera">camera</string>
-  <string name="app_ops_access_location">location</string>
-  <string name="app_ops_access_notifications">notifications</string>
+  <string name="app_ops_access_camera">câmera</string>
+  <string name="app_ops_access_location">localização</string>
+  <string name="app_ops_access_notifications">notificações</string>
   <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">autostart</string>
-  <string name="app_ops_delete_call_log">delete call log</string>
-  <string name="app_ops_delete_contacts">delete contacts</string>
-  <string name="app_ops_delete_mms">delete MMS</string>
-  <string name="app_ops_delete_sms">delete SMS</string>
-  <string name="app_ops_draw_on_top">draw on top</string>
-  <string name="app_ops_get_usage_stats">get usage stats</string>
-  <string name="app_ops_keep_device_awake">keep awake</string>
-  <string name="app_ops_make_phone_call">make call</string>
-  <string name="app_ops_modify_calendar">update calendar</string>
-  <string name="app_ops_modify_call_log">update call log</string>
-  <string name="app_ops_modify_clipboard">modify clipboard</string>
-  <string name="app_ops_modify_contacts">update contacts</string>
-  <string name="app_ops_modify_settings">update settings</string>
-  <string name="app_ops_mute_unmute_microphone">mute/unmutee mic</string>
-  <string name="app_ops_play_audio">play audio</string>
-  <string name="app_ops_post_notification">post notification</string>
-  <string name="app_ops_project_media">project media</string>
-  <string name="app_ops_read_calendar">read calendar</string>
-  <string name="app_ops_read_call_log">read call log</string>
-  <string name="app_ops_read_clipboard">read clipboard</string>
-  <string name="app_ops_read_contacts">read contacts</string>
-  <string name="app_ops_read_mms">read MMS</string>
-  <string name="app_ops_read_sms">read SMS</string>
-  <string name="app_ops_receive_sms">receive SMS</string>
-  <string name="app_ops_record_audio">record audio</string>
-  <string name="app_ops_send_mms">send MMS</string>
-  <string name="app_ops_send_sms">send SMS</string>
-  <string name="app_ops_toast_window">toast messages</string>
-  <string name="app_ops_use_alarm_volume">alarm volume</string>
-  <string name="app_ops_use_audio_focus">audio focus</string>
-  <string name="app_ops_use_bluetooth_volume">Bluetooth volume</string>
-  <string name="app_ops_use_master_volume">master volume</string>
-  <string name="app_ops_use_media_buttons">media buttons</string>
-  <string name="app_ops_use_media_volume">media volume</string>
-  <string name="app_ops_use_notification_volume">notification volume</string>
-  <string name="app_ops_use_ring_volume">ringtone volume</string>
-  <string name="app_ops_use_vibrate">haptic feedback</string>
-  <string name="app_ops_use_voice_volume">voice call volume</string>
-  <string name="app_ops_write_mms">write MMS</string>
-  <string name="app_ops_write_sms">write SMSe</string>
-  <string name="app_ops_use_fingerprint">fingerprint</string>
-  <string name="app_ops_add_voicemail">voicemail</string>
-  <string name="app_ops_read_phone_state">access phone state</string>
-  <string name="app_ops_scan_wifi">Scan WiFi Networks</string>
-  <string name="app_ops_change_wallpaper">change wallpaper</string>
-  <string name="app_ops_assist_structure">assist structure</string>
-  <string name="app_ops_assist_screenshot">screenshot</string>
-  <string name="app_ops_use_body_sensors">body sensors</string>
-  <string name="app_ops_read_cell_broadcasts">cell broadcasts</string>
-  <string name="app_ops_mock_location">mock location</string>
-  <string name="app_ops_read_external_storage">read ext. stor.</string>
-  <string name="app_ops_write_external_storage">write ext. stor.</string>
-  <string name="app_ops_turn_on_screen">turn screen on</string>
-  <string name="app_ops_get_accounts">device accounts</string>
-  <string name="app_ops_run_in_background">run in background</string>
-  <string name="app_ops_accessibility_volume">accessibility volume</string>
-  <string name="app_ops_read_phone_numbers">read phone num.</string>
-  <string name="app_ops_request_install_packages">install packages</string>
+  <string name="app_ops_auto_start">início automático</string>
+  <string name="app_ops_delete_call_log">excluir registro de ligações</string>
+  <string name="app_ops_delete_contacts">apagar contatos</string>
+  <string name="app_ops_delete_mms">excluir MMS</string>
+  <string name="app_ops_delete_sms">excluir SMS</string>
+  <string name="app_ops_draw_on_top">sobrepor</string>
+  <string name="app_ops_get_usage_stats">obter estatísticas de uso</string>
+  <string name="app_ops_keep_device_awake">manter acordado</string>
+  <string name="app_ops_make_phone_call">realizar chamada</string>
+  <string name="app_ops_modify_calendar">atualizar o calendário</string>
+  <string name="app_ops_modify_call_log">atualizar o registro de chamadas</string>
+  <string name="app_ops_modify_clipboard">modificar área de transferência</string>
+  <string name="app_ops_modify_contacts">atualizar seus contatos</string>
+  <string name="app_ops_modify_settings">atualizar configurações de sistema</string>
+  <string name="app_ops_mute_unmute_microphone">ligar/desligar o microfone</string>
+  <string name="app_ops_play_audio">reproduzir áudio</string>
+  <string name="app_ops_post_notification">postar uma notificação</string>
+  <string name="app_ops_project_media">projetar mídia</string>
+  <string name="app_ops_read_calendar">ler agenda</string>
+  <string name="app_ops_read_call_log">ler registro de chamadas</string>
+  <string name="app_ops_read_clipboard">ler a área de transferência</string>
+  <string name="app_ops_read_contacts">ler contatos</string>
+  <string name="app_ops_read_mms">ler MMS</string>
+  <string name="app_ops_read_sms">ler SMS</string>
+  <string name="app_ops_receive_sms">receber SMS</string>
+  <string name="app_ops_record_audio">gravar áudio</string>
+  <string name="app_ops_send_mms">enviar MMS</string>
+  <string name="app_ops_send_sms">enviar SMS</string>
+  <string name="app_ops_toast_window">mensagens flutuantes</string>
+  <string name="app_ops_use_alarm_volume">volume do alarme</string>
+  <string name="app_ops_use_audio_focus">foco em áudio</string>
+  <string name="app_ops_use_bluetooth_volume">Volume do bluetooth</string>
+  <string name="app_ops_use_master_volume">volume principal</string>
+  <string name="app_ops_use_media_buttons">botões de mídia</string>
+  <string name="app_ops_use_media_volume">volume da mídia</string>
+  <string name="app_ops_use_notification_volume">volume da notificação</string>
+  <string name="app_ops_use_ring_volume">volume do toque</string>
+  <string name="app_ops_use_vibrate">reposta ao toque</string>
+  <string name="app_ops_use_voice_volume">volume da chamada de voz</string>
+  <string name="app_ops_write_mms">escrever MMS</string>
+  <string name="app_ops_write_sms">escrever SMSe</string>
+  <string name="app_ops_use_fingerprint">impressão digital</string>
+  <string name="app_ops_add_voicemail">correio de voz</string>
+  <string name="app_ops_read_phone_state">acessar estado do telefone</string>
+  <string name="app_ops_scan_wifi">Procurar redes Wi-Fi</string>
+  <string name="app_ops_change_wallpaper">mudar plano de fundo</string>
+  <string name="app_ops_assist_structure">estrutura auxiliar</string>
+  <string name="app_ops_assist_screenshot">captura de tela</string>
+  <string name="app_ops_use_body_sensors">sensores corporais</string>
+  <string name="app_ops_read_cell_broadcasts">transmissões de celular</string>
+  <string name="app_ops_mock_location">simular localização</string>
+  <string name="app_ops_read_external_storage">ler o armazenamento externo.</string>
+  <string name="app_ops_write_external_storage">escrever no armazenamento externo.</string>
+  <string name="app_ops_turn_on_screen">ligar a tela</string>
+  <string name="app_ops_get_accounts">contas do dispositivo</string>
+  <string name="app_ops_run_in_background">executar em segundo plano</string>
+  <string name="app_ops_accessibility_volume">volume de acessibilidade</string>
+  <string name="app_ops_read_phone_numbers">ler número de telefone.</string>
+  <string name="app_ops_request_install_packages">instalar pacotes</string>
   <string name="app_ops_picture_in_picture">pip</string>
-  <string name="app_ops_app_start_foreground">start foreground</string>
-  <string name="app_ops_answer_phone_calls">answer calls</string>
-  <string name="app_ops_run_any_in_background">run background</string>
-  <string name="app_ops_change_wifi_state">change wifi state</string>
-  <string name="app_ops_request_delete_packages">delete packages</string>
-  <string name="app_ops_bind_accessibility_service">bind to accessibility</string>
-  <string name="app_ops_accept_handover">accept handover</string>
-  <string name="app_ops_manage_ipsec_tunnels">manage ip tunnels</string>
-  <string name="app_ops_start_foreground">start foreground</string>
-  <string name="app_ops_bluetooth_scan">bluetooth scan</string>
-  <string name="app_ops_boot_completed">auto start</string>
+  <string name="app_ops_app_start_foreground">iniciar em primeiro plano</string>
+  <string name="app_ops_answer_phone_calls">atender chamadas</string>
+  <string name="app_ops_run_any_in_background">executar em segundo plano</string>
+  <string name="app_ops_change_wifi_state">alterar o estado do Wi-Fi</string>
+  <string name="app_ops_request_delete_packages">excluir pacote</string>
+  <string name="app_ops_bind_accessibility_service">ligar-se à acessibilidade</string>
+  <string name="app_ops_accept_handover">aceitar a entrega</string>
+  <string name="app_ops_manage_ipsec_tunnels">túneis gerenciados</string>
+  <string name="app_ops_start_foreground">iniciar em primeiro plano</string>
+  <string name="app_ops_bluetooth_scan">pesquisar Bluetooth</string>
+  <string name="app_ops_boot_completed">início automático</string>
   <!-- App ops detail -->
-  <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (used <xliff:g id="count">%2$s</xliff:g>)</string>
-  <string name="app_ops_allowed_count">Allowed <xliff:g id="count" example="2 times">%s</xliff:g></string>
-  <string name="app_ops_ignored_count">Denied <xliff:g id="count" example="2 times">%s</xliff:g></string>
-  <string name="app_ops_both_count">Allowed <xliff:g id="count">%1$s</xliff:g>, denied <xliff:g id="count">%2$s</xliff:g></string>
+  <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (usado <xliff:g id="count">%2$s</xliff:g>)</string>
+  <string name="app_ops_allowed_count">Permitidos <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="count" example="2 times">%s</xliff:g></string>
+  <string name="app_ops_ignored_count">Negados <xliff:g id="count" example="2 times">%s</xliff:g></string>
+  <string name="app_ops_both_count">Permitido <xliff:g id="count">%1$s</xliff:g>, denied <xliff:g id="count">%2$s</xliff:g></string>
   <!-- App ops menu options -->
-  <string name="app_ops_show_user_apps">Show user apps</string>
-  <string name="app_ops_show_system_apps">Show built-in apps</string>
-  <string name="app_ops_reset_counters">Reset allow/deny counters</string>
-  <string name="app_ops_reset_confirm_title">Confirm counters reset</string>
-  <string name="app_ops_reset_confirm_mesg">Are you sure you wish to reset counters?</string>
-  <string name="app_ops_settings_title">App Ops</string>
-  <string name="enlighten">This options are only meant to work with old card stack recents(O recents)</string>
+  <string name="app_ops_show_user_apps">Exibir aplicativos do usuário</string>
+  <string name="app_ops_show_system_apps">Exibir aplicativos pré-instalados</string>
+  <string name="app_ops_reset_counters">Resetar contadores de permissão/negação</string>
+  <string name="app_ops_reset_confirm_title">Confirmar o reset dos contadores</string>
+  <string name="app_ops_reset_confirm_mesg">Tem certeza que deseja zerar os contadores?</string>
+  <string name="app_ops_settings_title">Operações de aplicativos</string>
+  <string name="enlighten">Esta opção destina-se apenas a trabalhar com recentes antigos da pilha de cartões (O recentes)</string>
   <!-- Lock screen visualizer -->
-  <string name="lockscreen_visualizer_title">Music visualizer</string>
-  <string name="lockscreen_visualizer_summary">Show visualizer on lockscreen when music is playing</string>
-  <string name="battery_stats_reset">Reset stats</string>
-  <string name="battery_stats_message">Battery history stats are going to be reset</string>
+  <string name="lockscreen_visualizer_title">Visualizador de música</string>
+  <string name="lockscreen_visualizer_summary">Mostrar um efeito na tela de bloqueio quando uma música estiver sendo reproduzida</string>
+  <string name="battery_stats_reset">Resetar estatísticas</string>
+  <string name="battery_stats_message">Os históricos de estatísticas da bateria serão reiniciados</string>
   <string name="ok_string">Ok</string>
   <!-- Quick Setting tile titles -->
-  <string name="qs_tile_title_visibility_title">Tile title</string>
-  <string name="qs_tile_title_visibility_summary">Display title below each tile, (requires SystemUI restart)</string>
+  <string name="qs_tile_title_visibility_title">Título do bloco</string>
+  <string name="qs_tile_title_visibility_summary">Exibir o título abaixo de cada bloco, (requer reinicialização do SystemUI)</string>
   <!-- Pocket judge -->
-  <string name="pocket_judge_title">Pocket detection</string>
-  <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+  <string name="pocket_judge_title">Detecção de bolso</string>
+  <string name="pocket_judge_summary">Bloquear a tela e os botões quando o dispositivo estiver no bolso</string>
+  <!-- Auto-brightness toggle -->
+  <string name="brightness_icon_title">Auto Brightness Icon</string>
+  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <!-- QS footer warnings -->
+  <string name="qs_footer_warnings_title">QS footer warnings</string>
+  <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
+  <!-- Navbar Animation -->
+  <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
+  <string name="pixel_navbar_anim_summary">Requires a config change(display size, navbar position, reboot) themes may overwrite</string>
 </resources>

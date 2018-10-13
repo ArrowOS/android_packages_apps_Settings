@@ -87,6 +87,8 @@
   <string name="powermenu_ls_advanced_reboot_summary">Zeige die erweiterte Neustartoption auf dem Sperrbildschirm</string>
   <string name="powermenu_ls_screenshot_summary">Zeige die Bildschirmfoto-Option auf dem Sperrbildschirm</string>
   <string name="powermenu_ls_airplane_summary">Zeige die Flugmodus-Option auf dem Sperrbildschirm</string>
+  <string name="powermenu_lockdown_title">Lockdown</string>
+  <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="lockscreen_items_other">Sonstige</string>
   <!-- Roaming indicator icon -->
@@ -260,6 +262,10 @@
   <string name="lockscreen_weather_title">Sperrbildschirm Wetter</string>
   <string name="lockscreen_weather_summary">Aktuelle Wetterlage und Temperatur auf dem Sperrbildschirm anzeigen</string>
   <string name="lockscreen_items_aod_info_title">Diese Sichtbarkeits-Konfiguration wirkt sich ebenfalls auf den Ambient-Bildschirm aus</string>
+  <string name="lockscreen_weather_show_city_title">Show city name</string>
+  <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+  <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+  <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
   <!-- Statusbar Clock -->
   <string name="status_bar_clock">Uhrzeit und Datum</string>
   <string name="status_bar_clock_summary">Aussehen der Uhr und Datum in der Statusleisten konfigurieren</string>
@@ -427,4 +433,13 @@
   <!-- Pocket judge -->
   <string name="pocket_judge_title">Trageerkennung</string>
   <string name="pocket_judge_summary">Verhindert Bildschirm- und Tasteneingaben, wenn sich das Gerät in der Hosentasche befindet</string>
+  <!-- Auto-brightness toggle -->
+  <string name="brightness_icon_title">Auto Brightness Icon</string>
+  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <!-- QS footer warnings -->
+  <string name="qs_footer_warnings_title">QS footer warnings</string>
+  <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
+  <!-- Navbar Animation -->
+  <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
+  <string name="pixel_navbar_anim_summary">Requires a config change(display size, navbar position, reboot) themes may overwrite</string>
 </resources>

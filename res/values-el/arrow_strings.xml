@@ -87,6 +87,8 @@
   <string name="powermenu_ls_advanced_reboot_summary">Εμφάνιση της επιλογής προηγμένης επανεκκίνησης στην οθόνη κλειδώματος</string>
   <string name="powermenu_ls_screenshot_summary">Εμφάνιση της επιλογής στιγμιότυπου οθόνης στην οθόνη κλειδώματος</string>
   <string name="powermenu_ls_airplane_summary">Εμφάνιση της επιλογής λειτουργία πτήσης στην οθόνη κλειδώματος</string>
+  <string name="powermenu_lockdown_title">Lockdown</string>
+  <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="lockscreen_items_other">Άλλο</string>
   <!-- Roaming indicator icon -->
@@ -260,6 +262,10 @@
   <string name="lockscreen_weather_title">Καιρός στην οθόνη κλειδώματος</string>
   <string name="lockscreen_weather_summary">Δείξε τον καιρό και την θερμοκρασία στην οθόνη κλειδώματος</string>
   <string name="lockscreen_items_aod_info_title">Οι ρυθμίσεις θα εφαρμοστουν και στην οθόνη περιβάλλοντος</string>
+  <string name="lockscreen_weather_show_city_title">Show city name</string>
+  <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+  <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+  <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
   <!-- Statusbar Clock -->
   <string name="status_bar_clock">Ρολόι και ημερομηνία</string>
   <string name="status_bar_clock_summary">Διαμόρφωση ρολογιού και εμφάνιση της ημερομηνίας στην γραμμή κατάστασης</string>
@@ -427,4 +433,13 @@
   <!-- Pocket judge -->
   <string name="pocket_judge_title">Αναγνώριση τσέπης</string>
   <string name="pocket_judge_summary">Μπλοκάρετε την οθόνη και τα κουμπιά όταν η συσκευή είναι σε τσέπη</string>
+  <!-- Auto-brightness toggle -->
+  <string name="brightness_icon_title">Auto Brightness Icon</string>
+  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <!-- QS footer warnings -->
+  <string name="qs_footer_warnings_title">QS footer warnings</string>
+  <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
+  <!-- Navbar Animation -->
+  <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
+  <string name="pixel_navbar_anim_summary">Requires a config change(display size, navbar position, reboot) themes may overwrite</string>
 </resources>

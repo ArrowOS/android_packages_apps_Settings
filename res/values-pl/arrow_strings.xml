@@ -87,6 +87,8 @@
   <string name="powermenu_ls_advanced_reboot_summary">Pokaż opcję zaawansowanego restartu na ekranie blokady</string>
   <string name="powermenu_ls_screenshot_summary">Pokaż opcję zrzutu ekranu na ekranie blokady</string>
   <string name="powermenu_ls_airplane_summary">Pokaż opcję trybu samolotowego na ekranie blokady</string>
+  <string name="powermenu_lockdown_title">Lockdown</string>
+  <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="lockscreen_items_other">Inne</string>
   <!-- Roaming indicator icon -->
@@ -175,7 +177,7 @@
   <string name="heads_up_snooze_20min">20 minut</string>
   <!-- Clear all recents -->
   <string name="aosp_recents_title">Ostatnio uruchomione AOSP</string>
-  <string name="aosp_recents_title_summary">Oreo style recents configs, clear all FAB</string>
+  <string name="aosp_recents_title_summary">Konfiguracja listy ostatnich aplikacji w stylu Oreo, wyczyść wszystkie FAB</string>
   <string name="show_clear_all_recents_button_title">Przycisk \"Wyczyść wszystkie\"</string>
   <string name="show_clear_all_recents_button_summary_on">Pokaż przycisk \"Wyczyść wszystkie\"</string>
   <string name="show_clear_all_recents_button_summary_off">Pokaż AOSP \"Wyczyść wszystkie\"</string>
@@ -196,7 +198,7 @@
   <string name="lockscreen_tuner_title">Skróty ekranu blokady</string>
   <!-- QS rows and columns -->
   <string name="qs_rows_columns_title">Modyfikacje panelu szybkich ustawień</string>
-  <string name="qs_rows_columns_summary">Quicksettings rows and columns, titles, panel opacity</string>
+  <string name="qs_rows_columns_summary">Rządy i kolumny szybkich ustawień, tytuły, przezroczystość panelu</string>
   <string name="qs_rows_portrait_title">Ilość kafelków w pionie</string>
   <string name="qs_rows_landscape_title">Ilość kafelków w poziomie</string>
   <string name="qs_columns_portrait_title">Ilość kolumn w pionie</string>
@@ -259,21 +261,25 @@
   <!-- Lockscreen weather settings -->
   <string name="lockscreen_weather_title">Pogoda na blokadzie ekranu</string>
   <string name="lockscreen_weather_summary">Wyświetl obecną pogodę oraz temperaturę na ekranie blokady</string>
-  <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
+  <string name="lockscreen_items_aod_info_title">Ta konfiguracja widoczności dotyczy również ekranu dostosowanego do otoczenia</string>
+  <string name="lockscreen_weather_show_city_title">Show city name</string>
+  <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+  <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+  <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
   <!-- Statusbar Clock -->
   <string name="status_bar_clock">Zegar i data</string>
   <string name="status_bar_clock_summary">Skonfiguruj wygląd daty i zegara na pasku stanu</string>
   <string name="status_bar_clock_title">Ustawienia zegara</string>
   <string name="status_bar_clock_show">Pokaż zegar i date</string>
   <string name="status_bar_clock_style_title">Styl zegara</string>
-  <string name="status_bar_clock_style_right">Right</string>
-  <string name="status_bar_clock_style_center">Center</string>
-  <string name="status_bar_clock_style_left">Left</string>
+  <string name="status_bar_clock_style_right">Prawo</string>
+  <string name="status_bar_clock_style_center">Środek</string>
+  <string name="status_bar_clock_style_left">Lewo</string>
   <string name="status_bar_am_pm_title">Styl AM/PM</string>
   <string name="status_bar_am_pm_info">24-godzinny zegar jest włączony</string>
-  <string name="status_bar_am_pm_normal">Normal</string>
-  <string name="status_bar_am_pm_small">Small</string>
-  <string name="status_bar_am_pm_hidden">Hidden (default)</string>
+  <string name="status_bar_am_pm_normal">Normalny</string>
+  <string name="status_bar_am_pm_small">Mały</string>
+  <string name="status_bar_am_pm_hidden">Ukryty (domyślne)</string>
   <string name="clock_seconds_display">Pokaż sekundy</string>
   <string name="clock_date_display">Data</string>
   <string name="clock_date_display_summary">Wyświetl niestandardową datę przed zegarem</string>
@@ -321,100 +327,100 @@
   <string name="battery_percent_inside">Pokaż wewnątrz ikony</string>
   <!-- App Ops Categories -->
   <string name="app_ops_cat_location">Lokalizacja</string>
-  <string name="app_ops_cat_personal">Personal</string>
-  <string name="app_ops_cat_messaging">Messaging</string>
+  <string name="app_ops_cat_personal">Osobiste</string>
+  <string name="app_ops_cat_messaging">Wiadomości</string>
   <string name="app_ops_cat_media">Media</string>
   <string name="app_ops_cat_device">Urządzenie</string>
-  <string name="app_ops_cat_bootup">Bootup</string>
+  <string name="app_ops_cat_bootup">Rozruch</string>
   <!-- App ops labels -->
   <string name="app_ops_access_camera">kamera</string>
   <string name="app_ops_access_location">lokalizacja</string>
-  <string name="app_ops_access_notifications">notifications</string>
+  <string name="app_ops_access_notifications">powiadomienia</string>
   <string name="app_ops_activate_vpn">VPN</string>
   <string name="app_ops_auto_start">autostart</string>
   <string name="app_ops_delete_call_log">usuń rejestr połączeń</string>
   <string name="app_ops_delete_contacts">usuń kontakty</string>
   <string name="app_ops_delete_mms">usuń MMS</string>
   <string name="app_ops_delete_sms">usuń SMS</string>
-  <string name="app_ops_draw_on_top">draw on top</string>
-  <string name="app_ops_get_usage_stats">get usage stats</string>
-  <string name="app_ops_keep_device_awake">keep awake</string>
+  <string name="app_ops_draw_on_top">wyświetlanie na wierzchu</string>
+  <string name="app_ops_get_usage_stats">uzyskuj statystyki użytkowania</string>
+  <string name="app_ops_keep_device_awake">nie usypiaj</string>
   <string name="app_ops_make_phone_call">wykonaj połączenie</string>
   <string name="app_ops_modify_calendar">zaktualizuj kalendarz</string>
   <string name="app_ops_modify_call_log">zaktaulizuj rejestr połączeń</string>
   <string name="app_ops_modify_clipboard">modyfikowanie zawartości schowka</string>
   <string name="app_ops_modify_contacts">aktualizuj kontakty</string>
   <string name="app_ops_modify_settings">aktualizuj ustawienia</string>
-  <string name="app_ops_mute_unmute_microphone">mute/unmutee mic</string>
+  <string name="app_ops_mute_unmute_microphone">wycisz/odcisz mikrofon</string>
   <string name="app_ops_play_audio">odtwarzaj dźwięk</string>
-  <string name="app_ops_post_notification">post notification</string>
-  <string name="app_ops_project_media">project media</string>
-  <string name="app_ops_read_calendar">read calendar</string>
-  <string name="app_ops_read_call_log">read call log</string>
-  <string name="app_ops_read_clipboard">read clipboard</string>
-  <string name="app_ops_read_contacts">read contacts</string>
-  <string name="app_ops_read_mms">read MMS</string>
-  <string name="app_ops_read_sms">read SMS</string>
-  <string name="app_ops_receive_sms">receive SMS</string>
-  <string name="app_ops_record_audio">record audio</string>
+  <string name="app_ops_post_notification">wysyłaj powiadomienia</string>
+  <string name="app_ops_project_media">wyświetlanie multimediów</string>
+  <string name="app_ops_read_calendar">czytaj kalendarz</string>
+  <string name="app_ops_read_call_log">czytaj rejestr połączeń</string>
+  <string name="app_ops_read_clipboard">czytaj schowek</string>
+  <string name="app_ops_read_contacts">czytaj kontakty</string>
+  <string name="app_ops_read_mms">czytaj MMS</string>
+  <string name="app_ops_read_sms">czytaj SMS</string>
+  <string name="app_ops_receive_sms">odbieraj SMS</string>
+  <string name="app_ops_record_audio">nagrywaj dzwięk</string>
   <string name="app_ops_send_mms">wyślij MMS</string>
   <string name="app_ops_send_sms">wyślij SMS</string>
-  <string name="app_ops_toast_window">toast messages</string>
-  <string name="app_ops_use_alarm_volume">alarm volume</string>
-  <string name="app_ops_use_audio_focus">audio focus</string>
+  <string name="app_ops_toast_window">wiadomość toast</string>
+  <string name="app_ops_use_alarm_volume">głośność alarmu</string>
+  <string name="app_ops_use_audio_focus">ostrość dzwięku</string>
   <string name="app_ops_use_bluetooth_volume">Głośność Bluetooth</string>
-  <string name="app_ops_use_master_volume">master volume</string>
-  <string name="app_ops_use_media_buttons">media buttons</string>
-  <string name="app_ops_use_media_volume">media volume</string>
-  <string name="app_ops_use_notification_volume">notification volume</string>
-  <string name="app_ops_use_ring_volume">ringtone volume</string>
-  <string name="app_ops_use_vibrate">haptic feedback</string>
-  <string name="app_ops_use_voice_volume">voice call volume</string>
-  <string name="app_ops_write_mms">write MMS</string>
-  <string name="app_ops_write_sms">write SMSe</string>
+  <string name="app_ops_use_master_volume">głośność ogólna</string>
+  <string name="app_ops_use_media_buttons">przyciski multimedialne</string>
+  <string name="app_ops_use_media_volume">głośność mediów</string>
+  <string name="app_ops_use_notification_volume">głośność powiadomień</string>
+  <string name="app_ops_use_ring_volume">głośność dzwonka</string>
+  <string name="app_ops_use_vibrate">wsparcie wibracji</string>
+  <string name="app_ops_use_voice_volume">głośność rozmów głosowych</string>
+  <string name="app_ops_write_mms">pisanie MMS</string>
+  <string name="app_ops_write_sms">pisanie SMS</string>
   <string name="app_ops_use_fingerprint">odcisk palca</string>
   <string name="app_ops_add_voicemail">poczta głosowa</string>
-  <string name="app_ops_read_phone_state">access phone state</string>
+  <string name="app_ops_read_phone_state">dostęp do stanu telefonu</string>
   <string name="app_ops_scan_wifi">Skanuj sieci Wi-Fi</string>
   <string name="app_ops_change_wallpaper">zmiana tapety</string>
-  <string name="app_ops_assist_structure">assist structure</string>
+  <string name="app_ops_assist_structure">wspomaganie struktury</string>
   <string name="app_ops_assist_screenshot">zrzut ekranu</string>
-  <string name="app_ops_use_body_sensors">body sensors</string>
-  <string name="app_ops_read_cell_broadcasts">cell broadcasts</string>
-  <string name="app_ops_mock_location">mock location</string>
-  <string name="app_ops_read_external_storage">read ext. stor.</string>
-  <string name="app_ops_write_external_storage">write ext. stor.</string>
+  <string name="app_ops_use_body_sensors">czujniki na ciele</string>
+  <string name="app_ops_read_cell_broadcasts">transmisje komórkowe</string>
+  <string name="app_ops_mock_location">pozorowanie lokalizacji</string>
+  <string name="app_ops_read_external_storage">czytaj pamięć zew.</string>
+  <string name="app_ops_write_external_storage">zapis pamięci zew.</string>
   <string name="app_ops_turn_on_screen">włącz ekran</string>
   <string name="app_ops_get_accounts">konta urządzenia</string>
-  <string name="app_ops_run_in_background">run in background</string>
-  <string name="app_ops_accessibility_volume">accessibility volume</string>
-  <string name="app_ops_read_phone_numbers">read phone num.</string>
-  <string name="app_ops_request_install_packages">install packages</string>
+  <string name="app_ops_run_in_background">uruchom w tle</string>
+  <string name="app_ops_accessibility_volume">ułatwienia dostępu</string>
+  <string name="app_ops_read_phone_numbers">odczyt numeru telefonu</string>
+  <string name="app_ops_request_install_packages">instalacja pakietów</string>
   <string name="app_ops_picture_in_picture">PiP</string>
-  <string name="app_ops_app_start_foreground">start foreground</string>
+  <string name="app_ops_app_start_foreground">uruchom na pierwszym planie</string>
   <string name="app_ops_answer_phone_calls">odbieranie połączeń</string>
-  <string name="app_ops_run_any_in_background">run background</string>
-  <string name="app_ops_change_wifi_state">change wifi state</string>
-  <string name="app_ops_request_delete_packages">delete packages</string>
-  <string name="app_ops_bind_accessibility_service">bind to accessibility</string>
-  <string name="app_ops_accept_handover">accept handover</string>
-  <string name="app_ops_manage_ipsec_tunnels">manage ip tunnels</string>
-  <string name="app_ops_start_foreground">start foreground</string>
-  <string name="app_ops_bluetooth_scan">bluetooth scan</string>
+  <string name="app_ops_run_any_in_background">uruchom w tle</string>
+  <string name="app_ops_change_wifi_state">zmiana stanu wifi</string>
+  <string name="app_ops_request_delete_packages">usuń pakiety</string>
+  <string name="app_ops_bind_accessibility_service">skrót do ułatwień dostępu</string>
+  <string name="app_ops_accept_handover">akceptuj przekazania</string>
+  <string name="app_ops_manage_ipsec_tunnels">zarządzanie tunelami ip</string>
+  <string name="app_ops_start_foreground">uruchom na pierwszym planie</string>
+  <string name="app_ops_bluetooth_scan">skanowanie bluetooth</string>
   <string name="app_ops_boot_completed">auto start</string>
   <!-- App ops detail -->
-  <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (used <xliff:g id="count">%2$s</xliff:g>)</string>
-  <string name="app_ops_allowed_count">Allowed <xliff:g id="count" example="2 times">%s</xliff:g></string>
-  <string name="app_ops_ignored_count">Denied <xliff:g id="count" example="2 times">%s</xliff:g></string>
-  <string name="app_ops_both_count">Allowed <xliff:g id="count">%1$s</xliff:g>, denied <xliff:g id="count">%2$s</xliff:g></string>
+  <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (użyty <xliff:g id="count">%2$s</xliff:g>)</string>
+  <string name="app_ops_allowed_count">Zezwolono <xliff:g id="count" example="2 times">%s</xliff:g></string>
+  <string name="app_ops_ignored_count">Odrzucono <xliff:g id="count" example="2 times">%s</xliff:g></string>
+  <string name="app_ops_both_count">Zezwolono <xliff:g id="count">%1$s</xliff:g>, odrzucono <xliff:g id="count">%2$s</xliff:g></string>
   <!-- App ops menu options -->
   <string name="app_ops_show_user_apps">Pokaż aplikacje użytkownika</string>
   <string name="app_ops_show_system_apps">Pokazuj wbudowane aplikacje</string>
-  <string name="app_ops_reset_counters">Reset allow/deny counters</string>
+  <string name="app_ops_reset_counters">Zresetuj liczniki zezwoleń/odrzuceń</string>
   <string name="app_ops_reset_confirm_title">Potwierdź zresetowanie licznika</string>
   <string name="app_ops_reset_confirm_mesg">Na pewno chcesz wyzerować liczniki?</string>
   <string name="app_ops_settings_title">App Ops</string>
-  <string name="enlighten">This options are only meant to work with old card stack recents(O recents)</string>
+  <string name="enlighten">Te opcje miały działać tylko ze starą listą aplikacji (Android O)</string>
   <!-- Lock screen visualizer -->
   <string name="lockscreen_visualizer_title">Wizualizator muzyki</string>
   <string name="lockscreen_visualizer_summary">Pokaż wizualizacje na ekranie blokady, gdy gra muzyka</string>
@@ -422,9 +428,18 @@
   <string name="battery_stats_message">Statystyki baterii zostaną zresetowane</string>
   <string name="ok_string">OK</string>
   <!-- Quick Setting tile titles -->
-  <string name="qs_tile_title_visibility_title">Tile title</string>
+  <string name="qs_tile_title_visibility_title">Tytuł tytuł</string>
   <string name="qs_tile_title_visibility_summary">Wyświetl tytuł poniżej każdego kafla (wymagany SystemUI restart)</string>
   <!-- Pocket judge -->
   <string name="pocket_judge_title">Wykrywanie kieszeni</string>
   <string name="pocket_judge_summary">Zablokuj funkcje ekranu i przycisków, gdy urządzenie jest w kieszeni</string>
+  <!-- Auto-brightness toggle -->
+  <string name="brightness_icon_title">Auto Brightness Icon</string>
+  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <!-- QS footer warnings -->
+  <string name="qs_footer_warnings_title">QS footer warnings</string>
+  <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
+  <!-- Navbar Animation -->
+  <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
+  <string name="pixel_navbar_anim_summary">Requires a config change(display size, navbar position, reboot) themes may overwrite</string>
 </resources>

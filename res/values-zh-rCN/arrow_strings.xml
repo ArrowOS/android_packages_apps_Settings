@@ -87,6 +87,8 @@
   <string name="powermenu_ls_advanced_reboot_summary">在锁屏上显示高级重启选项</string>
   <string name="powermenu_ls_screenshot_summary">在锁屏上显示截图选项</string>
   <string name="powermenu_ls_airplane_summary">在锁屏上显示飞行模式选项</string>
+  <string name="powermenu_lockdown_title">Lockdown</string>
+  <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="lockscreen_items_other">其它</string>
   <!-- Roaming indicator icon -->
@@ -198,7 +200,7 @@
   <string name="qs_rows_columns_title">快速设置界面调整</string>
   <string name="qs_rows_columns_summary">调整快速设置的行数，列数及透明度</string>
   <string name="qs_rows_portrait_title">行数 (纵向)</string>
-  <string name="qs_rows_landscape_title">列数（横向）</string>
+  <string name="qs_rows_landscape_title">行数 (横向)</string>
   <string name="qs_columns_portrait_title">列数（纵向）</string>
   <string name="qs_columns_landscape_title">行数（横向）</string>
   <!-- Volume key rotation -->
@@ -260,6 +262,10 @@
   <string name="lockscreen_weather_title">锁屏天气</string>
   <string name="lockscreen_weather_summary">在锁屏界面显示当前天气状况的温度</string>
   <string name="lockscreen_items_aod_info_title">此可见性配置也适用于环境显示</string>
+  <string name="lockscreen_weather_show_city_title">Show city name</string>
+  <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+  <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+  <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
   <!-- Statusbar Clock -->
   <string name="status_bar_clock">时钟和日期</string>
   <string name="status_bar_clock_summary">配置状态栏时钟和日期外观</string>
@@ -300,7 +306,7 @@
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
   <string name="lockpattern_settings_enable_error_path_title">显示图案错误</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-  <string name="lockpattern_settings_enable_dots_title">显示图案点</string>
+  <string name="lockpattern_settings_enable_dots_title">显示图案圆点</string>
   <!-- Lock screen vibrate settings -->
   <string name="lockscreen_vibrate_enabled_title">振动</string>
   <string name="lockscreen_vibrate_enabled_head">解锁时震动</string>
@@ -334,8 +340,8 @@
   <string name="app_ops_auto_start">自启</string>
   <string name="app_ops_delete_call_log">删除通话记录</string>
   <string name="app_ops_delete_contacts">删除联系人</string>
-  <string name="app_ops_delete_mms">删除 MMS</string>
-  <string name="app_ops_delete_sms">删除 SMS</string>
+  <string name="app_ops_delete_mms">删除彩信</string>
+  <string name="app_ops_delete_sms">删除短信</string>
   <string name="app_ops_draw_on_top">在其他应用上层</string>
   <string name="app_ops_get_usage_stats">获取使用统计信息</string>
   <string name="app_ops_keep_device_awake">保持唤醒</string>
@@ -348,30 +354,30 @@
   <string name="app_ops_mute_unmute_microphone">麦克风静音/取消静音</string>
   <string name="app_ops_play_audio">播放音频</string>
   <string name="app_ops_post_notification">发布通知</string>
-  <string name="app_ops_project_media">project media</string>
-  <string name="app_ops_read_calendar">read calendar</string>
-  <string name="app_ops_read_call_log">read call log</string>
-  <string name="app_ops_read_clipboard">read clipboard</string>
-  <string name="app_ops_read_contacts">read contacts</string>
-  <string name="app_ops_read_mms">read MMS</string>
-  <string name="app_ops_read_sms">read SMS</string>
-  <string name="app_ops_receive_sms">receive SMS</string>
-  <string name="app_ops_record_audio">record audio</string>
-  <string name="app_ops_send_mms">send MMS</string>
-  <string name="app_ops_send_sms">send SMS</string>
-  <string name="app_ops_toast_window">toast messages</string>
-  <string name="app_ops_use_alarm_volume">alarm volume</string>
-  <string name="app_ops_use_audio_focus">audio focus</string>
-  <string name="app_ops_use_bluetooth_volume">Bluetooth volume</string>
-  <string name="app_ops_use_master_volume">master volume</string>
-  <string name="app_ops_use_media_buttons">media buttons</string>
-  <string name="app_ops_use_media_volume">media volume</string>
-  <string name="app_ops_use_notification_volume">notification volume</string>
-  <string name="app_ops_use_ring_volume">ringtone volume</string>
-  <string name="app_ops_use_vibrate">haptic feedback</string>
-  <string name="app_ops_use_voice_volume">voice call volume</string>
-  <string name="app_ops_write_mms">write MMS</string>
-  <string name="app_ops_write_sms">write SMSe</string>
+  <string name="app_ops_project_media">放映媒体</string>
+  <string name="app_ops_read_calendar">读取日历</string>
+  <string name="app_ops_read_call_log">读取通话记录</string>
+  <string name="app_ops_read_clipboard">读取剪贴板</string>
+  <string name="app_ops_read_contacts">读取联系人</string>
+  <string name="app_ops_read_mms">读取彩信</string>
+  <string name="app_ops_read_sms">读取短信</string>
+  <string name="app_ops_receive_sms">接收短信</string>
+  <string name="app_ops_record_audio">录制音频</string>
+  <string name="app_ops_send_mms">发送彩信</string>
+  <string name="app_ops_send_sms">发送短信</string>
+  <string name="app_ops_toast_window">toast 信息</string>
+  <string name="app_ops_use_alarm_volume">闹铃音量</string>
+  <string name="app_ops_use_audio_focus">音频焦点</string>
+  <string name="app_ops_use_bluetooth_volume">蓝牙音量</string>
+  <string name="app_ops_use_master_volume">主音量</string>
+  <string name="app_ops_use_media_buttons">媒体键</string>
+  <string name="app_ops_use_media_volume">媒体音量</string>
+  <string name="app_ops_use_notification_volume">通知音量</string>
+  <string name="app_ops_use_ring_volume">铃声音量</string>
+  <string name="app_ops_use_vibrate">触摸反馈</string>
+  <string name="app_ops_use_voice_volume">通话音量</string>
+  <string name="app_ops_write_mms">编写彩信</string>
+  <string name="app_ops_write_sms">编写短信</string>
   <string name="app_ops_use_fingerprint">指纹</string>
   <string name="app_ops_add_voicemail">语音信箱</string>
   <string name="app_ops_read_phone_state">访问电话状态</string>
@@ -427,4 +433,13 @@
   <!-- Pocket judge -->
   <string name="pocket_judge_title">检测设备是否在口袋中</string>
   <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
+  <!-- Auto-brightness toggle -->
+  <string name="brightness_icon_title">Auto Brightness Icon</string>
+  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <!-- QS footer warnings -->
+  <string name="qs_footer_warnings_title">QS footer warnings</string>
+  <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
+  <!-- Navbar Animation -->
+  <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
+  <string name="pixel_navbar_anim_summary">Requires a config change(display size, navbar position, reboot) themes may overwrite</string>
 </resources>
