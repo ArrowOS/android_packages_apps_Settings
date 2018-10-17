@@ -608,4 +608,8 @@
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    
+    <!-- Lockscreen preferences tweaks -->
+    <string name="lockscreen_tweaks_category_title">Lockscreen tweaks</string>
+    <string name="lockscreen_fp_category_title">Lockscreen fingerprint tweaks</string>
 </resources>
