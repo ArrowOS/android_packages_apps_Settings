@@ -34,12 +34,21 @@
         android:title="@string/owner_info_settings_title"
         android:summary="@string/owner_info_settings_summary" />
 
+    <PreferenceCategory
+        android:title="@string/lockscreen_tweaks_category_title" >
+
     <Preference
         android:title="@string/lockscreen_tuner_title" >
         <intent android:action="android.intent.action.MAIN"
          android:targetPackage="com.android.systemui"
          android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
     </Preference>
+
+    <com.android.settings.arrow.preferences.SecureSettingSwitchPreference
+        android:key="face_auto_unlock"
+        android:title="@string/face_auto_unlock_title"
+        android:summary="@string/face_auto_unlock_summary"
+        android:defaultValue="false" />
 
     <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
 	android:key="double_tap_sleep_lockscreen"
@@ -51,6 +60,10 @@
         android:title="@string/lockscreen_visualizer_title"
         android:summary="@string/lockscreen_visualizer_summary"
         android:defaultValue="false" />
+    </PreferenceCategory >
+
+    <PreferenceCategory
+        android:title="@string/lockscreen_fp_category_title">
 
     <SwitchPreference
         android:key="fp_unlock_keystore" 
@@ -63,6 +76,7 @@
         android:title="@string/fprint_sucess_vib_title"
         android:summary="@string/fprint_sucess_vib_summary"
         android:defaultValue="true" />
+    </PreferenceCategory >
 
     <!-- Work profile settings are at the bottom with high order value to avoid users thinking that
          any of the above settings (including dynamic) are specific to the work profile. -->
