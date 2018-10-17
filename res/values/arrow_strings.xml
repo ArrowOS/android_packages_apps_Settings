@@ -531,4 +531,8 @@
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+    
+    <!-- Lockscreen preferences tweaks -->
+    <string name="lockscreen_tweaks_category_title">Lockscreen tweaks</string>
+    <string name="lockscreen_fp_category_title">Lockscreen fingerprint tweaks</string>
 </resources>
