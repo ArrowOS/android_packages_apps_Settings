@@ -49,7 +49,7 @@ import com.android.settings.Utils;
 import com.android.settings.applications.LayoutPreference;
 import com.android.settings.core.SubSettingLauncher;
 import com.android.settings.dashboard.SummaryLoader;
-//import com.android.settings.display.BatteryPercentagePreferenceController;
+import com.android.settings.display.BatteryPercentagePreferenceController;
 import com.android.settings.fuelgauge.anomaly.Anomaly;
 import com.android.settings.fuelgauge.anomaly.AnomalyDetectionPolicy;
 import com.android.settings.fuelgauge.batterytip.BatteryTipLoader;
@@ -542,6 +542,12 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> niks = super.getNonIndexableKeys(context);
+
+                    final BatteryPercentagePreferenceController controller =
+                            new BatteryPercentagePreferenceController(context);
+                    if (!controller.isAvailable()) {
+                        niks.add(controller.getPreferenceKey());
+                    }
                     niks.add(KEY_BATTERY_SAVER_SUMMARY);
                     return niks;
                 }
