@@ -20,27 +20,27 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Manual provisioning support -->
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-  <string name="sim_disabled">disabled</string>
+  <string name="sim_disabled">dezactivat</string>
   <string name="sim_missing">missing or faulty</string>
   <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
-  <string name="sim_enabler_will_disable_sim_title">Attention</string>
+  <string name="sim_enabler_will_disable_sim_title">Atenție</string>
   <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
   <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
   <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
-  <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
-  <string name="sim_enabler_enabling">Activating\u2026</string>
-  <string name="sim_enabler_disabling">Deactivating\u2026</string>
-  <string name="sub_activate_success">SIM activated.</string>
-  <string name="sub_activate_failed">Activation failed.</string>
-  <string name="sub_deactivate_success">SIM deactivated.</string>
-  <string name="sub_deactivate_failed">Deactivation failed.</string>
+  <string name="sim_enabler_both_inactive">Nu se pot dezactiva toate cartelele SIM</string>
+  <string name="sim_enabler_enabling">Se activează\u2026</string>
+  <string name="sim_enabler_disabling">Se dezactivează\u2026</string>
+  <string name="sub_activate_success">SIM activat.</string>
+  <string name="sub_activate_failed">Activare eșuată.</string>
+  <string name="sub_deactivate_success">SIM dezactivat.</string>
+  <string name="sub_deactivate_failed">Dezactivarea a eșuat.</string>
   <!-- Fingerprint location message -->
   <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
   <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
   <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
   <!-- Manage applications, package string displayed in app snippet -->
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
-  <string name="rom_version_title">ArrowOS version</string>
+  <string name="rom_version_title">Versiunea ArrowOS</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Color Picker</string>
   <string name="press_color_to_apply">Press on color below to apply</string>
@@ -48,8 +48,8 @@
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
-  <string name="set">Set</string>
-  <string name="color_default">Default</string>
+  <string name="set">Setați</string>
+  <string name="color_default">Implicit</string>
   <!-- Face auto unlock -->
   <string name="face_auto_unlock_title">Face auto unlock</string>
   <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
@@ -57,29 +57,29 @@
   <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
   <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
   <!-- Quick unlock -->
-  <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+  <string name="unlock_quick_unlock_control_title">Deblocare rapidă</string>
   <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
   <!-- Lockscreen battery info indicator  -->
-  <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-  <string name="lockscreen_battery_info_summary">Show charging current, voltage and battery temperature on lockscreen while charging</string>
+  <string name="lockscreen_battery_info_title">Informații despre încărcare pe ecranul de blocare</string>
+  <string name="lockscreen_battery_info_summary">Afișează curentul de încărcare, tensiunea și temperatura bateriei în timpul încărcării pe ecranul de blocare</string>
   <!-- Screenshot sound -->
-  <string name="screenshot_sound_title">Screenshot sound</string>
+  <string name="screenshot_sound_title">Sunet captură ecran</string>
   <!-- meh ganeshi4u -->
-  <string name="arrow_stats_title">ArrowOS Stats</string>
+  <string name="arrow_stats_title">ArrowOS statistici</string>
   <string name="arrow_stats_summary">we ain\'t stealing your nuds!</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Cellular data</string>
-  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_data">Date mobile</string>
+  <string name="data_usage_app_restrict_data_summary">Permiteți utilizarea datelor mobile</string>
+  <string name="data_usage_app_restrict_wifi">Date Wi\u2011Fi</string>
+  <string name="data_usage_app_restrict_wifi_summary">Permiteți utilizarea datelor Wi\u2011Fi</string>
   <!-- Power Menu -->
   <string name="advanced_power_menu">Power button options</string>
   <string name="arrow_reboot_menu">Advanced reboot menu</string>
-  <string name="powermenu_reboot_title">Reboot</string>
-  <string name="powermenu_airplane_title">Airplane mode</string>
+  <string name="powermenu_reboot_title">Repornire</string>
+  <string name="powermenu_airplane_title">Mod avion</string>
   <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
   <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
-  <string name="powermenu_screenshot_title">Screenshot</string>
+  <string name="powermenu_screenshot_title">Captură de ecran</string>
   <string name="powermenu_category_visibility">Lockscreen options</string>
   <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
   <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
@@ -124,7 +124,7 @@
   <string name="hardware_keys_wake_title">Wake device</string>
   <!-- Settings categories -->
   <string name="statusbar_category_title">StatusBar</string>
-  <string name="buttons_category_title">Buttons</string>
+  <string name="buttons_category_title">Butoane</string>
   <string name="misc_category_title">Misc</string>
   <string name="theme_category_title">System theme</string>
   <!-- Button brightness -->
@@ -148,12 +148,12 @@
   <string name="heads_up_notifications">Heads up</string>
   <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
   <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-  <string name="add_heads_up_package">Add app</string>
+  <string name="add_heads_up_package">Adaugă aplicație</string>
   <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
   <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
   <string name="heads_up_stoplist_title">Stoplist</string>
   <string name="heads_up_blacklist_title">Blacklist</string>
-  <string name="profile_choose_app">Choose app</string>
+  <string name="profile_choose_app">Alegeți aplicația</string>
   <string name="dialog_delete_title">Delete</string>
   <string name="dialog_delete_message">Remove selected item?</string>
   <!-- Heads up timeout -->
@@ -447,4 +447,27 @@
   <string name="theme_accent_picker_title">Accent color</string>
   <string name="theme_accent_picker_summary">Select system theme accent color</string>
   <string name="theme_accent_picker_default">Default</string>
+  <!-- Hide notch -->
+  <string name="hide_notch_title">Hide notch</string>
+  <string name="hide_notch_summary">Apps can not use the notch area</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <!-- Expanded desktop -->
+  <string name="expanded_desktop_pref_title">Expanded desktop</string>
+  <string name="expanded_desktop_pref_summary">Set expanded desktop globally or per-app</string>
+  <string name="expanded_hide_nothing">Hide nothing</string>
+  <string name="expanded_hide_status">Hide status bar</string>
+  <string name="expanded_hide_navigation">Hide navigation bar</string>
+  <string name="expanded_hide_both">Hide both</string>
+  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
+  <string name="expanded_desktop_state">Expanded state</string>
+  <string name="expanded_enabled_for_all">Enabled for all</string>
+  <string name="expanded_user_configurable">User configurable</string>
+  <string name="expanded_desktop_style">Expanded desktop style</string>
+  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
+  <string name="expanded_desktop_title">Expanded desktop options</string>
 </resources>

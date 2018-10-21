@@ -87,8 +87,8 @@
   <string name="powermenu_ls_advanced_reboot_summary">إظهار خيار إعادة التشغيل المتقدم في شاشة القفل</string>
   <string name="powermenu_ls_screenshot_summary">إظهار خيار لقطة الشاشة في شاشة القفل</string>
   <string name="powermenu_ls_airplane_summary">إظهار خيار وضع الطيران في شاشة القفل</string>
-  <string name="powermenu_lockdown_title">Lockdown</string>
-  <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
+  <string name="powermenu_lockdown_title">تأمين</string>
+  <string name="powermenu_ls_lockdown_summary">عرض خيارات زر الطاقة التي تعمل على إيقاف الوصول الموسّع وإلغاء قفل بصمة الإصبع</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="lockscreen_items_other">\"غير ذلك\"</string>
   <!-- Roaming indicator icon -->
@@ -262,10 +262,10 @@
   <string name="lockscreen_weather_title">طقس شاشة القفل</string>
   <string name="lockscreen_weather_summary">عرض حالة الطقس الحالية ودرجة الحرارة على شاشة القفل</string>
   <string name="lockscreen_items_aod_info_title">تكوين الرؤية هذا ينطبق أيضاً على العرض المحيط</string>
-  <string name="lockscreen_weather_show_city_title">Show city name</string>
-  <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-  <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-  <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+  <string name="lockscreen_weather_show_city_title">إظهار اسم المدينة</string>
+  <string name="lockscreen_weather_show_city_summary">إظهار اسم المدينة الحالي على يسار الصورة</string>
+  <string name="lockscreen_weather_show_temp_title">عرض درجة الحرارة</string>
+  <string name="lockscreen_weather_show_temp_summary">اظهار درجة الحرارة الحالية في المدينة على يمين الصورة</string>
   <!-- Statusbar Clock -->
   <string name="status_bar_clock">الساعة والتاريخ</string>
   <string name="status_bar_clock_summary">تهيئة ساعة شريط الحالة ومظهر التاريخ</string>
@@ -298,7 +298,7 @@
   <string name="double_tap_sleep_lockscreen">الضغط مرتين في شاشة القفل لإسبات الجهاز</string>
   <!--Quick pulldown-->
   <string name="status_bar_quick_qs_pulldown">السحب السريع للأسفل</string>
-  <string name="status_bar_quick_qs_pulldown_summary">السحب للأسفل من الجانب الأيمن لشريط الحالة لعرض لوحة الإعدادات السريعة بسرعة</string>
+  <string name="status_bar_quick_qs_pulldown_summary">السحب للأسفل من الجانب الأيسر لشريط الحالة لعرض لوحة الإعدادات السريعة بسرعة</string>
   <!--Double Tap to Sleep Statusbar-->
   <string name="double_tap_sleep_gesture_title">الضغط مرتين على شريط الحالة للسكون</string>
   <!-- Sizes for pattern lockscreen -->
@@ -434,17 +434,40 @@
   <string name="pocket_judge_title">استشعار الجيب</string>
   <string name="pocket_judge_summary">الغاء تفعيل الشاشة و أزرار الإدخال عندما يكون الجهاز في الجيب</string>
   <!-- Auto-brightness toggle -->
-  <string name="brightness_icon_title">Auto Brightness Icon</string>
-  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <string name="brightness_icon_title">علامه السطوع التلقائي</string>
+  <string name="brightness_icon_summary">أظهار رمز سطوع على يسار مزلاق السطوع لضبط السطوع التلقائي</string>
   <!-- QS footer warnings -->
-  <string name="qs_footer_warnings_title">QS footer warnings</string>
-  <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
+  <string name="qs_footer_warnings_title">تحذيرات اسفل الإعدادات السريعة</string>
+  <string name="qs_footer_warnings_summary">عرض تحذير أسفل لوحة الإعدادات السريعة عندما تكون الشبكة مراقبة عن طريق تطبيقات خارجية أو شبكة خاصة</string>
   <!-- Navbar Animation -->
-  <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
-  <string name="pixel_navbar_anim_summary">Requires a config change(display size, navbar position, reboot) themes may overwrite</string>
+  <string name="pixel_navbar_anim_title">تأثير حركة شريط تنقل بكسل</string>
+  <string name="pixel_navbar_anim_summary">يتطلب تغيير التهيئة (حجم الشاشة ، موضع شريط التنقل ، إعادة التشغيل) قد تتم الكتابة فوق السمات</string>
   <!-- Accent Picker -->
-  <string name="accent_picker_dialog_title">Select an accent color</string>
-  <string name="theme_accent_picker_title">Accent color</string>
-  <string name="theme_accent_picker_summary">Select system theme accent color</string>
-  <string name="theme_accent_picker_default">Default</string>
+  <string name="accent_picker_dialog_title">حدد لون اللكنة</string>
+  <string name="theme_accent_picker_title">لون اللكنة</string>
+  <string name="theme_accent_picker_summary">حدد لون لكنة سمة النظام</string>
+  <string name="theme_accent_picker_default">افتراضي</string>
+  <!-- Hide notch -->
+  <string name="hide_notch_title">Hide notch</string>
+  <string name="hide_notch_summary">Apps can not use the notch area</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <!-- Expanded desktop -->
+  <string name="expanded_desktop_pref_title">Expanded desktop</string>
+  <string name="expanded_desktop_pref_summary">Set expanded desktop globally or per-app</string>
+  <string name="expanded_hide_nothing">Hide nothing</string>
+  <string name="expanded_hide_status">Hide status bar</string>
+  <string name="expanded_hide_navigation">Hide navigation bar</string>
+  <string name="expanded_hide_both">Hide both</string>
+  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
+  <string name="expanded_desktop_state">Expanded state</string>
+  <string name="expanded_enabled_for_all">Enabled for all</string>
+  <string name="expanded_user_configurable">User configurable</string>
+  <string name="expanded_desktop_style">Expanded desktop style</string>
+  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
+  <string name="expanded_desktop_title">Expanded desktop options</string>
 </resources>

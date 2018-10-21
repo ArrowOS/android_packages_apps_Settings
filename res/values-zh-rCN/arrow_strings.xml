@@ -66,7 +66,7 @@
   <string name="screenshot_sound_title">截屏音效</string>
   <!-- meh ganeshi4u -->
   <string name="arrow_stats_title">ArrowOS 统计信息</string>
-  <string name="arrow_stats_summary">我们不是偷你的裸体！</string>
+  <string name="arrow_stats_summary">我们不会盗取你的个人隐私！</string>
   <!-- Per-app data restrictions -->
   <string name="data_usage_app_restrict_data">移动数据流量</string>
   <string name="data_usage_app_restrict_data_summary">启用移动网络的流量使用统计</string>
@@ -87,8 +87,8 @@
   <string name="powermenu_ls_advanced_reboot_summary">在锁屏上显示高级重启选项</string>
   <string name="powermenu_ls_screenshot_summary">在锁屏上显示截图选项</string>
   <string name="powermenu_ls_airplane_summary">在锁屏上显示飞行模式选项</string>
-  <string name="powermenu_lockdown_title">Lockdown</string>
-  <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
+  <string name="powermenu_lockdown_title">锁定</string>
+  <string name="powermenu_ls_lockdown_summary">将关闭扩展访问和指纹解锁加入电源菜单</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="lockscreen_items_other">其它</string>
   <!-- Roaming indicator icon -->
@@ -262,10 +262,10 @@
   <string name="lockscreen_weather_title">锁屏天气</string>
   <string name="lockscreen_weather_summary">在锁屏界面显示当前天气状况的温度</string>
   <string name="lockscreen_items_aod_info_title">此可见性配置也适用于环境显示</string>
-  <string name="lockscreen_weather_show_city_title">Show city name</string>
-  <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-  <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-  <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+  <string name="lockscreen_weather_show_city_title">显示城市名</string>
+  <string name="lockscreen_weather_show_city_summary">在天气图标左边显示城市名</string>
+  <string name="lockscreen_weather_show_temp_title">显示温度：</string>
+  <string name="lockscreen_weather_show_temp_summary">在图像右侧显示当前城市温度</string>
   <!-- Statusbar Clock -->
   <string name="status_bar_clock">时钟和日期</string>
   <string name="status_bar_clock_summary">配置状态栏时钟和日期外观</string>
@@ -434,17 +434,40 @@
   <string name="pocket_judge_title">检测设备是否在口袋中</string>
   <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
   <!-- Auto-brightness toggle -->
-  <string name="brightness_icon_title">Auto Brightness Icon</string>
-  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <string name="brightness_icon_title">自动亮度图标</string>
+  <string name="brightness_icon_summary">在亮度滑块左侧显示一个用于开启自动亮度的图标</string>
   <!-- QS footer warnings -->
-  <string name="qs_footer_warnings_title">QS footer warnings</string>
-  <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
+  <string name="qs_footer_warnings_title">快速设置页脚警告</string>
+  <string name="qs_footer_warnings_summary">当网络被 VPN 或者应用程序监测时，在快速设置底部显示一个警告。</string>
   <!-- Navbar Animation -->
-  <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
-  <string name="pixel_navbar_anim_summary">Requires a config change(display size, navbar position, reboot) themes may overwrite</string>
+  <string name="pixel_navbar_anim_title">Pixel 导航栏动画</string>
+  <string name="pixel_navbar_anim_summary">更改 (显示大小、导航栏位置、重新启动) 主题可能需要重启</string>
   <!-- Accent Picker -->
-  <string name="accent_picker_dialog_title">Select an accent color</string>
-  <string name="theme_accent_picker_title">Accent color</string>
-  <string name="theme_accent_picker_summary">Select system theme accent color</string>
-  <string name="theme_accent_picker_default">Default</string>
+  <string name="accent_picker_dialog_title">选择强调色</string>
+  <string name="theme_accent_picker_title">主题色</string>
+  <string name="theme_accent_picker_summary">选择系统主题强调色</string>
+  <string name="theme_accent_picker_default">默认</string>
+  <!-- Hide notch -->
+  <string name="hide_notch_title">Hide notch</string>
+  <string name="hide_notch_summary">Apps can not use the notch area</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <!-- Expanded desktop -->
+  <string name="expanded_desktop_pref_title">Expanded desktop</string>
+  <string name="expanded_desktop_pref_summary">Set expanded desktop globally or per-app</string>
+  <string name="expanded_hide_nothing">Hide nothing</string>
+  <string name="expanded_hide_status">Hide status bar</string>
+  <string name="expanded_hide_navigation">Hide navigation bar</string>
+  <string name="expanded_hide_both">Hide both</string>
+  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
+  <string name="expanded_desktop_state">Expanded state</string>
+  <string name="expanded_enabled_for_all">Enabled for all</string>
+  <string name="expanded_user_configurable">User configurable</string>
+  <string name="expanded_desktop_style">Expanded desktop style</string>
+  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
+  <string name="expanded_desktop_title">Expanded desktop options</string>
 </resources>

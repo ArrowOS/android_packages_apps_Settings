@@ -21,7 +21,7 @@
   <!-- Manual provisioning support -->
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s </xliff:g> es <xliff:g id="status" example="disabled">%2$s </xliff:g></string>
   <string name="sim_disabled">desactivado</string>
-  <string name="sim_missing">falta o defectuosa</string>
+  <string name="sim_missing">ausente o defectuoso</string>
   <string name="sim_enabler_need_disable_sim">La tarjeta SIM se desactivará. ¿Desea continuar?</string>
   <string name="sim_enabler_will_disable_sim_title">ATENCIÓN</string>
   <string name="sim_enabler_need_switch_data_service">Esta tarjeta SIM será desactivada y <xliff:g id="slotid">%1$s </xliff:g> sera utilizada para servicios de datos. ¿Estás seguro que deseas continuar?</string>
@@ -87,8 +87,8 @@
   <string name="powermenu_ls_advanced_reboot_summary">Mostrar el menú de reinicio avanzado en la pantalla de bloqueo</string>
   <string name="powermenu_ls_screenshot_summary">Muestra la opción de captura de pantalla en la pantalla de bloqueo</string>
   <string name="powermenu_ls_airplane_summary">Mostrar opción de modo avión en pantalla de bloqueo</string>
-  <string name="powermenu_lockdown_title">Lockdown</string>
-  <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
+  <string name="powermenu_lockdown_title">Bloqueo</string>
+  <string name="powermenu_ls_lockdown_summary">Muestra las opciones de los botones de encendido que desactivan el acceso extendido y el desbloqueo de huellas digitales</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="lockscreen_items_other">Otro</string>
   <!-- Roaming indicator icon -->
@@ -262,10 +262,10 @@
   <string name="lockscreen_weather_title">Tiempo en la pantalla de bloqueo</string>
   <string name="lockscreen_weather_summary">Mostrar tiempo meteorológico y temperatura actual en la pantalla de bloqueo</string>
   <string name="lockscreen_items_aod_info_title">La configuración de visibilidad también se aplica en la pantalla ambiente</string>
-  <string name="lockscreen_weather_show_city_title">Show city name</string>
-  <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-  <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-  <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+  <string name="lockscreen_weather_show_city_title">Mostrar nombre de la ciudad</string>
+  <string name="lockscreen_weather_show_city_summary">Mostrar nombre de la ciudad actual a la izquierda de la imagen</string>
+  <string name="lockscreen_weather_show_temp_title">Mostrar temperatura</string>
+  <string name="lockscreen_weather_show_temp_summary">Muestra la temperatura actual de la ciudad a la derecha de la imagen</string>
   <!-- Statusbar Clock -->
   <string name="status_bar_clock">Reloj y fecha</string>
   <string name="status_bar_clock_summary">Configurar el reloj de la barra de estado y forrmato de la fecha</string>
@@ -434,17 +434,40 @@
   <string name="pocket_judge_title">Detección de bolsillo</string>
   <string name="pocket_judge_summary">Bloquear la pantalla y botones cuando el dispositivo esta en el bolsillo</string>
   <!-- Auto-brightness toggle -->
-  <string name="brightness_icon_title">Auto Brightness Icon</string>
-  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <string name="brightness_icon_title">Icono de brillo automático</string>
+  <string name="brightness_icon_summary">Mostrar un icono de brillo a la izquierda de la barra de brillo para activar el brillo automático</string>
   <!-- QS footer warnings -->
-  <string name="qs_footer_warnings_title">QS footer warnings</string>
-  <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
+  <string name="qs_footer_warnings_title">Advertencias al pie de página de Ajustes Rápidos</string>
+  <string name="qs_footer_warnings_summary">Mostrar una advertencia en la parte inferior del panel de ajustes rápidos cuando la red se supervisa mediante aplicaciones externas o vpn</string>
   <!-- Navbar Animation -->
-  <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
-  <string name="pixel_navbar_anim_summary">Requires a config change(display size, navbar position, reboot) themes may overwrite</string>
+  <string name="pixel_navbar_anim_title">Animación de barra de navegación pixel</string>
+  <string name="pixel_navbar_anim_summary">Requiere un cambio de configuración (tamaño de visualización, posición de la barra de navegación, reinicio) los temas pueden sobrescribirse</string>
   <!-- Accent Picker -->
-  <string name="accent_picker_dialog_title">Select an accent color</string>
-  <string name="theme_accent_picker_title">Accent color</string>
-  <string name="theme_accent_picker_summary">Select system theme accent color</string>
-  <string name="theme_accent_picker_default">Default</string>
+  <string name="accent_picker_dialog_title">Seleccione un color de acento</string>
+  <string name="theme_accent_picker_title">Color de acento</string>
+  <string name="theme_accent_picker_summary">Seleccione color de acento del tema de sistema</string>
+  <string name="theme_accent_picker_default">Predeterminado</string>
+  <!-- Hide notch -->
+  <string name="hide_notch_title">Hide notch</string>
+  <string name="hide_notch_summary">Apps can not use the notch area</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <!-- Expanded desktop -->
+  <string name="expanded_desktop_pref_title">Expanded desktop</string>
+  <string name="expanded_desktop_pref_summary">Set expanded desktop globally or per-app</string>
+  <string name="expanded_hide_nothing">Hide nothing</string>
+  <string name="expanded_hide_status">Hide status bar</string>
+  <string name="expanded_hide_navigation">Hide navigation bar</string>
+  <string name="expanded_hide_both">Hide both</string>
+  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
+  <string name="expanded_desktop_state">Expanded state</string>
+  <string name="expanded_enabled_for_all">Enabled for all</string>
+  <string name="expanded_user_configurable">User configurable</string>
+  <string name="expanded_desktop_style">Expanded desktop style</string>
+  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
+  <string name="expanded_desktop_title">Expanded desktop options</string>
 </resources>

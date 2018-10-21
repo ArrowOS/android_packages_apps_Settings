@@ -87,8 +87,8 @@
   <string name="powermenu_ls_advanced_reboot_summary">ロック画面に高度な再起動オプションを表示する</string>
   <string name="powermenu_ls_screenshot_summary">ロック画面にスクリーンショットオプションを表示する</string>
   <string name="powermenu_ls_airplane_summary">ロック画面に機内モードオプションを表示する</string>
-  <string name="powermenu_lockdown_title">Lockdown</string>
-  <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
+  <string name="powermenu_lockdown_title">画面ロック</string>
+  <string name="powermenu_ls_lockdown_summary">拡張アクセスと指紋ロック解除を電源ボタンオプションに表示する</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="lockscreen_items_other">その他</string>
   <!-- Roaming indicator icon -->
@@ -262,10 +262,10 @@
   <string name="lockscreen_weather_title">天気の設定</string>
   <string name="lockscreen_weather_summary">現在の気象状況と温度をロック画面に表示する</string>
   <string name="lockscreen_items_aod_info_title">この表示設定はアンビエント表示にも適用されます</string>
-  <string name="lockscreen_weather_show_city_title">Show city name</string>
-  <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-  <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-  <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+  <string name="lockscreen_weather_show_city_title">都市名を表示</string>
+  <string name="lockscreen_weather_show_city_summary">画像の左側に現在の都市名を表示する</string>
+  <string name="lockscreen_weather_show_temp_title">温度を表示</string>
+  <string name="lockscreen_weather_show_temp_summary">画像の右に現在の都市の気温を表示する</string>
   <!-- Statusbar Clock -->
   <string name="status_bar_clock">時計と日付</string>
   <string name="status_bar_clock_summary">ステータスバーの時計と日付の外観を設定する</string>
@@ -434,17 +434,40 @@
   <string name="pocket_judge_title">ポケット検出</string>
   <string name="pocket_judge_summary">ポケットに入っている時にタッチやボタン入力を無効化する</string>
   <!-- Auto-brightness toggle -->
-  <string name="brightness_icon_title">Auto Brightness Icon</string>
-  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <string name="brightness_icon_title">自動明るさアイコン</string>
+  <string name="brightness_icon_summary">明るさスライダーの隣に自動明るさボタンを表示する</string>
   <!-- QS footer warnings -->
-  <string name="qs_footer_warnings_title">QS footer warnings</string>
-  <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
+  <string name="qs_footer_warnings_title">クイック設定下部の警告</string>
+  <string name="qs_footer_warnings_summary">外部アプリやVPNでネットワーク監視されている時にクイック設定パネルの下部に警告を表示する</string>
   <!-- Navbar Animation -->
-  <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
-  <string name="pixel_navbar_anim_summary">Requires a config change(display size, navbar position, reboot) themes may overwrite</string>
+  <string name="pixel_navbar_anim_title">Pixelナビゲーションバーのアニメーション </string>
+  <string name="pixel_navbar_anim_summary">設定の変更（画面サイズ、ナビゲーションバーの位置、再起動）が必要です。テーマが上書きされる可能性があります。</string>
   <!-- Accent Picker -->
-  <string name="accent_picker_dialog_title">Select an accent color</string>
-  <string name="theme_accent_picker_title">Accent color</string>
-  <string name="theme_accent_picker_summary">Select system theme accent color</string>
-  <string name="theme_accent_picker_default">Default</string>
+  <string name="accent_picker_dialog_title">アクセントカラーを選択する</string>
+  <string name="theme_accent_picker_title">アクセントカラー</string>
+  <string name="theme_accent_picker_summary">システムテーマのアクセントカラーを選択する</string>
+  <string name="theme_accent_picker_default">既定</string>
+  <!-- Hide notch -->
+  <string name="hide_notch_title">Hide notch</string>
+  <string name="hide_notch_summary">Apps can not use the notch area</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <!-- Expanded desktop -->
+  <string name="expanded_desktop_pref_title">Expanded desktop</string>
+  <string name="expanded_desktop_pref_summary">Set expanded desktop globally or per-app</string>
+  <string name="expanded_hide_nothing">Hide nothing</string>
+  <string name="expanded_hide_status">Hide status bar</string>
+  <string name="expanded_hide_navigation">Hide navigation bar</string>
+  <string name="expanded_hide_both">Hide both</string>
+  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
+  <string name="expanded_desktop_state">Expanded state</string>
+  <string name="expanded_enabled_for_all">Enabled for all</string>
+  <string name="expanded_user_configurable">User configurable</string>
+  <string name="expanded_desktop_style">Expanded desktop style</string>
+  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
+  <string name="expanded_desktop_title">Expanded desktop options</string>
 </resources>
