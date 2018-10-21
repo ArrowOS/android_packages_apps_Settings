@@ -504,7 +504,7 @@
 
     <!-- Auto-brightness toggle -->
     <string name="brightness_icon_title">Auto Brightness Icon</string>
-    <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+    <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust auto-brightness</string>
 
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">QS footer warnings</string>
@@ -512,7 +512,6 @@
 
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
-    <string name="pixel_navbar_anim_summary">Requires a config change(display size, navbar position, reboot) themes may overwrite</string>
 
     <!-- Accent Picker -->
     <string name="accent_picker_dialog_title">Select an accent color</string>
