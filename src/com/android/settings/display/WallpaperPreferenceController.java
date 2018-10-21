@@ -28,6 +28,7 @@ import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedPreference;
 import com.android.settingslib.core.AbstractPreferenceController;
+import com.android.settings.dream.DreamSettings;
 
 import static android.os.UserManager.DISALLOW_SET_WALLPAPER;
 
@@ -39,6 +40,7 @@ public class WallpaperPreferenceController extends AbstractPreferenceController 
     private static final String TAG = "WallpaperPrefController";
 
     public static final String KEY_WALLPAPER = "wallpaper";
+    private static final String KEY_SCREEN_SAVER = "screensaver";
 
     private final String mWallpaperPackage;
     private final String mWallpaperClass;
@@ -47,6 +49,11 @@ public class WallpaperPreferenceController extends AbstractPreferenceController 
         super(context);
         mWallpaperPackage = mContext.getString(R.string.config_wallpaper_picker_package);
         mWallpaperClass = mContext.getString(R.string.config_wallpaper_picker_class);
+    }
+
+    public boolean isScreensaverAvailable() {
+	return mContext.getResources().getBoolean(
+                com.android.internal.R.bool.config_dreamsSupported);
     }
 
     @Override
@@ -68,11 +75,19 @@ public class WallpaperPreferenceController extends AbstractPreferenceController 
     @Override
     public String getPreferenceKey() {
         return KEY_WALLPAPER;
+	if (isScreensaverAvailable())
+	{
+	  return KEY_SCREEN_SAVER;
+	}
     }
 
     @Override
     public void updateState(Preference preference) {
         disablePreferenceIfManaged((RestrictedPreference) preference);
+	if (isScreensaverAvailable())
+        {
+          preference.setSummary(DreamSettings.getSummaryTextWithDreamName(mContext));
+        }
     }
 
     private void disablePreferenceIfManaged(RestrictedPreference pref) {
