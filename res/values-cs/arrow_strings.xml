@@ -87,8 +87,8 @@
   <string name="powermenu_ls_advanced_reboot_summary">Zobrazit pokročilé možnosti restartování na zamykací obrazovce</string>
   <string name="powermenu_ls_screenshot_summary">Zobrazit možnost pořízení snímku obrazovky na zamykací obrazovce</string>
   <string name="powermenu_ls_airplane_summary">Zobrazit možnost režimu Letadlo na zamykací obrazovce</string>
-  <string name="powermenu_lockdown_title">Lockdown</string>
-  <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
+  <string name="powermenu_lockdown_title">Uzamčení</string>
+  <string name="powermenu_ls_lockdown_summary">Zobrazit možnosti tlačítka napájení, které vypíná rozšířený přístup a odemknutí pomocí otisků prstů</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="lockscreen_items_other">Ostatní</string>
   <!-- Roaming indicator icon -->
@@ -262,10 +262,10 @@
   <string name="lockscreen_weather_title">Počasí na zamykací obrazovce</string>
   <string name="lockscreen_weather_summary">Zobrazí aktuální stav počasí a teplotu na zamykací obrazovce</string>
   <string name="lockscreen_items_aod_info_title">Tato konfigurace zobrazení platí také pro ambientní display</string>
-  <string name="lockscreen_weather_show_city_title">Show city name</string>
-  <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-  <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-  <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+  <string name="lockscreen_weather_show_city_title">Zobrazit název města</string>
+  <string name="lockscreen_weather_show_city_summary">Zobrazit název aktuálního města vlevo od obrázku</string>
+  <string name="lockscreen_weather_show_temp_title">Zobrazit teplotu</string>
+  <string name="lockscreen_weather_show_temp_summary">Zobrazit aktuální teplotu ve městě vpravo od obrázku</string>
   <!-- Statusbar Clock -->
   <string name="status_bar_clock">Hodiny a datum</string>
   <string name="status_bar_clock_summary">Konfigurace zobrazení hodin a data ve stavové liště</string>
@@ -434,17 +434,40 @@
   <string name="pocket_judge_title">Detekce uložení v kapse</string>
   <string name="pocket_judge_summary">Blokovat obrazovku a hardwarová tlačítka, když je zařízení v kapse</string>
   <!-- Auto-brightness toggle -->
-  <string name="brightness_icon_title">Auto Brightness Icon</string>
-  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <string name="brightness_icon_title">Ikona automatického jasu</string>
+  <string name="brightness_icon_summary">Zobrazit ikonu jasu na levé straně posuvníku k přepnutí automatického jasu</string>
   <!-- QS footer warnings -->
-  <string name="qs_footer_warnings_title">QS footer warnings</string>
-  <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
+  <string name="qs_footer_warnings_title">Výstrahy ve spodní části panelu QS</string>
+  <string name="qs_footer_warnings_summary">Zobrazit varování ve spodní části panelu rychlého nastavení při monitorování sítě externími aplikacemi nebo VPN</string>
   <!-- Navbar Animation -->
-  <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
-  <string name="pixel_navbar_anim_summary">Requires a config change(display size, navbar position, reboot) themes may overwrite</string>
+  <string name="pixel_navbar_anim_title">Pixel animace navigačního panelu</string>
+  <string name="pixel_navbar_anim_summary">Vyžaduje změnu konfigurace (velikost obrazovky, umístění navigačního panelu, restart), která může přepsat motivy</string>
   <!-- Accent Picker -->
-  <string name="accent_picker_dialog_title">Select an accent color</string>
-  <string name="theme_accent_picker_title">Accent color</string>
-  <string name="theme_accent_picker_summary">Select system theme accent color</string>
-  <string name="theme_accent_picker_default">Default</string>
+  <string name="accent_picker_dialog_title">Vyberte doplňkovou barvu</string>
+  <string name="theme_accent_picker_title">Doplňková barva</string>
+  <string name="theme_accent_picker_summary">Vyberte doplňkovou barvu systému</string>
+  <string name="theme_accent_picker_default">Výchozí</string>
+  <!-- Hide notch -->
+  <string name="hide_notch_title">Hide notch</string>
+  <string name="hide_notch_summary">Apps can not use the notch area</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <!-- Expanded desktop -->
+  <string name="expanded_desktop_pref_title">Expanded desktop</string>
+  <string name="expanded_desktop_pref_summary">Set expanded desktop globally or per-app</string>
+  <string name="expanded_hide_nothing">Hide nothing</string>
+  <string name="expanded_hide_status">Hide status bar</string>
+  <string name="expanded_hide_navigation">Hide navigation bar</string>
+  <string name="expanded_hide_both">Hide both</string>
+  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
+  <string name="expanded_desktop_state">Expanded state</string>
+  <string name="expanded_enabled_for_all">Enabled for all</string>
+  <string name="expanded_user_configurable">User configurable</string>
+  <string name="expanded_desktop_style">Expanded desktop style</string>
+  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
+  <string name="expanded_desktop_title">Expanded desktop options</string>
 </resources>

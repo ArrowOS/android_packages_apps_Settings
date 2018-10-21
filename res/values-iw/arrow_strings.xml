@@ -35,9 +35,9 @@
   <string name="sub_deactivate_success">כרטיס ה־SIM הושבת.</string>
   <string name="sub_deactivate_failed">ההשבתה נכשלה.</string>
   <!-- Fingerprint location message -->
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_front">אתר את חיישן טביעת האצבע בקידמת המכשיר.</string>
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_left">אתר את חיישן טביעת האצבע בצידו השמאלי של המכשיר.</string>
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_right">אתר את חיישן טביעת האצבע בצידו הימני של המכשיר.</string>
   <!-- Manage applications, package string displayed in app snippet -->
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
   <string name="rom_version_title">גרסת ArrowOS</string>
@@ -54,8 +54,8 @@
   <string name="face_auto_unlock_title">שחרור נעילה אוטומטית עם פנים</string>
   <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
   <!-- Scramble PIN Layout on Lockscreen -->
-  <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-  <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+  <string name="unlock_scramble_pin_layout_title">ערבב פריסה</string>
+  <string name="unlock_scramble_pin_layout_summary">ערבב את סדר לוח המקשים של הקוד בפתיחת המכשיר</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">שחרור מהיר</string>
   <string name="unlock_quick_unlock_control_summary">לשחרר אוטומטית כאשר הססמה/קוד הנכונים מוקלדים</string>
@@ -66,7 +66,7 @@
   <string name="screenshot_sound_title">צליל צילום מסך</string>
   <!-- meh ganeshi4u -->
   <string name="arrow_stats_title">סטטיסטיקת ArrowOS</string>
-  <string name="arrow_stats_summary">we ain\'t stealing your nuds!</string>
+  <string name="arrow_stats_summary">איננו גונבים ממך תמונות שובבות!</string>
   <!-- Per-app data restrictions -->
   <string name="data_usage_app_restrict_data">תקשורת נתונים סלולרית</string>
   <string name="data_usage_app_restrict_data_summary">הפעלת שימוש בתקשורת נתונים סלולרית</string>
@@ -87,7 +87,7 @@
   <string name="powermenu_ls_advanced_reboot_summary">הצגת אפשרות ההפעלה המתקדמת מחדש במסך הנעילה</string>
   <string name="powermenu_ls_screenshot_summary">הצגת אפשרות צילום המסך במסך הנעילה</string>
   <string name="powermenu_ls_airplane_summary">הצגת אפשרות מצב טיסה במסך הנעילה</string>
-  <string name="powermenu_lockdown_title">Lockdown</string>
+  <string name="powermenu_lockdown_title">נעילה</string>
   <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="lockscreen_items_other">אחר</string>
@@ -131,23 +131,23 @@
   <string name="button_backlight_options_category">אפשרויות תאורה אחורית</string>
   <string name="button_backlight_enable_title">לאפשר תאורה אחורית של כפתורי המגע</string>
   <string name="button_link_brightness">קישור לבהירות המסך</string>
-  <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
+  <string name="button_link_brightness_summary">בהירות תאורת כפתורי המגע יותאמו בהתאם לבהירות המסך</string>
   <string name="button_manual_brightness">רמת בהירות</string>
   <string name="button_timeout_title">משך תאורה אחורית</string>
   <string name="button_backlight_on_touch_only_title">תאורה אחורית של כפתורי מגע</string>
   <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
   <!-- Volume rocker music control -->
   <string name="volume_button_music_control_title">שליטה בנגינה</string>
-  <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+  <string name="volume_button_music_control_summary">כאשר המסך כבוי, לחיצה ארוכה על מקשי הווליום תעבור בין שירים</string>
   <!-- Volume rocker wake -->
-  <string name="volume_rocker_wake_title">Volume wake</string>
-  <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+  <string name="volume_rocker_wake_title">הער את המכשיר באמצעות לחצני עוצמת השמע</string>
+  <string name="volume_rocker_wake_summary">הער את המכשיר באמצעות לחצני עוצמת השמע</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Navigation bar configs</string>
   <!-- Heads up -->
   <string name="heads_up_notifications">Heads up</string>
-  <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-  <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
+  <string name="summary_heads_up_enabled">הודעות קופצות פעילות</string>
+  <string name="summary_heads_up_disabled">הודעות קופצות מושבתות</string>
   <string name="add_heads_up_package">הוספת יישומון</string>
   <string name="add_heads_up_stoplist_summary">הוספת יישומון</string>
   <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
@@ -169,52 +169,52 @@
   <string name="heads_up_snooze_title">נודניק</string>
   <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
   <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-  <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+  <string name="heads_up_snooze_disabled_summary">נודניק מושבת</string>
   <string name="heads_up_snooze_1min">דקה</string>
   <string name="heads_up_snooze_5min">5 דקות</string>
   <string name="heads_up_snooze_10min">10 דקות</string>
   <string name="heads_up_snooze_15min">15 דקות</string>
   <string name="heads_up_snooze_20min">20 דקות</string>
   <!-- Clear all recents -->
-  <string name="aosp_recents_title">AOSP recents</string>
+  <string name="aosp_recents_title">יישומים אחרונים של AOSP</string>
   <string name="aosp_recents_title_summary">Oreo style recents configs, clear all FAB</string>
   <string name="show_clear_all_recents_button_title">Clear-all FAB</string>
   <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
   <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
   <string name="recents_clear_all_location_title">Clear all FAB location</string>
-  <string name="recents_clear_all_location_top_right">Top right</string>
-  <string name="recents_clear_all_location_top_left">Top left</string>
-  <string name="recents_clear_all_location_top_center">Top center</string>
-  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+  <string name="recents_clear_all_location_top_right">למעלה מימין</string>
+  <string name="recents_clear_all_location_top_left">למעלה משמאל</string>
+  <string name="recents_clear_all_location_top_center">למעלה במרכז</string>
+  <string name="recents_clear_all_location_bottom_right">למטה מימין</string>
+  <string name="recents_clear_all_location_bottom_left">למטה משמאל</string>
+  <string name="recents_clear_all_location_bottom_center">למטה במרכז</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Prevent accidental wake-up</string>
-  <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+  <string name="proximity_wake_summary">בדוק את חיישן הקירבה לפני הפעלת המסך</string>
   <!-- Statusbar Tuner -->
   <string name="statusbar_items_title">Statusbar items</string>
   <string name="statusbar_items_title_summary">Enable or disable statusbar icons</string>
   <!-- Lockscreen icons -->
-  <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
+  <string name="lockscreen_tuner_title">קיצורי דרך מסך הנעילה</string>
   <!-- QS rows and columns -->
-  <string name="qs_rows_columns_title">QS panel tweaks</string>
-  <string name="qs_rows_columns_summary">Quicksettings rows and columns, titles, panel opacity</string>
-  <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
-  <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
-  <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
-  <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
+  <string name="qs_rows_columns_title">מאפייני חלון הגדרות מהירות</string>
+  <string name="qs_rows_columns_summary">הגדרות מהירות של שורות ועמודות, כותרות, שקיפות חלון</string>
+  <string name="qs_rows_portrait_title">מספר שורות אריחים במצב מאונך</string>
+  <string name="qs_rows_landscape_title">מספר שורות אריחים במצב אופקי</string>
+  <string name="qs_columns_portrait_title">מספר עמודות אריחים במצב אנכי</string>
+  <string name="qs_columns_landscape_title">מספר עמודות אריחים במצב אופקי</string>
   <!-- Volume key rotation -->
-  <string name="swap_volume_buttons_title">Reorient</string>
+  <string name="swap_volume_buttons_title">הפוך כיוון</string>
   <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
   <!-- QuickSettings Panel Transparency -->
-  <string name="qs_panel_alpha_title">QS panel opacity</string>
+  <string name="qs_panel_alpha_title">שקיפות חלון</string>
   <!-- Changelog -->
   <string name="changelog_title">יומן שינויים</string>
   <string name="changelog_summary">מאז העדכון האחרון</string>
   <string name="changelog_error">לא ניתן לטעון את יומן השינויים</string>
   <!-- Battery light -->
-  <string name="battery_light_settings">Battery charging light</string>
-  <string name="battery_light_enable">Battery light</string>
+  <string name="battery_light_settings">נורית טעינה</string>
+  <string name="battery_light_enable">נורית סוללה</string>
   <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
   <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
   <string name="battery_light_cat">Battery light color when charging</string>
@@ -225,11 +225,11 @@
   <!-- SystemUI theme -->
   <string name="systemui_theme_style_title">SystemUI theme</string>
   <string name="systemui_theme_style_auto">Automatic (wallpaper based)</string>
-  <string name="systemui_theme_style_light">Light</string>
-  <string name="systemui_theme_style_dark">Dark</string>
-  <string name="system_theme_style_black">Black</string>
-  <string name="applying_theme_toast">Applying theme, please wait...</string>
-  <string name="theme_applied_toast">Theme applied!</string>
+  <string name="systemui_theme_style_light">בהיר</string>
+  <string name="systemui_theme_style_dark">כהה</string>
+  <string name="system_theme_style_black">שחור</string>
+  <string name="applying_theme_toast">מחיל ערכת נושא, אנא המתן...</string>
+  <string name="theme_applied_toast">ערכת הנושא הוחלה!</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">מזג אוויר</string>
   <string name="weather_config_title_summary">Stautusbar and lockscreen weather</string>
@@ -262,10 +262,10 @@
   <string name="lockscreen_weather_title">מזג האוויר במסך הנעילה</string>
   <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
   <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
-  <string name="lockscreen_weather_show_city_title">Show city name</string>
-  <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-  <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-  <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+  <string name="lockscreen_weather_show_city_title">הצגת שם עיר</string>
+  <string name="lockscreen_weather_show_city_summary">הצגת שם עיר נוכחית משמאל לתמונה</string>
+  <string name="lockscreen_weather_show_temp_title">הצגת טמפרטורה</string>
+  <string name="lockscreen_weather_show_temp_summary">הצגת שם עיר נוכחית מימין לתמונה</string>
   <!-- Statusbar Clock -->
   <string name="status_bar_clock">שעון ותאריך</string>
   <string name="status_bar_clock_summary">Configure statusbar clock and date appearance</string>
@@ -447,4 +447,27 @@
   <string name="theme_accent_picker_title">Accent color</string>
   <string name="theme_accent_picker_summary">Select system theme accent color</string>
   <string name="theme_accent_picker_default">Default</string>
+  <!-- Hide notch -->
+  <string name="hide_notch_title">Hide notch</string>
+  <string name="hide_notch_summary">Apps can not use the notch area</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <!-- Expanded desktop -->
+  <string name="expanded_desktop_pref_title">Expanded desktop</string>
+  <string name="expanded_desktop_pref_summary">Set expanded desktop globally or per-app</string>
+  <string name="expanded_hide_nothing">Hide nothing</string>
+  <string name="expanded_hide_status">Hide status bar</string>
+  <string name="expanded_hide_navigation">Hide navigation bar</string>
+  <string name="expanded_hide_both">Hide both</string>
+  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
+  <string name="expanded_desktop_state">Expanded state</string>
+  <string name="expanded_enabled_for_all">Enabled for all</string>
+  <string name="expanded_user_configurable">User configurable</string>
+  <string name="expanded_desktop_style">Expanded desktop style</string>
+  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
+  <string name="expanded_desktop_title">Expanded desktop options</string>
 </resources>

@@ -87,8 +87,8 @@
   <string name="powermenu_ls_advanced_reboot_summary">Visualizza l\'opzione di riavvio avanzato nella schermata di blocco</string>
   <string name="powermenu_ls_screenshot_summary">Visualizza l\'opzione cattura schermata nella schermata di blocco</string>
   <string name="powermenu_ls_airplane_summary">Visualizza l\'opzione modalità aereo nella schermata di blocco</string>
-  <string name="powermenu_lockdown_title">Lockdown</string>
-  <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
+  <string name="powermenu_lockdown_title">Blocca ora</string>
+  <string name="powermenu_ls_lockdown_summary">Mostra le opzioni del pulsante d\'accensione che spegne l\'accesso esteso e lo sblocco di impronte digitali</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="lockscreen_items_other">Altro</string>
   <!-- Roaming indicator icon -->
@@ -262,10 +262,10 @@
   <string name="lockscreen_weather_title">Meteo schermata di blocco</string>
   <string name="lockscreen_weather_summary">Mostra le attuali condizioni del meteo e temperatura nella schermata di blocco</string>
   <string name="lockscreen_items_aod_info_title">Questa configurazione di visibilità si applica inoltre al Ambient Display</string>
-  <string name="lockscreen_weather_show_city_title">Show city name</string>
-  <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-  <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-  <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+  <string name="lockscreen_weather_show_city_title">Visualizza il nome della città</string>
+  <string name="lockscreen_weather_show_city_summary">Visualizza il nome dell\'attuale città sulla sinistra dell\'immagine</string>
+  <string name="lockscreen_weather_show_temp_title">Mostra temperatura</string>
+  <string name="lockscreen_weather_show_temp_summary">Visualizza la temperatura attuale della città sulla destra dell\'immagine</string>
   <!-- Statusbar Clock -->
   <string name="status_bar_clock">Ora e Data</string>
   <string name="status_bar_clock_summary">Configura l\'aspetto dell\'orologio e della data nella barra di stato</string>
@@ -434,17 +434,40 @@
   <string name="pocket_judge_title">Rilevamento telefono in tasca</string>
   <string name="pocket_judge_summary">Blocca lo schermo e i tasti quando il dispositivo è in tasca</string>
   <!-- Auto-brightness toggle -->
-  <string name="brightness_icon_title">Auto Brightness Icon</string>
-  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <string name="brightness_icon_title">Icona luminosità automatica</string>
+  <string name="brightness_icon_summary">Visualizza un\'icona a sinistra della barra per regolare la luminosità automatica</string>
   <!-- QS footer warnings -->
-  <string name="qs_footer_warnings_title">QS footer warnings</string>
-  <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
+  <string name="qs_footer_warnings_title">Avvisi su piè di pagina</string>
+  <string name="qs_footer_warnings_summary">Visualizza un avviso nella parte inferiore del pannello impostazioni rapide quando la rete viene controllata da applicazioni esterne o vpn</string>
   <!-- Navbar Animation -->
-  <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
-  <string name="pixel_navbar_anim_summary">Requires a config change(display size, navbar position, reboot) themes may overwrite</string>
+  <string name="pixel_navbar_anim_title">Animazione barra di navigazione</string>
+  <string name="pixel_navbar_anim_summary">Richiede un cambiamento di configurazione (dimensione display, posizione navbar, riavvio) i temi potrebbero essere sovrascritti</string>
   <!-- Accent Picker -->
-  <string name="accent_picker_dialog_title">Select an accent color</string>
-  <string name="theme_accent_picker_title">Accent color</string>
-  <string name="theme_accent_picker_summary">Select system theme accent color</string>
-  <string name="theme_accent_picker_default">Default</string>
+  <string name="accent_picker_dialog_title">Seleziona un colore in rilievo</string>
+  <string name="theme_accent_picker_title">Colore in rilievo</string>
+  <string name="theme_accent_picker_summary">Seleziona il colore primario per il tema di sistema</string>
+  <string name="theme_accent_picker_default">Predefinito</string>
+  <!-- Hide notch -->
+  <string name="hide_notch_title">Hide notch</string>
+  <string name="hide_notch_summary">Apps can not use the notch area</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <!-- Expanded desktop -->
+  <string name="expanded_desktop_pref_title">Expanded desktop</string>
+  <string name="expanded_desktop_pref_summary">Set expanded desktop globally or per-app</string>
+  <string name="expanded_hide_nothing">Hide nothing</string>
+  <string name="expanded_hide_status">Hide status bar</string>
+  <string name="expanded_hide_navigation">Hide navigation bar</string>
+  <string name="expanded_hide_both">Hide both</string>
+  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
+  <string name="expanded_desktop_state">Expanded state</string>
+  <string name="expanded_enabled_for_all">Enabled for all</string>
+  <string name="expanded_user_configurable">User configurable</string>
+  <string name="expanded_desktop_style">Expanded desktop style</string>
+  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
+  <string name="expanded_desktop_title">Expanded desktop options</string>
 </resources>

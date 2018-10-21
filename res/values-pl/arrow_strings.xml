@@ -87,7 +87,7 @@
   <string name="powermenu_ls_advanced_reboot_summary">Pokaż opcję zaawansowanego restartu na ekranie blokady</string>
   <string name="powermenu_ls_screenshot_summary">Pokaż opcję zrzutu ekranu na ekranie blokady</string>
   <string name="powermenu_ls_airplane_summary">Pokaż opcję trybu samolotowego na ekranie blokady</string>
-  <string name="powermenu_lockdown_title">Lockdown</string>
+  <string name="powermenu_lockdown_title">Blokada</string>
   <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="lockscreen_items_other">Inne</string>
@@ -262,10 +262,10 @@
   <string name="lockscreen_weather_title">Pogoda na blokadzie ekranu</string>
   <string name="lockscreen_weather_summary">Wyświetl obecną pogodę oraz temperaturę na ekranie blokady</string>
   <string name="lockscreen_items_aod_info_title">Ta konfiguracja widoczności dotyczy również ekranu dostosowanego do otoczenia</string>
-  <string name="lockscreen_weather_show_city_title">Show city name</string>
-  <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-  <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-  <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+  <string name="lockscreen_weather_show_city_title">Pokaż nazwę miasta</string>
+  <string name="lockscreen_weather_show_city_summary">Pokaż nazwę miasta po lewej stronie obrazu</string>
+  <string name="lockscreen_weather_show_temp_title">Pokaż temperaturę</string>
+  <string name="lockscreen_weather_show_temp_summary">Pokaż aktualną temperaturę miasta po prawej stronie obrazu</string>
   <!-- Statusbar Clock -->
   <string name="status_bar_clock">Zegar i data</string>
   <string name="status_bar_clock_summary">Skonfiguruj wygląd daty i zegara na pasku stanu</string>
@@ -434,8 +434,8 @@
   <string name="pocket_judge_title">Wykrywanie kieszeni</string>
   <string name="pocket_judge_summary">Zablokuj funkcje ekranu i przycisków, gdy urządzenie jest w kieszeni</string>
   <!-- Auto-brightness toggle -->
-  <string name="brightness_icon_title">Auto Brightness Icon</string>
-  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <string name="brightness_icon_title">Ikona Automatycznej jasności</string>
+  <string name="brightness_icon_summary">Pokaż ikone jasności na lewo od suwaka dostosowania jasności, aby automatycznie dostoswać jasnośc</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">QS footer warnings</string>
   <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
@@ -443,8 +443,31 @@
   <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
   <string name="pixel_navbar_anim_summary">Requires a config change(display size, navbar position, reboot) themes may overwrite</string>
   <!-- Accent Picker -->
-  <string name="accent_picker_dialog_title">Select an accent color</string>
-  <string name="theme_accent_picker_title">Accent color</string>
-  <string name="theme_accent_picker_summary">Select system theme accent color</string>
-  <string name="theme_accent_picker_default">Default</string>
+  <string name="accent_picker_dialog_title">Wybierz kolor akcentu systemu</string>
+  <string name="theme_accent_picker_title">Kolor akcentów</string>
+  <string name="theme_accent_picker_summary">Wybierz kolor akcentu motywu systemowego</string>
+  <string name="theme_accent_picker_default">Domyślne</string>
+  <!-- Hide notch -->
+  <string name="hide_notch_title">Hide notch</string>
+  <string name="hide_notch_summary">Apps can not use the notch area</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <!-- Expanded desktop -->
+  <string name="expanded_desktop_pref_title">Expanded desktop</string>
+  <string name="expanded_desktop_pref_summary">Set expanded desktop globally or per-app</string>
+  <string name="expanded_hide_nothing">Hide nothing</string>
+  <string name="expanded_hide_status">Hide status bar</string>
+  <string name="expanded_hide_navigation">Hide navigation bar</string>
+  <string name="expanded_hide_both">Hide both</string>
+  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
+  <string name="expanded_desktop_state">Expanded state</string>
+  <string name="expanded_enabled_for_all">Enabled for all</string>
+  <string name="expanded_user_configurable">User configurable</string>
+  <string name="expanded_desktop_style">Expanded desktop style</string>
+  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
+  <string name="expanded_desktop_title">Expanded desktop options</string>
 </resources>
