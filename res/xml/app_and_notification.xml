@@ -53,6 +53,13 @@
                 android:targetClass="com.android.settings.applications.appops.AppOpsSummary" />
         </Preference>
 
+    <!-- Expanded desktop -->
+    <Preference
+        android:key="expanded_desktop"
+        android:title="@string/expanded_desktop_pref_title"
+        android:summary="@string/expanded_desktop_pref_summary"
+        android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
+
     <!-- Notifications (appears before manage_perms), default apps (appears after) -->
     <PreferenceCategory
         android:key="dashboard_tile_placeholder"
