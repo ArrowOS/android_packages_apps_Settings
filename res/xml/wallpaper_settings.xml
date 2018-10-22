@@ -20,4 +20,14 @@
     android:key="wallpaper_type"
     android:title="@string/wallpaper_settings_fragment_title"
     settings:controller="com.android.settings.wallpaper.WallpaperTypePreferenceController">
+
+   <PreferenceCategory
+        android:title="@string/daydream_settings_category"
+	<Preference
+           android:key="screensaver"
+           android:title="@string/screensaver_settings_title"
+           android:fragment="com.android.settings.dream.DreamSettings"
+	   settings:searchable="false" />
+   </PreferenceCategory>
+
 </PreferenceScreen>
