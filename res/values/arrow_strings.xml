@@ -550,4 +550,9 @@
 
     <!-- Density category -->
     <string name="density_category">Density options</string>
+
+    <string name="clock_date_right">Right of time</string>
+    <string name="clock_date_left">Left of time</string>
+    <string name="clock_date_position">Date position</string>
+
 </resources>
