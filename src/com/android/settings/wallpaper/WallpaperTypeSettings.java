@@ -77,6 +77,17 @@ public class WallpaperTypeSettings extends SettingsPreferenceFragment implements
             pref.setIcon(info.loadIcon(pm));
             parent.addPreference(pref);
         }
+	if (mContext.getResources().getBoolean(
+                com.android.internal.R.bool.config_dreamsSupported))
+	{
+		Preference ssPref = new Preference(getPrefContext());
+		Intent ssPrefIntent = new Intent(intent.FLAG_ACTIVITY_FORWARD_RESULT);
+		ssPrefIntent.setComponent(new ComponentName(
+			"android.settings.DREAM_SETTINGS"));
+		ssPref.setIntent(ssPrefIntent);
+		ssPref.setTitle("Screensaver");
+		parent.addPreference(ssPref);
+	}
     }
 
     @Override
