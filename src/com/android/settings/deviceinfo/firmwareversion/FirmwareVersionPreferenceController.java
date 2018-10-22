@@ -29,7 +29,7 @@ import com.android.settingslib.core.AbstractPreferenceController;
 public class FirmwareVersionPreferenceController extends AbstractPreferenceController implements
         PreferenceControllerMixin {
 
-    private final static String FIRMWARE_VERSION_KEY = "firmware_version";
+    private final static String FIRMWARE_VERSION_KEY = "modversion";
 
     private final Fragment mFragment;
 
