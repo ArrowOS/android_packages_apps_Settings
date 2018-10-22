@@ -551,4 +551,7 @@
 
     <!-- Density category -->
     <string name="density_category">Density options</string>
+
+    <!-- Daydream category -->
+    <string name="daydream_settings_category">Daydream settings</string>
 </resources>
