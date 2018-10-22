@@ -24,6 +24,7 @@ import android.content.pm.ResolveInfo;
 import android.os.Bundle;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
+import android.provider.Settings;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
@@ -77,6 +78,15 @@ public class WallpaperTypeSettings extends SettingsPreferenceFragment implements
             pref.setIcon(info.loadIcon(pm));
             parent.addPreference(pref);
         }
+	if (this.getResources().getBoolean(
+                com.android.internal.R.bool.config_dreamsSupported))
+	{
+		Preference ssPref = new Preference(getPrefContext());
+		Intent ssPrefIntent = new Intent(Settings.ACTION_DREAM_SETTINGS);
+		ssPref.setIntent(ssPrefIntent);
+		ssPref.setTitle("Screensaver");
+		parent.addPreference(ssPref);
+	}
     }
 
     @Override
