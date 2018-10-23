@@ -37,16 +37,6 @@
         android:title="@string/notification_badging_title"
         settings:controller="com.android.settings.notification.BadgingNotificationPreferenceController"/>
 
-    <!-- Pulse notification light -->
-    <SwitchPreference
-        android:key="notification_pulse"
-        android:title="@string/notification_pulse_title"/>
-
-    <Preference
-         android:key="battery_charging_light"
-         android:fragment="com.android.settings.arrow.BatteryLightSettings"
-         android:title="@string/battery_light_settings" />
-
     <!-- Default notification ringtone -->
     <com.android.settings.DefaultRingtonePreference
         android:key="notification_default_ringtone"
