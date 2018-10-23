@@ -31,6 +31,7 @@ import android.provider.SearchIndexableResource;
 import android.support.annotation.VisibleForTesting;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceGroup;
+import android.support.v7.preference.PreferenceScreen;
 import android.text.BidiFormatter;
 import android.text.format.Formatter;
 import android.util.SparseArray;
@@ -84,6 +85,8 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     private static final String KEY_TIME_SINCE_LAST_FULL_CHARGE = "last_full_charge";
     private static final String KEY_BATTERY_SAVER_SUMMARY = "battery_saver_summary";
 
+    private static final String KEY_BATTERY_CHARGING_LIGHT = "battery_charging_light";
+
     @VisibleForTesting
     static final int BATTERY_INFO_LOADER = 1;
     @VisibleForTesting
@@ -107,6 +110,8 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     LayoutPreference mBatteryLayoutPref;
     @VisibleForTesting
     BatteryInfo mBatteryInfo;
+
+    Preference mBatteryLightPref;
 
     /**
      * SparseArray that maps uid to {@link Anomaly}, so we could find {@link Anomaly} by uid
@@ -226,6 +231,14 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         restartBatteryInfoLoader();
         mBatteryTipPreferenceController.restoreInstanceState(icicle);
         updateBatteryTipFlag(icicle);
+
+	mBatteryLightPref = (Preference) findPreference(KEY_BATTERY_CHARGING_LIGHT);
+	PreferenceScreen prefSet = getPreferenceScreen();
+	if (!getResources()
+                .getBoolean(com.android.internal.R.bool.config_intrusiveBatteryLed))
+	{
+		prefSet.removePreference(mBatteryLightPref);
+	}
     }
 
     @Override
