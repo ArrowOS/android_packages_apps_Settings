@@ -21,6 +21,8 @@ import android.content.Context;
 import android.support.annotation.VisibleForTesting;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
+import android.os.UserHandle;
+import android.provider.Settings;
 
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
@@ -45,6 +47,16 @@ public class AutoDarkUIPreferenceController extends DeveloperOptionsPreferenceCo
     @Override
     public String getPreferenceKey() {
         return DARK_UI_KEY;
+    }
+
+    @Override
+    public boolean isAvailable() {
+	return !Settings.System.getIntForUser(mContext.getContentResolver(),
+            Settings.System.SYSTEM_UI_THEME, 0, UserHandle.USER_CURRENT) == 2;
+//	if (NightDisable)
+//		return false;
+//	else
+//		return true;
     }
 
     @Override
