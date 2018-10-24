@@ -553,4 +553,9 @@
 
     <!-- Daydream category -->
     <string name="daydream_settings_category">Daydream settings</string>
+
+    <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">VoLTE icon</string>
+    <string name="volte_icon_summary">Display VoLTE icon</string>
+
 </resources>
