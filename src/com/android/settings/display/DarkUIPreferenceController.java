@@ -37,6 +37,7 @@ import java.util.List;
 
 import com.android.settings.R;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Handler;
 import android.widget.Toast;
 
@@ -45,8 +46,10 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
 
     private static final String SYSTEM_UI_THEME = "systemui_theme_style";
     private static final String SUBS_PACKAGE = "projekt.substratum";
+    private static final String AUTO_NIGHT_MODE = "dark_ui_mode";
     private ListPreference mSystemUiThemeStyle;
     private IStatusBarService mStatusBarService;
+    private Preference mAutoNightModePref;
 
     public DarkUIPreferenceController(Context context) {
         super(context);
@@ -66,7 +69,10 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
         mSystemUiThemeStyle = (ListPreference) screen.findPreference(SYSTEM_UI_THEME);
-	if (!ArrowUtils.isPackageInstalled(mContext, SUBS_PACKAGE)) {
+	mAutoNightModePref = (Preference) screen.findPreference(AUTO_NIGHT_MODE);
+	SharedPreferences sp = mContext.getSharedPreferences("mAutoNightModePref", mContext.MODE_PRIVATE);
+	boolean mAutoNightModeState = sp.getInt(AUTO_NIGHT_MODE, 0) == 0;
+	if (!ArrowUtils.isPackageInstalled(mContext, SUBS_PACKAGE) || mAutoNightModeState) {
         	int systemuiThemeStyle = Settings.System.getInt(mContext.getContentResolver(),
                 	Settings.System.SYSTEM_UI_THEME, 0);
         	int valueIndex = mSystemUiThemeStyle.findIndexOfValue(String.valueOf(systemuiThemeStyle));
@@ -75,7 +81,10 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
         	mSystemUiThemeStyle.setOnPreferenceChangeListener(this);
 	} else {
 	    mSystemUiThemeStyle.setEnabled(false);
-            mSystemUiThemeStyle.setSummary(R.string.disable_themes_installed_title);
+	    if (!mAutoNightModeState)
+		mSystemUiThemeStyle.setSummary(R.string.disable_night_mode_title);
+	    else
+                mSystemUiThemeStyle.setSummary(R.string.disable_themes_installed_title);
         }
     }
     @Override
