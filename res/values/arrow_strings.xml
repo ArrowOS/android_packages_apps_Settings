@@ -561,4 +561,10 @@
     <string name="lights_category_title">Light settings</string>
     <string name="notification_light_title">Notification light</string>
 
+    <!-- Notification light settings -->
+    <string name="lights_category_title">Light settings</string>
+    <string name="notification_light_title">Notification light</string>
+
+    <!-- Night mode disable -->
+    <string name="disable_night_mode_title">System themes are disabled. Turn off night mode to use the themes</string>
 </resources>
