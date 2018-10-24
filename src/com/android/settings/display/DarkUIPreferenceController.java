@@ -39,6 +39,7 @@ import com.android.settings.R;
 import android.content.Intent;
 import android.os.Handler;
 import android.widget.Toast;
+import android.content.res.Configuration;
 
 public class DarkUIPreferenceController extends AbstractPreferenceController implements
        PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
@@ -66,7 +67,9 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
         mSystemUiThemeStyle = (ListPreference) screen.findPreference(SYSTEM_UI_THEME);
-	if (!ArrowUtils.isPackageInstalled(mContext, SUBS_PACKAGE)) {
+	Configuration config = mContext.getResources().getConfiguration();
+	boolean nightModeState = (config.uiMode & Configuration.UI_MODE_NIGHT_MASK) == Configuration.UI_MODE_NIGHT_NO;
+	if (!ArrowUtils.isPackageInstalled(mContext, SUBS_PACKAGE) || nightModeState) {
         	int systemuiThemeStyle = Settings.System.getInt(mContext.getContentResolver(),
                 	Settings.System.SYSTEM_UI_THEME, 0);
         	int valueIndex = mSystemUiThemeStyle.findIndexOfValue(String.valueOf(systemuiThemeStyle));
@@ -75,7 +78,10 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
         	mSystemUiThemeStyle.setOnPreferenceChangeListener(this);
 	} else {
 	    mSystemUiThemeStyle.setEnabled(false);
-            mSystemUiThemeStyle.setSummary(R.string.disable_themes_installed_title);
+	    if (!nightModeState)
+		mSystemUiThemeStyle.setSummary(R.string.disable_night_mode_title);
+	    else
+                mSystemUiThemeStyle.setSummary(R.string.disable_themes_installed_title);
         }
     }
     @Override
