@@ -561,4 +561,8 @@
     <string name="lights_category_title">Light settings</string>
     <string name="notification_light_title">Notification light</string>
 
+    <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">VoLTE icon</string>
+    <string name="volte_icon_summary">Display VoLTE icon (Needs a SystemUI restart to take effect)</string>
+
 </resources>
