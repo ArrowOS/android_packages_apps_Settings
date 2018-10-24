@@ -121,15 +121,15 @@
         android:title="@string/proximity_wake_title"
         android:summary="@string/proximity_wake_summary" />
 
-         <!-- Pocket Mode -->
-         <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
-            android:key="pocket_judge"
-            android:title="@string/pocket_judge_title"
-            android:summary="@string/pocket_judge_summary"
-            android:defaultValue="false" />
-
     <PreferenceCategory
         android:title="@string/statusbar_category_title">
+
+    <!-- VoLTE Icon -->
+        <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+        android:key="show_volte_icon"
+        android:title="@string/volte_icon_title"
+        android:summary="@string/volte_icon_summary"
+        android:defaultValue="false"/>
 
 	<com.android.settings.arrow.preferences.SystemSettingSwitchPreference
         android:key="double_tap_sleep_gesture"
@@ -169,12 +169,11 @@
 
     <PreferenceCategory
         android:title="@string/misc_category_title">
-         <Preference
-            android:key="recents"
-            android:fragment="com.android.settings.arrow.StockRecentCategory"
-            android:title="@string/aosp_recents_title"
-            android:summary="@string/aosp_recents_title_summary" />
-
+    <Preference
+        android:key="recents"
+        android:fragment="com.android.settings.arrow.StockRecentCategory"
+        android:title="@string/aosp_recents_title"
+        android:summary="@string/aosp_recents_title_summary" />
     <Preference
         android:key="qs_rows_columns"
         android:fragment="com.android.settings.arrow.QsRowsColumns"
@@ -185,6 +184,13 @@
         android:fragment="com.android.settings.arrow.Weather"
         android:title="@string/weather_title" 
         android:summary="@string/weather_config_title_summary" />
+    <!-- Pocket Mode -->
+    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+       android:key="pocket_judge"
+       android:title="@string/pocket_judge_title"
+       android:summary="@string/pocket_judge_summary"
+       android:defaultValue="false" />
+
     </PreferenceCategory >
 
     <Preference
