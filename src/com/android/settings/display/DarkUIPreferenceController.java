@@ -47,6 +47,7 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
     private static final String SUBS_PACKAGE = "projekt.substratum";
     private ListPreference mSystemUiThemeStyle;
     private IStatusBarService mStatusBarService;
+    private boolean NightModeState;
 
     public DarkUIPreferenceController(Context context) {
         super(context);
@@ -66,7 +67,11 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
         mSystemUiThemeStyle = (ListPreference) screen.findPreference(SYSTEM_UI_THEME);
-	if (!ArrowUtils.isPackageInstalled(mContext, SUBS_PACKAGE)) {
+	final int defaultNightMode = mContext.getResources().getInteger(
+                com.android.internal.R.integer.config_defaultNightMode);
+	NightModeState = Settings.Secure.getInt(mContext.getContentResolver(),
+                Settings.Secure.UI_NIGHT_MODE, defaultNightMode) == 1;
+	if (!ArrowUtils.isPackageInstalled(mContext, SUBS_PACKAGE) || NightModeState) {
         	int systemuiThemeStyle = Settings.System.getInt(mContext.getContentResolver(),
                 	Settings.System.SYSTEM_UI_THEME, 0);
         	int valueIndex = mSystemUiThemeStyle.findIndexOfValue(String.valueOf(systemuiThemeStyle));
@@ -75,7 +80,10 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
         	mSystemUiThemeStyle.setOnPreferenceChangeListener(this);
 	} else {
 	    mSystemUiThemeStyle.setEnabled(false);
-            mSystemUiThemeStyle.setSummary(R.string.disable_themes_installed_title);
+	    if (!NightModeState)
+		mSystemUiThemeStyle.setSummary(R.string.disable_night_mode_title);
+	    else
+                mSystemUiThemeStyle.setSummary(R.string.disable_themes_installed_title);
         }
     }
     @Override
