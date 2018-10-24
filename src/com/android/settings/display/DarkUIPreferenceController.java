@@ -30,6 +30,7 @@ import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.internal.statusbar.IStatusBarService;
 
 import com.android.internal.util.arrow.ArrowUtils;
+import android.app.UiModeManager;
 
 import libcore.util.Objects;
 import java.util.ArrayList;
@@ -47,6 +48,7 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
     private static final String SUBS_PACKAGE = "projekt.substratum";
     private ListPreference mSystemUiThemeStyle;
     private IStatusBarService mStatusBarService;
+    private UiModeManager mUiModeManager;
 
     public DarkUIPreferenceController(Context context) {
         super(context);
@@ -66,7 +68,8 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
         mSystemUiThemeStyle = (ListPreference) screen.findPreference(SYSTEM_UI_THEME);
-	if (!ArrowUtils.isPackageInstalled(mContext, SUBS_PACKAGE)) {
+	int nightModeState = mUiModeManager.getNightMode();
+	if (!ArrowUtils.isPackageInstalled(mContext, SUBS_PACKAGE) || nightModeState == UiModeManager.MODE_NIGHT_NO) {
         	int systemuiThemeStyle = Settings.System.getInt(mContext.getContentResolver(),
                 	Settings.System.SYSTEM_UI_THEME, 0);
         	int valueIndex = mSystemUiThemeStyle.findIndexOfValue(String.valueOf(systemuiThemeStyle));
@@ -75,7 +78,10 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
         	mSystemUiThemeStyle.setOnPreferenceChangeListener(this);
 	} else {
 	    mSystemUiThemeStyle.setEnabled(false);
-            mSystemUiThemeStyle.setSummary(R.string.disable_themes_installed_title);
+	    if (nightModeState != UiModeManager.MODE_NIGHT_NO)
+		mSystemUiThemeStyle.setSummary(R.string.disable_night_mode_title);
+	    else
+                mSystemUiThemeStyle.setSummary(R.string.disable_themes_installed_title);
         }
     }
     @Override
