@@ -16,6 +16,7 @@
 * limitations under the License.
 */
 -->
+
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Manual provisioning support -->
@@ -43,7 +44,9 @@
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
 
+    <!-- About ArrowOS -->
     <string name="rom_version_title">ArrowOS version</string>
+    <string name="build_date">Build date</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
