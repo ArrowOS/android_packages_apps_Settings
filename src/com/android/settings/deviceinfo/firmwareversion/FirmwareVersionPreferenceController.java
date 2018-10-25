@@ -19,6 +19,7 @@ package com.android.settings.deviceinfo.firmwareversion;
 import android.app.Fragment;
 import android.content.Context;
 import android.os.Build;
+import android.os.SystemProperties;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
 import android.text.TextUtils;
@@ -30,6 +31,8 @@ public class FirmwareVersionPreferenceController extends AbstractPreferenceContr
         PreferenceControllerMixin {
 
     private final static String FIRMWARE_VERSION_KEY = "modversion";
+    private final static String PROPERTY_ARROW_VERSION = "ro.modversion";
+    private final static String PROPERTY_ARROW_RELEASE_TYPE = "ro.arrow.releasetype ";
 
     private final Fragment mFragment;
 
@@ -49,7 +52,9 @@ public class FirmwareVersionPreferenceController extends AbstractPreferenceContr
         super.displayPreference(screen);
         final Preference pref = screen.findPreference(getPreferenceKey());
         if (pref != null) {
-            pref.setSummary(Build.VERSION.RELEASE);
+	    String version = "Arrow-" + SystemProperties.get(PROPERTY_ARROW_VERSION);
+	    String releasetype = SystemProperties.get(PROPERTY_ARROW_RELEASE_TYPE).toLowerCase();
+            pref.setSummary(version + "|" + releasetype);
         }
     }
 
