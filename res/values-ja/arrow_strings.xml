@@ -40,7 +40,9 @@
   <string name="security_settings_fingerprint_enroll_find_sensor_message_right">端末右側にある指紋認証センサーを探します</string>
   <!-- Manage applications, package string displayed in app snippet -->
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+  <!-- About ArrowOS -->
   <string name="rom_version_title">ArrowOSバージョン</string>
+  <string name="build_date">Build date</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">色の選択</string>
   <string name="press_color_to_apply">色を選択して適用</string>
@@ -230,6 +232,8 @@
   <string name="system_theme_style_black">ブラック</string>
   <string name="applying_theme_toast">テーマを適用中です。しばらくお待ちください...</string>
   <string name="theme_applied_toast">テーマが適用されました</string>
+  <string name="disable_themes_installed_title">System themes are unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use these themes instead.</string>
+  <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">天気</string>
   <string name="weather_config_title_summary">ステータスバーとロック画面の天気</string>
@@ -435,39 +439,45 @@
   <string name="pocket_judge_summary">ポケットに入っている時にタッチやボタン入力を無効化する</string>
   <!-- Auto-brightness toggle -->
   <string name="brightness_icon_title">自動明るさアイコン</string>
-  <string name="brightness_icon_summary">明るさスライダーの隣に自動明るさボタンを表示する</string>
+  <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust auto-brightness</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">クイック設定下部の警告</string>
   <string name="qs_footer_warnings_summary">外部アプリやVPNでネットワーク監視されている時にクイック設定パネルの下部に警告を表示する</string>
   <!-- Navbar Animation -->
   <string name="pixel_navbar_anim_title">Pixelナビゲーションバーのアニメーション </string>
-  <string name="pixel_navbar_anim_summary">設定の変更（画面サイズ、ナビゲーションバーの位置、再起動）が必要です。テーマが上書きされる可能性があります。</string>
   <!-- Accent Picker -->
   <string name="accent_picker_dialog_title">アクセントカラーを選択する</string>
   <string name="theme_accent_picker_title">アクセントカラー</string>
   <string name="theme_accent_picker_summary">システムテーマのアクセントカラーを選択する</string>
   <string name="theme_accent_picker_default">既定</string>
   <!-- Hide notch -->
-  <string name="hide_notch_title">Hide notch</string>
-  <string name="hide_notch_summary">Apps can not use the notch area</string>
+  <string name="hide_notch_title">ノッチを隠す</string>
+  <string name="hide_notch_summary">アプリはノッチ領域を使えません</string>
   <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+  <string name="fp_unlock_keystore_title">指紋認証によるロック解除</string>
+  <string name="fp_unlock_keystore_summary">再起動後もPIN/パスワード/パターンによる認証なしで指紋認証によるロック解除を可能にします。\n注意：自己責任で使用してください！</string>
   <!-- Fingerprint authentication vibration -->
-  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <string name="fprint_sucess_vib_title">指紋認証時に振動する</string>
+  <string name="fprint_sucess_vib_summary">指紋認証が成功した時に振動させる</string>
   <!-- Expanded desktop -->
-  <string name="expanded_desktop_pref_title">Expanded desktop</string>
-  <string name="expanded_desktop_pref_summary">Set expanded desktop globally or per-app</string>
-  <string name="expanded_hide_nothing">Hide nothing</string>
-  <string name="expanded_hide_status">Hide status bar</string>
-  <string name="expanded_hide_navigation">Hide navigation bar</string>
-  <string name="expanded_hide_both">Hide both</string>
-  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-  <string name="expanded_desktop_state">Expanded state</string>
-  <string name="expanded_enabled_for_all">Enabled for all</string>
-  <string name="expanded_user_configurable">User configurable</string>
-  <string name="expanded_desktop_style">Expanded desktop style</string>
-  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-  <string name="expanded_desktop_title">Expanded desktop options</string>
+  <string name="expanded_desktop_pref_title">拡張デスクトップ</string>
+  <string name="expanded_desktop_pref_summary">拡張デスクトップを全体やアプリごとに設定する</string>
+  <string name="expanded_hide_nothing">非表示にしない</string>
+  <string name="expanded_hide_status">ステータスバーを非表示</string>
+  <string name="expanded_hide_navigation">ナビゲーションバーを非表示</string>
+  <string name="expanded_hide_both">両方を非表示</string>
+  <string name="expanded_nothing_to_show">アプリごとの拡張の状態のカスタム設定を追加するには「全て拡張」をオフにしてください</string>
+  <string name="expanded_desktop_state">拡張の状態</string>
+  <string name="expanded_enabled_for_all">全て拡張</string>
+  <string name="expanded_user_configurable">ユーザー設定</string>
+  <string name="expanded_desktop_style">拡張デスクトップのスタイル</string>
+  <string name="expanded_desktop_style_description">既定の拡張デスクトップスタイルを選択する</string>
+  <string name="expanded_desktop_title">拡張デスクトップの設定</string>
+  <!-- Density category -->
+  <string name="density_category">Density options</string>
+  <!-- Daydream category -->
+  <string name="daydream_settings_category">Daydream settings</string>
+  <!-- Notification light settings -->
+  <string name="lights_category_title">Light settings</string>
+  <string name="notification_light_title">Notification light</string>
 </resources>

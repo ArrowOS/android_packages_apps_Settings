@@ -40,7 +40,9 @@
   <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Vyhledejte snímač otisků prstů na pravé straně telefonu.</string>
   <!-- Manage applications, package string displayed in app snippet -->
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+  <!-- About ArrowOS -->
   <string name="rom_version_title">Verze ArrowOS</string>
+  <string name="build_date">Build date</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Výběr barvy</string>
   <string name="press_color_to_apply">Klikněte na barvu pro její výběr</string>
@@ -230,6 +232,8 @@
   <string name="system_theme_style_black">Černý</string>
   <string name="applying_theme_toast">Aplikuji motiv, čekejte prosím...</string>
   <string name="theme_applied_toast">Motiv použit!</string>
+  <string name="disable_themes_installed_title">System themes are unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use these themes instead.</string>
+  <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Počasí</string>
   <string name="weather_config_title_summary">Počasí na zamykací obrazovce a stavové liště</string>
@@ -435,39 +439,45 @@
   <string name="pocket_judge_summary">Blokovat obrazovku a hardwarová tlačítka, když je zařízení v kapse</string>
   <!-- Auto-brightness toggle -->
   <string name="brightness_icon_title">Ikona automatického jasu</string>
-  <string name="brightness_icon_summary">Zobrazit ikonu jasu na levé straně posuvníku k přepnutí automatického jasu</string>
+  <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust auto-brightness</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">Výstrahy ve spodní části panelu QS</string>
   <string name="qs_footer_warnings_summary">Zobrazit varování ve spodní části panelu rychlého nastavení při monitorování sítě externími aplikacemi nebo VPN</string>
   <!-- Navbar Animation -->
   <string name="pixel_navbar_anim_title">Pixel animace navigačního panelu</string>
-  <string name="pixel_navbar_anim_summary">Vyžaduje změnu konfigurace (velikost obrazovky, umístění navigačního panelu, restart), která může přepsat motivy</string>
   <!-- Accent Picker -->
   <string name="accent_picker_dialog_title">Vyberte doplňkovou barvu</string>
   <string name="theme_accent_picker_title">Doplňková barva</string>
   <string name="theme_accent_picker_summary">Vyberte doplňkovou barvu systému</string>
   <string name="theme_accent_picker_default">Výchozí</string>
   <!-- Hide notch -->
-  <string name="hide_notch_title">Hide notch</string>
-  <string name="hide_notch_summary">Apps can not use the notch area</string>
+  <string name="hide_notch_title">Skrýt výřez</string>
+  <string name="hide_notch_summary">Aplikace nemůžou použít oblast výřezu</string>
   <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+  <string name="fp_unlock_keystore_title">Odemknout pomocí otisku prstu</string>
+  <string name="fp_unlock_keystore_summary">Odemknutí zařízení pomocí otisku prstu po restartu bez zadání PINu/hesla/Vzoru\nUpozornění: na vlastní nebezpečí!</string>
   <!-- Fingerprint authentication vibration -->
-  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <string name="fprint_sucess_vib_title">Vibrovat při ověření otisků prstů</string>
+  <string name="fprint_sucess_vib_summary">Vibrovat při úspěšném ověření otisku prstu</string>
   <!-- Expanded desktop -->
-  <string name="expanded_desktop_pref_title">Expanded desktop</string>
-  <string name="expanded_desktop_pref_summary">Set expanded desktop globally or per-app</string>
-  <string name="expanded_hide_nothing">Hide nothing</string>
-  <string name="expanded_hide_status">Hide status bar</string>
-  <string name="expanded_hide_navigation">Hide navigation bar</string>
-  <string name="expanded_hide_both">Hide both</string>
-  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-  <string name="expanded_desktop_state">Expanded state</string>
-  <string name="expanded_enabled_for_all">Enabled for all</string>
-  <string name="expanded_user_configurable">User configurable</string>
-  <string name="expanded_desktop_style">Expanded desktop style</string>
-  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-  <string name="expanded_desktop_title">Expanded desktop options</string>
+  <string name="expanded_desktop_pref_title">Rozšířená plocha</string>
+  <string name="expanded_desktop_pref_summary">Globálně nastavit rozšířenou plochu nebo podle aplikace</string>
+  <string name="expanded_hide_nothing">Nic neskrývat</string>
+  <string name="expanded_hide_status">Skrýt stavovou lištu</string>
+  <string name="expanded_hide_navigation">Skrýt navigační panel</string>
+  <string name="expanded_hide_both">Skrýt obojí</string>
+  <string name="expanded_nothing_to_show">Dotykem přidejte nastavení pro aplikace, nebo přepněte na vypnuto pro \"Povoleno pro všechny aplikace\"</string>
+  <string name="expanded_desktop_state">Rozšířená obrazovka</string>
+  <string name="expanded_enabled_for_all">Povoleno pro všechny aplikace</string>
+  <string name="expanded_user_configurable">Uživatelsky nastavitelné</string>
+  <string name="expanded_desktop_style">Vzhled rozšířené plochy</string>
+  <string name="expanded_desktop_style_description">Vyberte výchozí styl rozšířené plochy</string>
+  <string name="expanded_desktop_title">Možnosti rozšířené plochy</string>
+  <!-- Density category -->
+  <string name="density_category">Density options</string>
+  <!-- Daydream category -->
+  <string name="daydream_settings_category">Daydream settings</string>
+  <!-- Notification light settings -->
+  <string name="lights_category_title">Light settings</string>
+  <string name="notification_light_title">Notification light</string>
 </resources>

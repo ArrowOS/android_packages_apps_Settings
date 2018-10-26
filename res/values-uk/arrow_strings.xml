@@ -40,7 +40,9 @@
   <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Знайдіть сенсор відбитків пальців на правій грані вашого смартфона.</string>
   <!-- Manage applications, package string displayed in app snippet -->
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+  <!-- About ArrowOS -->
   <string name="rom_version_title">Версія ArrowOS</string>
+  <string name="build_date">Build date</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Палітра кольорів</string>
   <string name="press_color_to_apply">Натисніть на колір нижче, щоб застосувати</string>
@@ -76,7 +78,7 @@
   <string name="advanced_power_menu">Параметри меню живлення</string>
   <string name="arrow_reboot_menu">Розширене меню перезавантаження</string>
   <string name="powermenu_reboot_title">Перезавантаження</string>
-  <string name="powermenu_airplane_title">Режим \"у літаку\"</string>
+  <string name="powermenu_airplane_title">Режим польоту</string>
   <string name="powermenu_advanced_reboot_title">Розширене перезавантаження</string>
   <string name="powermenu_advanced_reboot_summary">Вмикає меню швидкого перезапуску з такими опціями: швидкий перезапуск, режим відновлення та завантажувач, та перезапуск системного інтерфейсу</string>
   <string name="powermenu_screenshot_title">Знімок екрану</string>
@@ -103,12 +105,12 @@
   <string name="action_entry_default_action">За замовчуванням</string>
   <string name="action_entry_select_app">Оберіть додаток</string>
   <string name="action_entry_custom_action">Виберіть власну дію</string>
-  <string name="hardware_keys_volume_keys_title">Клавіша регулювання гучності</string>
+  <string name="hardware_keys_volume_keys_title">Клавіши регулювання гучності</string>
   <string name="hardware_keys_home_key_title">Клавіша «Додому»</string>
-  <string name="hardware_keys_menu_key_title">Кнопка «Меню»</string>
-  <string name="hardware_keys_assist_key_title">Кнопка «Пошук»</string>
-  <string name="hardware_keys_appswitch_key_title">Кнопка \"Огляд\"</string>
-  <string name="hardware_keys_back_key_title">Кнопка «Назад»</string>
+  <string name="hardware_keys_menu_key_title">Клавіша \"Меню\"</string>
+  <string name="hardware_keys_assist_key_title">Клавіша \"Пошук\"</string>
+  <string name="hardware_keys_appswitch_key_title">Клавіша \"Огляд\"</string>
+  <string name="hardware_keys_back_key_title">Клавіша \"Назад\"</string>
   <string name="hardware_keys_double_tap_summary">Задати дію подвійного натискання</string>
   <string name="hardware_keys_single_tap_summary">Задати дію одинарного натискання</string>
   <string name="hardware_keys_long_press_summary">Задати дію тривалого натискання</string>
@@ -140,7 +142,7 @@
   <string name="volume_button_music_control_title">Управління відтворенням</string>
   <string name="volume_button_music_control_summary">Коли екран вимкнений, тривале натискання клавіш регулювання гучності буде перемикати музичні композиції</string>
   <!-- Volume rocker wake -->
-  <string name="volume_rocker_wake_title">Гучність сигналу Будильника</string>
+  <string name="volume_rocker_wake_title">Пробудження клавішами гучності</string>
   <string name="volume_rocker_wake_summary">Пробудження пристрою натиснувши кнопок гучності</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Налаштування панелі навігації</string>
@@ -204,7 +206,7 @@
   <string name="qs_columns_portrait_title">Кількість стовпців (портрет)</string>
   <string name="qs_columns_landscape_title">Кількість стовпців (ландшафт)</string>
   <!-- Volume key rotation -->
-  <string name="swap_volume_buttons_title">Автоповорот</string>
+  <string name="swap_volume_buttons_title">Реорієнтація</string>
   <string name="swap_volume_buttons_summary">Поміняти кнопки регулювання гучності, коли екран повернений</string>
   <!-- QuickSettings Panel Transparency -->
   <string name="qs_panel_alpha_title">Непрозорість панелі швидких налаштувань</string>
@@ -230,6 +232,8 @@
   <string name="system_theme_style_black">Чорна</string>
   <string name="applying_theme_toast">Застосування теми, будь ласка, зачекайте...</string>
   <string name="theme_applied_toast">Тему застосовано!</string>
+  <string name="disable_themes_installed_title">System themes are unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use these themes instead.</string>
+  <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Погода</string>
   <string name="weather_config_title_summary">Погода в статусбарі і на екрані блокування</string>
@@ -431,43 +435,49 @@
   <string name="qs_tile_title_visibility_title">Підпис плиток</string>
   <string name="qs_tile_title_visibility_summary">Показувати підпис під кожною плиткою (потребує перезагрузку SystemUI)</string>
   <!-- Pocket judge -->
-  <string name="pocket_judge_title">Режим в Кишені</string>
+  <string name="pocket_judge_title">Режим \"В кишені\"</string>
   <string name="pocket_judge_summary">Заблокувати екран і кнопки, коли пристрій перебуває в кишені</string>
   <!-- Auto-brightness toggle -->
   <string name="brightness_icon_title">Значок автоматичної яскравості</string>
-  <string name="brightness_icon_summary">Показати піктограму ввімкнення авто-яскравості ліворуч від повзунка</string>
+  <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust auto-brightness</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">QS попередження знизу</string>
   <string name="qs_footer_warnings_summary">Відображати попередження в нижній частині панелі налаштувань, коли мережа контролюється зовнішніми додатками або vpn</string>
   <!-- Navbar Animation -->
   <string name="pixel_navbar_anim_title">Анімація рядку навігації Pixel</string>
-  <string name="pixel_navbar_anim_summary">Для застосування вибраних змін потрібна перезагрузка</string>
   <!-- Accent Picker -->
   <string name="accent_picker_dialog_title">Виберіть колір акценту</string>
   <string name="theme_accent_picker_title">Колір акценту</string>
   <string name="theme_accent_picker_summary">Оберіть колір акценту системної теми</string>
   <string name="theme_accent_picker_default">За замовчанням</string>
   <!-- Hide notch -->
-  <string name="hide_notch_title">Hide notch</string>
-  <string name="hide_notch_summary">Apps can not use the notch area</string>
+  <string name="hide_notch_title">Сховати виріз</string>
+  <string name="hide_notch_summary">Програми не можуть використовувати область вирізу</string>
   <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+  <string name="fp_unlock_keystore_title">Розблокувати відбитком пальця</string>
+  <string name="fp_unlock_keystore_summary">Розблокувати пристрій сканером відбитків після перезавантаження без PIN-коду/Паролю/, Графічного паролю\nПримітка: на свій страх і ризик!</string>
   <!-- Fingerprint authentication vibration -->
-  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <string name="fprint_sucess_vib_title">Вібрація при розпізнаванні відбитку пальця</string>
+  <string name="fprint_sucess_vib_summary">Вібрувати при успішному розпізнаванні відбитку пальця</string>
   <!-- Expanded desktop -->
-  <string name="expanded_desktop_pref_title">Expanded desktop</string>
-  <string name="expanded_desktop_pref_summary">Set expanded desktop globally or per-app</string>
-  <string name="expanded_hide_nothing">Hide nothing</string>
-  <string name="expanded_hide_status">Hide status bar</string>
-  <string name="expanded_hide_navigation">Hide navigation bar</string>
-  <string name="expanded_hide_both">Hide both</string>
-  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-  <string name="expanded_desktop_state">Expanded state</string>
-  <string name="expanded_enabled_for_all">Enabled for all</string>
-  <string name="expanded_user_configurable">User configurable</string>
-  <string name="expanded_desktop_style">Expanded desktop style</string>
-  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-  <string name="expanded_desktop_title">Expanded desktop options</string>
+  <string name="expanded_desktop_pref_title">Розширений екран</string>
+  <string name="expanded_desktop_pref_summary">Встановити розширений екран глобально, або для окремих програм</string>
+  <string name="expanded_hide_nothing">Нічого не ховати</string>
+  <string name="expanded_hide_status">Приховувати рядок стану</string>
+  <string name="expanded_hide_navigation">Приховувати панель навігації</string>
+  <string name="expanded_hide_both">Приховувати обидва</string>
+  <string name="expanded_nothing_to_show">Для додавання конфігурації розширеного екрану окремо для кожної програми поставте перемикач «Увімкнути для всіх» у значення «Вимкнено»</string>
+  <string name="expanded_desktop_state">Розширений режим</string>
+  <string name="expanded_enabled_for_all">Увімкнуто для всіх</string>
+  <string name="expanded_user_configurable">Налаштовується користувачем</string>
+  <string name="expanded_desktop_style">Стиль розширеного екрану</string>
+  <string name="expanded_desktop_style_description">Виберіть типовий стиль розширеного екрану</string>
+  <string name="expanded_desktop_title">Параметри розширеного екрану</string>
+  <!-- Density category -->
+  <string name="density_category">Density options</string>
+  <!-- Daydream category -->
+  <string name="daydream_settings_category">Daydream settings</string>
+  <!-- Notification light settings -->
+  <string name="lights_category_title">Light settings</string>
+  <string name="notification_light_title">Notification light</string>
 </resources>

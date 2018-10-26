@@ -40,7 +40,9 @@
   <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Localize o Sensor de Impressão Digital na Parte Lateral Direita de Seu Telefone.</string>
   <!-- Manage applications, package string displayed in app snippet -->
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+  <!-- About ArrowOS -->
   <string name="rom_version_title">Versão ArrowOS</string>
+  <string name="build_date">Build date</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Seletor de cores</string>
   <string name="press_color_to_apply">Pressione na cor abaixo para aplicar</string>
@@ -230,6 +232,8 @@
   <string name="system_theme_style_black">Preto</string>
   <string name="applying_theme_toast">Aplicando tema, por favor aguarde...</string>
   <string name="theme_applied_toast">Tema aplicado!</string>
+  <string name="disable_themes_installed_title">System themes are unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use these themes instead.</string>
+  <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Clima</string>
   <string name="weather_config_title_summary">Clima na barra de status e tela de bloqueio</string>
@@ -435,39 +439,45 @@
   <string name="pocket_judge_summary">Bloquear a tela e os botões quando o dispositivo estiver no bolso</string>
   <!-- Auto-brightness toggle -->
   <string name="brightness_icon_title">Ícone de auto-brilho</string>
-  <string name="brightness_icon_summary">Mostrar o ícone de brilho a esquerda do controle de brilho para ajustar o auto-brilho</string>
+  <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust auto-brightness</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">Avisos do rodapé nas configurações rápidas</string>
   <string name="qs_footer_warnings_summary">Exibir um aviso na parte inferior do painel de configurações rápidas quando a rede é monitorada por aplicativos externos ou vpn</string>
   <!-- Navbar Animation -->
   <string name="pixel_navbar_anim_title">Animação da barra de navegação Pixel</string>
-  <string name="pixel_navbar_anim_summary">Requer que os temas de alteração de configuração (tamanho de exibição, posição da barra de navegação, reinicialização) possam sobrescrever</string>
   <!-- Accent Picker -->
   <string name="accent_picker_dialog_title">Selecione uma cor para os detalhes</string>
   <string name="theme_accent_picker_title">Cor dos detalhes</string>
   <string name="theme_accent_picker_summary">Selecione a cor de destaque do tema do sistema</string>
   <string name="theme_accent_picker_default">Padrão</string>
   <!-- Hide notch -->
-  <string name="hide_notch_title">Hide notch</string>
-  <string name="hide_notch_summary">Apps can not use the notch area</string>
+  <string name="hide_notch_title">Ocultar entalhe</string>
+  <string name="hide_notch_summary">Apps não podem usar a área de entalhe</string>
   <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+  <string name="fp_unlock_keystore_title">Desbloqueio com impressão digital</string>
+  <string name="fp_unlock_keystore_summary">Desbloquear o dispositivo com impressão digital após a reinicialização sem pedir o pin/senha/padrão.\nAtenção: Tenha cuidado, use por sua conta e risco!</string>
   <!-- Fingerprint authentication vibration -->
-  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <string name="fprint_sucess_vib_title">Vibrar após impressão digital</string>
+  <string name="fprint_sucess_vib_summary">Vibração na autenticação da impressão digital concluida</string>
   <!-- Expanded desktop -->
-  <string name="expanded_desktop_pref_title">Expanded desktop</string>
-  <string name="expanded_desktop_pref_summary">Set expanded desktop globally or per-app</string>
-  <string name="expanded_hide_nothing">Hide nothing</string>
-  <string name="expanded_hide_status">Hide status bar</string>
-  <string name="expanded_hide_navigation">Hide navigation bar</string>
-  <string name="expanded_hide_both">Hide both</string>
-  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-  <string name="expanded_desktop_state">Expanded state</string>
-  <string name="expanded_enabled_for_all">Enabled for all</string>
-  <string name="expanded_user_configurable">User configurable</string>
-  <string name="expanded_desktop_style">Expanded desktop style</string>
-  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-  <string name="expanded_desktop_title">Expanded desktop options</string>
+  <string name="expanded_desktop_pref_title">Área de trabalho expandida</string>
+  <string name="expanded_desktop_pref_summary">Definir o ambiente de trabalho expandido globalmente ou por-app</string>
+  <string name="expanded_hide_nothing">Não ocultar nada</string>
+  <string name="expanded_hide_status">Ocultar a barra de status</string>
+  <string name="expanded_hide_navigation">Ocultar barra de navegação</string>
+  <string name="expanded_hide_both">Ocultar ambas</string>
+  <string name="expanded_nothing_to_show">Para adicionar uma configuração de aplicativo personalizado por aplicativo para estado expandido, defina \"Ativados para todos\" como desativado</string>
+  <string name="expanded_desktop_state">Modo expandido</string>
+  <string name="expanded_enabled_for_all">Ativado para todos</string>
+  <string name="expanded_user_configurable">Configuração do usuário</string>
+  <string name="expanded_desktop_style">Estilo área de trabalho expandida</string>
+  <string name="expanded_desktop_style_description">Escolher um estilo padrão para a área de trabalho expandida</string>
+  <string name="expanded_desktop_title">Opções da área de trabalho expandida</string>
+  <!-- Density category -->
+  <string name="density_category">Density options</string>
+  <!-- Daydream category -->
+  <string name="daydream_settings_category">Daydream settings</string>
+  <!-- Notification light settings -->
+  <string name="lights_category_title">Light settings</string>
+  <string name="notification_light_title">Notification light</string>
 </resources>

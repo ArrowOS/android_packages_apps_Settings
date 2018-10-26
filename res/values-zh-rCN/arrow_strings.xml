@@ -40,7 +40,9 @@
   <string name="security_settings_fingerprint_enroll_find_sensor_message_right">您可以在手机右侧找到指纹传感器。</string>
   <!-- Manage applications, package string displayed in app snippet -->
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+  <!-- About ArrowOS -->
   <string name="rom_version_title">ArrowOS 版本</string>
+  <string name="build_date">Build date</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">颜色选择器</string>
   <string name="press_color_to_apply">点击下列颜色以应用</string>
@@ -230,6 +232,8 @@
   <string name="system_theme_style_black">黑色</string>
   <string name="applying_theme_toast">正在应用主题，请稍等…</string>
   <string name="theme_applied_toast">主题已应用！</string>
+  <string name="disable_themes_installed_title">System themes are unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use these themes instead.</string>
+  <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">天气</string>
   <string name="weather_config_title_summary">状态栏和锁屏天气</string>
@@ -435,39 +439,45 @@
   <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
   <!-- Auto-brightness toggle -->
   <string name="brightness_icon_title">自动亮度图标</string>
-  <string name="brightness_icon_summary">在亮度滑块左侧显示一个用于开启自动亮度的图标</string>
+  <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust auto-brightness</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">快速设置页脚警告</string>
   <string name="qs_footer_warnings_summary">当网络被 VPN 或者应用程序监测时，在快速设置底部显示一个警告。</string>
   <!-- Navbar Animation -->
   <string name="pixel_navbar_anim_title">Pixel 导航栏动画</string>
-  <string name="pixel_navbar_anim_summary">更改 (显示大小、导航栏位置、重新启动) 主题可能需要重启</string>
   <!-- Accent Picker -->
   <string name="accent_picker_dialog_title">选择强调色</string>
   <string name="theme_accent_picker_title">主题色</string>
   <string name="theme_accent_picker_summary">选择系统主题强调色</string>
   <string name="theme_accent_picker_default">默认</string>
   <!-- Hide notch -->
-  <string name="hide_notch_title">Hide notch</string>
-  <string name="hide_notch_summary">Apps can not use the notch area</string>
+  <string name="hide_notch_title">隐藏“刘海”</string>
+  <string name="hide_notch_summary">应用无法使用“刘海”区域</string>
   <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+  <string name="fp_unlock_keystore_title">指纹解锁</string>
+  <string name="fp_unlock_keystore_summary">在重启后可直接使用指纹解锁设备，无须 PIN/密码/图案\n注意： 风险由您自己承担！</string>
   <!-- Fingerprint authentication vibration -->
-  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <string name="fprint_sucess_vib_title">指纹认证震动</string>
+  <string name="fprint_sucess_vib_summary">验证指纹成功时震动</string>
   <!-- Expanded desktop -->
-  <string name="expanded_desktop_pref_title">Expanded desktop</string>
-  <string name="expanded_desktop_pref_summary">Set expanded desktop globally or per-app</string>
-  <string name="expanded_hide_nothing">Hide nothing</string>
-  <string name="expanded_hide_status">Hide status bar</string>
-  <string name="expanded_hide_navigation">Hide navigation bar</string>
-  <string name="expanded_hide_both">Hide both</string>
-  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-  <string name="expanded_desktop_state">Expanded state</string>
-  <string name="expanded_enabled_for_all">Enabled for all</string>
-  <string name="expanded_user_configurable">User configurable</string>
-  <string name="expanded_desktop_style">Expanded desktop style</string>
-  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-  <string name="expanded_desktop_title">Expanded desktop options</string>
+  <string name="expanded_desktop_pref_title">扩展桌面</string>
+  <string name="expanded_desktop_pref_summary">全局或按应用设置扩展桌面</string>
+  <string name="expanded_hide_nothing">不隐藏</string>
+  <string name="expanded_hide_status">隐藏状态栏</string>
+  <string name="expanded_hide_navigation">隐藏导航栏</string>
+  <string name="expanded_hide_both">同时隐藏</string>
+  <string name="expanded_nothing_to_show">要添加一个为单个应用配置的扩展状态，请关闭 “全部开启”</string>
+  <string name="expanded_desktop_state">扩展桌面状态</string>
+  <string name="expanded_enabled_for_all">全部启用</string>
+  <string name="expanded_user_configurable">用户配置</string>
+  <string name="expanded_desktop_style">扩展桌面样式</string>
+  <string name="expanded_desktop_style_description">选择默认的扩展桌面样式</string>
+  <string name="expanded_desktop_title">扩展桌面选项</string>
+  <!-- Density category -->
+  <string name="density_category">Density options</string>
+  <!-- Daydream category -->
+  <string name="daydream_settings_category">Daydream settings</string>
+  <!-- Notification light settings -->
+  <string name="lights_category_title">Light settings</string>
+  <string name="notification_light_title">Notification light</string>
 </resources>

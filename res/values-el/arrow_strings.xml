@@ -40,7 +40,9 @@
   <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Εντοπίστε τον αισθητήρα δακτυλικών αποτυπωμάτων στη δεξιά πλευρά του τηλεφώνου σας.</string>
   <!-- Manage applications, package string displayed in app snippet -->
   <string name="packagename_text"><xliff:g id="process">%1$s</xliff:g></string>
+  <!-- About ArrowOS -->
   <string name="rom_version_title">Έκδοση ArrowOS</string>
+  <string name="build_date">Build date</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Επιλογέας χρώματος</string>
   <string name="press_color_to_apply">Πατήστε στο χρώμα της επιλογής σας για εφαρμογή</string>
@@ -230,6 +232,8 @@
   <string name="system_theme_style_black">Μαύρο</string>
   <string name="applying_theme_toast">Εφαρμογή θέματος, παρακαλώ περιμένετε...</string>
   <string name="theme_applied_toast">Το θέμα εφαρμόστηκε!</string>
+  <string name="disable_themes_installed_title">System themes are unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use these themes instead.</string>
+  <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Καιρός</string>
   <string name="weather_config_title_summary">Καιρός στην γραμμή κατάστασης και οθόνη κλειδώματος</string>
@@ -435,13 +439,12 @@
   <string name="pocket_judge_summary">Μπλοκάρετε την οθόνη και τα κουμπιά όταν η συσκευή είναι σε τσέπη</string>
   <!-- Auto-brightness toggle -->
   <string name="brightness_icon_title">Εικονίδιο αυτόματης φωτεινότητας</string>
-  <string name="brightness_icon_summary">Εμφάνιση ενός εικονιδίου στα αριστερά της μπάρας ρύθμισης φωτεινότητας για την αυτόματη ρύθμιση της φωτεινότητας</string>
+  <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust auto-brightness</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">Υποσέλιδο προειδοποιήσεων γρήγορων ρυθμίσεων</string>
   <string name="qs_footer_warnings_summary">Εμφάνιση μιας προειδοποίησης στο κάτω μέρος του πάνελ QS όταν το δίκτυο παρακολουθείται από εξωτερικές εφαρμογές ή vpn</string>
   <!-- Navbar Animation -->
   <string name="pixel_navbar_anim_title">Διάρκεια εφέ γραμμής πλοήγησης pixel</string>
-  <string name="pixel_navbar_anim_summary">Requires a config change(display size, navbar position, reboot) themes may overwrite</string>
   <!-- Accent Picker -->
   <string name="accent_picker_dialog_title">Επιλέξτε ένα χρώμα έμφασης</string>
   <string name="theme_accent_picker_title">Χρώμα έμφασης</string>
@@ -470,4 +473,11 @@
   <string name="expanded_desktop_style">Expanded desktop style</string>
   <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
   <string name="expanded_desktop_title">Expanded desktop options</string>
+  <!-- Density category -->
+  <string name="density_category">Density options</string>
+  <!-- Daydream category -->
+  <string name="daydream_settings_category">Daydream settings</string>
+  <!-- Notification light settings -->
+  <string name="lights_category_title">Light settings</string>
+  <string name="notification_light_title">Notification light</string>
 </resources>

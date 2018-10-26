@@ -40,7 +40,9 @@
   <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Localiza el sensor de huellas dactilares en el lado derecho del dispositivo.</string>
   <!-- Manage applications, package string displayed in app snippet -->
   <string name="packagename_text"><xliff:g id="nombre_del_paquete">%1$s</xliff:g></string>
+  <!-- About ArrowOS -->
   <string name="rom_version_title">Versión ArrowOS</string>
+  <string name="build_date">Build date</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Selector de Color</string>
   <string name="press_color_to_apply">Pulse en el color de abajo para aplicar</string>
@@ -51,7 +53,7 @@
   <string name="set">Aplicar</string>
   <string name="color_default">Por defecto</string>
   <!-- Face auto unlock -->
-  <string name="face_auto_unlock_title">Desbloqueo facial</string>
+  <string name="face_auto_unlock_title">Desbloqueo facial automático</string>
   <string name="face_auto_unlock_summary">Quitar el bloqueo de pantalla tras el desbloqueo facial</string>
   <!-- Scramble PIN Layout on Lockscreen -->
   <string name="unlock_scramble_pin_layout_title">Disposición aleatoria</string>
@@ -230,6 +232,8 @@
   <string name="system_theme_style_black">Negro</string>
   <string name="applying_theme_toast">Aplicando tema, por favor espere...</string>
   <string name="theme_applied_toast">¡Tema aplicado!</string>
+  <string name="disable_themes_installed_title">System themes are unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use these themes instead.</string>
+  <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Tiempo metereològico</string>
   <string name="weather_config_title_summary">Barra de estado y clima de la pantalla de bloqueo</string>
@@ -435,39 +439,45 @@
   <string name="pocket_judge_summary">Bloquear la pantalla y botones cuando el dispositivo esta en el bolsillo</string>
   <!-- Auto-brightness toggle -->
   <string name="brightness_icon_title">Icono de brillo automático</string>
-  <string name="brightness_icon_summary">Mostrar un icono de brillo a la izquierda de la barra de brillo para activar el brillo automático</string>
+  <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust auto-brightness</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">Advertencias al pie de página de Ajustes Rápidos</string>
   <string name="qs_footer_warnings_summary">Mostrar una advertencia en la parte inferior del panel de ajustes rápidos cuando la red se supervisa mediante aplicaciones externas o vpn</string>
   <!-- Navbar Animation -->
   <string name="pixel_navbar_anim_title">Animación de barra de navegación pixel</string>
-  <string name="pixel_navbar_anim_summary">Requiere un cambio de configuración (tamaño de visualización, posición de la barra de navegación, reinicio) los temas pueden sobrescribirse</string>
   <!-- Accent Picker -->
   <string name="accent_picker_dialog_title">Seleccione un color de acento</string>
   <string name="theme_accent_picker_title">Color de acento</string>
   <string name="theme_accent_picker_summary">Seleccione color de acento del tema de sistema</string>
   <string name="theme_accent_picker_default">Predeterminado</string>
   <!-- Hide notch -->
-  <string name="hide_notch_title">Hide notch</string>
-  <string name="hide_notch_summary">Apps can not use the notch area</string>
+  <string name="hide_notch_title">Ocultar notch</string>
+  <string name="hide_notch_summary">Aplicaciones que no pueden usar el área del notch</string>
   <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+  <string name="fp_unlock_keystore_title">Desbloqueo por huella</string>
+  <string name="fp_unlock_keystore_summary">Desbloqueo con huella digital después de reiniciar el dispositivo sin PIN/contraseña/patrón\nNota: ¡bajo su propio riesgo!</string>
   <!-- Fingerprint authentication vibration -->
-  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <string name="fprint_sucess_vib_title">Vibrar con la autenticación de huella digital</string>
+  <string name="fprint_sucess_vib_summary">Vibrar cuando la autenticación con la huella es correcta</string>
   <!-- Expanded desktop -->
-  <string name="expanded_desktop_pref_title">Expanded desktop</string>
-  <string name="expanded_desktop_pref_summary">Set expanded desktop globally or per-app</string>
-  <string name="expanded_hide_nothing">Hide nothing</string>
-  <string name="expanded_hide_status">Hide status bar</string>
-  <string name="expanded_hide_navigation">Hide navigation bar</string>
-  <string name="expanded_hide_both">Hide both</string>
-  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-  <string name="expanded_desktop_state">Expanded state</string>
-  <string name="expanded_enabled_for_all">Enabled for all</string>
-  <string name="expanded_user_configurable">User configurable</string>
-  <string name="expanded_desktop_style">Expanded desktop style</string>
-  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-  <string name="expanded_desktop_title">Expanded desktop options</string>
+  <string name="expanded_desktop_pref_title">Escritorio extendido</string>
+  <string name="expanded_desktop_pref_summary">Ajustar escritorio espandido globalmente o por app</string>
+  <string name="expanded_hide_nothing">No ocultar nada</string>
+  <string name="expanded_hide_status">Ocultar barra de estado</string>
+  <string name="expanded_hide_navigation">Ocultar barra de navegación</string>
+  <string name="expanded_hide_both">Ocultar ambas</string>
+  <string name="expanded_nothing_to_show">Para agregar una configuración personalizada por cada aplicación para el escritorio expandido, deshabilita la opción \"Habilitado para todos\"</string>
+  <string name="expanded_desktop_state">Estado de escritorio extendido</string>
+  <string name="expanded_enabled_for_all">Habilitado para todas</string>
+  <string name="expanded_user_configurable">Configurable por el usuario</string>
+  <string name="expanded_desktop_style">Estilo de escritorio extendido</string>
+  <string name="expanded_desktop_style_description">Elegir estilo predeterminado de escritorio extendido</string>
+  <string name="expanded_desktop_title">Opciones del escritorio extendido</string>
+  <!-- Density category -->
+  <string name="density_category">Density options</string>
+  <!-- Daydream category -->
+  <string name="daydream_settings_category">Daydream settings</string>
+  <!-- Notification light settings -->
+  <string name="lights_category_title">Light settings</string>
+  <string name="notification_light_title">Notification light</string>
 </resources>

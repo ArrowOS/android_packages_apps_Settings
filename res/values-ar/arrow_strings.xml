@@ -40,7 +40,9 @@
   <string name="security_settings_fingerprint_enroll_find_sensor_message_right">حدد موقع مستشعر بصمة الإصبع على الجانب الأيمن من هاتفك.</string>
   <!-- Manage applications, package string displayed in app snippet -->
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+  <!-- About ArrowOS -->
   <string name="rom_version_title">إصدار ArrowOS</string>
+  <string name="build_date">Build date</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">منتقي الألوان</string>
   <string name="press_color_to_apply">اضغط على اللون أدنـاه للتطبيق</string>
@@ -230,6 +232,8 @@
   <string name="system_theme_style_black">أسود</string>
   <string name="applying_theme_toast">جاري تطبيق السمة، يرجى الانتظار...</string>
   <string name="theme_applied_toast">تم تطبيق السمة!</string>
+  <string name="disable_themes_installed_title">System themes are unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use these themes instead.</string>
+  <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">الطقس</string>
   <string name="weather_config_title_summary">طقس شريط الحالة وشاشة القفل</string>
@@ -435,39 +439,45 @@
   <string name="pocket_judge_summary">الغاء تفعيل الشاشة و أزرار الإدخال عندما يكون الجهاز في الجيب</string>
   <!-- Auto-brightness toggle -->
   <string name="brightness_icon_title">علامه السطوع التلقائي</string>
-  <string name="brightness_icon_summary">أظهار رمز سطوع على يسار مزلاق السطوع لضبط السطوع التلقائي</string>
+  <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust auto-brightness</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">تحذيرات اسفل الإعدادات السريعة</string>
   <string name="qs_footer_warnings_summary">عرض تحذير أسفل لوحة الإعدادات السريعة عندما تكون الشبكة مراقبة عن طريق تطبيقات خارجية أو شبكة خاصة</string>
   <!-- Navbar Animation -->
   <string name="pixel_navbar_anim_title">تأثير حركة شريط تنقل بكسل</string>
-  <string name="pixel_navbar_anim_summary">يتطلب تغيير التهيئة (حجم الشاشة ، موضع شريط التنقل ، إعادة التشغيل) قد تتم الكتابة فوق السمات</string>
   <!-- Accent Picker -->
   <string name="accent_picker_dialog_title">حدد لون اللكنة</string>
   <string name="theme_accent_picker_title">لون اللكنة</string>
   <string name="theme_accent_picker_summary">حدد لون لكنة سمة النظام</string>
   <string name="theme_accent_picker_default">افتراضي</string>
   <!-- Hide notch -->
-  <string name="hide_notch_title">Hide notch</string>
-  <string name="hide_notch_summary">Apps can not use the notch area</string>
+  <string name="hide_notch_title">إخفاء النوتش</string>
+  <string name="hide_notch_summary">لا يمكن للتطبيقات استخدام منطقة النوتش</string>
   <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+  <string name="fp_unlock_keystore_title">فك قفل البصمة</string>
+  <string name="fp_unlock_keystore_summary">فُك قِفل الجهاز بالبصمة بعد إعادة التشغيل بدون رمز/كلمة مرور/نقش\nملاحظة: على مسؤوليتك الخاصة!</string>
   <!-- Fingerprint authentication vibration -->
-  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <string name="fprint_sucess_vib_title">إهتزاز تصريح البصمة</string>
+  <string name="fprint_sucess_vib_summary">إهتز عند نجاح تصريح البصمة</string>
   <!-- Expanded desktop -->
-  <string name="expanded_desktop_pref_title">Expanded desktop</string>
-  <string name="expanded_desktop_pref_summary">Set expanded desktop globally or per-app</string>
-  <string name="expanded_hide_nothing">Hide nothing</string>
-  <string name="expanded_hide_status">Hide status bar</string>
-  <string name="expanded_hide_navigation">Hide navigation bar</string>
-  <string name="expanded_hide_both">Hide both</string>
-  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-  <string name="expanded_desktop_state">Expanded state</string>
-  <string name="expanded_enabled_for_all">Enabled for all</string>
-  <string name="expanded_user_configurable">User configurable</string>
-  <string name="expanded_desktop_style">Expanded desktop style</string>
-  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-  <string name="expanded_desktop_title">Expanded desktop options</string>
+  <string name="expanded_desktop_pref_title">سطح المكتب الموسع</string>
+  <string name="expanded_desktop_pref_summary">تعيين سطح المكتب الموسع عالمياً أو لكل تطبيق</string>
+  <string name="expanded_hide_nothing">عدم إخفاء شيء</string>
+  <string name="expanded_hide_status">إخفاء شريط الحالة</string>
+  <string name="expanded_hide_navigation">إخفاء شريط التنقل</string>
+  <string name="expanded_hide_both">إخفاء كليهما</string>
+  <string name="expanded_nothing_to_show">لإضافة إعداد مخصص لكل تطبيق لحالة التوسّع, حدد \"تمكين للجميع\" لوضع إيقاف التشغيل</string>
+  <string name="expanded_desktop_state">الحالة الموسّعة</string>
+  <string name="expanded_enabled_for_all">مفعّل للكل</string>
+  <string name="expanded_user_configurable">يمكن تعديله من المستخدم</string>
+  <string name="expanded_desktop_style">نمط سطح المكتب الموسّع</string>
+  <string name="expanded_desktop_style_description">إختر نمط سطح المكتب الموسّع الإفتراضي</string>
+  <string name="expanded_desktop_title">خيارات سطح المكتب الموسع</string>
+  <!-- Density category -->
+  <string name="density_category">Density options</string>
+  <!-- Daydream category -->
+  <string name="daydream_settings_category">Daydream settings</string>
+  <!-- Notification light settings -->
+  <string name="lights_category_title">Light settings</string>
+  <string name="notification_light_title">Notification light</string>
 </resources>

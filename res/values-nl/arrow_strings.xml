@@ -35,12 +35,14 @@
   <string name="sub_deactivate_success">Simkaart uitgeschakeld.</string>
   <string name="sub_deactivate_failed">Uitschakelen mislukt.</string>
   <!-- Fingerprint location message -->
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Zoek de vingerafdruksensor op de voorkant van je telefoon.</string>
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Zoek de vingerafdruksensor op de linker zijkant van je telefoon.</string>
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Zoek de vingerafdruksensor op de rechter zijkant van je telefoon.</string>
   <!-- Manage applications, package string displayed in app snippet -->
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+  <!-- About ArrowOS -->
   <string name="rom_version_title">ArrowOS versie</string>
+  <string name="build_date">Build date</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Kleurkiezer</string>
   <string name="press_color_to_apply">Druk op de kleur hieronder om toe te passen</string>
@@ -58,10 +60,10 @@
   <string name="unlock_scramble_pin_layout_summary">PIN-lay-out door elkaar husselen bij apparaat ontgrendelen</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Snel ontgrendelen</string>
-  <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+  <string name="unlock_quick_unlock_control_summary">Ontgrendel automatisch wanneer de juiste pincode of wachtwoord is ingevoerd</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Oplaad info op vergrendelscherm</string>
-  <string name="lockscreen_battery_info_summary">Show charging current, voltage and battery temperature on lockscreen while charging</string>
+  <string name="lockscreen_battery_info_summary">Toon laadstroom, spanning en batterij temperatuur op vergrendelscherm tijdens het opladen</string>
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Schermafdruk geluid</string>
   <!-- meh ganeshi4u -->
@@ -73,8 +75,8 @@
   <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
   <string name="data_usage_app_restrict_wifi_summary">Schakel het gebruik van Wi\u2011Fi data in</string>
   <!-- Power Menu -->
-  <string name="advanced_power_menu">Power button options</string>
-  <string name="arrow_reboot_menu">Advanced reboot menu</string>
+  <string name="advanced_power_menu">Aan/uit knop aanpassen</string>
+  <string name="arrow_reboot_menu">Menu voor geavanceerd opstarten</string>
   <string name="powermenu_reboot_title">Herstarten</string>
   <string name="powermenu_airplane_title">Vliegtuigmodus</string>
   <string name="powermenu_advanced_reboot_title">Geavanceerd herstarten</string>
@@ -87,7 +89,7 @@
   <string name="powermenu_ls_advanced_reboot_summary">Toon de geavanceerde herstart optie op het vergrendelscherm</string>
   <string name="powermenu_ls_screenshot_summary">Toon de schermafdruk optie op het vergrendelscherm</string>
   <string name="powermenu_ls_airplane_summary">Toon de vliegtuigmodus optie op het vergrendelscherm</string>
-  <string name="powermenu_lockdown_title">Lockdown</string>
+  <string name="powermenu_lockdown_title">Blokkeer</string>
   <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="lockscreen_items_other">Overige</string>
@@ -115,23 +117,23 @@
   <string name="hardware_keys_single_tap_title">Actie bij enkele tik</string>
   <string name="hardware_keys_long_press_title">Actie bij lang indrukken</string>
   <string name="hardware_keys_double_tap_title">Actie bij dubbel tikken</string>
-  <string name="hard_soft_keys">Device buttons and navbar</string>
-  <string name="hard_soft_keys_summary">Hardware buttons and navigation bar options</string>
-  <string name="navigation_keys">Enable navigation bar</string>
-  <string name="navigation_keys_title">Onscreen navigation bar</string>
-  <string name="hardware_keys_category">Hardware navigation buttons</string>
-  <string name="hardware_keys_disable_title">Disable hardware buttons</string>
+  <string name="hard_soft_keys">Apparaat knoppen en navbar</string>
+  <string name="hard_soft_keys_summary">Hardwareknoppen en navigatie balk opties</string>
+  <string name="navigation_keys">Schakel navigatiebalk in</string>
+  <string name="navigation_keys_title">Op het scherm navigatiebalk</string>
+  <string name="hardware_keys_category">Hardware navigatieknoppen</string>
+  <string name="hardware_keys_disable_title">Hardware toetsen uitschakelen</string>
   <string name="hardware_keys_wake_title">Apparaat ontwaken</string>
   <!-- Settings categories -->
   <string name="statusbar_category_title">StatusBalk</string>
   <string name="buttons_category_title">Knoppen</string>
   <string name="misc_category_title">Diversen</string>
-  <string name="theme_category_title">System theme</string>
+  <string name="theme_category_title">Systeem thema</string>
   <!-- Button brightness -->
   <string name="button_backlight_options_category">Achtergrondverlichting opties</string>
   <string name="button_backlight_enable_title">Achtergrondverlichting van knoppen toestaan</string>
   <string name="button_link_brightness">Koppelen aan helderheid scherm</string>
-  <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
+  <string name="button_link_brightness_summary">Achtergrondverlichting van knoppen zal aangepast worden aan de hand van de schermhelderheid</string>
   <string name="button_manual_brightness">Helderheidsniveau</string>
   <string name="button_timeout_title">Time-out achtergrondverlichting</string>
   <string name="button_backlight_on_touch_only_title">Achtergrondverlichting van knoppen bij aanraken</string>
@@ -143,38 +145,38 @@
   <string name="volume_rocker_wake_title">Ontwaken met volumeknop</string>
   <string name="volume_rocker_wake_summary">Apparaat ontwaken door indrukken volumeknop</string>
   <!-- Navbar tuner -->
-  <string name="navbar_tuner_title">Navigation bar configs</string>
+  <string name="navbar_tuner_title">Navigatie balk instellingen</string>
   <!-- Heads up -->
-  <string name="heads_up_notifications">Heads up</string>
-  <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-  <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-  <string name="add_heads_up_package">Add app</string>
-  <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-  <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-  <string name="heads_up_stoplist_title">Stoplist</string>
+  <string name="heads_up_notifications">Zwevende meldingen</string>
+  <string name="summary_heads_up_enabled">Pop-up meldingen ingeschakeld</string>
+  <string name="summary_heads_up_disabled">Pop-up meldingen uitgeschakeld</string>
+  <string name="add_heads_up_package">App toevoegen</string>
+  <string name="add_heads_up_stoplist_summary">Heads-up meldingen in deze applicaties uitschakelen</string>
+  <string name="add_heads_up_blacklist_summary">Geen zwevende meldingen van deze apps weergegeven</string>
+  <string name="heads_up_stoplist_title">Stoplijst</string>
   <string name="heads_up_blacklist_title">Uitgesloten</string>
-  <string name="profile_choose_app">Choose app</string>
-  <string name="dialog_delete_title">Delete</string>
-  <string name="dialog_delete_message">Remove selected item?</string>
+  <string name="profile_choose_app">Kies app</string>
+  <string name="dialog_delete_title">Verwijderen</string>
+  <string name="dialog_delete_message">Geselecteerd item verwijderen?</string>
   <!-- Heads up timeout -->
   <string name="heads_up_time_out_title">Time out</string>
-  <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-  <string name="heads_up_time_out_2sec">2 seconds</string>
-  <string name="heads_up_time_out_4sec">4 seconds</string>
-  <string name="heads_up_time_out_5sec">5 seconds</string>
-  <string name="heads_up_time_out_6sec">6 seconds</string>
-  <string name="heads_up_time_out_8sec">8 seconds</string>
-  <string name="heads_up_time_out_10sec">10 seconds</string>
+  <string name="heads_up_time_out_summary">Notificaties zichtbaar voor <xliff:g id="number">%d</xliff:g> seconden</string>
+  <string name="heads_up_time_out_2sec">2 seconden</string>
+  <string name="heads_up_time_out_4sec">4 seconden</string>
+  <string name="heads_up_time_out_5sec">5 seconden</string>
+  <string name="heads_up_time_out_6sec">6 seconden</string>
+  <string name="heads_up_time_out_8sec">8 seconden</string>
+  <string name="heads_up_time_out_10sec">10 seconden</string>
   <!-- Heads up snooze -->
-  <string name="heads_up_snooze_title">Snooze timer</string>
+  <string name="heads_up_snooze_title">Sluimer timer</string>
   <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
   <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-  <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-  <string name="heads_up_snooze_1min">1 minute</string>
-  <string name="heads_up_snooze_5min">5 minutes</string>
-  <string name="heads_up_snooze_10min">10 minutes</string>
-  <string name="heads_up_snooze_15min">15 minutes</string>
-  <string name="heads_up_snooze_20min">20 minutes</string>
+  <string name="heads_up_snooze_disabled_summary">Snooze timer is uitgeschakeld</string>
+  <string name="heads_up_snooze_1min">1 minuut</string>
+  <string name="heads_up_snooze_5min">5 minuten</string>
+  <string name="heads_up_snooze_10min">10 minuten</string>
+  <string name="heads_up_snooze_15min">15 minuten</string>
+  <string name="heads_up_snooze_20min">20 minuten</string>
   <!-- Clear all recents -->
   <string name="aosp_recents_title">AOSP Recente apps</string>
   <string name="aosp_recents_title_summary">Oreo style recents configs, clear all FAB</string>
@@ -192,10 +194,10 @@
   <string name="proximity_wake_title">Per ongeluk ontwaken voorkomen</string>
   <string name="proximity_wake_summary">Nabijheidssensor gebruiken voorafgaand aan ontwaken van scherm</string>
   <!-- Statusbar Tuner -->
-  <string name="statusbar_items_title">Statusbar items</string>
-  <string name="statusbar_items_title_summary">Enable or disable statusbar icons</string>
+  <string name="statusbar_items_title">Statusbar Items</string>
+  <string name="statusbar_items_title_summary">Statusbalk systeemiconen in- of uitschakelen</string>
   <!-- Lockscreen icons -->
-  <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
+  <string name="lockscreen_tuner_title">Vergrendelscherm snelkoppelingen</string>
   <!-- QS rows and columns -->
   <string name="qs_rows_columns_title">Snelle instellingen aanpassen</string>
   <string name="qs_rows_columns_summary">Quicksettings rows and columns, titles, panel opacity</string>
@@ -230,6 +232,8 @@
   <string name="system_theme_style_black">Black</string>
   <string name="applying_theme_toast">Applying theme, please wait...</string>
   <string name="theme_applied_toast">Theme applied!</string>
+  <string name="disable_themes_installed_title">System themes are unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use these themes instead.</string>
+  <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Weather</string>
   <string name="weather_config_title_summary">Stautusbar and lockscreen weather</string>
@@ -435,13 +439,12 @@
   <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
   <!-- Auto-brightness toggle -->
   <string name="brightness_icon_title">Auto Brightness Icon</string>
-  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust auto-brightness</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">QS footer warnings</string>
   <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
   <!-- Navbar Animation -->
   <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
-  <string name="pixel_navbar_anim_summary">Requires a config change(display size, navbar position, reboot) themes may overwrite</string>
   <!-- Accent Picker -->
   <string name="accent_picker_dialog_title">Select an accent color</string>
   <string name="theme_accent_picker_title">Accent color</string>
@@ -470,4 +473,11 @@
   <string name="expanded_desktop_style">Expanded desktop style</string>
   <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
   <string name="expanded_desktop_title">Expanded desktop options</string>
+  <!-- Density category -->
+  <string name="density_category">Density options</string>
+  <!-- Daydream category -->
+  <string name="daydream_settings_category">Daydream settings</string>
+  <!-- Notification light settings -->
+  <string name="lights_category_title">Light settings</string>
+  <string name="notification_light_title">Notification light</string>
 </resources>

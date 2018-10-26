@@ -40,7 +40,9 @@
   <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Telefonunuzun sağ tarafındaki parmak izi sensörünü bulun.</string>
   <!-- Manage applications, package string displayed in app snippet -->
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+  <!-- About ArrowOS -->
   <string name="rom_version_title">ArrowOS sürümü</string>
+  <string name="build_date">Build date</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Renk seçin</string>
   <string name="press_color_to_apply">Uygulamak için aşağıdaki rengin üzerine basın</string>
@@ -230,6 +232,8 @@
   <string name="system_theme_style_black">Siyah</string>
   <string name="applying_theme_toast">Tema uygulanıyor, lütfen bekleyin...</string>
   <string name="theme_applied_toast">Tema uygulandı!</string>
+  <string name="disable_themes_installed_title">System themes are unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use these themes instead.</string>
+  <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Hava durumu</string>
   <string name="weather_config_title_summary">Durum çubuğunda ve kilit ekranında hava durumu</string>
@@ -435,39 +439,45 @@
   <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelleyin</string>
   <!-- Auto-brightness toggle -->
   <string name="brightness_icon_title">Otomatik parlaklık simgesi</string>
-  <string name="brightness_icon_summary">Hızlı ayarlar panelinde otomatik parlaklık simgesini göster</string>
+  <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust auto-brightness</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">Bilgi uyarıları</string>
   <string name="qs_footer_warnings_summary">Ağ harici uygulamalar veya VPN tarafından izlendiğinizde hızlı ayarlar panelinin altına bir uyarı göster</string>
   <!-- Navbar Animation -->
   <string name="pixel_navbar_anim_title">Pixel gezinme çubuğu animasyonu</string>
-  <string name="pixel_navbar_anim_summary">Bir yapılandırma değişikliği gerektirir (ekran boyutu, gezinme çubuğu konumu, yeniden başlatma) temalar üzerine yazabilir</string>
   <!-- Accent Picker -->
   <string name="accent_picker_dialog_title">Bir vurgu rengi seçin</string>
   <string name="theme_accent_picker_title">Vurgu rengi</string>
   <string name="theme_accent_picker_summary">Sistem teması için vurgu rengi seçin</string>
   <string name="theme_accent_picker_default">Varsayılan</string>
   <!-- Hide notch -->
-  <string name="hide_notch_title">Hide notch</string>
-  <string name="hide_notch_summary">Apps can not use the notch area</string>
+  <string name="hide_notch_title">Çentiği gizle</string>
+  <string name="hide_notch_summary">Uygulamalar çentik alanını kullanamaz</string>
   <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+  <string name="fp_unlock_keystore_title">Parmak iziyle kilit açma</string>
+  <string name="fp_unlock_keystore_summary">Yeniden başlattıktan sonra PIN/Şifre/Desen olmadan parmak iziyle cihazın kilidini açın\nNot: kendi sorumluluğunuzdadır!</string>
   <!-- Fingerprint authentication vibration -->
-  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <string name="fprint_sucess_vib_title">Parmak izi doğrulama titreşimi</string>
+  <string name="fprint_sucess_vib_summary">Başarılı parmak izi kimlik doğrulamasında titre</string>
   <!-- Expanded desktop -->
-  <string name="expanded_desktop_pref_title">Expanded desktop</string>
-  <string name="expanded_desktop_pref_summary">Set expanded desktop globally or per-app</string>
-  <string name="expanded_hide_nothing">Hide nothing</string>
-  <string name="expanded_hide_status">Hide status bar</string>
-  <string name="expanded_hide_navigation">Hide navigation bar</string>
-  <string name="expanded_hide_both">Hide both</string>
-  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-  <string name="expanded_desktop_state">Expanded state</string>
-  <string name="expanded_enabled_for_all">Enabled for all</string>
-  <string name="expanded_user_configurable">User configurable</string>
-  <string name="expanded_desktop_style">Expanded desktop style</string>
-  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-  <string name="expanded_desktop_title">Expanded desktop options</string>
+  <string name="expanded_desktop_pref_title">Genişletilmiş masaüstü</string>
+  <string name="expanded_desktop_pref_summary">Genişletilmiş masaüstünü global veya uygulama başına ayarla</string>
+  <string name="expanded_hide_nothing">Hiç bir şeyi gizleme</string>
+  <string name="expanded_hide_status">Durum çubuğunu gizle</string>
+  <string name="expanded_hide_navigation">Gezinme çubuğunu gizle</string>
+  <string name="expanded_hide_both">İkisini de gizle</string>
+  <string name="expanded_nothing_to_show">Genişletilmiş duruma uygulama başına özel bir yapılandırma eklemek için \"Tümü için etkin\" seçeneğini kapalı konuma getirin</string>
+  <string name="expanded_desktop_state">Genişletilmiş durum</string>
+  <string name="expanded_enabled_for_all">Tümü için etkin</string>
+  <string name="expanded_user_configurable">Kullanıcı tarafından yapılandırılabilir</string>
+  <string name="expanded_desktop_style">Genişletilmiş masaüstü stili</string>
+  <string name="expanded_desktop_style_description">Varsayılan genişletilmiş masaüstü stili seçin</string>
+  <string name="expanded_desktop_title">Genişletilmiş masaüstü seçenekleri</string>
+  <!-- Density category -->
+  <string name="density_category">Density options</string>
+  <!-- Daydream category -->
+  <string name="daydream_settings_category">Daydream settings</string>
+  <!-- Notification light settings -->
+  <string name="lights_category_title">Light settings</string>
+  <string name="notification_light_title">Notification light</string>
 </resources>

@@ -40,7 +40,9 @@
   <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Найдите сканер отпечатков пальцев на правой грани телефона.</string>
   <!-- Manage applications, package string displayed in app snippet -->
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+  <!-- About ArrowOS -->
   <string name="rom_version_title">Версия ArrowOS</string>
+  <string name="build_date">Build date</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Палитра цветов</string>
   <string name="press_color_to_apply">Нажмите на цвет ниже, чтобы применить</string>
@@ -230,6 +232,8 @@
   <string name="system_theme_style_black">Чёрная</string>
   <string name="applying_theme_toast">Применение темы, пожалуйста, подождите...</string>
   <string name="theme_applied_toast">Тема применена!</string>
+  <string name="disable_themes_installed_title">System themes are unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use these themes instead.</string>
+  <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Погода</string>
   <string name="weather_config_title_summary">Погода в строке состояния и на экране блокировки</string>
@@ -435,39 +439,45 @@
   <string name="pocket_judge_summary">Блокировать экран и физические кнопки, когда устройство находится в кармане</string>
   <!-- Auto-brightness toggle -->
   <string name="brightness_icon_title">Значок автоматической яркости</string>
-  <string name="brightness_icon_summary">Отображать значок слева от ползунка</string>
+  <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust auto-brightness</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">QS предупреждения снизу</string>
   <string name="qs_footer_warnings_summary">Показывать предупреждение внизу панели быстрых настроек, если сеть контролируется сторонними приложениями или VPN</string>
   <!-- Navbar Animation -->
   <string name="pixel_navbar_anim_title">Анимация навигационной панели Пиксель</string>
-  <string name="pixel_navbar_anim_summary">Для применения выбранных изменений требуется перезагрузка</string>
   <!-- Accent Picker -->
   <string name="accent_picker_dialog_title">Выберите цвет акцента</string>
   <string name="theme_accent_picker_title">Цвет акцента</string>
   <string name="theme_accent_picker_summary">Выберите цвет акцента системной темы</string>
   <string name="theme_accent_picker_default">По умолчанию</string>
   <!-- Hide notch -->
-  <string name="hide_notch_title">Hide notch</string>
-  <string name="hide_notch_summary">Apps can not use the notch area</string>
+  <string name="hide_notch_title">Скрыть вырез</string>
+  <string name="hide_notch_summary">Приложения не могут использовать область выреза</string>
   <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-  <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+  <string name="fp_unlock_keystore_title">Разблокировка отпечатком пальца</string>
+  <string name="fp_unlock_keystore_summary">Разблокировка устройства после перезагрузки с помощью отпечатка пальца без использования PIN-кода/Пароля/Графического ключа\nПримечание: используйте на свой страх и риск!</string>
   <!-- Fingerprint authentication vibration -->
-  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <string name="fprint_sucess_vib_title">Вибрация при авторизации отпечатком</string>
+  <string name="fprint_sucess_vib_summary">Вибрировать при успешном распознавании отпечатка пальцев</string>
   <!-- Expanded desktop -->
-  <string name="expanded_desktop_pref_title">Expanded desktop</string>
-  <string name="expanded_desktop_pref_summary">Set expanded desktop globally or per-app</string>
-  <string name="expanded_hide_nothing">Hide nothing</string>
-  <string name="expanded_hide_status">Hide status bar</string>
-  <string name="expanded_hide_navigation">Hide navigation bar</string>
-  <string name="expanded_hide_both">Hide both</string>
-  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-  <string name="expanded_desktop_state">Expanded state</string>
-  <string name="expanded_enabled_for_all">Enabled for all</string>
-  <string name="expanded_user_configurable">User configurable</string>
-  <string name="expanded_desktop_style">Expanded desktop style</string>
-  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-  <string name="expanded_desktop_title">Expanded desktop options</string>
+  <string name="expanded_desktop_pref_title">Расширенный рабочий стол</string>
+  <string name="expanded_desktop_pref_summary">Задать расширенный рабочий стол глобально или же для отдельных приложений</string>
+  <string name="expanded_hide_nothing">Ничего не скрывать</string>
+  <string name="expanded_hide_status">Скрывать строку состояния</string>
+  <string name="expanded_hide_navigation">Скрывать панель навигации</string>
+  <string name="expanded_hide_both">Скрывать обе</string>
+  <string name="expanded_nothing_to_show">Для настройки параметров расширенного экрана отдельных приложений, переведите переключатель \"Включить для всех\" в отключенное состояние</string>
+  <string name="expanded_desktop_state">Расширенный режим</string>
+  <string name="expanded_enabled_for_all">Включен для всех</string>
+  <string name="expanded_user_configurable">Настраивается пользователем</string>
+  <string name="expanded_desktop_style">Стиль расширенного рабочего стола</string>
+  <string name="expanded_desktop_style_description">Выбрать стиль расширенного рабочего стола по умолчанию</string>
+  <string name="expanded_desktop_title">Настройки расширенного рабочего стола</string>
+  <!-- Density category -->
+  <string name="density_category">Density options</string>
+  <!-- Daydream category -->
+  <string name="daydream_settings_category">Daydream settings</string>
+  <!-- Notification light settings -->
+  <string name="lights_category_title">Light settings</string>
+  <string name="notification_light_title">Notification light</string>
 </resources>
