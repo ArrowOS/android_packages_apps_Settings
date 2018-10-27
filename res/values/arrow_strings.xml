@@ -48,6 +48,12 @@
     <string name="rom_version_title">ArrowOS version</string>
     <string name="build_date">Build date</string>
 
+    <!-- Selinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
@@ -561,7 +567,5 @@
     <string name="lights_category_title">Light settings</string>
     <string name="notification_light_title">Notification light</string>
 
-    <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Battery saver dark mode</string>
-    <string name="battery_saver_night_mode_summary">Switch SystemUI theme to dark mode when battery saver is enabled.</string>
 </resources>
+
