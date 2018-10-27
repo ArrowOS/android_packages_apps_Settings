@@ -561,4 +561,11 @@
     <string name="lights_category_title">Light settings</string>
     <string name="notification_light_title">Notification light</string>
 
+    <!-- Selinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+
 </resources>
+
