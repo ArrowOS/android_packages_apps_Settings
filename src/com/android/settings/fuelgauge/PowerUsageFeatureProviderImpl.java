@@ -150,7 +150,7 @@ public class PowerUsageFeatureProviderImpl implements PowerUsageFeatureProvider 
         colIndex = cursor.getColumnIndex(AVERAGE_BATTERY_LIFE_COL);
         if (colIndex != -1) {
             long avgBattery = cursor.getLong(colIndex);
-            if (avgBattery != -1L) {
+            if (avgBattery != -1L && avgBattery != null) {
                 dischargeTime = Duration.ofMinutes(15L).toMillis();
                 if (Duration.ofMillis(avgBattery).compareTo(Duration.ofDays(1L)) >= 0)
                     dischargeTime = Duration.ofHours(1L).toMillis();
