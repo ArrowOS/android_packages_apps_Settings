@@ -48,6 +48,12 @@
         settings:controller="com.android.settings.gestures.DoubleTwistPreferenceController" />
 
     <Preference
+        android:key="double_tap_power_flashlight_summary"
+        android:title="@string/double_tap_power_flashlight_screen_title"
+        android:fragment="com.android.settings.gestures.DoubleTapPowerFlashlightSettings"
+        settings:controller="com.android.settings.gestures.DoubleTapPowerFlashlightPreferenceController" />
+
+    <Preference
         android:key="gesture_system_navigation_input_summary"
         android:title="@string/system_navigation_title"
         android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
