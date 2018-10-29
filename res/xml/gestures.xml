@@ -106,6 +106,12 @@
             android:title="@string/double_tap_sleep_lockscreen_title"
             android:defaultValue="true" />
 
+        <Preference
+            android:key="double_tap_power_flashlight_summary"
+            android:title="@string/double_tap_power_flashlight_screen_title"
+            android:fragment="com.android.settings.gestures.DoubleTapPowerFlashlightSettings"
+            settings:controller="com.android.settings.gestures.DoubleTapPowerFlashlightPreferenceController" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
