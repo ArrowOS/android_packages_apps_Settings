@@ -42,7 +42,7 @@
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
   <!-- About ArrowOS -->
   <string name="rom_version_title">ArrowOS versi</string>
-  <string name="build_date">Build date</string>
+  <string name="build_date">Tanggal pembuatan</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Pemilih Warna</string>
   <string name="press_color_to_apply">Tekan pada warna di bawah untuk menerapkan</string>
@@ -207,69 +207,69 @@
   <string name="qs_columns_landscape_title">Kolom dasar pada lanskap</string>
   <!-- Volume key rotation -->
   <string name="swap_volume_buttons_title">Reorientasi</string>
-  <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
+  <string name="swap_volume_buttons_summary">Tukar tombol suara ketika layar diputar</string>
   <!-- QuickSettings Panel Transparency -->
-  <string name="qs_panel_alpha_title">QS panel opacity</string>
+  <string name="qs_panel_alpha_title">Transparansi panel QS</string>
   <!-- Changelog -->
-  <string name="changelog_title">Changelog</string>
-  <string name="changelog_summary">Since the last update</string>
-  <string name="changelog_error">Unable to load changelog</string>
+  <string name="changelog_title">Perubahan</string>
+  <string name="changelog_summary">Sejak pemutahiran terakhir</string>
+  <string name="changelog_error">Tidak dapat memuat perubahan</string>
   <!-- Battery light -->
-  <string name="battery_light_settings">Battery charging light</string>
-  <string name="battery_light_enable">Battery light</string>
-  <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-  <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-  <string name="battery_light_cat">Battery light color when charging</string>
-  <string name="battery_light_low_color">Low battery</string>
-  <string name="battery_light_medium_color">Medium battery</string>
-  <string name="battery_light_full_color">Almost full battery</string>
-  <string name="battery_light_reallyfull_color">Full (100) battery</string>
+  <string name="battery_light_settings">Lampu pengisian baterai</string>
+  <string name="battery_light_enable">Lampu baterai</string>
+  <string name="battery_light_allow_on_dnd_title">Lampu baterai ketika mode Jangan Ganggu</string>
+  <string name="battery_light_low_blinking_title">Lampu berkedip saat baterai lemah</string>
+  <string name="battery_light_cat">Warna lampu baterai saat pengisian</string>
+  <string name="battery_light_low_color">Baterai lemah</string>
+  <string name="battery_light_medium_color">Baterai sedang</string>
+  <string name="battery_light_full_color">Baterai hampir penuh</string>
+  <string name="battery_light_reallyfull_color">Baterai penuh (100)</string>
   <!-- SystemUI theme -->
-  <string name="systemui_theme_style_title">SystemUI theme</string>
-  <string name="systemui_theme_style_auto">Automatic (wallpaper based)</string>
-  <string name="systemui_theme_style_light">Light</string>
-  <string name="systemui_theme_style_dark">Dark</string>
-  <string name="system_theme_style_black">Black</string>
-  <string name="applying_theme_toast">Applying theme, please wait...</string>
-  <string name="theme_applied_toast">Theme applied!</string>
-  <string name="disable_themes_installed_title">System themes are unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use these themes instead.</string>
-  <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
+  <string name="systemui_theme_style_title">Tema SystemUI</string>
+  <string name="systemui_theme_style_auto">Otomatis (berbasis wallpaper)</string>
+  <string name="systemui_theme_style_light">Terang</string>
+  <string name="systemui_theme_style_dark">Gelap</string>
+  <string name="system_theme_style_black">Hitam</string>
+  <string name="applying_theme_toast">Menerapkan tema, silahkan tunggu...</string>
+  <string name="theme_applied_toast">Tema diterapkan!</string>
+  <string name="disable_themes_installed_title">Tema sistem tidak tersedia untuk menghindari konflik dengan Substratum. Copot jika Anda ingin menggunakan tema ini.</string>
+  <string name="disable_accents_installed_title">Pimilih aksen tidak tersedia untuk menghindari konflik dengan Substratum. Copot jika Anda ingin menggunakan pemilih aksen.</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Cuaca</string>
-  <string name="weather_config_title_summary">Stautusbar and lockscreen weather</string>
-  <string name="weather_config_title">Service settings</string>
+  <string name="weather_config_title_summary">Cuaca di Statusbar dan lockscreen</string>
+  <string name="weather_config_title">Setelan layanan</string>
   <string name="weather_config_summary"></string>
-  <string name="header_weather_title">Header view weather</string>
-  <string name="header_weather_summary">Enable notification panel header weather display</string>
-  <string name="weather_icon_pack_title">Condition icon pack</string>
-  <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+  <string name="header_weather_title">Tampilkan cuaca dipanel atas</string>
+  <string name="header_weather_summary">Hidupkan notifikasi cucaca di atas pemberitahuan panel</string>
+  <string name="weather_icon_pack_title">Keadaan paket ikon</string>
+  <string name="weather_icon_pack_note">Catatan\u003a anda bisa memasang paket ikon baru dari play store dengan mencari \"Chronus icons\"</string>
   <!-- Network traffic -->
-  <string name="traffic_title">Traffic indicators</string>
-  <string name="network_traffic_title">Network traffic</string>
-  <string name="network_traffic_type">Select net activity type</string>
-  <string name="show_network_traffic_up">Uplink</string>
-  <string name="show_network_traffic_down">Downlink</string>
-  <string name="show_network_traffic_all">Uplink and Downlink</string>
-  <string name="network_traffic_state_title">Show net activity in statusbar</string>
-  <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+  <string name="traffic_title">Indikator lalu lintas</string>
+  <string name="network_traffic_title">Lalu lintas jaringan</string>
+  <string name="network_traffic_type">Pilih tipe aktvitas jaringan</string>
+  <string name="show_network_traffic_up">Keluar</string>
+  <string name="show_network_traffic_down">Masuk</string>
+  <string name="show_network_traffic_all">Keluar dan Masuk</string>
+  <string name="network_traffic_state_title">Tampilkan aktivitas jaringan di bilah status</string>
+  <string name="network_traffic_autohide_threshold_title">Ambang batas untuk otomatis menyembunyikan aktivitas jaringan (KB/s)</string>
   <!-- StatusBar weather settings -->
-  <string name="statusbar_weather_title">Status bar weather</string>
-  <string name="statusbar_weather_summary">Configure from QS settings/Weather</string>
+  <string name="statusbar_weather_title">Bilah status cuaca</string>
+  <string name="statusbar_weather_summary">Konfigurasi dari pengaturan QS/Cuaca</string>
   <string name="statusbar_weather_dialog_title">Gaya cuaca status bar</string>
-  <string name="status_bar_weather_hidden">Hide weather</string>
-  <string name="status_bar_temperature_image_show_scale">Show temp with scale and image</string>
-  <string name="status_bar_temperature_image_hide_scale">Show temp with image without scale</string>
-  <string name="status_bar_temperature_show_scale_hide_image">Show temp with scale</string>
-  <string name="status_bar_temperature_hide_scale_hide_image">Show temp without scale</string>
-  <string name="status_bar_show_image">Show image</string>
+  <string name="status_bar_weather_hidden">Sembunyikan cuaca</string>
+  <string name="status_bar_temperature_image_show_scale">Tampilkan suhu dengan skala dan gambar</string>
+  <string name="status_bar_temperature_image_hide_scale">Tampilkan suhu dengan gambar tanpa skala</string>
+  <string name="status_bar_temperature_show_scale_hide_image">Tampilkan suhu dengan skala</string>
+  <string name="status_bar_temperature_hide_scale_hide_image">Tampilkan suhu tanpa skala</string>
+  <string name="status_bar_show_image">Tampilkan gambar</string>
   <!-- Lockscreen weather settings -->
-  <string name="lockscreen_weather_title">Lockscreen weather</string>
-  <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
-  <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
+  <string name="lockscreen_weather_title">Cuaca di layar kunci</string>
+  <string name="lockscreen_weather_summary">Tampilkan kondisi cuaca dan suhu saat ini di layar kunci</string>
+  <string name="lockscreen_items_aod_info_title">Konfigurasi visibilitas ini juga berlaku untuk tampilan ambien</string>
   <string name="lockscreen_weather_show_city_title">Tampilkan nama kota</string>
-  <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-  <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-  <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+  <string name="lockscreen_weather_show_city_summary">Tampilkan nama kota saat ini di sebelah kiri gambar</string>
+  <string name="lockscreen_weather_show_temp_title">Tampilkan suhu</string>
+  <string name="lockscreen_weather_show_temp_summary">Tampilkan suhu kota saat ini di sebelah kanan gambar</string>
   <!-- Statusbar Clock -->
   <string name="status_bar_clock">Jam dan Tanggal
 </string>

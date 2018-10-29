@@ -42,7 +42,7 @@
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
   <!-- About ArrowOS -->
   <string name="rom_version_title">ArrowOSバージョン</string>
-  <string name="build_date">Build date</string>
+  <string name="build_date">ビルド日時</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">色の選択</string>
   <string name="press_color_to_apply">色を選択して適用</string>
@@ -232,8 +232,8 @@
   <string name="system_theme_style_black">ブラック</string>
   <string name="applying_theme_toast">テーマを適用中です。しばらくお待ちください...</string>
   <string name="theme_applied_toast">テーマが適用されました</string>
-  <string name="disable_themes_installed_title">System themes are unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use these themes instead.</string>
-  <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
+  <string name="disable_themes_installed_title">システムテーマはSubstratumとの競合のため使用できません。代わりにこれらのシステムテーマを使用したい場合はSubstratumをアンインストールしてください。</string>
+  <string name="disable_accents_installed_title">アクセントピッカーはSubstratumとの競合のため利用できません。 アクセントピッカーを使用する場合はSubstratumをアンインストールしてください。</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">天気</string>
   <string name="weather_config_title_summary">ステータスバーとロック画面の天気</string>
@@ -439,7 +439,7 @@
   <string name="pocket_judge_summary">ポケットに入っている時にタッチやボタン入力を無効化する</string>
   <!-- Auto-brightness toggle -->
   <string name="brightness_icon_title">自動明るさアイコン</string>
-  <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust auto-brightness</string>
+  <string name="brightness_icon_summary">明るさスライダーの右に自動明るさボタンを表示する</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">クイック設定下部の警告</string>
   <string name="qs_footer_warnings_summary">外部アプリやVPNでネットワーク監視されている時にクイック設定パネルの下部に警告を表示する</string>
@@ -474,10 +474,10 @@
   <string name="expanded_desktop_style_description">既定の拡張デスクトップスタイルを選択する</string>
   <string name="expanded_desktop_title">拡張デスクトップの設定</string>
   <!-- Density category -->
-  <string name="density_category">Density options</string>
+  <string name="density_category">解像度オプション</string>
   <!-- Daydream category -->
-  <string name="daydream_settings_category">Daydream settings</string>
+  <string name="daydream_settings_category">Daydreamの設定</string>
   <!-- Notification light settings -->
-  <string name="lights_category_title">Light settings</string>
-  <string name="notification_light_title">Notification light</string>
+  <string name="lights_category_title">ライトの設定</string>
+  <string name="notification_light_title">通知のライト</string>
 </resources>

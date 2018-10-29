@@ -23,7 +23,7 @@
   <string name="sim_disabled">disabled</string>
   <string name="sim_missing">missing or faulty</string>
   <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
-  <string name="sim_enabler_will_disable_sim_title">Attention</string>
+  <string name="sim_enabler_will_disable_sim_title">注意</string>
   <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
   <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
   <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
@@ -51,7 +51,7 @@
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
   <string name="set">Set</string>
-  <string name="color_default">Default</string>
+  <string name="color_default">預設</string>
   <!-- Face auto unlock -->
   <string name="face_auto_unlock_title">Face auto unlock</string>
   <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
@@ -59,7 +59,7 @@
   <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
   <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
   <!-- Quick unlock -->
-  <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+  <string name="unlock_quick_unlock_control_title">快速解鎖</string>
   <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
@@ -75,10 +75,10 @@
   <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
   <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
   <!-- Power Menu -->
-  <string name="advanced_power_menu">Power button options</string>
+  <string name="advanced_power_menu">電源按鈕操作</string>
   <string name="arrow_reboot_menu">Advanced reboot menu</string>
   <string name="powermenu_reboot_title">Reboot</string>
-  <string name="powermenu_airplane_title">Airplane mode</string>
+  <string name="powermenu_airplane_title">飛航模式</string>
   <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
   <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
   <string name="powermenu_screenshot_title">Screenshot</string>
@@ -92,7 +92,7 @@
   <string name="powermenu_lockdown_title">Lockdown</string>
   <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
-  <string name="lockscreen_items_other">Other</string>
+  <string name="lockscreen_items_other">其它</string>
   <!-- Roaming indicator icon -->
   <string name="roaming_indicator_icon_title">Roaming indicator</string>
   <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
@@ -100,11 +100,11 @@
   <string name="picker_activities">Activities</string>
   <string name="select_custom_app_title">Select custom app</string>
   <string name="select_custom_activity_title">Select custom activity</string>
-  <string name="profile_applist_title">Applications</string>
+  <string name="profile_applist_title">應用程式</string>
   <string name="choose_action_title">Choose action</string>
-  <string name="action_entry_default_action">Default settings</string>
-  <string name="action_entry_select_app">Select application</string>
-  <string name="action_entry_custom_action">Select custom action</string>
+  <string name="action_entry_default_action">預設設定</string>
+  <string name="action_entry_select_app">選擇應用程式</string>
+  <string name="action_entry_custom_action">選擇自訂動作</string>
   <string name="hardware_keys_volume_keys_title">Volume rocker</string>
   <string name="hardware_keys_home_key_title">Home button</string>
   <string name="hardware_keys_menu_key_title">Menu button</string>
@@ -127,8 +127,8 @@
   <!-- Settings categories -->
   <string name="statusbar_category_title">StatusBar</string>
   <string name="buttons_category_title">Buttons</string>
-  <string name="misc_category_title">Misc</string>
-  <string name="theme_category_title">System theme</string>
+  <string name="misc_category_title">雜項</string>
+  <string name="theme_category_title">系統主題</string>
   <!-- Button brightness -->
   <string name="button_backlight_options_category">Backlight options</string>
   <string name="button_backlight_enable_title">Allow button backlight</string>
@@ -154,29 +154,29 @@
   <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
   <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
   <string name="heads_up_stoplist_title">Stoplist</string>
-  <string name="heads_up_blacklist_title">Blacklist</string>
-  <string name="profile_choose_app">Choose app</string>
-  <string name="dialog_delete_title">Delete</string>
+  <string name="heads_up_blacklist_title">黑名單</string>
+  <string name="profile_choose_app">選擇應用程式</string>
+  <string name="dialog_delete_title">刪除</string>
   <string name="dialog_delete_message">Remove selected item?</string>
   <!-- Heads up timeout -->
-  <string name="heads_up_time_out_title">Time out</string>
+  <string name="heads_up_time_out_title">逾時</string>
   <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-  <string name="heads_up_time_out_2sec">2 seconds</string>
-  <string name="heads_up_time_out_4sec">4 seconds</string>
-  <string name="heads_up_time_out_5sec">5 seconds</string>
-  <string name="heads_up_time_out_6sec">6 seconds</string>
-  <string name="heads_up_time_out_8sec">8 seconds</string>
-  <string name="heads_up_time_out_10sec">10 seconds</string>
+  <string name="heads_up_time_out_2sec">2 秒</string>
+  <string name="heads_up_time_out_4sec">4 秒</string>
+  <string name="heads_up_time_out_5sec">5 秒</string>
+  <string name="heads_up_time_out_6sec">6 秒</string>
+  <string name="heads_up_time_out_8sec">8 秒</string>
+  <string name="heads_up_time_out_10sec">10 秒</string>
   <!-- Heads up snooze -->
   <string name="heads_up_snooze_title">Snooze timer</string>
   <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
   <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
   <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-  <string name="heads_up_snooze_1min">1 minute</string>
-  <string name="heads_up_snooze_5min">5 minutes</string>
-  <string name="heads_up_snooze_10min">10 minutes</string>
-  <string name="heads_up_snooze_15min">15 minutes</string>
-  <string name="heads_up_snooze_20min">20 minutes</string>
+  <string name="heads_up_snooze_1min">1 分鐘</string>
+  <string name="heads_up_snooze_5min">5 分鐘</string>
+  <string name="heads_up_snooze_10min">10 分鐘</string>
+  <string name="heads_up_snooze_15min">15 分鐘</string>
+  <string name="heads_up_snooze_20min">20 分鐘</string>
   <!-- Clear all recents -->
   <string name="aosp_recents_title">AOSP recents</string>
   <string name="aosp_recents_title_summary">Oreo style recents configs, clear all FAB</string>
@@ -231,13 +231,13 @@
   <string name="systemui_theme_style_dark">Dark</string>
   <string name="system_theme_style_black">Black</string>
   <string name="applying_theme_toast">Applying theme, please wait...</string>
-  <string name="theme_applied_toast">Theme applied!</string>
+  <string name="theme_applied_toast">主題已套用！</string>
   <string name="disable_themes_installed_title">System themes are unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use these themes instead.</string>
   <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
   <!-- Weather - OmniJaws Settings -->
-  <string name="weather_title">Weather</string>
+  <string name="weather_title">天氣</string>
   <string name="weather_config_title_summary">Stautusbar and lockscreen weather</string>
-  <string name="weather_config_title">Service settings</string>
+  <string name="weather_config_title">服務設定</string>
   <string name="weather_config_summary"></string>
   <string name="header_weather_title">Header view weather</string>
   <string name="header_weather_summary">Enable notification panel header weather display</string>
@@ -256,25 +256,25 @@
   <string name="statusbar_weather_title">Status bar weather</string>
   <string name="statusbar_weather_summary">Configure from QS settings/Weather</string>
   <string name="statusbar_weather_dialog_title">Status bar weather style</string>
-  <string name="status_bar_weather_hidden">Hide weather</string>
+  <string name="status_bar_weather_hidden">隱藏天氣</string>
   <string name="status_bar_temperature_image_show_scale">Show temp with scale and image</string>
   <string name="status_bar_temperature_image_hide_scale">Show temp with image without scale</string>
   <string name="status_bar_temperature_show_scale_hide_image">Show temp with scale</string>
   <string name="status_bar_temperature_hide_scale_hide_image">Show temp without scale</string>
-  <string name="status_bar_show_image">Show image</string>
+  <string name="status_bar_show_image">顯示圖片</string>
   <!-- Lockscreen weather settings -->
   <string name="lockscreen_weather_title">Lockscreen weather</string>
   <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
   <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
-  <string name="lockscreen_weather_show_city_title">Show city name</string>
-  <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-  <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-  <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+  <string name="lockscreen_weather_show_city_title">顯示城市名</string>
+  <string name="lockscreen_weather_show_city_summary">在圖片左邊顯示目前城市名稱</string>
+  <string name="lockscreen_weather_show_temp_title">顯示溫度</string>
+  <string name="lockscreen_weather_show_temp_summary">在圖片右邊顯示目前城市氣溫</string>
   <!-- Statusbar Clock -->
-  <string name="status_bar_clock">Clock and Date</string>
+  <string name="status_bar_clock">時鐘與日期</string>
   <string name="status_bar_clock_summary">Configure statusbar clock and date appearance</string>
-  <string name="status_bar_clock_title">Clock settings</string>
-  <string name="status_bar_clock_show">Show clock and date</string>
+  <string name="status_bar_clock_title">時鐘設定</string>
+  <string name="status_bar_clock_show">顯示時鐘與日期</string>
   <string name="status_bar_clock_style_title">Clock style</string>
   <string name="status_bar_clock_style_right">Right</string>
   <string name="status_bar_clock_style_center">Center</string>
@@ -285,7 +285,7 @@
   <string name="status_bar_am_pm_small">Small</string>
   <string name="status_bar_am_pm_hidden">Hidden (default)</string>
   <string name="clock_seconds_display">Show seconds</string>
-  <string name="clock_date_display">Date</string>
+  <string name="clock_date_display">日期</string>
   <string name="clock_date_display_summary">Display custom date before the clock</string>
   <string name="clock_date_display_none">Don\'t show</string>
   <string name="clock_date_display_small">Small font size</string>
@@ -295,7 +295,7 @@
   <string name="clock_date_style_lowercase">Lowercase</string>
   <string name="clock_date_style_uppercase">Uppercase</string>
   <string name="clock_date_format_custom">Custom java format</string>
-  <string name="clock_date_format">Date format</string>
+  <string name="clock_date_format">日期格式</string>
   <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
   <string name="clock_date_string_edittext_summary">Enter string</string>
   <!--Double Tap to Sleep Lockscreen-->

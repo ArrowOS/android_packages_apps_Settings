@@ -42,7 +42,7 @@
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
   <!-- About ArrowOS -->
   <string name="rom_version_title">Версія ArrowOS</string>
-  <string name="build_date">Build date</string>
+  <string name="build_date">Дата збірки</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Палітра кольорів</string>
   <string name="press_color_to_apply">Натисніть на колір нижче, щоб застосувати</string>
@@ -232,8 +232,8 @@
   <string name="system_theme_style_black">Чорна</string>
   <string name="applying_theme_toast">Застосування теми, будь ласка, зачекайте...</string>
   <string name="theme_applied_toast">Тему застосовано!</string>
-  <string name="disable_themes_installed_title">System themes are unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use these themes instead.</string>
-  <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
+  <string name="disable_themes_installed_title">Системна тема недоступна щоб уникнути конфлікту Substratum. Видаліть його, щоб застосувати їх.</string>
+  <string name="disable_accents_installed_title">Набір акцентів недоступний, щоб уникнути конфліктів з Substratum. Видаліть його, якщо ви бажаєте скористатись інструментом вибору акценту.</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Погода</string>
   <string name="weather_config_title_summary">Погода в статусбарі і на екрані блокування</string>
@@ -439,7 +439,7 @@
   <string name="pocket_judge_summary">Заблокувати екран і кнопки, коли пристрій перебуває в кишені</string>
   <!-- Auto-brightness toggle -->
   <string name="brightness_icon_title">Значок автоматичної яскравості</string>
-  <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust auto-brightness</string>
+  <string name="brightness_icon_summary">Показати піктограму ввімкнення авто-яскравості ліворуч від повзунка</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">QS попередження знизу</string>
   <string name="qs_footer_warnings_summary">Відображати попередження в нижній частині панелі налаштувань, коли мережа контролюється зовнішніми додатками або vpn</string>
@@ -474,10 +474,10 @@
   <string name="expanded_desktop_style_description">Виберіть типовий стиль розширеного екрану</string>
   <string name="expanded_desktop_title">Параметри розширеного екрану</string>
   <!-- Density category -->
-  <string name="density_category">Density options</string>
+  <string name="density_category">Параметри щільності</string>
   <!-- Daydream category -->
-  <string name="daydream_settings_category">Daydream settings</string>
+  <string name="daydream_settings_category">Налаштування Daydream</string>
   <!-- Notification light settings -->
-  <string name="lights_category_title">Light settings</string>
-  <string name="notification_light_title">Notification light</string>
+  <string name="lights_category_title">Налаштування індикатора</string>
+  <string name="notification_light_title">Індикатор подій</string>
 </resources>

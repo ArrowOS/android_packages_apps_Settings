@@ -42,7 +42,7 @@
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
   <!-- About ArrowOS -->
   <string name="rom_version_title">Verze ArrowOS</string>
-  <string name="build_date">Build date</string>
+  <string name="build_date">Datum sestavení</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Výběr barvy</string>
   <string name="press_color_to_apply">Klikněte na barvu pro její výběr</string>
@@ -232,8 +232,8 @@
   <string name="system_theme_style_black">Černý</string>
   <string name="applying_theme_toast">Aplikuji motiv, čekejte prosím...</string>
   <string name="theme_applied_toast">Motiv použit!</string>
-  <string name="disable_themes_installed_title">System themes are unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use these themes instead.</string>
-  <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
+  <string name="disable_themes_installed_title">Motivy systému nejsou k dispozici, aby se předešlo konfliktům se Substratum. Pokud chcete tyto motivy použít, odinstalujte Substratum.</string>
+  <string name="disable_accents_installed_title">Výběr doplňkové barvy není k dispozici, aby se předešlo konfliktům se Substratum. Pokud chcete použít výběr doplňkové barvy, odinstalujte Substratum.</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Počasí</string>
   <string name="weather_config_title_summary">Počasí na zamykací obrazovce a stavové liště</string>
@@ -439,7 +439,7 @@
   <string name="pocket_judge_summary">Blokovat obrazovku a hardwarová tlačítka, když je zařízení v kapse</string>
   <!-- Auto-brightness toggle -->
   <string name="brightness_icon_title">Ikona automatického jasu</string>
-  <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust auto-brightness</string>
+  <string name="brightness_icon_summary">Zobrazit ikonu jasu na pravé straně posuvníku k přepnutí automatického jasu</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">Výstrahy ve spodní části panelu QS</string>
   <string name="qs_footer_warnings_summary">Zobrazit varování ve spodní části panelu rychlého nastavení při monitorování sítě externími aplikacemi nebo VPN</string>
@@ -474,10 +474,10 @@
   <string name="expanded_desktop_style_description">Vyberte výchozí styl rozšířené plochy</string>
   <string name="expanded_desktop_title">Možnosti rozšířené plochy</string>
   <!-- Density category -->
-  <string name="density_category">Density options</string>
+  <string name="density_category">Možnosti hustoty zobrazení</string>
   <!-- Daydream category -->
-  <string name="daydream_settings_category">Daydream settings</string>
+  <string name="daydream_settings_category">Nastavení Daydream</string>
   <!-- Notification light settings -->
-  <string name="lights_category_title">Light settings</string>
-  <string name="notification_light_title">Notification light</string>
+  <string name="lights_category_title">Nastavení LED</string>
+  <string name="notification_light_title">LED oznámení</string>
 </resources>

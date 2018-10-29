@@ -42,7 +42,7 @@
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
   <!-- About ArrowOS -->
   <string name="rom_version_title">Versão ArrowOS</string>
-  <string name="build_date">Build date</string>
+  <string name="build_date">Data da compilação</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Seletor de cores</string>
   <string name="press_color_to_apply">Pressione na cor abaixo para aplicar</string>
@@ -232,8 +232,8 @@
   <string name="system_theme_style_black">Preto</string>
   <string name="applying_theme_toast">Aplicando tema, por favor aguarde...</string>
   <string name="theme_applied_toast">Tema aplicado!</string>
-  <string name="disable_themes_installed_title">System themes are unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use these themes instead.</string>
-  <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
+  <string name="disable_themes_installed_title">O seletor de fontes não está disponível para evitar conflitos com o Substratum. Desinstale-o se você quiser usar o seletor de fontes.</string>
+  <string name="disable_accents_installed_title">Temas do sistema não estão disponíveis para evitar conflitos com o substrato. Desinstalá-lo se você quiser usar estes temas em vez disso.</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">Clima</string>
   <string name="weather_config_title_summary">Clima na barra de status e tela de bloqueio</string>
@@ -439,7 +439,7 @@
   <string name="pocket_judge_summary">Bloquear a tela e os botões quando o dispositivo estiver no bolso</string>
   <!-- Auto-brightness toggle -->
   <string name="brightness_icon_title">Ícone de auto-brilho</string>
-  <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust auto-brightness</string>
+  <string name="brightness_icon_summary">Mostrar um ícone de brilho à direita do brilho deslizante para ajustar o brilho automáticamente</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">Avisos do rodapé nas configurações rápidas</string>
   <string name="qs_footer_warnings_summary">Exibir um aviso na parte inferior do painel de configurações rápidas quando a rede é monitorada por aplicativos externos ou vpn</string>
@@ -474,7 +474,7 @@
   <string name="expanded_desktop_style_description">Escolher um estilo padrão para a área de trabalho expandida</string>
   <string name="expanded_desktop_title">Opções da área de trabalho expandida</string>
   <!-- Density category -->
-  <string name="density_category">Density options</string>
+  <string name="density_category">Opções de densidade</string>
   <!-- Daydream category -->
   <string name="daydream_settings_category">Daydream settings</string>
   <!-- Notification light settings -->
