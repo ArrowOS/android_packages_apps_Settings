@@ -42,7 +42,7 @@
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
   <!-- About ArrowOS -->
   <string name="rom_version_title">إصدار ArrowOS</string>
-  <string name="build_date">Build date</string>
+  <string name="build_date">تاريخ الإنشاء</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">منتقي الألوان</string>
   <string name="press_color_to_apply">اضغط على اللون أدنـاه للتطبيق</string>
@@ -232,8 +232,8 @@
   <string name="system_theme_style_black">أسود</string>
   <string name="applying_theme_toast">جاري تطبيق السمة، يرجى الانتظار...</string>
   <string name="theme_applied_toast">تم تطبيق السمة!</string>
-  <string name="disable_themes_installed_title">System themes are unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use these themes instead.</string>
-  <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
+  <string name="disable_themes_installed_title">سمات النظام غير متاحة لتجنب التعارض مع Substratum. أزله إذا كنت ترغب في استخدام هذه السمات بدلاً من ذلك.</string>
+  <string name="disable_accents_installed_title">لا يتوفر منتقي اللكنة لتجنب التعارض مع Substratum. قم بإلغاء تثبيته إذا كنت ترغب في استخدام منتقي اللكنة.</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">الطقس</string>
   <string name="weather_config_title_summary">طقس شريط الحالة وشاشة القفل</string>
@@ -439,7 +439,7 @@
   <string name="pocket_judge_summary">الغاء تفعيل الشاشة و أزرار الإدخال عندما يكون الجهاز في الجيب</string>
   <!-- Auto-brightness toggle -->
   <string name="brightness_icon_title">علامه السطوع التلقائي</string>
-  <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust auto-brightness</string>
+  <string name="brightness_icon_summary">أظهار رمز سطوع على يسار مزلاق السطوع لضبط السطوع التلقائي</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">تحذيرات اسفل الإعدادات السريعة</string>
   <string name="qs_footer_warnings_summary">عرض تحذير أسفل لوحة الإعدادات السريعة عندما تكون الشبكة مراقبة عن طريق تطبيقات خارجية أو شبكة خاصة</string>
@@ -474,10 +474,10 @@
   <string name="expanded_desktop_style_description">إختر نمط سطح المكتب الموسّع الإفتراضي</string>
   <string name="expanded_desktop_title">خيارات سطح المكتب الموسع</string>
   <!-- Density category -->
-  <string name="density_category">Density options</string>
+  <string name="density_category">خيارات الكثافة</string>
   <!-- Daydream category -->
-  <string name="daydream_settings_category">Daydream settings</string>
+  <string name="daydream_settings_category">إعدادات حلم اليقضة</string>
   <!-- Notification light settings -->
-  <string name="lights_category_title">Light settings</string>
-  <string name="notification_light_title">Notification light</string>
+  <string name="lights_category_title">إعدادات الضوء</string>
+  <string name="notification_light_title">ضوء الاشعار</string>
 </resources>

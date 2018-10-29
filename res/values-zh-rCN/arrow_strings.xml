@@ -42,7 +42,7 @@
   <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
   <!-- About ArrowOS -->
   <string name="rom_version_title">ArrowOS 版本</string>
-  <string name="build_date">Build date</string>
+  <string name="build_date">编译日期:</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">颜色选择器</string>
   <string name="press_color_to_apply">点击下列颜色以应用</string>
@@ -232,8 +232,8 @@
   <string name="system_theme_style_black">黑色</string>
   <string name="applying_theme_toast">正在应用主题，请稍等…</string>
   <string name="theme_applied_toast">主题已应用！</string>
-  <string name="disable_themes_installed_title">System themes are unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use these themes instead.</string>
-  <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
+  <string name="disable_themes_installed_title">系统主题停止使用，以避免与 Substratum 发生冲突。如果您希望使用这些主题, 请卸载 Substratum。</string>
+  <string name="disable_accents_installed_title">强调色选择器停止使用，以避免与 Substratum 发生冲突。如果您希望使用强调色选择器, 请卸载 Substratum。</string>
   <!-- Weather - OmniJaws Settings -->
   <string name="weather_title">天气</string>
   <string name="weather_config_title_summary">状态栏和锁屏天气</string>
@@ -439,7 +439,7 @@
   <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
   <!-- Auto-brightness toggle -->
   <string name="brightness_icon_title">自动亮度图标</string>
-  <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust auto-brightness</string>
+  <string name="brightness_icon_summary">在亮度条右侧显示自动亮度调节的图标</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">快速设置页脚警告</string>
   <string name="qs_footer_warnings_summary">当网络被 VPN 或者应用程序监测时，在快速设置底部显示一个警告。</string>
@@ -474,10 +474,10 @@
   <string name="expanded_desktop_style_description">选择默认的扩展桌面样式</string>
   <string name="expanded_desktop_title">扩展桌面选项</string>
   <!-- Density category -->
-  <string name="density_category">Density options</string>
+  <string name="density_category">分辨率选项</string>
   <!-- Daydream category -->
   <string name="daydream_settings_category">Daydream settings</string>
   <!-- Notification light settings -->
   <string name="lights_category_title">Light settings</string>
-  <string name="notification_light_title">Notification light</string>
+  <string name="notification_light_title">通知指示灯</string>
 </resources>
