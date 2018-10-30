@@ -573,5 +573,9 @@
 
     <!-- Night mode disable -->
     <string name="disable_night_mode_title">System themes are disabled. Turn off night mode to use the themes</string>
+
+    <!-- Battery saver night mode toggle -->
+    <string name="battery_saver_night_mode_title">Battery saver dark mode</string>
+    <string name="battery_saver_night_mode_title">Switch SystemUI theme to dark mode when battery saver is enabled.</string>
 </resources>
 
