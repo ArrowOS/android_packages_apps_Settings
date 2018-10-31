@@ -571,5 +571,10 @@
     <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
+
+    <!-- Full gesture mode -->
+    <string name="full_gesture_mode_title">Enable full gesture mode</string>
+    <string name="full_gesture_mode_summary">This will disable also the back button and you will be able to trigger a back button action by a left swipe on navbar. Right swipe will trigger the last app action.</string>
+
 </resources>
 
