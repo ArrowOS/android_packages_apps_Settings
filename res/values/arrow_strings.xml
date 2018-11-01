@@ -489,7 +489,7 @@
 
     <string name="app_ops_settings_title">App Ops</string>
 
-    <string name="enlighten">This options are only meant to work with old card stack recents(O recents)</string>
+    <string name="enlighten">These changes only apply to AOSP (i.e older Oreo) Recents style and will not work in Pie recents view</string>
 
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Music visualizer</string>
