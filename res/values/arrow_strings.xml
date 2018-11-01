@@ -566,9 +566,9 @@
 
     <!-- Selinux Status -->
     <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status_disabled">You ain\'t secure no gifts for you</string>
+    <string name="selinux_status_permissive">You ain\'t secure no gifts for you</string>
+    <string name="selinux_status_enforcing">HoHoHoHo</string>
 
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_title">VoLTE icon</string>
