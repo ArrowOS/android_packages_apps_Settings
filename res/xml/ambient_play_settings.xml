@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright (C) 2017 The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,26 +14,34 @@
   ~ limitations under the License.
   -->
 
-<PreferenceScreen
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res-auto"
-    android:key="ambient_play_preference_screen"
-    android:title="@string/ambient_play_cat">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="ambient_play"
+    android:title="@string/ambient_play_title">
 
-        <!-- Illustration for Ambient Play -->
-        <Preference android:key="ambient_play_illustration"
-            android:enabled="false"
-            android:layout="@layout/ambient_play_illustration" />
+    <!-- Illustration for Ambient Play -->
+    <Preference
+        android:enabled="false"
+        android:key="ambient_play_illustration"
+        android:layout="@layout/ambient_play_illustration" />
 
-        <SwitchPreference
-            android:key="ambient_display_ambient_play"
-            android:title="@string/ambient_recognition_title"
-            android:summary="@string/ambient_recognition_summary" />
+    <PreferenceCategory>
+        <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+            android:defaultValue="true"
+            android:key="ambient_recognition_keyguard"
+            android:title="@string/ambient_play_lockscreen_title" />
 
-        <SwitchPreference
-            android:key="ambient_display_ambient_play_keyguard"
-            android:title="@string/ambient_recognition_lockscreen_title"
-            android:summary="@string/ambient_recognition_lockscreen_summary"
-            android:dependency="ambient_display_ambient_play" />
+        <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+            android:defaultValue="true"
+            android:key="ambient_recognition_notification"
+            android:title="@string/ambient_play_notifications_title" />
+
+        <com.android.settings.ambient.history.AmbientPlayHistoryPreference
+            android:key="ambient_recognition_history_preference" />
+    </PreferenceCategory>
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="ambient_recognition_footer_preference"
+        android:selectable="false"
+        android:title="@string/ambient_play_help_text" />
 
 </PreferenceScreen>
