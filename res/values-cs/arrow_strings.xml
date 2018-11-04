@@ -424,7 +424,7 @@
     <string name="app_ops_reset_confirm_title">Potvrdit vynulování počtů</string>
     <string name="app_ops_reset_confirm_mesg">Jste si jisti, že chcete vynulovat počty?</string>
     <string name="app_ops_settings_title">Oprávnění aplikací</string>
-    <string name="enlighten">These changes only apply to AOSP (i.e older Oreo) Recents style and will not work in Pie recents view</string>
+    <string name="enlighten">Tyto změny platí pouze pro AOSP nedávné (tj. starší Oreo) a nebudou fungovat v zobrazení nedávných aplikací Pie</string>
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Hudební vizualizace</string>
     <string name="lockscreen_visualizer_summary">Zobrazit vizualizér na zamykací obrazovce při přehrávání hudby</string>
@@ -481,11 +481,11 @@
     <string name="lights_category_title">Nastavení LED</string>
     <string name="notification_light_title">LED oznámení</string>
     <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Battery saver dark mode</string>
-    <string name="battery_saver_night_mode_summary">Switch SystemUI theme to dark mode when battery saver is enabled.</string>
+    <string name="battery_saver_night_mode_title">Tmavý režim spořiče baterie</string>
+    <string name="battery_saver_night_mode_summary">SystemUI se přepne na tmavý motiv při zapnutí spořiče baterie.</string>
     <!-- Selinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">Stav SELinux</string>
+    <string name="selinux_status_disabled">Zakázáno</string>
+    <string name="selinux_status_permissive">Mírný</string>
+    <string name="selinux_status_enforcing">Vynucený</string>
 </resources>

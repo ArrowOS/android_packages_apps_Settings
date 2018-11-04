@@ -424,7 +424,7 @@
     <string name="app_ops_reset_confirm_title">Konfirmasi penghitung ulang</string>
     <string name="app_ops_reset_confirm_mesg">Apakah anda yakin ingin mengatur ulang penghitung?</string>
     <string name="app_ops_settings_title">App Ops</string>
-    <string name="enlighten">These changes only apply to AOSP (i.e older Oreo) Recents style and will not work in Pie recents view</string>
+    <string name="enlighten">Perubahan ini hanya berlaku untuk AOSP (yaitu Oreo lama) gaya Recent dan tidak akan berfungsi di tampilan Pie recents</string>
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Musik visualizer</string>
     <string name="lockscreen_visualizer_summary">Tampilkan visualizer pada layar kunci saat memainkan musik</string>
@@ -481,11 +481,11 @@
     <string name="lights_category_title">Pengaturan cahaya</string>
     <string name="notification_light_title">Lampu notifikasi</string>
     <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Battery saver dark mode</string>
-    <string name="battery_saver_night_mode_summary">Switch SystemUI theme to dark mode when battery saver is enabled.</string>
+    <string name="battery_saver_night_mode_title">Mode gelap penghemat baterai</string>
+    <string name="battery_saver_night_mode_summary">Alihkan tema SystemUI ke mode gelap saat penghemat baterai diaktifkan.</string>
     <!-- Selinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">Status SELinux</string>
+    <string name="selinux_status_disabled">Dinonaktifkan</string>
+    <string name="selinux_status_permissive">Tidak Wajib</string>
+    <string name="selinux_status_enforcing">Wajib</string>
 </resources>
