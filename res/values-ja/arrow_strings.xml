@@ -424,7 +424,7 @@
     <string name="app_ops_reset_confirm_title">カウンターのリセットの確認</string>
     <string name="app_ops_reset_confirm_mesg">カウンターをリセットしてもよろしいですか？</string>
     <string name="app_ops_settings_title">App Ops</string>
-    <string name="enlighten">These changes only apply to AOSP (i.e older Oreo) Recents style and will not work in Pie recents view</string>
+    <string name="enlighten">これらの変更はAOSPアプリ履歴にのみ適用され（すなわち昔のOreo）Pieのアプリ履歴では動作しません</string>
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">音楽ビジュアライザー</string>
     <string name="lockscreen_visualizer_summary">音楽再生時にロック画面にビジュアライザーを表示する</string>
@@ -444,7 +444,7 @@
     <string name="qs_footer_warnings_title">クイック設定下部の警告</string>
     <string name="qs_footer_warnings_summary">外部アプリやVPNでネットワーク監視されている時にクイック設定パネルの下部に警告を表示する</string>
     <!-- Navbar Animation -->
-    <string name="pixel_navbar_anim_title">Pixelナビゲーションバーのアニメーション</string>
+    <string name="pixel_navbar_anim_title">Pixelナビゲーションバーのアニメーション </string>
     <!-- Accent Picker -->
     <string name="accent_picker_dialog_title">アクセントカラーを選択する</string>
     <string name="theme_accent_picker_title">アクセントカラー</string>
@@ -481,11 +481,11 @@
     <string name="lights_category_title">ライトの設定</string>
     <string name="notification_light_title">通知のライト</string>
     <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Battery saver dark mode</string>
-    <string name="battery_saver_night_mode_summary">Switch SystemUI theme to dark mode when battery saver is enabled.</string>
+    <string name="battery_saver_night_mode_title">バッテリーセーバーダークモード</string>
+    <string name="battery_saver_night_mode_summary">バッテリーセーバーを有効にした時システムUIのテーマをダークモードに切り替える</string>
     <!-- Selinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status">SELinuxのステータス</string>
+    <string name="selinux_status_disabled">無効</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 </resources>

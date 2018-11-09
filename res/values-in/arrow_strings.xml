@@ -249,7 +249,7 @@
     <string name="network_traffic_type">Pilih tipe aktvitas jaringan</string>
     <string name="show_network_traffic_up">Keluar</string>
     <string name="show_network_traffic_down">Masuk</string>
-    <string name="show_network_traffic_all">Keluar dan Masuk</string>
+    <string name="show_network_traffic_all">Unggah dan Unduh</string>
     <string name="network_traffic_state_title">Tampilkan aktivitas jaringan di bilah status</string>
     <string name="network_traffic_autohide_threshold_title">Ambang batas untuk otomatis menyembunyikan aktivitas jaringan (KB/s)</string>
     <!-- StatusBar weather settings -->
@@ -293,7 +293,7 @@
     <string name="clock_date_style">Gaya tanggal</string>
     <string name="clock_date_style_normal">Normal</string>
     <string name="clock_date_style_lowercase">Huruf kecil</string>
-    <string name="clock_date_style_uppercase">Huruf kapital</string>
+    <string name="clock_date_style_uppercase">Huruf besar</string>
     <string name="clock_date_format_custom">Format kostum Java</string>
     <string name="clock_date_format">Format tanggal</string>
     <string name="clock_date_string_edittext_title">Harus sesuai format tanggal contoh. MM/dd/yy</string>
@@ -339,7 +339,7 @@
     <!-- App ops labels -->
     <string name="app_ops_access_camera">Kamera</string>
     <string name="app_ops_access_location">Lokasi</string>
-    <string name="app_ops_access_notifications">notifikasi</string>
+    <string name="app_ops_access_notifications">pemberitahuan</string>
     <string name="app_ops_activate_vpn">VPN</string>
     <string name="app_ops_auto_start">mulai otomatis</string>
     <string name="app_ops_delete_call_log">menghapus daftar panggilan</string>
@@ -369,14 +369,14 @@
     <string name="app_ops_record_audio">rekam audio</string>
     <string name="app_ops_send_mms">kirim MMS</string>
     <string name="app_ops_send_sms">kirim SMS</string>
-    <string name="app_ops_toast_window">pesan toast</string>
+    <string name="app_ops_toast_window">pesan munculan</string>
     <string name="app_ops_use_alarm_volume">volume alarm</string>
     <string name="app_ops_use_audio_focus">fokus audio</string>
     <string name="app_ops_use_bluetooth_volume">Volume Bluetooth</string>
     <string name="app_ops_use_master_volume">volume utama</string>
     <string name="app_ops_use_media_buttons">tombol media</string>
     <string name="app_ops_use_media_volume">volume media</string>
-    <string name="app_ops_use_notification_volume">volume notifikasi</string>
+    <string name="app_ops_use_notification_volume">volume pemberitahual</string>
     <string name="app_ops_use_ring_volume">volume nada dering</string>
     <string name="app_ops_use_vibrate">umpan balik haptic</string>
     <string name="app_ops_use_voice_volume">volume panggilan suara</string>
@@ -392,21 +392,21 @@
     <string name="app_ops_use_body_sensors">sensor tubuh</string>
     <string name="app_ops_read_cell_broadcasts">siaran seluler</string>
     <string name="app_ops_mock_location">lokasi palsu</string>
-    <string name="app_ops_read_external_storage">baca penyimpanan eksternal.</string>
-    <string name="app_ops_write_external_storage">tulis penyimpanan eksternal.</string>
+    <string name="app_ops_read_external_storage">baca ext. stor.</string>
+    <string name="app_ops_write_external_storage">tulis ext. stor.</string>
     <string name="app_ops_turn_on_screen">hidupkan layar</string>
     <string name="app_ops_get_accounts">akun perangkat</string>
     <string name="app_ops_run_in_background">berjalan di latar belakang</string>
     <string name="app_ops_accessibility_volume">volume aksesibilitas</string>
-    <string name="app_ops_read_phone_numbers">baca nomor telepon.</string>
+    <string name="app_ops_read_phone_numbers">baca no. telepon</string>
     <string name="app_ops_request_install_packages">menginstal paket</string>
     <string name="app_ops_picture_in_picture">pip</string>
     <string name="app_ops_app_start_foreground">mulai di latar depan</string>
     <string name="app_ops_answer_phone_calls">menjawab panggilan</string>
     <string name="app_ops_run_any_in_background">berjalan di latar belakang</string>
     <string name="app_ops_change_wifi_state">ubah status Wi-Fi</string>
-    <string name="app_ops_request_delete_packages">menghapus paket</string>
-    <string name="app_ops_bind_accessibility_service">ikat ke aksesibilitas</string>
+    <string name="app_ops_request_delete_packages">hapus aplikasi</string>
+    <string name="app_ops_bind_accessibility_service">tautkan ke aksesibilitas</string>
     <string name="app_ops_accept_handover">menerima penyerahan</string>
     <string name="app_ops_manage_ipsec_tunnels">mengatur penghubung ip</string>
     <string name="app_ops_start_foreground">mulai di latar depan</string>
@@ -420,11 +420,11 @@
     <!-- App ops menu options -->
     <string name="app_ops_show_user_apps">Tampilkan aplikasi pengguna</string>
     <string name="app_ops_show_system_apps">Tampilkan aplikasi bawaan</string>
-    <string name="app_ops_reset_counters">Atur ulang hitungan perizinan</string>
+    <string name="app_ops_reset_counters">Atur ulang hitungan diizinkan/ditolak</string>
     <string name="app_ops_reset_confirm_title">Konfirmasi penghitung ulang</string>
     <string name="app_ops_reset_confirm_mesg">Apakah anda yakin ingin mengatur ulang penghitung?</string>
     <string name="app_ops_settings_title">App Ops</string>
-    <string name="enlighten">These changes only apply to AOSP (i.e older Oreo) Recents style and will not work in Pie recents view</string>
+    <string name="enlighten">Perubahan ini hanya berlaku untuk AOSP (yaitu Oreo lama) gaya Recent dan tidak akan berfungsi di tampilan Pie recents</string>
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Musik visualizer</string>
     <string name="lockscreen_visualizer_summary">Tampilkan visualizer pada layar kunci saat memainkan musik</string>
@@ -436,7 +436,7 @@
     <string name="qs_tile_title_visibility_summary">Tampilkan judul di bawah setiap ubin, (perlu mulai kembali SystemUI)</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Deteksi dalam saku</string>
-    <string name="pocket_judge_summary">Blokir layar dan masukan tombol saat perangkat ada di dalam saku</string>
+    <string name="pocket_judge_summary">Lindungi layar dan masukan tombol saat perangkat ada di dalam saku</string>
     <!-- Auto-brightness toggle -->
     <string name="brightness_icon_title">Ikon Kecerahan Otomatis</string>
     <string name="brightness_icon_summary">Tampilkan ikon kecerahan di kanan panel kecerahan untuk menyesuaikan kecerahan otomatis</string>
@@ -447,7 +447,7 @@
     <string name="pixel_navbar_anim_title">Animasi Pixel bilah navigasi</string>
     <!-- Accent Picker -->
     <string name="accent_picker_dialog_title">Pilih warna aksen</string>
-    <string name="theme_accent_picker_title">Aksen warna</string>
+    <string name="theme_accent_picker_title">Warna aksen</string>
     <string name="theme_accent_picker_summary">Pilih warna aksen tema sistem</string>
     <string name="theme_accent_picker_default">Bawaan</string>
     <!-- Hide notch -->
@@ -481,11 +481,11 @@
     <string name="lights_category_title">Pengaturan cahaya</string>
     <string name="notification_light_title">Lampu notifikasi</string>
     <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Battery saver dark mode</string>
-    <string name="battery_saver_night_mode_summary">Switch SystemUI theme to dark mode when battery saver is enabled.</string>
+    <string name="battery_saver_night_mode_title">Mode gelap penghemat baterai</string>
+    <string name="battery_saver_night_mode_summary">Alihkan tema SystemUI ke mode gelap saat penghemat baterai diaktifkan.</string>
     <!-- Selinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">Status SELinux</string>
+    <string name="selinux_status_disabled">Dinonaktifkan</string>
+    <string name="selinux_status_permissive">Tidak Wajib</string>
+    <string name="selinux_status_enforcing">Wajib</string>
 </resources>

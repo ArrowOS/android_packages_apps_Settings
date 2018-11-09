@@ -424,7 +424,7 @@
     <string name="app_ops_reset_confirm_title">Підтвердіть скидання лічильників</string>
     <string name="app_ops_reset_confirm_mesg">Ви впевнені що хочете скинути лічильники?</string>
     <string name="app_ops_settings_title">Дозволи програм</string>
-    <string name="enlighten">These changes only apply to AOSP (i.e older Oreo) Recents style and will not work in Pie recents view</string>
+    <string name="enlighten">Ці зміни застосовуються тільки до AOSP (8.1) Нещодавні, в нових версіях 9.0 не працюють</string>
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Візуалізація музики</string>
     <string name="lockscreen_visualizer_summary">Показати візуалізацію на екрані блокування, коли грає музика</string>
@@ -481,11 +481,11 @@
     <string name="lights_category_title">Налаштування індикатора</string>
     <string name="notification_light_title">Індикатор подій</string>
     <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Battery saver dark mode</string>
-    <string name="battery_saver_night_mode_summary">Switch SystemUI theme to dark mode when battery saver is enabled.</string>
+    <string name="battery_saver_night_mode_title">Режим енергозбереження</string>
+    <string name="battery_saver_night_mode_summary">Переключення SystemUI теми в темний режим, коли увімкнено енергозбереження.</string>
     <!-- Selinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">Статус SELinux</string>
+    <string name="selinux_status_disabled">Вимкнено</string>
+    <string name="selinux_status_permissive">Дозволено</string>
+    <string name="selinux_status_enforcing">Примусово</string>
 </resources>

@@ -424,7 +424,7 @@
     <string name="app_ops_reset_confirm_title">Conferma reimpostazione contatori</string>
     <string name="app_ops_reset_confirm_mesg">Sei sicuro di voler reimpostare i contatori?</string>
     <string name="app_ops_settings_title">Op. app</string>
-    <string name="enlighten">These changes only apply to AOSP (i.e older Oreo) Recents style and will not work in Pie recents view</string>
+    <string name="enlighten">Queste modifiche si applicheranno solo allo stile dei recenti di AOSP (inferiore ad Oreo) e non funzioneranno con i recenti di Android Pie</string>
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Visualizzatore musicale</string>
     <string name="lockscreen_visualizer_summary">Mostra un effetto sulla schermata di blocco durante la riproduzione della musica</string>
@@ -481,11 +481,11 @@
     <string name="lights_category_title">Impostazioni luce</string>
     <string name="notification_light_title">Luce di notifica</string>
     <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Battery saver dark mode</string>
-    <string name="battery_saver_night_mode_summary">Switch SystemUI theme to dark mode when battery saver is enabled.</string>
+    <string name="battery_saver_night_mode_title">Modalità scura risparmio batteria</string>
+    <string name="battery_saver_night_mode_summary">Il SystemUI passa a un tema scuro quando viene attivato il risparmio della batteria.</string>
     <!-- Selinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">Stato SELinux</string>
+    <string name="selinux_status_disabled">Disabilitato</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Applicazione</string>
 </resources>

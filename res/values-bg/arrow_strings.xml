@@ -72,7 +72,7 @@
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">Мобилни данни</string>
     <string name="data_usage_app_restrict_data_summary">Разреши използването на мобилни данни</string>
-    <string name="data_usage_app_restrict_wifi">WiFi данни</string>
+    <string name="data_usage_app_restrict_wifi">WiFi данни </string>
     <string name="data_usage_app_restrict_wifi_summary">Разреши използването на WiFi</string>
     <!-- Power Menu -->
     <string name="advanced_power_menu">Меню за опции на захранването</string>
