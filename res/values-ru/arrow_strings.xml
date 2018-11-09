@@ -424,7 +424,7 @@
     <string name="app_ops_reset_confirm_title">Подтвердите сброс счетчиков</string>
     <string name="app_ops_reset_confirm_mesg">Вы уверены, что хотите сбросить счётчики?</string>
     <string name="app_ops_settings_title">Операции в приложениях</string>
-    <string name="enlighten">These changes only apply to AOSP (i.e older Oreo) Recents style and will not work in Pie recents view</string>
+    <string name="enlighten">Эти изменения применяются только к AOSP (т.е. старому Oreo) стилю «Недавних» и не будут работать в стиле Pie «Недавних»</string>
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Визуализация спектра музыки</string>
     <string name="lockscreen_visualizer_summary">Показать визуализацию на экране блокировки, когда играет музыка</string>
@@ -481,11 +481,11 @@
     <string name="lights_category_title">Настройки индикации</string>
     <string name="notification_light_title">Индикатор уведомлений</string>
     <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Battery saver dark mode</string>
-    <string name="battery_saver_night_mode_summary">Switch SystemUI theme to dark mode when battery saver is enabled.</string>
+    <string name="battery_saver_night_mode_title">Темный режим во время экономии заряда батареи</string>
+    <string name="battery_saver_night_mode_summary">Переключать SystemUI в темную тему когда включен режим экономии заряда батареи.</string>
     <!-- Selinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">Статус SELinux</string>
+    <string name="selinux_status_disabled">Отключен</string>
+    <string name="selinux_status_permissive">Разрещающий</string>
+    <string name="selinux_status_enforcing">Принудительный</string>
 </resources>

@@ -424,7 +424,7 @@
     <string name="app_ops_reset_confirm_title">确认重置计数器</string>
     <string name="app_ops_reset_confirm_mesg">您确定要重置计数器吗？</string>
     <string name="app_ops_settings_title">应用权限管理</string>
-    <string name="enlighten">These changes only apply to AOSP (i.e older Oreo) Recents style and will not work in Pie recents view</string>
+    <string name="enlighten">这个选项只适用于最近的应用程序菜单中的旧菜单(Android O)</string>
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">音乐可视化</string>
     <string name="lockscreen_visualizer_summary">当播放音乐时在锁屏界面显示效果</string>
@@ -481,11 +481,11 @@
     <string name="lights_category_title">指示灯设置</string>
     <string name="notification_light_title">通知指示灯</string>
     <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Battery saver dark mode</string>
-    <string name="battery_saver_night_mode_summary">Switch SystemUI theme to dark mode when battery saver is enabled.</string>
+    <string name="battery_saver_night_mode_title">省电模式</string>
+    <string name="battery_saver_night_mode_summary">启用省电模式后, 系统主题将切换到深色模式。</string>
     <!-- Selinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">SELinux 状态</string>
+    <string name="selinux_status_disabled">已禁用</string>
+    <string name="selinux_status_permissive">宽容模式</string>
+    <string name="selinux_status_enforcing">执行模式</string>
 </resources>

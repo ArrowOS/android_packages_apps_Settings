@@ -424,7 +424,7 @@
     <string name="app_ops_reset_confirm_title">تأكيد إعادة تعيين العدادات</string>
     <string name="app_ops_reset_confirm_mesg">هل أنت متأكد من رغبتك في إعادة تعيين العدادات؟</string>
     <string name="app_ops_settings_title">عمليات التطبيق</string>
-    <string name="enlighten">These changes only apply to AOSP (i.e older Oreo) Recents style and will not work in Pie recents view</string>
+    <string name="enlighten">هذه التغييرات تنطبق فقط على شاشة التطبيقات الاخيرة لاندرويد اوريو ولا تعمل في شاشة التطبيقات الاخيرة لاندرويد P</string>
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">مرئيات الموسيقى</string>
     <string name="lockscreen_visualizer_summary">إظهار تأثير على قفل الشاشة عندما يتم تشغيل الموسيقى</string>
@@ -481,11 +481,11 @@
     <string name="lights_category_title">إعدادات الضوء</string>
     <string name="notification_light_title">ضوء الاشعار</string>
     <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Battery saver dark mode</string>
-    <string name="battery_saver_night_mode_summary">Switch SystemUI theme to dark mode when battery saver is enabled.</string>
+    <string name="battery_saver_night_mode_title">توفير البطارية وضع الظلام</string>
+    <string name="battery_saver_night_mode_summary">قم بتبديل سمة واجهة النظام إلى الوضع المعتم عند تمكين توفير شحن البطارية.</string>
     <!-- Selinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">‏حالة SELinux</string>
+    <string name="selinux_status_disabled">معطّل</string>
+    <string name="selinux_status_permissive">متساهل</string>
+    <string name="selinux_status_enforcing">فرض</string>
 </resources>
