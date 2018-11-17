@@ -424,7 +424,7 @@
     <string name="app_ops_reset_confirm_title">Confirmar el restablecimiento de contadores</string>
     <string name="app_ops_reset_confirm_mesg">¿Estás seguro de que deseas restablecer los contadores?</string>
     <string name="app_ops_settings_title">Permisos de Aplicaciones</string>
-    <string name="enlighten">These changes only apply to AOSP (i.e older Oreo) Recents style and will not work in Pie recents view</string>
+    <string name="enlighten">Estos cambios sólo se aplican al estilo de Recientes AOSP (superior a Oreo) y no funcionará en vista de recientes de Pie</string>
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Visualizador músical</string>
     <string name="lockscreen_visualizer_summary">Mostrar visualizador en la pantalla de bloqueo cuando la música se esta reproduciendo</string>
@@ -481,11 +481,28 @@
     <string name="lights_category_title">Ajustes de luz</string>
     <string name="notification_light_title">Led de notificación</string>
     <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Battery saver dark mode</string>
-    <string name="battery_saver_night_mode_summary">Switch SystemUI theme to dark mode when battery saver is enabled.</string>
+    <string name="battery_saver_night_mode_title">Modo oscuro de ahorro de batería</string>
+    <string name="battery_saver_night_mode_summary">Cambiar tema de SystemUI al modo oscuro cuando se activa el ahorro de batería.</string>
     <!-- Selinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">Estado de SELinux</string>
+    <string name="selinux_status_disabled">Desabilitado</string>
+    <string name="selinux_status_permissive">Permisivo</string>
+    <string name="selinux_status_enforcing">Obligatorio</string>
+    <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">VoLTE icon</string>
+    <string name="volte_icon_summary">Display VoLTE icon (Needs a SystemUI restart to take effect)</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
+    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <string name="full_gesture_mode_title">Enable full gesture mode</string>
+    <string name="full_gesture_mode_summary">This mode will disable also the back button and you will be able to trigger a back button action by a left swipe on navbar. Right swipe will still trigger the last-app action and left swipe will move apps. To go home you will be able to tap on any navbar empty space, not only the home button.</string>
+    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
+    <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
+    <string name="brightness_slider_bottom_title">Bottom brightness slider</string>
+    <string name="brightness_slider_bottom_summary">Show brightness slider on the bottom of the quick settings panel</string>
+    <string name="qs_show_brightness_title">Brightness slider</string>
+    <string name="qs_show_brightness_summary">Option to show or hide the qs brightness slider</string>
 </resources>
