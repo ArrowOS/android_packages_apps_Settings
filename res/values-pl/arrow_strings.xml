@@ -42,7 +42,7 @@
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About ArrowOS -->
     <string name="rom_version_title">Wersja ArrowOS</string>
-    <string name="build_date">Build date</string>
+    <string name="build_date">Data kompilacji</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Selektor kolorów</string>
     <string name="press_color_to_apply">Naciśnij na kolor poniżej aby zastosować</string>
@@ -439,7 +439,7 @@
     <string name="pocket_judge_summary">Zablokuj funkcje ekranu i przycisków, gdy urządzenie jest w kieszeni</string>
     <!-- Auto-brightness toggle -->
     <string name="brightness_icon_title">Ikona Automatycznej jasności</string>
-    <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust auto-brightness</string>
+    <string name="brightness_icon_summary">Pokaż ikonę jasności po prawej stronie suwaka jasności, żeby dostosować automatyczną jasność</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Ostrzeżenia w stopce Szybkich ustawień</string>
     <string name="qs_footer_warnings_summary">Wyświetlaj ostrzeżenie na dole panelu Szybkich skrótów, gdy sieć jest monitorowana przez zewnętrzne aplikacje lub VPN</string>
@@ -451,7 +451,7 @@
     <string name="theme_accent_picker_summary">Wybierz kolor akcentu motywu systemowego</string>
     <string name="theme_accent_picker_default">Domyślne</string>
     <!-- Hide notch -->
-    <string name="hide_notch_title">Hide notch</string>
+    <string name="hide_notch_title">Ukryj notcha</string>
     <string name="hide_notch_summary">Apps can not use the notch area</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Odblokowywanie odciskiem palca</string>
@@ -479,13 +479,30 @@
     <string name="daydream_settings_category">Daydream settings</string>
     <!-- Notification light settings -->
     <string name="lights_category_title">Light settings</string>
-    <string name="notification_light_title">Notification light</string>
+    <string name="notification_light_title">Dioda powiadomień</string>
     <!-- Battery saver night mode toggle -->
     <string name="battery_saver_night_mode_title">Battery saver dark mode</string>
     <string name="battery_saver_night_mode_summary">Switch SystemUI theme to dark mode when battery saver is enabled.</string>
     <!-- Selinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">Status SELinux </string>
+    <string name="selinux_status_disabled">Wyłączony</string>
+    <string name="selinux_status_permissive">Pobłażliwy</string>
+    <string name="selinux_status_enforcing">Restrykcyjny</string>
+    <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">VoLTE icon</string>
+    <string name="volte_icon_summary">Display VoLTE icon (Needs a SystemUI restart to take effect)</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
+    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <string name="full_gesture_mode_title">Enable full gesture mode</string>
+    <string name="full_gesture_mode_summary">This mode will disable also the back button and you will be able to trigger a back button action by a left swipe on navbar. Right swipe will still trigger the last-app action and left swipe will move apps. To go home you will be able to tap on any navbar empty space, not only the home button.</string>
+    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
+    <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
+    <string name="brightness_slider_bottom_title">Bottom brightness slider</string>
+    <string name="brightness_slider_bottom_summary">Show brightness slider on the bottom of the quick settings panel</string>
+    <string name="qs_show_brightness_title">Brightness slider</string>
+    <string name="qs_show_brightness_summary">Option to show or hide the qs brightness slider</string>
 </resources>
