@@ -41,7 +41,8 @@
     <Preference
          android:key="battery_charging_light"
          android:fragment="com.android.settings.arrow.BatteryLightSettings"
-         android:title="@string/battery_light_settings" />
+         android:title="@string/battery_light_settings"
+         android:summary="@string/battery_light_summary"/>
 
     <Preference
         android:fragment="com.android.settings.fuelgauge.SmartBatterySettings"
