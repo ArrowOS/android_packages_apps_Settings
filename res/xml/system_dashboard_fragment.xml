@@ -25,9 +25,21 @@
         android:key="gesture_settings"
         android:title="@string/gesture_preference_title"
         android:icon="@drawable/ic_settings_gestures"
-        android:order="-250"
+        android:order="-251"
         android:fragment="com.android.settings.gestures.GestureSettings"
         settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
+
+    <Preference
+        android:key="device_part"
+        android:persistent="false"
+        android:title="@string/device_title"
+        android:icon="@drawable/ic_settings_gestures"
+        android:order="-250"
+        android:summary="@string/device_summary">
+        <intent android:action="android.intent.action.MAIN"
+        android:targetPackage="org.omnirom.device"
+        android:targetClass="org.omnirom.device.DeviceSettingsActivity" />
+    </Preference>
 
     <!-- Backup -->
     <Preference

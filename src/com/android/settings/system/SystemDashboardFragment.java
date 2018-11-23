@@ -28,6 +28,7 @@ import com.android.settings.backup.BackupSettingsActivityPreferenceController;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
+import com.android.internal.util.arrow.ArrowUtils;
 
 import java.util.Arrays;
 import java.util.List;
@@ -38,6 +39,9 @@ public class SystemDashboardFragment extends DashboardFragment {
 
     private static final String KEY_RESET = "reset_dashboard";
 
+    final String KEY_DEVICE_PART = "device_part";
+    final String KEY_DEVICE_PART_PACKAGE_NAME = "org.omnirom.device";
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -46,6 +50,11 @@ public class SystemDashboardFragment extends DashboardFragment {
         // We do not want to display an advanced button if only one setting is hidden
         if (getVisiblePreferenceCount(screen) == screen.getInitialExpandedChildrenCount() + 1) {
             screen.setInitialExpandedChildrenCount(Integer.MAX_VALUE);
+        }
+
+        // DeviceParts
+        if (!ArrowUtils.isPackageInstalled(getActivity(), KEY_DEVICE_PART_PACKAGE_NAME)) {
+            getPreferenceScreen().removePreference(findPreference(KEY_DEVICE_PART));
         }
     }
 
@@ -63,6 +72,7 @@ public class SystemDashboardFragment extends DashboardFragment {
     protected int getPreferenceScreenResId() {
         return R.xml.system_dashboard_fragment;
     }
+
 
     @Override
     public int getHelpResource() {
