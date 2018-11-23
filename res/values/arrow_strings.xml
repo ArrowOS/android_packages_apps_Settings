@@ -596,4 +596,8 @@
     <!-- Onehand UI mode -->
     <string name="one_hand_mode_title">Enable using one-hand mode</string>
     <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
+
+    <!-- Device features -->
+    <string name="device_title">Device features</string>
+    <string name="device_summary">Slider, doze, device specific gestures etc.</string>
 </resources>
