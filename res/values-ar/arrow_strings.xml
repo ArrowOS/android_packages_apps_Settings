@@ -216,6 +216,7 @@
     <string name="changelog_error">غير قادر على تحميـل سجل التغييرات</string>
     <!-- Battery light -->
     <string name="battery_light_settings">ضوء شحن البطارية</string>
+    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
     <string name="battery_light_enable">ضوء البطارية</string>
     <string name="battery_light_allow_on_dnd_title">ضوء البطارية أثناء وضع عدم الإزعاج</string>
     <string name="battery_light_low_blinking_title">وميض الضوء عند إنخفاض البطارية</string>
@@ -316,6 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">الاهتزاز عند الفتح</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">نمط رمز البطارية</string>
+    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
     <string name="battery_style_port">رأسي</string>
     <string name="battery_style_land">أفقي</string>
     <string name="battery_style_circle">دائرة</string>
@@ -489,20 +491,20 @@
     <string name="selinux_status_permissive">متساهل</string>
     <string name="selinux_status_enforcing">فرض</string>
     <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_title">VoLTE icon</string>
-    <string name="volte_icon_summary">Display VoLTE icon (Needs a SystemUI restart to take effect)</string>
+    <string name="volte_icon_title">أيقونة VoLTE</string>
+    <string name="volte_icon_summary">عرض أيقونة VoLTE (يلزم إعادة تشغيل SystemUI حتى تصبح سارية المفعول)</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
-    <string name="full_gesture_mode_summary">This mode will disable also the back button and you will be able to trigger a back button action by a left swipe on navbar. Right swipe will still trigger the last-app action and left swipe will move apps. To go home you will be able to tap on any navbar empty space, not only the home button.</string>
-    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
-    <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
-    <string name="brightness_slider_bottom_title">Bottom brightness slider</string>
-    <string name="brightness_slider_bottom_summary">Show brightness slider on the bottom of the quick settings panel</string>
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_summary">Option to show or hide the qs brightness slider</string>
+    <string name="double_tap_power_flashlight_screen_title">تنشيط الفلاش</string>
+    <string name="double_tap_power_flashlight_title">زر الطاقة لتشغيل ضوء الفلاش</string>
+    <string name="torch_power_button_gesture_none">معطّل</string>
+    <string name="torch_power_button_gesture_dt">ضغط مزدوج على زر الطاقة لتشغيل الفلاش</string>
+    <string name="torch_power_button_gesture_lp">ضغط زر الطاقة مطولاً لتشغيل الفلاش</string>
+    <string name="full_gesture_mode_title">تمكين وضع الإيماءة الكاملة</string>
+    <string name="full_gesture_mode_summary">سيؤدي هذا الوضع إلى تعطيل الزر الخلفي أيضًا وستتمكن من تشغيل إجراء زر الرجوع عن طريق تمرير سريع لليسار على شريط التنقل. سيؤدي التمرير السريع لليمين إلى تشغيل إجراء التطبيق الأخير وستؤدي التمرير السريع إلى نقل التطبيقات. للانتقال إلى الصفحة الرئيسية قم بالنقر على أي مساحة فارغة في شريط التنقل ، وليس فقط على زر الصفحة الرئيسية.</string>
+    <string name="full_gesture_mode_dt2s_title">تمكين الضغط المزدوج لإسبات الجهاز</string>
+    <string name="full_gesture_mode_dt2s_summary">اضغط على اي مساحة فارغة في شريط التنقل لإيقاف تشغيل الشاشة.</string>
+    <string name="brightness_slider_bottom_title">شريط التحكم في السطوع السفلي</string>
+    <string name="brightness_slider_bottom_summary">أظهر شريط تمرير السطوع في أسفل لوحة الإعدادات السريعة</string>
+    <string name="qs_show_brightness_title">شريط تمرير السطوع</string>
+    <string name="qs_show_brightness_summary">خيار لإظهار أو إخفاء شريط تمرير السطوع في الإعدادات السريعة</string>
 </resources>

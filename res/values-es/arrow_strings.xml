@@ -216,6 +216,7 @@
     <string name="changelog_error">No se pudo cargar el registro de cambios</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Luz de batería cargando</string>
+    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
     <string name="battery_light_enable">Indicador de carga</string>
     <string name="battery_light_allow_on_dnd_title">Indicador de carga en modo No Molestar</string>
     <string name="battery_light_low_blinking_title">LED intermitente con batería baja</string>
@@ -316,6 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">Vibrar al desbloquear</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">Estilo del icono de la batería</string>
+    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
     <string name="battery_style_port">Vertical</string>
     <string name="battery_style_land">Apaisada</string>
     <string name="battery_style_circle">Círculo</string>

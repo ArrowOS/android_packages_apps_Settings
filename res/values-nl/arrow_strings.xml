@@ -216,6 +216,7 @@
     <string name="changelog_error">Unable to load changelog</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Battery charging light</string>
+    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
     <string name="battery_light_enable">Battery light</string>
     <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
     <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
@@ -316,6 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">Vibrate when unlocking</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">Battery icon style</string>
+    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
     <string name="battery_style_port">Portrait</string>
     <string name="battery_style_land">Landscape</string>
     <string name="battery_style_circle">Circle</string>

@@ -216,6 +216,7 @@
     <string name="changelog_error">Impossível carregar a lista de alterações</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Luz de carga da bateria</string>
+    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
     <string name="battery_light_enable">Luz da bateria</string>
     <string name="battery_light_allow_on_dnd_title">Luz da bateria no modo Não Perturbe</string>
     <string name="battery_light_low_blinking_title">Luz piscando quando bateria fraca</string>
@@ -316,6 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">Vibrar ao desbloquear</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">Estilo do ícone da bateria</string>
+    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
     <string name="battery_style_port">Retrato</string>
     <string name="battery_style_land">Paisagem</string>
     <string name="battery_style_circle">Círculo</string>
@@ -424,7 +426,7 @@
     <string name="app_ops_reset_confirm_title">Confirmar o reset dos contadores</string>
     <string name="app_ops_reset_confirm_mesg">Tem certeza que deseja zerar os contadores?</string>
     <string name="app_ops_settings_title">Operações de aplicativos</string>
-    <string name="enlighten">These changes only apply to AOSP (i.e older Oreo) Recents style and will not work in Pie recents view</string>
+    <string name="enlighten">Essas alterações só se aplicam ao estilo Recentes AOSP (ou seja, mais antigo Oreo) e não funcionarão no Pie</string>
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Visualizador de música</string>
     <string name="lockscreen_visualizer_summary">Mostrar um efeito na tela de bloqueio quando uma música estiver sendo reproduzida</string>
@@ -476,33 +478,33 @@
     <!-- Density category -->
     <string name="density_category">Opções de densidade</string>
     <!-- Daydream category -->
-    <string name="daydream_settings_category">Daydream settings</string>
+    <string name="daydream_settings_category">Configurações de Daydream</string>
     <!-- Notification light settings -->
-    <string name="lights_category_title">Light settings</string>
-    <string name="notification_light_title">Notification light</string>
+    <string name="lights_category_title">Configurações de luz</string>
+    <string name="notification_light_title">Luz de notificação</string>
     <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Battery saver dark mode</string>
-    <string name="battery_saver_night_mode_summary">Switch SystemUI theme to dark mode when battery saver is enabled.</string>
+    <string name="battery_saver_night_mode_title">Modo escuro de economia de bateria</string>
+    <string name="battery_saver_night_mode_summary">Alterne o tema SystemUI para o modo escuro quando a economia de bateria estiver ativada.</string>
     <!-- Selinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">Status do SELinux</string>
+    <string name="selinux_status_disabled">Desativado</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Execução</string>
     <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_title">VoLTE icon</string>
-    <string name="volte_icon_summary">Display VoLTE icon (Needs a SystemUI restart to take effect)</string>
+    <string name="volte_icon_title">Ícone VoLTE</string>
+    <string name="volte_icon_summary">Exibir ícone VoLTE (Precisa reiniciar o SystemUI para aplicar o efeito)</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
-    <string name="full_gesture_mode_summary">This mode will disable also the back button and you will be able to trigger a back button action by a left swipe on navbar. Right swipe will still trigger the last-app action and left swipe will move apps. To go home you will be able to tap on any navbar empty space, not only the home button.</string>
-    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
-    <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
-    <string name="brightness_slider_bottom_title">Bottom brightness slider</string>
-    <string name="brightness_slider_bottom_summary">Show brightness slider on the bottom of the quick settings panel</string>
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_summary">Option to show or hide the qs brightness slider</string>
+    <string name="double_tap_power_flashlight_screen_title">Ativar o torch</string>
+    <string name="double_tap_power_flashlight_title">Desligue o torch do botão liga / desliga</string>
+    <string name="torch_power_button_gesture_none">Desativado</string>
+    <string name="torch_power_button_gesture_dt">Toque duplo para alternar para o torch</string>
+    <string name="torch_power_button_gesture_lp">Segure o botão power para alternar para o torch</string>
+    <string name="full_gesture_mode_title">Ativar modo de gesto completo</string>
+    <string name="full_gesture_mode_summary">Este modo também desativará o botão voltar. Para usar o gesto voltar deslize a barra para a esquerda, O ato de deslizar para a direita ainda acionará a ação do último aplicativo, e o deslizamento para a esquerda moverá os aplicativos caso deslize e segure. Para ir para o Home, você poderá tocar em qualquer espaço vazio da barra de navegação, não apenas no botão de início.</string>
+    <string name="full_gesture_mode_dt2s_title">Ativar toque duplo para dormir</string>
+    <string name="full_gesture_mode_dt2s_summary">Toque em um espaço de navbar vazio, mas não no botão home para desativar a tela.</string>
+    <string name="brightness_slider_bottom_title">Controle deslizante de brilho em baixo das configurações rápidas</string>
+    <string name="brightness_slider_bottom_summary">Mostrar controle deslizante de brilho na parte de baixo do painel de configurações rápidas</string>
+    <string name="qs_show_brightness_title">Controle deslizante de brilho</string>
+    <string name="qs_show_brightness_summary">Opção para mostrar ou ocultar o controle deslizante de brilho no Qs</string>
 </resources>

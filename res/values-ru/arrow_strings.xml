@@ -216,6 +216,7 @@
     <string name="changelog_error">Невозможно загрузить список изменений</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Индикация зарядки батареи</string>
+    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
     <string name="battery_light_enable">Индикация батареи</string>
     <string name="battery_light_allow_on_dnd_title">Индикация батареи в режиме \"Не беспокоить\"</string>
     <string name="battery_light_low_blinking_title">Индикация при низком заряде батареи</string>
@@ -316,6 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">Вибрация при разблокировке</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">Стиль значка батареи</string>
+    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
     <string name="battery_style_port">Вертикальный</string>
     <string name="battery_style_land">Горизонтальный</string>
     <string name="battery_style_circle">Круглый значок</string>
@@ -489,20 +491,20 @@
     <string name="selinux_status_permissive">Разрещающий</string>
     <string name="selinux_status_enforcing">Принудительный</string>
     <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_title">VoLTE icon</string>
-    <string name="volte_icon_summary">Display VoLTE icon (Needs a SystemUI restart to take effect)</string>
+    <string name="volte_icon_title">Иконка VoLTE</string>
+    <string name="volte_icon_summary">Отображать значок VoLTE (необходимо перезапустить интерфейс, чтобы изменения вступили в силу)</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <string name="double_tap_power_flashlight_screen_title">Включить фонарик</string>
+    <string name="double_tap_power_flashlight_title">Включение фонарика удержанием кнопки питания</string>
+    <string name="torch_power_button_gesture_none">Отключён</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания для включения фонарика</string>
+    <string name="torch_power_button_gesture_lp">Удержание кнопки питания для включения фонарика</string>
     <string name="full_gesture_mode_title">Enable full gesture mode</string>
     <string name="full_gesture_mode_summary">This mode will disable also the back button and you will be able to trigger a back button action by a left swipe on navbar. Right swipe will still trigger the last-app action and left swipe will move apps. To go home you will be able to tap on any navbar empty space, not only the home button.</string>
-    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
-    <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
-    <string name="brightness_slider_bottom_title">Bottom brightness slider</string>
-    <string name="brightness_slider_bottom_summary">Show brightness slider on the bottom of the quick settings panel</string>
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_summary">Option to show or hide the qs brightness slider</string>
+    <string name="full_gesture_mode_dt2s_title">Вкл двойное нажатие для сна</string>
+    <string name="full_gesture_mode_dt2s_summary">Нажмите на пустое место в панели навигации (но не кнопку домой) для выключения экрана.</string>
+    <string name="brightness_slider_bottom_title">Ползунок яркости сверху</string>
+    <string name="brightness_slider_bottom_summary">Показать ползунок яркости вверху панели быстрых настроек</string>
+    <string name="qs_show_brightness_title">Ползунок яркости</string>
+    <string name="qs_show_brightness_summary">Показать или скрыть ползунок яркости</string>
 </resources>

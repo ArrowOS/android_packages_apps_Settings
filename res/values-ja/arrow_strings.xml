@@ -216,6 +216,7 @@
     <string name="changelog_error">更新履歴を読み込めませんでした</string>
     <!-- Battery light -->
     <string name="battery_light_settings">バッテリー充電時のライト</string>
+    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
     <string name="battery_light_enable">バッテリーライト</string>
     <string name="battery_light_allow_on_dnd_title">マナーモード中のバッテリーライト</string>
     <string name="battery_light_low_blinking_title">バッテリ低下時のライト点滅</string>
@@ -316,6 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">ロック解除時に振動</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">バッテリーアイコンのスタイル</string>
+    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
     <string name="battery_style_port">縦</string>
     <string name="battery_style_land">横</string>
     <string name="battery_style_circle">円</string>
@@ -489,20 +491,20 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_title">VoLTE icon</string>
-    <string name="volte_icon_summary">Display VoLTE icon (Needs a SystemUI restart to take effect)</string>
+    <string name="volte_icon_title">VoLTEアイコン</string>
+    <string name="volte_icon_summary">VoLTEアイコンを表示（有効にするにはシステムUIの再起動が必要）</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
+    <string name="double_tap_power_flashlight_screen_title">トーチを有効化</string>
+    <string name="double_tap_power_flashlight_title">スリープ時電源ボタンを押してライト点灯</string>
+    <string name="torch_power_button_gesture_none">無効</string>
+    <string name="torch_power_button_gesture_dt">電源ボタンを2回押しでライト点灯</string>
+    <string name="torch_power_button_gesture_lp">電源ボタンを長押しでライト点灯</string>
+    <string name="full_gesture_mode_title">すべてのジェスチャーモードを有効にする</string>
     <string name="full_gesture_mode_summary">This mode will disable also the back button and you will be able to trigger a back button action by a left swipe on navbar. Right swipe will still trigger the last-app action and left swipe will move apps. To go home you will be able to tap on any navbar empty space, not only the home button.</string>
-    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
+    <string name="full_gesture_mode_dt2s_title">ダブルタップでスリープ機能を有効化</string>
     <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
-    <string name="brightness_slider_bottom_title">Bottom brightness slider</string>
-    <string name="brightness_slider_bottom_summary">Show brightness slider on the bottom of the quick settings panel</string>
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_summary">Option to show or hide the qs brightness slider</string>
+    <string name="brightness_slider_bottom_title">下部の明るさスライダー</string>
+    <string name="brightness_slider_bottom_summary">クイック設定パネルの下部に明るさスライダーを表示する</string>
+    <string name="qs_show_brightness_title">明るさスライダー</string>
+    <string name="qs_show_brightness_summary">クイック設定パネルの明るさスライダーの有無の設定</string>
 </resources>

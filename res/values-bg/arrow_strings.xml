@@ -216,6 +216,7 @@
     <string name="changelog_error">Не може да се зареди списъкът с промените</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Светлина при зареждане на батерията</string>
+    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
     <string name="battery_light_enable">Светлинна индикация на батерията</string>
     <string name="battery_light_allow_on_dnd_title">Индикации в режим \"Не ме безпокойте\"</string>
     <string name="battery_light_low_blinking_title">Мигаща светлина при изтощена батерия</string>
@@ -316,6 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">Вибрирация при отключване</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">Стил на индикатора за батерията</string>
+    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
     <string name="battery_style_port">Портрет</string>
     <string name="battery_style_land">Пейзаж</string>
     <string name="battery_style_circle">Кръг</string>

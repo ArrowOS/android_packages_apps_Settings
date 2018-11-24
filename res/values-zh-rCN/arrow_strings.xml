@@ -216,6 +216,7 @@
     <string name="changelog_error">无法加载更新日志</string>
     <!-- Battery light -->
     <string name="battery_light_settings">充电指示灯</string>
+    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
     <string name="battery_light_enable">电量指示灯</string>
     <string name="battery_light_allow_on_dnd_title">勿扰模式启用充电指示灯</string>
     <string name="battery_light_low_blinking_title">低电量时指示灯闪烁</string>
@@ -316,6 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">解锁时震动</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">电池图标样式</string>
+    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
     <string name="battery_style_port">纵向</string>
     <string name="battery_style_land">横向</string>
     <string name="battery_style_circle">环形</string>

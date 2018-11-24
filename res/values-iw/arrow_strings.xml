@@ -216,6 +216,7 @@
     <string name="changelog_error">לא ניתן לטעון את יומן השינויים</string>
     <!-- Battery light -->
     <string name="battery_light_settings">נורית טעינה</string>
+    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
     <string name="battery_light_enable">נורית סוללה</string>
     <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
     <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
@@ -316,6 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">רטט בעת שחרור נעילת מסך</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">סגנון סמל סוללה</string>
+    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
     <string name="battery_style_port">לאורך</string>
     <string name="battery_style_land">לרוחב</string>
     <string name="battery_style_circle">עיגול</string>

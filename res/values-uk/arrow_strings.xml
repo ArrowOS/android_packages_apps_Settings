@@ -216,6 +216,7 @@
     <string name="changelog_error">Помилка завантаження списку змін</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Індикація зарядки акумулятора</string>
+    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
     <string name="battery_light_enable">Індикація батареї</string>
     <string name="battery_light_allow_on_dnd_title">Індикатор заряду в режимі \"Не турбувати\"</string>
     <string name="battery_light_low_blinking_title">Блимання індикатора при низькому заряді</string>
@@ -316,6 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">Вібрувати при розблокуванні</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">Стиль іконки батареї</string>
+    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
     <string name="battery_style_port">Портретний</string>
     <string name="battery_style_land">Альбомний</string>
     <string name="battery_style_circle">Коло</string>
@@ -489,20 +491,20 @@
     <string name="selinux_status_permissive">Дозволено</string>
     <string name="selinux_status_enforcing">Примусово</string>
     <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_title">VoLTE icon</string>
-    <string name="volte_icon_summary">Display VoLTE icon (Needs a SystemUI restart to take effect)</string>
+    <string name="volte_icon_title">VoLTE піктограма</string>
+    <string name="volte_icon_summary">Відображати піктограму VoLTE (потребує перезавантаження SystemUI щоб зміни вступили в силу)</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
-    <string name="full_gesture_mode_summary">This mode will disable also the back button and you will be able to trigger a back button action by a left swipe on navbar. Right swipe will still trigger the last-app action and left swipe will move apps. To go home you will be able to tap on any navbar empty space, not only the home button.</string>
-    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
-    <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
-    <string name="brightness_slider_bottom_title">Bottom brightness slider</string>
-    <string name="brightness_slider_bottom_summary">Show brightness slider on the bottom of the quick settings panel</string>
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_summary">Option to show or hide the qs brightness slider</string>
+    <string name="double_tap_power_flashlight_screen_title">Включити ліхтарик</string>
+    <string name="double_tap_power_flashlight_title">Увімкнення ліхтарика довгим натисканням кнопки включення при вимкненому екрані</string>
+    <string name="torch_power_button_gesture_none">Вимкнено</string>
+    <string name="torch_power_button_gesture_dt">Подвійне натискання кнопки живлення для увімкнення ліхтарика</string>
+    <string name="torch_power_button_gesture_lp">Тривале натискання кнопки живлення для увімкнення ліхтарика</string>
+    <string name="full_gesture_mode_title">Увімкнути повний режим жестів</string>
+    <string name="full_gesture_mode_summary">Цей режим також вимкне кнопку \"Назад\", і ви зможете активувати дію натисненням на ліву панель на навігаційному стовпці. Справа проведіть пальцем, як і раніше, активує дію останньої програми, а свайп в ліво рухає додатки. Щоб вернутись додому, торкнітся будь-якого до пустого місця на навігаційній панелі, а не лише по домашній кнопці.</string>
+    <string name="full_gesture_mode_dt2s_title">Включити подвійне натискання для сна</string>
+    <string name="full_gesture_mode_dt2s_summary">Натисніть на пусте місце в панелі навігації (але не на кнопку додому) для вимкнення екрана.</string>
+    <string name="brightness_slider_bottom_title">Кнопка повзунка яскравості</string>
+    <string name="brightness_slider_bottom_summary">Показувати повзунок яскравості вверху панелі швидких налаштувань</string>
+    <string name="qs_show_brightness_title">Повзунок яскравості</string>
+    <string name="qs_show_brightness_summary">Показати або сховати повзунок яскравості</string>
 </resources>

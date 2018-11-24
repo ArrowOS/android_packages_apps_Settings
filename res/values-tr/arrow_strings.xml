@@ -216,6 +216,7 @@
     <string name="changelog_error">Değişiklikler yüklenemiyor</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Pil şarj ışığı</string>
+    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
     <string name="battery_light_enable">Pil ışığı</string>
     <string name="battery_light_allow_on_dnd_title">Rahatsız etmeyinde ışığı yak söndür</string>
     <string name="battery_light_low_blinking_title">Düşük pilde ışığı yak söndür</string>
@@ -316,6 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">Kilit açarken titret</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">Pil simge stili</string>
+    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
     <string name="battery_style_port">Dikey</string>
     <string name="battery_style_land">Yatay</string>
     <string name="battery_style_circle">Daire</string>
@@ -489,20 +491,20 @@
     <string name="selinux_status_permissive">Permissive (Serbest)</string>
     <string name="selinux_status_enforcing">Enforcing (Zorunlu)</string>
     <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_title">VoLTE icon</string>
-    <string name="volte_icon_summary">Display VoLTE icon (Needs a SystemUI restart to take effect)</string>
+    <string name="volte_icon_title">VoLTE simgesi</string>
+    <string name="volte_icon_summary">VoLTE simgesini görüntüle (Etkinleşmesi için sistem arayüzü yeniden başlatılması gerekir)</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
-    <string name="full_gesture_mode_summary">This mode will disable also the back button and you will be able to trigger a back button action by a left swipe on navbar. Right swipe will still trigger the last-app action and left swipe will move apps. To go home you will be able to tap on any navbar empty space, not only the home button.</string>
-    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
-    <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
-    <string name="brightness_slider_bottom_title">Bottom brightness slider</string>
-    <string name="brightness_slider_bottom_summary">Show brightness slider on the bottom of the quick settings panel</string>
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_summary">Option to show or hide the qs brightness slider</string>
+    <string name="double_tap_power_flashlight_screen_title">Fener hareketleri</string>
+    <string name="double_tap_power_flashlight_title">Güç tuşu ile fener açma</string>
+    <string name="torch_power_button_gesture_none">Devre dışı</string>
+    <string name="torch_power_button_gesture_dt">Çift dokunma</string>
+    <string name="torch_power_button_gesture_lp">Uzun dokunma</string>
+    <string name="full_gesture_mode_title">Tam hareket modu</string>
+    <string name="full_gesture_mode_summary">Bu mod aynı zamanda geri tuşunu da devre dışı bırakır ve gezinme çubuğu üzerinde soldan kaydırma yaparak arka tuş hareketini başlatabilirsiniz. Sağa kaydırma işlemi son uygulama eylemini açmaya devam edecek ve sol kaydırma uygulamaları taşıyacaktır. Ana ekrana gitmek için sadece ana ekran tuşuna değil herhangi bir gezinme çubuğu boşluğuna da dokunabilirsiniz.</string>
+    <string name="full_gesture_mode_dt2s_title">Çift dokunuşla uyutma</string>
+    <string name="full_gesture_mode_dt2s_summary">Ekranı kapatmak için gezinme çubuğun boş alanına dokunun ancak ana ekran tuşuna dokunmayın.</string>
+    <string name="brightness_slider_bottom_title">Alt parlaklık kaydırıcısı</string>
+    <string name="brightness_slider_bottom_summary">Hızlı ayarlar paneli altında parlaklık kaydırıcısını göster</string>
+    <string name="qs_show_brightness_title">Parlaklık kaydırıcısı</string>
+    <string name="qs_show_brightness_summary">Hızlı ayarlar parlaklık kaydırıcısını gösterme veya gizleme seçeneği</string>
 </resources>

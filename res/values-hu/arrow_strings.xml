@@ -19,170 +19,170 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-    <string name="sim_disabled">disabled</string>
-    <string name="sim_missing">missing or faulty</string>
-    <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
-    <string name="sim_enabler_will_disable_sim_title">Attention</string>
-    <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
-    <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
-    <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
-    <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
-    <string name="sim_enabler_enabling">Activating\u2026</string>
-    <string name="sim_enabler_disabling">Deactivating\u2026</string>
-    <string name="sub_activate_success">SIM activated.</string>
-    <string name="sub_activate_failed">Activation failed.</string>
-    <string name="sub_deactivate_success">SIM deactivated.</string>
-    <string name="sub_deactivate_failed">Deactivation failed.</string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> állapota: <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_disabled">letiltva</string>
+    <string name="sim_missing">hiányzik vagy hibás</string>
+    <string name="sim_enabler_need_disable_sim">SIM-kártya deaktiválva lesz. Szeretné folytatni?</string>
+    <string name="sim_enabler_will_disable_sim_title">Figyelmeztetés</string>
+    <string name="sim_enabler_need_switch_data_service">Ez a SIM tiltásra kerül és a <xliff:g id="slotid">%1$s</xliff:g> SIM lesz adatszolgáltatáshoz használva. Biztosan folytatni kívánja?</string>
+    <string name="sim_enabler_airplane_on">A művelet nem hajtható végre, miközben a repülőgép üzemmód aktív.</string>
+    <string name="sim_enabler_in_call">Nem lehet végrehajtani a műveletet hívás közben.</string>
+    <string name="sim_enabler_both_inactive">Nem tiltható le az összes SIM-kártya</string>
+    <string name="sim_enabler_enabling">Aktiválás\u2026</string>
+    <string name="sim_enabler_disabling">Deaktiválás\u2026</string>
+    <string name="sub_activate_success">A SIM-kártya aktiválva.</string>
+    <string name="sub_activate_failed">Sikertelen aktiválás.</string>
+    <string name="sub_deactivate_success">SIM deaktiválva.</string>
+    <string name="sub_deactivate_failed">Deaktiválás sikertelen.</string>
     <!-- Fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Telefonja előlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Telefonja bal oldalán találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Telefonja jobb oldalán találhatja meg az ujjlenyomat-olvasót.</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About ArrowOS -->
-    <string name="rom_version_title">ArrowOS version</string>
-    <string name="build_date">Build date</string>
+    <string name="rom_version_title">ArrowOS verzió</string>
+    <string name="build_date">Build dátuma</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="dialog_color_picker">Szín választó</string>
+    <string name="press_color_to_apply">Érintse meg a színt az alkalmazáshoz</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
+    <string name="set">Beállít</string>
+    <string name="color_default">Alapértelmezett</string>
     <!-- Face auto unlock -->
-    <string name="face_auto_unlock_title">Face auto unlock</string>
-    <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
+    <string name="face_auto_unlock_title">Automatikus arcfeloldás</string>
+    <string name="face_auto_unlock_summary">Zárképernyő kihagyása arcfeloldás után</string>
     <!-- Scramble PIN Layout on Lockscreen -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Véletlenszerű elrendezés</string>
+    <string name="unlock_scramble_pin_layout_summary">Összekeveri a beviteli mezőn a számok elrendezését az eszköz feloldásakor</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Gyorsfeloldás</string>
+    <string name="unlock_quick_unlock_control_summary">Oldja fel automatikusan ha helyes a PIN/jelszó</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Show charging current, voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_title">Töltés kijelzése képernyőzáron</string>
+    <string name="lockscreen_battery_info_summary">Töltőáram, feszültség és az akkumulátor hőmérsékletének megjelenítése a zárképernyőn töltés közben</string>
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_title">Képernyőmentés hang</string>
     <!-- meh ganeshi4u -->
-    <string name="arrow_stats_title">ArrowOS Stats</string>
-    <string name="arrow_stats_summary">we ain\'t stealing your nuds!</string>
+    <string name="arrow_stats_title">ArrowOS statisztikák</string>
+    <string name="arrow_stats_summary">nem lopjuk el a cuccaidat!</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Cellular data</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_data">Mobiladat-kapcsolat</string>
+    <string name="data_usage_app_restrict_data_summary">Mobiladat-használat engedélyezése</string>
+    <string name="data_usage_app_restrict_wifi">Wi-Fi adat</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi-Fi adathasználat engedélyezése</string>
     <!-- Power Menu -->
-    <string name="advanced_power_menu">Power button options</string>
-    <string name="arrow_reboot_menu">Advanced reboot menu</string>
-    <string name="powermenu_reboot_title">Reboot</string>
-    <string name="powermenu_airplane_title">Airplane mode</string>
-    <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
-    <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
-    <string name="powermenu_screenshot_title">Screenshot</string>
-    <string name="powermenu_category_visibility">Lockscreen options</string>
-    <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
-    <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
-    <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
-    <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
-    <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
-    <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
-    <string name="powermenu_lockdown_title">Lockdown</string>
-    <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
+    <string name="advanced_power_menu">Leállítási menü beállításai</string>
+    <string name="arrow_reboot_menu">Sperciális újraindítási menü</string>
+    <string name="powermenu_reboot_title">Újraindítás</string>
+    <string name="powermenu_airplane_title">Repülőgép üzemmód</string>
+    <string name="powermenu_advanced_reboot_title">Speciális újraindítás</string>
+    <string name="powermenu_advanced_reboot_summary">Lehetővé teszi a speciális újraindítási lehetőségeket, mint a gyorsindítást, a Recovery és a Bootloader elérését, szintén hozzáadja a Felhasználói felület újraindítását</string>
+    <string name="powermenu_screenshot_title">Képernyőkép</string>
+    <string name="powermenu_category_visibility">Záróképernyő beállításai</string>
+    <string name="powermenu_lockscreen_title">Láthatóság a záróképernyőn</string>
+    <string name="powermenu_lockscreen_summary">A bekapcsoló menü párbeszédablak megjelenítésének és használatának engedélyezése a zárképernyőn</string>
+    <string name="powermenu_ls_reboot_summary">Újraindítási lehetőségek megjelenítése a záróképernyőn</string>
+    <string name="powermenu_ls_advanced_reboot_summary">Speciális újraindítási lehetőségek megjelenítése a zárképernyőn</string>
+    <string name="powermenu_ls_screenshot_summary">Képernyőmentési lehetőség megjelenítése a záróképernyőn</string>
+    <string name="powermenu_ls_airplane_summary">Repülőgép üzemmód megjelenítése a záróképernyőn</string>
+    <string name="powermenu_lockdown_title">Lezárás</string>
+    <string name="powermenu_ls_lockdown_summary">A bekapcsológombok beállításainak megjelenítése, amelyek kikapcsolják a kiterjesztett hozzáférést és az ujjlenyomattal történő feloldáshoz</string>
     <!-- Hide Lockscreen clock, date, & alarm -->
-    <string name="lockscreen_items_other">Other</string>
+    <string name="lockscreen_items_other">Egyéb</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Roaming indicator</string>
-    <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
+    <string name="roaming_indicator_icon_title">Barangolás kijelzése</string>
+    <string name="roaming_indicator_icon_summary">Barangolás kijelzőjének megjelenítése a térerő ikonban, ha barangolásmódban van</string>
     <!-- Hardware button navigation -->
-    <string name="picker_activities">Activities</string>
-    <string name="select_custom_app_title">Select custom app</string>
-    <string name="select_custom_activity_title">Select custom activity</string>
-    <string name="profile_applist_title">Applications</string>
-    <string name="choose_action_title">Choose action</string>
-    <string name="action_entry_default_action">Default settings</string>
-    <string name="action_entry_select_app">Select application</string>
-    <string name="action_entry_custom_action">Select custom action</string>
-    <string name="hardware_keys_volume_keys_title">Volume rocker</string>
-    <string name="hardware_keys_home_key_title">Home button</string>
-    <string name="hardware_keys_menu_key_title">Menu button</string>
-    <string name="hardware_keys_assist_key_title">Search button</string>
-    <string name="hardware_keys_appswitch_key_title">Overview button</string>
-    <string name="hardware_keys_back_key_title">Back button</string>
-    <string name="hardware_keys_double_tap_summary">Set double tap action</string>
-    <string name="hardware_keys_single_tap_summary">Set single tap action</string>
-    <string name="hardware_keys_long_press_summary">Set long press action</string>
-    <string name="hardware_keys_single_tap_title">Single tap action</string>
-    <string name="hardware_keys_long_press_title">Long press action</string>
-    <string name="hardware_keys_double_tap_title">Double tap action</string>
-    <string name="hard_soft_keys">Device buttons and navbar</string>
-    <string name="hard_soft_keys_summary">Hardware buttons and navigation bar options</string>
-    <string name="navigation_keys">Enable navigation bar</string>
-    <string name="navigation_keys_title">Onscreen navigation bar</string>
-    <string name="hardware_keys_category">Hardware navigation buttons</string>
-    <string name="hardware_keys_disable_title">Disable hardware buttons</string>
-    <string name="hardware_keys_wake_title">Wake device</string>
+    <string name="picker_activities">Tevékenységek</string>
+    <string name="select_custom_app_title">Válasszon egyedi alkalmazást</string>
+    <string name="select_custom_activity_title">Egyéni tevékenység kiválasztása</string>
+    <string name="profile_applist_title">Alkalmazások</string>
+    <string name="choose_action_title">Válasszon műveletet</string>
+    <string name="action_entry_default_action">Alapértelmezett beállítások</string>
+    <string name="action_entry_select_app">Alkalmazás választása</string>
+    <string name="action_entry_custom_action">Egyéni művelet kiválasztása</string>
+    <string name="hardware_keys_volume_keys_title">Hangerőszabályzó</string>
+    <string name="hardware_keys_home_key_title">Kezdőoldal gombja</string>
+    <string name="hardware_keys_menu_key_title">Menü gomb</string>
+    <string name="hardware_keys_assist_key_title">Keresés gomb</string>
+    <string name="hardware_keys_appswitch_key_title">Áttekintés gomb</string>
+    <string name="hardware_keys_back_key_title">Vissza gomb</string>
+    <string name="hardware_keys_double_tap_summary">Dupla érintési művelet beállítása</string>
+    <string name="hardware_keys_single_tap_summary">Egyszerű érintési művelet beállítása</string>
+    <string name="hardware_keys_long_press_summary">Nyomva tartás műveletének beállítása</string>
+    <string name="hardware_keys_single_tap_title">Egyszerű érintési művelet</string>
+    <string name="hardware_keys_long_press_title">Hosszú érintési művelete</string>
+    <string name="hardware_keys_double_tap_title">Dupla érintés eseménye</string>
+    <string name="hard_soft_keys">Eszköz gombok és navigációsbár</string>
+    <string name="hard_soft_keys_summary">Hardveres gombok és navigációs bár beállításai</string>
+    <string name="navigation_keys">Navigációs sáv engedélyezése</string>
+    <string name="navigation_keys_title">Navigációs sáv engedélyezése</string>
+    <string name="hardware_keys_category">Hardveres navigációs gombok</string>
+    <string name="hardware_keys_disable_title">Hardveres gombok kikapcsolása</string>
+    <string name="hardware_keys_wake_title">Eszköz felébresztése</string>
     <!-- Settings categories -->
-    <string name="statusbar_category_title">StatusBar</string>
-    <string name="buttons_category_title">Buttons</string>
-    <string name="misc_category_title">Misc</string>
-    <string name="theme_category_title">System theme</string>
+    <string name="statusbar_category_title">Állapotsor</string>
+    <string name="buttons_category_title">Gombok</string>
+    <string name="misc_category_title">Egyéb</string>
+    <string name="theme_category_title">Rendszer téma</string>
     <!-- Button brightness -->
-    <string name="button_backlight_options_category">Backlight options</string>
-    <string name="button_backlight_enable_title">Allow button backlight</string>
-    <string name="button_link_brightness">Link to screen brightness</string>
-    <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
-    <string name="button_manual_brightness">Brightness level</string>
-    <string name="button_timeout_title">Backlight timeout</string>
-    <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
-    <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
+    <string name="button_backlight_options_category">Háttérvilágítás beállítások</string>
+    <string name="button_backlight_enable_title">Gombok háttérvilágításának engedélyezése</string>
+    <string name="button_link_brightness">Csatolás a képernyő fényerejéhez</string>
+    <string name="button_link_brightness_summary">Gombok háttérvilágításának fényerejét a képernyő fényerőszintje alapján fogja módosítani</string>
+    <string name="button_manual_brightness">Fényerősség</string>
+    <string name="button_timeout_title">Háttérvilágítás időtartama</string>
+    <string name="button_backlight_on_touch_only_title">Gombok háttérvilágítása érintésre</string>
+    <string name="button_backlight_on_touch_only_summary">A gomb háttérvilágítása csak a gombok megnyomásakor jelenik meg, és nem állandóan. Az időkorlát erre a szolgáltatásra is hatással van.</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Lejátszás vezérlés</string>
+    <string name="volume_button_music_control_summary">Ha a képernyő ki van kapcsolva, a hangerő-gombok hosszú megnyomásával zeneszámokat ugorhat át</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
-    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    <string name="volume_rocker_wake_title">Ébresztés hangerőgombbal</string>
+    <string name="volume_rocker_wake_summary">Hangerőgomb megnyomására ébredjen fel a készülék</string>
     <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Navigation bar configs</string>
+    <string name="navbar_tuner_title">Navigációs sáv konfigurációja</string>
     <!-- Heads up -->
-    <string name="heads_up_notifications">Heads up</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="heads_up_notifications">Lebegő értesítés</string>
+    <string name="summary_heads_up_enabled">Lebegő értesítések engedélyezve</string>
+    <string name="summary_heads_up_disabled">Lebegő értesítések letiltva</string>
+    <string name="add_heads_up_package">Alkalmazás hozzáadása</string>
+    <string name="add_heads_up_stoplist_summary">A Lebegő értesítések letiltása ezeknél az alkalmazásoknál</string>
+    <string name="add_heads_up_blacklist_summary">Lebegő értesítések letiltása ezekben az alkalmazásokban</string>
+    <string name="heads_up_stoplist_title">Leállítottak listája</string>
+    <string name="heads_up_blacklist_title">Tiltólista</string>
+    <string name="profile_choose_app">Alkalmazás kiválasztása</string>
+    <string name="dialog_delete_title">Törlés</string>
+    <string name="dialog_delete_message">Törli a kiválasztott elemeket?</string>
     <!-- Heads up timeout -->
-    <string name="heads_up_time_out_title">Time out</string>
-    <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-    <string name="heads_up_time_out_2sec">2 seconds</string>
-    <string name="heads_up_time_out_4sec">4 seconds</string>
-    <string name="heads_up_time_out_5sec">5 seconds</string>
-    <string name="heads_up_time_out_6sec">6 seconds</string>
-    <string name="heads_up_time_out_8sec">8 seconds</string>
-    <string name="heads_up_time_out_10sec">10 seconds</string>
+    <string name="heads_up_time_out_title">Időtúllépés</string>
+    <string name="heads_up_time_out_summary">A Lebegő értesítések <xliff:g id="number">%d</xliff:g> másodpercig fognak megjelenni</string>
+    <string name="heads_up_time_out_2sec">2 másodperc</string>
+    <string name="heads_up_time_out_4sec">4 másodperc</string>
+    <string name="heads_up_time_out_5sec">5 másodperc</string>
+    <string name="heads_up_time_out_6sec">6 másodperc</string>
+    <string name="heads_up_time_out_8sec">8 másodperc</string>
+    <string name="heads_up_time_out_10sec">10 másodperc</string>
     <!-- Heads up snooze -->
-    <string name="heads_up_snooze_title">Snooze timer</string>
-    <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-    <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-    <string name="heads_up_snooze_1min">1 minute</string>
-    <string name="heads_up_snooze_5min">5 minutes</string>
-    <string name="heads_up_snooze_10min">10 minutes</string>
-    <string name="heads_up_snooze_15min">15 minutes</string>
-    <string name="heads_up_snooze_20min">20 minutes</string>
+    <string name="heads_up_snooze_title">Szundi ideje</string>
+    <string name="heads_up_snooze_summary_one_minute">A lebegő értesítésen való felfelé csúsztatás 1 percre szundiztatja azt</string>
+    <string name="heads_up_snooze_summary">A lebegő értesítésen való felfelé csúsztatás <xliff:g id="number">%d</xliff:g> percre szundiztatja azt</string>
+    <string name="heads_up_snooze_disabled_summary">Szundi időzítő letiltva</string>
+    <string name="heads_up_snooze_1min">1 perc</string>
+    <string name="heads_up_snooze_5min">5 perc</string>
+    <string name="heads_up_snooze_10min">10 perc</string>
+    <string name="heads_up_snooze_15min">15 perc</string>
+    <string name="heads_up_snooze_20min">20 perc</string>
     <!-- Clear all recents -->
-    <string name="aosp_recents_title">AOSP recents</string>
-    <string name="aosp_recents_title_summary">Oreo style recents configs, clear all FAB</string>
-    <string name="show_clear_all_recents_button_title">Clear-all FAB</string>
-    <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
-    <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
+    <string name="aosp_recents_title">AOSP előzmények</string>
+    <string name="aosp_recents_title_summary">Oreo stílusú korábbi beállítások, összes FAB tisztítása</string>
+    <string name="show_clear_all_recents_button_title">Összes FAB törlése</string>
+    <string name="show_clear_all_recents_button_summary_on">Öszes törölt FAB megjelnítése</string>
+    <string name="show_clear_all_recents_button_summary_off">AOSP alkalmazás bezáró kapcsoló mutatása</string>
     <string name="recents_clear_all_location_title">Clear all FAB location</string>
     <string name="recents_clear_all_location_top_right">Top right</string>
     <string name="recents_clear_all_location_top_left">Top left</string>
@@ -194,10 +194,10 @@
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
-    <string name="statusbar_items_title_summary">Enable or disable statusbar icons</string>
+    <string name="statusbar_items_title">Állapotsori elemek</string>
+    <string name="statusbar_items_title_summary">Állapotsáv ikonok ki- és bekapcsolása</string>
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
+    <string name="lockscreen_tuner_title">Parancsikonok a zárképernyőn</string>
     <!-- QS rows and columns -->
     <string name="qs_rows_columns_title">QS panel tweaks</string>
     <string name="qs_rows_columns_summary">Quicksettings rows and columns, titles, panel opacity</string>
@@ -216,6 +216,7 @@
     <string name="changelog_error">Unable to load changelog</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Battery charging light</string>
+    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
     <string name="battery_light_enable">Battery light</string>
     <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
     <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
@@ -316,6 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">Vibrate when unlocking</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">Battery icon style</string>
+    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
     <string name="battery_style_port">Portrait</string>
     <string name="battery_style_land">Landscape</string>
     <string name="battery_style_circle">Circle</string>

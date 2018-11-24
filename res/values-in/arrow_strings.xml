@@ -216,6 +216,7 @@
     <string name="changelog_error">Tidak dapat memuat perubahan</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Lampu pengisian baterai</string>
+    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
     <string name="battery_light_enable">Lampu baterai</string>
     <string name="battery_light_allow_on_dnd_title">Lampu baterai ketika mode Jangan Ganggu</string>
     <string name="battery_light_low_blinking_title">Lampu berkedip saat baterai lemah</string>
@@ -316,6 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">Bergetar saat membuka</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">Gaya ikon baterai</string>
+    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
     <string name="battery_style_port">Tegak</string>
     <string name="battery_style_land">Mendatar</string>
     <string name="battery_style_circle">Bulat</string>
