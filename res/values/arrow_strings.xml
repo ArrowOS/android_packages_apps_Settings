@@ -604,4 +604,11 @@
     <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
     <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)"</string>
     <string name="value_equals_default">def</string>
+
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
+    <string name="night_auto_value_disabled">Disabled</string>
+    <string name="night_auto_value_min">Minimum brightness</string>
+    <string name="night_bright_low">Low brightness</string>
+    <string name="night_bright_midlow">Mid low brightness</string>
 </resources>
