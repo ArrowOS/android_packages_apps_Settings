@@ -497,9 +497,9 @@
     <string name="double_tap_power_flashlight_screen_title">Aktiviere die Taschenlampe</string>
     <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
     <string name="torch_power_button_gesture_none">Deaktiviert</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
+    <string name="torch_power_button_gesture_dt">Zum Umschalten der Taschenlampe die Ein-/Aus-Taste doppelt drücken</string>
+    <string name="torch_power_button_gesture_lp">Zum Umschalten der Taschenlampe die Ein-/Aus-Taste lange drücken</string>
+    <string name="full_gesture_mode_title">Vollständigen Gestenmodus aktivieren</string>
     <string name="full_gesture_mode_summary">This mode will disable also the back button and you will be able to trigger a back button action by a left swipe on navbar. Right swipe will still trigger the last-app action and left swipe will move apps. To go home you will be able to tap on any navbar empty space, not only the home button.</string>
     <string name="full_gesture_mode_dt2s_title">Aktiviere Doppeltes-Tippen für Ruhemodus</string>
     <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
@@ -507,4 +507,13 @@
     <string name="brightness_slider_bottom_summary">Show brightness slider on the bottom of the quick settings panel</string>
     <string name="qs_show_brightness_title">Helligkeitsregler</string>
     <string name="qs_show_brightness_summary">Option to show or hide the qs brightness slider</string>
+    <!-- Onehand UI mode -->
+    <string name="one_hand_mode_title">Enable using one-hand mode</string>
+    <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
+    <string name="night_auto_value_disabled">Disabled</string>
+    <string name="night_auto_value_min">Minimum brightness</string>
+    <string name="night_bright_low">Low brightness</string>
+    <string name="night_bright_midlow">Mid low brightness</string>
 </resources>

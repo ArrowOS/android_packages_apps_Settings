@@ -216,7 +216,7 @@
     <string name="changelog_error">更新履歴を読み込めませんでした</string>
     <!-- Battery light -->
     <string name="battery_light_settings">バッテリー充電時のライト</string>
-    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
+    <string name="battery_light_summary">バッテリー残量低下時とマナーモード時のバッテリーライトの有無を設定する</string>
     <string name="battery_light_enable">バッテリーライト</string>
     <string name="battery_light_allow_on_dnd_title">マナーモード中のバッテリーライト</string>
     <string name="battery_light_low_blinking_title">バッテリ低下時のライト点滅</string>
@@ -317,7 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">ロック解除時に振動</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">バッテリーアイコンのスタイル</string>
-    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
+    <string name="battery_style_summary">バッテリーアイコンの設定やバッテリー残量の有無の設定</string>
     <string name="battery_style_port">縦</string>
     <string name="battery_style_land">横</string>
     <string name="battery_style_circle">円</string>
@@ -500,11 +500,20 @@
     <string name="torch_power_button_gesture_dt">電源ボタンを2回押しでライト点灯</string>
     <string name="torch_power_button_gesture_lp">電源ボタンを長押しでライト点灯</string>
     <string name="full_gesture_mode_title">すべてのジェスチャーモードを有効にする</string>
-    <string name="full_gesture_mode_summary">This mode will disable also the back button and you will be able to trigger a back button action by a left swipe on navbar. Right swipe will still trigger the last-app action and left swipe will move apps. To go home you will be able to tap on any navbar empty space, not only the home button.</string>
+    <string name="full_gesture_mode_summary">このモードでは戻るボタンも無効になり、ナビゲーションバーの左スワイプで戻るアクションをすることができます。右スワイプはアプリ履歴アクションをし、左スワイプはアプリ間を移動します。ホームボタンだけでなくナビゲーションバーの空きエリアをタップしてもホームに戻れます。</string>
     <string name="full_gesture_mode_dt2s_title">ダブルタップでスリープ機能を有効化</string>
-    <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
+    <string name="full_gesture_mode_dt2s_summary">ホームキーだけでなくナビゲーションバーの空きエリアをタップしてスリープする</string>
     <string name="brightness_slider_bottom_title">下部の明るさスライダー</string>
     <string name="brightness_slider_bottom_summary">クイック設定パネルの下部に明るさスライダーを表示する</string>
     <string name="qs_show_brightness_title">明るさスライダー</string>
     <string name="qs_show_brightness_summary">クイック設定パネルの明るさスライダーの有無の設定</string>
+    <!-- Onehand UI mode -->
+    <string name="one_hand_mode_title">Enable using one-hand mode</string>
+    <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
+    <string name="night_auto_value_disabled">Disabled</string>
+    <string name="night_auto_value_min">Minimum brightness</string>
+    <string name="night_bright_low">Low brightness</string>
+    <string name="night_bright_midlow">Mid low brightness</string>
 </resources>

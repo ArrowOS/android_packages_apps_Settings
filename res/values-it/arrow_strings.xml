@@ -216,7 +216,7 @@
     <string name="changelog_error">Impossibile caricare le modifiche</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Luci batteria in carica</string>
-    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
+    <string name="battery_light_summary">Abilita o disabilita il led della batteria mentre si è su DND, batteria scarica</string>
     <string name="battery_light_enable">Led di notifica batteria</string>
     <string name="battery_light_allow_on_dnd_title">Led notifica batteria in modalità Non Disturbare</string>
     <string name="battery_light_low_blinking_title">Led notifica lampeggiante quando la batteria è scarica</string>
@@ -317,7 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">Vibra allo sblocco</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">Stile icona batteria</string>
-    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
+    <string name="battery_style_summary">Personalizzazione dell\'icona della batteria, mostra o nascondi la percentuale della batteria</string>
     <string name="battery_style_port">Ritratto</string>
     <string name="battery_style_land">Orizzontale</string>
     <string name="battery_style_circle">Cerchio</string>
@@ -494,11 +494,11 @@
     <string name="volte_icon_title">Icona VoLTE</string>
     <string name="volte_icon_summary">Visualizza icona VoLTE (richiede un riavvio della SystemUI per applicare la modifica)</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Attivare la torcia</string>
+    <string name="double_tap_power_flashlight_screen_title">Attiva la torcia</string>
     <string name="double_tap_power_flashlight_title">Torcia a schermo spento col pulsante di alimentazione</string>
     <string name="torch_power_button_gesture_none">Disabilitato</string>
-    <string name="torch_power_button_gesture_dt">Doppio tocco sul pulsante di accensione per accendere la torcia</string>
-    <string name="torch_power_button_gesture_lp">Pressione prolungata sul pulsante accensione per accendere la torcia</string>
+    <string name="torch_power_button_gesture_dt">Doppio tocco sul pulsante di alimentazione per accendere la torcia</string>
+    <string name="torch_power_button_gesture_lp">Pressione prolungata sul pulsante di alimentazione per accendere la torcia</string>
     <string name="full_gesture_mode_title">Attiva la modalità gesti completa</string>
     <string name="full_gesture_mode_summary">Questa modalità disattiverà anche il pulsante indietro e si sarà in grado di innescare un\'azione pulsante indietro da un swipe sinistro sulla barra di navigazione. Lo scorrimento verso destra attiverà l\'azione di ultima app e uno scorrimento verso sinistra sposterà le app. Per tornare alla schermata home potrai toccare su qualsiasi spazio vuoto della barra di navigazione, non solo il pulsante home.</string>
     <string name="full_gesture_mode_dt2s_title">Attiva il doppio tocco per dormire</string>
@@ -507,4 +507,13 @@
     <string name="brightness_slider_bottom_summary">Mostra un cursore della luminosità nella parte inferiore del pannello delle impostazioni rapide</string>
     <string name="qs_show_brightness_title">Cursore luminosità</string>
     <string name="qs_show_brightness_summary">Opzione per mostrare o nascondere il cursore luminosità del pannello delle impostazioni rapide</string>
+    <!-- Onehand UI mode -->
+    <string name="one_hand_mode_title">Enable using one-hand mode</string>
+    <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
+    <string name="night_auto_value_disabled">Disabled</string>
+    <string name="night_auto_value_min">Minimum brightness</string>
+    <string name="night_bright_low">Low brightness</string>
+    <string name="night_bright_midlow">Mid low brightness</string>
 </resources>

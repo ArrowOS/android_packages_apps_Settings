@@ -216,7 +216,7 @@
     <string name="changelog_error">Değişiklikler yüklenemiyor</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Pil şarj ışığı</string>
-    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
+    <string name="battery_light_summary">Rahatsız etmeyin modunda pil ışığını etkinleştirme veya devre dışı bırakma</string>
     <string name="battery_light_enable">Pil ışığı</string>
     <string name="battery_light_allow_on_dnd_title">Rahatsız etmeyinde ışığı yak söndür</string>
     <string name="battery_light_low_blinking_title">Düşük pilde ışığı yak söndür</string>
@@ -317,7 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">Kilit açarken titret</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">Pil simge stili</string>
-    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
+    <string name="battery_style_summary">Pil simgesi özelleştirmeleri, pil yüzdesini gösterme veya gizleme</string>
     <string name="battery_style_port">Dikey</string>
     <string name="battery_style_land">Yatay</string>
     <string name="battery_style_circle">Daire</string>
@@ -507,4 +507,13 @@
     <string name="brightness_slider_bottom_summary">Hızlı ayarlar paneli altında parlaklık kaydırıcısını göster</string>
     <string name="qs_show_brightness_title">Parlaklık kaydırıcısı</string>
     <string name="qs_show_brightness_summary">Hızlı ayarlar parlaklık kaydırıcısını gösterme veya gizleme seçeneği</string>
+    <!-- Onehand UI mode -->
+    <string name="one_hand_mode_title">Tek el modu</string>
+    <string name="one_hand_mode_summary">Tek el modunu etkinleştirmek için gezinme çubuğunda hızlıca kaydırmaya izin verir</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
+    <string name="night_auto_value_disabled">Disabled</string>
+    <string name="night_auto_value_min">Minimum brightness</string>
+    <string name="night_bright_low">Low brightness</string>
+    <string name="night_bright_midlow">Mid low brightness</string>
 </resources>

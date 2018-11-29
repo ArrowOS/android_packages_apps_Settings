@@ -216,7 +216,7 @@
     <string name="changelog_error">Tidak dapat memuat perubahan</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Lampu pengisian baterai</string>
-    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
+    <string name="battery_light_summary">Mengaktifkan atau menonaktifkan lampu Baterai saat menggunakan DND, baterai lemah</string>
     <string name="battery_light_enable">Lampu baterai</string>
     <string name="battery_light_allow_on_dnd_title">Lampu baterai ketika mode Jangan Ganggu</string>
     <string name="battery_light_low_blinking_title">Lampu berkedip saat baterai lemah</string>
@@ -317,7 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">Bergetar saat membuka</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">Gaya ikon baterai</string>
-    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
+    <string name="battery_style_summary">Kustomisasi ikon baterai, tampilkan atau sembunyikan persentase baterai</string>
     <string name="battery_style_port">Tegak</string>
     <string name="battery_style_land">Mendatar</string>
     <string name="battery_style_circle">Bulat</string>
@@ -491,20 +491,29 @@
     <string name="selinux_status_permissive">Tidak Wajib</string>
     <string name="selinux_status_enforcing">Wajib</string>
     <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_title">VoLTE icon</string>
-    <string name="volte_icon_summary">Display VoLTE icon (Needs a SystemUI restart to take effect)</string>
+    <string name="volte_icon_title">Ikon VoLTE</string>
+    <string name="volte_icon_summary">Menampilan ikon VoLTE (Jalankan ulang SystemUI untuk menerapkan)</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
-    <string name="full_gesture_mode_summary">This mode will disable also the back button and you will be able to trigger a back button action by a left swipe on navbar. Right swipe will still trigger the last-app action and left swipe will move apps. To go home you will be able to tap on any navbar empty space, not only the home button.</string>
-    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
-    <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
-    <string name="brightness_slider_bottom_title">Bottom brightness slider</string>
-    <string name="brightness_slider_bottom_summary">Show brightness slider on the bottom of the quick settings panel</string>
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_summary">Option to show or hide the qs brightness slider</string>
+    <string name="double_tap_power_flashlight_screen_title">Nyalakan senter</string>
+    <string name="double_tap_power_flashlight_title">Layar mati tombol power senter</string>
+    <string name="torch_power_button_gesture_none">Dinonaktifkan</string>
+    <string name="torch_power_button_gesture_dt">Tap dua kali untuk menyalakan obor</string>
+    <string name="torch_power_button_gesture_lp">Tekan lama tombol power untuk nyalakan senter</string>
+    <string name="full_gesture_mode_title">Aktifkan mode penuh gerakan</string>
+    <string name="full_gesture_mode_summary">Mode ini juga akan menonaktifkan tombol kembali dan kamu akan dapat memicu aksi tombol kembali oleh usap kiri pada navbar. Usap kanan masih akan memicu tindakan aplikasi terakhir dan geseran kiri akan memindahkan aplikasi. Untuk ke beranda, kamu akan dapat mengetuk ruang kosong navbar, tidak hanya tombol beranda.</string>
+    <string name="full_gesture_mode_dt2s_title">Aktifkan tap dua kali untuk tidur</string>
+    <string name="full_gesture_mode_dt2s_summary">Tap ruang navbar kosong tetapi bukan tombol home untuk mematikan layar.</string>
+    <string name="brightness_slider_bottom_title">Panel geser kecerahan dibawah</string>
+    <string name="brightness_slider_bottom_summary">Tampilkan panel geser kecerahan di bagian bawah panel pengaturan cepat</string>
+    <string name="qs_show_brightness_title">Panel geser kecerahan</string>
+    <string name="qs_show_brightness_summary">Pilihan untuk menampilkan atau menyembunyikan panel kecerahan qs</string>
+    <!-- Onehand UI mode -->
+    <string name="one_hand_mode_title">Enable using one-hand mode</string>
+    <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
+    <string name="night_auto_value_disabled">Disabled</string>
+    <string name="night_auto_value_min">Minimum brightness</string>
+    <string name="night_bright_low">Low brightness</string>
+    <string name="night_bright_midlow">Mid low brightness</string>
 </resources>

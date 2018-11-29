@@ -216,7 +216,7 @@
     <string name="changelog_error">Impossível carregar a lista de alterações</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Luz de carga da bateria</string>
-    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
+    <string name="battery_light_summary">Ativar ou desativar a luz de bateria enquanto na DND, bateria fraca</string>
     <string name="battery_light_enable">Luz da bateria</string>
     <string name="battery_light_allow_on_dnd_title">Luz da bateria no modo Não Perturbe</string>
     <string name="battery_light_low_blinking_title">Luz piscando quando bateria fraca</string>
@@ -317,7 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">Vibrar ao desbloquear</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">Estilo do ícone da bateria</string>
-    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
+    <string name="battery_style_summary">Personalização do ícone da bateria, mostrar ou ocultar a porcentagem da bateria</string>
     <string name="battery_style_port">Retrato</string>
     <string name="battery_style_land">Paisagem</string>
     <string name="battery_style_circle">Círculo</string>
@@ -507,4 +507,13 @@
     <string name="brightness_slider_bottom_summary">Mostrar controle deslizante de brilho na parte de baixo do painel de configurações rápidas</string>
     <string name="qs_show_brightness_title">Controle deslizante de brilho</string>
     <string name="qs_show_brightness_summary">Opção para mostrar ou ocultar o controle deslizante de brilho no Qs</string>
+    <!-- Onehand UI mode -->
+    <string name="one_hand_mode_title">Enable using one-hand mode</string>
+    <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
+    <string name="night_auto_value_disabled">Disabled</string>
+    <string name="night_auto_value_min">Minimum brightness</string>
+    <string name="night_bright_low">Low brightness</string>
+    <string name="night_bright_midlow">Mid low brightness</string>
 </resources>

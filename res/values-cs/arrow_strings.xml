@@ -216,7 +216,7 @@
     <string name="changelog_error">Nelze načíst seznam změn</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Kontrolka nabíjení baterie</string>
-    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
+    <string name="battery_light_summary">Povolit nebo zakázat LED baterie během režimu \"Nerušit\" nebo nízkém stavu baterie</string>
     <string name="battery_light_enable">Světelná signalizace baterie</string>
     <string name="battery_light_allow_on_dnd_title">Světelná signalizace baterie v režimu „Nerušit“</string>
     <string name="battery_light_low_blinking_title">Blikat při nízkém stavu baterie</string>
@@ -317,7 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">Vibrace při odemknutí</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">Styl ikony baterie</string>
-    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
+    <string name="battery_style_summary">Přizpůsobit ikonu baterie, zobrazit nebo skrýt procenta</string>
     <string name="battery_style_port">Na výšku</string>
     <string name="battery_style_land">Na šířku</string>
     <string name="battery_style_circle">Kruh</string>
@@ -507,4 +507,13 @@
     <string name="brightness_slider_bottom_summary">Zobrazí posuvník jasu na spodní straně panelu QS</string>
     <string name="qs_show_brightness_title">Posuvník jasu</string>
     <string name="qs_show_brightness_summary">Možnost zobrazit nebo skrýt posuvník jasu v panelu QS</string>
+    <!-- Onehand UI mode -->
+    <string name="one_hand_mode_title">Enable using one-hand mode</string>
+    <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
+    <string name="night_auto_value_disabled">Disabled</string>
+    <string name="night_auto_value_min">Minimum brightness</string>
+    <string name="night_bright_low">Low brightness</string>
+    <string name="night_bright_midlow">Mid low brightness</string>
 </resources>

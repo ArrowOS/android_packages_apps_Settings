@@ -216,7 +216,7 @@
     <string name="changelog_error">غير قادر على تحميـل سجل التغييرات</string>
     <!-- Battery light -->
     <string name="battery_light_settings">ضوء شحن البطارية</string>
-    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
+    <string name="battery_light_summary">تمكين أو تعطيل ضوء البطارية أثناء تشغيل وضع عدم الازعاج ، بطارية منخفضة</string>
     <string name="battery_light_enable">ضوء البطارية</string>
     <string name="battery_light_allow_on_dnd_title">ضوء البطارية أثناء وضع عدم الإزعاج</string>
     <string name="battery_light_low_blinking_title">وميض الضوء عند إنخفاض البطارية</string>
@@ -317,7 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">الاهتزاز عند الفتح</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">نمط رمز البطارية</string>
-    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
+    <string name="battery_style_summary">تخصيص رمز البطارية ، وإظهار أو إخفاء نسبة البطارية</string>
     <string name="battery_style_port">رأسي</string>
     <string name="battery_style_land">أفقي</string>
     <string name="battery_style_circle">دائرة</string>
@@ -507,4 +507,13 @@
     <string name="brightness_slider_bottom_summary">أظهر شريط تمرير السطوع في أسفل لوحة الإعدادات السريعة</string>
     <string name="qs_show_brightness_title">شريط تمرير السطوع</string>
     <string name="qs_show_brightness_summary">خيار لإظهار أو إخفاء شريط تمرير السطوع في الإعدادات السريعة</string>
+    <!-- Onehand UI mode -->
+    <string name="one_hand_mode_title">Enable using one-hand mode</string>
+    <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
+    <string name="night_auto_value_disabled">Disabled</string>
+    <string name="night_auto_value_min">Minimum brightness</string>
+    <string name="night_bright_low">Low brightness</string>
+    <string name="night_bright_midlow">Mid low brightness</string>
 </resources>
