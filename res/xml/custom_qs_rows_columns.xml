@@ -45,14 +45,6 @@
         settings:min="1"
         settings:units="" />
 
-    <com.android.settings.arrow.preferences.CustomSeekBarPreference
-        android:key="qs_panel_alpha"
-        android:title="@string/qs_panel_alpha_title"
-        android:max="255"
-        settings:min="0"
-        settings:units=""
-        android:persistent="false" />
-
     <com.android.settings.arrow.preferences.SecureSettingSwitchPreference
 	android:key="qs_show_brightness"
         android:title="@string/qs_show_brightness_title"
@@ -88,5 +80,4 @@
         android:title="@string/qs_footer_warnings_title"
         android:summary="@string/qs_footer_warnings_summary"
         android:defaultValue="true" />
-
 </PreferenceScreen>
