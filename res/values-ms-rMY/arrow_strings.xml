@@ -20,37 +20,37 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Manual provisioning support -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-    <string name="sim_disabled">डिसेबल्ड</string>
-    <string name="sim_missing">अनुपस्थित या दोषपूर्ण</string>
-    <string name="sim_enabler_need_disable_sim">सिम कार्ड निष्क्रिय हो जाएगा। क्या आप जारी रखना चाहते हैं?</string>
-    <string name="sim_enabler_will_disable_sim_title">ध्यान दें!</string>
-    <string name="sim_enabler_need_switch_data_service">यह सिम डिसेबल हो जाएगी और सिम <xliff:g id="slotid">%1$s</xliff:g> डेटा सर्विसेज के लिए इस्तेमाल की जाएगी । क्या आप यही चाहते हैं?</string>
-    <string name="sim_enabler_airplane_on">यह कार्य नहीं किया जा सकता क्योंकि एयरप्लेन मोड चालू है</string>
-    <string name="sim_enabler_in_call">यह कार्य कॉल के बीच में नहीं हो सकता</string>
-    <string name="sim_enabler_both_inactive">सब सिम कार्डों को डिसेबल नहीं कर सकते</string>
-    <string name="sim_enabler_enabling">यह सक्रिय हो रहा है: \u2026</string>
-    <string name="sim_enabler_disabling">यह निष्क्रिय हो रहा है: \u2026</string>
-    <string name="sub_activate_success">सिम अब सक्रिय है</string>
-    <string name="sub_activate_failed">सक्रिय करना विफल रहा।</string>
-    <string name="sub_deactivate_success">सिम अब निष्क्रिय है</string>
-    <string name="sub_deactivate_failed">निष्क्रिय करना विफल रहा</string>
+    <string name="sim_disabled">disabled</string>
+    <string name="sim_missing">missing or faulty</string>
+    <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
+    <string name="sim_enabler_will_disable_sim_title">Attention</string>
+    <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
+    <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
+    <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
+    <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
+    <string name="sim_enabler_enabling">Activating\u2026</string>
+    <string name="sim_enabler_disabling">Deactivating\u2026</string>
+    <string name="sub_activate_success">SIM activated.</string>
+    <string name="sub_activate_failed">Activation failed.</string>
+    <string name="sub_deactivate_success">SIM deactivated.</string>
+    <string name="sub_deactivate_failed">Deactivation failed.</string>
     <!-- Fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">फोन के पर स्थित फिंगरप्रिंट सेंसर को पहचाने</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">फोन के पर स्थित फिंगरप्रिंट सेंसर को पहचाने</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">अपने फ़ोन के दाईं ओर फ़िंगरप्रिंट सेंसर का पता लगाएँ.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About ArrowOS -->
-    <string name="rom_version_title">ऐरोओएस वरजन</string>
-    <string name="build_date">निर्माण दिनांक</string>
+    <string name="rom_version_title">ArrowOS version</string>
+    <string name="build_date">Build date</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">रंग चयन</string>
-    <string name="press_color_to_apply">लागू करने के लिए नीचे वाले रंग पर दबाएँ</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="hex">हेक्स:</string>
+    <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">स्थापित करे</string>
+    <string name="set">Set</string>
     <string name="color_default">Default</string>
     <!-- Face auto unlock -->
     <string name="face_auto_unlock_title">Face auto unlock</string>
@@ -70,29 +70,29 @@
     <string name="arrow_stats_title">ArrowOS Stats</string>
     <string name="arrow_stats_summary">we ain\'t stealing your nuds!</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">सेल्युलर डेटा</string>
-    <string name="data_usage_app_restrict_data_summary">सेल्युलर डेटा के उपयोग को सक्षम करें</string>
-    <string name="data_usage_app_restrict_wifi">वाईफाई डाटा</string>
-    <string name="data_usage_app_restrict_wifi_summary">वाईफाई डेटा के उपयोग को सक्षम करें</string>
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
     <!-- Power Menu -->
     <string name="advanced_power_menu">Power button options</string>
     <string name="arrow_reboot_menu">Advanced reboot menu</string>
-    <string name="powermenu_reboot_title">रीबूट</string>
-    <string name="powermenu_airplane_title">एयरप्लेन मोड</string>
-    <string name="powermenu_advanced_reboot_title">खास रिबूट</string>
-    <string name="powermenu_advanced_reboot_summary">खास रीबुट मेन्यू जिसमें सॉफ्ट, रिकवरी और बूटलोडर उपलब्ध हैं, अब से उसे दिखाएं</string>
-    <string name="powermenu_screenshot_title">स्क्रीनशॉट</string>
-    <string name="powermenu_category_visibility">लॉकसक्रीन विकल्प</string>
-    <string name="powermenu_lockscreen_title">लॉकसक्रीन पर उपलब्धि</string>
-    <string name="powermenu_lockscreen_summary">लॉकस्क्रीन पर होने पर पावर मेनू संवाद दिखाने और उपयोग करने की क्षमता सक्षम करें</string>
-    <string name="powermenu_ls_reboot_summary">लॉकस्क्रीन पर‌ रीबूट विकल्प दिखाएँ</string>
-    <string name="powermenu_ls_advanced_reboot_summary">लॉकस्क्रीन पर‌ खास रीबूट के विकल्प दिखाएँ</string>
-    <string name="powermenu_ls_screenshot_summary">लॉकस्क्रीन पर स्क्रीनशॉट विकल्प दिखाएँ</string>
-    <string name="powermenu_ls_airplane_summary">लॉकस्क्रीन पर एयरप्लेन मोड विकल्प दिखाएँ</string>
+    <string name="powermenu_reboot_title">Reboot</string>
+    <string name="powermenu_airplane_title">Airplane mode</string>
+    <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
+    <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
+    <string name="powermenu_screenshot_title">Screenshot</string>
+    <string name="powermenu_category_visibility">Lockscreen options</string>
+    <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
+    <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
+    <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
+    <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
+    <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
+    <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
     <string name="powermenu_lockdown_title">Lockdown</string>
     <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
     <!-- Hide Lockscreen clock, date, & alarm -->
-    <string name="lockscreen_items_other">अन्य</string>
+    <string name="lockscreen_items_other">Other</string>
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">Roaming indicator</string>
     <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
@@ -125,9 +125,9 @@
     <string name="hardware_keys_disable_title">Disable hardware buttons</string>
     <string name="hardware_keys_wake_title">Wake device</string>
     <!-- Settings categories -->
-    <string name="statusbar_category_title">स्टेटस बार</string>
-    <string name="buttons_category_title">बटन</string>
-    <string name="misc_category_title">विविध</string>
+    <string name="statusbar_category_title">StatusBar</string>
+    <string name="buttons_category_title">Buttons</string>
+    <string name="misc_category_title">Misc</string>
     <string name="theme_category_title">System theme</string>
     <!-- Button brightness -->
     <string name="button_backlight_options_category">Backlight options</string>
@@ -191,8 +191,8 @@
     <string name="recents_clear_all_location_bottom_left">Bottom left</string>
     <string name="recents_clear_all_location_bottom_center">Bottom center</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">ग़लती से सक्रीन चलने को रोकें</string>
-    <string name="proximity_wake_summary">स्क्रीन जगाने से पहले निकटता सेंसर की जांच करें</string>
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
     <string name="statusbar_items_title_summary">Enable or disable statusbar icons</string>

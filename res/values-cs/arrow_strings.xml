@@ -508,12 +508,12 @@
     <string name="qs_show_brightness_title">Posuvník jasu</string>
     <string name="qs_show_brightness_summary">Možnost zobrazit nebo skrýt posuvník jasu v panelu QS</string>
     <!-- Onehand UI mode -->
-    <string name="one_hand_mode_title">Enable using one-hand mode</string>
-    <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
+    <string name="one_hand_mode_title">Povolit používání režimu jedné ruky</string>
+    <string name="one_hand_mode_summary">Pro zapnutí povolte přejetí doprava nebo doleva na navigačním panelu</string>
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
-    <string name="night_auto_value_disabled">Disabled</string>
-    <string name="night_auto_value_min">Minimum brightness</string>
-    <string name="night_bright_low">Low brightness</string>
-    <string name="night_bright_midlow">Mid low brightness</string>
+    <string name="night_brightness_value_title">Nižší jas při nočním světle</string>
+    <string name="night_auto_value_disabled">Zakázáno</string>
+    <string name="night_auto_value_min">Minimální jas</string>
+    <string name="night_bright_low">Nízký jas</string>
+    <string name="night_bright_midlow">Středně nízký jas</string>
 </resources>

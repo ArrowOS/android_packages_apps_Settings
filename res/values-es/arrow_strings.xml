@@ -216,7 +216,7 @@
     <string name="changelog_error">No se pudo cargar el registro de cambios</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Luz de batería cargando</string>
-    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
+    <string name="battery_light_summary">Activar o desactivar la luz de la batería en DND, batería baja</string>
     <string name="battery_light_enable">Indicador de carga</string>
     <string name="battery_light_allow_on_dnd_title">Indicador de carga en modo No Molestar</string>
     <string name="battery_light_low_blinking_title">LED intermitente con batería baja</string>
@@ -317,7 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">Vibrar al desbloquear</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">Estilo del icono de la batería</string>
-    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
+    <string name="battery_style_summary">Personalización de icono de la batería, mostrar u ocultar el porcentaje de batería</string>
     <string name="battery_style_port">Vertical</string>
     <string name="battery_style_land">Apaisada</string>
     <string name="battery_style_circle">Círculo</string>
@@ -491,29 +491,29 @@
     <string name="selinux_status_permissive">Permisivo</string>
     <string name="selinux_status_enforcing">Obligatorio</string>
     <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_title">VoLTE icon</string>
-    <string name="volte_icon_summary">Display VoLTE icon (Needs a SystemUI restart to take effect)</string>
+    <string name="volte_icon_title">Icono VoLTE</string>
+    <string name="volte_icon_summary">Mostrar icono VoLTE (necesita reiniciar SystemUI para que surta efecto)</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
-    <string name="full_gesture_mode_summary">This mode will disable also the back button and you will be able to trigger a back button action by a left swipe on navbar. Right swipe will still trigger the last-app action and left swipe will move apps. To go home you will be able to tap on any navbar empty space, not only the home button.</string>
-    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
-    <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
-    <string name="brightness_slider_bottom_title">Bottom brightness slider</string>
-    <string name="brightness_slider_bottom_summary">Show brightness slider on the bottom of the quick settings panel</string>
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_summary">Option to show or hide the qs brightness slider</string>
+    <string name="double_tap_power_flashlight_screen_title">Activar la linterna</string>
+    <string name="double_tap_power_flashlight_title">Activar la linterna con el boton de encendido</string>
+    <string name="torch_power_button_gesture_none">Desactivado</string>
+    <string name="torch_power_button_gesture_dt">Pulsar doblemente el botón de encendido para encender la linterna</string>
+    <string name="torch_power_button_gesture_lp">Pulsación larga del botón de encendido para encender la linterna</string>
+    <string name="full_gesture_mode_title">Activar el modo de gesto completo</string>
+    <string name="full_gesture_mode_summary">Este modo desactivará también el botón de retroceder y serás capaz de realizar una acción de retroceso deslizando hacia la izquierda en la barra de navegación. Un deslizamiento hacia la derecha seguirá llevándote a la última aplicacion, y con un deslizamiento hacia la izquierda para moverte entre las apps. Para ir a inicio, simplemente toca en cualquier espacio vacío de la navbar, no sólo en el botón de inicio.</string>
+    <string name="full_gesture_mode_dt2s_title">Activar doble toque para dormir</string>
+    <string name="full_gesture_mode_dt2s_summary">Tocar en un espacio vacío de la barra de la navegación para apagar la pantalla.</string>
+    <string name="brightness_slider_bottom_title">Barra de brillo en la parte inferior</string>
+    <string name="brightness_slider_bottom_summary">Mostrar barra de brillo en la parte inferior del panel de ajustes rápidos</string>
+    <string name="qs_show_brightness_title">Barra de brillo</string>
+    <string name="qs_show_brightness_summary">Opción para mostrar u ocultar el regulador de brillo de QS</string>
     <!-- Onehand UI mode -->
-    <string name="one_hand_mode_title">Enable using one-hand mode</string>
-    <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
+    <string name="one_hand_mode_title">Activar modo de una sola mano</string>
+    <string name="one_hand_mode_summary">Permitir deslizar a derecha o izquierda en la barra de navegación para activar</string>
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
-    <string name="night_auto_value_disabled">Disabled</string>
-    <string name="night_auto_value_min">Minimum brightness</string>
-    <string name="night_bright_low">Low brightness</string>
-    <string name="night_bright_midlow">Mid low brightness</string>
+    <string name="night_brightness_value_title">Reducir brillo si esta activada la luz nocturna</string>
+    <string name="night_auto_value_disabled">Desabilitado</string>
+    <string name="night_auto_value_min">Brillo mínimo</string>
+    <string name="night_bright_low">Brillo bajo</string>
+    <string name="night_bright_midlow">Brillo medio-bajo</string>
 </resources>

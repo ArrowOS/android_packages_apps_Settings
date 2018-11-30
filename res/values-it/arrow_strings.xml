@@ -508,12 +508,12 @@
     <string name="qs_show_brightness_title">Cursore luminosità</string>
     <string name="qs_show_brightness_summary">Opzione per mostrare o nascondere il cursore luminosità del pannello delle impostazioni rapide</string>
     <!-- Onehand UI mode -->
-    <string name="one_hand_mode_title">Enable using one-hand mode</string>
-    <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
+    <string name="one_hand_mode_title">Abilita usando la modalità ad una sola mano</string>
+    <string name="one_hand_mode_summary">Attiva lo scorrimento verso destra o sinistra sulla barra di navigazione per abilitare</string>
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
-    <string name="night_auto_value_disabled">Disabled</string>
-    <string name="night_auto_value_min">Minimum brightness</string>
-    <string name="night_bright_low">Low brightness</string>
-    <string name="night_bright_midlow">Mid low brightness</string>
+    <string name="night_brightness_value_title">Luminosità ridotta con Luce Notturna</string>
+    <string name="night_auto_value_disabled">Disabilitato</string>
+    <string name="night_auto_value_min">Luminosità minima</string>
+    <string name="night_bright_low">Luminosità bassa</string>
+    <string name="night_bright_midlow">Luminosità medio bassa</string>
 </resources>

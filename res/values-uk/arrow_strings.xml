@@ -216,7 +216,7 @@
     <string name="changelog_error">Помилка завантаження списку змін</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Індикація зарядки акумулятора</string>
-    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
+    <string name="battery_light_summary">Включення або виключення підсвічування в режимі «Не турбувати», розряд акумулятора</string>
     <string name="battery_light_enable">Індикація батареї</string>
     <string name="battery_light_allow_on_dnd_title">Індикатор заряду в режимі \"Не турбувати\"</string>
     <string name="battery_light_low_blinking_title">Блимання індикатора при низькому заряді</string>
@@ -317,7 +317,7 @@
     <string name="lockscreen_vibrate_enabled_head">Вібрувати при розблокуванні</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">Стиль іконки батареї</string>
-    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
+    <string name="battery_style_summary">Налаштування піктограми акумулятора, відобразити або приховати акумуляторний відсоток</string>
     <string name="battery_style_port">Портретний</string>
     <string name="battery_style_land">Альбомний</string>
     <string name="battery_style_circle">Коло</string>
@@ -508,12 +508,12 @@
     <string name="qs_show_brightness_title">Повзунок яскравості</string>
     <string name="qs_show_brightness_summary">Показати або сховати повзунок яскравості</string>
     <!-- Onehand UI mode -->
-    <string name="one_hand_mode_title">Enable using one-hand mode</string>
-    <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
+    <string name="one_hand_mode_title">Увімкнути режим використання однією рукою</string>
+    <string name="one_hand_mode_summary">Дозвольте провести пальцем вправо чи вліво на навігаційному стовпці, щоб увімкнути</string>
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
-    <string name="night_auto_value_disabled">Disabled</string>
-    <string name="night_auto_value_min">Minimum brightness</string>
-    <string name="night_bright_low">Low brightness</string>
-    <string name="night_bright_midlow">Mid low brightness</string>
+    <string name="night_brightness_value_title">Зниження яскравості при використанні нічного режиму</string>
+    <string name="night_auto_value_disabled">Вимкнено</string>
+    <string name="night_auto_value_min">Мінімальна яскравість</string>
+    <string name="night_bright_low">Низька яскравість</string>
+    <string name="night_bright_midlow">Середина низької яскравості</string>
 </resources>

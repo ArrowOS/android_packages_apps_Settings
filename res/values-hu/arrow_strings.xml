@@ -39,7 +39,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Telefonja bal oldalán találhatja meg az ujjlenyomat-olvasót.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Telefonja jobb oldalán találhatja meg az ujjlenyomat-olvasót.</string>
     <!-- Manage applications, package string displayed in app snippet -->
-    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <string name="packagename_text"><xliff:g id="client_name">%1$s</xliff:g></string>
     <!-- About ArrowOS -->
     <string name="rom_version_title">ArrowOS verzió</string>
     <string name="build_date">Build dátuma</string>
@@ -184,22 +184,22 @@
     <string name="show_clear_all_recents_button_summary_on">Öszes törölt FAB megjelnítése</string>
     <string name="show_clear_all_recents_button_summary_off">AOSP alkalmazás bezáró kapcsoló mutatása</string>
     <string name="recents_clear_all_location_title">Clear all FAB location</string>
-    <string name="recents_clear_all_location_top_right">Top right</string>
-    <string name="recents_clear_all_location_top_left">Top left</string>
-    <string name="recents_clear_all_location_top_center">Top center</string>
-    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+    <string name="recents_clear_all_location_top_right">Jobb felül</string>
+    <string name="recents_clear_all_location_top_left">Bal felső</string>
+    <string name="recents_clear_all_location_top_center">Középen fent</string>
+    <string name="recents_clear_all_location_bottom_right">Jobb alul</string>
+    <string name="recents_clear_all_location_bottom_left">Lent balra</string>
+    <string name="recents_clear_all_location_bottom_center">Alul középen</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Véletlen ébresztés megakadályozása</string>
+    <string name="proximity_wake_summary">Közelség érzékelő ellenőrzése a képernyő felébresztése előtt</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Állapotsori elemek</string>
     <string name="statusbar_items_title_summary">Állapotsáv ikonok ki- és bekapcsolása</string>
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Parancsikonok a zárképernyőn</string>
     <!-- QS rows and columns -->
-    <string name="qs_rows_columns_title">QS panel tweaks</string>
+    <string name="qs_rows_columns_title">Gyors beállítások elérése</string>
     <string name="qs_rows_columns_summary">Quicksettings rows and columns, titles, panel opacity</string>
     <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
     <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
