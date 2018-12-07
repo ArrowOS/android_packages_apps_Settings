@@ -208,8 +208,6 @@
     <!-- Volume key rotation -->
     <string name="swap_volume_buttons_title">再配置</string>
     <string name="swap_volume_buttons_summary">画面回転時に音量ボタンを入れ替える</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">クイック設定パネルの不透明度</string>
     <!-- Changelog -->
     <string name="changelog_title">変更履歴</string>
     <string name="changelog_summary">前回の更新から</string>
@@ -237,7 +235,7 @@
     <string name="disable_accents_installed_title">アクセントピッカーはSubstratumとの競合のため利用できません。 アクセントピッカーを使用する場合はSubstratumをアンインストールしてください。</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">天気</string>
-    <string name="weather_config_title_summary">ステータスバーとロック画面の天気</string>
+    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
     <string name="weather_config_title">サービスの設定</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">ヘッダーに天気を表示</string>
@@ -508,12 +506,12 @@
     <string name="qs_show_brightness_title">明るさスライダー</string>
     <string name="qs_show_brightness_summary">クイック設定パネルの明るさスライダーの有無の設定</string>
     <!-- Onehand UI mode -->
-    <string name="one_hand_mode_title">Enable using one-hand mode</string>
-    <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
+    <string name="one_hand_mode_title">片手モードを有効にする</string>
+    <string name="one_hand_mode_summary">ナビゲーションバーを右または左にスワイプして有効にする</string>
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
-    <string name="night_auto_value_disabled">Disabled</string>
-    <string name="night_auto_value_min">Minimum brightness</string>
-    <string name="night_bright_low">Low brightness</string>
-    <string name="night_bright_midlow">Mid low brightness</string>
+    <string name="night_brightness_value_title">夜の場合は明るさを下げる</string>
+    <string name="night_auto_value_disabled">無効</string>
+    <string name="night_auto_value_min">最低輝度</string>
+    <string name="night_bright_low">低輝度</string>
+    <string name="night_bright_midlow">やや低輝度</string>
 </resources>

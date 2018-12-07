@@ -208,15 +208,13 @@
     <!-- Volume key rotation -->
     <string name="swap_volume_buttons_title">重新调整</string>
     <string name="swap_volume_buttons_summary">旋转屏幕时交换音量键的布局</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">快速设置面板不透明度</string>
     <!-- Changelog -->
     <string name="changelog_title">更新日志</string>
     <string name="changelog_summary">自上次更新后</string>
     <string name="changelog_error">无法加载更新日志</string>
     <!-- Battery light -->
     <string name="battery_light_settings">充电指示灯</string>
-    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
+    <string name="battery_light_summary">在勿扰模式、低电量时启用或禁用电池指示灯</string>
     <string name="battery_light_enable">电量指示灯</string>
     <string name="battery_light_allow_on_dnd_title">勿扰模式启用充电指示灯</string>
     <string name="battery_light_low_blinking_title">低电量时指示灯闪烁</string>
@@ -237,7 +235,7 @@
     <string name="disable_accents_installed_title">强调色选择器停止使用，以避免与 Substratum 发生冲突。如果您希望使用强调色选择器, 请卸载 Substratum。</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">天气</string>
-    <string name="weather_config_title_summary">状态栏和锁屏天气</string>
+    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
     <string name="weather_config_title">服务设置</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">顶部天气视图</string>
@@ -317,7 +315,7 @@
     <string name="lockscreen_vibrate_enabled_head">解锁时震动</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">电池图标样式</string>
-    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
+    <string name="battery_style_summary">电池图标自定义, 显示或隐藏电池百分比</string>
     <string name="battery_style_port">纵向</string>
     <string name="battery_style_land">横向</string>
     <string name="battery_style_circle">环形</string>
@@ -491,29 +489,29 @@
     <string name="selinux_status_permissive">宽容模式</string>
     <string name="selinux_status_enforcing">执行模式</string>
     <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_title">VoLTE icon</string>
-    <string name="volte_icon_summary">Display VoLTE icon (Needs a SystemUI restart to take effect)</string>
+    <string name="volte_icon_title">VoLTE 图标</string>
+    <string name="volte_icon_summary">显示 VoLTE 图标 (需要重新启动系统 ui 才能生效)</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
-    <string name="full_gesture_mode_summary">This mode will disable also the back button and you will be able to trigger a back button action by a left swipe on navbar. Right swipe will still trigger the last-app action and left swipe will move apps. To go home you will be able to tap on any navbar empty space, not only the home button.</string>
-    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
-    <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
-    <string name="brightness_slider_bottom_title">Bottom brightness slider</string>
-    <string name="brightness_slider_bottom_summary">Show brightness slider on the bottom of the quick settings panel</string>
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_summary">Option to show or hide the qs brightness slider</string>
+    <string name="double_tap_power_flashlight_screen_title">打开手电筒</string>
+    <string name="double_tap_power_flashlight_title">息屏状态按下电源键开启手电筒</string>
+    <string name="torch_power_button_gesture_none">已禁用</string>
+    <string name="torch_power_button_gesture_dt">双击电源键可打开手电筒</string>
+    <string name="torch_power_button_gesture_lp">长按电源键打开手电筒</string>
+    <string name="full_gesture_mode_title">启用完整手势模式</string>
+    <string name="full_gesture_mode_summary">此模式将禁用返回按钮, 你可以通过在导航栏上的左滑来触发返回操作，右滑切换上一个应用并且左滑移动应用程序。你可以点击任何导航栏的空白处而不仅仅是主页按钮来返回主页。</string>
+    <string name="full_gesture_mode_dt2s_title">启用双击熄屏</string>
+    <string name="full_gesture_mode_dt2s_summary">点击导航栏中的空白处而不是主页按钮以关闭屏幕。</string>
+    <string name="brightness_slider_bottom_title">底部亮度滑块</string>
+    <string name="brightness_slider_bottom_summary">在快速设置面板底部显示亮度滑块</string>
+    <string name="qs_show_brightness_title">亮度滑块</string>
+    <string name="qs_show_brightness_summary">在“快速设置”中显示或隐藏“亮度”滑块</string>
     <!-- Onehand UI mode -->
-    <string name="one_hand_mode_title">Enable using one-hand mode</string>
-    <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
+    <string name="one_hand_mode_title">启用单手模式</string>
+    <string name="one_hand_mode_summary">允许向右或向左滑动导航栏以启用</string>
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
-    <string name="night_auto_value_disabled">Disabled</string>
-    <string name="night_auto_value_min">Minimum brightness</string>
-    <string name="night_bright_low">Low brightness</string>
-    <string name="night_bright_midlow">Mid low brightness</string>
+    <string name="night_brightness_value_title">处于夜间模式时降低亮度</string>
+    <string name="night_auto_value_disabled">已禁用</string>
+    <string name="night_auto_value_min">最低亮度</string>
+    <string name="night_bright_low">低亮度</string>
+    <string name="night_bright_midlow">中低亮度</string>
 </resources>

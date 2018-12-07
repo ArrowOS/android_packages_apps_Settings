@@ -208,8 +208,6 @@
     <!-- Volume key rotation -->
     <string name="swap_volume_buttons_title">Neuorientierung</string>
     <string name="swap_volume_buttons_summary">Belegung der Lautstärketasten umkehren, wenn der Bildschirm gedreht wird</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Transparenz des Schnelleinstellungsmenüs</string>
     <!-- Changelog -->
     <string name="changelog_title">Änderungen</string>
     <string name="changelog_summary">Seit dem letzten Update</string>
@@ -237,7 +235,7 @@
     <string name="disable_accents_installed_title">Accent Picker ist nicht verfügbar, um Konflikte mit Substratum zu vermeiden. Deinstallieren Sie es, wenn Sie den Akzentpicker verwenden möchten.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Wetter</string>
-    <string name="weather_config_title_summary">Statusleiste und Sperrbildschirm Wetter</string>
+    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
     <string name="weather_config_title">Service-Einstellungen</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">Wetter in der Statusleiste</string>

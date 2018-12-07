@@ -208,15 +208,13 @@
     <!-- Volume key rotation -->
     <string name="swap_volume_buttons_title">Автоповорот</string>
     <string name="swap_volume_buttons_summary">Менять назначение кнопок регулировки громкости согласно ориентации экрана</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Прозрачность панели быстрых настроек</string>
     <!-- Changelog -->
     <string name="changelog_title">Список изменений</string>
     <string name="changelog_summary">С последнего обновления</string>
     <string name="changelog_error">Невозможно загрузить список изменений</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Индикация зарядки батареи</string>
-    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
+    <string name="battery_light_summary">Включение или выключение \"индикации батареи\" в режиме «Не беспокоить», при низком заряде батареи</string>
     <string name="battery_light_enable">Индикация батареи</string>
     <string name="battery_light_allow_on_dnd_title">Индикация батареи в режиме \"Не беспокоить\"</string>
     <string name="battery_light_low_blinking_title">Индикация при низком заряде батареи</string>
@@ -237,7 +235,7 @@
     <string name="disable_accents_installed_title">Управление акцентом темы не может не конфликтовать с Substratum. Удалите его, если хотите и дальше использовать системное управление акцентом.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Погода</string>
-    <string name="weather_config_title_summary">Погода в строке состояния и на экране блокировки</string>
+    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
     <string name="weather_config_title">Настройки службы</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">Погода в заголовке панели уведомлений</string>
@@ -317,7 +315,7 @@
     <string name="lockscreen_vibrate_enabled_head">Вибрация при разблокировке</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">Стиль значка батареи</string>
-    <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
+    <string name="battery_style_summary">Кастомизация значка батареи, отображение процента заряда батареи</string>
     <string name="battery_style_port">Вертикальный</string>
     <string name="battery_style_land">Горизонтальный</string>
     <string name="battery_style_circle">Круглый значок</string>
@@ -499,8 +497,8 @@
     <string name="torch_power_button_gesture_none">Отключён</string>
     <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания для включения фонарика</string>
     <string name="torch_power_button_gesture_lp">Удержание кнопки питания для включения фонарика</string>
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
-    <string name="full_gesture_mode_summary">This mode will disable also the back button and you will be able to trigger a back button action by a left swipe on navbar. Right swipe will still trigger the last-app action and left swipe will move apps. To go home you will be able to tap on any navbar empty space, not only the home button.</string>
+    <string name="full_gesture_mode_title">Включить режим жестов</string>
+    <string name="full_gesture_mode_summary">Этот режим также отключит кнопку «Назад», и вы сможете активировать действие кнопки «Назад» с помощью свайпа влево на панели навигации. Свайп вправо по-прежнему будет открывать меню последних приложений, а по свайпу влево список будет прокручиваться. Чтобы вернуться на начальный экран, вы сможете использовать любое свободное место на навигационной панели.</string>
     <string name="full_gesture_mode_dt2s_title">Вкл двойное нажатие для сна</string>
     <string name="full_gesture_mode_dt2s_summary">Нажмите на пустое место в панели навигации (но не кнопку домой) для выключения экрана.</string>
     <string name="brightness_slider_bottom_title">Ползунок яркости сверху</string>
@@ -508,12 +506,12 @@
     <string name="qs_show_brightness_title">Ползунок яркости</string>
     <string name="qs_show_brightness_summary">Показать или скрыть ползунок яркости</string>
     <!-- Onehand UI mode -->
-    <string name="one_hand_mode_title">Enable using one-hand mode</string>
-    <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
+    <string name="one_hand_mode_title">Включить режим управления одной рукой</string>
+    <string name="one_hand_mode_summary">Включить свайп влево или вправо по панели навигации для активации</string>
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
-    <string name="night_auto_value_disabled">Disabled</string>
-    <string name="night_auto_value_min">Minimum brightness</string>
-    <string name="night_bright_low">Low brightness</string>
+    <string name="night_brightness_value_title">Снижение яркости при использовании ночного режима</string>
+    <string name="night_auto_value_disabled">Выключено</string>
+    <string name="night_auto_value_min">Минимальная яркость</string>
+    <string name="night_bright_low">Низкая яркость</string>
     <string name="night_bright_midlow">Mid low brightness</string>
 </resources>

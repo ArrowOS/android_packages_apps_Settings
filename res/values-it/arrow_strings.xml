@@ -208,8 +208,6 @@
     <!-- Volume key rotation -->
     <string name="swap_volume_buttons_title">Riorienta</string>
     <string name="swap_volume_buttons_summary">Scambia i tasti del volume quando lo schermo è ruotato</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Opacità pannello impostazioni rapide</string>
     <!-- Changelog -->
     <string name="changelog_title">Ultime modifiche</string>
     <string name="changelog_summary">Dall\'ultimo aggiornamento</string>
@@ -237,7 +235,7 @@
     <string name="disable_accents_installed_title">I temi di sistema non sono disponibili per evitare conflitti con Substratum. Disinstallalo se invece desideri usare questi temi.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Meteo</string>
-    <string name="weather_config_title_summary">Meteo nella barra di stato e nella schermata di blocco</string>
+    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
     <string name="weather_config_title">Impostazioni del servizio</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">Visualizza meteo nell\'intestazione</string>

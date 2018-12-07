@@ -208,8 +208,6 @@
     <!-- Volume key rotation -->
     <string name="swap_volume_buttons_title">Преориентиране</string>
     <string name="swap_volume_buttons_summary">Размяна на бутоните за сила на звука, когато екрана се завъртян</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Непрозрачност на QS панела</string>
     <!-- Changelog -->
     <string name="changelog_title">Списък на промените</string>
     <string name="changelog_summary">От последната актуализация</string>
@@ -237,7 +235,7 @@
     <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Метеорологични условия</string>
-    <string name="weather_config_title_summary">Stautusbar и lockscreen време</string>
+    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
     <string name="weather_config_title">Настройки на услугата</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">Горен изглед време</string>

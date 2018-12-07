@@ -208,8 +208,6 @@
     <!-- Volume key rotation -->
     <string name="swap_volume_buttons_title">Реорієнтація</string>
     <string name="swap_volume_buttons_summary">Поміняти кнопки регулювання гучності, коли екран повернений</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Непрозорість панелі швидких налаштувань</string>
     <!-- Changelog -->
     <string name="changelog_title">Список змін</string>
     <string name="changelog_summary">Після останнього оновлення</string>
@@ -237,7 +235,7 @@
     <string name="disable_accents_installed_title">Набір акцентів недоступний, щоб уникнути конфліктів з Substratum. Видаліть його, якщо ви бажаєте скористатись інструментом вибору акценту.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Погода</string>
-    <string name="weather_config_title_summary">Погода в статусбарі і на екрані блокування</string>
+    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
     <string name="weather_config_title">Службові налаштування</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">Перегляд погоди у заголовку</string>

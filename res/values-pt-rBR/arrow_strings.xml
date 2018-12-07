@@ -19,10 +19,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="text">%1$s</xliff:g>, <xliff:g id="size" example="230 kB">%2$s</xliff:g>/s</string>
+    <string name="sim_enabler_summary"><xliff:g id="mostrarosim">%1$s</xliff:g>, <xliff:g id="status" example="desabilitado">%2$s</xliff:g></string>
     <string name="sim_disabled">desativado</string>
     <string name="sim_missing">em falta ou com defeito</string>
-    <string name="sim_enabler_need_disable_sim">O cartão SIM será desativado. Quer continuar?</string>
+    <string name="sim_enabler_need_disable_sim">O cartão SIM será desativado. Deseja continuar?</string>
     <string name="sim_enabler_will_disable_sim_title">Atenção</string>
     <string name="sim_enabler_need_switch_data_service">Este cartão SIM será desativado e o cartão SIM <xliff:g id="slotid">%1$s</xliff:g> será usado para serviços de dados. Tem certeza que deseja continuar?</string>
     <string name="sim_enabler_airplane_on">Não é possível executar a operação enquanto o modo avião está ativado.</string>
@@ -44,13 +44,13 @@
     <string name="rom_version_title">Versão ArrowOS</string>
     <string name="build_date">Data da compilação</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Seletor de cores</string>
-    <string name="press_color_to_apply">Pressione na cor abaixo para aplicar</string>
+    <string name="dialog_color_picker">Seleção de cores</string>
+    <string name="press_color_to_apply">Escolha uma cor abaixo para aplicar</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Configurar</string>
+    <string name="set">Definir</string>
     <string name="color_default">Padrão</string>
     <!-- Face auto unlock -->
     <string name="face_auto_unlock_title">Desbloqueio facial automático</string>
@@ -77,7 +77,7 @@
     <!-- Power Menu -->
     <string name="advanced_power_menu">Opções do botão de energia</string>
     <string name="arrow_reboot_menu">Menu de reinício avançado</string>
-    <string name="powermenu_reboot_title">Reinicialização</string>
+    <string name="powermenu_reboot_title">Reiniciar</string>
     <string name="powermenu_airplane_title">Modo avião</string>
     <string name="powermenu_advanced_reboot_title">Reinicialização avançada</string>
     <string name="powermenu_advanced_reboot_summary">Habilita o menu de reinicialização avançada para reinicializar opções como reinício rápido, recuperação e bootloader. Também adiciona como uma opção para reiniciar a Interface Sistema</string>
@@ -85,11 +85,11 @@
     <string name="powermenu_category_visibility">Opções da tela de bloqueio</string>
     <string name="powermenu_lockscreen_title">Visibilidade na tela de bloqueio</string>
     <string name="powermenu_lockscreen_summary">Mostrar o menu de energia na tela de bloqueio</string>
-    <string name="powermenu_ls_reboot_summary">Exibir a opção de reinicio na tela de bloqueio</string>
+    <string name="powermenu_ls_reboot_summary">Exibir a opção de reiniciar na tela de bloqueio</string>
     <string name="powermenu_ls_advanced_reboot_summary">Mostrar a opção de reinicialização avançada na tela de bloqueio</string>
     <string name="powermenu_ls_screenshot_summary">Exibir a opção de captura de tela na tela de bloqueio</string>
     <string name="powermenu_ls_airplane_summary">Exibir o modo avião na Tela de Bloqueio</string>
-    <string name="powermenu_lockdown_title">Bloqueio total</string>
+    <string name="powermenu_lockdown_title">Bloqueio</string>
     <string name="powermenu_ls_lockdown_summary">Exibir opções do botão de energia que desativam o acesso estendido e o desbloqueio de impressões digitais</string>
     <!-- Hide Lockscreen clock, date, & alarm -->
     <string name="lockscreen_items_other">Outro</string>
@@ -105,7 +105,7 @@
     <string name="action_entry_default_action">Definições padrão</string>
     <string name="action_entry_select_app">Selecione Aplicação</string>
     <string name="action_entry_custom_action">Selecionar ação personalizada</string>
-    <string name="hardware_keys_volume_keys_title">Seletor de volume</string>
+    <string name="hardware_keys_volume_keys_title">Volume</string>
     <string name="hardware_keys_home_key_title">Botão Início</string>
     <string name="hardware_keys_menu_key_title">Botão menu</string>
     <string name="hardware_keys_assist_key_title">Botão de pesquisa</string>
@@ -127,7 +127,7 @@
     <!-- Settings categories -->
     <string name="statusbar_category_title">Barra de Status</string>
     <string name="buttons_category_title">Botões</string>
-    <string name="misc_category_title">Variados</string>
+    <string name="misc_category_title">Outros</string>
     <string name="theme_category_title">Tema do sistema</string>
     <!-- Button brightness -->
     <string name="button_backlight_options_category">Opções de luz de fundo</string>
@@ -168,10 +168,10 @@
     <string name="heads_up_time_out_8sec">8 segundos</string>
     <string name="heads_up_time_out_10sec">10 segundos</string>
     <!-- Heads up snooze -->
-    <string name="heads_up_snooze_title">Temporizador da soneca</string>
+    <string name="heads_up_snooze_title">Temporizador de soneca</string>
     <string name="heads_up_snooze_summary_one_minute">Deslizar sobre alguma notificação vai silenciar as notificações flutuantes desse aplicativo por 1 minuto</string>
     <string name="heads_up_snooze_summary">Deslizar sobre alguma notificação vai silenciar as notificações flutuantes desse aplicativo por <xliff:g id="number">%d</xliff:g> minutos</string>
-    <string name="heads_up_snooze_disabled_summary">Tempo da Soneca está desativado</string>
+    <string name="heads_up_snooze_disabled_summary">Tempo de Soneca está desativado</string>
     <string name="heads_up_snooze_1min">1 minuto</string>
     <string name="heads_up_snooze_5min">5 minutos</string>
     <string name="heads_up_snooze_10min">10 minutos</string>
@@ -179,7 +179,7 @@
     <string name="heads_up_snooze_20min">20 minutos</string>
     <!-- Clear all recents -->
     <string name="aosp_recents_title">Recentes AOSP</string>
-    <string name="aosp_recents_title_summary">Oreo estilo configurações recentes, desmarque todos os FAB</string>
+    <string name="aosp_recents_title_summary">Configurações de recentes estilo Oreo, Limpar todos os FAB</string>
     <string name="show_clear_all_recents_button_title">Limpar todos recentes</string>
     <string name="show_clear_all_recents_button_summary_on">Exibir limpar todos recentes</string>
     <string name="show_clear_all_recents_button_summary_off">Exibir AOSP limpar todos</string>
@@ -208,8 +208,6 @@
     <!-- Volume key rotation -->
     <string name="swap_volume_buttons_title">Reorientar</string>
     <string name="swap_volume_buttons_summary">Inverter botões de volume quando virar a tela</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Opacidade do painel Conf. Rápidas</string>
     <!-- Changelog -->
     <string name="changelog_title">Relatório de Mudanças</string>
     <string name="changelog_summary">Desde a última atualização</string>
@@ -226,18 +224,18 @@
     <string name="battery_light_full_color">Bateria quase cheia</string>
     <string name="battery_light_reallyfull_color">Bateria carregada</string>
     <!-- SystemUI theme -->
-    <string name="systemui_theme_style_title">Tema do sistema</string>
+    <string name="systemui_theme_style_title">Tema do Sistema UI</string>
     <string name="systemui_theme_style_auto">Automático (baseado no papel de parede)</string>
     <string name="systemui_theme_style_light">Claro</string>
     <string name="systemui_theme_style_dark">Escuro</string>
     <string name="system_theme_style_black">Preto</string>
     <string name="applying_theme_toast">Aplicando tema, por favor aguarde...</string>
     <string name="theme_applied_toast">Tema aplicado!</string>
-    <string name="disable_themes_installed_title">O seletor de fontes não está disponível para evitar conflitos com o Substratum. Desinstale-o se você quiser usar o seletor de fontes.</string>
+    <string name="disable_themes_installed_title">O selecionador de fontes não está disponível para não ter conflitos com o Substratum. Desinstale o Substratum se você quiser usar o selecionador de fontes.</string>
     <string name="disable_accents_installed_title">Temas do sistema não estão disponíveis para evitar conflitos com o substrato. Desinstalá-lo se você quiser usar estes temas em vez disso.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Clima</string>
-    <string name="weather_config_title_summary">Clima na barra de status e tela de bloqueio</string>
+    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
     <string name="weather_config_title">Configurações do serviço</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">Previsão do tempo no cabeçalho</string>
@@ -357,7 +355,7 @@
     <string name="app_ops_modify_clipboard">modificar área de transferência</string>
     <string name="app_ops_modify_contacts">atualizar seus contatos</string>
     <string name="app_ops_modify_settings">atualizar configurações de sistema</string>
-    <string name="app_ops_mute_unmute_microphone">ligar/desligar o microfone</string>
+    <string name="app_ops_mute_unmute_microphone">mutar/desmutar o microfone</string>
     <string name="app_ops_play_audio">reproduzir áudio</string>
     <string name="app_ops_post_notification">postar uma notificação</string>
     <string name="app_ops_project_media">projetar mídia</string>
@@ -508,12 +506,12 @@
     <string name="qs_show_brightness_title">Controle deslizante de brilho</string>
     <string name="qs_show_brightness_summary">Opção para mostrar ou ocultar o controle deslizante de brilho no Qs</string>
     <!-- Onehand UI mode -->
-    <string name="one_hand_mode_title">Enable using one-hand mode</string>
-    <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
+    <string name="one_hand_mode_title">Ativar usando o modo de uma mão</string>
+    <string name="one_hand_mode_summary">Permitir deslizar pela direita ou esquerda na barra de navegação para ativar</string>
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
-    <string name="night_auto_value_disabled">Disabled</string>
-    <string name="night_auto_value_min">Minimum brightness</string>
-    <string name="night_bright_low">Low brightness</string>
-    <string name="night_bright_midlow">Mid low brightness</string>
+    <string name="night_brightness_value_title">Diminuir brilho se a luz da noite</string>
+    <string name="night_auto_value_disabled">Desabilitado</string>
+    <string name="night_auto_value_min">Brilho mínimo</string>
+    <string name="night_bright_low">Brilho baixo</string>
+    <string name="night_bright_midlow">Brilho baixo médio</string>
 </resources>

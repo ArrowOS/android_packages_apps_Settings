@@ -208,8 +208,6 @@
     <!-- Volume key rotation -->
     <string name="swap_volume_buttons_title">Přeorientovat</string>
     <string name="swap_volume_buttons_summary">Prohodit tlačítka hlasitosti při otočení obrazovky</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Neprůhlednost panelu QS</string>
     <!-- Changelog -->
     <string name="changelog_title">Seznam změn</string>
     <string name="changelog_summary">Od poslední aktualizace</string>
@@ -237,7 +235,7 @@
     <string name="disable_accents_installed_title">Výběr doplňkové barvy není k dispozici, aby se předešlo konfliktům se Substratum. Pokud chcete použít výběr doplňkové barvy, odinstalujte Substratum.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Počasí</string>
-    <string name="weather_config_title_summary">Počasí na zamykací obrazovce a stavové liště</string>
+    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
     <string name="weather_config_title">Nastavení služby</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">Zobrazit počasí v záhlaví</string>
