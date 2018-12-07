@@ -208,8 +208,6 @@
     <!-- Volume key rotation -->
     <string name="swap_volume_buttons_title">التبديل</string>
     <string name="swap_volume_buttons_summary">التبديل بين موضعي أزرار الصّوت عند دوران الشاشة</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">شفافية لوحة الإعدادات السريعة</string>
     <!-- Changelog -->
     <string name="changelog_title">سِجل التغييرات</string>
     <string name="changelog_summary">منذ آخر تحديث</string>
@@ -237,7 +235,7 @@
     <string name="disable_accents_installed_title">لا يتوفر منتقي اللكنة لتجنب التعارض مع Substratum. قم بإلغاء تثبيته إذا كنت ترغب في استخدام منتقي اللكنة.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">الطقس</string>
-    <string name="weather_config_title_summary">طقس شريط الحالة وشاشة القفل</string>
+    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
     <string name="weather_config_title">إعدادات الخدمة</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">عرض الطقس في رأس اللوحة</string>

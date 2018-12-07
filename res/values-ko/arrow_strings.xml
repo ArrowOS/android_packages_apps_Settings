@@ -208,8 +208,6 @@
     <!-- Volume key rotation -->
     <string name="swap_volume_buttons_title">버튼 재정렬</string>
     <string name="swap_volume_buttons_summary">화면이 회전되었을 때 볼륨 버튼 위/아래 전환</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">빠른 설정 패널 불투명도</string>
     <!-- Changelog -->
     <string name="changelog_title">변경 사항</string>
     <string name="changelog_summary">마지막 업데이트 후</string>
@@ -237,7 +235,7 @@
     <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">날씨</string>
-    <string name="weather_config_title_summary">상태 표시줄과 잠금화면 날씨</string>
+    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
     <string name="weather_config_title">서비스 설정</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">헤더에 날씨 표시</string>

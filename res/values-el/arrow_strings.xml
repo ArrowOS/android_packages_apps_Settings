@@ -208,8 +208,6 @@
     <!-- Volume key rotation -->
     <string name="swap_volume_buttons_title">Επαναπροσανατολισμός</string>
     <string name="swap_volume_buttons_summary">Εναλλαγή των πλήκτρων έντασης κατά την περιστροφή της οθόνης</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Αδιαφάνεια πίνακα γρήγορων ρυθμίσεων</string>
     <!-- Changelog -->
     <string name="changelog_title">Αρχείο αλλαγών</string>
     <string name="changelog_summary">Από την τελευταία ενημέρωση</string>
@@ -237,7 +235,7 @@
     <string name="disable_accents_installed_title">Ο επιλογέας χρώματος δεν είναι διαθέσιμος για να αποφύγετε διενέξεις με το Substratum. Απ εγκαταστήστε το αν επιθυμείτε να χρησιμοποιήσετε τον επιλογέα χρώματος.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Καιρός</string>
-    <string name="weather_config_title_summary">Καιρός στην γραμμή κατάστασης και οθόνη κλειδώματος</string>
+    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
     <string name="weather_config_title">Ρυθμίσεις Υπηρεσίας</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">Κεφαλίδα προβολής καιρού</string>

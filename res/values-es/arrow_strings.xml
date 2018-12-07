@@ -208,8 +208,6 @@
     <!-- Volume key rotation -->
     <string name="swap_volume_buttons_title">Reorientar botones</string>
     <string name="swap_volume_buttons_summary">Intercambiar los botones de control de volumen al rotar la pantalla</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Opacidad del Panel de Ajustes Rápidos</string>
     <!-- Changelog -->
     <string name="changelog_title">Historial de cambios</string>
     <string name="changelog_summary">Desde la última actualización</string>
@@ -237,7 +235,7 @@
     <string name="disable_accents_installed_title">El selector de acentos no está disponible para evitar conflictos con Substratum. Desinstala si deseas utilizar el selector de fuentes.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Tiempo metereològico</string>
-    <string name="weather_config_title_summary">Barra de estado y clima de la pantalla de bloqueo</string>
+    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
     <string name="weather_config_title">Ajustes del servicio</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">Vista del tiempo en el encabezado</string>

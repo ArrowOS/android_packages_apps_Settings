@@ -208,8 +208,6 @@
     <!-- Volume key rotation -->
     <string name="swap_volume_buttons_title">Reorient</string>
     <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">QS panel opacity</string>
     <!-- Changelog -->
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Since the last update</string>
@@ -237,7 +235,7 @@
     <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">天氣</string>
-    <string name="weather_config_title_summary">Stautusbar and lockscreen weather</string>
+    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
     <string name="weather_config_title">服務設定</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">Header view weather</string>

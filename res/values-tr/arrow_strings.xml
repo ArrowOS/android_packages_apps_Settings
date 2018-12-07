@@ -208,8 +208,6 @@
     <!-- Volume key rotation -->
     <string name="swap_volume_buttons_title">Yeniden ata</string>
     <string name="swap_volume_buttons_summary">Ekran döndürüldüğünde ses tuşlarının yerini değiştir</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Hızlı ayarlar panel şeffaflığı</string>
     <!-- Changelog -->
     <string name="changelog_title">Değişiklikler</string>
     <string name="changelog_summary">Son güncellemeden bu yana</string>
@@ -237,7 +235,7 @@
     <string name="disable_accents_installed_title">Substratum ile çakışmaları önlemek için vurgu rengi seçici kullanılamıyor. Vurgu rengi seçiciyi kullanmak isterseniz substratumu kaldırın.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Hava durumu</string>
-    <string name="weather_config_title_summary">Durum çubuğunda ve kilit ekranında hava durumu</string>
+    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
     <string name="weather_config_title">Servis ayarları</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">Başlık görünümünde hava durumu</string>
@@ -511,9 +509,9 @@
     <string name="one_hand_mode_title">Tek el modu</string>
     <string name="one_hand_mode_summary">Tek el modunu etkinleştirmek için gezinme çubuğunda hızlıca kaydırmaya izin verir</string>
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
-    <string name="night_auto_value_disabled">Disabled</string>
-    <string name="night_auto_value_min">Minimum brightness</string>
-    <string name="night_bright_low">Low brightness</string>
-    <string name="night_bright_midlow">Mid low brightness</string>
+    <string name="night_brightness_value_title">Gece ışığında düşük parlaklık</string>
+    <string name="night_auto_value_disabled">Devre dışı</string>
+    <string name="night_auto_value_min">Minimum parlaklık</string>
+    <string name="night_bright_low">Düşük parlaklık</string>
+    <string name="night_bright_midlow">Orta düşük parlaklık</string>
 </resources>

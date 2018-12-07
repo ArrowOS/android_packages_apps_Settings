@@ -208,8 +208,6 @@
     <!-- Volume key rotation -->
     <string name="swap_volume_buttons_title">Reorienta</string>
     <string name="swap_volume_buttons_summary">Intercanvia els botons de volum quan la pantalla estigui girada</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Opacitat del panell de Configuracions ràpides</string>
     <!-- Changelog -->
     <string name="changelog_title">Registre de canvis</string>
     <string name="changelog_summary">Des de l\'última actualització</string>
@@ -237,7 +235,7 @@
     <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">El Temps</string>
-    <string name="weather_config_title_summary">Stautusbar and lockscreen weather</string>
+    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
     <string name="weather_config_title">Configuració del servei</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">Header view weather</string>
@@ -262,32 +260,32 @@
     <string name="status_bar_temperature_image_hide_scale">Show temp with image without scale</string>
     <string name="status_bar_temperature_show_scale_hide_image">Mostra la temperatura amb escala</string>
     <string name="status_bar_temperature_hide_scale_hide_image">Mostra la temperatura sense escala</string>
-    <string name="status_bar_show_image">Show image</string>
+    <string name="status_bar_show_image">Mostra la imatge</string>
     <!-- Lockscreen weather settings -->
     <string name="lockscreen_weather_title">Lockscreen weather</string>
     <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
     <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
-    <string name="lockscreen_weather_show_city_title">Show city name</string>
-    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_show_city_title">Mostra el nom de la ciutat</string>
+    <string name="lockscreen_weather_show_city_summary">Mostra el nom de la ciutat actual a l\'esquerra de la imatge</string>
+    <string name="lockscreen_weather_show_temp_title">Mostra la temperatura</string>
+    <string name="lockscreen_weather_show_temp_summary">Mostra la temperatura actual de la ciutat a la dreta de la imatge</string>
     <!-- Statusbar Clock -->
-    <string name="status_bar_clock">Clock and Date</string>
+    <string name="status_bar_clock">Data i hora</string>
     <string name="status_bar_clock_summary">Configure statusbar clock and date appearance</string>
     <string name="status_bar_clock_title">Clock settings</string>
     <string name="status_bar_clock_show">Show clock and date</string>
     <string name="status_bar_clock_style_title">Clock style</string>
-    <string name="status_bar_clock_style_right">Right</string>
-    <string name="status_bar_clock_style_center">Center</string>
-    <string name="status_bar_clock_style_left">Left</string>
+    <string name="status_bar_clock_style_right">Dreta</string>
+    <string name="status_bar_clock_style_center">Centre</string>
+    <string name="status_bar_clock_style_left">Esquerra</string>
     <string name="status_bar_am_pm_title">Estil AM/PM</string>
     <string name="status_bar_am_pm_info">El format de 24 hores està activat</string>
     <string name="status_bar_am_pm_normal">Normal</string>
     <string name="status_bar_am_pm_small">Petita</string>
-    <string name="status_bar_am_pm_hidden">Hidden (default)</string>
-    <string name="clock_seconds_display">Show seconds</string>
-    <string name="clock_date_display">Date</string>
-    <string name="clock_date_display_summary">Display custom date before the clock</string>
+    <string name="status_bar_am_pm_hidden">Ocult (per defecte)</string>
+    <string name="clock_seconds_display">Mostra els segons</string>
+    <string name="clock_date_display">Data</string>
+    <string name="clock_date_display_summary">Mostrar la data personalitzada davant l\'hora</string>
     <string name="clock_date_display_none">No ho mostris</string>
     <string name="clock_date_display_small">Mida de la lletra petita</string>
     <string name="clock_date_display_normal">Mida de la lletra normal</string>
@@ -355,9 +353,9 @@
     <string name="app_ops_modify_calendar">update calendar</string>
     <string name="app_ops_modify_call_log">update call log</string>
     <string name="app_ops_modify_clipboard">modify clipboard</string>
-    <string name="app_ops_modify_contacts">update contacts</string>
-    <string name="app_ops_modify_settings">update settings</string>
-    <string name="app_ops_mute_unmute_microphone">mute/unmutee mic</string>
+    <string name="app_ops_modify_contacts">actualitza els contactes</string>
+    <string name="app_ops_modify_settings">actualitza la configuració</string>
+    <string name="app_ops_mute_unmute_microphone">silencia/descilencia micròfon</string>
     <string name="app_ops_play_audio">play audio</string>
     <string name="app_ops_post_notification">post notification</string>
     <string name="app_ops_project_media">project media</string>
