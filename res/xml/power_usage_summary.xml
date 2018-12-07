@@ -26,6 +26,17 @@
         android:selectable="true"
         android:layout="@layout/battery_header"/>
 
+    <com.android.settings.fuelgauge.PowerGaugePreference
+        android:key="last_full_charge"
+        android:title="@string/battery_last_full_charge"
+        android:selectable="false"
+        settings:allowDividerAbove="true" />
+
+    <com.android.settings.fuelgauge.PowerGaugePreference
+        android:key="screen_usage"
+        android:title="@string/device_screen_usage"
+        android:selectable="false" />
+
     <PreferenceCategory
         android:key="battery_tip"
         android:layout="@layout/preference_category_no_title" />
@@ -61,16 +72,5 @@
         android:title="@string/lockscreen_battery_info_title"
         android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
-
-    <com.android.settings.fuelgauge.PowerGaugePreference
-        android:key="last_full_charge"
-        android:title="@string/battery_last_full_charge"
-        android:selectable="false"
-        settings:allowDividerAbove="true" />
-
-    <com.android.settings.fuelgauge.PowerGaugePreference
-        android:key="screen_usage"
-        android:title="@string/device_screen_usage"
-        android:selectable="false" />
 
 </PreferenceScreen>
