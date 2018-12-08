@@ -75,7 +75,7 @@
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi veri</string>
     <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi veri kullanımını etkinleştir</string>
     <!-- Power Menu -->
-    <string name="advanced_power_menu">Güç tuşu seçenekleri</string>
+    <string name="advanced_power_menu">Güç tuşu</string>
     <string name="arrow_reboot_menu">Gelişmiş yeniden başlatma menüsü</string>
     <string name="powermenu_reboot_title">Yeniden başlat</string>
     <string name="powermenu_airplane_title">Uçak modu</string>
@@ -113,15 +113,15 @@
     <string name="hardware_keys_back_key_title">Geri tuşu</string>
     <string name="hardware_keys_double_tap_summary">Çift dokunma eylemi ayarlayın</string>
     <string name="hardware_keys_single_tap_summary">Tek dokunma eylemi ayarlayın</string>
-    <string name="hardware_keys_long_press_summary">Uzun basma eylemi ayarlayın</string>
+    <string name="hardware_keys_long_press_summary">Uzun dokunma eylemi ayarlayın</string>
     <string name="hardware_keys_single_tap_title">Tek dokunma eylemi</string>
-    <string name="hardware_keys_long_press_title">Uzun basma eylemi</string>
+    <string name="hardware_keys_long_press_title">Uzun dokunma eylemi</string>
     <string name="hardware_keys_double_tap_title">Çift dokunma eylemi</string>
     <string name="hard_soft_keys">Cihaz tuşları ve gezinme çubuğu</string>
     <string name="hard_soft_keys_summary">Donanım tuşları ve gezinme çubuğu seçenekleri</string>
-    <string name="navigation_keys">Gezinme çubuğunu etkinleştir</string>
+    <string name="navigation_keys">Gezinme tuşu</string>
     <string name="navigation_keys_title">Gezinme çubuğunu etkinleştir</string>
-    <string name="hardware_keys_category">Donanımsal gezinme tuşları</string>
+    <string name="hardware_keys_category">Donanım tuşu</string>
     <string name="hardware_keys_disable_title">Donanım tuşlarını devre dışı bırak</string>
     <string name="hardware_keys_wake_title">Cihazı uyandır</string>
     <!-- Settings categories -->
@@ -179,11 +179,11 @@
     <string name="heads_up_snooze_20min">20 dakika</string>
     <!-- Clear all recents -->
     <string name="aosp_recents_title">Aosp son uygulamalar</string>
-    <string name="aosp_recents_title_summary">Oreo stilindeki son uygulamalar yapılandırmaları, tümüne temizleme</string>
+    <string name="aosp_recents_title_summary">Oreo stilindeki son uygulamalar yapılandırmaları</string>
     <string name="show_clear_all_recents_button_title">Tümünü temizleme tuşu</string>
     <string name="show_clear_all_recents_button_summary_on">Tümünü temizleme tuşunu göster</string>
     <string name="show_clear_all_recents_button_summary_off">Aosp tümünü temizle tuşu gösteriliyor</string>
-    <string name="recents_clear_all_location_title">Tuş konumu</string>
+    <string name="recents_clear_all_location_title">Temizleme tuşu konumu</string>
     <string name="recents_clear_all_location_top_right">Sağ üst</string>
     <string name="recents_clear_all_location_top_left">Sol üst</string>
     <string name="recents_clear_all_location_top_center">Üst orta</string>
@@ -199,8 +199,8 @@
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Kilit ekranı kısayolları</string>
     <!-- QS rows and columns -->
-    <string name="qs_rows_columns_title">Hızlı ayarlar paneli özelleştirmeleri</string>
-    <string name="qs_rows_columns_summary">Hızlı ayarlar satırları ve sütunları, kareler, paneli şeffaflığı</string>
+    <string name="qs_rows_columns_title">Hızlı ayarlar paneli</string>
+    <string name="qs_rows_columns_summary">Hızlı ayarlar satırları, sütunları, kareleri ve panel şeffaflığı</string>
     <string name="qs_rows_portrait_title">Dikey modda satırlar</string>
     <string name="qs_rows_landscape_title">Yatay modda satırlar</string>
     <string name="qs_columns_portrait_title">Dikey modda sütunlar</string>
@@ -210,7 +210,7 @@
     <string name="swap_volume_buttons_summary">Ekran döndürüldüğünde ses tuşlarının yerini değiştir</string>
     <!-- Changelog -->
     <string name="changelog_title">Değişiklikler</string>
-    <string name="changelog_summary">Son güncellemeden bu yana</string>
+    <string name="changelog_summary">Son güncelleme değişiklikleri</string>
     <string name="changelog_error">Değişiklikler yüklenemiyor</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Pil şarj ışığı</string>
@@ -224,7 +224,7 @@
     <string name="battery_light_full_color">Neredeyse dolu pil</string>
     <string name="battery_light_reallyfull_color">Tam dolu pil (100)</string>
     <!-- SystemUI theme -->
-    <string name="systemui_theme_style_title">Kullanıcı arayüzü teması</string>
+    <string name="systemui_theme_style_title">Arayüz teması</string>
     <string name="systemui_theme_style_auto">Otomatik (duvar kağıdı tabanlı)</string>
     <string name="systemui_theme_style_light">Aydınlık</string>
     <string name="systemui_theme_style_dark">Karanlık</string>
@@ -235,7 +235,7 @@
     <string name="disable_accents_installed_title">Substratum ile çakışmaları önlemek için vurgu rengi seçici kullanılamıyor. Vurgu rengi seçiciyi kullanmak isterseniz substratumu kaldırın.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Hava durumu</string>
-    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
+    <string name="weather_config_title_summary">Durum çubuğunda ve kilit ekranında hava durumu</string>
     <string name="weather_config_title">Servis ayarları</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">Başlık görünümünde hava durumu</string>
@@ -243,7 +243,7 @@
     <string name="weather_icon_pack_title">Durum simge paketi</string>
     <string name="weather_icon_pack_note">Not\u003a Play Store\'den \"Chronus icons\" araması yaparak yeni simge paketleri yükleyebilirsiniz</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Ağ göstergeleri</string>
+    <string name="traffic_title">Ağ etkinliği</string>
     <string name="network_traffic_title">Ağ etkinliği</string>
     <string name="network_traffic_type">İnternet etkinlik türü seç</string>
     <string name="show_network_traffic_up">Yalnızca yükleme</string>
@@ -252,9 +252,9 @@
     <string name="network_traffic_state_title">Durum çubuğunda ağ etkinliğini göster</string>
     <string name="network_traffic_autohide_threshold_title">Ağ etkinliği otomatik gizlenme eşiği (KB/s)</string>
     <!-- StatusBar weather settings -->
-    <string name="statusbar_weather_title">Durum çubuğunda hava durumu</string>
+    <string name="statusbar_weather_title">Durum çubuğu</string>
     <string name="statusbar_weather_summary">Durum çubuğunda hava durumunu yapılandırabilirsiniz</string>
-    <string name="statusbar_weather_dialog_title">Hava durumu stili</string>
+    <string name="statusbar_weather_dialog_title">Hava durumu stili seçin</string>
     <string name="status_bar_weather_hidden">Hava durumunu gizle</string>
     <string name="status_bar_temperature_image_show_scale">Sıcaklık ölçek ve görüntüyle göster</string>
     <string name="status_bar_temperature_image_hide_scale">Sıcaklık ölçek olmadan görüntüyle göster</string>
@@ -262,17 +262,17 @@
     <string name="status_bar_temperature_hide_scale_hide_image">Sıcaklık ölçek olmadan göster</string>
     <string name="status_bar_show_image">Görüntü göster</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Kilit ekranı hava durumu</string>
+    <string name="lockscreen_weather_title">Kilit ekranı</string>
     <string name="lockscreen_weather_summary">Kilit ekranında mevcut hava durumunu ve sıcaklığını göster</string>
     <string name="lockscreen_items_aod_info_title">Bu görüş konfigürasyonu aynı zamanda ortam ekranı için de geçerlidir</string>
     <string name="lockscreen_weather_show_city_title">Şehir adını göster</string>
-    <string name="lockscreen_weather_show_city_summary">Resmin solunda mevcut şehrin adını göster</string>
+    <string name="lockscreen_weather_show_city_summary">Görüntünün solunda mevcut şehrin adını göster</string>
     <string name="lockscreen_weather_show_temp_title">Sıcaklığı göster</string>
-    <string name="lockscreen_weather_show_temp_summary">Resmin sağında mevcut şehir sıcaklığını göster</string>
+    <string name="lockscreen_weather_show_temp_summary">Görüntünün sağında mevcut şehir sıcaklığını göster</string>
     <!-- Statusbar Clock -->
     <string name="status_bar_clock">Saat ve tarih</string>
     <string name="status_bar_clock_summary">Durum çubuğunda saati ve tarih görünümünü yapılandırma</string>
-    <string name="status_bar_clock_title">Saat ayarları</string>
+    <string name="status_bar_clock_title">Saat</string>
     <string name="status_bar_clock_show">Saati ve tarihi göster</string>
     <string name="status_bar_clock_style_title">Saat stili</string>
     <string name="status_bar_clock_style_right">Sağ</string>
@@ -324,7 +324,7 @@
     <string name="battery_style_big_dotted_circle">Büyük noktalı daire</string>
     <string name="battery_style_text">Metin</string>
     <string name="battery_style_hidden">Gizle</string>
-    <string name="show_battery_percent_title">Pil yüzdesini göster</string>
+    <string name="show_battery_percent_title">Pil yüzdesi</string>
     <string name="battery_style_category_title">Pil simgesi</string>
     <string name="battery_percent_none">Gösterme</string>
     <string name="battery_percent_outside">Simge dışında göster</string>
@@ -424,7 +424,7 @@
     <string name="app_ops_reset_confirm_title">Sayaçları sıfırlamayı onayla</string>
     <string name="app_ops_reset_confirm_mesg">Sayaçları sıfırlamak istediğinizden emin misiniz?</string>
     <string name="app_ops_settings_title">Uygulama çalışma ayarları</string>
-    <string name="enlighten">Bu değişiklikler yalnızca AOSP (yani eski Oreo) Son uygulamalar stili için geçerlidir ve Pie son uygulamalar görünümünde çalışmaz</string>
+    <string name="enlighten">Bu değişiklikler yalnızca aosp (yani eski oreo) son uygulamalar stili için geçerlidir ve pie son uygulamalar görünümünde çalışmaz</string>
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Müzik görselleştirici</string>
     <string name="lockscreen_visualizer_summary">Müzik çalarken kilit ekranında görselleştiriciyi göster</string>
@@ -436,7 +436,7 @@
     <string name="qs_tile_title_visibility_summary">Her kare altında başlık görüntüle (Sistem arayüzünü yeniden başlatma gerektirir)</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Cep algılama</string>
-    <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelleyin</string>
+    <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelle</string>
     <!-- Auto-brightness toggle -->
     <string name="brightness_icon_title">Otomatik parlaklık simgesi</string>
     <string name="brightness_icon_summary">Hızlı ayarlar panelinde otomatik parlaklık simgesini göster</string>
@@ -496,11 +496,11 @@
     <string name="double_tap_power_flashlight_title">Güç tuşu ile fener açma</string>
     <string name="torch_power_button_gesture_none">Devre dışı</string>
     <string name="torch_power_button_gesture_dt">Çift dokunma</string>
-    <string name="torch_power_button_gesture_lp">Uzun dokunma</string>
+    <string name="torch_power_button_gesture_lp">El fenerini açmak için güç tuşuna uzun basın</string>
     <string name="full_gesture_mode_title">Tam hareket modu</string>
     <string name="full_gesture_mode_summary">Bu mod aynı zamanda geri tuşunu da devre dışı bırakır ve gezinme çubuğu üzerinde soldan kaydırma yaparak arka tuş hareketini başlatabilirsiniz. Sağa kaydırma işlemi son uygulama eylemini açmaya devam edecek ve sol kaydırma uygulamaları taşıyacaktır. Ana ekrana gitmek için sadece ana ekran tuşuna değil herhangi bir gezinme çubuğu boşluğuna da dokunabilirsiniz.</string>
     <string name="full_gesture_mode_dt2s_title">Çift dokunuşla uyutma</string>
-    <string name="full_gesture_mode_dt2s_summary">Ekranı kapatmak için gezinme çubuğun boş alanına dokunun ancak ana ekran tuşuna dokunmayın.</string>
+    <string name="full_gesture_mode_dt2s_summary">Ekranı kapatmak için gezinme çubuğun boş bir alanına iki kez hafifçe dokunun ancak ana ekran tuşuna dokunmayın.</string>
     <string name="brightness_slider_bottom_title">Alt parlaklık kaydırıcısı</string>
     <string name="brightness_slider_bottom_summary">Hızlı ayarlar paneli altında parlaklık kaydırıcısını göster</string>
     <string name="qs_show_brightness_title">Parlaklık kaydırıcısı</string>

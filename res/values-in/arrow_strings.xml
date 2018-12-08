@@ -235,7 +235,7 @@
     <string name="disable_accents_installed_title">Pimilih aksen tidak tersedia untuk menghindari konflik dengan Substratum. Copot jika Anda ingin menggunakan pemilih aksen.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Cuaca</string>
-    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
+    <string name="weather_config_title_summary">Statusbar dan cuaca layar kunci</string>
     <string name="weather_config_title">Setelan layanan</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">Tampilkan cuaca dipanel atas</string>

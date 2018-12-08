@@ -235,7 +235,7 @@
     <string name="disable_accents_installed_title">لا يتوفر منتقي اللكنة لتجنب التعارض مع Substratum. قم بإلغاء تثبيته إذا كنت ترغب في استخدام منتقي اللكنة.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">الطقس</string>
-    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
+    <string name="weather_config_title_summary">طقس شريط الحالة وشاشة القفل</string>
     <string name="weather_config_title">إعدادات الخدمة</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">عرض الطقس في رأس اللوحة</string>
