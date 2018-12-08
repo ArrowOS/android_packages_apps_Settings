@@ -42,7 +42,7 @@
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About ArrowOS -->
     <string name="rom_version_title">ArrowOS versie</string>
-    <string name="build_date">Build date</string>
+    <string name="build_date">Build datum</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Kleurkiezer</string>
     <string name="press_color_to_apply">Druk op de kleur hieronder om toe te passen</string>
@@ -90,7 +90,7 @@
     <string name="powermenu_ls_screenshot_summary">Toon de schermafdruk optie op het vergrendelscherm</string>
     <string name="powermenu_ls_airplane_summary">Toon de vliegtuigmodus optie op het vergrendelscherm</string>
     <string name="powermenu_lockdown_title">Blokkeer</string>
-    <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
+    <string name="powermenu_ls_lockdown_summary">Weergeef power button optie die toegang weigert tot verlengde toegang and vingerafdukbescherming</string>
     <!-- Hide Lockscreen clock, date, & alarm -->
     <string name="lockscreen_items_other">Overige</string>
     <!-- Roaming indicator icon -->
