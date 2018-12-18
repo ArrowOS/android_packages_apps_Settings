@@ -24,6 +24,14 @@
             android:key="network_traffic_state_sb"
             android:title="@string/network_traffic_sb_state_title"
             android:defaultValue="false" />
+
+	<com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+            android:key="network_traffic_hidearrow_sb"
+            android:title="@string/network_traffic_hidearrow"
+            android:summary="@string/network_traffic_hidearrow_summary"
+            android:dependency="network_traffic_state_sb"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <!-- Network Traffic QS statusbar header -->
