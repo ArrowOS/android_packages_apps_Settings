@@ -514,4 +514,6 @@
     <string name="night_auto_value_min">Kecerahan Minimal</string>
     <string name="night_bright_low">Kecerahan rendah</string>
     <string name="night_bright_midlow">Kecerahan sedang</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>

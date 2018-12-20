@@ -168,10 +168,10 @@
     <string name="heads_up_time_out_8sec">8 segons</string>
     <string name="heads_up_time_out_10sec">10 segons</string>
     <!-- Heads up snooze -->
-    <string name="heads_up_snooze_title">Snooze timer</string>
+    <string name="heads_up_snooze_title">Temporitzador de repetició</string>
     <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
     <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+    <string name="heads_up_snooze_disabled_summary">El temporitzador de repetició està deshabilitat</string>
     <string name="heads_up_snooze_1min">1 minut</string>
     <string name="heads_up_snooze_5min">5 minuts</string>
     <string name="heads_up_snooze_10min">10 minuts</string>
@@ -181,7 +181,7 @@
     <string name="aosp_recents_title">Recents AOSP</string>
     <string name="aosp_recents_title_summary">Oreo style recents configs, clear all FAB</string>
     <string name="show_clear_all_recents_button_title">Clear-all FAB</string>
-    <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
+    <string name="show_clear_all_recents_button_summary_on">Mostra el botó d\'esborrar-ho tot</string>
     <string name="show_clear_all_recents_button_summary_off">Mostra el botó d\'esborrar tot AOSP</string>
     <string name="recents_clear_all_location_title">Posició del botó d\'esborrar tot</string>
     <string name="recents_clear_all_location_top_right">A dalt a la dreta</string>
@@ -200,11 +200,11 @@
     <string name="lockscreen_tuner_title">Dreceres de la pantalla de bloqueig</string>
     <!-- QS rows and columns -->
     <string name="qs_rows_columns_title">Retocs del panell de configuracions ràpides</string>
-    <string name="qs_rows_columns_summary">Quicksettings rows and columns, titles, panel opacity</string>
-    <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
-    <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
-    <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
-    <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
+    <string name="qs_rows_columns_summary">Configuració ràpida de files i columnes, títols, tauler d\'opacitat</string>
+    <string name="qs_rows_portrait_title">Nombre de files en mode vertical</string>
+    <string name="qs_rows_landscape_title">Nombre de files en mode horitzontal</string>
+    <string name="qs_columns_portrait_title">Nombre de columnes en mode vertical</string>
+    <string name="qs_columns_landscape_title">Nombre de columnes en mode horitzontal</string>
     <!-- Volume key rotation -->
     <string name="swap_volume_buttons_title">Reorienta</string>
     <string name="swap_volume_buttons_summary">Intercanvia els botons de volum quan la pantalla estigui girada</string>
@@ -217,31 +217,31 @@
     <string name="battery_light_summary">Habilita o deshabilita el llum de la bateria mentre estiguis al mode No Molestar, bateria baixa</string>
     <string name="battery_light_enable">Llum de la bateria</string>
     <string name="battery_light_allow_on_dnd_title">Llum de la bateria al mode No Molestar</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
+    <string name="battery_light_low_blinking_title">LED intermitent quan la bateria s\'està esgotant</string>
+    <string name="battery_light_cat">Color del LED durant la càrrega</string>
+    <string name="battery_light_low_color">Bateria baixa</string>
+    <string name="battery_light_medium_color">Bateria a mitjes</string>
+    <string name="battery_light_full_color">Bateria gairebé completa</string>
+    <string name="battery_light_reallyfull_color">Bateria completa (100%)</string>
     <!-- SystemUI theme -->
-    <string name="systemui_theme_style_title">SystemUI theme</string>
-    <string name="systemui_theme_style_auto">Automatic (wallpaper based)</string>
+    <string name="systemui_theme_style_title">Tema de la interfície d\'usuari</string>
+    <string name="systemui_theme_style_auto">Automàtic (basat en el fons de pantalla)</string>
     <string name="systemui_theme_style_light">Clar</string>
     <string name="systemui_theme_style_dark">Fosc</string>
     <string name="system_theme_style_black">Negre</string>
     <string name="applying_theme_toast">Aplicant tema, si us plau, espera...</string>
     <string name="theme_applied_toast">Tema aplicat!</string>
-    <string name="disable_themes_installed_title">System themes are unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use these themes instead.</string>
-    <string name="disable_accents_installed_title">Accent picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the accent picker.</string>
+    <string name="disable_themes_installed_title">Els temes del sistema no estan disponibles per evitar conflictes amb Substratum. Desinstal·leu Substratum si voleu utilitzar aquests temes.</string>
+    <string name="disable_accents_installed_title">El selector d\'accents no està disponible per a evitar conflictes amb Substratum. Desinstal·la Substratum si vols utilitzar el selector d\'accents.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">El Temps</string>
-    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
+    <string name="weather_config_title_summary">Temps a la barra d\'estat i a la pantalla de bloqueig</string>
     <string name="weather_config_title">Configuració del servei</string>
     <string name="weather_config_summary"></string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="header_weather_title">Veure el temps a la capçalera</string>
+    <string name="header_weather_summary">Activa la visualització del temps a la capçalera del tauler de notificacions</string>
+    <string name="weather_icon_pack_title">Paquet d\'icones de temps</string>
+    <string name="weather_icon_pack_note">Nota\u003a pots instal·lar nous paquets d\'icones des de la PlayStore buscant «Chronus icons»</string>
     <!-- Network traffic -->
     <string name="traffic_title">Indicadors de tràfic</string>
     <string name="network_traffic_title">Tràfic de la xarxa</string>
@@ -256,25 +256,25 @@
     <string name="statusbar_weather_summary">Configura des de configuració Ràpida/Clima</string>
     <string name="statusbar_weather_dialog_title">Estil del temps a la barra d\'estat</string>
     <string name="status_bar_weather_hidden">Amagar el clima</string>
-    <string name="status_bar_temperature_image_show_scale">Show temp with scale and image</string>
-    <string name="status_bar_temperature_image_hide_scale">Show temp with image without scale</string>
+    <string name="status_bar_temperature_image_show_scale">Mostra la temperatura amb l\'escala i la imatge</string>
+    <string name="status_bar_temperature_image_hide_scale">Mostra la temperatura amb la imatge sense escala</string>
     <string name="status_bar_temperature_show_scale_hide_image">Mostra la temperatura amb escala</string>
     <string name="status_bar_temperature_hide_scale_hide_image">Mostra la temperatura sense escala</string>
     <string name="status_bar_show_image">Mostra la imatge</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Lockscreen weather</string>
-    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
-    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
+    <string name="lockscreen_weather_title">Temps a la pantalla de bloqueig</string>
+    <string name="lockscreen_weather_summary">Mostra l\'estat del temps i temperatura a la pantalla de bloqueig</string>
+    <string name="lockscreen_items_aod_info_title">Aquesta configuració de visibilitat també s\'aplica a la pantalla ambient</string>
     <string name="lockscreen_weather_show_city_title">Mostra el nom de la ciutat</string>
     <string name="lockscreen_weather_show_city_summary">Mostra el nom de la ciutat actual a l\'esquerra de la imatge</string>
     <string name="lockscreen_weather_show_temp_title">Mostra la temperatura</string>
     <string name="lockscreen_weather_show_temp_summary">Mostra la temperatura actual de la ciutat a la dreta de la imatge</string>
     <!-- Statusbar Clock -->
     <string name="status_bar_clock">Data i hora</string>
-    <string name="status_bar_clock_summary">Configure statusbar clock and date appearance</string>
-    <string name="status_bar_clock_title">Clock settings</string>
-    <string name="status_bar_clock_show">Show clock and date</string>
-    <string name="status_bar_clock_style_title">Clock style</string>
+    <string name="status_bar_clock_summary">Configura el rellotge de la barra d\'estat i el format de la data</string>
+    <string name="status_bar_clock_title">Configuració del rellotge</string>
+    <string name="status_bar_clock_show">Mostrar hora i data</string>
+    <string name="status_bar_clock_style_title">Estil del rellotge</string>
     <string name="status_bar_clock_style_right">Dreta</string>
     <string name="status_bar_clock_style_center">Centre</string>
     <string name="status_bar_clock_style_left">Esquerra</string>
@@ -298,10 +298,10 @@
     <string name="clock_date_string_edittext_title">Ha d\'estar en un format de data, per exemple: dd/MM/aa</string>
     <string name="clock_date_string_edittext_summary">Introdueix la cadena</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string>
+    <string name="double_tap_sleep_lockscreen">Apaga la pantalla al fer dos tocs a la pantalla de bloqueig</string>
     <!--Quick pulldown-->
     <string name="status_bar_quick_qs_pulldown">Baixada ràpida</string>
-    <string name="status_bar_quick_qs_pulldown_summary">Pulldown statusbar from right side to show QS panel</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Desplega la barra d\'estat des de la dreta per mostrar el tauler de configuració ràpida</string>
     <!--Double Tap to Sleep Statusbar-->
     <string name="double_tap_sleep_gesture_title">Doble toc a la barra d\'estat per suspendre el dispositiu</string>
     <!-- Sizes for pattern lockscreen -->
@@ -341,34 +341,34 @@
     <string name="app_ops_access_location">localització</string>
     <string name="app_ops_access_notifications">notificacions</string>
     <string name="app_ops_activate_vpn">VPN</string>
-    <string name="app_ops_auto_start">autostart</string>
-    <string name="app_ops_delete_call_log">delete call log</string>
-    <string name="app_ops_delete_contacts">delete contacts</string>
-    <string name="app_ops_delete_mms">delete MMS</string>
+    <string name="app_ops_auto_start">inici automàtic</string>
+    <string name="app_ops_delete_call_log">elimina el registre de trucades</string>
+    <string name="app_ops_delete_contacts">elimina els contactes</string>
+    <string name="app_ops_delete_mms">elimina MMS</string>
     <string name="app_ops_delete_sms">esborrar SMS</string>
-    <string name="app_ops_draw_on_top">draw on top</string>
-    <string name="app_ops_get_usage_stats">get usage stats</string>
-    <string name="app_ops_keep_device_awake">keep awake</string>
-    <string name="app_ops_make_phone_call">make call</string>
-    <string name="app_ops_modify_calendar">update calendar</string>
-    <string name="app_ops_modify_call_log">update call log</string>
-    <string name="app_ops_modify_clipboard">modify clipboard</string>
+    <string name="app_ops_draw_on_top">mostrar en primer pla</string>
+    <string name="app_ops_get_usage_stats">obté estadístiques d\'ús</string>
+    <string name="app_ops_keep_device_awake">manté actiu</string>
+    <string name="app_ops_make_phone_call">fes una trucada</string>
+    <string name="app_ops_modify_calendar">actualitza el calendari</string>
+    <string name="app_ops_modify_call_log">actualitza el registre de trucades</string>
+    <string name="app_ops_modify_clipboard">modifica el porta-retalls</string>
     <string name="app_ops_modify_contacts">actualitza els contactes</string>
     <string name="app_ops_modify_settings">actualitza la configuració</string>
     <string name="app_ops_mute_unmute_microphone">silencia/descilencia micròfon</string>
-    <string name="app_ops_play_audio">play audio</string>
-    <string name="app_ops_post_notification">post notification</string>
-    <string name="app_ops_project_media">project media</string>
-    <string name="app_ops_read_calendar">read calendar</string>
-    <string name="app_ops_read_call_log">read call log</string>
-    <string name="app_ops_read_clipboard">read clipboard</string>
-    <string name="app_ops_read_contacts">read contacts</string>
-    <string name="app_ops_read_mms">read MMS</string>
-    <string name="app_ops_read_sms">read SMS</string>
-    <string name="app_ops_receive_sms">receive SMS</string>
-    <string name="app_ops_record_audio">record audio</string>
-    <string name="app_ops_send_mms">send MMS</string>
-    <string name="app_ops_send_sms">send SMS</string>
+    <string name="app_ops_play_audio">reproduir so</string>
+    <string name="app_ops_post_notification">mostra la notificació</string>
+    <string name="app_ops_project_media">mitjans de projecte</string>
+    <string name="app_ops_read_calendar">llegeix el calendari</string>
+    <string name="app_ops_read_call_log">llegeix el registre de trucades</string>
+    <string name="app_ops_read_clipboard">llegeix el porta-retalls</string>
+    <string name="app_ops_read_contacts">llegeix els contactes</string>
+    <string name="app_ops_read_mms">llegeix MMS</string>
+    <string name="app_ops_read_sms">llegeix SMS</string>
+    <string name="app_ops_receive_sms">rep SMS</string>
+    <string name="app_ops_record_audio">enregistra so</string>
+    <string name="app_ops_send_mms">envia MMS</string>
+    <string name="app_ops_send_sms">envia SMS</string>
     <string name="app_ops_toast_window">toast messages</string>
     <string name="app_ops_use_alarm_volume">alarm volume</string>
     <string name="app_ops_use_audio_focus">audio focus</string>
@@ -390,8 +390,8 @@
     <string name="app_ops_assist_structure">assist structure</string>
     <string name="app_ops_assist_screenshot">screenshot</string>
     <string name="app_ops_use_body_sensors">body sensors</string>
-    <string name="app_ops_read_cell_broadcasts">cell broadcasts</string>
-    <string name="app_ops_mock_location">mock location</string>
+    <string name="app_ops_read_cell_broadcasts">transmissions mòbils</string>
+    <string name="app_ops_mock_location">simula la localització</string>
     <string name="app_ops_read_external_storage">read ext. stor.</string>
     <string name="app_ops_write_external_storage">write ext. stor.</string>
     <string name="app_ops_turn_on_screen">turn screen on</string>
@@ -514,4 +514,6 @@
     <string name="night_auto_value_min">Minimum brightness</string>
     <string name="night_bright_low">Low brightness</string>
     <string name="night_bright_midlow">Mid low brightness</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>

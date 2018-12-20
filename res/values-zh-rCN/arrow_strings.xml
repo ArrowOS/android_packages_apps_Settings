@@ -235,7 +235,7 @@
     <string name="disable_accents_installed_title">强调色选择器停止使用，以避免与 Substratum 发生冲突。如果您希望使用强调色选择器, 请卸载 Substratum。</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">天气</string>
-    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
+    <string name="weather_config_title_summary">状态栏和锁屏天气</string>
     <string name="weather_config_title">服务设置</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">顶部天气视图</string>
@@ -514,4 +514,6 @@
     <string name="night_auto_value_min">最低亮度</string>
     <string name="night_bright_low">低亮度</string>
     <string name="night_bright_midlow">中低亮度</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>

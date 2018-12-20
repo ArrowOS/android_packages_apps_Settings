@@ -235,7 +235,7 @@
     <string name="disable_accents_installed_title">アクセントピッカーはSubstratumとの競合のため利用できません。 アクセントピッカーを使用する場合はSubstratumをアンインストールしてください。</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">天気</string>
-    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
+    <string name="weather_config_title_summary">ステータスバーとロック画面の天気</string>
     <string name="weather_config_title">サービスの設定</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">ヘッダーに天気を表示</string>
@@ -514,4 +514,6 @@
     <string name="night_auto_value_min">最低輝度</string>
     <string name="night_bright_low">低輝度</string>
     <string name="night_bright_midlow">やや低輝度</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>

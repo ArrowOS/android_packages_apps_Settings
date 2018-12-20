@@ -235,7 +235,7 @@
     <string name="disable_accents_installed_title">Управление акцентом темы не может не конфликтовать с Substratum. Удалите его, если хотите и дальше использовать системное управление акцентом.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Погода</string>
-    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
+    <string name="weather_config_title_summary">Погода в строке состояния и на экране блокировки</string>
     <string name="weather_config_title">Настройки службы</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">Погода в заголовке панели уведомлений</string>
@@ -513,5 +513,7 @@
     <string name="night_auto_value_disabled">Выключено</string>
     <string name="night_auto_value_min">Минимальная яркость</string>
     <string name="night_bright_low">Низкая яркость</string>
-    <string name="night_bright_midlow">Mid low brightness</string>
+    <string name="night_bright_midlow">Средняя низкая яркость</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>

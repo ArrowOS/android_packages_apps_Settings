@@ -235,7 +235,7 @@
     <string name="disable_accents_installed_title">El selector de acentos no está disponible para evitar conflictos con Substratum. Desinstala si deseas utilizar el selector de fuentes.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Tiempo metereològico</string>
-    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
+    <string name="weather_config_title_summary">Clima en barra de estado y pantalla de bloqueo</string>
     <string name="weather_config_title">Ajustes del servicio</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">Vista del tiempo en el encabezado</string>
@@ -514,4 +514,6 @@
     <string name="night_auto_value_min">Brillo mínimo</string>
     <string name="night_bright_low">Brillo bajo</string>
     <string name="night_bright_midlow">Brillo medio-bajo</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>

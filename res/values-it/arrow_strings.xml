@@ -514,4 +514,6 @@
     <string name="night_auto_value_min">Luminosità minima</string>
     <string name="night_bright_low">Luminosità bassa</string>
     <string name="night_bright_midlow">Luminosità medio bassa</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>

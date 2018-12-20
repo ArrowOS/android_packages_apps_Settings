@@ -514,4 +514,6 @@
     <string name="night_auto_value_min">السطوع الأدنى</string>
     <string name="night_bright_low">سطوع منخفض</string>
     <string name="night_bright_midlow">سطوع منخفض قليلاً</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>

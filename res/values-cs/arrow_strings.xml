@@ -235,7 +235,7 @@
     <string name="disable_accents_installed_title">Výběr doplňkové barvy není k dispozici, aby se předešlo konfliktům se Substratum. Pokud chcete použít výběr doplňkové barvy, odinstalujte Substratum.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Počasí</string>
-    <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
+    <string name="weather_config_title_summary">Počasí na zamykací obrazovce a stavové liště</string>
     <string name="weather_config_title">Nastavení služby</string>
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">Zobrazit počasí v záhlaví</string>
@@ -514,4 +514,6 @@
     <string name="night_auto_value_min">Minimální jas</string>
     <string name="night_bright_low">Nízký jas</string>
     <string name="night_bright_midlow">Středně nízký jas</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>

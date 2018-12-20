@@ -514,4 +514,6 @@
     <string name="night_auto_value_min">Мінімальна яскравість</string>
     <string name="night_bright_low">Низька яскравість</string>
     <string name="night_bright_midlow">Середина низької яскравості</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>
