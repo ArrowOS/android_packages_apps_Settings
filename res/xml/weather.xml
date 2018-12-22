@@ -42,6 +42,14 @@
         android:defaultValue="false" />
 
     <com.arrow.support.preferences.SystemSettingSwitchPreference
+	android:key="lockscreen_weather_style"
+        android:title="@string/lock_screen_weather_style_title"
+        android:summaryOn="@string/lock_screen_weather_style_summaryOn"
+        android:summaryOff="@string/lock_screen_weather_style_summaryOff"
+        android:defaultValue="false"
+        android:dependency="lockscreen_weather_enabled" />
+
+    <com.arrow.support.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_weather_show_city"
         android:title="@string/lockscreen_weather_show_city_title"
         android:summary="@string/lockscreen_weather_show_city_summary"
