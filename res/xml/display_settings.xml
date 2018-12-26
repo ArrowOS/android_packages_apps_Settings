@@ -179,11 +179,6 @@
         android:fragment="com.android.settings.arrow.QsRowsColumns"
         android:title="@string/qs_rows_columns_title"
         android:summary="@string/qs_rows_columns_summary" />
-    <Preference
-        android:key="weather"
-        android:fragment="com.android.settings.arrow.Weather"
-        android:title="@string/weather_title" 
-        android:summary="@string/weather_config_title_summary" />
     <!-- Pocket Mode -->
     <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
        android:key="pocket_judge"
