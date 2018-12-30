@@ -610,8 +610,7 @@
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 
     <!-- Weather -->
-    <string name="weather_title">Weather</string>
-    <string name="weather_unit">Temperature unit</string>
+    <string name="weather_unit">Weather emperature unit</string>
     <string name="weather_unit_metric" translatable="false">Celsius</string>
     <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
 
