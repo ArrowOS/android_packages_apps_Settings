@@ -150,16 +150,6 @@
         android:title="@string/device_theme"
         android:summary="@string/summary_placeholder" />
 
-    <PreferenceCategory
-        android:title="@string/buttons_category_title">
-
-        <PreferenceScreen
-            android:key="hardware_keys"
-            android:title="@string/hardware_keys"
-            android:summary="@string/hardware_keys_summary"
-            android:fragment="com.android.settings.arrow.HardwareKeys" />
-    </PreferenceCategory >
-
     <Preference
         android:key="vr_display_pref"
         android:title="@string/display_vr_pref_title"
