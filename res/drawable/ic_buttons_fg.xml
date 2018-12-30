@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019 ArrowOS
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="106dp"
+    android:height="103.78dp"
+    android:viewportWidth="106"
+    android:viewportHeight="103.78">
+
+    <path
+        android:fillColor="#fff"
+        android:pathData="M100.79,62.36A24.62,24.62,0,1,0,108,79.76,24.5,24.5,0,0,0,100.79,62.36ZM93.54,89.93a14.39,14.39,0,1,1,4.2-10.17A14.32,14.32,0,0,1,93.54,89.93Z" />
+    <path
+        android:fillColor="#fff"
+        android:pathData="M40.9,56.9H8.84A6.84,6.84,0,0,0,2,63.74V95.8a6.84,6.84,0,0,0,6.84,6.84H40.9a6.83,6.83,0,0,0,6.83-6.84V63.74A6.83,6.83,0,0,0,40.9,56.9ZM37.48,92.38H12.26V67.16H37.48Z" />
+    <path
+        android:fillColor="#fff"
+        android:pathData="M78.13,38.27,57.89,3.19a5.13,5.13,0,0,0-8.89,0L28.74,38.27A5.13,5.13,0,0,0,33.18,46H73.7A5.12,5.12,0,0,0,78.13,38.27Zm-35.8-3L53.44,16,64.56,35.29Z" />
+</vector>
