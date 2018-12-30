@@ -177,5 +177,6 @@ public class Settings extends SettingsActivity {
     public static class SystemDashboardActivity extends SettingsActivity {}
 
     public static class HardwareKeys extends SettingsActivity { /* empty */ }
+    public static class StatusBarTweaks extends SettingsActivity { /* empty */ }
 
 }
