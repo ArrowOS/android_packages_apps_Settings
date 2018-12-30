@@ -152,6 +152,8 @@
 
     <!-- Settings categories -->
     <string name="statusbar_category_title">StatusBar</string>
+    <string name="statusbar_tweaks">StatusBar Tweaks</string>
+    <string name="statusbar_tweaks_summary">VoLTE icon, clock &amp; date</string>
     <string name="buttons_category_title">Buttons</string>
     <string name="misc_category_title">Misc</string>
     <string name="theme_category_title">System theme</string>
