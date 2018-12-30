@@ -244,4 +244,5 @@ public class Settings extends SettingsActivity {
      * Activity for Customization Extras
      */
     public static class GlobalActionsSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class HardwareKeys extends SettingsActivity { /* empty */ }
 }
