@@ -3416,6 +3416,34 @@
                 android:value="com.android.settings.arrow.GlobalActionsSettings" />
         </activity>
 
+        <!-- Hardware keys customization -->
+        <activity android:name="Settings$HardwareKeys"
+            android:label="@string/hardware_keys"
+            android:icon="@drawable/ic_buttons"
+            android:taskAffinity="">
+            <intent-filter android:priority="1">
+                <action android:name="com.android.settings.arrow.HardwareKeys" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <intent-filter android:priority="1">
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.homepage" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.arrow.HardwareKeys" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/hardware_keys_summary"/>
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
