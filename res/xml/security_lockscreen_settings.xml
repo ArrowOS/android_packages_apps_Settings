@@ -46,6 +46,18 @@
         android:title="@string/double_tap_sleep_lockscreen"
         android:defaultValue="true" />
 
+    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_clock"
+        android:title="@string/lockscreen_clock_title"
+        android:summary="@string/lockscreen_clock_summary"
+        android:defaultValue="true" />
+
+    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_info"
+        android:title="@string/lockscreen_info_title"
+        android:summary="@string/lockscreen_info_summary"
+        android:defaultValue="true" />
+
     <com.android.settings.arrow.preferences.SecureSettingSwitchPreference
         android:key="lockscreen_visualizer_enabled"
         android:title="@string/lockscreen_visualizer_title"
