@@ -168,6 +168,12 @@
         <ListPreference
             android:key="android.theme.customization.adaptive_icon_shape"
             android:title="@string/theme_customization_icon_shape_title"/>
+
+	<Preference
+            android:key="cutout_settings"
+            android:title="@string/cutout_main"
+            android:summary="@string/cutout_main_summary"
+            android:fragment="com.android.settings.arrow.CutoutFragment" />
     </PreferenceCategory>
 
 
