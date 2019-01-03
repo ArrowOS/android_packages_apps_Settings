@@ -31,9 +31,9 @@ import com.android.settings.R;
 import com.android.settingslib.core.AbstractPreferenceController;
 
 public class HideNotchPreferenceController extends AbstractPreferenceController implements
-        PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
+        PreferenceControllerMixin {
 
-    private static final String KEY_HIDE_NOTCH = "hide_notch";
+    private static final String KEY_HIDE_NOTCH = "cutout_settings";
 
     public HideNotchPreferenceController(Context context) {
 	super(context);
@@ -44,24 +44,10 @@ public class HideNotchPreferenceController extends AbstractPreferenceController 
 	return KEY_HIDE_NOTCH;
     }
 
-    @Override
-    public void updateState(Preference preference) {
-	int HideNotchValue = Settings.System.getInt(mContext.getContentResolver(),
-                KEY_HIDE_NOTCH, 0);
-	((SwitchPreference) preference).setChecked(HideNotchValue != 0);
-    }
-
    @Override
     public boolean isAvailable() {
 	return !mContext.getResources().getString(
                 com.android.internal.R.string.config_mainBuiltInDisplayCutout).isEmpty();
-    }
-
-    @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        boolean HideNotchValue = (Boolean) newValue;
-        Settings.System.putInt(mContext.getContentResolver(), KEY_HIDE_NOTCH, HideNotchValue ? 1 : 0);
-        return true;
     }
 
     @Override
