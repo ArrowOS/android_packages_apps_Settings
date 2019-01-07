@@ -326,10 +326,10 @@
     <string name="lockscreen_weather_show_temp_title">Show temperature</string>
     <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
 
-    <!-- Statusbar Clock -->
+    <!-- Clock and Date -->
     <string name="status_bar_clock">Clock and Date</string>
     <string name="status_bar_clock_summary">Configure statusbar clock and date appearance</string>
-    <string name="status_bar_clock_title">Clock settings</string>
+    <string name="status_bar_clock_title">Statusbar clock settings</string>
     <string name="status_bar_clock_show">Show clock and date</string>
     <string name="status_bar_clock_style_title">Clock style</string>
     <string name="status_bar_clock_style_right">Right</string>
@@ -354,6 +354,12 @@
     <string name="clock_date_format">Date format</string>
     <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Enter string</string>
+    <string name="lockscreen_clock_title">Lockscreen clock settings</string>
+    <string name="lockscreen_clock_selection_title">Clock style</string>
+    <string name="lockscreen_clock_selection_digital">Default</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digital (Bold)</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (Bold)</string>
 
     <!--Double Tap to Sleep Lockscreen-->
     <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string>
