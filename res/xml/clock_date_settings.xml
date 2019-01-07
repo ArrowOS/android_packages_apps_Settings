@@ -69,5 +69,16 @@
             android:entries="@array/clock_date_format_entries_values"
             android:entryValues="@array/clock_date_format_entries_values"
             android:dependency="clock_date_display" />
+
+    <PreferenceCategory
+        android:title="@string/lockscreen_clock_title"/>
+
+         <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_clock_selection"
+            android:title="@string/lockscreen_clock_selection_title"
+            android:entries="@array/lockscreen_clock_selection_entries"
+            android:entryValues="@array/lockscreen_clock_selection_values"
+            android:dependency="lockscreen_clock"
+            android:defaultValue="0" />
     
 </PreferenceScreen>
