@@ -137,7 +137,7 @@
         android:title="@string/statusbar_category_title">
 
     <!-- VoLTE Icon -->
-        <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
         android:key="volte_icon"
         android:title="@string/volte_icon_title"
         android:summary="@string/volte_icon_summary"
@@ -155,23 +155,22 @@
         android:fragment="com.android.settings.arrow.CutoutFragment" />
 
 	<Preference
-            android:key="clock_settings"
-            android:title="@string/status_bar_clock"
-            android:summary="@string/status_bar_clock_summary"
-            android:fragment="com.android.settings.arrow.ClockDateSettings" />
-
-	<Preference
-            android:key="systemui_tuner_statusbar"
-            android:summary="@string/statusbar_items_title_summary"
-            android:title="@string/statusbar_items_title" >
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
-        </Preference>
+        android:key="systemui_tuner_statusbar"
+        android:summary="@string/statusbar_items_title_summary"
+        android:title="@string/statusbar_items_title" >
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.systemui"
+            android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+    </Preference>
     </PreferenceCategory>
 
     <PreferenceCategory
         android:title="@string/misc_category_title">
+    <Preference
+        android:key="clock_settings"
+        android:title="@string/status_bar_clock"
+        android:summary="@string/status_bar_clock_summary"
+        android:fragment="com.android.settings.arrow.ClockDateSettings" />
     <Preference
         android:key="recents"
         android:fragment="com.android.settings.arrow.StockRecentCategory"
