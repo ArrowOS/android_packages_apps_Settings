@@ -50,6 +50,7 @@ import androidx.annotation.VisibleForTesting;
 import androidx.loader.app.LoaderManager;
 import androidx.loader.app.LoaderManager.LoaderCallbacks;
 import androidx.loader.content.Loader;
+import androidx.preference.Preference;
 
 import com.android.settings.R;
 import com.android.settings.SettingsActivity;
@@ -65,6 +66,8 @@ import com.android.settingslib.search.SearchIndexable;
 import com.android.settingslib.utils.PowerUtil;
 import com.android.settingslib.utils.StringUtil;
 import com.android.settingslib.widget.LayoutPreference;
+
+import com.android.internal.util.arrow.ArrowUtils;
 
 import java.util.List;
 
@@ -88,6 +91,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     private static final String KEY_TIME_SINCE_LAST_FULL_CHARGE = "last_full_charge";
 
     private static final String KEY_BATTERY_CHARGING_LIGHT = "battery_charging_light";
+    private static final String KEY_BATTERY_TEMP = "battery_temp";
 
     @VisibleForTesting
     static final int BATTERY_INFO_LOADER = 1;
@@ -104,6 +108,8 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     @VisibleForTesting
     PowerGaugePreference mLastFullChargePref;
     @VisibleForTesting
+    PowerGaugePreference mBatteryTemp;
+    @VisibleForTesting
     PowerUsageFeatureProvider mPowerFeatureProvider;
     @VisibleForTesting
     BatteryUtils mBatteryUtils;
@@ -119,6 +125,8 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     boolean mNeedUpdateBatteryTip;
     @VisibleForTesting
     BatteryTipPreferenceController mBatteryTipPreferenceController;
+
+    private boolean batteryTemp = false;
 
     @VisibleForTesting
     final ContentObserver mSettingsObserver = new ContentObserver(new Handler()) {
@@ -240,6 +248,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         mScreenUsagePref = (PowerGaugePreference) findPreference(KEY_SCREEN_USAGE);
         mLastFullChargePref = (PowerGaugePreference) findPreference(
                 KEY_TIME_SINCE_LAST_FULL_CHARGE);
+        mBatteryTemp = (PowerGaugePreference) findPreference(KEY_BATTERY_TEMP);
         mBatteryUtils = BatteryUtils.getInstance(getContext());
 
         restartBatteryInfoLoader();
@@ -257,6 +266,17 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
+        if (KEY_BATTERY_TEMP.equals(preference.getKey())) {
+            if (batteryTemp) {
+                mBatteryTemp.setSubtitle(
+                    ArrowUtils.batteryTemperature(getContext(), false));
+                batteryTemp = false;
+            } else {
+                mBatteryTemp.setSubtitle(
+                    ArrowUtils.batteryTemperature(getContext(), true));
+                batteryTemp = true;
+            }
+        } 
         if (KEY_BATTERY_HEADER.equals(preference.getKey())) {
             new SubSettingLauncher(getContext())
                         .setDestination(PowerUsageAdvanced.class.getName())
@@ -353,8 +373,9 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         updateLastFullChargePreference();
         mScreenUsagePref.setSubtitle(StringUtil.formatElapsedTime(getContext(),
                 mBatteryUtils.calculateScreenUsageTime(mStatsHelper), false));
-
-        final long elapsedRealtimeUs = SystemClock.elapsedRealtime() * 1000;
+        mBatteryTemp.setSubtitle(
+                ArrowUtils.batteryTemperature(getContext(), batteryTemp));
+	final long elapsedRealtimeUs = SystemClock.elapsedRealtime() * 1000;
         Intent batteryBroadcast = context.registerReceiver(null,
                 new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
         BatteryInfo batteryInfo = BatteryInfo.getBatteryInfoOld(context, batteryBroadcast,
