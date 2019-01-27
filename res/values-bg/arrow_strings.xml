@@ -117,7 +117,7 @@
     <string name="hardware_keys_single_tap_title">Действие при еднократно натискане</string>
     <string name="hardware_keys_long_press_title">Действие при дълго натискане</string>
     <string name="hardware_keys_double_tap_title">Действие при двукратно натискане</string>
-    <string name="hard_soft_keys">Бутони на устройството и навигационна лента</string>
+    <string name="hard_soft_keys">Buttons</string>
     <string name="hard_soft_keys_summary">Настройки на бутоните на устройството и навигационната лента</string>
     <string name="navigation_keys">Активиране на лентата за навигация</string>
     <string name="navigation_keys_title">Лента за навигация на екрана</string>
@@ -238,6 +238,9 @@
     <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
     <string name="weather_config_title">Настройки на услугата</string>
     <string name="weather_config_summary"></string>
+    <string name="lock_screen_weather_style_title">Weather style</string>
+    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
+    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
     <string name="header_weather_title">Горен изглед време</string>
     <string name="header_weather_summary">Разрешо панела за уведомления да показва времето</string>
     <string name="weather_icon_pack_title">Състав на иконите на състоянието</string>
@@ -514,4 +517,6 @@
     <string name="night_auto_value_min">Minimum brightness</string>
     <string name="night_bright_low">Low brightness</string>
     <string name="night_bright_midlow">Mid low brightness</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>
