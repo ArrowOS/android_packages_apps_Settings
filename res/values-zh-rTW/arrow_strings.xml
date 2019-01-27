@@ -19,148 +19,148 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> 是 <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
     <string name="sim_disabled">已停用</string>
-    <string name="sim_missing">missing or faulty</string>
-    <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
+    <string name="sim_missing">遺失或毀損</string>
+    <string name="sim_enabler_need_disable_sim">SIM 卡將被停用，您確定要繼續嗎？</string>
     <string name="sim_enabler_will_disable_sim_title">注意</string>
-    <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
-    <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
-    <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
-    <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
-    <string name="sim_enabler_enabling">Activating\u2026</string>
-    <string name="sim_enabler_disabling">Deactivating\u2026</string>
-    <string name="sub_activate_success">SIM activated.</string>
-    <string name="sub_activate_failed">Activation failed.</string>
-    <string name="sub_deactivate_success">SIM deactivated.</string>
-    <string name="sub_deactivate_failed">Deactivation failed.</string>
+    <string name="sim_enabler_need_switch_data_service">此 SIM 卡將被停用，並且將使用 SIM 卡 <xliff:g id="slotid">%1$s</xliff:g> 於行動網路服務中，您確定要繼續嗎？</string>
+    <string name="sim_enabler_airplane_on">飛航模式開啟時無法進行此操作。</string>
+    <string name="sim_enabler_in_call">通話時無法進行此操作。</string>
+    <string name="sim_enabler_both_inactive">無法停用所有 SIM 卡</string>
+    <string name="sim_enabler_enabling">正在啟動\u2026</string>
+    <string name="sim_enabler_disabling">停用中\u2026</string>
+    <string name="sub_activate_success">SIM 卡已啟用。</string>
+    <string name="sub_activate_failed">啟用失敗。</string>
+    <string name="sub_deactivate_success">SIM 卡已停用。</string>
+    <string name="sub_deactivate_failed">停用失敗。</string>
     <!-- Fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">指紋感應器位於手機背面。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">指紋感應器位於手機左侧。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">指紋感應器位於手機右侧。</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About ArrowOS -->
-    <string name="rom_version_title">ArrowOS version</string>
-    <string name="build_date">Build date</string>
+    <string name="rom_version_title">ArrowOS 版本</string>
+    <string name="build_date">組建日期</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="dialog_color_picker">顏色選擇器</string>
+    <string name="press_color_to_apply">按下顏色以套用</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="hex">Hex:</string>
+    <string name="hex">十六進位：</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
+    <string name="set">設定</string>
     <string name="color_default">預設</string>
     <!-- Face auto unlock -->
-    <string name="face_auto_unlock_title">Face auto unlock</string>
-    <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
+    <string name="face_auto_unlock_title">臉部自動解鎖</string>
+    <string name="face_auto_unlock_summary">臉部解鎖後解除鎖定螢幕</string>
     <!-- Scramble PIN Layout on Lockscreen -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">亂序佈局</string>
+    <string name="unlock_scramble_pin_layout_summary">解鎖裝置時使用亂序 PIN 佈局</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">快速解鎖</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_summary">當正確的輸入 PIN 碼/密碼時自動解鎖</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Show charging current, voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_title">鎖定螢幕上顯示充電資訊</string>
+    <string name="lockscreen_battery_info_summary">在充電時，於鎖定螢幕上顯示充電的電流、電壓和電池溫度</string>
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_title">螢幕截圖音效</string>
     <!-- meh ganeshi4u -->
-    <string name="arrow_stats_title">ArrowOS Stats</string>
-    <string name="arrow_stats_summary">we ain\'t stealing your nuds!</string>
+    <string name="arrow_stats_title">ArrowOS 統計資訊</string>
+    <string name="arrow_stats_summary">我們不會偷你的隱私的！</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Cellular data</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_data">行動網路流量</string>
+    <string name="data_usage_app_restrict_data_summary">啟用行動網路流量統計</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 流量</string>
+    <string name="data_usage_app_restrict_wifi_summary">啟用 Wi\u2011Fi 流量統計</string>
     <!-- Power Menu -->
     <string name="advanced_power_menu">電源按鈕操作</string>
     <string name="arrow_reboot_menu">進階重新啟動選單</string>
     <string name="powermenu_reboot_title">重新開機</string>
     <string name="powermenu_airplane_title">飛航模式</string>
     <string name="powermenu_advanced_reboot_title">進階重新啟動</string>
-    <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
+    <string name="powermenu_advanced_reboot_summary">在重新啟動選項中啟用進階重新啟動選單，例如熱開機、復原和開機啟動器。也新增一個選項重新啟動 SystemUI</string>
     <string name="powermenu_screenshot_title">螢幕截圖</string>
-    <string name="powermenu_category_visibility">Lockscreen options</string>
-    <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
-    <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
-    <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
-    <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
-    <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
-    <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
-    <string name="powermenu_lockdown_title">Lockdown</string>
-    <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
+    <string name="powermenu_category_visibility">鎖定螢幕選項</string>
+    <string name="powermenu_lockscreen_title">顯示於鎖定螢幕</string>
+    <string name="powermenu_lockscreen_summary">在鎖定螢幕上啟用顯示電源選單對話視窗</string>
+    <string name="powermenu_ls_reboot_summary">在鎖定螢幕上顯示重新啟動選項</string>
+    <string name="powermenu_ls_advanced_reboot_summary">在鎖定螢幕上顯示進階重新啟動選項</string>
+    <string name="powermenu_ls_screenshot_summary">在鎖定螢幕上顯示截圖選項</string>
+    <string name="powermenu_ls_airplane_summary">在鎖定螢幕上顯示飛行模式選項</string>
+    <string name="powermenu_lockdown_title">鎖定</string>
+    <string name="powermenu_ls_lockdown_summary">顯示關閉延伸存取和指紋解鎖的電源按鈕選項</string>
     <!-- Hide Lockscreen clock, date, & alarm -->
     <string name="lockscreen_items_other">其它</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Roaming indicator</string>
-    <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
+    <string name="roaming_indicator_icon_title">行動網路漫遊指示器</string>
+    <string name="roaming_indicator_icon_summary">在漫遊模式下顯示訊號圖示中的漫遊指示符號</string>
     <!-- Hardware button navigation -->
-    <string name="picker_activities">Activities</string>
-    <string name="select_custom_app_title">Select custom app</string>
-    <string name="select_custom_activity_title">Select custom activity</string>
+    <string name="picker_activities">活動</string>
+    <string name="select_custom_app_title">選擇自訂應用程式</string>
+    <string name="select_custom_activity_title">選擇自訂的行為</string>
     <string name="profile_applist_title">應用程式</string>
-    <string name="choose_action_title">Choose action</string>
+    <string name="choose_action_title">選擇動作</string>
     <string name="action_entry_default_action">預設設定</string>
     <string name="action_entry_select_app">選擇應用程式</string>
     <string name="action_entry_custom_action">選擇自訂動作</string>
-    <string name="hardware_keys_volume_keys_title">Volume rocker</string>
-    <string name="hardware_keys_home_key_title">Home button</string>
-    <string name="hardware_keys_menu_key_title">Menu button</string>
-    <string name="hardware_keys_assist_key_title">Search button</string>
-    <string name="hardware_keys_appswitch_key_title">Overview button</string>
-    <string name="hardware_keys_back_key_title">Back button</string>
-    <string name="hardware_keys_double_tap_summary">Set double tap action</string>
-    <string name="hardware_keys_single_tap_summary">Set single tap action</string>
-    <string name="hardware_keys_long_press_summary">Set long press action</string>
-    <string name="hardware_keys_single_tap_title">Single tap action</string>
-    <string name="hardware_keys_long_press_title">Long press action</string>
-    <string name="hardware_keys_double_tap_title">Double tap action</string>
-    <string name="hard_soft_keys">Device buttons and navbar</string>
-    <string name="hard_soft_keys_summary">Hardware buttons and navigation bar options</string>
-    <string name="navigation_keys">Enable navigation bar</string>
-    <string name="navigation_keys_title">Onscreen navigation bar</string>
-    <string name="hardware_keys_category">Hardware navigation buttons</string>
-    <string name="hardware_keys_disable_title">Disable hardware buttons</string>
-    <string name="hardware_keys_wake_title">Wake device</string>
+    <string name="hardware_keys_volume_keys_title">音量鍵</string>
+    <string name="hardware_keys_home_key_title">首頁鍵</string>
+    <string name="hardware_keys_menu_key_title">選單鍵</string>
+    <string name="hardware_keys_assist_key_title">搜尋鍵</string>
+    <string name="hardware_keys_appswitch_key_title">多工預覽鍵</string>
+    <string name="hardware_keys_back_key_title">返回鍵</string>
+    <string name="hardware_keys_double_tap_summary">設定點兩下的動作</string>
+    <string name="hardware_keys_single_tap_summary">設定點一下的動作</string>
+    <string name="hardware_keys_long_press_summary">設定長按的動作</string>
+    <string name="hardware_keys_single_tap_title">點一下的動作</string>
+    <string name="hardware_keys_long_press_title">長按的動作</string>
+    <string name="hardware_keys_double_tap_title">點兩下的動作</string>
+    <string name="hard_soft_keys">Buttons</string>
+    <string name="hard_soft_keys_summary">實體按鈕和導航列的選項</string>
+    <string name="navigation_keys">啟動導航列</string>
+    <string name="navigation_keys_title">在螢幕上顯示導航列</string>
+    <string name="hardware_keys_category">實體導航按鈕</string>
+    <string name="hardware_keys_disable_title">停用實體按鈕</string>
+    <string name="hardware_keys_wake_title">喚醒裝置</string>
     <!-- Settings categories -->
-    <string name="statusbar_category_title">StatusBar</string>
-    <string name="buttons_category_title">Buttons</string>
+    <string name="statusbar_category_title">狀態列</string>
+    <string name="buttons_category_title">按鈕</string>
     <string name="misc_category_title">雜項</string>
     <string name="theme_category_title">系統主題</string>
     <!-- Button brightness -->
-    <string name="button_backlight_options_category">Backlight options</string>
-    <string name="button_backlight_enable_title">Allow button backlight</string>
-    <string name="button_link_brightness">Link to screen brightness</string>
-    <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
-    <string name="button_manual_brightness">Brightness level</string>
-    <string name="button_timeout_title">Backlight timeout</string>
-    <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
-    <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
+    <string name="button_backlight_options_category">背光選項</string>
+    <string name="button_backlight_enable_title">允許按鍵背光</string>
+    <string name="button_link_brightness">連結至螢幕亮度</string>
+    <string name="button_link_brightness_summary">按鈕背光亮度將根據螢幕的亮度調整</string>
+    <string name="button_manual_brightness">亮度等級</string>
+    <string name="button_timeout_title">背光逾時</string>
+    <string name="button_backlight_on_touch_only_title">按鍵背光觸控</string>
+    <string name="button_backlight_on_touch_only_summary">按鍵背光只會在按下按鍵時出現，而不是一直顯示。逾時仍會影響此功能。</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">播放控制</string>
+    <string name="volume_button_music_control_summary">當螢幕關閉時，長按音量鍵即可切換曲目</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
-    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    <string name="volume_rocker_wake_title">音量鍵喚醒</string>
+    <string name="volume_rocker_wake_summary">按音量鍵喚醒裝置</string>
     <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Navigation bar configs</string>
+    <string name="navbar_tuner_title">導航列配置</string>
     <!-- Heads up -->
-    <string name="heads_up_notifications">Heads up</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
+    <string name="heads_up_notifications">浮動通知</string>
+    <string name="summary_heads_up_enabled">浮動通知已啟用</string>
+    <string name="summary_heads_up_disabled">浮動通知已停用</string>
+    <string name="add_heads_up_package">新增應用程式</string>
+    <string name="add_heads_up_stoplist_summary">停用這些應用程式的浮動通知</string>
+    <string name="add_heads_up_blacklist_summary">針對這些應用程式停用浮動顯示</string>
+    <string name="heads_up_stoplist_title">阻止名單</string>
     <string name="heads_up_blacklist_title">黑名單</string>
     <string name="profile_choose_app">選擇應用程式</string>
     <string name="dialog_delete_title">刪除</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="dialog_delete_message">刪除已選擇的項目？</string>
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">逾時</string>
-    <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
+    <string name="heads_up_time_out_summary">浮動通知將顯示 <xliff:g id="number">%d</xliff:g> 秒</string>
     <string name="heads_up_time_out_2sec">2 秒</string>
     <string name="heads_up_time_out_4sec">4 秒</string>
     <string name="heads_up_time_out_5sec">5 秒</string>
@@ -168,33 +168,33 @@
     <string name="heads_up_time_out_8sec">8 秒</string>
     <string name="heads_up_time_out_10sec">10 秒</string>
     <!-- Heads up snooze -->
-    <string name="heads_up_snooze_title">Snooze timer</string>
-    <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-    <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+    <string name="heads_up_snooze_title">暫停計時器</string>
+    <string name="heads_up_snooze_summary_one_minute">上滑浮動通知會將此應用程式的浮動通知進入打盹狀態 1 分鐘</string>
+    <string name="heads_up_snooze_summary">上滑浮動通知會將此應用程式的浮動通知進入休眠狀態 <xliff:g id="number">%d</xliff:g> 分鐘</string>
+    <string name="heads_up_snooze_disabled_summary">打盹計時器已被停用</string>
     <string name="heads_up_snooze_1min">1 分鐘</string>
     <string name="heads_up_snooze_5min">5 分鐘</string>
     <string name="heads_up_snooze_10min">10 分鐘</string>
     <string name="heads_up_snooze_15min">15 分鐘</string>
     <string name="heads_up_snooze_20min">20 分鐘</string>
     <!-- Clear all recents -->
-    <string name="aosp_recents_title">AOSP recents</string>
-    <string name="aosp_recents_title_summary">Oreo style recents configs, clear all FAB</string>
-    <string name="show_clear_all_recents_button_title">Clear-all FAB</string>
-    <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
-    <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
-    <string name="recents_clear_all_location_title">Clear all FAB location</string>
-    <string name="recents_clear_all_location_top_right">Top right</string>
-    <string name="recents_clear_all_location_top_left">Top left</string>
-    <string name="recents_clear_all_location_top_center">Top center</string>
-    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+    <string name="aosp_recents_title">AOSP 樣式的最近使用的應用程式</string>
+    <string name="aosp_recents_title_summary">Android O 樣式的最近使用的應用程式配置</string>
+    <string name="show_clear_all_recents_button_title">清除所有應用程式的浮動按鈕</string>
+    <string name="show_clear_all_recents_button_summary_on">顯示清除所有應用程式的浮動按鈕</string>
+    <string name="show_clear_all_recents_button_summary_off">顯示 AOSP 樣式的清除所有應用程式的浮動按鈕</string>
+    <string name="recents_clear_all_location_title">清除所有應用程式的浮動按鈕位置</string>
+    <string name="recents_clear_all_location_top_right">右上方</string>
+    <string name="recents_clear_all_location_top_left">左上方</string>
+    <string name="recents_clear_all_location_top_center">中上方</string>
+    <string name="recents_clear_all_location_bottom_right">右下方</string>
+    <string name="recents_clear_all_location_bottom_left">左下方</string>
+    <string name="recents_clear_all_location_bottom_center">中下方</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">防止意外喚醒</string>
+    <string name="proximity_wake_summary">喚醒螢幕前檢查接近感應器</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">狀態列項目</string>
     <string name="statusbar_items_title_summary">Enable or disable statusbar icons</string>
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
@@ -238,6 +238,9 @@
     <string name="weather_config_title_summary">Statusbar and lockscreen weather</string>
     <string name="weather_config_title">服務設定</string>
     <string name="weather_config_summary"></string>
+    <string name="lock_screen_weather_style_title">Weather style</string>
+    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
+    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
     <string name="header_weather_title">Header view weather</string>
     <string name="header_weather_summary">Enable notification panel header weather display</string>
     <string name="weather_icon_pack_title">Condition icon pack</string>
@@ -265,7 +268,7 @@
     <string name="lockscreen_weather_title">Lockscreen weather</string>
     <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
     <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
-    <string name="lockscreen_weather_show_city_title">顯示城市名</string>
+    <string name="lockscreen_weather_show_city_title">顯示城市名稱</string>
     <string name="lockscreen_weather_show_city_summary">在圖片左邊顯示目前城市名稱</string>
     <string name="lockscreen_weather_show_temp_title">顯示溫度</string>
     <string name="lockscreen_weather_show_temp_summary">在圖片右邊顯示目前城市氣溫</string>
@@ -348,7 +351,7 @@
     <string name="app_ops_delete_sms">delete SMS</string>
     <string name="app_ops_draw_on_top">draw on top</string>
     <string name="app_ops_get_usage_stats">get usage stats</string>
-    <string name="app_ops_keep_device_awake">keep awake</string>
+    <string name="app_ops_keep_device_awake">保持喚醒</string>
     <string name="app_ops_make_phone_call">make call</string>
     <string name="app_ops_modify_calendar">update calendar</string>
     <string name="app_ops_modify_call_log">update call log</string>
@@ -395,7 +398,7 @@
     <string name="app_ops_read_external_storage">read ext. stor.</string>
     <string name="app_ops_write_external_storage">write ext. stor.</string>
     <string name="app_ops_turn_on_screen">turn screen on</string>
-    <string name="app_ops_get_accounts">device accounts</string>
+    <string name="app_ops_get_accounts">裝置帳戶</string>
     <string name="app_ops_run_in_background">run in background</string>
     <string name="app_ops_accessibility_volume">accessibility volume</string>
     <string name="app_ops_read_phone_numbers">read phone num.</string>
@@ -436,7 +439,7 @@
     <string name="qs_tile_title_visibility_summary">Display title below each tile, (requires SystemUI restart)</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="pocket_judge_summary">當裝置在口袋中時防止螢幕和按鈕輸入</string>
     <!-- Auto-brightness toggle -->
     <string name="brightness_icon_title">Auto Brightness Icon</string>
     <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust auto-brightness</string>
@@ -455,7 +458,8 @@
     <string name="hide_notch_summary">Apps can not use the notch area</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-    <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+    <string name="fp_unlock_keystore_summary">在重新開機後不使用 PIN 碼/密碼/圖案的情況下解鎖設備
+\n注意：請自行承擔風險!</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
@@ -514,4 +518,6 @@
     <string name="night_auto_value_min">Minimum brightness</string>
     <string name="night_bright_low">Low brightness</string>
     <string name="night_bright_midlow">Mid low brightness</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>
