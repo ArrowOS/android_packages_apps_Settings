@@ -178,4 +178,5 @@ public class Settings extends SettingsActivity {
 
     public static class HardwareKeys extends SettingsActivity { /* empty */ }
     public static class ArrowWeather extends SettingsActivity { /* empty */ }
+    public static class ArrowTraffic extends SettingsActivity { /* empty */ }
 }
