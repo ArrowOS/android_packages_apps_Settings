@@ -140,6 +140,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.android.settings.arrow.HardwareKeys;
 import com.android.settings.arrow.Weather;
+import com.android.settings.arrow.Traffic;
 
 public class SettingsGateway {
 
@@ -268,6 +269,7 @@ public class SettingsGateway {
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
 	    HardwareKeys.class.getName(),
 	    Weather.class.getName(),
+	    Traffic.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -308,5 +310,6 @@ public class SettingsGateway {
             Settings.MyDeviceInfoActivity.class.getName(),
 	    Settings.HardwareKeys.class.getName(),
 	    Settings.ArrowWeather.class.getName(),
+	    Settings.ArrowTraffic.class.getName(),
     };
 }
