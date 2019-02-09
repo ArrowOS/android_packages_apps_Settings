@@ -254,6 +254,8 @@
     <string name="show_network_traffic_all">Carregar e Descarregar</string>
     <string name="network_traffic_state_title">Mostrar a atividade da rede na barra de estado</string>
     <string name="network_traffic_autohide_threshold_title">Limite para ocultar automaticamente a atividade de rede (KB/s)</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">Meteorologia na barra estado</string>
     <string name="statusbar_weather_summary">Configuração da meteorologia nas definições rápidas</string>

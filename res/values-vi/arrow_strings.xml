@@ -254,6 +254,8 @@
     <string name="show_network_traffic_all">Tải lên và Tải xuống</string>
     <string name="network_traffic_state_title">Hiển thị tốc độ mạng trên thanh trạng thái</string>
     <string name="network_traffic_autohide_threshold_title">Ngưỡng tự động ẩn tốc độ mạng (KB/s)</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">Thời tiết trên thanh trạng thái</string>
     <string name="statusbar_weather_summary">Tùy chỉnh Cài đặt nhanh/Thời tiết</string>

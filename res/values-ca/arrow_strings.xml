@@ -254,6 +254,8 @@
     <string name="show_network_traffic_all">Pujada i Baixada</string>
     <string name="network_traffic_state_title">Mostra l\'activitat de la xarxa a la barra d\'estat</string>
     <string name="network_traffic_autohide_threshold_title">Trànsit de xarxa mínim per ocultar activitat (KB/s)</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">Clima a la barra d\'estat</string>
     <string name="statusbar_weather_summary">Configura des de configuració Ràpida/Clima</string>

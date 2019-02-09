@@ -117,7 +117,7 @@
     <string name="hardware_keys_single_tap_title">单击操作</string>
     <string name="hardware_keys_long_press_title">长按操作</string>
     <string name="hardware_keys_double_tap_title">双击操作</string>
-    <string name="hard_soft_keys">Buttons</string>
+    <string name="hard_soft_keys">按键</string>
     <string name="hard_soft_keys_summary">硬件按钮和导航栏选项</string>
     <string name="navigation_keys">启用导航栏</string>
     <string name="navigation_keys_title">屏幕导航栏</string>
@@ -238,9 +238,9 @@
     <string name="weather_config_title_summary">状态栏和锁屏天气</string>
     <string name="weather_config_title">服务设置</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Weather style</string>
-    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
-    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
+    <string name="lock_screen_weather_style_title">天气样式</string>
+    <string name="lock_screen_weather_style_summaryOff">天气显示在日期下方</string>
+    <string name="lock_screen_weather_style_summaryOn">天气显示在日期旁边</string>
     <string name="header_weather_title">顶部天气视图</string>
     <string name="header_weather_summary">启用通知面板标题天气显示</string>
     <string name="weather_icon_pack_title">天气状况图标包</string>
@@ -254,6 +254,8 @@
     <string name="show_network_traffic_all">上行和下行</string>
     <string name="network_traffic_state_title">在状态栏显示网络状态</string>
     <string name="network_traffic_autohide_threshold_title">网络活动自动隐藏阈值 (KB/s)</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">状态栏天气</string>
     <string name="statusbar_weather_summary">从 快速设置/天气 中配置</string>

@@ -254,6 +254,8 @@
     <string name="show_network_traffic_all">Ανέβασμα και κατέβασμα</string>
     <string name="network_traffic_state_title">Εμφάνιση δραστηριότητας δικτύου στην γραμμή κατάστασης</string>
     <string name="network_traffic_autohide_threshold_title">\'Οριο εμφάνισης δραστηριότητας δικτύου (KB/s)</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">Καιρός γραμμής κατάστασης</string>
     <string name="statusbar_weather_summary">Ρύθμιση παραμέτρων από τις ρυθμίσεις του QS/Καιρού</string>

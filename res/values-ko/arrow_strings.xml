@@ -254,6 +254,8 @@
     <string name="show_network_traffic_all">업링크와 다운링크</string>
     <string name="network_traffic_state_title">상태 표시줄에 네트워크 트래픽 표시</string>
     <string name="network_traffic_autohide_threshold_title">트래픽 숨기기 최소값 (KB/s)</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">상태 표시줄 날씨</string>
     <string name="statusbar_weather_summary">빠른 설정/날씨에서 설정</string>

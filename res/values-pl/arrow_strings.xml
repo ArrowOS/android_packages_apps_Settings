@@ -254,6 +254,8 @@
     <string name="show_network_traffic_all">Wysyłanie i Pobieranie</string>
     <string name="network_traffic_state_title">Pokaż aktywność sieci na pasku stanu</string>
     <string name="network_traffic_autohide_threshold_title">Schowaj poniżej limitu (KB/s)</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">Pogoda na pasku stanu</string>
     <string name="statusbar_weather_summary">Konfiguruj z szybkich ustawień/Pogody</string>
