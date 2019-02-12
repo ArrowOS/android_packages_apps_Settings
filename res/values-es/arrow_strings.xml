@@ -254,8 +254,8 @@
     <string name="show_network_traffic_all">Subida y Bajada</string>
     <string name="network_traffic_state_title">Mostrar actividad de red en barra de estado</string>
     <string name="network_traffic_autohide_threshold_title">Umbral mínimo de red para auto ocultarse (KB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="network_traffic_hidearrow">Ocultar flechas</string>
+    <string name="network_traffic_hidearrow_summary">Ocultar las flechas indicadoras de tráfico</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">Clima en la barra de estado</string>
     <string name="statusbar_weather_summary">Configurar desde Ajustes rápidos/Clima</string>

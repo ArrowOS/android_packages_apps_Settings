@@ -254,8 +254,8 @@
     <string name="show_network_traffic_all">Вихідний і вхідний</string>
     <string name="network_traffic_state_title">Відображати мережеву активність у рядку стану</string>
     <string name="network_traffic_autohide_threshold_title">Автоматичне приховування індикатора мережевої активності (KБ/с)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="network_traffic_hidearrow">Приховати стрілки</string>
+    <string name="network_traffic_hidearrow_summary">Приховати стрілки в індикаторі трафіку</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">Погода в статусбарі</string>
     <string name="statusbar_weather_summary">Керувати швидкими налаштуваннями погоди</string>

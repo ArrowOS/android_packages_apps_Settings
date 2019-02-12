@@ -254,8 +254,8 @@
     <string name="show_network_traffic_all">Исходящий и входящий</string>
     <string name="network_traffic_state_title">Показывать индикатор сетевого трафика в строке состояния</string>
     <string name="network_traffic_autohide_threshold_title">Порог автоскрытия индикатора сетевого трафика (КБ/с)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="network_traffic_hidearrow">Скрыть стрелки</string>
+    <string name="network_traffic_hidearrow_summary">Скрыть стрелки индикатора сетевого трафика</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">Погода в строке состояния</string>
     <string name="statusbar_weather_summary">Настройте через Быстрые настройки/Погода</string>

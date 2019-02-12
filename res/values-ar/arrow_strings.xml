@@ -254,8 +254,8 @@
     <string name="show_network_traffic_all">الإرسال والأستلام</string>
     <string name="network_traffic_state_title">إظهار نشاط الشبكة في شريط الحالة</string>
     <string name="network_traffic_autohide_threshold_title">بداية الإخفاء الذاتي لنشاط الشبكة (KB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="network_traffic_hidearrow">إخفاء الأسهم</string>
+    <string name="network_traffic_hidearrow_summary">إخفاء أسهم مؤشر حركة البيانات</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">طقس شريط الحالة</string>
     <string name="statusbar_weather_summary">تكوين من الإعدادات السريعة/الطقس</string>

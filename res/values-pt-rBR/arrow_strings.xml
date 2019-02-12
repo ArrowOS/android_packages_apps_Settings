@@ -117,7 +117,7 @@
     <string name="hardware_keys_single_tap_title">Ação de um toque</string>
     <string name="hardware_keys_long_press_title">Ação toque longo</string>
     <string name="hardware_keys_double_tap_title">Ação toque duplo</string>
-    <string name="hard_soft_keys">Buttons</string>
+    <string name="hard_soft_keys">Botões</string>
     <string name="hard_soft_keys_summary">Opções de botões de hardware e da barra de navegação</string>
     <string name="navigation_keys">Habilitar barra de navegação</string>
     <string name="navigation_keys_title">Barra de navegação na tela</string>
@@ -238,9 +238,9 @@
     <string name="weather_config_title_summary">Clima na barra de status e tela de bloqueio</string>
     <string name="weather_config_title">Configurações do serviço</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Weather style</string>
-    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
-    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
+    <string name="lock_screen_weather_style_title">Estilo do Clima</string>
+    <string name="lock_screen_weather_style_summaryOff">Clima é mostrado abaixo da data e da localização</string>
+    <string name="lock_screen_weather_style_summaryOn">Clima é mostrado abaixo da data sem localização</string>
     <string name="header_weather_title">Previsão do tempo no cabeçalho</string>
     <string name="header_weather_summary">Ativar notificação de clima no cabeçalho do painel de notificações</string>
     <string name="weather_icon_pack_title">Pacote de ícones climáticos</string>
@@ -254,8 +254,8 @@
     <string name="show_network_traffic_all">Saída e entrada</string>
     <string name="network_traffic_state_title">Mostrar a atividade da rede na barra de status</string>
     <string name="network_traffic_autohide_threshold_title">Limite para auto ocultar atividade da rede (KB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="network_traffic_hidearrow">Ocultar setas</string>
+    <string name="network_traffic_hidearrow_summary">Ocultar setas dos indicadores de tráfego</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">Clima na barra de status</string>
     <string name="statusbar_weather_summary">Configurar a partir das configurações rápidas/meteorologia</string>

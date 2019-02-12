@@ -254,8 +254,8 @@
     <string name="show_network_traffic_all">Etkin</string>
     <string name="network_traffic_state_title">Durum çubuğunda ağ etkinliğini göster</string>
     <string name="network_traffic_autohide_threshold_title">Ağ etkinliği otomatik gizlenme eşiği (KB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="network_traffic_hidearrow">Okları gizle</string>
+    <string name="network_traffic_hidearrow_summary">Ağ etkinliği ok göstergelerini gizler</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">Durum çubuğu</string>
     <string name="statusbar_weather_summary">Durum çubuğunda hava durumunu yapılandırabilirsiniz</string>
