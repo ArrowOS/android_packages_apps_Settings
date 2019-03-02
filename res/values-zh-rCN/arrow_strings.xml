@@ -254,8 +254,8 @@
     <string name="show_network_traffic_all">上行和下行</string>
     <string name="network_traffic_state_title">在状态栏显示网络状态</string>
     <string name="network_traffic_autohide_threshold_title">网络活动自动隐藏阈值 (KB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="network_traffic_hidearrow">隐藏箭头</string>
+    <string name="network_traffic_hidearrow_summary">隐藏网络流量指示箭头</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">状态栏天气</string>
     <string name="statusbar_weather_summary">从 快速设置/天气 中配置</string>
@@ -521,4 +521,7 @@
     <string name="night_bright_midlow">中低亮度</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">链接铃声和通知的音量</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always on when charging</string>
+    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
 </resources>

@@ -521,4 +521,7 @@
     <string name="night_bright_midlow">Середина низької яскравості</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Зв’язати гучність дзвінка &amp; сповіщень</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always on when charging</string>
+    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
 </resources>

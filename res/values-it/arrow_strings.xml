@@ -254,8 +254,8 @@
     <string name="show_network_traffic_all">In uscita e in entrata</string>
     <string name="network_traffic_state_title">Mostra attività di rete nella barra di stato</string>
     <string name="network_traffic_autohide_threshold_title">Soglia alla quale nascondere l\'attività di rete (KB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="network_traffic_hidearrow">Nascondere le frecce</string>
+    <string name="network_traffic_hidearrow_summary">Nascondi le frecce dell\'indicatore di traffico di rete</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">Barra di stato del meteo</string>
     <string name="statusbar_weather_summary">Configura dalle impostazioni rapide/Meteo</string>
@@ -521,4 +521,7 @@
     <string name="night_bright_midlow">Luminosità medio bassa</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Collega volume suoneria e notifiche</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always on when charging</string>
+    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
 </resources>

@@ -117,7 +117,7 @@
     <string name="hardware_keys_single_tap_title">Akcja pojedyńczego stuknięcia</string>
     <string name="hardware_keys_long_press_title">Akcja długiego naciśnięcia</string>
     <string name="hardware_keys_double_tap_title">Akcja dwukrotnego stuknięcia</string>
-    <string name="hard_soft_keys">Buttons</string>
+    <string name="hard_soft_keys">Przyciski</string>
     <string name="hard_soft_keys_summary">Przyciski sprzętowe i opcje paska nawigacji</string>
     <string name="navigation_keys">Włącz pasek nawigacji</string>
     <string name="navigation_keys_title">Pasek nawigacji na ekranie</string>
@@ -238,9 +238,9 @@
     <string name="weather_config_title_summary">Pogoda na ekranie blokady i pasku stanu</string>
     <string name="weather_config_title">Ustawienia usługi</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Weather style</string>
-    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
-    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
+    <string name="lock_screen_weather_style_title">Styl pogody</string>
+    <string name="lock_screen_weather_style_summaryOff">Pogoda jest pokazywana pod datą wraz z lokalizacją</string>
+    <string name="lock_screen_weather_style_summaryOn">Pogoda jest pokazywana wraz z datą bez lokalizacji</string>
     <string name="header_weather_title">Pogoda w nagłówku</string>
     <string name="header_weather_summary">Włącz wyświetlanie pogody w panelu powiadomień</string>
     <string name="weather_icon_pack_title">Paczka ikon</string>
@@ -254,8 +254,8 @@
     <string name="show_network_traffic_all">Wysyłanie i Pobieranie</string>
     <string name="network_traffic_state_title">Pokaż aktywność sieci na pasku stanu</string>
     <string name="network_traffic_autohide_threshold_title">Schowaj poniżej limitu (KB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="network_traffic_hidearrow">Ukryj strzałki transferu</string>
+    <string name="network_traffic_hidearrow_summary">Ukryj strzałki wskaźnika ruchu sieciowego</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">Pogoda na pasku stanu</string>
     <string name="statusbar_weather_summary">Konfiguruj z szybkich ustawień/Pogody</string>
@@ -521,4 +521,7 @@
     <string name="night_bright_midlow">Średnio niski poziom jasności</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Połącz głośność dzwonka i powiadomień</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always on when charging</string>
+    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
 </resources>
