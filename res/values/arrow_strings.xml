@@ -81,5 +81,6 @@
     <string name="show_network_traffic_up">Upload</string>
     <string name="show_network_traffic_down">Download</string>
     <string name="show_network_traffic_all">Upload and Download</string>
+    <string name="nettraf_font_size">Single net font size</string>
 
 </resources>
