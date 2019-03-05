@@ -53,10 +53,12 @@ public class Weather extends SettingsPreferenceFragment
     private static final String WEATHER_SERVICE_PACKAGE = "org.omnirom.omnijaws";
     private static final String CHRONUS_ICON_PACK_INTENT = "com.dvtonder.chronus.ICON_PACK";
     private static final String PREF_STATUS_BAR_WEATHER = "status_bar_show_weather_temp";
+    private static final String PREF_STATUS_BAR_WEATHER_SB = "status_bar_show_weather_temp_sb";
 
     private PreferenceCategory mWeatherCategory;
     private ListPreference mWeatherIconPack;
     private ListPreference mStatusBarWeather;
+    private ListePreference mStatusBarWeatherSB;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -97,7 +99,7 @@ public class Weather extends SettingsPreferenceFragment
             mWeatherIconPack.setOnPreferenceChangeListener(this);
         }
 
-       // Status bar weather
+       // QS Status bar weather
        mStatusBarWeather = (ListPreference) findPreference(PREF_STATUS_BAR_WEATHER);
        int temperatureShow = Settings.System.getIntForUser(resolver,
                Settings.System.STATUS_BAR_SHOW_WEATHER_TEMP, 0,
@@ -109,6 +111,19 @@ public class Weather extends SettingsPreferenceFragment
            mStatusBarWeather.setSummary(mStatusBarWeather.getEntry());
        }
           mStatusBarWeather.setOnPreferenceChangeListener(this);
+
+     // Status bar weather
+       mStatusBarWeatherSB = (ListPreference) findPreference(PREF_STATUS_BAR_WEATHER_SB);
+       int temperatureShow = Settings.System.getIntForUser(resolver,
+               Settings.System.STATUS_BAR_SHOW_WEATHER_TEMP_SB, 0,
+               UserHandle.USER_CURRENT);
+       mStatusBarWeatherSB.setValue(String.valueOf(temperatureShow));
+       if (temperatureShow == 0) {
+           mStatusBarWeatherSB.setSummary(R.string.statusbar_weather_summary);
+       } else {
+           mStatusBarWeatherSB.setSummary(mStatusBarWeather.getEntry());
+       }
+          mStatusBarWeatherSB.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -141,7 +156,22 @@ public class Weather extends SettingsPreferenceFragment
                 mStatusBarWeather.getEntries()[index]);
             }
             return true;
+
+        } else if (preference == mStatusBarWeatherSB) {
+            int temperatureShow = Integer.valueOf((String) objValue);
+            int index = mStatusBarWeatherSB.findIndexOfValue((String) objValue);
+            Settings.System.putIntForUser(getActivity().getContentResolver(),
+                   Settings.System.STATUS_BAR_SHOW_WEATHER_TEMP_SB,
+                   temperatureShow, UserHandle.USER_CURRENT);
+            if (temperatureShow == 0) {
+                mStatusBarWeatherSB.setSummary(R.string.statusbar_weather_summary);
+            } else {
+                mStatusBarWeatherSB.setSummary(
+                mStatusBarWeatherSB.getEntries()[index]);
+            }
+            return true;
         }
+
         return false;
     }
 
