@@ -522,6 +522,10 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">ربط مستوى صوت نغمة الرنين مع الاشعارات</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
-    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+    <string name="doze_on_charge_title">التشغيل دائماً عند الشحن</string>
+    <string name="doze_on_charge_summary">إظهار شاشة غفو طوال الوقت عند الشحن</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
 </resources>
