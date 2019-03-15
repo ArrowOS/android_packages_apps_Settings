@@ -85,26 +85,32 @@ public class Traffic extends SettingsPreferenceFragment implements
         mThreshold = (CustomSeekBarPreference) findPreference("network_traffic_autohide_threshold");
         mThreshold.setValue(value);
         mThreshold.setOnPreferenceChangeListener(this);
-	mThreshold.setEnabled(true);
+	mThreshold.setEnabled(
+	    (isNetMonitorEnabled || isNetMonitorSBEnabled) ? true : false);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
+	final ContentResolver resolver = getActivity().getContentResolver();
         if (preference == mNetMonitor) {
             boolean value = (Boolean) objValue;
+	    boolean netmonitorSBState = Settings.System.getIntForUser(resolver,
+	            Settings.System.NETWORK_TRAFFIC_STATE_SB, 0, UserHandle.USER_CURRENT) == 1;
             Settings.System.putIntForUser(getActivity().getContentResolver(),
                     Settings.System.NETWORK_TRAFFIC_STATE, value ? 1 : 0,
                     UserHandle.USER_CURRENT);
             mNetMonitor.setChecked(value);
-            mThreshold.setEnabled(value);
+	    mThreshold.setEnabled((value == true || netmonitorSBState) ? true : false);
             return true;
 	} else if (preference == mNetMonitorSB) {
 	    boolean value = (Boolean) objValue;
+	    boolean netmonitorState = Settings.System.getIntForUser(resolver,
+                    Settings.System.NETWORK_TRAFFIC_STATE, 1, UserHandle.USER_CURRENT) == 1;
             Settings.System.putIntForUser(getActivity().getContentResolver(),
                     Settings.System.NETWORK_TRAFFIC_STATE_SB, value ? 0 : 0,
                     UserHandle.USER_CURRENT);
             mNetMonitorSB.setChecked(value);
-            mThreshold.setEnabled(value);
+	    mThreshold.setEnabled((value == true || netmonitorState) ? true : false);
             return true;
         } else if (preference == mThreshold) {
             int val = (Integer) objValue;
