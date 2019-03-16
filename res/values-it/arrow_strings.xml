@@ -252,7 +252,10 @@
     <string name="show_network_traffic_up">In uscita</string>
     <string name="show_network_traffic_down">In entrata</string>
     <string name="show_network_traffic_all">In uscita e in entrata</string>
-    <string name="network_traffic_state_title">Mostra attività di rete nella barra di stato</string>
+    <string name="network_traffic_statusbar_title">Network Traffic Statusbar</string>
+    <string name="network_traffic_qs_statusbar_title">Network Traffic QS Statusbar header</string>
+    <string name="network_traffic_sb_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_qs_state_title">Show net activity in QS statusbar header</string>
     <string name="network_traffic_autohide_threshold_title">Soglia alla quale nascondere l\'attività di rete (KB/s)</string>
     <string name="network_traffic_hidearrow">Nascondere le frecce</string>
     <string name="network_traffic_hidearrow_summary">Nascondi le frecce dell\'indicatore di traffico di rete</string>

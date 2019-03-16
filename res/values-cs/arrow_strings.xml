@@ -252,7 +252,10 @@
     <string name="show_network_traffic_up">Uplink</string>
     <string name="show_network_traffic_down">Downlink</string>
     <string name="show_network_traffic_all">Uplink a Downlink</string>
-    <string name="network_traffic_state_title">Zobrazit indikátor síťové aktivity ve stavové liště</string>
+    <string name="network_traffic_statusbar_title">Network Traffic Statusbar</string>
+    <string name="network_traffic_qs_statusbar_title">Network Traffic QS Statusbar header</string>
+    <string name="network_traffic_sb_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_qs_state_title">Show net activity in QS statusbar header</string>
     <string name="network_traffic_autohide_threshold_title">Prahová hodnota pro automatické skrytí síťové aktivity (KB/s)</string>
     <string name="network_traffic_hidearrow">Skrýt šipky</string>
     <string name="network_traffic_hidearrow_summary">Skrýt šipky datového provozu</string>
@@ -525,7 +528,7 @@
     <string name="doze_on_charge_title">Vždy zapnuto při nabíjení</string>
     <string name="doze_on_charge_summary">Při nabíjení vždy zobrazit obrazovku Doze</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
+    <string name="ringtone1_title">Vyzvánění telefonu - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    <string name="ringtone2_title">Vyzvánění telefonu - SIM 2</string>
 </resources>

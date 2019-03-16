@@ -252,7 +252,10 @@
     <string name="show_network_traffic_up">Keluar</string>
     <string name="show_network_traffic_down">Masuk</string>
     <string name="show_network_traffic_all">Unggah dan Unduh</string>
-    <string name="network_traffic_state_title">Tampilkan aktivitas jaringan di bilah status</string>
+    <string name="network_traffic_statusbar_title">Network Traffic Statusbar</string>
+    <string name="network_traffic_qs_statusbar_title">Network Traffic QS Statusbar header</string>
+    <string name="network_traffic_sb_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_qs_state_title">Show net activity in QS statusbar header</string>
     <string name="network_traffic_autohide_threshold_title">Ambang batas untuk otomatis menyembunyikan aktivitas jaringan (KB/s)</string>
     <string name="network_traffic_hidearrow">Hide arrows</string>
     <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>

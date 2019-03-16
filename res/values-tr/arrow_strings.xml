@@ -252,7 +252,10 @@
     <string name="show_network_traffic_up">Yalnızca yükleme</string>
     <string name="show_network_traffic_down">Yalnızca indirme</string>
     <string name="show_network_traffic_all">Etkin</string>
-    <string name="network_traffic_state_title">Durum çubuğunda ağ etkinliğini göster</string>
+    <string name="network_traffic_statusbar_title">Network Traffic Statusbar</string>
+    <string name="network_traffic_qs_statusbar_title">Network Traffic QS Statusbar header</string>
+    <string name="network_traffic_sb_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_qs_state_title">Show net activity in QS statusbar header</string>
     <string name="network_traffic_autohide_threshold_title">Ağ etkinliği otomatik gizlenme eşiği (KB/s)</string>
     <string name="network_traffic_hidearrow">Okları gizle</string>
     <string name="network_traffic_hidearrow_summary">Ağ etkinliği ok göstergelerini gizler</string>
@@ -525,7 +528,7 @@
     <string name="doze_on_charge_title">Şarj olurken her zaman açık</string>
     <string name="doze_on_charge_summary">Şarj olurken her zaman doze ekranını göster</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
+    <string name="ringtone1_title">Telefon zil sesi - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    <string name="ringtone2_title">Telefon zil sesi - SIM 2</string>
 </resources>

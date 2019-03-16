@@ -252,7 +252,10 @@
     <string name="show_network_traffic_up">الإرسال</string>
     <string name="show_network_traffic_down">الأستلام</string>
     <string name="show_network_traffic_all">الإرسال والأستلام</string>
-    <string name="network_traffic_state_title">إظهار نشاط الشبكة في شريط الحالة</string>
+    <string name="network_traffic_statusbar_title">Network Traffic Statusbar</string>
+    <string name="network_traffic_qs_statusbar_title">Network Traffic QS Statusbar header</string>
+    <string name="network_traffic_sb_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_qs_state_title">Show net activity in QS statusbar header</string>
     <string name="network_traffic_autohide_threshold_title">بداية الإخفاء الذاتي لنشاط الشبكة (KB/s)</string>
     <string name="network_traffic_hidearrow">إخفاء الأسهم</string>
     <string name="network_traffic_hidearrow_summary">إخفاء أسهم مؤشر حركة البيانات</string>
@@ -525,7 +528,7 @@
     <string name="doze_on_charge_title">التشغيل دائماً عند الشحن</string>
     <string name="doze_on_charge_summary">إظهار شاشة غفو طوال الوقت عند الشحن</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
+    <string name="ringtone1_title">نغمة رنين الهاتف - بطاقة SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    <string name="ringtone2_title">نغمة رنين الهاتف - بطاقة SIM 2</string>
 </resources>

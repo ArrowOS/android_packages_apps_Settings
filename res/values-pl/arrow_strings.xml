@@ -252,7 +252,10 @@
     <string name="show_network_traffic_up">Wysyłanie</string>
     <string name="show_network_traffic_down">Pobieranie</string>
     <string name="show_network_traffic_all">Wysyłanie i Pobieranie</string>
-    <string name="network_traffic_state_title">Pokaż aktywność sieci na pasku stanu</string>
+    <string name="network_traffic_statusbar_title">Network Traffic Statusbar</string>
+    <string name="network_traffic_qs_statusbar_title">Network Traffic QS Statusbar header</string>
+    <string name="network_traffic_sb_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_qs_state_title">Show net activity in QS statusbar header</string>
     <string name="network_traffic_autohide_threshold_title">Schowaj poniżej limitu (KB/s)</string>
     <string name="network_traffic_hidearrow">Ukryj strzałki transferu</string>
     <string name="network_traffic_hidearrow_summary">Ukryj strzałki wskaźnika ruchu sieciowego</string>
@@ -522,10 +525,10 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Połącz głośność dzwonka i powiadomień</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
-    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+    <string name="doze_on_charge_title">Zawsze włączony podczas ładowania</string>
+    <string name="doze_on_charge_summary">Pokazuj ekran uśpienia podczas ładowania przez cały czas</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
+    <string name="ringtone1_title">Dzwonek telefonu dla karty SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    <string name="ringtone2_title">Dzwonek telefonu dla karty SIM 2</string>
 </resources>
