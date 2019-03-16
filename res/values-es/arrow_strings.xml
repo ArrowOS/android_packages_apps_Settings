@@ -252,7 +252,10 @@
     <string name="show_network_traffic_up">Subida</string>
     <string name="show_network_traffic_down">Bajada</string>
     <string name="show_network_traffic_all">Subida y Bajada</string>
-    <string name="network_traffic_state_title">Mostrar actividad de red en barra de estado</string>
+    <string name="network_traffic_statusbar_title">Network Traffic Statusbar</string>
+    <string name="network_traffic_qs_statusbar_title">Network Traffic QS Statusbar header</string>
+    <string name="network_traffic_sb_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_qs_state_title">Show net activity in QS statusbar header</string>
     <string name="network_traffic_autohide_threshold_title">Umbral mínimo de red para auto ocultarse (KB/s)</string>
     <string name="network_traffic_hidearrow">Ocultar flechas</string>
     <string name="network_traffic_hidearrow_summary">Ocultar las flechas indicadoras de tráfico</string>

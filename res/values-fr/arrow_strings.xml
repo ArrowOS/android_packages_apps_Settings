@@ -252,7 +252,10 @@
     <string name="show_network_traffic_up">Débit montant</string>
     <string name="show_network_traffic_down">Débit descendant</string>
     <string name="show_network_traffic_all">Débit montant et descendant</string>
-    <string name="network_traffic_state_title">Afficher l\'activité réseau dans la barre d\'état</string>
+    <string name="network_traffic_statusbar_title">Network Traffic Statusbar</string>
+    <string name="network_traffic_qs_statusbar_title">Network Traffic QS Statusbar header</string>
+    <string name="network_traffic_sb_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_qs_state_title">Show net activity in QS statusbar header</string>
     <string name="network_traffic_autohide_threshold_title">Seuil de masquage automatique de l\'activité réseau (KB/s)</string>
     <string name="network_traffic_hidearrow">Masquer les flèches</string>
     <string name="network_traffic_hidearrow_summary">Masquer les flèches du moniteur de trafic</string>
@@ -525,7 +528,7 @@
     <string name="doze_on_charge_title">Toujours allumé pendant la charge</string>
     <string name="doze_on_charge_summary">Afficher l\'écran de veille tout le temps pendant la charge</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
+    <string name="ringtone1_title">Sonnerie du téléphone - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    <string name="ringtone2_title">Sonnerie du téléphone - SIM 2</string>
 </resources>

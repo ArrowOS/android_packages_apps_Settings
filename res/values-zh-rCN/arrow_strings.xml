@@ -252,7 +252,10 @@
     <string name="show_network_traffic_up">上行</string>
     <string name="show_network_traffic_down">下行</string>
     <string name="show_network_traffic_all">上行和下行</string>
-    <string name="network_traffic_state_title">在状态栏显示网络状态</string>
+    <string name="network_traffic_statusbar_title">Network Traffic Statusbar</string>
+    <string name="network_traffic_qs_statusbar_title">Network Traffic QS Statusbar header</string>
+    <string name="network_traffic_sb_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_qs_state_title">Show net activity in QS statusbar header</string>
     <string name="network_traffic_autohide_threshold_title">网络活动自动隐藏阈值 (KB/s)</string>
     <string name="network_traffic_hidearrow">隐藏箭头</string>
     <string name="network_traffic_hidearrow_summary">隐藏网络流量指示箭头</string>

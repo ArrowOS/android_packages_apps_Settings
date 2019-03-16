@@ -252,7 +252,10 @@
     <string name="show_network_traffic_up">Вихідний</string>
     <string name="show_network_traffic_down">Вхідний</string>
     <string name="show_network_traffic_all">Вихідний і вхідний</string>
-    <string name="network_traffic_state_title">Відображати мережеву активність у рядку стану</string>
+    <string name="network_traffic_statusbar_title">Network Traffic Statusbar</string>
+    <string name="network_traffic_qs_statusbar_title">Network Traffic QS Statusbar header</string>
+    <string name="network_traffic_sb_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_qs_state_title">Show net activity in QS statusbar header</string>
     <string name="network_traffic_autohide_threshold_title">Автоматичне приховування індикатора мережевої активності (KБ/с)</string>
     <string name="network_traffic_hidearrow">Приховати стрілки</string>
     <string name="network_traffic_hidearrow_summary">Приховати стрілки в індикаторі трафіку</string>
