@@ -61,7 +61,7 @@
 
     <!-- Display cutout options -->
     <string name="cutout_main">Display cutout settings</string>
-    <string name="cutout_main_summary">They really cut corners with this one</string>
+    <string name="cutout_main_summary">options to change display cutout style</string>
     <string name="display_cutout_style_title">Cutout style</string>
     <string name="display_cutout_style_normal">Normal</string>
     <string name="display_cutout_style_immerse">Immerse</string>
