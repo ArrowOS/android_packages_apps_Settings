@@ -22,11 +22,11 @@
     android:title="@string/about_settings">
 
     <!-- Phone number -->
-    <Preference
+<!--    <Preference
         android:key="phone_number"
         android:order="0"
         android:title="@string/status_number"
-        android:summary="@string/summary_placeholder"/>
+        android:summary="@string/summary_placeholder"/> -->
 
     <!-- SIM status -->
     <Preference
