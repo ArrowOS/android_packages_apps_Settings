@@ -252,10 +252,10 @@
     <string name="show_network_traffic_up">Yalnızca yükleme</string>
     <string name="show_network_traffic_down">Yalnızca indirme</string>
     <string name="show_network_traffic_all">Etkin</string>
-    <string name="network_traffic_statusbar_title">Network Traffic Statusbar</string>
-    <string name="network_traffic_qs_statusbar_title">Network Traffic QS Statusbar header</string>
-    <string name="network_traffic_sb_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_qs_state_title">Show net activity in QS statusbar header</string>
+    <string name="network_traffic_statusbar_title">Ağ etkinliği durum çubuğu</string>
+    <string name="network_traffic_qs_statusbar_title">Ağ etkinliği hızlı ayarlar durum çubuğu başlığı</string>
+    <string name="network_traffic_sb_state_title">Durum çubuğunda ağ etkinliği göster</string>
+    <string name="network_traffic_qs_state_title">Hız ayarlar durum çubuğunda ağ etkinliği göster</string>
     <string name="network_traffic_autohide_threshold_title">Ağ etkinliği otomatik gizlenme eşiği (KB/s)</string>
     <string name="network_traffic_hidearrow">Okları gizle</string>
     <string name="network_traffic_hidearrow_summary">Ağ etkinliği ok göstergelerini gizler</string>
@@ -531,4 +531,16 @@
     <string name="ringtone1_title">Telefon zil sesi - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Telefon zil sesi - SIM 2</string>
+    <!-- Display cutout options -->
+    <string name="cutout_main">Display cutout settings</string>
+    <string name="cutout_main_summary">options to change display cutout style</string>
+    <string name="display_cutout_style_title">Cutout style</string>
+    <string name="display_cutout_style_normal">Normal</string>
+    <string name="display_cutout_style_immerse">Immerse</string>
+    <string name="display_cutout_style_hide">Hide</string>
+    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
+    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <!-- Font picker -->
+    <string name="font_picker_title">Font</string>
+    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
 </resources>

@@ -252,9 +252,9 @@
     <string name="show_network_traffic_up">Saída</string>
     <string name="show_network_traffic_down">Entrada</string>
     <string name="show_network_traffic_all">Saída e entrada</string>
-    <string name="network_traffic_statusbar_title">Network Traffic Statusbar</string>
+    <string name="network_traffic_statusbar_title">Barra de Status de tráfego de rede</string>
     <string name="network_traffic_qs_statusbar_title">Network Traffic QS Statusbar header</string>
-    <string name="network_traffic_sb_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_sb_state_title">Mostrar a atividade da rede na barra de status</string>
     <string name="network_traffic_qs_state_title">Show net activity in QS statusbar header</string>
     <string name="network_traffic_autohide_threshold_title">Limite para auto ocultar atividade da rede (KB/s)</string>
     <string name="network_traffic_hidearrow">Ocultar setas</string>
@@ -526,9 +526,21 @@
     <string name="volume_link_notification_title">Associar volumes de toque e notificação</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Sempre ligado quando carregando</string>
-    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+    <string name="doze_on_charge_summary">Mostrar tela de soneca o tempo todo ao carregar</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone1_title">Toque de chamada - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Toque de chamada - SIM 2</string>
+    <!-- Display cutout options -->
+    <string name="cutout_main">Display cutout settings</string>
+    <string name="cutout_main_summary">options to change display cutout style</string>
+    <string name="display_cutout_style_title">Cutout style</string>
+    <string name="display_cutout_style_normal">Normal</string>
+    <string name="display_cutout_style_immerse">Immerse</string>
+    <string name="display_cutout_style_hide">Hide</string>
+    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
+    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <!-- Font picker -->
+    <string name="font_picker_title">Font</string>
+    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
 </resources>
