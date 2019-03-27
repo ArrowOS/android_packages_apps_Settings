@@ -20,7 +20,7 @@
     android:key="display_settings_screen"
     android:title="@string/display_settings"
     settings:keywords="@string/keywords_display"
-    settings:initialExpandedChildrenCount="5">
+    settings:initialExpandedChildrenCount="4">
 
     <com.android.settingslib.RestrictedPreference
         android:key="brightness"
@@ -55,11 +55,6 @@
             android:targetPackage="@string/config_wallpaper_picker_package"
             android:targetClass="@string/config_wallpaper_picker_class" />
     </com.android.settingslib.RestrictedPreference>
-
-    <com.android.settings.display.FontDialogPreference
-        android:key="custom_font"
-        android:title="@string/font_picker_title"
-        android:persistent="false" />
 
     <!-- Cross-listed item, if you change this, also change it in power_usage_summary.xml -->
     <com.android.settings.TimeoutListPreference
