@@ -360,6 +360,7 @@
     <string name="lockscreen_clock_selection_digital_bold">Digital (Bold)</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (Bold)</string>
+    <string name="lockscreen_clock_selection_text">Text (Android Q)</string>
 
     <!--Double Tap to Sleep Lockscreen-->
     <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string>
