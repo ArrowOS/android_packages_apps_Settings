@@ -392,6 +392,7 @@
     <string name="battery_style_title">Battery icon style</string>
     <string name="battery_style_summary">Battery icon customization, show or hide battery percentage</string>
     <string name="battery_style_port">Portrait</string>
+    <string name="status_bar_battery_style_q">Q style</string>
     <string name="battery_style_land">Landscape</string>
     <string name="battery_style_circle">Circle</string>
     <string name="battery_style_dotted_circle">Dotted circle</string>

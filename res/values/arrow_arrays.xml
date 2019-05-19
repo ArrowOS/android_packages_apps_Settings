@@ -225,6 +225,7 @@
     <!-- Battery Styles -->
     <string-array name="battery_style_entries" translatable="false">
         <item>@string/battery_style_port</item>
+		<item>@string/status_bar_battery_style_q</item>
     <!--<item>@string/battery_style_land</item>-->
         <item>@string/battery_style_circle</item>
         <item>@string/battery_style_dotted_circle</item>
@@ -236,6 +237,7 @@
 
     <string-array name="battery_style_values" translatable="false">
         <item>0</item>
+		<item>8</item>
     <!--<item>1</item>-->
         <item>2</item>
         <item>3</item>
