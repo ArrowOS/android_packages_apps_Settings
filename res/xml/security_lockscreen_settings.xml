@@ -47,12 +47,6 @@
         android:defaultValue="true" />
 
     <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
-        android:key="lockscreen_clock"
-        android:title="@string/lockscreen_clock_title"
-        android:summary="@string/lockscreen_clock_summary"
-        android:defaultValue="true" />
-
-    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_info"
         android:title="@string/lockscreen_info_title"
         android:summary="@string/lockscreen_info_summary"
