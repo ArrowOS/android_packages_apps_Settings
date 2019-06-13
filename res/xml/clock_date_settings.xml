@@ -73,6 +73,12 @@
     <PreferenceCategory
         android:title="@string/lockscreen_clock_title"/>
 
+         <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_clock"
+            android:title="@string/lockscreen_clock_widget_title"
+            android:summary="@string/lockscreen_clock_widget_summary"
+            android:defaultValue="true" />
+
          <com.android.settings.arrow.preferences.SystemSettingListPreference
             android:key="lockscreen_clock_selection"
             android:title="@string/lockscreen_clock_selection_title"
