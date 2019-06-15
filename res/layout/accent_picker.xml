@@ -39,7 +39,7 @@
                 android:layout_columnWeight="1"
                 android:gravity="center"
                 android:layout_gravity="fill_horizontal"
-                android:background="#FF5252" />
+                android:background="#EA0024" />
 
             <Button
                 android:id="@+id/pinkAccent"
