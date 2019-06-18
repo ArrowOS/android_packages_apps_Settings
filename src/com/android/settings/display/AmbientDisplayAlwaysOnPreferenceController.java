@@ -61,7 +61,7 @@ public class AmbientDisplayAlwaysOnPreferenceController extends TogglePreference
 
     @Override
     public boolean isChecked() {
-        return mConfig.alwaysOnEnabledSetting(MY_USER);
+        return mConfig.alwaysOnEnabled(MY_USER);
     }
 
     @Override
@@ -88,7 +88,7 @@ public class AmbientDisplayAlwaysOnPreferenceController extends TogglePreference
     }
 
     public static boolean isAlwaysOnEnabled(AmbientDisplayConfiguration config) {
-        return config.alwaysOnEnabledSetting(MY_USER);
+        return config.alwaysOnEnabled(MY_USER);
     }
 
     public static boolean isAvailable(AmbientDisplayConfiguration config) {
