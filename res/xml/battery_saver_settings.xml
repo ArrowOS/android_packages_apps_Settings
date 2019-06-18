@@ -41,19 +41,6 @@
         settings:platform_slice="true"
         settings:controller="com.android.settings.fuelgauge.batterysaver.BatterySaverButtonPreferenceController" />
 
-    <SwitchPreference
-        android:key="aggressive_battery_saver"
-        android:title="@string/aggressive_battery_saver_title"
-	android:summary="@string/aggressive_battery_saver_summary"
-        android:defaultValue="true"
-	android:disableDependentsState="true" />
-
-    <Preference
-        android:key="aggressive_battery"
-        android:title="@string/aggressive_battery_title"
-	android:dependency="aggressive_battery_saver"
-        android:fragment="com.android.settings.arrow.AggressiveBattery" />
-
     <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
 	android:key="battery_saver_dark_mode" 
         android:title="@string/battery_saver_night_mode_title" 
