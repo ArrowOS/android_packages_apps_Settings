@@ -68,9 +68,9 @@
     <string name="screenshot_sound_title">Sonido de la captura de pantalla</string>
     <!-- meh ganeshi4u -->
     <string name="arrow_stats_title">Estadísticas ArrowOS</string>
-    <string name="arrow_stats_summary">¡No te estamos robando nada!</string>
+    <string name="arrow_stats_summary">¡No te estamos robando tus fotos privadas!</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Datos del móvil</string>
+    <string name="data_usage_app_restrict_data">Datos móviles</string>
     <string name="data_usage_app_restrict_data_summary">Habilitar el uso de datos móviles</string>
     <string name="data_usage_app_restrict_wifi">Datos Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Habilitar el uso de datos Wi\u2011Fi</string>
@@ -99,7 +99,7 @@
     <!-- Hardware button navigation -->
     <string name="picker_activities">Actividades</string>
     <string name="select_custom_app_title">Seleccione la aplicación personalizada</string>
-    <string name="select_custom_activity_title">Seleccionar actividad personalizada</string>
+    <string name="select_custom_activity_title">Seleccione actividad personalizada</string>
     <string name="profile_applist_title">Aplicaciones</string>
     <string name="choose_action_title">Seleccionar acción</string>
     <string name="action_entry_default_action">Ajustes predeterminados</string>
@@ -524,23 +524,22 @@
     <string name="night_bright_midlow">Brillo medio-bajo</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Vincular volumen de tono y notificaciones</string>
-    <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Siempre encendido al cargar</string>
-    <string name="doze_on_charge_summary">Mantener pantalla ambiente encendida al cargar</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone1_title">Tono de llamada - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Tono de llamada - SIM 2</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">Display cutout settings</string>
-    <string name="cutout_main_summary">options to change display cutout style</string>
-    <string name="display_cutout_style_title">Cutout style</string>
+    <string name="cutout_main">Mostrar configuración de \'cutout\'</string>
+    <string name="cutout_main_summary">opciones para cambiar el estilo de visualización del \'cutout\'</string>
+    <string name="display_cutout_style_title">Estilo de \'cutout\'</string>
     <string name="display_cutout_style_normal">Normal</string>
-    <string name="display_cutout_style_immerse">Immerse</string>
-    <string name="display_cutout_style_hide">Hide</string>
-    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
-    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <string name="display_cutout_style_immerse">Inmersivo</string>
+    <string name="display_cutout_style_hide">Ocultar</string>
+    <string name="stock_statusbar_in_hide">Altura de barra de estado por defecto</string>
+    <string name="stock_statusbar_in_hide_summary">Usar altura de la barra de estado por defecto en Ocultar</string>
     <!-- Font picker -->
-    <string name="font_picker_title">Font</string>
-    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
+    <string name="font_picker_title">Tipografía</string>
+    <string name="disable_fonts_installed_title">El selector de fuentes no está disponible para evitar conflictos con Substratum. Desinstala si desea utilizar el selector de fuentes.</string>
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
 </resources>

@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">正しい PIN/パスワード が入力された時はロックを自動的に解除する</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">ロック画面での充電情報</string>
-    <string name="lockscreen_battery_info_summary">充電中のロック画面に接続した充電器の電流/電圧/バッテリー温度を表示する</string>
+    <string name="lockscreen_battery_info_summary">充電中のロック画面に接続した充電器の情報を表示する</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">スクリーンショットの音</string>
     <!-- meh ganeshi4u -->
@@ -80,7 +80,7 @@
     <string name="powermenu_reboot_title">再起動</string>
     <string name="powermenu_airplane_title">機内モード</string>
     <string name="powermenu_advanced_reboot_title">高度な再起動</string>
-    <string name="powermenu_advanced_reboot_summary">再起動メニューで リカバリー/ブートローダー/システム UI/ソフトリブート を有効にする</string>
+    <string name="powermenu_advanced_reboot_summary">再起動メニューで高度な再起動を有効にする</string>
     <string name="powermenu_screenshot_title">スクリーンショット</string>
     <string name="powermenu_category_visibility">ロック画面のオプション</string>
     <string name="powermenu_lockscreen_title">ロック画面における表示</string>
@@ -120,7 +120,7 @@
     <string name="hard_soft_keys">ボタン</string>
     <string name="hard_soft_keys_summary">ハードウェアボタン、ナビゲーションバー</string>
     <string name="navigation_keys">ナビゲーションバーを有効化</string>
-    <string name="navigation_keys_title">オンスクリーンナビゲーションバーを有効化</string>
+    <string name="navigation_keys_title">画面内ナビゲーションバー</string>
     <string name="hardware_keys_category">ハードウェアナビゲーションボタン</string>
     <string name="hardware_keys_disable_title">ハードウェアボタンを無効化</string>
     <string name="hardware_keys_wake_title">スリープ解除</string>
@@ -135,8 +135,8 @@
     <string name="button_link_brightness">画面の明るさとリンクする</string>
     <string name="button_link_brightness_summary">ボタンのバックライトの明るさは現在の画面の明るさのレベルに応じて調整されます</string>
     <string name="button_manual_brightness">明るさレベル</string>
-    <string name="button_timeout_title">バックライトの消灯時間</string>
-    <string name="button_backlight_on_touch_only_title">タッチ時にのみバックライトを点灯</string>
+    <string name="button_timeout_title">バックライトの点灯時間</string>
+    <string name="button_backlight_on_touch_only_title">タッチ時のみバックライトを点灯</string>
     <string name="button_backlight_on_touch_only_summary">ボタンを押した時にだけバックライトが点灯するようになります。消灯時間はこの設定にも引き続き影響します。</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">再生コントロール</string>
@@ -160,7 +160,7 @@
     <string name="dialog_delete_message">選択した項目を削除しますか?</string>
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">表示時間</string>
-    <string name="heads_up_time_out_summary">通知は <xliff:g id="number">%d</xliff:g> 秒間表示されます</string>
+    <string name="heads_up_time_out_summary">通知は<xliff:g id="number">%d</xliff:g>秒間表示されます</string>
     <string name="heads_up_time_out_2sec">2秒</string>
     <string name="heads_up_time_out_4sec">4秒</string>
     <string name="heads_up_time_out_5sec">5秒</string>
@@ -170,7 +170,7 @@
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">スヌーズタイマー</string>
     <string name="heads_up_snooze_summary_one_minute">表示された通知を上にスワイプするとこのアプリからの通知を1分間無効にします</string>
-    <string name="heads_up_snooze_summary">表示された通知を上にスワイプするとこのアプリからの通知を <xliff:g id="number">%d</xliff:g> 分間無効にします</string>
+    <string name="heads_up_snooze_summary">表示された通知を上にスワイプするとこのアプリからの通知を<xliff:g id="number">%d</xliff:g>分間無効にします</string>
     <string name="heads_up_snooze_disabled_summary">スヌーズタイマーは無効です</string>
     <string name="heads_up_snooze_1min">1分</string>
     <string name="heads_up_snooze_5min">5分</string>
@@ -194,13 +194,13 @@
     <string name="proximity_wake_title">偶発的なスリープ解除を防止</string>
     <string name="proximity_wake_summary">スリープ解除する前に接近センサーで確認する</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">ステータスバーの項目</string>
+    <string name="statusbar_items_title">ステータスバーのアイコン</string>
     <string name="statusbar_items_title_summary">ステータスバーアイコンの切替え</string>
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">ロック画面のショートカット</string>
+    <string name="lockscreen_tuner_title">ショートカット</string>
     <!-- QS rows and columns -->
     <string name="qs_rows_columns_title">クイック設定パネルの調整</string>
-    <string name="qs_rows_columns_summary">クイック設定の行数、タイトル、不透明度</string>
+    <string name="qs_rows_columns_summary">クイック設定の行数、タイトル、透明度</string>
     <string name="qs_rows_portrait_title">縦向き時の行数</string>
     <string name="qs_rows_landscape_title">横向き時の行数</string>
     <string name="qs_columns_portrait_title">縦向き時の列数</string>
@@ -209,7 +209,7 @@
     <string name="swap_volume_buttons_title">再配置</string>
     <string name="swap_volume_buttons_summary">画面回転時に音量ボタンを入れ替える</string>
     <!-- Changelog -->
-    <string name="changelog_title">変更履歴</string>
+    <string name="changelog_title">更新履歴</string>
     <string name="changelog_summary">前回の更新から</string>
     <string name="changelog_error">更新履歴を読み込めませんでした</string>
     <!-- Battery light -->
@@ -243,25 +243,25 @@
     <string name="lock_screen_weather_style_summaryOn">天気は位置情報なしの日付の上に表示されます</string>
     <string name="header_weather_title">ヘッダーに天気を表示</string>
     <string name="header_weather_summary">通知パネルの天気ヘッダー画像を有効にする</string>
-    <string name="weather_icon_pack_title">天候アイコンパック</string>
+    <string name="weather_icon_pack_title">天気アイコンパック</string>
     <string name="weather_icon_pack_note">備考\u003a プレイストアで「Chronus アイコン」を検索することで新しいアイコンパックをインストールできます</string>
     <!-- Network traffic -->
-    <string name="traffic_title">トラフィックインジケーター</string>
-    <string name="network_traffic_title">ネットワークトラフィック</string>
+    <string name="traffic_title">通信速度表示</string>
+    <string name="network_traffic_title">ネットワーク通信量</string>
     <string name="network_traffic_type">表示する通信方向を選択</string>
     <string name="show_network_traffic_up">送信</string>
     <string name="show_network_traffic_down">受信</string>
     <string name="show_network_traffic_all">送信と受信</string>
-    <string name="network_traffic_statusbar_title">ステータスバーのネットワーク通信量</string>
-    <string name="network_traffic_qs_statusbar_title">クイック設定、ステータスバーヘッダーのネットワーク通信量</string>
-    <string name="network_traffic_sb_state_title">ステータスバーに通信速度を表示</string>
-    <string name="network_traffic_qs_state_title">クイック設定、ステータスバーヘッダーに通信速度を表示</string>
-    <string name="network_traffic_autohide_threshold_title">自動的に非表示にする通信速度のしきい値 (KB/s)</string>
-    <string name="network_traffic_hidearrow">矢印を非表示</string>
-    <string name="network_traffic_hidearrow_summary">トラフィックモニターの矢印を隠す</string>
+    <string name="network_traffic_statusbar_title">ステータスバーの通信速度</string>
+    <string name="network_traffic_qs_statusbar_title">クイック設定、ステータスバーの通信速度</string>
+    <string name="network_traffic_sb_state_title">通信速度を表示</string>
+    <string name="network_traffic_qs_state_title">通信速度を表示</string>
+    <string name="network_traffic_autohide_threshold_title">自動非表示の通信速度しきい値 (KB/s)</string>
+    <string name="network_traffic_hidearrow">矢印を隠す</string>
+    <string name="network_traffic_hidearrow_summary">通信速度表示の矢印を隠す</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">ステータスバー上の天気</string>
-    <string name="statusbar_weather_summary">クイック設定/天気から設定する</string>
+    <string name="statusbar_weather_summary">クイック設定/天気 から設定して下さい</string>
     <string name="statusbar_weather_dialog_title">ステータスバー上の天気</string>
     <string name="status_bar_weather_hidden">天気を非表示</string>
     <string name="status_bar_temperature_image_show_scale">単位付きの温度と画像を表示</string>
@@ -306,12 +306,12 @@
     <string name="clock_date_string_edittext_title">DateFormat 形式で入力して下さい 例. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">文字列を入力</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="double_tap_sleep_lockscreen">ロック画面でダブルタップするとスリープ</string>
+    <string name="double_tap_sleep_lockscreen">ダブルタップでスリープ</string>
     <!--Quick pulldown-->
     <string name="status_bar_quick_qs_pulldown">クイックプルダウン</string>
     <string name="status_bar_quick_qs_pulldown_summary">ステータスバーの右側でプルダウンするとクイック設定パネルを表示します</string>
     <!--Double Tap to Sleep Statusbar-->
-    <string name="double_tap_sleep_gesture_title">ステータスバーのダブルタップでスリープ</string>
+    <string name="double_tap_sleep_gesture_title">ダブルタップでスリープ</string>
     <!-- Sizes for pattern lockscreen -->
     <string name="lock_settings_picker_pattern_size_message">パターンサイズを選択</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -409,15 +409,15 @@
     <string name="app_ops_read_phone_numbers">電話番号の読み取り</string>
     <string name="app_ops_request_install_packages">パッケージのインストール</string>
     <string name="app_ops_picture_in_picture">ピクチャーインピクチャー</string>
-    <string name="app_ops_app_start_foreground">フォアグラウンドで起動する</string>
+    <string name="app_ops_app_start_foreground">フォアグラウンドでの起動</string>
     <string name="app_ops_answer_phone_calls">着信への応答</string>
     <string name="app_ops_run_any_in_background">バックグラウンドでの実行</string>
     <string name="app_ops_change_wifi_state">Wi-Fi の状態の変更</string>
     <string name="app_ops_request_delete_packages">パッケージを削除</string>
-    <string name="app_ops_bind_accessibility_service">アクセシビリティに割り当てる</string>
+    <string name="app_ops_bind_accessibility_service">アクセシビリティへの割り当て</string>
     <string name="app_ops_accept_handover">ハンドオーバーを受容</string>
     <string name="app_ops_manage_ipsec_tunnels">IP トンネルを管理</string>
-    <string name="app_ops_start_foreground">フォアグラウンドで起動する</string>
+    <string name="app_ops_start_foreground">フォアグラウンドでの起動</string>
     <string name="app_ops_bluetooth_scan">Bluetooth のスキャン</string>
     <string name="app_ops_boot_completed">自動実行</string>
     <!-- App ops detail -->
@@ -428,7 +428,7 @@
     <!-- App ops menu options -->
     <string name="app_ops_show_user_apps">ユーザーアプリを表示</string>
     <string name="app_ops_show_system_apps">内蔵アプリを表示</string>
-    <string name="app_ops_reset_counters">許可/拒否のカウンターをリセット</string>
+    <string name="app_ops_reset_counters">許可/拒否 のカウンターをリセット</string>
     <string name="app_ops_reset_confirm_title">カウンターのリセットの確認</string>
     <string name="app_ops_reset_confirm_mesg">カウンターをリセットしてもよろしいですか?</string>
     <string name="app_ops_settings_title">App Ops</string>
@@ -450,11 +450,11 @@
     <string name="brightness_icon_summary">明るさスライダーの右に自動明るさボタンを表示する</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">クイック設定下部の警告</string>
-    <string name="qs_footer_warnings_summary">外部アプリやVPNでネットワーク監視されている時にクイック設定パネルの下部に警告を表示する</string>
+    <string name="qs_footer_warnings_summary">外部アプリや VPN でネットワーク監視されている時にクイック設定パネルの下部に警告を表示する</string>
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel ナビゲーションバーのアニメーション </string>
     <!-- Accent Picker -->
-    <string name="accent_picker_dialog_title">アクセントカラーを選択する</string>
+    <string name="accent_picker_dialog_title">アクセントカラーを選択</string>
     <string name="theme_accent_picker_title">アクセントカラー</string>
     <string name="theme_accent_picker_summary">システムテーマのアクセントカラーを選択する</string>
     <string name="theme_accent_picker_default">既定</string>
@@ -465,7 +465,7 @@
     <string name="fp_unlock_keystore_title">指紋認証によるロック解除</string>
     <string name="fp_unlock_keystore_summary">再起動後も PIN/パスワード/パターン による認証なしで指紋認証によるロック解除を可能にします。\n注意: 自己責任で使用して下さい!</string>
     <!-- Fingerprint authentication vibration -->
-    <string name="fprint_sucess_vib_title">指紋認証時に振動する</string>
+    <string name="fprint_sucess_vib_title">指紋認証時の振動</string>
     <string name="fprint_sucess_vib_summary">指紋認証が成功した時に振動させる</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">拡張デスクトップ</string>
@@ -489,7 +489,7 @@
     <string name="lights_category_title">ライトの設定</string>
     <string name="notification_light_title">通知のライト</string>
     <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">バッテリーセーバーダークモード</string>
+    <string name="battery_saver_night_mode_title">バッテリーセーバーのダークモード</string>
     <string name="battery_saver_night_mode_summary">バッテリーセーバーを有効にした時システム UI のテーマをダークモードに切り替える</string>
     <!-- Selinux Status -->
     <string name="selinux_status">SELinux のステータス</string>
@@ -501,10 +501,10 @@
     <string name="volte_icon_summary">VoLTE アイコンを表示 (有効にするにはシステム UI の再起動が必要)</string>
     <!-- Torch Power button gestures -->
     <string name="double_tap_power_flashlight_screen_title">トーチを有効化</string>
-    <string name="double_tap_power_flashlight_title">スリープ時電源ボタンを押してライト点灯</string>
+    <string name="double_tap_power_flashlight_title">画面消灯時のライト点灯</string>
     <string name="torch_power_button_gesture_none">無効</string>
-    <string name="torch_power_button_gesture_dt">電源ボタンを2回押しでライト点灯</string>
-    <string name="torch_power_button_gesture_lp">電源ボタンを長押しでライト点灯</string>
+    <string name="torch_power_button_gesture_dt">電源ボタンを2回押し</string>
+    <string name="torch_power_button_gesture_lp">電源ボタンを長押し</string>
     <string name="full_gesture_mode_title">全てのジェスチャーモードを有効化</string>
     <string name="full_gesture_mode_summary">このモードでは戻るボタンも無効になり、ナビゲーションバーの左スワイプで戻るアクションをすることができます。右スワイプはアプリ履歴アクションをし、左スワイプはアプリ間を移動します。ホームボタンだけでなくナビゲーションバーの空きエリアをタップしてもホームに戻れます。</string>
     <string name="full_gesture_mode_dt2s_title">ダブルタップでスリープ機能を有効化</string>
@@ -514,7 +514,7 @@
     <string name="qs_show_brightness_title">明るさスライダー</string>
     <string name="qs_show_brightness_summary">クイック設定パネルの明るさスライダーの有無の設定</string>
     <!-- Onehand UI mode -->
-    <string name="one_hand_mode_title">片手モードを有効にする</string>
+    <string name="one_hand_mode_title">片手モードを有効化</string>
     <string name="one_hand_mode_summary">ナビゲーションバーを右または左にスワイプして有効にする</string>
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_value_title">夜の場合は明るさを下げる</string>
@@ -524,23 +524,22 @@
     <string name="night_bright_midlow">やや低輝度</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">着信と通知の音量をリンク</string>
-    <!-- Doze on charge -->
-    <string name="doze_on_charge_title">充電時は常に有効</string>
-    <string name="doze_on_charge_summary">充電時は常時 Doze 画面を表示する</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone1_title">着信音 - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">着信音 - SIM 2</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">Display cutout settings</string>
-    <string name="cutout_main_summary">options to change display cutout style</string>
-    <string name="display_cutout_style_title">Cutout style</string>
-    <string name="display_cutout_style_normal">Normal</string>
-    <string name="display_cutout_style_immerse">Immerse</string>
-    <string name="display_cutout_style_hide">Hide</string>
-    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
-    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <string name="cutout_main">画面切り取りの設定</string>
+    <string name="cutout_main_summary">画面の切り取りスタイルの変更オプション</string>
+    <string name="display_cutout_style_title">切り取りのスタイル</string>
+    <string name="display_cutout_style_normal">標準</string>
+    <string name="display_cutout_style_immerse">没入</string>
+    <string name="display_cutout_style_hide">非表示</string>
+    <string name="stock_statusbar_in_hide">標準のステータスバーの高さ</string>
+    <string name="stock_statusbar_in_hide_summary">非表示時は既定のステータスバーの高さを使う</string>
     <!-- Font picker -->
-    <string name="font_picker_title">Font</string>
-    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
+    <string name="font_picker_title">フォント</string>
+    <string name="disable_fonts_installed_title">フォントピッカーは Substratum との競合のため使用できません。フォントピッカーを使用したい場合は Substratum をアンインストールして下さい。</string>
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
 </resources>

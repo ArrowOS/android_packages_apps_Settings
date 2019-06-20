@@ -252,10 +252,10 @@
     <string name="show_network_traffic_up">Wysyłanie</string>
     <string name="show_network_traffic_down">Pobieranie</string>
     <string name="show_network_traffic_all">Wysyłanie i Pobieranie</string>
-    <string name="network_traffic_statusbar_title">Network Traffic Statusbar</string>
-    <string name="network_traffic_qs_statusbar_title">Network Traffic QS Statusbar header</string>
-    <string name="network_traffic_sb_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_qs_state_title">Show net activity in QS statusbar header</string>
+    <string name="network_traffic_statusbar_title">Ruch sieciowy</string>
+    <string name="network_traffic_qs_statusbar_title">Ruch sieciowy</string>
+    <string name="network_traffic_sb_state_title">Pokaż aktywność sieci na pasku stanu</string>
+    <string name="network_traffic_qs_state_title">Pokaż aktywność sieci na pasku stanu</string>
     <string name="network_traffic_autohide_threshold_title">Schowaj poniżej limitu (KB/s)</string>
     <string name="network_traffic_hidearrow">Ukryj strzałki transferu</string>
     <string name="network_traffic_hidearrow_summary">Ukryj strzałki wskaźnika ruchu sieciowego</string>
@@ -524,23 +524,22 @@
     <string name="night_bright_midlow">Średnio niski poziom jasności</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Połącz głośność dzwonka i powiadomień</string>
-    <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Zawsze włączony podczas ładowania</string>
-    <string name="doze_on_charge_summary">Pokazuj ekran uśpienia podczas ładowania przez cały czas</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone1_title">Dzwonek telefonu dla karty SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Dzwonek telefonu dla karty SIM 2</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">Display cutout settings</string>
+    <string name="cutout_main">Ustawienia wyświetlania wycięcia</string>
     <string name="cutout_main_summary">options to change display cutout style</string>
-    <string name="display_cutout_style_title">Cutout style</string>
-    <string name="display_cutout_style_normal">Normal</string>
-    <string name="display_cutout_style_immerse">Immerse</string>
-    <string name="display_cutout_style_hide">Hide</string>
-    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
-    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <string name="display_cutout_style_title">Styl wycięcia</string>
+    <string name="display_cutout_style_normal">Normalny</string>
+    <string name="display_cutout_style_immerse">Rozszerzony</string>
+    <string name="display_cutout_style_hide">Ukryj</string>
+    <string name="stock_statusbar_in_hide">Domyślna wysokość paska stanu</string>
+    <string name="stock_statusbar_in_hide_summary">Użyj domyślnej wysokości paska statusu w trybie ukrytym</string>
     <!-- Font picker -->
-    <string name="font_picker_title">Font</string>
-    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
+    <string name="font_picker_title">Czcionka</string>
+    <string name="disable_fonts_installed_title">Wybór czcionek jest niedostępny w celu uniknięcia konfliktów z Substratum. Odinstaluj Substratum, jeśli chcesz używać innych czcionek.</string>
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
 </resources>

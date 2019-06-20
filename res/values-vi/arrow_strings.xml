@@ -117,7 +117,7 @@
     <string name="hardware_keys_single_tap_title">Hành động khi nhấn đơn</string>
     <string name="hardware_keys_long_press_title">Hành động khi nhấn giữ</string>
     <string name="hardware_keys_double_tap_title">Hành động khi nhấn đúp</string>
-    <string name="hard_soft_keys">Buttons</string>
+    <string name="hard_soft_keys">Nút bấm</string>
     <string name="hard_soft_keys_summary">Tuỳ chỉnh nút bấm cứng và thanh điều hướng</string>
     <string name="navigation_keys">Bật thanh điều hướng</string>
     <string name="navigation_keys_title">Hiển thị thanh điều hướng</string>
@@ -171,7 +171,7 @@
     <string name="heads_up_snooze_title">Hẹn giờ báo lại</string>
     <string name="heads_up_snooze_summary_one_minute">Vuốt thông báo nổi lên trên sẽ báo lại thông báo đó trong vòng 1 phút</string>
     <string name="heads_up_snooze_summary">Vuốt thông báo nổi lên trên sẽ báo lại thông báo đó trong vòng <xliff:g id="number">%d</xliff:g> phút</string>
-    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+    <string name="heads_up_snooze_disabled_summary">Bộ đếm thời gian báo lại bị tắt</string>
     <string name="heads_up_snooze_1min">1 phút</string>
     <string name="heads_up_snooze_5min">5 phút</string>
     <string name="heads_up_snooze_10min">10 phút</string>
@@ -232,16 +232,16 @@
     <string name="applying_theme_toast">Áp dụng chủ đề, xin vui lòng chờ...</string>
     <string name="theme_applied_toast">Chủ đề đã được áp dụng!</string>
     <string name="disable_themes_installed_title">Chủ đề hệ thống không hoạt động để tránh xung đột với Substratum. Gỡ cài đặt nó nếu bạn muốn sử dụng chủ đề thay thế.</string>
-    <string name="disable_accents_installed_title">Bộ chọn dấu không có sẵn để tránh xung đột với Substratum. Gỡ cài đặt nó nếu bạn muốn sử dụng bộ chọn dấu.</string>
+    <string name="disable_accents_installed_title">Bộ chọn màu nhấn không có sẵn để tránh xung đột với Substratum. Gỡ cài đặt nó nếu bạn muốn sử dụng bộ chọn màu nhấn.</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Thời tiết</string>
     <string name="weather_config_title_summary">Thời tiết trên thanh trạng thái và màn hình khóa</string>
     <string name="weather_config_title">Cài đặt dịch vụ</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Weather style</string>
-    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
-    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
-    <string name="header_weather_title">Header view weather</string>
+    <string name="lock_screen_weather_style_title">Kiểu thời tiết</string>
+    <string name="lock_screen_weather_style_summaryOff">Thời tiết được hiển thị bên dưới dòng ngày với vị trí</string>
+    <string name="lock_screen_weather_style_summaryOn">Thời tiết được hiển thị trên dòng ngày không có vị trí</string>
+    <string name="header_weather_title">Thời tiết ở tiêu đề</string>
     <string name="header_weather_summary">Bật hiển thị thời tiết tiêu đề bảng thông báo</string>
     <string name="weather_icon_pack_title">Gói biểu tượng thời tiết</string>
     <string name="weather_icon_pack_note">Lưu ý\u003a bạn có thể cài đặt gói biểu tượng mới từ cửa hàng play bằng cách tìm kiếm \"biểu tượng Chronus\"</string>
@@ -252,13 +252,13 @@
     <string name="show_network_traffic_up">Tải lên</string>
     <string name="show_network_traffic_down">Tải xuống</string>
     <string name="show_network_traffic_all">Tải lên và Tải xuống</string>
-    <string name="network_traffic_statusbar_title">Network Traffic Statusbar</string>
-    <string name="network_traffic_qs_statusbar_title">Network Traffic QS Statusbar header</string>
-    <string name="network_traffic_sb_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_qs_state_title">Show net activity in QS statusbar header</string>
+    <string name="network_traffic_statusbar_title">Lưu lượng mạng trên thanh trạng thái</string>
+    <string name="network_traffic_qs_statusbar_title">Lưu lượng mạng trên đầu thanh trạng thái QS</string>
+    <string name="network_traffic_sb_state_title">Hiển thị tốc độ mạng trên thanh trạng thái</string>
+    <string name="network_traffic_qs_state_title">Hiển thị tốc độ mạng trên đầu thanh trạng thái QS</string>
     <string name="network_traffic_autohide_threshold_title">Ngưỡng tự động ẩn tốc độ mạng (KB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="network_traffic_hidearrow">Ẩn mũi tên</string>
+    <string name="network_traffic_hidearrow_summary">Ẩn biểu tượng mũi tên chỉ lưu lượng mạng</string>
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">Thời tiết trên thanh trạng thái</string>
     <string name="statusbar_weather_summary">Tùy chỉnh Cài đặt nhanh/Thời tiết</string>
@@ -356,8 +356,8 @@
     <string name="app_ops_delete_sms">xóa SMS</string>
     <string name="app_ops_draw_on_top">ghim lên trên cùng</string>
     <string name="app_ops_get_usage_stats">lấy dữ liệu sử dụng</string>
-    <string name="app_ops_keep_device_awake">keep awake</string>
-    <string name="app_ops_make_phone_call">make call</string>
+    <string name="app_ops_keep_device_awake">giữ màn hình sáng</string>
+    <string name="app_ops_make_phone_call">thực hiện cuộc gọi</string>
     <string name="app_ops_modify_calendar">cập nhật lịch</string>
     <string name="app_ops_modify_call_log">cập nhật nhật kí cuộc gọi</string>
     <string name="app_ops_modify_clipboard">sửa đổi bảng tạm</string>
@@ -366,7 +366,7 @@
     <string name="app_ops_mute_unmute_microphone">tắt/bật mic</string>
     <string name="app_ops_play_audio">phát âm thanh</string>
     <string name="app_ops_post_notification">gửi thông báo</string>
-    <string name="app_ops_project_media">project media</string>
+    <string name="app_ops_project_media">trình chiếu đa phương tiện</string>
     <string name="app_ops_read_calendar">đọc lịch</string>
     <string name="app_ops_read_call_log">đọc nhật ký cuộc gọi</string>
     <string name="app_ops_read_clipboard">đọc bảng tạm</string>
@@ -377,9 +377,9 @@
     <string name="app_ops_record_audio">ghi âm</string>
     <string name="app_ops_send_mms">gửi MMS</string>
     <string name="app_ops_send_sms">gửi SMS</string>
-    <string name="app_ops_toast_window">toast messages</string>
+    <string name="app_ops_toast_window">thông báo nhanh</string>
     <string name="app_ops_use_alarm_volume">âm lượng báo thức</string>
-    <string name="app_ops_use_audio_focus">audio focus</string>
+    <string name="app_ops_use_audio_focus">trọng tâm âm thanh</string>
     <string name="app_ops_use_bluetooth_volume">Âm lượng bluetooth</string>
     <string name="app_ops_use_master_volume">âm lượng tổng thể</string>
     <string name="app_ops_use_media_buttons">nút đa phương tiện</string>
@@ -388,24 +388,24 @@
     <string name="app_ops_use_ring_volume">âm lượng nhạc chuông</string>
     <string name="app_ops_use_vibrate">phản hồi xúc giác</string>
     <string name="app_ops_use_voice_volume">âm lượng cuộc gọi thoại</string>
-    <string name="app_ops_write_mms">write MMS</string>
-    <string name="app_ops_write_sms">write SMSe</string>
+    <string name="app_ops_write_mms">viết MMS</string>
+    <string name="app_ops_write_sms">viết SMSe</string>
     <string name="app_ops_use_fingerprint">vân tay</string>
     <string name="app_ops_add_voicemail">thư thoại</string>
     <string name="app_ops_read_phone_state">truy cập trạng thái điện thoại</string>
     <string name="app_ops_scan_wifi">Quét mạng WiFi</string>
     <string name="app_ops_change_wallpaper">thay đổi hình nền</string>
-    <string name="app_ops_assist_structure">assist structure</string>
+    <string name="app_ops_assist_structure">cấu trúc hỗ trợ</string>
     <string name="app_ops_assist_screenshot">chụp màn hình</string>
     <string name="app_ops_use_body_sensors">cảm biến cơ thể</string>
     <string name="app_ops_read_cell_broadcasts">phát sóng trên di động</string>
     <string name="app_ops_mock_location">giả vị trí</string>
     <string name="app_ops_read_external_storage">đọc bộ nhớ ngoài.</string>
-    <string name="app_ops_write_external_storage">write ext. stor.</string>
+    <string name="app_ops_write_external_storage">ghi vào bộ nhớ ngoài</string>
     <string name="app_ops_turn_on_screen">bật màn hình</string>
     <string name="app_ops_get_accounts">tài khoản trên thiết bị</string>
     <string name="app_ops_run_in_background">chạy trong nền</string>
-    <string name="app_ops_accessibility_volume">accessibility volume</string>
+    <string name="app_ops_accessibility_volume">âm lượng trợ năng</string>
     <string name="app_ops_read_phone_numbers">đọc số điện thoại.</string>
     <string name="app_ops_request_install_packages">gói cài đặt</string>
     <string name="app_ops_picture_in_picture">ảnh trong ảnh</string>
@@ -415,8 +415,8 @@
     <string name="app_ops_change_wifi_state">thay đổi trạng thái Wi-Fi</string>
     <string name="app_ops_request_delete_packages">xóa gói</string>
     <string name="app_ops_bind_accessibility_service">ràng buộc khả năng truy cập</string>
-    <string name="app_ops_accept_handover">accept handover</string>
-    <string name="app_ops_manage_ipsec_tunnels">manage ip tunnels</string>
+    <string name="app_ops_accept_handover">chấp nhận bàn giao</string>
+    <string name="app_ops_manage_ipsec_tunnels">quản lý kênh bảo vệ địa chỉ IP</string>
     <string name="app_ops_start_foreground">khởi chạy trong nền</string>
     <string name="app_ops_bluetooth_scan">quét bluetooth</string>
     <string name="app_ops_boot_completed">tự khởi động</string>
@@ -428,15 +428,15 @@
     <!-- App ops menu options -->
     <string name="app_ops_show_user_apps">Hiển thị ứng dụng người dùng</string>
     <string name="app_ops_show_system_apps">Hiển thị ứng dụng cài sẵn</string>
-    <string name="app_ops_reset_counters">Reset allow/deny counters</string>
-    <string name="app_ops_reset_confirm_title">Confirm counters reset</string>
-    <string name="app_ops_reset_confirm_mesg">Are you sure you wish to reset counters?</string>
-    <string name="app_ops_settings_title">App Ops</string>
+    <string name="app_ops_reset_counters">Thiết lập lại bộ đếm cho phép/từ chối</string>
+    <string name="app_ops_reset_confirm_title">Xác nhận thiết lập lại bộ đếm</string>
+    <string name="app_ops_reset_confirm_mesg">Bạn có chắc là bạn muốn thiết lập lại bộ đếm?</string>
+    <string name="app_ops_settings_title">Quyền ứng dụng</string>
     <string name="enlighten">Những thay đổi này chỉ áp dụng cho kiểu AOSP (tức là Oreo cũ) và kiểu gần đây này sẽ không hoạt động trong chế độ xem Pie</string>
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Trình hiển thị nhạc</string>
     <string name="lockscreen_visualizer_summary">Hiển thị trình phát nhạc trên màn hình khóa khi nhạc đang phát</string>
-    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_reset">Đặt lại thống kê</string>
     <string name="battery_stats_message">Dữ liệu thống kê lịch sử pin sẽ được thiết lập lại</string>
     <string name="ok_string">OK</string>
     <!-- Quick Setting tile titles -->
@@ -449,18 +449,18 @@
     <string name="brightness_icon_title">Biểu tượng độ sáng tự động</string>
     <string name="brightness_icon_summary">Hiển thị biểu tượng độ sáng ở bên phải của thanh trượt chỉnh sáng để điều chỉnh độ sáng tự động</string>
     <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">QS footer warnings</string>
-    <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
+    <string name="qs_footer_warnings_title">Cảnh báo cuối trang cài đặt nhanh</string>
+    <string name="qs_footer_warnings_summary">Hiển thị cảnh báo ở cuối bảng điều khiển cài đặt nhanh khi mạng được theo dõi bởi các ứng dụng ngoài hoặc VPN</string>
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Hoạt ảnh thanh điều hướng Pixel</string>
     <!-- Accent Picker -->
-    <string name="accent_picker_dialog_title">Select an accent color</string>
+    <string name="accent_picker_dialog_title">Chọn màu nhấn</string>
     <string name="theme_accent_picker_title">Màu nhấn</string>
     <string name="theme_accent_picker_summary">Chọn màu nhấn cho chủ đề hệ thống</string>
     <string name="theme_accent_picker_default">Mặc định</string>
     <!-- Hide notch -->
-    <string name="hide_notch_title">Hide notch</string>
-    <string name="hide_notch_summary">Apps can not use the notch area</string>
+    <string name="hide_notch_title">Ẩn tai thỏ</string>
+    <string name="hide_notch_summary">Ứng dụng không thể sử dụng vùng tai thỏ</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Mở khóa bằng vân tay</string>
     <string name="fp_unlock_keystore_summary">Mở khóa thiết bị bằng dấu vân tay sau khi khởi động lại mà không cần mã PIN/Mật khẩu/Mẫu hình\nLưu ý: có nguy cơ của riêng bạn!</string>
@@ -474,7 +474,7 @@
     <string name="expanded_hide_status">Ẩn thanh thông báo</string>
     <string name="expanded_hide_navigation">Ẩn thanh điều hướng</string>
     <string name="expanded_hide_both">Ẩn tất cả</string>
-    <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
+    <string name="expanded_nothing_to_show">Để thêm một cấu hình tùy chỉnh cho từng ứng dụng riêng biệt, tắt tùy chọn \"Bật tất cả\"</string>
     <string name="expanded_desktop_state">Trạng thái mở rộng</string>
     <string name="expanded_enabled_for_all">Bật tất cả</string>
     <string name="expanded_user_configurable">Cấu hình người dùng</string>
@@ -482,9 +482,9 @@
     <string name="expanded_desktop_style_description">Chọn mặc định một kiểu mở rộng màn hình</string>
     <string name="expanded_desktop_title">Tùy chọn mở rộng màn hình</string>
     <!-- Density category -->
-    <string name="density_category">Density options</string>
+    <string name="density_category">Độ phân giải</string>
     <!-- Daydream category -->
-    <string name="daydream_settings_category">Daydream settings</string>
+    <string name="daydream_settings_category">Cài đặt daydream</string>
     <!-- Notification light settings -->
     <string name="lights_category_title">Cài đặt đèn báo</string>
     <string name="notification_light_title">Đèn thông báo</string>
@@ -500,7 +500,7 @@
     <string name="volte_icon_title">Biểu tượng VoLTE</string>
     <string name="volte_icon_summary">Hiển thị biểu tượng VoLTE (Cần khởi động lại SystemUI để có hiệu lực)</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
+    <string name="double_tap_power_flashlight_screen_title">Bật đèn pin</string>
     <string name="double_tap_power_flashlight_title">Nút nguồn bật đèn pin khi màn hình tắt</string>
     <string name="torch_power_button_gesture_none">Tắt</string>
     <string name="torch_power_button_gesture_dt">Nhấn đúp nút nguồn để bật đèn pin</string>
@@ -523,24 +523,23 @@
     <string name="night_bright_low">Độ sáng thấp</string>
     <string name="night_bright_midlow">Độ sáng trung bình</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
-    <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
-    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+    <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
+    <string name="ringtone1_title">Nhạc chuông - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    <string name="ringtone2_title">Nhạc chuông - SIM 2</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">Display cutout settings</string>
-    <string name="cutout_main_summary">options to change display cutout style</string>
-    <string name="display_cutout_style_title">Cutout style</string>
-    <string name="display_cutout_style_normal">Normal</string>
-    <string name="display_cutout_style_immerse">Immerse</string>
-    <string name="display_cutout_style_hide">Hide</string>
-    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
-    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <string name="cutout_main">Cài đặt cắt màn hình</string>
+    <string name="cutout_main_summary">tùy chọn để thay đổi kiểu cắt màn hình</string>
+    <string name="display_cutout_style_title">Kiểu cắt</string>
+    <string name="display_cutout_style_normal">Bình thường</string>
+    <string name="display_cutout_style_immerse">Toàn màn hình</string>
+    <string name="display_cutout_style_hide">Ẩn</string>
+    <string name="stock_statusbar_in_hide">Chiều cao thanh trạng thái gốc</string>
+    <string name="stock_statusbar_in_hide_summary">Sử dụng chiều cao thanh trạng thái mặc định trong mục Ẩn</string>
     <!-- Font picker -->
-    <string name="font_picker_title">Font</string>
-    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
+    <string name="font_picker_title">Phông chữ</string>
+    <string name="disable_fonts_installed_title">Trình chọn phông chữ không hoạt động do xung đột với Substratum. Xóa nó nếu bạn muốn chọn phông chữ.</string>
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
 </resources>

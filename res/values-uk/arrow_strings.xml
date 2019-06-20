@@ -252,10 +252,10 @@
     <string name="show_network_traffic_up">Вихідний</string>
     <string name="show_network_traffic_down">Вхідний</string>
     <string name="show_network_traffic_all">Вихідний і вхідний</string>
-    <string name="network_traffic_statusbar_title">Network Traffic Statusbar</string>
-    <string name="network_traffic_qs_statusbar_title">Network Traffic QS Statusbar header</string>
-    <string name="network_traffic_sb_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_qs_state_title">Show net activity in QS statusbar header</string>
+    <string name="network_traffic_statusbar_title">Мережевий трафік у рядку стану</string>
+    <string name="network_traffic_qs_statusbar_title">Заголовок рядка стану QS мережевого трафіку</string>
+    <string name="network_traffic_sb_state_title">Відображати мережеву активність у рядку стану</string>
+    <string name="network_traffic_qs_state_title">Показати мережеву активність у заголовку рядка стану QS</string>
     <string name="network_traffic_autohide_threshold_title">Автоматичне приховування індикатора мережевої активності (KБ/с)</string>
     <string name="network_traffic_hidearrow">Приховати стрілки</string>
     <string name="network_traffic_hidearrow_summary">Приховати стрілки в індикаторі трафіку</string>
@@ -524,23 +524,22 @@
     <string name="night_bright_midlow">Середина низької яскравості</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Зв’язати гучність дзвінка &amp; сповіщень</string>
-    <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Ввімкнути під час зарядки</string>
-    <string name="doze_on_charge_summary">Завжди відображати екран Doze під час зарядки</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
+    <string name="ringtone1_title">Мелодія дзвінка - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    <string name="ringtone2_title">Мелодія дзвінка - SIM 2</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">Display cutout settings</string>
-    <string name="cutout_main_summary">options to change display cutout style</string>
-    <string name="display_cutout_style_title">Cutout style</string>
-    <string name="display_cutout_style_normal">Normal</string>
-    <string name="display_cutout_style_immerse">Immerse</string>
-    <string name="display_cutout_style_hide">Hide</string>
-    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
-    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <string name="cutout_main">Налаштування відображення вирізу</string>
+    <string name="cutout_main_summary">опції для зміни стилю вирізу</string>
+    <string name="display_cutout_style_title">Стиль вирізу</string>
+    <string name="display_cutout_style_normal">Звичайний</string>
+    <string name="display_cutout_style_immerse">Повноекранний режим</string>
+    <string name="display_cutout_style_hide">Приховати</string>
+    <string name="stock_statusbar_in_hide">Стандартна висота рядку стану</string>
+    <string name="stock_statusbar_in_hide_summary">Використовувати стандартну висоту рядку стану в режимі \"Приховано\"</string>
     <!-- Font picker -->
-    <string name="font_picker_title">Font</string>
-    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
+    <string name="font_picker_title">Шрифт</string>
+    <string name="disable_fonts_installed_title">Вибір шрифтів недоступний щоб уникнути конфліктів із Substratum. Видаліть його, якщо бажаєте використовувати системні шрифти.</string>
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
 </resources>
