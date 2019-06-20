@@ -524,23 +524,22 @@
     <string name="night_bright_midlow">سطوع منخفض قليلاً</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">ربط مستوى صوت نغمة الرنين مع الاشعارات</string>
-    <!-- Doze on charge -->
-    <string name="doze_on_charge_title">التشغيل دائماً عند الشحن</string>
-    <string name="doze_on_charge_summary">إظهار شاشة غفو طوال الوقت عند الشحن</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone1_title">نغمة رنين الهاتف - بطاقة SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">نغمة رنين الهاتف - بطاقة SIM 2</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">Display cutout settings</string>
-    <string name="cutout_main_summary">options to change display cutout style</string>
-    <string name="display_cutout_style_title">Cutout style</string>
-    <string name="display_cutout_style_normal">Normal</string>
-    <string name="display_cutout_style_immerse">Immerse</string>
-    <string name="display_cutout_style_hide">Hide</string>
-    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
-    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <string name="cutout_main">عرض إعدادات القطع</string>
+    <string name="cutout_main_summary">خيارات لتغيير نمط قطع العرض</string>
+    <string name="display_cutout_style_title">نمط القطع</string>
+    <string name="display_cutout_style_normal">عادي</string>
+    <string name="display_cutout_style_immerse">غمر</string>
+    <string name="display_cutout_style_hide">إخفاء</string>
+    <string name="stock_statusbar_in_hide">إرتفاع شريط الحالة الأصلي</string>
+    <string name="stock_statusbar_in_hide_summary">إستخدام الإرتفاع الافتراضي لشريط الحالة في حالة الإخفاء</string>
     <!-- Font picker -->
-    <string name="font_picker_title">Font</string>
-    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
+    <string name="font_picker_title">الخط</string>
+    <string name="disable_fonts_installed_title">منتقي الخطوط غير متوفر لتفادي التعارضات مع Substratum. قم بإلغاء تثبيته إذا كنت ترغب في استخدام منتقي الخطوط.</string>
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
 </resources>
