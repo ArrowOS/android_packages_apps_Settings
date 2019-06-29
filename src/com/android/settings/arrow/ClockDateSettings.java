@@ -134,6 +134,11 @@ public class ClockDateSettings extends SettingsPreferenceFragment implements
             mClockDateFormat.setValue(value);
         }
 
+        if (clockDateDisplay == 0) {
+            mClockDateStyle.setEnabled(false);
+            mClockDateFormat.setEnabled(false);
+        }
+
         parseClockDateFormats();
     }
 
