@@ -277,10 +277,10 @@
     <string name="lockscreen_weather_show_city_summary">הצגת שם עיר נוכחית משמאל לתמונה</string>
     <string name="lockscreen_weather_show_temp_title">הצגת טמפרטורה</string>
     <string name="lockscreen_weather_show_temp_summary">הצגת שם עיר נוכחית מימין לתמונה</string>
-    <!-- Statusbar Clock -->
+    <!-- Clock and Date -->
     <string name="status_bar_clock">שעון ותאריך</string>
     <string name="status_bar_clock_summary">Configure statusbar clock and date appearance</string>
-    <string name="status_bar_clock_title">הגדרות שעון</string>
+    <string name="status_bar_clock_title">Statusbar clock settings</string>
     <string name="status_bar_clock_show">הצגת שעון ותאריך</string>
     <string name="status_bar_clock_style_title">סגנון שעון</string>
     <string name="status_bar_clock_style_right">ימין</string>
@@ -305,6 +305,17 @@
     <string name="clock_date_format">מבנה תאריך</string>
     <string name="clock_date_string_edittext_title">חייב להיות בתצורת DateFormat, למשל: MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Enter string</string>
+    <string name="lockscreen_clock_title">Lockscreen clock settings</string>
+    <string name="lockscreen_clock_widget_title">Clock widget</string>
+    <string name="lockscreen_clock_widget_summary">Show the clock widget on the lockscreen</string>
+    <string name="lockscreen_clock_selection_title">Clock style</string>
+    <string name="lockscreen_clock_selection_digital">Default</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digital (Bold)</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (Bold)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy with accent</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy with accent (Alt)</string>
+    <string name="lockscreen_clock_selection_text">Text (Android Q)</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string>
     <!--Quick pulldown-->
@@ -542,4 +553,7 @@
     <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <!-- Lockscreen items -->
+    <string name="lockscreen_info_title">Items underneath the clock</string>
+    <string name="lockscreen_info_summary">Show the date, weather, alarms and zen on the lockscreen</string>
 </resources>

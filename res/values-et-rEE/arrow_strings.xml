@@ -277,10 +277,10 @@
     <string name="lockscreen_weather_show_city_summary">Kuva praeguse linna nimi pildi vasakul poolel</string>
     <string name="lockscreen_weather_show_temp_title">Näita temperatuuri</string>
     <string name="lockscreen_weather_show_temp_summary">Kuva praeguse linna temperatuur pildi paremal poolel</string>
-    <!-- Statusbar Clock -->
+    <!-- Clock and Date -->
     <string name="status_bar_clock">Kellaaeg ja kuupäev</string>
     <string name="status_bar_clock_summary">Seadistage olekuriba kella ja kuupäeva ilmumine</string>
-    <string name="status_bar_clock_title">Kella seaded</string>
+    <string name="status_bar_clock_title">Statusbar clock settings</string>
     <string name="status_bar_clock_show">Näita kella ja kuupäeva</string>
     <string name="status_bar_clock_style_title">Kella stiil</string>
     <string name="status_bar_clock_style_right">Paremal</string>
@@ -305,6 +305,17 @@
     <string name="clock_date_format">Aja esitusviis</string>
     <string name="clock_date_string_edittext_title">Peab olema KuupäevFormaat nt. KK/pp/aa</string>
     <string name="clock_date_string_edittext_summary">Sisestage string</string>
+    <string name="lockscreen_clock_title">Lockscreen clock settings</string>
+    <string name="lockscreen_clock_widget_title">Clock widget</string>
+    <string name="lockscreen_clock_widget_summary">Show the clock widget on the lockscreen</string>
+    <string name="lockscreen_clock_selection_title">Clock style</string>
+    <string name="lockscreen_clock_selection_digital">Default</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digital (Bold)</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (Bold)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy with accent</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy with accent (Alt)</string>
+    <string name="lockscreen_clock_selection_text">Text (Android Q)</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="double_tap_sleep_lockscreen">Kaks korda puudutage lukustusekraani uinumiseks</string>
     <!--Quick pulldown-->
@@ -541,5 +552,8 @@
     <string name="font_picker_title">Kirjatüüp</string>
     <string name="disable_fonts_installed_title">Substratumiga konfliktide vältimiseks pole fontide valija saadaval. Kui soovite fontide valijat kasutada, eemaldage see.</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(Sügav uni: %1$d%2$s)</string>
+    <!-- Lockscreen items -->
+    <string name="lockscreen_info_title">Items underneath the clock</string>
+    <string name="lockscreen_info_summary">Show the date, weather, alarms and zen on the lockscreen</string>
 </resources>

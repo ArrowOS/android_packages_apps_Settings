@@ -277,10 +277,10 @@
     <string name="lockscreen_weather_show_city_summary">Görüntünün solunda mevcut şehrin adını göster</string>
     <string name="lockscreen_weather_show_temp_title">Sıcaklığı göster</string>
     <string name="lockscreen_weather_show_temp_summary">Görüntünün sağında mevcut şehir sıcaklığını göster</string>
-    <!-- Statusbar Clock -->
+    <!-- Clock and Date -->
     <string name="status_bar_clock">Saat ve tarih</string>
     <string name="status_bar_clock_summary">Durum çubuğunda saati ve tarih görünümünü yapılandırma</string>
-    <string name="status_bar_clock_title">Saat</string>
+    <string name="status_bar_clock_title">Statusbar clock settings</string>
     <string name="status_bar_clock_show">Saati ve tarihi göster</string>
     <string name="status_bar_clock_style_title">Saat konumu</string>
     <string name="status_bar_clock_style_right">Sağ</string>
@@ -305,6 +305,17 @@
     <string name="clock_date_format">Tarih biçimi</string>
     <string name="clock_date_string_edittext_title">Tarih biçimi örnekteki gibi olmalıdır. AA/gg/yy</string>
     <string name="clock_date_string_edittext_summary">Yazı girin</string>
+    <string name="lockscreen_clock_title">Lockscreen clock settings</string>
+    <string name="lockscreen_clock_widget_title">Clock widget</string>
+    <string name="lockscreen_clock_widget_summary">Show the clock widget on the lockscreen</string>
+    <string name="lockscreen_clock_selection_title">Clock style</string>
+    <string name="lockscreen_clock_selection_digital">Default</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digital (Bold)</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (Bold)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy with accent</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy with accent (Alt)</string>
+    <string name="lockscreen_clock_selection_text">Text (Android Q)</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="double_tap_sleep_lockscreen">Kilit ekranında uyutmak için çift dokunun</string>
     <!--Quick pulldown-->
@@ -541,5 +552,8 @@
     <string name="font_picker_title">Yazı tipi</string>
     <string name="disable_fonts_installed_title">Substratum ile çakışmaları önlemek için yazı tipi seçici kullanılamıyor. Yazı tipi seçicisini kullanmak isterseniz bunları kaldırın.</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(Derin uyku: %1$d%2$s)</string>
+    <!-- Lockscreen items -->
+    <string name="lockscreen_info_title">Items underneath the clock</string>
+    <string name="lockscreen_info_summary">Show the date, weather, alarms and zen on the lockscreen</string>
 </resources>

@@ -277,10 +277,10 @@
     <string name="lockscreen_weather_show_city_summary">Отображать название города слева (от изображения)</string>
     <string name="lockscreen_weather_show_temp_title">Отображать значение температуры</string>
     <string name="lockscreen_weather_show_temp_summary">Отображать название города и температуру справа (от изображения)</string>
-    <!-- Statusbar Clock -->
+    <!-- Clock and Date -->
     <string name="status_bar_clock">Время и дата</string>
     <string name="status_bar_clock_summary">Настройка отображения даты и времени</string>
-    <string name="status_bar_clock_title">Настройки часов</string>
+    <string name="status_bar_clock_title">Statusbar clock settings</string>
     <string name="status_bar_clock_show">Показывать часы и дату</string>
     <string name="status_bar_clock_style_title">Стиль часов</string>
     <string name="status_bar_clock_style_right">Справа</string>
@@ -305,6 +305,17 @@
     <string name="clock_date_format">Формат даты</string>
     <string name="clock_date_string_edittext_title">Должно быть в формате даты, например, ММ/дд/гг</string>
     <string name="clock_date_string_edittext_summary">Введите текст</string>
+    <string name="lockscreen_clock_title">Lockscreen clock settings</string>
+    <string name="lockscreen_clock_widget_title">Clock widget</string>
+    <string name="lockscreen_clock_widget_summary">Show the clock widget on the lockscreen</string>
+    <string name="lockscreen_clock_selection_title">Clock style</string>
+    <string name="lockscreen_clock_selection_digital">Default</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digital (Bold)</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (Bold)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy with accent</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy with accent (Alt)</string>
+    <string name="lockscreen_clock_selection_text">Text (Android Q)</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="double_tap_sleep_lockscreen">Выключать экран при двойном нажатии на экране блокировки</string>
     <!--Quick pulldown-->
@@ -541,5 +552,8 @@
     <string name="font_picker_title">Шрифт</string>
     <string name="disable_fonts_installed_title">Выбор шрифта недоступен для предотвращения конфликтов с Substratum. Удалите его, если хотите и дальше использовать выбор шрифта.</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(Глубокий сон: %1$d%2$s)</string>
+    <!-- Lockscreen items -->
+    <string name="lockscreen_info_title">Items underneath the clock</string>
+    <string name="lockscreen_info_summary">Show the date, weather, alarms and zen on the lockscreen</string>
 </resources>

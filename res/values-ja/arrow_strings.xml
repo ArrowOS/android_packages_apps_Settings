@@ -19,7 +19,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> は <xliff:g id="status" example="disabled">%2$s</xliff:g> です</string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> は<xliff:g id="status" example="disabled">%2$s</xliff:g>です</string>
     <string name="sim_disabled">無効</string>
     <string name="sim_missing">未検出または問題が発生しています</string>
     <string name="sim_enabler_need_disable_sim">SIM カードはアクティベート解除されます。続行しますか?</string>
@@ -31,7 +31,7 @@
     <string name="sim_enabler_enabling">アクティベート中\u2026</string>
     <string name="sim_enabler_disabling">アクティベート解除中\u2026</string>
     <string name="sub_activate_success">SIM をアクティベートしました</string>
-    <string name="sub_activate_failed">アクティベーションに失敗しました</string>
+    <string name="sub_activate_failed">アクティベートに失敗しました</string>
     <string name="sub_deactivate_success">SIM をアクティベート解除しました</string>
     <string name="sub_deactivate_failed">アクティベート解除に失敗しました</string>
     <!-- Fingerprint location message -->
@@ -41,7 +41,7 @@
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About ArrowOS -->
-    <string name="rom_version_title">ArrowOS バージョン</string>
+    <string name="rom_version_title">ArrowOSバージョン</string>
     <string name="build_date">ビルド日時</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">色の選択</string>
@@ -53,7 +53,7 @@
     <string name="set">設定</string>
     <string name="color_default">既定</string>
     <!-- Face auto unlock -->
-    <string name="face_auto_unlock_title">顔認証で自動ロック解除</string>
+    <string name="face_auto_unlock_title">顔認証自動ロック解除</string>
     <string name="face_auto_unlock_summary">顔認証した時ロック画面をスキップする</string>
     <!-- Scramble PIN Layout on Lockscreen -->
     <string name="unlock_scramble_pin_layout_title">ランダムなレイアウト</string>
@@ -68,7 +68,7 @@
     <string name="screenshot_sound_title">スクリーンショットの音</string>
     <!-- meh ganeshi4u -->
     <string name="arrow_stats_title">ArrowOS の統計情報</string>
-    <string name="arrow_stats_summary">私たちはあなたの裸を盗んでいません!</string>
+    <string name="arrow_stats_summary">私達はあなたの裸を盗み見ていませんよ!</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">モバイルデータ</string>
     <string name="data_usage_app_restrict_data_summary">モバイルデータ使用量を有効化する</string>
@@ -97,7 +97,7 @@
     <string name="roaming_indicator_icon_title">ローミング表示</string>
     <string name="roaming_indicator_icon_summary">ローミング中に電波アイコンにローミング表示をする</string>
     <!-- Hardware button navigation -->
-    <string name="picker_activities">アクティベート</string>
+    <string name="picker_activities">アクティビティ</string>
     <string name="select_custom_app_title">カスタムアプリを選択</string>
     <string name="select_custom_activity_title">カスタムアクティビティを選択</string>
     <string name="profile_applist_title">アプリ</string>
@@ -113,9 +113,9 @@
     <string name="hardware_keys_back_key_title">戻るボタン</string>
     <string name="hardware_keys_double_tap_summary">ダブルタップアクションを設定する</string>
     <string name="hardware_keys_single_tap_summary">シングルタップアクションを設定する</string>
-    <string name="hardware_keys_long_press_summary">ロングプレスアクションを設定する</string>
+    <string name="hardware_keys_long_press_summary">長押しプレスアクションを設定する</string>
     <string name="hardware_keys_single_tap_title">シングルタップアクション</string>
-    <string name="hardware_keys_long_press_title">ロングプレスアクション</string>
+    <string name="hardware_keys_long_press_title">長押しアクション</string>
     <string name="hardware_keys_double_tap_title">ダブルタップアクション</string>
     <string name="hard_soft_keys">ボタン</string>
     <string name="hard_soft_keys_summary">ハードウェアボタン、ナビゲーションバー</string>
@@ -132,17 +132,17 @@
     <!-- Button brightness -->
     <string name="button_backlight_options_category">バックライトの設定</string>
     <string name="button_backlight_enable_title">ボタンのバックライトを許可</string>
-    <string name="button_link_brightness">画面の明るさとリンクする</string>
+    <string name="button_link_brightness">画面の明るさとリンク</string>
     <string name="button_link_brightness_summary">ボタンのバックライトの明るさは現在の画面の明るさのレベルに応じて調整されます</string>
     <string name="button_manual_brightness">明るさレベル</string>
     <string name="button_timeout_title">バックライトの点灯時間</string>
     <string name="button_backlight_on_touch_only_title">タッチ時のみバックライトを点灯</string>
-    <string name="button_backlight_on_touch_only_summary">ボタンを押した時にだけバックライトが点灯するようになります。消灯時間はこの設定にも引き続き影響します。</string>
+    <string name="button_backlight_on_touch_only_summary">ボタンを押した時にだけバックライトが点灯するようになります。点灯時間はこの設定にも引き続き影響します。</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">再生コントロール</string>
     <string name="volume_button_music_control_summary">画面消灯時に音量キーを長押しして曲をシークする</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">音量ボタンでスリープ解除</string>
+    <string name="volume_rocker_wake_title">スリープ解除</string>
     <string name="volume_rocker_wake_summary">音量ボタンを押して端末をスリープ解除する</string>
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">ナビゲーションバーの編集</string>
@@ -182,7 +182,7 @@
     <string name="aosp_recents_title_summary">Oreo スタイルのアプリ履歴の編集、全て終了ボタン</string>
     <string name="show_clear_all_recents_button_title">全て終了ボタン</string>
     <string name="show_clear_all_recents_button_summary_on">全て終了ボタンを表示する</string>
-    <string name="show_clear_all_recents_button_summary_off">AOSP の全て終了ボタンを表示</string>
+    <string name="show_clear_all_recents_button_summary_off">AOSP の全て終了ボタンを表示する</string>
     <string name="recents_clear_all_location_title">全て終了ボタンの位置</string>
     <string name="recents_clear_all_location_top_right">右上</string>
     <string name="recents_clear_all_location_top_left">左上</string>
@@ -210,17 +210,17 @@
     <string name="swap_volume_buttons_summary">画面回転時に音量ボタンを入れ替える</string>
     <!-- Changelog -->
     <string name="changelog_title">更新履歴</string>
-    <string name="changelog_summary">前回の更新から</string>
+    <string name="changelog_summary">前回の更新からの変更点</string>
     <string name="changelog_error">更新履歴を読み込めませんでした</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">バッテリー充電時のライト</string>
-    <string name="battery_light_summary">バッテリー残量低下時とマナーモード時のバッテリーライトの有無を設定する</string>
+    <string name="battery_light_settings">バッテリーライト</string>
+    <string name="battery_light_summary">残量低下時とマナーモード時のライトの有無を設定する</string>
     <string name="battery_light_enable">バッテリーライト</string>
-    <string name="battery_light_allow_on_dnd_title">マナーモード中のバッテリーライト</string>
-    <string name="battery_light_low_blinking_title">バッテリ低下時のライト点滅</string>
-    <string name="battery_light_cat">バッテリー充電中のライトの色</string>
-    <string name="battery_light_low_color">バッテリー残量低下</string>
-    <string name="battery_light_medium_color">中程度のバッテリー残量</string>
+    <string name="battery_light_allow_on_dnd_title">マナーモード中のライト</string>
+    <string name="battery_light_low_blinking_title">残量低下時の点滅</string>
+    <string name="battery_light_cat">充電中のライトの色</string>
+    <string name="battery_light_low_color">残量低下</string>
+    <string name="battery_light_medium_color">中程度</string>
     <string name="battery_light_full_color">ほぼ充電完了</string>
     <string name="battery_light_reallyfull_color">充電完了</string>
     <!-- SystemUI theme -->
@@ -246,17 +246,17 @@
     <string name="weather_icon_pack_title">天気アイコンパック</string>
     <string name="weather_icon_pack_note">備考\u003a プレイストアで「Chronus アイコン」を検索することで新しいアイコンパックをインストールできます</string>
     <!-- Network traffic -->
-    <string name="traffic_title">通信速度表示</string>
-    <string name="network_traffic_title">ネットワーク通信量</string>
+    <string name="traffic_title">通信速度</string>
+    <string name="network_traffic_title">通信速度</string>
     <string name="network_traffic_type">表示する通信方向を選択</string>
     <string name="show_network_traffic_up">送信</string>
     <string name="show_network_traffic_down">受信</string>
-    <string name="show_network_traffic_all">送信と受信</string>
+    <string name="show_network_traffic_all">両方</string>
     <string name="network_traffic_statusbar_title">ステータスバーの通信速度</string>
-    <string name="network_traffic_qs_statusbar_title">クイック設定、ステータスバーの通信速度</string>
+    <string name="network_traffic_qs_statusbar_title">ステータスバーの通信速度</string>
     <string name="network_traffic_sb_state_title">通信速度を表示</string>
     <string name="network_traffic_qs_state_title">通信速度を表示</string>
-    <string name="network_traffic_autohide_threshold_title">自動非表示の通信速度しきい値 (KB/s)</string>
+    <string name="network_traffic_autohide_threshold_title">自動非表示にするしきい値 (KB/s)</string>
     <string name="network_traffic_hidearrow">矢印を隠す</string>
     <string name="network_traffic_hidearrow_summary">通信速度表示の矢印を隠す</string>
     <!-- StatusBar weather settings -->
@@ -277,15 +277,15 @@
     <string name="lockscreen_weather_show_city_summary">画像の左側に現在の都市名を表示する</string>
     <string name="lockscreen_weather_show_temp_title">温度を表示</string>
     <string name="lockscreen_weather_show_temp_summary">画像の右に現在の都市の気温を表示する</string>
-    <!-- Statusbar Clock -->
+    <!-- Clock and Date -->
     <string name="status_bar_clock">時計と日付</string>
     <string name="status_bar_clock_summary">ステータスバーの時計と日付の外観を設定する</string>
-    <string name="status_bar_clock_title">時計の設定</string>
+    <string name="status_bar_clock_title">Statusbar clock settings</string>
     <string name="status_bar_clock_show">日付と時刻を表示</string>
     <string name="status_bar_clock_style_title">時計のスタイル</string>
-    <string name="status_bar_clock_style_right">右側</string>
+    <string name="status_bar_clock_style_right">右</string>
     <string name="status_bar_clock_style_center">中央</string>
-    <string name="status_bar_clock_style_left">左側</string>
+    <string name="status_bar_clock_style_left">左</string>
     <string name="status_bar_am_pm_title">AM/PM のスタイル</string>
     <string name="status_bar_am_pm_info">24時間表示が有効です</string>
     <string name="status_bar_am_pm_normal">標準</string>
@@ -305,11 +305,22 @@
     <string name="clock_date_format">日付の形式</string>
     <string name="clock_date_string_edittext_title">DateFormat 形式で入力して下さい 例. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">文字列を入力</string>
+    <string name="lockscreen_clock_title">Lockscreen clock settings</string>
+    <string name="lockscreen_clock_widget_title">Clock widget</string>
+    <string name="lockscreen_clock_widget_summary">Show the clock widget on the lockscreen</string>
+    <string name="lockscreen_clock_selection_title">Clock style</string>
+    <string name="lockscreen_clock_selection_digital">Default</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digital (Bold)</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (Bold)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy with accent</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy with accent (Alt)</string>
+    <string name="lockscreen_clock_selection_text">Text (Android Q)</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="double_tap_sleep_lockscreen">ダブルタップでスリープ</string>
     <!--Quick pulldown-->
     <string name="status_bar_quick_qs_pulldown">クイックプルダウン</string>
-    <string name="status_bar_quick_qs_pulldown_summary">ステータスバーの右側でプルダウンするとクイック設定パネルを表示します</string>
+    <string name="status_bar_quick_qs_pulldown_summary">ステータスバーの右側をプルダウンしてクイック設定パネルを表示する</string>
     <!--Double Tap to Sleep Statusbar-->
     <string name="double_tap_sleep_gesture_title">ダブルタップでスリープ</string>
     <!-- Sizes for pattern lockscreen -->
@@ -322,7 +333,7 @@
     <string name="lockscreen_vibrate_enabled_title">振動</string>
     <string name="lockscreen_vibrate_enabled_head">ロック解除時に振動</string>
     <!-- Battery Styles -->
-    <string name="battery_style_title">バッテリーアイコンのスタイル</string>
+    <string name="battery_style_title">バッテリーアイコン</string>
     <string name="battery_style_summary">バッテリーアイコンの設定やバッテリー残量の有無の設定</string>
     <string name="battery_style_port">縦</string>
     <string name="battery_style_land">横</string>
@@ -330,7 +341,7 @@
     <string name="battery_style_dotted_circle">点線の円</string>
     <string name="battery_style_big_circle">大きな円</string>
     <string name="battery_style_big_dotted_circle">大きい点線の円</string>
-    <string name="battery_style_text">テキスト</string>
+    <string name="battery_style_text">文字</string>
     <string name="battery_style_hidden">非表示</string>
     <string name="show_battery_percent_title">バッテリー残量の表示</string>
     <string name="battery_style_category_title">バッテリーアイコン</string>
@@ -343,7 +354,7 @@
     <string name="app_ops_cat_messaging">メッセージ</string>
     <string name="app_ops_cat_media">メディア</string>
     <string name="app_ops_cat_device">端末</string>
-    <string name="app_ops_cat_bootup">ブート時の実行</string>
+    <string name="app_ops_cat_bootup">ブート</string>
     <!-- App ops labels -->
     <string name="app_ops_access_camera">カメラ</string>
     <string name="app_ops_access_location">位置情報</string>
@@ -432,7 +443,7 @@
     <string name="app_ops_reset_confirm_title">カウンターのリセットの確認</string>
     <string name="app_ops_reset_confirm_mesg">カウンターをリセットしてもよろしいですか?</string>
     <string name="app_ops_settings_title">App Ops</string>
-    <string name="enlighten">これらの変更は AOSP アプリ履歴にのみ適用され  (すなわち昔の Oreo)、Pie のアプリ履歴では動作しません</string>
+    <string name="enlighten">これらの変更は Oreo の AOSP アプリ履歴にのみ適用され、Pie のアプリ履歴では動作しません。</string>
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">音楽ビジュアライザー</string>
     <string name="lockscreen_visualizer_summary">音楽再生時にロック画面にビジュアライザーを表示する</string>
@@ -446,13 +457,13 @@
     <string name="pocket_judge_title">ポケット検出</string>
     <string name="pocket_judge_summary">ポケットに入っている時にタッチやボタン入力を無効化する</string>
     <!-- Auto-brightness toggle -->
-    <string name="brightness_icon_title">自動明るさアイコン</string>
-    <string name="brightness_icon_summary">明るさスライダーの右に自動明るさボタンを表示する</string>
+    <string name="brightness_icon_title">明るさ自動調節アイコン</string>
+    <string name="brightness_icon_summary">明るさスライダーの右に明るさ自動調節ボタンを表示する</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">クイック設定下部の警告</string>
     <string name="qs_footer_warnings_summary">外部アプリや VPN でネットワーク監視されている時にクイック設定パネルの下部に警告を表示する</string>
     <!-- Navbar Animation -->
-    <string name="pixel_navbar_anim_title">Pixel ナビゲーションバーのアニメーション </string>
+    <string name="pixel_navbar_anim_title">Pixel アニメーション</string>
     <!-- Accent Picker -->
     <string name="accent_picker_dialog_title">アクセントカラーを選択</string>
     <string name="theme_accent_picker_title">アクセントカラー</string>
@@ -462,7 +473,7 @@
     <string name="hide_notch_title">ノッチを隠す</string>
     <string name="hide_notch_summary">アプリはノッチ領域を使えません</string>
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">指紋認証によるロック解除</string>
+    <string name="fp_unlock_keystore_title">指紋認証でのロック解除</string>
     <string name="fp_unlock_keystore_summary">再起動後も PIN/パスワード/パターン による認証なしで指紋認証によるロック解除を可能にします。\n注意: 自己責任で使用して下さい!</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">指紋認証時の振動</string>
@@ -476,7 +487,7 @@
     <string name="expanded_hide_both">両方を非表示</string>
     <string name="expanded_nothing_to_show">アプリごとの拡張の状態のカスタム設定を追加するには「全て拡張」を OFF にして下さい</string>
     <string name="expanded_desktop_state">拡張の状態</string>
-    <string name="expanded_enabled_for_all">全て拡張</string>
+    <string name="expanded_enabled_for_all">すべて拡張済</string>
     <string name="expanded_user_configurable">ユーザー設定</string>
     <string name="expanded_desktop_style">拡張デスクトップのスタイル</string>
     <string name="expanded_desktop_style_description">既定の拡張デスクトップスタイルを選択する</string>
@@ -489,8 +500,8 @@
     <string name="lights_category_title">ライトの設定</string>
     <string name="notification_light_title">通知のライト</string>
     <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">バッテリーセーバーのダークモード</string>
-    <string name="battery_saver_night_mode_summary">バッテリーセーバーを有効にした時システム UI のテーマをダークモードに切り替える</string>
+    <string name="battery_saver_night_mode_title">ダークモード</string>
+    <string name="battery_saver_night_mode_summary">バッテリーセーバー有効時はシステム UI のテーマをダークモードにする</string>
     <!-- Selinux Status -->
     <string name="selinux_status">SELinux のステータス</string>
     <string name="selinux_status_disabled">無効</string>
@@ -498,9 +509,9 @@
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_title">VoLTE アイコン</string>
-    <string name="volte_icon_summary">VoLTE アイコンを表示 (有効にするにはシステム UI の再起動が必要)</string>
+    <string name="volte_icon_summary">VoLTE アイコンを表示する (有効化にはシステム UI の再起動が必要)</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">トーチを有効化</string>
+    <string name="double_tap_power_flashlight_screen_title">トーチの点灯</string>
     <string name="double_tap_power_flashlight_title">画面消灯時のライト点灯</string>
     <string name="torch_power_button_gesture_none">無効</string>
     <string name="torch_power_button_gesture_dt">電源ボタンを2回押し</string>
@@ -541,5 +552,8 @@
     <string name="font_picker_title">フォント</string>
     <string name="disable_fonts_installed_title">フォントピッカーは Substratum との競合のため使用できません。フォントピッカーを使用したい場合は Substratum をアンインストールして下さい。</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(ディープスリープ: %1$d%2$s)</string>
+    <!-- Lockscreen items -->
+    <string name="lockscreen_info_title">Items underneath the clock</string>
+    <string name="lockscreen_info_summary">Show the date, weather, alarms and zen on the lockscreen</string>
 </resources>
