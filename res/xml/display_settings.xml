@@ -171,11 +171,11 @@
         android:title="@string/status_bar_clock"
         android:summary="@string/status_bar_clock_summary"
         android:fragment="com.android.settings.arrow.ClockDateSettings" />
-    <Preference
+    <!--<Preference
         android:key="recents"
         android:fragment="com.android.settings.arrow.StockRecentCategory"
         android:title="@string/aosp_recents_title"
-        android:summary="@string/aosp_recents_title_summary" />
+        android:summary="@string/aosp_recents_title_summary" />-->
     <Preference
         android:key="qs_rows_columns"
         android:fragment="com.android.settings.arrow.QsRowsColumns"
