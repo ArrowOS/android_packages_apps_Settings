@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">PIN 혹은 비밀번호를 올바르게 입력하면 자동으로 잠금 해제</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">잠금 화면에 충전 정보 표시</string>
-    <string name="lockscreen_battery_info_summary">충전 중 잠금 화면에 현재 충전 전압과 배터리 온도를 표시합니다.</string>
+    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">스크린샷 음향</string>
     <!-- meh ganeshi4u -->

@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">Tự động mở khóa khi nhập mã PIN/mật khẩu chính xác</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Thông tin sạc trên màn hình khóa</string>
-    <string name="lockscreen_battery_info_summary">Hiển thị dòng sạc, điện áp và nhiệt độ pin trên màn hình khóa trong khi sạc</string>
+    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Âm thanh chụp màn hình</string>
     <!-- meh ganeshi4u -->

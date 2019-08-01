@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informații despre încărcare pe ecranul de blocare</string>
-    <string name="lockscreen_battery_info_summary">Afișează curentul de încărcare, tensiunea și temperatura bateriei în timpul încărcării pe ecranul de blocare</string>
+    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Sunet captură ecran</string>
     <!-- meh ganeshi4u -->

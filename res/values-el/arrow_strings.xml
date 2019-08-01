@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">Αυτόματο ξεκλείδωμα όταν δωθεί το σωστό PIN ή ο σωστός κωδικός</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Πληροφορίες φόρτισης στο κλείδωμα οθόνης</string>
-    <string name="lockscreen_battery_info_summary">Εμφανίζει το ρεύμα, την τάση και την θερμοκρασία μπαταρίας στην οθόνη κλειδώματος ενώ φορτίζει</string>
+    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Ηχος στιγμιότυπου οθόνης</string>
     <!-- meh ganeshi4u -->

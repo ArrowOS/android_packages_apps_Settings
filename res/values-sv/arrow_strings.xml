@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">Lås upp automatiskt när rätt PIN/lösenord har angivits</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Laddningsinformation på låsskärmen</string>
-    <string name="lockscreen_battery_info_summary">Visa laddningsström, spänning och batteritemperatur på låsskärmen under laddning</string>
+    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Skärmdumpsljud</string>
     <!-- meh ganeshi4u -->

@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">正しい PIN/パスワード が入力された時はロックを自動的に解除する</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">ロック画面での充電情報</string>
-    <string name="lockscreen_battery_info_summary">充電中のロック画面に接続した充電器の情報を表示する</string>
+    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">スクリーンショットの音</string>
     <!-- meh ganeshi4u -->
@@ -253,7 +253,7 @@
     <string name="show_network_traffic_down">受信</string>
     <string name="show_network_traffic_all">両方</string>
     <string name="network_traffic_statusbar_title">ステータスバーの通信速度</string>
-    <string name="network_traffic_qs_statusbar_title">ステータスバーの通信速度</string>
+    <string name="network_traffic_qs_statusbar_title">ヘッダーの通信速度</string>
     <string name="network_traffic_sb_state_title">通信速度を表示</string>
     <string name="network_traffic_qs_state_title">通信速度を表示</string>
     <string name="network_traffic_autohide_threshold_title">自動非表示にするしきい値 (KB/s)</string>
@@ -280,7 +280,7 @@
     <!-- Clock and Date -->
     <string name="status_bar_clock">時計と日付</string>
     <string name="status_bar_clock_summary">ステータスバーの時計と日付の外観を設定する</string>
-    <string name="status_bar_clock_title">Statusbar clock settings</string>
+    <string name="status_bar_clock_title">時計の設定</string>
     <string name="status_bar_clock_show">日付と時刻を表示</string>
     <string name="status_bar_clock_style_title">時計のスタイル</string>
     <string name="status_bar_clock_style_right">右</string>
@@ -305,17 +305,17 @@
     <string name="clock_date_format">日付の形式</string>
     <string name="clock_date_string_edittext_title">DateFormat 形式で入力して下さい 例. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">文字列を入力</string>
-    <string name="lockscreen_clock_title">Lockscreen clock settings</string>
-    <string name="lockscreen_clock_widget_title">Clock widget</string>
-    <string name="lockscreen_clock_widget_summary">Show the clock widget on the lockscreen</string>
-    <string name="lockscreen_clock_selection_title">Clock style</string>
-    <string name="lockscreen_clock_selection_digital">Default</string>
-    <string name="lockscreen_clock_selection_digital_bold">Digital (Bold)</string>
+    <string name="lockscreen_clock_title">ロック画面の時計オプション</string>
+    <string name="lockscreen_clock_widget_title">時計ウィジェット</string>
+    <string name="lockscreen_clock_widget_summary">ロック画面に時計ウィジェットを表示する</string>
+    <string name="lockscreen_clock_selection_title">時計のスタイル</string>
+    <string name="lockscreen_clock_selection_digital">既定</string>
+    <string name="lockscreen_clock_selection_digital_bold">デジタル (太字)</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
-    <string name="lockscreen_clock_selection_sammy_bold">Sammy (Bold)</string>
-    <string name="lockscreen_clock_selection_sammy_accent">Sammy with accent</string>
-    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy with accent (Alt)</string>
-    <string name="lockscreen_clock_selection_text">Text (Android Q)</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (太字)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy (アクセント)</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy (アクセント - 代替)</string>
+    <string name="lockscreen_clock_selection_text">文字 (Android Q)</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="double_tap_sleep_lockscreen">ダブルタップでスリープ</string>
     <!--Quick pulldown-->
@@ -511,7 +511,7 @@
     <string name="volte_icon_title">VoLTE アイコン</string>
     <string name="volte_icon_summary">VoLTE アイコンを表示する (有効化にはシステム UI の再起動が必要)</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">トーチの点灯</string>
+    <string name="double_tap_power_flashlight_screen_title">ライトの点灯</string>
     <string name="double_tap_power_flashlight_title">画面消灯時のライト点灯</string>
     <string name="torch_power_button_gesture_none">無効</string>
     <string name="torch_power_button_gesture_dt">電源ボタンを2回押し</string>
@@ -525,7 +525,7 @@
     <string name="qs_show_brightness_title">明るさスライダー</string>
     <string name="qs_show_brightness_summary">クイック設定パネルの明るさスライダーの有無の設定</string>
     <!-- Onehand UI mode -->
-    <string name="one_hand_mode_title">片手モードを有効化</string>
+    <string name="one_hand_mode_title">片手モード</string>
     <string name="one_hand_mode_summary">ナビゲーションバーを右または左にスワイプして有効にする</string>
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_value_title">夜の場合は明るさを下げる</string>
@@ -554,6 +554,6 @@
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <string name="status_deep_sleep">(ディープスリープ: %1$d%2$s)</string>
     <!-- Lockscreen items -->
-    <string name="lockscreen_info_title">Items underneath the clock</string>
-    <string name="lockscreen_info_summary">Show the date, weather, alarms and zen on the lockscreen</string>
+    <string name="lockscreen_info_title">時計の下部の項目</string>
+    <string name="lockscreen_info_summary">日付、天気、アラームなどをロック画面に表示する</string>
 </resources>

@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">فُك تلقائياً عند إدخال الرمز/كلمة المرور الصحيحة</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">معلومات الشحن على شاشة القفل</string>
-    <string name="lockscreen_battery_info_summary">عرض تيار الشحن والفولتية ودرجة حرارة البطارية على شاشة القفل أثناء الشحن</string>
+    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">صوت لقطة الشاشة</string>
     <!-- meh ganeshi4u -->

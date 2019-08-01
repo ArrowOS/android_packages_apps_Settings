@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">Автоматичне розблокування при введенні правильного пароля чи PIN-коду</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Інформація про заряджання на екрані блокування</string>
-    <string name="lockscreen_battery_info_summary">Відобразити напругу, струм та температуру акумулятора на екрані блокування під час зарядки</string>
+    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Звук знімка екрану</string>
     <!-- meh ganeshi4u -->
@@ -280,7 +280,7 @@
     <!-- Clock and Date -->
     <string name="status_bar_clock">Годинник і дата</string>
     <string name="status_bar_clock_summary">Налаштування вигляду годинника та дати</string>
-    <string name="status_bar_clock_title">Statusbar clock settings</string>
+    <string name="status_bar_clock_title">Налаштування годинника в рядку стану</string>
     <string name="status_bar_clock_show">Показувати час і дату</string>
     <string name="status_bar_clock_style_title">Стиль годинника</string>
     <string name="status_bar_clock_style_right">Праворуч</string>
@@ -305,17 +305,17 @@
     <string name="clock_date_format">Формат дати</string>
     <string name="clock_date_string_edittext_title">Має бути в форматі ММ/ДД/РР</string>
     <string name="clock_date_string_edittext_summary">Введіть рядок</string>
-    <string name="lockscreen_clock_title">Lockscreen clock settings</string>
-    <string name="lockscreen_clock_widget_title">Clock widget</string>
-    <string name="lockscreen_clock_widget_summary">Show the clock widget on the lockscreen</string>
-    <string name="lockscreen_clock_selection_title">Clock style</string>
-    <string name="lockscreen_clock_selection_digital">Default</string>
-    <string name="lockscreen_clock_selection_digital_bold">Digital (Bold)</string>
-    <string name="lockscreen_clock_selection_sammy">Sammy</string>
-    <string name="lockscreen_clock_selection_sammy_bold">Sammy (Bold)</string>
-    <string name="lockscreen_clock_selection_sammy_accent">Sammy with accent</string>
-    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy with accent (Alt)</string>
-    <string name="lockscreen_clock_selection_text">Text (Android Q)</string>
+    <string name="lockscreen_clock_title">Налаштування годинника на екрані блокування</string>
+    <string name="lockscreen_clock_widget_title">Віджет годинника</string>
+    <string name="lockscreen_clock_widget_summary">Показувати віджет годинника на екрані блокування</string>
+    <string name="lockscreen_clock_selection_title">Стиль годинника</string>
+    <string name="lockscreen_clock_selection_digital">За замовчанням</string>
+    <string name="lockscreen_clock_selection_digital_bold">Цифрові (жирні)</string>
+    <string name="lockscreen_clock_selection_sammy">Вертикальні</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Вертикальні (жирні)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Вертикальні з акцентом</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Вертикальні з акцентом (альт.)</string>
+    <string name="lockscreen_clock_selection_text">Текстові (Android Q)</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="double_tap_sleep_lockscreen">Подвійне натискання для засинання на екрані блокування</string>
     <!--Quick pulldown-->
@@ -554,6 +554,6 @@
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <string name="status_deep_sleep">(Глибокий сон: %1$d%2$s)</string>
     <!-- Lockscreen items -->
-    <string name="lockscreen_info_title">Items underneath the clock</string>
-    <string name="lockscreen_info_summary">Show the date, weather, alarms and zen on the lockscreen</string>
+    <string name="lockscreen_info_title">Інформація під годинником</string>
+    <string name="lockscreen_info_summary">Показувати дату, погоду, будильники і дзен на екрані блокування</string>
 </resources>

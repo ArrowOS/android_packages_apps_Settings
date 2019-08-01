@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">Automatisch entsperren, wenn die korrekte PIN/Passwort eingegeben wird</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Ladeinformation auf dem Sperrbildschirm</string>
-    <string name="lockscreen_battery_info_summary">Zeige auf dem Sperrbildschirm die aktuelle Ladung, Spannung und Akkutemperatur während des Ladens</string>
+    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Bildschirmfoto-Auslöseton</string>
     <!-- meh ganeshi4u -->

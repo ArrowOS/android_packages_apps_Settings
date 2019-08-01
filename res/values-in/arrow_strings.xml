@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">Membuka secara otomatis ketika benar memasukkan PIN/Password</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Info pengisian pada layar kunci</string>
-    <string name="lockscreen_battery_info_summary">Tampilkan pengisian saat ini, tegangan dan suhu baterai pada layar kunci saat pengisian</string>
+    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Suara tangkapan layar</string>
     <!-- meh ganeshi4u -->

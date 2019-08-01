@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN/Palavra-passe correta é inserida</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informação de carregamento no ecrã de bloqueio</string>
-    <string name="lockscreen_battery_info_summary">Exibir informações de corrente/tensão e temperatura da bateria no ecrã de bloqueio durante o carregamento</string>
+    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Som da Captura de ecrã</string>
     <!-- meh ganeshi4u -->

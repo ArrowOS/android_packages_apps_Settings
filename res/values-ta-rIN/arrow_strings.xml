@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">திறப்பதற்காக தானாகவே சரியான PIN/கடவுச்சொல்லை நுழைந்தபோது உள்ளிடப்படும்</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">பூட்டுத்திரை சார்ஜிங் தகவல்</string>
-    <string name="lockscreen_battery_info_summary">Show charging current, voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">திரைப்பிடிப்பு ஒலி</string>
     <!-- meh ganeshi4u -->
