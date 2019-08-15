@@ -309,4 +309,8 @@
 
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">Double-tap anywhere on the screen to wake or sleep device</string>
+
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
 </resources>
