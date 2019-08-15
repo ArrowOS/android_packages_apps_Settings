@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">Автоматичне розблокування при введенні правильного пароля чи PIN-коду</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Інформація про заряджання на екрані блокування</string>
-    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_summary">Відобразити струм заряджання, напругу, потужність та температуру акумулятора на екрані блокування під час зарядки</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Звук знімка екрану</string>
     <!-- meh ganeshi4u -->
