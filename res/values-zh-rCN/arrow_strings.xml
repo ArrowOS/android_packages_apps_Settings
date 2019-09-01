@@ -554,6 +554,6 @@
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <string name="status_deep_sleep">(深度休眠：%1$d%2$s)</string>
     <!-- Lockscreen items -->
-    <string name="lockscreen_info_title">Items underneath the clock</string>
-    <string name="lockscreen_info_summary">Show the date, weather, alarms and zen on the lockscreen</string>
+    <string name="lockscreen_info_title">时钟下面的项目</string>
+    <string name="lockscreen_info_summary">在锁屏上显示日期、天气、闹钟和 zen</string>
 </resources>

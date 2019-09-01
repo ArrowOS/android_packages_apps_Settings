@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">Déverouille automatiquement l\'appareil lorsque le PIN/mot de passe correct est entré</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informations de charge sur l\'écran de verrouillage</string>
-    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_summary">Afficher le courant de charge, la tension, la puissance en watts et la température de la batterie sur l\'écran de verrouillage pendant le chargement</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Son de capture d\'écran</string>
     <!-- meh ganeshi4u -->
@@ -280,7 +280,7 @@
     <!-- Clock and Date -->
     <string name="status_bar_clock">Horloge et date</string>
     <string name="status_bar_clock_summary">Configurer l\'apparence de l\'horloge et de la date dans la barre d\'état</string>
-    <string name="status_bar_clock_title">Statusbar clock settings</string>
+    <string name="status_bar_clock_title">Réglages de l\'horloge de la barre d\'état</string>
     <string name="status_bar_clock_show">Afficher la date et l\'heure</string>
     <string name="status_bar_clock_style_title">Style de l\'horloge</string>
     <string name="status_bar_clock_style_right">Droite</string>
@@ -305,12 +305,12 @@
     <string name="clock_date_format">Format de date</string>
     <string name="clock_date_string_edittext_title">Doit être dans le format JJ/MM/AA</string>
     <string name="clock_date_string_edittext_summary">Entrer une chaîne de caractère</string>
-    <string name="lockscreen_clock_title">Lockscreen clock settings</string>
-    <string name="lockscreen_clock_widget_title">Clock widget</string>
-    <string name="lockscreen_clock_widget_summary">Show the clock widget on the lockscreen</string>
-    <string name="lockscreen_clock_selection_title">Clock style</string>
-    <string name="lockscreen_clock_selection_digital">Default</string>
-    <string name="lockscreen_clock_selection_digital_bold">Digital (Bold)</string>
+    <string name="lockscreen_clock_title">Paramètres de l\'horloge de l\'écran de verrouillage</string>
+    <string name="lockscreen_clock_widget_title">Widget horloge</string>
+    <string name="lockscreen_clock_widget_summary">Afficher le widget horloge sur l\'écran de verrouillage</string>
+    <string name="lockscreen_clock_selection_title">Style de l\'horloge</string>
+    <string name="lockscreen_clock_selection_digital">Par défaut</string>
+    <string name="lockscreen_clock_selection_digital_bold">Numérique (gras)</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (Bold)</string>
     <string name="lockscreen_clock_selection_sammy_accent">Sammy with accent</string>
@@ -554,6 +554,6 @@
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <string name="status_deep_sleep">(Sommeil profond : %1$d%2$s)</string>
     <!-- Lockscreen items -->
-    <string name="lockscreen_info_title">Items underneath the clock</string>
-    <string name="lockscreen_info_summary">Show the date, weather, alarms and zen on the lockscreen</string>
+    <string name="lockscreen_info_title">Éléments sous l\'horloge</string>
+    <string name="lockscreen_info_summary">Afficher la date, la météo, les alarmes et Ne pas déranger sur l\'écran de verrouillage</string>
 </resources>
