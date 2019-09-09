@@ -30,6 +30,12 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>-->
 
+    <!-- Arrow logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="arrow_logo"
+        android:layout="@layout/arrow_logo"
+        android:selectable="false"/>
+
     <!-- Arrow version -->
     <Preference
         android:key="arrow_version"
