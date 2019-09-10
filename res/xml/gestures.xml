@@ -86,4 +86,15 @@
         android:title="@string/power_menu_setting_name"
         android:fragment="com.android.settings.gestures.PowerMenuSettings"
         settings:controller="com.android.settings.gestures.PowerMenuPreferenceController" />
+
+    <PreferenceCategory
+        android:key="statusbar_gestures_category"
+        android:title="@string/statusbar_gestures_category_title">
+
+	<com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+	    android:key="double_tap_sleep_gesture"
+            android:title="@string/double_tap_sleep_gesture_title"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
 </PreferenceScreen>
