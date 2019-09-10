@@ -79,4 +79,8 @@
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
     <string name="network_traffic_hidearrow">Hide arrows</string>
     <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+
+    <!--Double Tap to Sleep Statusbar-->
+    <string name="statusbar_gestures_category_title">Statusbar gestures</string>
+    <string name="double_tap_sleep_gesture_title">Double tap to sleep on status bar</string>
 </resources>
