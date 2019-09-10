@@ -39,4 +39,8 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
+
+    <!--Double Tap to Sleep Statusbar-->
+    <string name="statusbar_gestures_category_title">Statusbar gestures</string>
+    <string name="double_tap_sleep_gesture_title">Double tap to sleep on status bar</string>
 </resources>
