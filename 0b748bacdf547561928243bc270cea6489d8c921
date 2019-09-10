@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "61c870ff_c2495f6a",
+        "filename": "res/values/arrow_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2019-09-10T09:04:40Z",
+      "side": 1,
+      "message": "I think its time to change this.\nbad joke",
+      "range": {
+        "startLine": 26,
+        "startChar": 39,
+        "endLine": 26,
+        "endChar": 67
+      },
+      "revId": "0b748bacdf547561928243bc270cea6489d8c921",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196",
+      "unresolved": false
+    }
+  ]
+}
