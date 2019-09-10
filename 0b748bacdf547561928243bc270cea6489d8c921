@@ -22,6 +22,30 @@
       "revId": "0b748bacdf547561928243bc270cea6489d8c921",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8b6e9c29_7b42802e",
+        "filename": "res/values/arrow_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 5
+      },
+      "writtenOn": "2019-09-10T09:08:24Z",
+      "side": 1,
+      "message": "@ganeshi",
+      "parentUuid": "61c870ff_c2495f6a",
+      "range": {
+        "startLine": 26,
+        "startChar": 39,
+        "endLine": 26,
+        "endChar": 67
+      },
+      "revId": "0b748bacdf547561928243bc270cea6489d8c921",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196",
+      "unresolved": false
     }
   ]
 }
