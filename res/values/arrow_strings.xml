@@ -43,4 +43,8 @@
     <!-- meh ganeshi4u -->
     <string name="arrow_stats_title">ArrowOS Stats</string>
     <string name="arrow_stats_summary">we ain\'t stealing your nuds!</string>
+
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_gestures_category_title">Lockscreen gestures</string>
+    <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string>
 </resources>
