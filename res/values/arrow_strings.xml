@@ -27,4 +27,8 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
+
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_gestures_category_title">Lockscreen gestures</string>
+    <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string>
 </resources>
