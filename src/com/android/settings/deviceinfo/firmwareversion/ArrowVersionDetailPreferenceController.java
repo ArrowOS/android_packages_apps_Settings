@@ -42,6 +42,7 @@ public class ArrowVersionDetailPreferenceController extends BasePreferenceContro
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
     private static final String KEY_ARROW_VERSION_PROP = "ro.modversion";
+    private static final String KEY_ARROW_RELEASETYPE_PROP = "ro.arrow.releasetype";
 
     private final UserManager mUserManager;
     private final long[] mHits = new long[ACTIVITY_TRIGGER_COUNT];
@@ -63,8 +64,9 @@ public class ArrowVersionDetailPreferenceController extends BasePreferenceContro
     @Override
     public CharSequence getSummary() {
 	String[] arrowVer = SystemProperties.get(KEY_ARROW_VERSION_PROP).split("v");
-	if (!arrowVer[1].isEmpty())
-	    return arrowVer[1];
+	String arrowReleasetype =  SystemProperties.get(KEY_ARROW_RELEASETYPE_PROP);
+	if (!arrowVer[1].isEmpty() && !arrowReleasetype.isEmpty())
+	    return arrowVer[1] + " | " + arrowReleasetype;
 	else
             return mContext.getString(R.string.unknown);
     }
