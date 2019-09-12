@@ -55,11 +55,11 @@
     </com.android.settingslib.RestrictedPreference>
 
 
-    <SwitchPreference
+    <!--<SwitchPreference
         android:key="dark_ui_mode"
         android:title="@string/dark_ui_mode"
         settings:keywords="@string/keywords_dark_ui_mode"
-        settings:controller="com.android.settings.display.DarkUIPreferenceController"/>
+        settings:controller="com.android.settings.display.DarkUIPreferenceController"/>-->
 
     <!-- Cross-listed item, if you change this, also change it in power_usage_summary.xml -->
     <com.android.settings.display.TimeoutListPreference
@@ -147,6 +147,12 @@
     <PreferenceCategory
         android:key="theme_customization_category"
         android:title="@string/theme_customization_category">
+
+	<SwitchPreference
+        android:key="dark_ui_mode"
+        android:title="@string/dark_ui_mode"
+        settings:keywords="@string/keywords_dark_ui_mode"
+        settings:controller="com.android.settings.display.DarkUIPreferenceController"/>
 
 	<ListPreference
         android:key="theme"
