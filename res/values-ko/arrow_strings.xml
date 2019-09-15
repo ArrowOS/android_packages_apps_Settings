@@ -499,9 +499,6 @@
     <!-- Notification light settings -->
     <string name="lights_category_title">LED표시등 설정</string>
     <string name="notification_light_title">알림 표시등</string>
-    <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">배터리 절약 어두운 모드</string>
-    <string name="battery_saver_night_mode_summary">Switch SystemUI theme to dark mode when battery saver is enabled.</string>
     <!-- Selinux Status -->
     <string name="selinux_status">SELinux 상태</string>
     <string name="selinux_status_disabled">비활성화</string>

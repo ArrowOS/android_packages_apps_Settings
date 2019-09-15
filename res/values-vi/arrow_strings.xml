@@ -499,9 +499,6 @@
     <!-- Notification light settings -->
     <string name="lights_category_title">Cài đặt đèn báo</string>
     <string name="notification_light_title">Đèn thông báo</string>
-    <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Chế độ tối tiết kiệm pin</string>
-    <string name="battery_saver_night_mode_summary">Chuyển chủ đề SystemUI sang chế độ tối khi bật chế độ tiết kiệm pin.</string>
     <!-- Selinux Status -->
     <string name="selinux_status">Trạng thái SELinux</string>
     <string name="selinux_status_disabled">Tắt</string>

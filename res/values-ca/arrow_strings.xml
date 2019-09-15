@@ -499,9 +499,6 @@
     <!-- Notification light settings -->
     <string name="lights_category_title">Configuració del llum</string>
     <string name="notification_light_title">Llum de notificació</string>
-    <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Mode fosc d\'estalvi de bateria</string>
-    <string name="battery_saver_night_mode_summary">Canvia de tema del sistema a mode fosc quan s\'activi l\'estalvi de bateria.</string>
     <!-- Selinux Status -->
     <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Disabled</string>
