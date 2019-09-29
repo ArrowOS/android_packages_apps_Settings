@@ -97,4 +97,8 @@
             android:defaultValue="false" />
     </PreferenceCategory>
 
+    <Preference
+        android:key="custom_device_gestures_preference"
+        android:title="@string/custom_device_gestures_preference_title" />
+
 </PreferenceScreen>

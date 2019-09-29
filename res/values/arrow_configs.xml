@@ -23,4 +23,7 @@
     <!-- Device specific doze package -->
     <string name="config_customDozePackage" translatable="false"></string>
 
+    <!-- Device specific gesture package -->
+    <string name="config_customGesturesPackage" translatable="false"></string>
+
 </resources>
