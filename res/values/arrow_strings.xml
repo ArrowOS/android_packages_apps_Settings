@@ -157,4 +157,7 @@
     <string name="global_actions_max_columns_title">Max actions to show</string>
     <string name="global_actions_max_columns_summary">Set how many actions to show before buttons move to overflow menu</string>
 
+    <!-- Settings dashboard gestures -->
+    <string name="gesture_settings_dashboard_title">Gestures</string>
+    <string name="gesture_settings_dashboard_summary">Manage gesture settings</string>
 </resources>
