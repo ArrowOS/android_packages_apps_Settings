@@ -245,4 +245,6 @@ public class Settings extends SettingsActivity {
      */
     public static class GlobalActionsSettingsActivity extends SettingsActivity { /* empty */ }
     public static class HardwareKeys extends SettingsActivity { /* empty */ }
+    public static class GestureSettings extends SettingsActivity { /* empty */ }
+
 }
