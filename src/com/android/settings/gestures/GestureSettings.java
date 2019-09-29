@@ -25,6 +25,8 @@ import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
+import com.android.settings.gestures.DeviceGesturesCustomPreferenceController;
+
 @SearchIndexable
 public class GestureSettings extends DashboardFragment {
 
@@ -53,6 +55,7 @@ public class GestureSettings extends DashboardFragment {
         use(AssistGestureSettingsPreferenceController.class).setAssistOnly(false);
         use(PickupGesturePreferenceController.class).setConfig(getConfig(context));
         use(DoubleTapScreenPreferenceController.class).setConfig(getConfig(context));
+        addPreferenceController(new DeviceGesturesCustomPreferenceController(context));
     }
 
     private AmbientDisplayConfiguration getConfig(Context context) {
