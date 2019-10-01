@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">Automatické odemknutí, pokud je zadán správný PIN/heslo</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informace o nabíjení na zamykací obrazovce</string>
-    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_summary">Zobrazit nabíjecí proud, napětí, příkon a teplotu baterie při nabíjení na zamykací obrazovce</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Zvuk při snímku obrazovky</string>
     <!-- meh ganeshi4u -->
@@ -499,9 +499,6 @@
     <!-- Notification light settings -->
     <string name="lights_category_title">Nastavení LED</string>
     <string name="notification_light_title">LED oznámení</string>
-    <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Tmavý režim spořiče baterie</string>
-    <string name="battery_saver_night_mode_summary">SystemUI se přepne na tmavý motiv při zapnutí spořiče baterie.</string>
     <!-- Selinux Status -->
     <string name="selinux_status">Stav SELinux</string>
     <string name="selinux_status_disabled">Zakázáno</string>

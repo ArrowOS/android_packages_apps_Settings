@@ -499,9 +499,6 @@
     <!-- Notification light settings -->
     <string name="lights_category_title">Pengaturan cahaya</string>
     <string name="notification_light_title">Lampu notifikasi</string>
-    <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Mode gelap penghemat baterai</string>
-    <string name="battery_saver_night_mode_summary">Alihkan tema SystemUI ke mode gelap saat penghemat baterai diaktifkan.</string>
     <!-- Selinux Status -->
     <string name="selinux_status">Status SELinux</string>
     <string name="selinux_status_disabled">Dinonaktifkan</string>

@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie kiedy zostanie podany prawidłowy PIN/hasło</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informacje o ładowaniu na ekranie blokady</string>
-    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_summary">Pokaż obecne napięcie, moc oraz temperaturę baterii na ekranie blokady podczas ładowania</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Dźwięk zrzutu ekranu</string>
     <!-- meh ganeshi4u -->
@@ -280,7 +280,7 @@
     <!-- Clock and Date -->
     <string name="status_bar_clock">Zegar i data</string>
     <string name="status_bar_clock_summary">Skonfiguruj wygląd daty i zegara na pasku stanu</string>
-    <string name="status_bar_clock_title">Statusbar clock settings</string>
+    <string name="status_bar_clock_title">Ustawienia zegara paska stanu</string>
     <string name="status_bar_clock_show">Pokaż zegar i date</string>
     <string name="status_bar_clock_style_title">Styl zegara</string>
     <string name="status_bar_clock_style_right">Prawo</string>
@@ -305,17 +305,17 @@
     <string name="clock_date_format">Format daty</string>
     <string name="clock_date_string_edittext_title">Musi być w formacie np. MM/dd/rr</string>
     <string name="clock_date_string_edittext_summary">Wpisz ciąg</string>
-    <string name="lockscreen_clock_title">Lockscreen clock settings</string>
-    <string name="lockscreen_clock_widget_title">Clock widget</string>
-    <string name="lockscreen_clock_widget_summary">Show the clock widget on the lockscreen</string>
-    <string name="lockscreen_clock_selection_title">Clock style</string>
-    <string name="lockscreen_clock_selection_digital">Default</string>
-    <string name="lockscreen_clock_selection_digital_bold">Digital (Bold)</string>
+    <string name="lockscreen_clock_title">Ustawienia zegara na ekranie blokady</string>
+    <string name="lockscreen_clock_widget_title">Widżet zegara</string>
+    <string name="lockscreen_clock_widget_summary">Pokaż zegar na ekranie blokady</string>
+    <string name="lockscreen_clock_selection_title">Styl zegara</string>
+    <string name="lockscreen_clock_selection_digital">Domyślny</string>
+    <string name="lockscreen_clock_selection_digital_bold">Cyfrowy (pogrubiony)</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
-    <string name="lockscreen_clock_selection_sammy_bold">Sammy (Bold)</string>
-    <string name="lockscreen_clock_selection_sammy_accent">Sammy with accent</string>
-    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy with accent (Alt)</string>
-    <string name="lockscreen_clock_selection_text">Text (Android Q)</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (pogrubiony)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy z akcentem</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy z akcentem (Alternatywny)</string>
+    <string name="lockscreen_clock_selection_text">Tekst (Android Q)</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="double_tap_sleep_lockscreen">Stuknij dwukrotnie ekran blokady, aby uśpić</string>
     <!--Quick pulldown-->
@@ -499,9 +499,6 @@
     <!-- Notification light settings -->
     <string name="lights_category_title">Ustawienia diody LED</string>
     <string name="notification_light_title">Dioda powiadomień</string>
-    <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Tryb oszczędzania baterii</string>
-    <string name="battery_saver_night_mode_summary">Zmień motyw systemowy na ciemny, gdy oszczędzanie baterii jest włączone.</string>
     <!-- Selinux Status -->
     <string name="selinux_status">Status SELinux </string>
     <string name="selinux_status_disabled">Wyłączony</string>
@@ -552,8 +549,8 @@
     <string name="font_picker_title">Czcionka</string>
     <string name="disable_fonts_installed_title">Wybór czcionek jest niedostępny w celu uniknięcia konfliktów z Substratum. Odinstaluj Substratum, jeśli chcesz używać innych czcionek.</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(Głęboki sen: %1$d%2$s)</string>
     <!-- Lockscreen items -->
-    <string name="lockscreen_info_title">Items underneath the clock</string>
-    <string name="lockscreen_info_summary">Show the date, weather, alarms and zen on the lockscreen</string>
+    <string name="lockscreen_info_title">Elementy pod zegarem</string>
+    <string name="lockscreen_info_summary">Pokaż datę, pogodę, alarmy oraz zen na ekranie blokady</string>
 </resources>

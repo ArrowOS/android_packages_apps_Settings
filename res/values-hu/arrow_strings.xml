@@ -499,9 +499,6 @@
     <!-- Notification light settings -->
     <string name="lights_category_title">LED beállítások</string>
     <string name="notification_light_title">Értesítési fény</string>
-    <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Akkumulátor kímélő mód</string>
-    <string name="battery_saver_night_mode_summary">RendszerUI téma sötétté változtatása, amikor az akkumulátorkímélő mód aktiválva van</string>
     <!-- Selinux Status -->
     <string name="selinux_status">SELinux állapot</string>
     <string name="selinux_status_disabled">Letiltva</string>

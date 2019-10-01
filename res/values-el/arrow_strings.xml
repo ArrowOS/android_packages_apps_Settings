@@ -499,9 +499,6 @@
     <!-- Notification light settings -->
     <string name="lights_category_title">Ρυθμίσεις φωτισμού</string>
     <string name="notification_light_title">Φωτεινός παλμός ειδοποίησης</string>
-    <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Σκοτεινή εμφάνιση οικονομίας μπαταρίας</string>
-    <string name="battery_saver_night_mode_summary">Αλλάξτε το θέμα του συστήματος σε σκούρα εμφάνιση, όταν η οικονομία μπαταρίας είναι ενεργοποιημένη.</string>
     <!-- Selinux Status -->
     <string name="selinux_status">Κατάσταση SELinux</string>
     <string name="selinux_status_disabled">Απενεργοποιημένο</string>

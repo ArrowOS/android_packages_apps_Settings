@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">Ava automaatselt kui õige PIN/parool on sisestatud</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Laadimise info lukustusekraanil</string>
-    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_summary">Kuva lukustuskuval laadimis vool, pinge ja akutemperatuur, kui seadet laetakse</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Kuvatõmmise heli</string>
     <!-- meh ganeshi4u -->
@@ -499,9 +499,6 @@
     <!-- Notification light settings -->
     <string name="lights_category_title">Märgutule seaded</string>
     <string name="notification_light_title">Teadete märgutuli</string>
-    <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Aku säästmine pimedas režiimis</string>
-    <string name="battery_saver_night_mode_summary">Kui akut säästetakse, lülitage SystemUI teema tumedasse režiimi.</string>
     <!-- Selinux Status -->
     <string name="selinux_status">SELinux\'i olek</string>
     <string name="selinux_status_disabled">Keelatud</string>
