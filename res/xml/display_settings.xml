@@ -139,6 +139,22 @@
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
 
+    <PreferenceCategory
+        android:title="@string/buttons_category_title">
+        <PreferenceScreen
+            android:key="hardware_keys"
+            android:title="@string/hard_soft_keys"
+            android:summary="@string/hard_soft_keys_summary"
+            android:fragment="com.android.settings.arrow.HardwareKeys" />
+    </PreferenceCategory >
+
+
+    <PreferenceCategory>
+    <Preference
+        android:key="vr_display_pref"
+        android:title="@string/display_vr_pref_title"
+        android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
+
     <!--<ListPreference
         android:key="theme"
         android:title="@string/device_theme"
