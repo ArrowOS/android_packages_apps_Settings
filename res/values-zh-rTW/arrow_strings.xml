@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">當正確的輸入 PIN 碼/密碼時自動解鎖</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">鎖定螢幕上顯示充電資訊</string>
-    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_summary">在充電時，於鎖定螢幕上顯示充電的電流、電壓和電池溫度</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">螢幕截圖音效</string>
     <!-- meh ganeshi4u -->
@@ -195,9 +195,9 @@
     <string name="proximity_wake_summary">喚醒螢幕前檢查接近感應器</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">狀態列項目</string>
-    <string name="statusbar_items_title_summary">Enable or disable statusbar icons</string>
+    <string name="statusbar_items_title_summary">啟用或停用狀態列系統圖示</string>
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
+    <string name="lockscreen_tuner_title">螢幕鎖定快捷操作</string>
     <!-- QS rows and columns -->
     <string name="qs_rows_columns_title">QS panel tweaks</string>
     <string name="qs_rows_columns_summary">Quicksettings rows and columns, titles, panel opacity</string>
@@ -500,9 +500,6 @@
     <!-- Notification light settings -->
     <string name="lights_category_title">Light settings</string>
     <string name="notification_light_title">Notification light</string>
-    <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Battery saver dark mode</string>
-    <string name="battery_saver_night_mode_summary">Switch SystemUI theme to dark mode when battery saver is enabled.</string>
     <!-- Selinux Status -->
     <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Disabled</string>

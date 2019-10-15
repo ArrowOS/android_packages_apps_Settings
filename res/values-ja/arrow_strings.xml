@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">正しい PIN/パスワード が入力された時はロックを自動的に解除する</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">ロック画面での充電情報</string>
-    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_summary">充電中のロック画面に接続した充電器の情報を表示する</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">スクリーンショットの音</string>
     <!-- meh ganeshi4u -->
@@ -499,9 +499,6 @@
     <!-- Notification light settings -->
     <string name="lights_category_title">ライトの設定</string>
     <string name="notification_light_title">通知のライト</string>
-    <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">ダークモード</string>
-    <string name="battery_saver_night_mode_summary">バッテリーセーバー有効時はシステム UI のテーマをダークモードにする</string>
     <!-- Selinux Status -->
     <string name="selinux_status">SELinux のステータス</string>
     <string name="selinux_status_disabled">無効</string>

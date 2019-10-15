@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">Разблокировать автоматически при вводе правильного ПИН-кода/пароля</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Информация о зарядке на экране блокировки</string>
-    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_summary">Показывать зарядный ток, напряжение, мощность и температуру аккумулятора на экране блокировки во время зарядки</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Звук скриншота</string>
     <!-- meh ganeshi4u -->
@@ -499,9 +499,6 @@
     <!-- Notification light settings -->
     <string name="lights_category_title">Настройки индикации</string>
     <string name="notification_light_title">Индикатор уведомлений</string>
-    <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Темный режим во время экономии заряда батареи</string>
-    <string name="battery_saver_night_mode_summary">Переключать SystemUI в темную тему когда включен режим экономии заряда батареи.</string>
     <!-- Selinux Status -->
     <string name="selinux_status">Статус SELinux</string>
     <string name="selinux_status_disabled">Отключен</string>

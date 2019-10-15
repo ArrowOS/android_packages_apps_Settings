@@ -499,9 +499,6 @@
     <!-- Notification light settings -->
     <string name="lights_category_title">Ajustes de luz</string>
     <string name="notification_light_title">Led de notificación</string>
-    <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Modo oscuro de ahorro de batería</string>
-    <string name="battery_saver_night_mode_summary">Cambiar tema de SystemUI al modo oscuro cuando se activa el ahorro de batería.</string>
     <!-- Selinux Status -->
     <string name="selinux_status">Estado de SELinux</string>
     <string name="selinux_status_disabled">Desabilitado</string>

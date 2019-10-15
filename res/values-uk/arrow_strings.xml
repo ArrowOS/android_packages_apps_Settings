@@ -63,7 +63,7 @@
     <string name="unlock_quick_unlock_control_summary">Автоматичне розблокування при введенні правильного пароля чи PIN-коду</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Інформація про заряджання на екрані блокування</string>
-    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_summary">Відобразити струм заряджання, напругу, потужність та температуру акумулятора на екрані блокування під час зарядки</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Звук знімка екрану</string>
     <!-- meh ganeshi4u -->
@@ -499,9 +499,6 @@
     <!-- Notification light settings -->
     <string name="lights_category_title">Налаштування індикатора</string>
     <string name="notification_light_title">Індикатор подій</string>
-    <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Режим енергозбереження</string>
-    <string name="battery_saver_night_mode_summary">Переключення SystemUI теми в темний режим, коли увімкнено енергозбереження.</string>
     <!-- Selinux Status -->
     <string name="selinux_status">Статус SELinux</string>
     <string name="selinux_status_disabled">Вимкнено</string>
