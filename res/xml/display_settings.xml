@@ -49,18 +49,25 @@
         android:key="string/qs_brightness_category"
         android:title="@string/qs_brightness_category_title">
 
-        <com.android.settings.display.SecureSettingSwitchPreference
+        <com.android.settings.arrow.preferences.SecureSettingSwitchPreference
             android:key="qs_show_brightness"
             android:title="@string/qs_show_brightness_title"
             android:summary="@string/qs_show_brightness_summary"
             android:defaultValue="true" />
 
-        <com.android.settings.display.SecureSettingSwitchPreference
+        <com.android.settings.arrow.preferences.SecureSettingSwitchPreference
             android:key="qs_brightness_position_bottom"
             android:title="@string/qs_brightness_position_bottom_title"
             android:summary="@string/qs_brightness_position_bottom_summary"
             android:defaultValue="false"
             android:dependency="qs_show_brightness" />
+
+        <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+            android:key="qs_show_brightness_icon"
+            android:title="@string/brightness_icon_title"
+            android:summary="@string/brightness_icon_summary"
+            android:dependency="qs_show_brightness"
+            android:defaultValue="true"/>
 
     </PreferenceCategory>
 
