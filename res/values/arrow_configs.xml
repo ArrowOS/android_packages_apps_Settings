@@ -33,4 +33,7 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
 
+    <!-- Whether to show or hide sensitive info (like IMEI and Phone Number) on About phone -->
+    <bool name="configShowDeviceSensitiveInfo">false</bool>
+
 </resources>
