@@ -91,7 +91,7 @@
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">Gestures</string>
     <string name="gesture_settings_dashboard_summary">Manage gesture settings</string>
-    <string name="custom_device_gestures_preference_title">Device gestures</string>
+    <string name="custom_device_gestures_preference_title">Device specific gestures</string>
 
     <!-- Global Actions -->
     <string name="advanced_powermenu_category_title">Advanced power menu</string>
