@@ -81,6 +81,10 @@
         android:fragment="com.android.settings.gestures.GlobalActionsPanelSettings"
         settings:controller="com.android.settings.gestures.GlobalActionsPanelPreferenceController" />
 
+    <Preference
+        android:key="custom_device_gestures_preference"
+        android:title="@string/custom_device_gestures_preference_title" />
+
     <PreferenceCategory
         android:key="statusbar_gestures_category"
         android:title="@string/statusbar_gestures_category_title">
@@ -102,9 +106,5 @@
             android:defaultValue="true" />
 
     </PreferenceCategory>
-
-    <Preference
-        android:key="custom_device_gestures_preference"
-        android:title="@string/custom_device_gestures_preference_title" />
 
 </PreferenceScreen>
