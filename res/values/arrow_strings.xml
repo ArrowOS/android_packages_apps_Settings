@@ -21,4 +21,8 @@
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">ArrowOS Stats</string>
     <string name="arrow_stats_summary">Just counting how many devices we run on</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
 </resources>
