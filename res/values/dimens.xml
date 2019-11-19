@@ -342,7 +342,7 @@
     <!-- Homepage cards size and padding -->
     <dimen name="contextual_card_icon_size">24dp</dimen>
     <dimen name="contextual_card_vertical_margin">8dp</dimen>
-    <dimen name="contextual_card_side_margin">4dp</dimen>
+    <dimen name="contextual_card_side_margin">8dp</dimen>
     <dimen name="contextual_card_icon_padding_start">14dp</dimen>
     <dimen name="contextual_card_text_padding_start">16dp</dimen>
     <dimen name="contextual_card_padding_end">16dp</dimen>
