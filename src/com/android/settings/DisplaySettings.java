@@ -41,8 +41,6 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.android.settings.development.OverlayCategoryPreferenceController;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -97,14 +95,8 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new ShowOperatorNamePreferenceController(context));
         controllers.add(new ThemePreferenceController(context));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
-	controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.accent_color"));
 	controllers.add(new CustomOverlayPreferenceController(context,
 		"android.theme.customization.custom_overlays"));
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.font"));
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.adaptive_icon_shape"));
         return controllers;
     }
 
