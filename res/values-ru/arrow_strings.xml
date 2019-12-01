@@ -78,7 +78,7 @@
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">Жесты</string>
     <string name="gesture_settings_dashboard_summary">Управление настройками жестов</string>
-    <string name="custom_device_gestures_preference_title">Device specific gestures</string>
+    <string name="custom_device_gestures_preference_title">Специальные настройки устройства</string>
     <!-- Global Actions -->
     <string name="advanced_powermenu_category_title">Расширенное меню перезагрузки</string>
     <string name="global_actions_title">Меню кнопки питания</string>
@@ -211,4 +211,7 @@
     <string name="data_usage_app_restrict_wifi_summary">Включить мониторинг данных Wi\u2011Fi</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Элементы строки состояния</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Пробуждение при зарядке</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Включать экран при подключении или отключении зарядного устройства</string>
 </resources>

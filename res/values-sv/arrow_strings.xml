@@ -211,4 +211,7 @@
     <string name="data_usage_app_restrict_wifi_summary">Aktivera användning av Wi\u2011Fi-data</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
 </resources>

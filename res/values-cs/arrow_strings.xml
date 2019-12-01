@@ -78,7 +78,7 @@
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">Gesta</string>
     <string name="gesture_settings_dashboard_summary">Správa nastavení gest</string>
-    <string name="custom_device_gestures_preference_title">Device specific gestures</string>
+    <string name="custom_device_gestures_preference_title">Gesta specifická pro zařízení</string>
     <!-- Global Actions -->
     <string name="advanced_powermenu_category_title">Rozšířené menu napájení</string>
     <string name="global_actions_title">Menu napájení</string>
@@ -211,4 +211,7 @@
     <string name="data_usage_app_restrict_wifi_summary">Povolit používání Wi\u2011Fi dat</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Položky stavového řádku</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Probudit při nabíjení</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Zapnout obrazovku při připojení nebo odpojení zdroje napájení</string>
 </resources>
