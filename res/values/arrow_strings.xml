@@ -17,5 +17,6 @@
     <!-- Arrow version preference -->
     <string name="arrow_version">"ArrowOS version"</string>
     <string name="build_date">"Build date"</string>
+    <string name="about_device_name">"Device"</string>
     
 </resources>
