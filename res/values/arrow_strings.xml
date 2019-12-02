@@ -31,4 +31,5 @@
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">Build date</string>
     <string name="arrow_version">ArrowOS version</string>
+    <string name="about_device_name">Device</string>
 </resources>
