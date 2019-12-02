@@ -17,6 +17,7 @@
     <!-- Arrow version preference -->
     <string name="arrow_version">"ArrowOS version"</string>
     <string name="build_date">"Build date"</string>
+    <string name="about_device_name">"Device"</string>
     
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
