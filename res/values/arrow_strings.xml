@@ -70,4 +70,8 @@
 
     <!-- Display customization category -->
     <string name="customization_category_title">Customization</string>
+
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 </resources>
