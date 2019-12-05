@@ -18,6 +18,9 @@
     <!-- Arrow version preference -->
     <string name="arrow_version">"ArrowOS version"</string>
     <string name="build_date">"Tanggal pembuatan"</string>
+    <string name="about_device_name">"Device"</string>
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Close</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Pemilih Warna</string>
     <string name="press_color_to_apply">Tekan pada warna di bawah untuk menerapkan</string>
@@ -211,4 +214,12 @@
     <string name="data_usage_app_restrict_wifi_summary">Hidupkan penggunaan data Wi\u2011Fi</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <!-- Gesture Navigation -->
+    <string name="back_height_low_label">Full</string>
+    <string name="back_height_high_label">Bottom</string>
+    <string name="back_options_dialog_title">Options</string>
+    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
 </resources>
