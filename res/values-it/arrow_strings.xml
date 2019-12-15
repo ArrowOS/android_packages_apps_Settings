@@ -18,9 +18,9 @@
     <!-- Arrow version preference -->
     <string name="arrow_version">"Versione ArrowOS"</string>
     <string name="build_date">"Data di compilazione"</string>
-    <string name="about_device_name">"Device"</string>
+    <string name="about_device_name">"Dispositivo"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Close</string>
+    <string name="suggestion_button_close">Chiudi</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Selettore dei colori</string>
     <string name="press_color_to_apply">Premere sul colore qui sotto per applicarlo</string>
@@ -218,8 +218,8 @@
     <string name="wake_when_plugged_or_unplugged_title">Risveglia al collegamento</string>
     <string name="wake_when_plugged_or_unplugged_summary">Accendi lo schermo quando colleghi o scolleghi il dispositivo all\'alimentazione</string>
     <!-- Gesture Navigation -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_height_low_label">Pieno</string>
+    <string name="back_height_high_label">In fondo</string>
+    <string name="back_options_dialog_title">Opzioni</string>
+    <string name="back_height_message">Altezza dell\'area di schermo della gesture per andare indietro.</string>
 </resources>
