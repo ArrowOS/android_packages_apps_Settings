@@ -18,9 +18,9 @@
     <!-- Arrow version preference -->
     <string name="arrow_version">"ArrowOS 版本"</string>
     <string name="build_date">"编译日期:"</string>
-    <string name="about_device_name">"Device"</string>
+    <string name="about_device_name">"设备"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Close</string>
+    <string name="suggestion_button_close">关闭</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">颜色选择器</string>
     <string name="press_color_to_apply">点击下列颜色以应用</string>
@@ -97,7 +97,7 @@
     <string name="global_actions_flashlight">手电筒</string>
     <string name="global_actions_emergency">紧急呼救</string>
     <string name="global_actions_advanced_reboot_title">启用高级重启</string>
-    <string name="global_actions_advanced_reboot_summary">重新启动时还会显示 Recovery 和 Bootloader 的选项</string>
+    <string name="global_actions_advanced_reboot_summary">重新启动时还会显示恢复模式和引导模式的选项</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">验证指纹时振动</string>
     <string name="fprint_sucess_vib_summary">验证指纹成功时振动</string>
@@ -218,8 +218,8 @@
     <string name="wake_when_plugged_or_unplugged_title">充电唤醒</string>
     <string name="wake_when_plugged_or_unplugged_summary">连接或断开电源线时唤醒屏幕</string>
     <!-- Gesture Navigation -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_height_low_label">全部</string>
+    <string name="back_height_high_label">底部</string>
+    <string name="back_options_dialog_title">选项</string>
+    <string name="back_height_message">用作返回手势的可触区域的屏幕高度。</string>
 </resources>
