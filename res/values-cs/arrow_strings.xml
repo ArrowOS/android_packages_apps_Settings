@@ -18,9 +18,9 @@
     <!-- Arrow version preference -->
     <string name="arrow_version">"Verze ArrowOS"</string>
     <string name="build_date">"Datum sestavení"</string>
-    <string name="about_device_name">"Device"</string>
+    <string name="about_device_name">"Zařízení"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Close</string>
+    <string name="suggestion_button_close">Zavřít</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Výběr barvy</string>
     <string name="press_color_to_apply">Klikněte na barvu pro její výběr</string>
@@ -218,8 +218,8 @@
     <string name="wake_when_plugged_or_unplugged_title">Probudit při nabíjení</string>
     <string name="wake_when_plugged_or_unplugged_summary">Zapnout obrazovku při připojení nebo odpojení zdroje napájení</string>
     <!-- Gesture Navigation -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_height_low_label">Plná</string>
+    <string name="back_height_high_label">Dolní</string>
+    <string name="back_options_dialog_title">Možnosti</string>
+    <string name="back_height_message">Hodnota výšky obrazovky použité jako dotyková oblast pro gesto Zpět.</string>
 </resources>
