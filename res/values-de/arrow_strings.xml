@@ -18,9 +18,9 @@
     <!-- Arrow version preference -->
     <string name="arrow_version">"ArrowOS Version"</string>
     <string name="build_date">"Erstellungsdatum"</string>
-    <string name="about_device_name">"Device"</string>
+    <string name="about_device_name">"Gerät"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Close</string>
+    <string name="suggestion_button_close">Schließen</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Farbauswahl</string>
     <string name="press_color_to_apply">Eine der Farben unten drücken, um sie anzuwenden</string>
@@ -77,7 +77,7 @@
     <string name="double_tap_sleep_gesture_title">Doppeltipp auf die Statusleiste, um den Bildschirm auszuschalten</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_gestures_category_title">Sperrbildschirmgesten</string>
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <string name="double_tap_sleep_lockscreen_title">Doppeltipp auf dem Sperrbildschirm, um den Bildschirm auszuschalten</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">Gesten</string>
     <string name="gesture_settings_dashboard_summary">Gesten Einstellungen verwalten</string>
@@ -85,13 +85,13 @@
     <!-- Global Actions -->
     <string name="advanced_powermenu_category_title">Erweitertes Neustartmenü</string>
     <string name="global_actions_title">Ein-/Aus-Menü</string>
-    <string name="global_actions_summary">Select what to show when you press the power button</string>
-    <string name="global_actions_power">Power</string>
+    <string name="global_actions_summary">Auswählen, was angezeigt wird, wenn der Power-Knopf gedrückt wird</string>
+    <string name="global_actions_power">Ausschalten</string>
     <string name="global_actions_restart">Neustarten</string>
     <string name="global_actions_airplane">Flugmodus</string>
     <string name="global_actions_settings">Einstellungen</string>
-    <string name="global_actions_lockdown">Lock Down</string>
-    <string name="global_actions_soundpanel">Sound Panel</string>
+    <string name="global_actions_lockdown">Sperren</string>
+    <string name="global_actions_soundpanel">Ton-Einstellungen</string>
     <string name="global_actions_users">Benutzer</string>
     <string name="global_actions_screenshot">Bildschirmfoto</string>
     <string name="global_actions_flashlight">Taschenlampe</string>
@@ -213,13 +213,13 @@
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi Daten</string>
     <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi Datennutzung aktivieren</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">Statusleiste Elemente</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="wake_when_plugged_or_unplugged_title">Beim Anschließen aufwecken</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Beim Anschließen oder Trennen einer Stromquelle den Bildschirm einschalten</string>
     <!-- Gesture Navigation -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_height_low_label">Vollständig</string>
+    <string name="back_height_high_label">Unten</string>
+    <string name="back_options_dialog_title">Optionen</string>
+    <string name="back_height_message">Bereich der Bildschirmhöhe, die als berührbare Region für die Zurück-Geste verwendet wird.</string>
 </resources>
