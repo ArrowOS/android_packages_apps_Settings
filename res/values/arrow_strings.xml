@@ -176,4 +176,8 @@
     <string name="profile_choose_app">Choose app</string>
     <string name="dialog_delete_title">Delete</string>
     <string name="dialog_delete_message">Remove selected item?</string>
+
+    <!-- Density options -->
+    <string name="density_category">Density options</string>
+
 </resources>
