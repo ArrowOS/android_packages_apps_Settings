@@ -183,4 +183,8 @@
 
     <!-- Volume panel on left switch -->
     <string name="volume_panel_on_left_title">Show volume panel on left</string>
+
+    <!-- Density options -->
+    <string name="density_category">Density options</string>
+
 </resources>
