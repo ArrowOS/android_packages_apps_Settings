@@ -164,9 +164,18 @@
         android:title="@string/device_theme"
         android:summary="@string/summary_placeholder" />
 
+        <ListPreference
+            android:key="android.theme.customization.accent_color"
+            android:title="@string/theme_customization_accent_color_title"/>
 	<ListPreference
             android:key="android.theme.customization.custom_overlays"
             android:title="@string/theme_customization_systemui_title"/>
+        <ListPreference
+            android:key="android.theme.customization.font"
+            android:title="@string/theme_customization_font_title"/>
+        <ListPreference
+            android:key="android.theme.customization.adaptive_icon_shape"
+            android:title="@string/theme_customization_icon_shape_title"/>
     </PreferenceCategory>
 
     <PreferenceCategory
