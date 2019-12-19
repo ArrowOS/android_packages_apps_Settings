@@ -65,6 +65,9 @@
 
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Color bucket</string>
+    <string name="theme_customization_accent_color_title">Accent color</string>
+    <string name="theme_customization_font_title">Headline / Body font</string>
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
 
     <!-- SELinux status -->
     <string name="selinux_status">SELinux status</string>
