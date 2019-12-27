@@ -18,6 +18,7 @@ package com.android.settings.arrow;
 import android.content.ContentResolver;
 import android.content.res.Resources;
 import android.content.Context;
+import android.content.om.IOverlayManager;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.os.Vibrator;
@@ -37,11 +38,16 @@ import com.android.settings.Utils;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.hwkeys.ActionConstants;
 import com.android.internal.util.hwkeys.ActionUtils;
+import com.android.settings.gestures.SystemNavigationGestureSettings;
 import com.android.settings.arrow.preferences.ActionFragment;
 import com.android.settings.arrow.preferences.CustomSeekBarPreference;
 
 public class HardwareKeys extends ActionFragment implements Preference.OnPreferenceChangeListener {
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
+
+    // Gestural Mode Pill Toggle Key
+    private static final String GESTURE_PILL_TOGGLE = "gesture_pill_toggle";
+    private static String currentNavGestureMode;
 
     // category keys
     private static final String CATEGORY_HWKEY = "hardware_keys";
@@ -67,6 +73,8 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
     public static final int KEY_MASK_VOLUME = 0x40;
 
     private SwitchPreference mHwKeyDisable;
+    private SwitchPreference gesturePillToggle;
+    private IOverlayManager mOverlayManager;
 
     private CustomSeekBarPreference mButtonTimoutBar;
     private CustomSeekBarPreference mManualButtonBrightness;
@@ -119,6 +127,23 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
             mHwKeyDisable.setOnPreferenceChangeListener(this);
         } else {
             prefScreen.removePreference(hwkeyCat);
+        }
+
+        mOverlayManager = IOverlayManager.Stub.asInterface(
+                ServiceManager.getService(Context.OVERLAY_SERVICE));
+        currentNavGestureMode = SystemNavigationGestureSettings
+                                    .getCurrentSystemNavigationMode(getContext());
+        gesturePillToggle = (SwitchPreference) findPreference(GESTURE_PILL_TOGGLE);
+        if (currentNavGestureMode == "system_nav_gestural") {
+            gesturePillToggle.setSummary(getResources().getString(
+                        com.android.internal.R.string.navbar_gesture_pill_toggle_summary));
+            gesturePillToggle.setChecked(SystemNavigationGestureSettings
+                        .getPillToggleState(getContext()) == 1 ? true : false);
+            gesturePillToggle.setOnPreferenceChangeListener(this);
+        } else {
+            gesturePillToggle.setSummary(getResources().getString(
+                        com.android.internal.R.string.navbar_gesture_pill_toggle_summary_disabled));
+            gesturePillToggle.setEnabled(false);
         }
 
         // bits for hardware keys present on device
@@ -221,6 +246,12 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
             int buttonBrightness = (Integer) newValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.CUSTOM_BUTTON_BRIGHTNESS, buttonBrightness);
+        } else if (preference == gesturePillToggle) {
+            boolean toggleState = (Boolean) newValue;
+            Settings.System.putInt(getContentResolver(), Settings.System.GESTURE_PILL_TOGGLE,
+                    toggleState ? 1 : 0);
+            SystemNavigationGestureSettings
+                    .setCurrentSystemNavigationMode(getContext(), mOverlayManager, currentNavGestureMode);
         } else {
             return false;
         }
