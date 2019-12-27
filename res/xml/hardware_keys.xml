@@ -34,6 +34,13 @@
             android:defaultValue="false" />
     </PreferenceCategory>
 
+    <PreferenceCategory android:key="navbar_gesture_mode_tweaks"
+        android:title="@string/navbar_gesture_mode_category_title">
+        <SwitchPreference android:key="gesture_pill_toggle"
+            android:title="@string/navbar_gesture_pill_toggle_title"
+            android:summary="@string/navbar_gesture_pill_toggle_summary" />
+    </PreferenceCategory>
+
     <PreferenceCategory android:key="hardware_keys"
         android:title="@string/hardware_keys_category">
         <SwitchPreference android:key="hardware_keys_disable"
