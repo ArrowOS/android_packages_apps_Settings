@@ -20,4 +20,12 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="gesture_system_navigation_screen"
     android:title="@string/system_navigation_title"
-    settings:keywords="@string/keywords_system_navigation"/>
+    settings:keywords="@string/keywords_system_navigation">
+
+    <PreferenceCategory android:key="navbar_gesture_mode_tweaks"
+      android:title="@string/navbar_gesture_mode_category_title">
+      <SwitchPreference android:key="gesture_pill_toggle"
+        android:title="@string/navbar_gesture_pill_toggle_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
