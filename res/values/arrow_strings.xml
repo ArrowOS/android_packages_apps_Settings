@@ -287,4 +287,8 @@
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+
+    <!-- NavigationBar Gestural Mode No Pill -->
+    <string name="navbar_gestures_pill">Disable navbar pill</string>
+    <string name="navbar_gestures_pill_summary">Nukes pill and gives more screen estate!</string>
 </resources>

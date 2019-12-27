@@ -117,4 +117,11 @@
                   android:ellipsize="marquee" />
 
     </LinearLayout>
+
+    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+        android:id="@+id/pill_toggle_switch"
+        android:key="pill_toggle"
+        android:title="@string/navbar_gestures_pill"
+        android:summary="@string/navbar_gestures_pill_summary"
+        android:defaultValue="false" />
 </LinearLayout>

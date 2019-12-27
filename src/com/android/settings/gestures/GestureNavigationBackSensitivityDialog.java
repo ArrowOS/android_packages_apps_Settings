@@ -25,6 +25,7 @@ import android.os.Bundle;
 import android.os.ServiceManager;
 import android.view.View;
 import android.widget.SeekBar;
+import com.android.settings.arrow.preferences.SystemSettingSwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
@@ -36,8 +37,10 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
     private static final String TAG = "GestureNavigationBackSensitivityDialog";
     private static final String KEY_BACK_SENSITIVITY = "back_sensitivity";
     private static final String KEY_BACK_HEIGHT = "back_height";
+    private static final String KEY_PILL_TOGGLE = "pill_toggle"
 
-    public static void show(SystemNavigationGestureSettings parent, int sensitivity, int height) {
+    public static void show(SystemNavigationGestureSettings parent, int sensitivity, int height,
+                            int pillState) {
         if (!parent.isAdded()) {
             return;
         }
@@ -47,6 +50,7 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
         final Bundle bundle = new Bundle();
         bundle.putInt(KEY_BACK_SENSITIVITY, sensitivity);
         bundle.putInt(KEY_BACK_HEIGHT, height);
+        bundle.putInt(KEY_PILL_TOGGLE, pillState);
         dialog.setArguments(bundle);
         dialog.setTargetFragment(parent, 0);
         dialog.show(parent.getFragmentManager(), TAG);
@@ -65,6 +69,8 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
         seekBarSensitivity.setProgress(getArguments().getInt(KEY_BACK_SENSITIVITY));
         final SeekBar seekBarHeight = view.findViewById(R.id.back_height_seekbar);
         seekBarHeight.setProgress(getArguments().getInt(KEY_BACK_HEIGHT));
+        final SystemSettingSwitchPreference pillToggleSwitch = view.findViewById(R.id.pill_toggle_switch);
+        pillToggleSwitch.setChecked(getArguments().getInt(KEY_PILL_TOGGLE));
         return new AlertDialog.Builder(getContext())
                 .setTitle(R.string.back_options_dialog_title)
                 .setMessage(R.string.back_sensitivity_dialog_message)
@@ -75,6 +81,9 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                     int height = seekBarHeight.getProgress();
                     getArguments().putInt(KEY_BACK_HEIGHT, height);
                     SystemNavigationGestureSettings.setBackHeight(getActivity(), height);
+                    int pillState = SystemNavigationGestureSettings.getPillToggleState(getActivity());
+                    getArguments().putInt(KEY_PILL_TOGGLE, pillState);
+                    SystemNavigationGestureSettings.setPillToggleState(getActivity(), pillState);
                     SystemNavigationGestureSettings.setBackSensitivity(getActivity(),
                             getOverlayManager(), sensitivity);
                 })
