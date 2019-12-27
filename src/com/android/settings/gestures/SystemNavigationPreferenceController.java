@@ -23,6 +23,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.provider.Settings;
 
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
@@ -94,5 +95,10 @@ public class SystemNavigationPreferenceController extends BasePreferenceControll
     static boolean isGestureNavigationEnabled(Context context) {
         return NAV_BAR_MODE_GESTURAL == context.getResources().getInteger(
                 com.android.internal.R.integer.config_navBarInteractionMode);
+    }
+
+    static boolean isNoPillEnabled(Context context) {
+        return Settings.System.getInt(context.getContentResolver(),
+                Settings.System.GESTURE_PILL_TOGGLE, 0) != 0;
     }
 }
