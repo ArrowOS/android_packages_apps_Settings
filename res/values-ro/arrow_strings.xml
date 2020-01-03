@@ -16,13 +16,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Arrow version preference -->
-    <string name="arrow_version">"ArrowOS version"</string>
-    <string name="build_date">"Build date"</string>
-    <string name="about_device_name">"Device"</string>
+    <string name="arrow_version">"Versiunea ArrowOS"</string>
+    <string name="build_date">"Dată compilare"</string>
+    <string name="about_device_name">"Dispozitiv"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Close</string>
+    <string name="suggestion_button_close">Închideţi</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
+    <string name="dialog_color_picker">Selector de culoare</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>

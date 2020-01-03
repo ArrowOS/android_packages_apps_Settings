@@ -56,9 +56,9 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Найдите сканер отпечатков пальцев на правой грани вашего планшета.</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Палитра цветов</string>
-    <string name="theme_customization_accent_color_title">Accent color</string>
-    <string name="theme_customization_font_title">Headline / Body font</string>
-    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <string name="theme_customization_accent_color_title">Цвет акцента</string>
+    <string name="theme_customization_font_title">Заголовок / Основной шрифт</string>
+    <string name="theme_customization_icon_shape_title">Форма значка</string>
     <!-- SELinux status -->
     <string name="selinux_status">Статус SELinux</string>
     <string name="selinux_status_disabled">Отключен</string>
@@ -137,7 +137,7 @@
     <string name="unlock_quick_unlock_control_summary">Разблокировать автоматически при вводе правильного ПИН-кода/пароля</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Индикация зарядки батареи</string>
-    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
+    <string name="battery_light_summary">Включение или выключение \"индикации батареи\" в режиме «Не беспокоить», при низком заряде батареи</string>
     <string name="battery_light_enable">Индикация батареи</string>
     <string name="battery_light_allow_on_dnd_title">Индикация батареи в режиме \"Не беспокоить\"</string>
     <string name="battery_light_low_blinking_title">Индикация при низком заряде батареи</string>
@@ -226,17 +226,17 @@
     <string name="back_height_high_label">Низ экрана</string>
     <string name="back_options_dialog_title">Параметры</string>
     <string name="back_height_message">Высота экрана используемая для жеста назад.</string>
-    <string name="app_package_name_title">Package</string>
-    <string name="app_version_title">Version</string>
+    <string name="app_package_name_title">Пакет</string>
+    <string name="app_version_title">Версия</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">Нажмите, чтобы показать информацию</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Предотвращать случайные пробуждения</string>
+    <string name="proximity_wake_summary">Проверка датчика приближения перед включением экрана</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="navbar_gesture_mode_category_title">Gesture mode tweaks</string>
+    <string name="navbar_gesture_mode_category_title">Настройки режима жестов</string>
     <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
-    <string name="navbar_gesture_pill_toggle_title">Full screen gestures</string>
-    <string name="navbar_gesture_pill_toggle_summary">This will hide both the navigation bar and the pill for a seamless fullscreen gesture experience.</string>
-    <string name="navbar_gesture_pill_toggle_summary_disabled">This option is only available for gesture navigation!</string>
+    <string name="navbar_gesture_pill_toggle_title">Жесты на весь экран</string>
+    <string name="navbar_gesture_pill_toggle_summary">Это скроет панель навигации для создания полноэкранного режима жестов.</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">Эта опция доступна только для жестов навигации!</string>
 </resources>
