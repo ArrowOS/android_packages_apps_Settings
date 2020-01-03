@@ -56,9 +56,9 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Leidke enda tahvelarvuti paremal küljel olev sõrmejäljeandur.</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Värvi kopp</string>
-    <string name="theme_customization_accent_color_title">Accent color</string>
-    <string name="theme_customization_font_title">Headline / Body font</string>
-    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <string name="theme_customization_accent_color_title">Aktsentvärv</string>
+    <string name="theme_customization_font_title">Pealkiri / põhifont</string>
+    <string name="theme_customization_icon_shape_title">Ikoonide kuju</string>
     <!-- SELinux status -->
     <string name="selinux_status">SELinux\'i olek</string>
     <string name="selinux_status_disabled">Keelatud</string>
@@ -137,7 +137,7 @@
     <string name="unlock_quick_unlock_control_summary">Ava automaatselt kui õige PIN/parool on sisestatud</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Aku laadimise tuli</string>
-    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
+    <string name="battery_light_summary">\"Aku indikaator\" sisse või välja lülitamine \"Ära häiri\" režiimis kui aku tühjeneb</string>
     <string name="battery_light_enable">Aku märgutuli</string>
     <string name="battery_light_allow_on_dnd_title">Aku märgutuli \'Mitte segada\' režiimis</string>
     <string name="battery_light_low_blinking_title">Vilkuv tuli tühja aku korral</string>
@@ -226,17 +226,17 @@
     <string name="back_height_high_label">All</string>
     <string name="back_options_dialog_title">Sätted</string>
     <string name="back_height_message">Tagasi žestimiseks kasutatava ekraani kõrgus.</string>
-    <string name="app_package_name_title">Package</string>
-    <string name="app_version_title">Version</string>
+    <string name="app_package_name_title">Pakett</string>
+    <string name="app_version_title">Versioon</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">Klõpsake teabe kuvamiseks</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Väldi juhuslikku ärkamist</string>
+    <string name="proximity_wake_summary">Kontrolli lähedussensorit enne ekraani äratamist</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="navbar_gesture_mode_category_title">Gesture mode tweaks</string>
+    <string name="navbar_gesture_mode_category_title">Žestide seaded</string>
     <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
-    <string name="navbar_gesture_pill_toggle_title">Full screen gestures</string>
-    <string name="navbar_gesture_pill_toggle_summary">This will hide both the navigation bar and the pill for a seamless fullscreen gesture experience.</string>
-    <string name="navbar_gesture_pill_toggle_summary_disabled">This option is only available for gesture navigation!</string>
+    <string name="navbar_gesture_pill_toggle_title">Täisekraani žestid</string>
+    <string name="navbar_gesture_pill_toggle_summary">See peidab navigeerimisriba täisekraani žestirežiimi loomiseks.</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">See valik on saadaval ainult navigeerimis sežtide korral!</string>
 </resources>
