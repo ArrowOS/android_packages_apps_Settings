@@ -56,9 +56,9 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Táblagépe jobb oldalán találhatja meg az ujjlenyomat-olvasót.</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Színválasztó</string>
-    <string name="theme_customization_accent_color_title">Accent color</string>
-    <string name="theme_customization_font_title">Headline / Body font</string>
-    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <string name="theme_customization_accent_color_title">Kiemelőszín</string>
+    <string name="theme_customization_font_title">Címsor / Törzs betűtípus</string>
+    <string name="theme_customization_icon_shape_title">Ikonok formája</string>
     <!-- SELinux status -->
     <string name="selinux_status">SELinux állapot</string>
     <string name="selinux_status_disabled">Letiltva</string>
@@ -137,7 +137,7 @@
     <string name="unlock_quick_unlock_control_summary">Oldja fel automatikusan ha helyes a PIN/jelszó</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Akkumulátor töltés jelzőfény</string>
-    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
+    <string name="battery_light_summary">Akkumulátor fény bekapcsolása vagy letiltása a Ne zavarjanak üzemmódban alacsony töltöttség esetén</string>
     <string name="battery_light_enable">Akkumulátor jelző fény</string>
     <string name="battery_light_allow_on_dnd_title">Akkumulátor fény a Ne zavarj módban</string>
     <string name="battery_light_low_blinking_title">Alacsony akkumulátorszintnél villogó fényjelzés</string>
@@ -226,17 +226,17 @@
     <string name="back_height_high_label">Alul</string>
     <string name="back_options_dialog_title">Beállítások</string>
     <string name="back_height_message">A mozdulatok felismeréséhez használt képernyő magasság.</string>
-    <string name="app_package_name_title">Package</string>
-    <string name="app_version_title">Version</string>
+    <string name="app_package_name_title">Csomag</string>
+    <string name="app_version_title">Verzió</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">Érintse meg az információ megjelenítéséhez</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Véletlen ébresztés megakadályozása</string>
+    <string name="proximity_wake_summary">Közelség érzékelő ellenőrzése a képernyő felébresztése előtt</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="navbar_gesture_mode_category_title">Gesture mode tweaks</string>
-    <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
-    <string name="navbar_gesture_pill_toggle_title">Full screen gestures</string>
-    <string name="navbar_gesture_pill_toggle_summary">This will hide both the navigation bar and the pill for a seamless fullscreen gesture experience.</string>
-    <string name="navbar_gesture_pill_toggle_summary_disabled">This option is only available for gesture navigation!</string>
+    <string name="navbar_gesture_mode_category_title">Mozdulatok finomhangolása</string>
+    <string name="navbar_gesture_mode_category_key">mozdulatok finomhangolása</string>
+    <string name="navbar_gesture_pill_toggle_title">Teljes képernyős mozdulatok</string>
+    <string name="navbar_gesture_pill_toggle_summary">Eltünteti a navigációs sávot és a fogantyút a zökkenőmentes teljes képernyős élményért.</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">Ez a beállítás csak a mozdulat vezérlés esetén elérhető!</string>
 </resources>
