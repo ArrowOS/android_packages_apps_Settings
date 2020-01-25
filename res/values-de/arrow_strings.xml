@@ -56,9 +56,9 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Suchen Sie den Fingerabdrucksensor auf der rechten Seite Ihres Tablets.</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Farbauswahl</string>
-    <string name="theme_customization_accent_color_title">Accent color</string>
-    <string name="theme_customization_font_title">Headline / Body font</string>
-    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <string name="theme_customization_accent_color_title">Akzentfarbe</string>
+    <string name="theme_customization_font_title">Überschrift / Beschreibung Schriftart</string>
+    <string name="theme_customization_icon_shape_title">Symbolform</string>
     <!-- SELinux status -->
     <string name="selinux_status">SELinux-Status</string>
     <string name="selinux_status_disabled">Deaktiviert</string>
@@ -137,7 +137,7 @@
     <string name="unlock_quick_unlock_control_summary">Automatisch entsperren, wenn die korrekte PIN/Passwort eingegeben wird</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Akku Lade-LED</string>
-    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
+    <string name="battery_light_summary">Aktivieren oder Deaktivieren der Akku-LED bei niedrigen Akkustand im \"Nicht Stören\" Modus</string>
     <string name="battery_light_enable">Akku-LED</string>
     <string name="battery_light_allow_on_dnd_title">Akku-LED im \"Nicht stören\"-Modus</string>
     <string name="battery_light_low_blinking_title">Blinkende LED bei schwachem Akku</string>
@@ -226,17 +226,17 @@
     <string name="back_height_high_label">Unten</string>
     <string name="back_options_dialog_title">Optionen</string>
     <string name="back_height_message">Bereich der Bildschirmhöhe, die als berührbare Region für die Zurück-Geste verwendet wird.</string>
-    <string name="app_package_name_title">Package</string>
+    <string name="app_package_name_title">Paket</string>
     <string name="app_version_title">Version</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">Antippen, um Info anzuzeigen</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
+    <string name="proximity_wake_summary">Näherungssensor vor dem Einschalten des Bildschirms überprüfen</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="navbar_gesture_mode_category_title">Gesture mode tweaks</string>
+    <string name="navbar_gesture_mode_category_title">Gestenmodus Anpassungen</string>
     <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
-    <string name="navbar_gesture_pill_toggle_title">Full screen gestures</string>
-    <string name="navbar_gesture_pill_toggle_summary">This will hide both the navigation bar and the pill for a seamless fullscreen gesture experience.</string>
-    <string name="navbar_gesture_pill_toggle_summary_disabled">This option is only available for gesture navigation!</string>
+    <string name="navbar_gesture_pill_toggle_title">Vollbild Gesten</string>
+    <string name="navbar_gesture_pill_toggle_summary">Dies wird die Navigationsleiste also auch den pillenförmigen Button für ein nahtloses Vollbild Navigationserlebnis ausblenden.</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">Diese Option ist nur für Gesten Navigation verfügbar!</string>
 </resources>

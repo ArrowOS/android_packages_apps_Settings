@@ -16,20 +16,20 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Arrow version preference -->
-    <string name="arrow_version">"ArrowOS version"</string>
-    <string name="build_date">"Build date"</string>
-    <string name="about_device_name">"Device"</string>
+    <string name="arrow_version">"ArrowOS versjon"</string>
+    <string name="build_date">"Byggedato"</string>
+    <string name="about_device_name">"Enhet"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Close</string>
+    <string name="suggestion_button_close">Lukk</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="dialog_color_picker">Fargevelger</string>
+    <string name="press_color_to_apply">Trykk på farge til å bruke den</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
+    <string name="set">Velg</string>
+    <string name="color_default">Standard</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
