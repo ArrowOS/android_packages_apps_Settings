@@ -27,6 +27,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.os.UserManager;
+import android.provider.Settings;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
@@ -83,6 +84,13 @@ public class SettingsHomepageActivity extends FragmentActivity {
                 startActivity(intent);
             }
         });
+
+        if(isUserEnabled(context)) {
+            avatarView.setVisibility(View.VISIBLE);
+        } else {
+            avatarView.setVisibility(View.GONE);
+        }
+
         //getLifecycle().addObserver(avatarViewMixin);
 
         if (!getSystemService(ActivityManager.class).isLowRamDevice()) {
@@ -134,10 +142,19 @@ public class SettingsHomepageActivity extends FragmentActivity {
         return drawableUserIcon;
     }
 
+    private boolean isUserEnabled(Context context) {
+        return Settings.Global.getInt(context.getContentResolver(),
+                    Settings.Global.USER_SWITCHER_ENABLED, 0) == 1;
+    }
+
     @Override
     public void onResume() {
         super.onResume();
-        avatarView.setImageDrawable(getCircularUserIcon(getApplicationContext()));
-
+        if(isUserEnabled(getApplicationContext())) {
+            avatarView.setImageDrawable(getCircularUserIcon(getApplicationContext()));
+            avatarView.setVisibility(View.VISIBLE);
+        } else {
+            avatarView.setVisibility(View.GONE);
+        }
     }
 }
