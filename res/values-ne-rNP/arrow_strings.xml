@@ -184,8 +184,8 @@
     <string name="hardware_keys_double_tap_title">Double tap action</string>
     <string name="hard_soft_keys">Buttons</string>
     <string name="hard_soft_keys_summary">Customise device buttons</string>
-    <string name="navigation_keys">Navigation bar</string>
-    <string name="navigation_keys_summary">Customise on-screen navigation bar</string>
+    <string name="navigation_keys">Enable navigation bar</string>
+    <string name="navigation_keys_title">Onscreen navigation bar</string>
     <string name="hardware_keys_category">हार्डवेयर नेभिगेसन बटनहरु</string>
     <string name="hardware_keys_disable_title">हार्डवेयर नेभिगेसन बटन बन्द गर्नुहोस</string>
     <string name="hardware_keys_wake_title">Wake device</string>
@@ -239,4 +239,6 @@
     <string name="navbar_gesture_pill_toggle_title">Full screen gestures</string>
     <string name="navbar_gesture_pill_toggle_summary">This will hide both the navigation bar and the pill for a seamless fullscreen gesture experience.</string>
     <string name="navbar_gesture_pill_toggle_summary_disabled">This option is only available for gesture navigation!</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert layout</string>
 </resources>

@@ -184,8 +184,8 @@
     <string name="hardware_keys_double_tap_title">Ação toque duplo</string>
     <string name="hard_soft_keys">Botões</string>
     <string name="hard_soft_keys_summary">Personalizar botões do dispositivo</string>
-    <string name="navigation_keys">Barra de navegação</string>
-    <string name="navigation_keys_summary">Personalizar barra de navegação na tela</string>
+    <string name="navigation_keys">Enable navigation bar</string>
+    <string name="navigation_keys_title">Onscreen navigation bar</string>
     <string name="hardware_keys_category">Botões de navegação físicos</string>
     <string name="hardware_keys_disable_title">Desabilitar os botões físicos</string>
     <string name="hardware_keys_wake_title">Acordar o dispositivo</string>
@@ -239,4 +239,6 @@
     <string name="navbar_gesture_pill_toggle_title">Gestos em tela cheia</string>
     <string name="navbar_gesture_pill_toggle_summary">Isso ocultará a barra de navegação e a pílula para uma experiência perfeita de gestos em tela cheia.</string>
     <string name="navbar_gesture_pill_toggle_summary_disabled">Esta opção só está disponível para navegação por gestos!</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert layout</string>
 </resources>

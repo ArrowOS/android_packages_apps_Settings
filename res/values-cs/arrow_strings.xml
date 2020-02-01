@@ -184,8 +184,8 @@
     <string name="hardware_keys_double_tap_title">Akce dvojím poklepáním</string>
     <string name="hard_soft_keys">Tlačítka</string>
     <string name="hard_soft_keys_summary">Přizpůsobit tlačítka zařízení</string>
-    <string name="navigation_keys">Navigační panel</string>
-    <string name="navigation_keys_summary">Přizpůsobit navigační panel na obrazovce</string>
+    <string name="navigation_keys">Enable navigation bar</string>
+    <string name="navigation_keys_title">Onscreen navigation bar</string>
     <string name="hardware_keys_category">Hardwarová navigační tlačítka</string>
     <string name="hardware_keys_disable_title">Zakázat hardwarová tlačítka</string>
     <string name="hardware_keys_wake_title">Probudit zařízení</string>
@@ -239,4 +239,6 @@
     <string name="navbar_gesture_pill_toggle_title">Gesta přes celou obrazovku</string>
     <string name="navbar_gesture_pill_toggle_summary">Tímto skryjete jak navigační panel, tak pilulku pro plynulé používání gest přes celou obrazovku.</string>
     <string name="navbar_gesture_pill_toggle_summary_disabled">Tato možnost je k dispozici pouze pro navigaci pomocí gest!</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert layout</string>
 </resources>

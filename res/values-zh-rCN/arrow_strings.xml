@@ -184,8 +184,8 @@
     <string name="hardware_keys_double_tap_title">双击操作</string>
     <string name="hard_soft_keys">按键</string>
     <string name="hard_soft_keys_summary">自定义设备按钮</string>
-    <string name="navigation_keys">导航栏</string>
-    <string name="navigation_keys_summary">自定义屏幕导航栏</string>
+    <string name="navigation_keys">Enable navigation bar</string>
+    <string name="navigation_keys_title">Onscreen navigation bar</string>
     <string name="hardware_keys_category">硬件导航按钮</string>
     <string name="hardware_keys_disable_title">禁用实体按钮</string>
     <string name="hardware_keys_wake_title">唤醒设备</string>
@@ -239,4 +239,6 @@
     <string name="navbar_gesture_pill_toggle_title">全屏手势</string>
     <string name="navbar_gesture_pill_toggle_summary">这将隐藏导航栏和药丸以获取无缝全屏手势体验。</string>
     <string name="navbar_gesture_pill_toggle_summary_disabled">此选项仅适用于手势导航！</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert layout</string>
 </resources>

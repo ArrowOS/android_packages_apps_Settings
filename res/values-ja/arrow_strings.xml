@@ -184,8 +184,8 @@
     <string name="hardware_keys_double_tap_title">ダブルタップアクション</string>
     <string name="hard_soft_keys">ボタン</string>
     <string name="hard_soft_keys_summary">端末のボタンを編集する</string>
-    <string name="navigation_keys">ナビゲーションバー</string>
-    <string name="navigation_keys_summary">オンスクリーンナビゲーションバーを編集する</string>
+    <string name="navigation_keys">Enable navigation bar</string>
+    <string name="navigation_keys_title">Onscreen navigation bar</string>
     <string name="hardware_keys_category">ハードウェアナビゲーションボタン</string>
     <string name="hardware_keys_disable_title">ハードウェアボタンを無効化</string>
     <string name="hardware_keys_wake_title">スリープ解除</string>
@@ -239,4 +239,6 @@
     <string name="navbar_gesture_pill_toggle_title">フルスクリーンのジェスチャー</string>
     <string name="navbar_gesture_pill_toggle_summary">これによってシームレスなジェスチャー体験のためにナビゲーションバーとピルを両方隠します。</string>
     <string name="navbar_gesture_pill_toggle_summary_disabled">このオプションはジェスチャーナビゲーションのみ有効です!</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert layout</string>
 </resources>

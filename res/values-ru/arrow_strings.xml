@@ -184,8 +184,8 @@
     <string name="hardware_keys_double_tap_title">Действие при двойном нажатии</string>
     <string name="hard_soft_keys">Кнопки</string>
     <string name="hard_soft_keys_summary">Настройка кнопок устройства</string>
-    <string name="navigation_keys">Панель навигации</string>
-    <string name="navigation_keys_summary">Настроить наэкранные кнопки навигации</string>
+    <string name="navigation_keys">Enable navigation bar</string>
+    <string name="navigation_keys_title">Onscreen navigation bar</string>
     <string name="hardware_keys_category">Аппаратные кнопки</string>
     <string name="hardware_keys_disable_title">Отключить аппаратные кнопки</string>
     <string name="hardware_keys_wake_title">Пробуждение устройства</string>
@@ -239,4 +239,6 @@
     <string name="navbar_gesture_pill_toggle_title">Жесты на весь экран</string>
     <string name="navbar_gesture_pill_toggle_summary">Это скроет панель навигации для создания полноэкранного режима жестов.</string>
     <string name="navbar_gesture_pill_toggle_summary_disabled">Эта опция доступна только для жестов навигации!</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert layout</string>
 </resources>

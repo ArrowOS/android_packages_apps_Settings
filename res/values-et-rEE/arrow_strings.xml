@@ -184,8 +184,8 @@
     <string name="hardware_keys_double_tap_title">Topeltvajutuse toiming</string>
     <string name="hard_soft_keys">Nupud</string>
     <string name="hard_soft_keys_summary">Seadme nuppude kohandamine</string>
-    <string name="navigation_keys">Navigeerimisriba</string>
-    <string name="navigation_keys_summary">Ekraanil oleva navigeerimisriba kohandamine</string>
+    <string name="navigation_keys">Enable navigation bar</string>
+    <string name="navigation_keys_title">Onscreen navigation bar</string>
     <string name="hardware_keys_category">Füüsilised navigatsiooninupud</string>
     <string name="hardware_keys_disable_title">Keela füüsilised nupud</string>
     <string name="hardware_keys_wake_title">Ärata seade</string>
@@ -239,4 +239,6 @@
     <string name="navbar_gesture_pill_toggle_title">Täisekraani žestid</string>
     <string name="navbar_gesture_pill_toggle_summary">See peidab navigeerimisriba täisekraani žestirežiimi loomiseks.</string>
     <string name="navbar_gesture_pill_toggle_summary_disabled">See valik on saadaval ainult navigeerimis sežtide korral!</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert layout</string>
 </resources>
