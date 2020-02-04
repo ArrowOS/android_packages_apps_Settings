@@ -164,9 +164,6 @@
         android:title="@string/device_theme"
         android:summary="@string/summary_placeholder" />
 
-	<ListPreference
-            android:key="android.theme.customization.custom_overlays"
-            android:title="@string/theme_customization_systemui_title"/>
     </PreferenceCategory>
 
     <PreferenceCategory
