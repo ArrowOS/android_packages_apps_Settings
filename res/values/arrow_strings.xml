@@ -18,6 +18,8 @@
     <string name="arrow_version">"ArrowOS version"</string>
     <string name="build_date">"Build date"</string>
     <string name="about_device_name">"Device"</string>
+    <string name="arrow_firmware_version">"Firmware Information"</string>
+    <string name="arrow_firmware_version_summary">"Android version and Device information"</string>
 
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">Close</string>
