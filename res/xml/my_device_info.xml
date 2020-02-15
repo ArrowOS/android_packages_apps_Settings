@@ -34,6 +34,7 @@
         android:order="1"
         android:title="@string/changelog_title"
         android:summary="@string/changelog_summary"
+        android:selectable="true"
         android:fragment="com.android.settings.arrow.Changelog" />
 
     <!-- Device name -->
