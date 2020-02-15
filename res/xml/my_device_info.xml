@@ -127,7 +127,7 @@
     <Preference
         android:key="firmware_version"
         android:order="42"
-        android:title="@string/firmware_version"
+        android:title="@string/arrow_firmware_version"
         android:summary="@string/summary_placeholder"
         android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
