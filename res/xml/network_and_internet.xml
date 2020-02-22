@@ -43,6 +43,14 @@
         settings:useAdminDisabledSummary="true">
     </com.android.settingslib.RestrictedPreference>
 
+    <Preference
+        android:key="traffic"
+        android:fragment="com.android.settings.arrow.Traffic"
+        android:order="-10"
+        android:icon="@drawable/ic_traffic"
+        android:title="@string/traffic_title"
+        android:summary="@string/traffic_summary" />
+
     <com.android.settingslib.RestrictedPreference
         android:fragment="com.android.settings.TetherSettings"
         android:key="tether_settings"
@@ -71,6 +79,12 @@
         settings:controller="com.android.settings.network.AirplaneModePreferenceController"
         settings:platform_slice="true"
         settings:userRestriction="no_airplane_mode"/>
+
+    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+        android:key="roaming_indicator_icon"
+        android:title="@string/roaming_indicator_icon_title"
+        android:summary="@string/roaming_indicator_icon_summary"
+        android:defaultValue="true"/>
 
     <Preference
         android:fragment="com.android.settings.ProxySelector"

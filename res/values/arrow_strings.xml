@@ -78,6 +78,7 @@
 
     <!-- Network traffic -->
     <string name="traffic_title">Traffic indicators</string>
+    <string name="traffic_summary">Enable or disable network speed indicators</string>
     <string name="network_traffic_title">Network traffic</string>
     <string name="network_traffic_type">Select net activity type</string>
     <string name="show_network_traffic_up">Uplink</string>
