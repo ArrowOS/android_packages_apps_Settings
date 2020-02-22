@@ -56,7 +56,8 @@
         android:fragment="com.android.settings.arrow.Traffic"
         android:order="-10"
         android:icon="@drawable/ic_traffic"
-        android:title="@string/traffic_title" />
+        android:title="@string/traffic_title"
+        android:summary="@string/traffic_summary" />
 
     <com.android.settingslib.RestrictedSwitchPreference
         android:key="airplane_mode"
