@@ -309,6 +309,5 @@
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
 
    <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
-    <string name="battery_temp_summary">Tap to switch scale</string>
+    <string name="battery_temp_title">Battery temperature (Tap to switch scale)</string>
 </resources>
