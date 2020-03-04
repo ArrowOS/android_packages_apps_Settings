@@ -51,6 +51,12 @@
             android:summary="@string/lockdown_settings_summary"
             settings:controller="com.android.settings.security.LockdownButtonPreferenceController" />
 
+        <com.arrow.support.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_battery_info"
+            android:title="@string/lockscreen_battery_info_title"
+            android:summary="@string/lockscreen_battery_info_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
