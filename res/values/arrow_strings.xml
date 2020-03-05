@@ -229,11 +229,12 @@
     <string name="hardware_keys_double_tap_title">Double tap action</string>
     <string name="hard_soft_keys">Buttons</string>
     <string name="hard_soft_keys_summary">Customise device buttons</string>
-    <string name="navigation_keys">Enable navigation bar</string>
-    <string name="navigation_keys_title">Onscreen navigation bar</string>
     <string name="hardware_keys_category">Hardware navigation buttons</string>
     <string name="hardware_keys_disable_title">Disable hardware buttons</string>
     <string name="hardware_keys_wake_title">Wake device</string>
+    <string name="navigation_bar_title">On-screen navigation bar</string>
+    <string name="navigation_keys_title">Navigation bar</string>
+    <string name="navigation_bar_summary">Enable on-screen navigation keys</string>
 
     <!-- Settings categories -->
     <string name="statusbar_category_title">StatusBar</string>
