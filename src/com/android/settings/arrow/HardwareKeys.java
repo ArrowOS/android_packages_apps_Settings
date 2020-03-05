@@ -55,6 +55,7 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
     private static final String KEY_BUTTON_MANUAL_BRIGHTNESS_NEW = "button_manual_brightness_new";
     private static final String KEY_BUTTON_TIMEOUT = "button_timeout";
     private static final String KEY_BUTON_BACKLIGHT_OPTIONS = "button_backlight_options_category";
+    private static final String KEY_NAVIGATION_BAR_ENABLED = "force_show_navbar";
 
     // Masks for checking presence of hardware keys.
     // Must match values in frameworks/base/core/res/res/values/config.xml
@@ -67,6 +68,7 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
     public static final int KEY_MASK_VOLUME = 0x40;
 
     private SwitchPreference mHwKeyDisable;
+    private SwitchPreference mDisableNavigationKeys;
 
     private CustomSeekBarPreference mButtonTimoutBar;
     private CustomSeekBarPreference mManualButtonBrightness;
@@ -78,7 +80,7 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
         addPreferencesFromResource(R.xml.hardware_keys);
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
-        ContentResolver resolver = getContentResolver();
+        final ContentResolver resolver = getActivity().getContentResolver();
 
         mManualButtonBrightness = (CustomSeekBarPreference) findPreference(
                 KEY_BUTTON_MANUAL_BRIGHTNESS_NEW);
@@ -101,6 +103,7 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
                 com.android.internal.R.bool.config_button_brightness_support);
 
         mButtonBackLightCategory = (PreferenceCategory) findPreference(KEY_BUTON_BACKLIGHT_OPTIONS);
+        mDisableNavigationKeys = (SwitchPreference) findPreference(KEY_NAVIGATION_BAR_ENABLED );
 
         if (!enableBacklightOptions) {
             prefScreen.removePreference(mButtonBackLightCategory);
@@ -153,6 +156,15 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
                 .findPreference(CATEGORY_ASSIST);
         final PreferenceCategory appSwitchCategory = (PreferenceCategory) prefScreen
                 .findPreference(CATEGORY_APPSWITCH);
+
+        // Only visible on devices that does not have a navigation bar already
+        if (ActionUtils.hasNavbarByDefault(getActivity())) {
+            prefScreen.removePreference(mDisableNavigationKeys);
+        } else {
+            updateDisableNavkeysOption();
+            updateDisableNavkeysCategories(mDisableNavigationKeys.isChecked());
+        }
+
         // back key
         if (hasBackKey) {
             if (!showBackWake) {
@@ -206,6 +218,23 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
         setActionPreferencesEnabled(keysDisabled == 0);
     }
 
+    private void writeDisableNavkeysOption(boolean enabled) {
+        Settings.System.putIntForUser(getActivity().getContentResolver(),
+                Settings.System.FORCE_SHOW_NAVBAR, enabled ? 1 : 0, UserHandle.USER_CURRENT);
+    }
+
+    private void updateDisableNavkeysOption() {
+        boolean enabled = Settings.System.getIntForUser(getActivity().getContentResolver(),
+                Settings.System.FORCE_SHOW_NAVBAR, 0, UserHandle.USER_CURRENT) != 0;
+
+        mDisableNavigationKeys.setChecked(enabled);
+    }
+
+    private void updateDisableNavkeysCategories(boolean navbarEnabled) {
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+
+    }
+
      @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mHwKeyDisable) {
@@ -221,6 +250,13 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
             int buttonBrightness = (Integer) newValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.CUSTOM_BUTTON_BRIGHTNESS, buttonBrightness);
+        } else if  (preference == mDisableNavigationKeys){
+            mDisableNavigationKeys.setEnabled(false);
+            writeDisableNavkeysOption(mDisableNavigationKeys.isChecked());
+            updateDisableNavkeysOption();
+            updateDisableNavkeysCategories(true);
+            mDisableNavigationKeys.setEnabled(true);
+            updateDisableNavkeysCategories(mDisableNavigationKeys.isChecked());
         } else {
             return false;
         }
