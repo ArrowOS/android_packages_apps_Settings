@@ -55,6 +55,7 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
     private static final String KEY_BUTTON_MANUAL_BRIGHTNESS_NEW = "button_manual_brightness_new";
     private static final String KEY_BUTTON_TIMEOUT = "button_timeout";
     private static final String KEY_BUTON_BACKLIGHT_OPTIONS = "button_backlight_options_category";
+    private static final String KEY_NAVIGATION_BAR_ENABLED = "force_show_navbar";
 
     // Masks for checking presence of hardware keys.
     // Must match values in frameworks/base/core/res/res/values/config.xml
@@ -67,6 +68,7 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
     public static final int KEY_MASK_VOLUME = 0x40;
 
     private SwitchPreference mHwKeyDisable;
+    private SwitchPreference mNavigationBar;
 
     private CustomSeekBarPreference mButtonTimoutBar;
     private CustomSeekBarPreference mManualButtonBrightness;
@@ -78,7 +80,18 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
         addPreferencesFromResource(R.xml.hardware_keys);
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
-        ContentResolver resolver = getContentResolver();
+        final ContentResolver resolver = getActivity().getContentResolver();
+
+        final boolean DefaultToNavbar = ActionUtils.hasNavbarByDefault(getActivity());
+        final boolean navigationBarEnabled = Settings.System.getIntForUser(
+                resolver, Settings.System.FORCE_SHOW_NAVBAR,
+                DefaultToNavbar ? 1 : 0, UserHandle.USER_CURRENT) != 0;
+
+        mNavigationBar = (SwitchPreference) findPreference(KEY_NAVIGATION_BAR_ENABLED);
+        mNavigationBar.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.FORCE_SHOW_NAVBAR,
+                DefaultToNavbar ? 1 : 0) == 1));
+        mNavigationBar.setOnPreferenceChangeListener(this);
 
         mManualButtonBrightness = (CustomSeekBarPreference) findPreference(
                 KEY_BUTTON_MANUAL_BRIGHTNESS_NEW);
@@ -221,8 +234,11 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
             int buttonBrightness = (Integer) newValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.CUSTOM_BUTTON_BRIGHTNESS, buttonBrightness);
-        } else {
-            return false;
+        } else if (preference == mNavigationBar) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.FORCE_SHOW_NAVBAR, value ? 1 : 0);
+            return true;
         }
         return true;
     }
