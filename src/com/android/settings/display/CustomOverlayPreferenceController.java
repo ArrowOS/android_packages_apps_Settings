@@ -102,9 +102,9 @@ public class CustomOverlayPreferenceController extends DeveloperOptionsPreferenc
         mCategory = category;
         mAvailable = overlayManager != null
                      && !getOverlayInfos().isEmpty()
-                     && mUiModeManager.getNightMode() == UiModeManager.MODE_NIGHT_YES;
+                     && mUiModeManager.getNightMode() == UiModeManager.MODE_NIGHT_YES
+                     && mUiModeManager.getNightMode() == UiModeManager.MODE_NIGHT_AUTO;
     }
-
     public CustomOverlayPreferenceController(Context context, String category) {
         this(context, context.getPackageManager(), IOverlayManager.Stub
                 .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE)), category);
@@ -282,6 +282,8 @@ public class CustomOverlayPreferenceController extends DeveloperOptionsPreferenc
                     setOverlay(PACKAGE_DEVICE_DEFAULT);
                 } else if (mUiModeManager.getNightMode() == UiModeManager.MODE_NIGHT_YES) {
                     // Set back previously selected overlay on re-enabling dark mode
+                    setOverlay(Settings.System.getString(resolver, Settings.System.COLOR_BUCKET_OVERLAY));
+                } else if (mUiModeManager.getNightMode() == UiModeManager.MODE_NIGHT_AUTO) {
                     setOverlay(Settings.System.getString(resolver, Settings.System.COLOR_BUCKET_OVERLAY));
                 }
             }
