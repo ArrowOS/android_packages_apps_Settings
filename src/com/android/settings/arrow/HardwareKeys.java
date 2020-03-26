@@ -105,12 +105,6 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
         mButtonTimoutBar.setOnPreferenceChangeListener(this);
 
         mEnableNavBar = (SwitchPreference) prefScreen.findPreference(KEYS_SHOW_NAVBAR_KEY);
-        final boolean showNavBarDefault = ActionUtils.hasNavbarByDefault(getActivity());
-
-        boolean showNavBar = Settings.System.getIntForUser(getActivity().getContentResolver(),
-                Settings.System.FORCE_SHOW_NAVBAR, showNavBarDefault ? 1 : 0, UserHandle.USER_CURRENT) != 0;
-        mEnableNavBar.setChecked(showNavBar);
-
         final boolean enableBacklightOptions = getResources().getBoolean(
                 com.android.internal.R.bool.config_button_brightness_support);
 
@@ -124,6 +118,10 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
         final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen
                 .findPreference(CATEGORY_HWKEY);
         int keysDisabled = 0;
+
+        final PreferenceCategory navbarshowKey = (PreferenceCategory) prefScreen
+                .findPreference(KEYS_SHOW_NAVBAR_KEY);
+
         if (!needsNavbar) {
             mHwKeyDisable = (SwitchPreference) findPreference(HWKEY_DISABLE);
             keysDisabled = Settings.Secure.getIntForUser(getContentResolver(),
@@ -131,8 +129,14 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
                     UserHandle.USER_CURRENT);
             mHwKeyDisable.setChecked(keysDisabled != 0);
             mHwKeyDisable.setOnPreferenceChangeListener(this);
+
+        boolean showNavBar = Settings.System.getIntForUser(getActivity().getContentResolver(),
+                Settings.System.FORCE_SHOW_NAVBAR, needsNavbar ? 1 : 0, UserHandle.USER_CURRENT) != 0;
+        mEnableNavBar.setChecked(showNavBar);
+
         } else {
             prefScreen.removePreference(hwkeyCat);
+            prefScreen.removePreference(navbarshowKey);
         }
 
         // bits for hardware keys present on device
