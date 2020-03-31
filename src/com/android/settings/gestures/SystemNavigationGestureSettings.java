@@ -59,6 +59,8 @@ import com.android.settings.widget.VideoPreference;
 import com.android.settingslib.search.SearchIndexable;
 import com.android.settingslib.widget.CandidateInfo;
 
+import com.android.internal.util.arrow.ArrowUtils;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -68,6 +70,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
         implements Preference.OnPreferenceChangeListener {
 
     private static final String GESTURE_PILL_TOGGLE = "gesture_pill_toggle";
+    private static final String KEYS_SHOW_NAVBAR_KEY = "navigation_bar_show_new";
 
     private static final String TAG = "SystemNavigationGesture";
 
@@ -129,6 +132,9 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
 
     private PreferenceCategory gestureTweaksCategory;
     private SwitchPreference gesturePillToggle;
+    private SwitchPreference mEnableNavBar;
+
+    private boolean showNavBarDefault = ArrowUtils.deviceSupportNavigationBar(getActivity());
 
     @Override
     public void onAttach(Context context) {
@@ -158,6 +164,19 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
                     R.string.navbar_gesture_pill_toggle_title));
         gesturePillToggle.setChecked(getPillToggleState(context) == 1 ? true : false);
         gesturePillToggle.setOnPreferenceChangeListener(this);
+
+        mEnableNavBar = new SwitchPreference(context);
+        mEnableNavBar.setKey(KEYS_SHOW_NAVBAR_KEY);
+        mEnableNavBar.setTitle(getResources().getString(
+                    R.string.navigation_bar_title));
+        mEnableNavBar.setSummary(getResources().getString(
+                    R.string.navigation_bar_summary));
+
+        boolean showNavBar = Settings.System.getInt(context.getContentResolver(),
+                Settings.System.FORCE_SHOW_NAVBAR, showNavBarDefault ? 1 : 0) == 1;
+        mEnableNavBar.setChecked(showNavBar);
+        mEnableNavBar.setEnabled(!showNavBarDefault);
+        mEnableNavBar.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -201,6 +220,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
         }
         screen.addPreference(gestureTweaksCategory);
         gestureTweaksCategory.addPreference(gesturePillToggle);
+        gestureTweaksCategory.addPreference(mEnableNavBar);
 
         mayCheckOnlyRadioButton();
     }
@@ -439,6 +459,10 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
             setBackGestureOverlaysToUse(getContext());
             setCurrentSystemNavigationMode(getContext(), mOverlayManager,
                     getCurrentSystemNavigationMode(getContext()));
+        } else if (preference == mEnableNavBar) {
+            boolean checked = (Boolean) newValue;
+            Settings.System.putInt(getContext().getContentResolver(),
+                    Settings.System.FORCE_SHOW_NAVBAR, checked ? 1 : 0);
         }
 
         return true;
