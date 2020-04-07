@@ -18,6 +18,7 @@
     <string name="arrow_version">"Версия ArrowOS"</string>
     <string name="build_date">"Дата сборки"</string>
     <string name="about_device_name">"Устройство"</string>
+    <string name="arrow_firmware_version">"Информация о прошивке"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">Закрыть</string>
     <!-- Color Picker -->
@@ -54,7 +55,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Найдите сканер отпечатков пальцев на левой грани вашего планшета.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Найдите сканер отпечатков пальцев на правой грани вашего планшета.</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Палитра цветов</string>
+    <string name="theme_customization_systemui_title">Стили тёмной темы</string>
     <string name="theme_customization_accent_color_title">Цвет акцента</string>
     <string name="theme_customization_font_title">Заголовок / Основной шрифт</string>
     <string name="theme_customization_icon_shape_title">Форма значка</string>
@@ -65,6 +66,7 @@
     <string name="selinux_status_enforcing">Принудительный</string>
     <!-- Network traffic -->
     <string name="traffic_title">Индикатор сетевого трафика</string>
+    <string name="traffic_summary">Включение и отключение индикатора сетевого трафика</string>
     <string name="network_traffic_title">Сетевой трафик</string>
     <string name="network_traffic_type">Выберите тип сетевой активности</string>
     <string name="show_network_traffic_up">Исходящий трафик</string>
@@ -84,6 +86,7 @@
     <string name="gesture_settings_dashboard_title">Жесты</string>
     <string name="gesture_settings_dashboard_summary">Управление настройками жестов</string>
     <string name="custom_device_gestures_preference_title">Специальные настройки устройства</string>
+    <string name="custom_device_gestures_preference_summary">Здесь отображаются жесты для устройства</string>
     <!-- Global Actions -->
     <string name="advanced_powermenu_category_title">Расширенное меню перезагрузки</string>
     <string name="global_actions_title">Меню кнопки питания</string>
@@ -240,4 +243,12 @@
     <string name="navbar_gesture_pill_toggle_summary_disabled">Эта опция доступна только для жестов навигации!</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Инвертировать порядок кнопок</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Включить фонарик</string>
+    <string name="double_tap_power_flashlight_title">Включение фонарика кнопкой питания при выключенном экране</string>
+    <string name="torch_power_button_gesture_none">Отключено</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания для включения фонарика</string>
+    <string name="torch_power_button_gesture_lp">Удержание кнопки питания для включения фонарика</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Температура батареи</string>
 </resources>

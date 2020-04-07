@@ -18,6 +18,7 @@
     <string name="arrow_version">"ArrowOS version"</string>
     <string name="build_date">"Ημερομηνία δημιουργίας"</string>
     <string name="about_device_name">"Device"</string>
+    <string name="arrow_firmware_version">"Firmware Information"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">Close</string>
     <!-- Color Picker -->
@@ -54,7 +55,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Color bucket</string>
+    <string name="theme_customization_systemui_title">Dark theme styles</string>
     <string name="theme_customization_accent_color_title">Accent color</string>
     <string name="theme_customization_font_title">Headline / Body font</string>
     <string name="theme_customization_icon_shape_title">Icon shape</string>
@@ -65,6 +66,7 @@
     <string name="selinux_status_enforcing">Επιβεβλημένο</string>
     <!-- Network traffic -->
     <string name="traffic_title">Δείκτες κίνησης δικτύου</string>
+    <string name="traffic_summary">Enable or disable network speed indicators</string>
     <string name="network_traffic_title">Κίνηση δικτύου</string>
     <string name="network_traffic_type">Επιλέξτε είδος δραστηριότητα διαδυκτιου</string>
     <string name="show_network_traffic_up">Ανέβασμα</string>
@@ -84,6 +86,7 @@
     <string name="gesture_settings_dashboard_title">Gestures</string>
     <string name="gesture_settings_dashboard_summary">Manage gesture settings</string>
     <string name="custom_device_gestures_preference_title">Device specific gestures</string>
+    <string name="custom_device_gestures_preference_summary">Device specific gestures package is shown here</string>
     <!-- Global Actions -->
     <string name="advanced_powermenu_category_title">Advanced power menu</string>
     <string name="global_actions_title">Power menu</string>
@@ -240,4 +243,12 @@
     <string name="navbar_gesture_pill_toggle_summary_disabled">This option is only available for gesture navigation!</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Invert layout</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
+    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
 </resources>

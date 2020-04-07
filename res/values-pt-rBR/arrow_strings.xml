@@ -18,6 +18,7 @@
     <string name="arrow_version">"Versão ArrowOS"</string>
     <string name="build_date">"Data da compilação"</string>
     <string name="about_device_name">"Dispositivo"</string>
+    <string name="arrow_firmware_version">"Informações de Firmware"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">Fechar</string>
     <!-- Color Picker -->
@@ -54,7 +55,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Localize o sensor de impressão digital no lado esquerdo do seu tablet.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Localize o sensor de impressão digital no lado direito do seu tablet.</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Seleção de cores</string>
+    <string name="theme_customization_systemui_title">Dark theme styles</string>
     <string name="theme_customization_accent_color_title">Cor de destaque</string>
     <string name="theme_customization_font_title">Fonte do título / Corpo</string>
     <string name="theme_customization_icon_shape_title">Forma do ícone</string>
@@ -65,6 +66,7 @@
     <string name="selinux_status_enforcing">Execução</string>
     <!-- Network traffic -->
     <string name="traffic_title">Indicadores de tráfego</string>
+    <string name="traffic_summary">Ativar ou desativar indicadores de velocidade de rede</string>
     <string name="network_traffic_title">Tráfego de rede</string>
     <string name="network_traffic_type">Selecionar tipo de atividade de rede</string>
     <string name="show_network_traffic_up">Saída</string>
@@ -84,6 +86,7 @@
     <string name="gesture_settings_dashboard_title">Gestos</string>
     <string name="gesture_settings_dashboard_summary">Gerenciar configurações de gesto</string>
     <string name="custom_device_gestures_preference_title">Gestos específicos do dispositivo</string>
+    <string name="custom_device_gestures_preference_summary">Pacote de gestos específicos do dispositivo é mostrado aqui</string>
     <!-- Global Actions -->
     <string name="advanced_powermenu_category_title">Menu de energia avançado</string>
     <string name="global_actions_title">Menu de energia</string>
@@ -240,4 +243,12 @@
     <string name="navbar_gesture_pill_toggle_summary_disabled">Esta opção só está disponível para navegação por gestos!</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Inverter Botões</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Ativar a lanterna</string>
+    <string name="double_tap_power_flashlight_title">Desligar a lanterna com o botão liga/desliga</string>
+    <string name="torch_power_button_gesture_none">Desativado</string>
+    <string name="torch_power_button_gesture_dt">Toque duplo para ligar a lanterna</string>
+    <string name="torch_power_button_gesture_lp">Manter pressionado o botão liga/desliga para ativar a lanterna</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Temperatura da bateria</string>
 </resources>

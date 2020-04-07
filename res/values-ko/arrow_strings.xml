@@ -15,11 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Arrow version preference -->
-    <string name="arrow_version">"ArrowOS version"</string>
+    <string name="arrow_version">"ArrowOS 버전"</string>
     <string name="build_date">"빌드 날짜"</string>
-    <string name="about_device_name">"Device"</string>
+    <string name="about_device_name">"장치"</string>
+    <string name="arrow_firmware_version">"Firmware Information"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Close</string>
+    <string name="suggestion_button_close">닫기</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">색상 선택</string>
     <string name="press_color_to_apply">적용할 색상을 아래에서 선택하세요</string>
@@ -31,7 +32,7 @@
     <string name="color_default">기본값</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">잠금 화면에 충전 정보 표시</string>
-    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_summary">충전 중 잠금 화면에 현재 충전 전압과 배터리 온도를 표시합니다.</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">스크린샷 음향</string>
     <!-- Changelog -->
@@ -54,8 +55,8 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Color bucket</string>
-    <string name="theme_customization_accent_color_title">Accent color</string>
+    <string name="theme_customization_systemui_title">Dark theme styles</string>
+    <string name="theme_customization_accent_color_title">강조 색</string>
     <string name="theme_customization_font_title">Headline / Body font</string>
     <string name="theme_customization_icon_shape_title">Icon shape</string>
     <!-- SELinux status -->
@@ -65,12 +66,13 @@
     <string name="selinux_status_enforcing">시행 (Enforcing)</string>
     <!-- Network traffic -->
     <string name="traffic_title">트래픽 표시</string>
+    <string name="traffic_summary">Enable or disable network speed indicators</string>
     <string name="network_traffic_title">네트워크 트래픽</string>
     <string name="network_traffic_type">인터넷 활동 종류를 선택하세요</string>
     <string name="show_network_traffic_up">업링크</string>
     <string name="show_network_traffic_down">다운링크</string>
     <string name="show_network_traffic_all">업링크와 다운링크</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_state_title">상태 표시줄에 네트워크 트래픽 표시</string>
     <string name="network_traffic_autohide_threshold_title">트래픽 숨기기 최소값 (KB/s)</string>
     <string name="network_traffic_hidearrow">화살표 숨기기</string>
     <string name="network_traffic_hidearrow_summary">네트워크 트래픽 표시기 화살표 숨기기</string>
@@ -78,28 +80,29 @@
     <string name="statusbar_gestures_category_title">Statusbar gestures</string>
     <string name="double_tap_sleep_gesture_title">상태 표시줄을에서 2 번 두드려 화면 끄기</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_gestures_category_title">Lockscreen gestures</string>
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <string name="lockscreen_gestures_category_title">잠금화면 제스처</string>
+    <string name="double_tap_sleep_lockscreen_title">잠금 화면에서 2 번 두드려 화면 끄기</string>
     <!-- Settings dashboard gestures -->
-    <string name="gesture_settings_dashboard_title">Gestures</string>
-    <string name="gesture_settings_dashboard_summary">Manage gesture settings</string>
+    <string name="gesture_settings_dashboard_title">제스처</string>
+    <string name="gesture_settings_dashboard_summary">제스쳐 설정</string>
     <string name="custom_device_gestures_preference_title">Device specific gestures</string>
+    <string name="custom_device_gestures_preference_summary">Device specific gestures package is shown here</string>
     <!-- Global Actions -->
-    <string name="advanced_powermenu_category_title">Advanced power menu</string>
-    <string name="global_actions_title">Power menu</string>
-    <string name="global_actions_summary">Select what to show when you press the power button</string>
-    <string name="global_actions_power">Power</string>
-    <string name="global_actions_restart">Restart</string>
-    <string name="global_actions_airplane">Airplane</string>
-    <string name="global_actions_settings">Settings</string>
-    <string name="global_actions_lockdown">Lock Down</string>
+    <string name="advanced_powermenu_category_title">고급 전원 메뉴</string>
+    <string name="global_actions_title">전원 메뉴</string>
+    <string name="global_actions_summary">전원 단추를 누를 때 표시 할 항목 선택</string>
+    <string name="global_actions_power">전원</string>
+    <string name="global_actions_restart">다시 시작</string>
+    <string name="global_actions_airplane">비행기 모드</string>
+    <string name="global_actions_settings">설정</string>
+    <string name="global_actions_lockdown">잠금</string>
     <string name="global_actions_soundpanel">Sound Panel</string>
-    <string name="global_actions_users">Users</string>
-    <string name="global_actions_screenshot">Screenshot</string>
-    <string name="global_actions_flashlight">Flashlight</string>
+    <string name="global_actions_users">사용자</string>
+    <string name="global_actions_screenshot">스크린샷</string>
+    <string name="global_actions_flashlight">손전등</string>
     <string name="global_actions_emergency">Emergency</string>
-    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
-    <string name="global_actions_advanced_reboot_summary">When restarting also show options for recovery and bootloader</string>
+    <string name="global_actions_advanced_reboot_title">고급 다시 시작 사용</string>
+    <string name="global_actions_advanced_reboot_summary">다시 시작할 때 복구 및 부트 로더 옵션 표시 합니다.</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">지문 인식 진동</string>
     <string name="fprint_sucess_vib_summary">지문 인식에 성공하면 진동을 울립니다</string>
@@ -181,15 +184,15 @@
     <string name="hardware_keys_single_tap_title">1 번 누를 때 동작</string>
     <string name="hardware_keys_long_press_title">길게 누를 때 동작</string>
     <string name="hardware_keys_double_tap_title">2 번 누를 때 동작</string>
-    <string name="hard_soft_keys">Buttons</string>
+    <string name="hard_soft_keys">버튼</string>
     <string name="hard_soft_keys_summary">Customise device buttons</string>
-    <string name="navigation_keys">Enable navigation bar</string>
+    <string name="navigation_keys">내이게이션 바 활성화</string>
     <string name="navigation_keys_title">Onscreen navigation bar</string>
     <string name="hardware_keys_category">하드웨어 내비게이션 버튼</string>
     <string name="hardware_keys_disable_title">하드웨어 버튼 비활성화</string>
     <string name="hardware_keys_wake_title">화면 켜기</string>
     <!-- Settings categories -->
-    <string name="statusbar_category_title">StatusBar</string>
+    <string name="statusbar_category_title">상태 표시줄</string>
     <!-- Button brightness -->
     <string name="button_backlight_options_category">백라이트 옵션</string>
     <string name="button_backlight_enable_title">버튼 백라이트 허용</string>
@@ -211,33 +214,41 @@
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">모바일 데이터</string>
     <string name="data_usage_app_restrict_data_summary">모바일 데이터를 사용합니다</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_vpn">VPN 데이터</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN 데이터 사용 설정</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 데이터</string>
     <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi 데이터를 사용합니다</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">상태 표시줄 항목</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="wake_when_plugged_or_unplugged_title">충전 시 켜짐</string>
+    <string name="wake_when_plugged_or_unplugged_summary">전원이 연결되거나 분리될 때 화면 켜기</string>
     <!-- Gesture Navigation -->
     <string name="back_height_low_label">Full</string>
     <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
+    <string name="back_options_dialog_title">옵션</string>
     <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
-    <string name="app_package_name_title">Package</string>
-    <string name="app_version_title">Version</string>
+    <string name="app_package_name_title">패키지</string>
+    <string name="app_version_title">버전</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_title">실수로 화면 켜기 방지</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="navbar_gesture_mode_category_title">Gesture mode tweaks</string>
-    <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
-    <string name="navbar_gesture_pill_toggle_title">Full screen gestures</string>
+    <string name="navbar_gesture_mode_category_title">제스쳐 모드 확인</string>
+    <string name="navbar_gesture_mode_category_key">제스쳐 설정</string>
+    <string name="navbar_gesture_pill_toggle_title">전체 화면 제스처</string>
     <string name="navbar_gesture_pill_toggle_summary">This will hide both the navigation bar and the pill for a seamless fullscreen gesture experience.</string>
     <string name="navbar_gesture_pill_toggle_summary_disabled">This option is only available for gesture navigation!</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Invert layout</string>
+    <string name="navbar_invert_layout_title">레이아웃 반전</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
+    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
 </resources>

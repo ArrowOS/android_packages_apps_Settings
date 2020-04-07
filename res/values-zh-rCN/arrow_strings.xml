@@ -18,6 +18,7 @@
     <string name="arrow_version">"ArrowOS 版本"</string>
     <string name="build_date">"编译日期"</string>
     <string name="about_device_name">"设备"</string>
+    <string name="arrow_firmware_version">"固件信息"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">关闭</string>
     <!-- Color Picker -->
@@ -54,7 +55,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">在您的平板左侧找到指纹传感器。</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">在您的平板右侧找到指纹传感器。</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">色桶</string>
+    <string name="theme_customization_systemui_title">Dark theme styles</string>
     <string name="theme_customization_accent_color_title">主题色</string>
     <string name="theme_customization_font_title">标题/正文字体</string>
     <string name="theme_customization_icon_shape_title">图标形状</string>
@@ -65,6 +66,7 @@
     <string name="selinux_status_enforcing">严格模式</string>
     <!-- Network traffic -->
     <string name="traffic_title">网速指示器</string>
+    <string name="traffic_summary">启用或禁用网速指示器</string>
     <string name="network_traffic_title">网络流量</string>
     <string name="network_traffic_type">选择网络活动类型</string>
     <string name="show_network_traffic_up">上行</string>
@@ -84,6 +86,7 @@
     <string name="gesture_settings_dashboard_title">手势</string>
     <string name="gesture_settings_dashboard_summary">管理手势设置</string>
     <string name="custom_device_gestures_preference_title">设备特定的手势</string>
+    <string name="custom_device_gestures_preference_summary">设备特定手势包在此显示</string>
     <!-- Global Actions -->
     <string name="advanced_powermenu_category_title">高级电源菜单</string>
     <string name="global_actions_title">电源菜单</string>
@@ -240,4 +243,12 @@
     <string name="navbar_gesture_pill_toggle_summary_disabled">此选项仅适用于手势导航！</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">反转布局</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">启动手电筒</string>
+    <string name="double_tap_power_flashlight_title">熄屏状态下按电源键开启手电筒</string>
+    <string name="torch_power_button_gesture_none">已禁用</string>
+    <string name="torch_power_button_gesture_dt">双击电源键以开关手电筒</string>
+    <string name="torch_power_button_gesture_lp">长按电源键以开关手电筒</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">电池温度</string>
 </resources>
