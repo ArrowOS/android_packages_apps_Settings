@@ -218,13 +218,19 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
 
             gesturePillToggle.setEnabled(false);
         }
+
+        final boolean EnableNavBarToggle = getResources().getBoolean(
+                com.android.internal.R.bool.config_canShowNavbarToggle);
+
+        if (EnableNavBarToggle) {
+           mEnableNavBar.setEnabled(true);
+        } else {
+           mEnableNavBar.setEnabled(false);
+        }
+
         screen.addPreference(gestureTweaksCategory);
         gestureTweaksCategory.addPreference(gesturePillToggle);
         gestureTweaksCategory.addPreference(mEnableNavBar);
-
-        if (!(getResources().getBoolean(
-                   com.android.internal.R.bool.arrow_config_deviceHasHwKeys)))
-            screen.removePreference(mEnableNavBar);
 
         mayCheckOnlyRadioButton();
     }
