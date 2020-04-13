@@ -41,7 +41,7 @@ public class HideNotchPreferenceController extends AbstractPreferenceController 
 
    @Override
     public boolean isAvailable() {
-        return ArrowUtils.hasNotch(mContext);
+        return true;
     }
 
     @Override
