@@ -41,7 +41,8 @@ public class HideNotchPreferenceController extends AbstractPreferenceController 
 
    @Override
     public boolean isAvailable() {
-        return ArrowUtils.hasNotch(mContext);
+	return !mContext.getResources().getString(
+                com.android.internal.R.string.config_mainBuiltInDisplayCutout).isEmpty();
     }
 
     @Override
