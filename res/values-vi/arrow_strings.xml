@@ -57,7 +57,7 @@
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Phong cách nền tối</string>
     <string name="theme_customization_accent_color_title">Màu nhấn</string>
-    <string name="theme_customization_font_title">Phông chữ tiêu đề / nội dung</string>
+    <string name="theme_customization_font_title">Phông chữ tiêu đề/nội dung</string>
     <string name="theme_customization_icon_shape_title">Hình dạng biểu tượng</string>
     <!-- SELinux status -->
     <string name="selinux_status">Trạng thái SELinux</string>
@@ -187,7 +187,7 @@
     <string name="hard_soft_keys">Nút bấm</string>
     <string name="hard_soft_keys_summary">Tùy chỉnh các nút cứng</string>
     <string name="navigation_keys">Bật thanh điều hướng</string>
-    <string name="navigation_keys_title">Hiển thị thanh điều hướng</string>
+    <string name="navigation_keys_title">Hiển thị thanh điều hướng trên màn hình</string>
     <string name="hardware_keys_category">Nút điều hướng cứng</string>
     <string name="hardware_keys_disable_title">Tắt nút bấm cứng</string>
     <string name="hardware_keys_wake_title">Đánh thức thiết bị</string>
@@ -237,7 +237,7 @@
     <string name="proximity_wake_summary">Kiểm tra cảm biến tiệm cận để mở màn hình</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="navbar_gesture_mode_category_title">Điều chỉnh chế độ cử chỉ</string>
-    <string name="navbar_gesture_mode_category_key">cử chỉ_chế độ_điều chỉnh</string>
+    <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
     <string name="navbar_gesture_pill_toggle_title">Cử chỉ toàn màn hình</string>
     <string name="navbar_gesture_pill_toggle_summary">Điều này sẽ ẩn công cụ điều hướng cho trải nghiệm cử chỉ toàn màn hình liền mạch.</string>
     <string name="navbar_gesture_pill_toggle_summary_disabled">Tùy chọn này chỉ có sẵn cho điều hướng cử chỉ!</string>
@@ -251,4 +251,20 @@
     <string name="torch_power_button_gesture_lp">Nhấn giữ nút nguồn để bật đèn pin</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Nhiệt độ pin</string>
+    <!-- Display cutout options -->
+    <string name="cutout_main">Cài đặt phần cắt màn hình</string>
+    <string name="cutout_main_keywords">hiển thị phần cắt, tai thỏ, ẩn tai thỏ, ẩn</string>
+    <string name="cutout_main_summary">Họ thực sự cắt góc với thứ này</string>
+    <string name="display_cutout_style_title">Kiểu cắt</string>
+    <string name="display_cutout_style_normal">Thường</string>
+    <string name="display_cutout_style_immerse">Toàn màn hình</string>
+    <string name="display_cutout_style_hide">Ẩn</string>
+    <string name="stock_statusbar_in_hide">Chiều cao thanh trạng thái gốc</string>
+    <string name="stock_statusbar_in_hide_summary">Sử dụng chiều cao thanh trạng thái mặc định trong mục Ẩn</string>
+    <!-- Navigation bar -->
+    <string name="navigation_bar_title">Thanh điều hướng</string>
+    <string name="navigation_bar_summary">Bật hoặc tắt thanh điều hướng</string>
+    <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">Home button when ringing</string>
+    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
 </resources>

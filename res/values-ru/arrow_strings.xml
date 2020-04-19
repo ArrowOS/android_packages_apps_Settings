@@ -251,4 +251,20 @@
     <string name="torch_power_button_gesture_lp">Удержание кнопки питания для включения фонарика</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Температура батареи</string>
+    <!-- Display cutout options -->
+    <string name="cutout_main">Настройки отображения выреза</string>
+    <string name="cutout_main_keywords">отображение выреза, вырез, спрятать вырез, спрятать</string>
+    <string name="cutout_main_summary">Они действительно режут этим углы</string>
+    <string name="display_cutout_style_title">Стиль выреза</string>
+    <string name="display_cutout_style_normal">Нормальный</string>
+    <string name="display_cutout_style_immerse">Во весь экран</string>
+    <string name="display_cutout_style_hide">Скрыть</string>
+    <string name="stock_statusbar_in_hide">Высота строки статусбара</string>
+    <string name="stock_statusbar_in_hide_summary">Использовать высоту строки состояния по умолчанию при скрытии</string>
+    <!-- Navigation bar -->
+    <string name="navigation_bar_title">Панель навигации</string>
+    <string name="navigation_bar_summary">Включение или отключение панели навигации</string>
+    <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">Home button when ringing</string>
+    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
 </resources>

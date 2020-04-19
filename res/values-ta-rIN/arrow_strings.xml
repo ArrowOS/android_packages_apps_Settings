@@ -96,11 +96,11 @@
     <string name="global_actions_airplane">விமானம்</string>
     <string name="global_actions_settings">அமைப்புகள்</string>
     <string name="global_actions_lockdown">Lock Down</string>
-    <string name="global_actions_soundpanel">Sound Panel</string>
+    <string name="global_actions_soundpanel">ஒலி பலகை</string>
     <string name="global_actions_users">பயனர்கள்</string>
     <string name="global_actions_screenshot">திரைப்பிடிப்பு</string>
     <string name="global_actions_flashlight">டார்ச் விளக்கு</string>
-    <string name="global_actions_emergency">Emergency</string>
+    <string name="global_actions_emergency">அவசரநிலை</string>
     <string name="global_actions_advanced_reboot_title">மேம்பட்ட மறுதொடக்கத்தை இயக்கவும்</string>
     <string name="global_actions_advanced_reboot_summary">When restarting also show options for recovery and bootloader</string>
     <!-- Fingerprint authentication vibration -->
@@ -121,7 +121,7 @@
     <string name="weather_icon_pack_title">Condition icon pack</string>
     <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Lockscreen weather</string>
+    <string name="lockscreen_weather_title">பூட்டுத்திரை வானிலை</string>
     <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
     <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
     <string name="lockscreen_weather_show_city_title">ஊரின் பெயரை காட்டு</string>
@@ -129,7 +129,7 @@
     <string name="lockscreen_weather_show_temp_title">வெப்பநிலையைக் காட்டு</string>
     <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
     <!-- Settings categories -->
-    <string name="misc_category_title">Misc</string>
+    <string name="misc_category_title">சில்லறையானவை</string>
     <string name="buttons_category_title">பொத்தான்கள்</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
@@ -244,11 +244,27 @@
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">தளவமைப்பைச் சுழற்று</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
+    <string name="double_tap_power_flashlight_screen_title">டார்சை இயக்கு</string>
     <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_none">முடக்கப்பட்டுள்ளது</string>
     <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">பேட்டரி வெப்பநிலை</string>
+    <!-- Display cutout options -->
+    <string name="cutout_main">Display cutout settings</string>
+    <string name="cutout_main_keywords">display cutout, notch, hide notch, hide</string>
+    <string name="cutout_main_summary">They really cut corners with this one</string>
+    <string name="display_cutout_style_title">Cutout style</string>
+    <string name="display_cutout_style_normal">Normal</string>
+    <string name="display_cutout_style_immerse">Immerse</string>
+    <string name="display_cutout_style_hide">Hide</string>
+    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
+    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <!-- Navigation bar -->
+    <string name="navigation_bar_title">Navigation bar</string>
+    <string name="navigation_bar_summary">Enable or disable navigation bar</string>
+    <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">Home button when ringing</string>
+    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
 </resources>

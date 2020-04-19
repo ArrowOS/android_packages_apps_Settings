@@ -251,4 +251,20 @@
     <string name="torch_power_button_gesture_lp">Dlouhým stisknutím tlačítka napájení přepínat svítilnu</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Teplota baterie</string>
+    <!-- Display cutout options -->
+    <string name="cutout_main">Nastavení zobrazení výřezu</string>
+    <string name="cutout_main_keywords">zobrazení výřezu, výřez, skrýt výřez, skrýt</string>
+    <string name="cutout_main_summary">Dvakrát měř, jednou řež</string>
+    <string name="display_cutout_style_title">Styl výřezu</string>
+    <string name="display_cutout_style_normal">Normální</string>
+    <string name="display_cutout_style_immerse">Vnořený</string>
+    <string name="display_cutout_style_hide">Skrytý</string>
+    <string name="stock_statusbar_in_hide">Výchozí výška stavového řádku</string>
+    <string name="stock_statusbar_in_hide_summary">Použít výchozí výšku stavového řádku při použití stylu Skrytý</string>
+    <!-- Navigation bar -->
+    <string name="navigation_bar_title">Navigační panel</string>
+    <string name="navigation_bar_summary">Povolit nebo zakázat navigační panel</string>
+    <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">Home button when ringing</string>
+    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
 </resources>

@@ -55,7 +55,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Tabletinizin sol tarafında bulunan parmak izi sensörünü bulun.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Tabletinizin sağ tarafında bulunan parmak izi sensörünü bulun.</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Dark theme styles</string>
+    <string name="theme_customization_systemui_title">Koyu tema stilleri</string>
     <string name="theme_customization_accent_color_title">Vurgu Rengi</string>
     <string name="theme_customization_font_title">Başlık / Gövde yazı tipi</string>
     <string name="theme_customization_icon_shape_title">Simge şekli</string>
@@ -252,4 +252,20 @@ Bu seçenek yalnızca hareketle gezinme için kullanılabilir!</string>
     <string name="torch_power_button_gesture_lp">Feneri açma/kapama için basılı tut</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Batarya sıcaklığı</string>
+    <!-- Display cutout options -->
+    <string name="cutout_main">Kesme ayarlarını görüntüle</string>
+    <string name="cutout_main_keywords">display cutout, notch, hide notch, hide</string>
+    <string name="cutout_main_summary">Bununla köşeler gerçekten kesilir</string>
+    <string name="display_cutout_style_title">Kesme stili</string>
+    <string name="display_cutout_style_normal">Normal</string>
+    <string name="display_cutout_style_immerse">Tam ekran</string>
+    <string name="display_cutout_style_hide">Gizle</string>
+    <string name="stock_statusbar_in_hide">Varsayılan durum çubuğu yüksekliği</string>
+    <string name="stock_statusbar_in_hide_summary">Gizle’de varsayılan durum çubuğu yüksekliğini kullan</string>
+    <!-- Navigation bar -->
+    <string name="navigation_bar_title">Gezinme çubuğu</string>
+    <string name="navigation_bar_summary">Gezinme çubuğunu etkinleştir veya devre dışı bırak</string>
+    <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">Home button when ringing</string>
+    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
 </resources>
