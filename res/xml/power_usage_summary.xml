@@ -69,10 +69,20 @@
         android:title="@string/smart_battery_manager_title"
         settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController" />
 
-<!--    <SwitchPreference
+    <!--<SwitchPreference
         android:key="battery_percentage"
         android:title="@string/battery_percentage"
         android:summary="@string/battery_percentage_description"
-        settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
--->
+        settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />-->
+
+    <PreferenceCategory
+        android:key="statusbar_battery"
+        android:title="@string/statusbar_battery_category_title">
+
+	<Preference
+            android:key="battery_settings"
+            android:fragment="com.android.settings.arrow.StatusBarBattery"
+            android:title="@string/battery_style_title" />
+
+    </PreferenceCategory>
 </PreferenceScreen>
