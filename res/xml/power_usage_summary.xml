@@ -58,11 +58,17 @@
         settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController"
         settings:keywords="@string/keywords_battery_adaptive_preferences" />
 
-    <SwitchPreference
+    <!--<SwitchPreference
         android:key="battery_percentage"
         android:title="@string/battery_percentage"
         android:summary="@string/battery_percentage_description"
-        settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
+        settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />-->
+
+    <Preference
+        android:key="battery_settings"
+        android:fragment="com.android.settings.arrow.StatusBarBattery"
+        android:title="@string/battery_style_title"
+        android:summary="@string/battery_style_summary" />
 
     <SwitchPreference
         android:key="low_battery_light_enabled"
