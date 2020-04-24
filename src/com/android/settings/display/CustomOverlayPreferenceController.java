@@ -223,12 +223,12 @@ public class CustomOverlayPreferenceController extends DeveloperOptionsPreferenc
                 if (overlayInfo.isEnabled()) {
                     selectedPkg = pkgs.get(pkgs.size() - 1);
                     selectedLabel = labels.get(labels.size() - 1);
-
-                    Settings.System.putString(resolver,
-                            Settings.System.COLOR_BUCKET_OVERLAY, selectedPkg);
                 }
             }
         }
+
+        Settings.System.putString(resolver,
+                            Settings.System.COLOR_BUCKET_OVERLAY, selectedPkg);
 
         mPreference.setEntries(labels.toArray(new String[labels.size()]));
         mPreference.setEntryValues(pkgs.toArray(new String[pkgs.size()]));
