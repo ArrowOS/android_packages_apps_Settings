@@ -265,6 +265,6 @@
     <string name="navigation_bar_title">Navigační panel</string>
     <string name="navigation_bar_summary">Povolit nebo zakázat navigační panel</string>
     <!-- Incall Home button behavior-->
-    <string name="allow_incall_home_title">Home button when ringing</string>
-    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
+    <string name="allow_incall_home_title">Tlačítko Domů při vyzvánění</string>
+    <string name="allow_incall_home_summary">Povolit použití tlačítka Domů při vyzvánění zařízení</string>
 </resources>

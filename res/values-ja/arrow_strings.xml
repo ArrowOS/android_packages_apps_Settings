@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Arrow version preference -->
-    <string name="arrow_version">"ArrowOSバージョン"</string>
+    <string name="arrow_version">"ArrowOS バージョン"</string>
     <string name="build_date">"ビルド日時"</string>
     <string name="about_device_name">"端末"</string>
     <string name="arrow_firmware_version">"ファームウェア情報"</string>
@@ -41,7 +41,7 @@
     <string name="changelog_error">更新履歴を読み込めませんでした</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">ArrowOS の統計情報</string>
-    <string name="arrow_stats_summary">ArrowOS が何台の端末で動作しているか集計しているだけです</string>
+    <string name="arrow_stats_summary">ArrowOS が何台の端末で動作しているか集計しています</string>
     <!-- Fingerprint location message - default -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">端末前面にある指紋認証センサーを探します</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">端末左側にある指紋認証センサーを探します</string>
@@ -56,7 +56,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">端末右側にある指紋認証センサーを探します</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">ダークテーマスタイル</string>
-    <string name="theme_customization_accent_color_title">アクセントカラー</string>
+    <string name="theme_customization_accent_color_title">アクセント色</string>
     <string name="theme_customization_font_title">見出し / 説明フォント</string>
     <string name="theme_customization_icon_shape_title">アイコンの形状</string>
     <!-- SELinux status -->
@@ -265,6 +265,6 @@
     <string name="navigation_bar_title">ナビゲーションバー</string>
     <string name="navigation_bar_summary">ナビゲーションジェスチャーを切り替える</string>
     <!-- Incall Home button behavior-->
-    <string name="allow_incall_home_title">Home button when ringing</string>
-    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
+    <string name="allow_incall_home_title">着信時のホームボタンの動作</string>
+    <string name="allow_incall_home_summary">電話着信時のホームボタンの使用を許可する</string>
 </resources>
