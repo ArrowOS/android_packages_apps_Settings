@@ -55,7 +55,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">在您的平板左侧找到指纹传感器。</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">在您的平板右侧找到指纹传感器。</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Dark theme styles</string>
+    <string name="theme_customization_systemui_title">暗色主题样式</string>
     <string name="theme_customization_accent_color_title">主题色</string>
     <string name="theme_customization_font_title">标题/正文字体</string>
     <string name="theme_customization_icon_shape_title">图标形状</string>
@@ -252,19 +252,19 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">电池温度</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">Display cutout settings</string>
-    <string name="cutout_main_keywords">display cutout, notch, hide notch, hide</string>
-    <string name="cutout_main_summary">They really cut corners with this one</string>
-    <string name="display_cutout_style_title">Cutout style</string>
-    <string name="display_cutout_style_normal">Normal</string>
-    <string name="display_cutout_style_immerse">Immerse</string>
-    <string name="display_cutout_style_hide">Hide</string>
-    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
-    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <string name="cutout_main">显示刘海设置</string>
+    <string name="cutout_main_keywords">显示刘海，切口，隐藏切口，隐藏</string>
+    <string name="cutout_main_summary">他们真的切割了这个角</string>
+    <string name="display_cutout_style_title">刘海样式</string>
+    <string name="display_cutout_style_normal">正常</string>
+    <string name="display_cutout_style_immerse">沉浸式</string>
+    <string name="display_cutout_style_hide">隐藏</string>
+    <string name="stock_statusbar_in_hide">原生状态栏高度</string>
+    <string name="stock_statusbar_in_hide_summary">在隐藏时使用默认状态栏高度</string>
     <!-- Navigation bar -->
-    <string name="navigation_bar_title">Navigation bar</string>
-    <string name="navigation_bar_summary">Enable or disable navigation bar</string>
+    <string name="navigation_bar_title">导航栏</string>
+    <string name="navigation_bar_summary">启用或禁用导航栏</string>
     <!-- Incall Home button behavior-->
-    <string name="allow_incall_home_title">Home button when ringing</string>
-    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
+    <string name="allow_incall_home_title">响铃时的主屏幕键</string>
+    <string name="allow_incall_home_summary">设备响铃时允许使用主屏幕键</string>
 </resources>

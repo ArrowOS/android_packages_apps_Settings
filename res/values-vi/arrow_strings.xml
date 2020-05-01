@@ -265,6 +265,6 @@
     <string name="navigation_bar_title">Thanh điều hướng</string>
     <string name="navigation_bar_summary">Bật hoặc tắt thanh điều hướng</string>
     <!-- Incall Home button behavior-->
-    <string name="allow_incall_home_title">Home button when ringing</string>
-    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
+    <string name="allow_incall_home_title">Nút Home khi đổ chuông</string>
+    <string name="allow_incall_home_summary">Cho phép sử dụng nút Home khi thiết bị đổ chuông</string>
 </resources>
