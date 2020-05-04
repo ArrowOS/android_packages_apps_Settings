@@ -62,6 +62,7 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
     private CustomSeekBarPreference mNetTrafficSize;
     private CustomSeekBarPreference mThreshold;
     private SystemSettingSwitchPreference mShowArrows;
+    private ListPreference mNetTrafficLayout;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -71,6 +72,13 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
+
+        mNetTrafficLayout = (ListPreference) findPreference("network_traffic_layout");
+        int netlayout = Settings.System.getIntForUser(resolver,
+                Settings.System.NETWORK_TRAFFIC_LAYOUT, 0, UserHandle.USER_CURRENT);
+        mNetTrafficLayout.setValue(String.valueOf(netlayout));
+        mNetTrafficLayout.setSummary(mNetTrafficLayout.getEntry());
+        mNetTrafficLayout.setOnPreferenceChangeListener(this);
 
         int NetTrafficSize = Settings.System.getInt(resolver,
                 Settings.System.NETWORK_TRAFFIC_FONT_SIZE, 36);
@@ -104,7 +112,7 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
             updateTrafficLocation(location+1);
         } else {
             mNetTrafficLocation.setValue("0");
-            updateTrafficLocation(0); 
+            updateTrafficLocation(0);
         }
         mNetTrafficLocation.setSummary(mNetTrafficLocation.getEntry());
     }
@@ -152,6 +160,14 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
             int width = ((Integer)objValue).intValue();
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.NETWORK_TRAFFIC_FONT_SIZE, width);
+            return true;
+        } else if (preference == mNetTrafficLayout) {
+            int val = Integer.valueOf((String) objValue);
+            Settings.System.putIntForUser(getContentResolver(),
+                    Settings.System.NETWORK_TRAFFIC_LAYOUT, val,
+                    UserHandle.USER_CURRENT);
+            int index = mNetTrafficLayout.findIndexOfValue((String) objValue);
+            mNetTrafficLayout.setSummary(mNetTrafficLayout.getEntries()[index]);
             return true;
         }
         return false;

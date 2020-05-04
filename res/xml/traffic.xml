@@ -38,6 +38,14 @@
         android:summary="@string/network_traffic_arrow_summary"
         android:defaultValue="false" />
 
+    <ListPreference
+        android:key="network_traffic_layout"
+        android:title="@string/network_traffic_layout"
+        android:entries="@array/network_traffic_layout_entries"
+        android:entryValues="@array/network_traffic_layout_values"
+        android:defaultValue="0"
+        android:persistent="false" />
+
     <com.arrow.support.preferences.CustomSeekBarPreference
         android:key="network_traffic_autohide_threshold"
         android:title="@string/network_traffic_autohide_threshold_title"
