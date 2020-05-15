@@ -55,7 +55,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Localize o sensor de impressão digital no lado esquerdo do seu tablet.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Localize o sensor de impressão digital no lado direito do seu tablet.</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Dark theme styles</string>
+    <string name="theme_customization_systemui_title">Estilo do tema escuro</string>
     <string name="theme_customization_accent_color_title">Cor de destaque</string>
     <string name="theme_customization_font_title">Fonte do título / Corpo</string>
     <string name="theme_customization_icon_shape_title">Forma do ícone</string>
@@ -252,19 +252,21 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">Temperatura da bateria</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">Display cutout settings</string>
-    <string name="cutout_main_keywords">display cutout, notch, hide notch, hide</string>
-    <string name="cutout_main_summary">They really cut corners with this one</string>
-    <string name="display_cutout_style_title">Cutout style</string>
+    <string name="cutout_main">Configurações do corte da tela</string>
+    <string name="cutout_main_keywords">recorte da tela, notch, ocultar notch, ocultar</string>
+    <string name="cutout_main_summary">Isto realmente recorta os cantos</string>
+    <string name="display_cutout_style_title">Estilo do corte</string>
     <string name="display_cutout_style_normal">Normal</string>
-    <string name="display_cutout_style_immerse">Immerse</string>
-    <string name="display_cutout_style_hide">Hide</string>
-    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
-    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <string name="display_cutout_style_immerse">Imersivo</string>
+    <string name="display_cutout_style_hide">Ocultar</string>
+    <string name="stock_statusbar_in_hide">Altura padrão da barra de status</string>
+    <string name="stock_statusbar_in_hide_summary">Usar a altura padrão da barra de status ao ocultar</string>
     <!-- Navigation bar -->
-    <string name="navigation_bar_title">Navigation bar</string>
-    <string name="navigation_bar_summary">Enable or disable navigation bar</string>
+    <string name="navigation_bar_title">Barra de navegação</string>
+    <string name="navigation_bar_summary">Ativar ou desativar a barra de navegação</string>
     <!-- Incall Home button behavior-->
-    <string name="allow_incall_home_title">Home button when ringing</string>
-    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
+    <string name="allow_incall_home_title">Botão início quando estiver tocando</string>
+    <string name="allow_incall_home_summary">Permitir que o botão de início seja usado quando o dispositivo estiver tocando</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
 </resources>

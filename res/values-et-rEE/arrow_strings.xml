@@ -267,4 +267,6 @@
     <!-- Incall Home button behavior-->
     <string name="allow_incall_home_title">Kodunupp helisedes</string>
     <string name="allow_incall_home_summary">Luba helisemise ajal kasutada Kodunuppu</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
 </resources>
