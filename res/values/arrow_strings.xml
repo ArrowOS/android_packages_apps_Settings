@@ -140,4 +140,8 @@
     <string name="qs_battery_category_title">In QS Panel</string>
     <string name="qs_battery_percent_title" translatable="false">@string/status_bar_battery_percent_title</string>
     <string name="qs_use_status_bar_battery_style">Follow status bar style</string>
+     
+     <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Pure black</string>
+    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
 </resources>
