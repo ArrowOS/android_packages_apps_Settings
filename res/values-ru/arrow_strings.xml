@@ -268,5 +268,5 @@
     <string name="allow_incall_home_title">Кнопка \"Домой\" при звонке</string>
     <string name="allow_incall_home_summary">Разрешить использование кнопки \"Домой\" при звонке</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Показать историю уведомлений</string>
 </resources>

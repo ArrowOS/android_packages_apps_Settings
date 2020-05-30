@@ -15,12 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Arrow version preference -->
-    <string name="arrow_version">"ArrowOS version"</string>
+    <string name="arrow_version">"Версия на ArrowOS"</string>
     <string name="build_date">"Дата на изграждане"</string>
-    <string name="about_device_name">"Device"</string>
-    <string name="arrow_firmware_version">"Firmware Information"</string>
+    <string name="about_device_name">"Устройство"</string>
+    <string name="arrow_firmware_version">"Информация за фърмуера"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Close</string>
+    <string name="suggestion_button_close">Затваряне</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Избор на цвят</string>
     <string name="press_color_to_apply">Изберете цвят от по-долу, за да го приложите</string>
@@ -36,7 +36,7 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Звук при снимка на екрана</string>
     <!-- Changelog -->
-    <string name="changelog_title">Списък на промените</string>
+    <string name="changelog_title">Дневник на промените</string>
     <string name="changelog_summary">От последната актуализация</string>
     <string name="changelog_error">Не може да се зареди списъкът с промените</string>
     <!-- ArrowOS Installation Stats -->
@@ -58,7 +58,7 @@
     <string name="theme_customization_systemui_title">Dark theme styles</string>
     <string name="theme_customization_accent_color_title">Accent color</string>
     <string name="theme_customization_font_title">Headline / Body font</string>
-    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <string name="theme_customization_icon_shape_title">Форма на иконите</string>
     <!-- SELinux status -->
     <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Disabled</string>
@@ -83,29 +83,29 @@
     <string name="lockscreen_gestures_category_title">Lockscreen gestures</string>
     <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
     <!-- Settings dashboard gestures -->
-    <string name="gesture_settings_dashboard_title">Gestures</string>
-    <string name="gesture_settings_dashboard_summary">Manage gesture settings</string>
-    <string name="custom_device_gestures_preference_title">Device specific gestures</string>
-    <string name="custom_device_gestures_preference_summary">Device specific gestures package is shown here</string>
+    <string name="gesture_settings_dashboard_title">Жестове</string>
+    <string name="gesture_settings_dashboard_summary">Управление на настройките за жестове</string>
+    <string name="custom_device_gestures_preference_title">Специфични жестове за устройство</string>
+    <string name="custom_device_gestures_preference_summary">Пакетът за специфични жестове за устройство е показан тук</string>
     <!-- Global Actions -->
     <string name="advanced_powermenu_category_title">Advanced power menu</string>
     <string name="global_actions_title">Power menu</string>
     <string name="global_actions_summary">Select what to show when you press the power button</string>
     <string name="global_actions_power">Power</string>
-    <string name="global_actions_restart">Restart</string>
-    <string name="global_actions_airplane">Airplane</string>
-    <string name="global_actions_settings">Settings</string>
+    <string name="global_actions_restart">Рестартиране</string>
+    <string name="global_actions_airplane">Самолетен режим</string>
+    <string name="global_actions_settings">Настройки</string>
     <string name="global_actions_lockdown">Lock Down</string>
-    <string name="global_actions_soundpanel">Sound Panel</string>
-    <string name="global_actions_users">Users</string>
-    <string name="global_actions_screenshot">Screenshot</string>
-    <string name="global_actions_flashlight">Flashlight</string>
-    <string name="global_actions_emergency">Emergency</string>
-    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
-    <string name="global_actions_advanced_reboot_summary">When restarting also show options for recovery and bootloader</string>
+    <string name="global_actions_soundpanel">Звуков панел</string>
+    <string name="global_actions_users">Потребители</string>
+    <string name="global_actions_screenshot">Екранна снимка</string>
+    <string name="global_actions_flashlight">Фенерче</string>
+    <string name="global_actions_emergency">Извънредна ситуация</string>
+    <string name="global_actions_advanced_reboot_title">Включване на разширено рестартиране</string>
+    <string name="global_actions_advanced_reboot_summary">При рестартиране също се показват опции за възстановяване и зареждачка за операционни системи</string>
     <!-- Fingerprint authentication vibration -->
-    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+    <string name="fprint_sucess_vib_title">Вибриране при удостоверяване с пръстов отпечатък</string>
+    <string name="fprint_sucess_vib_summary">Вибриране при успешно удостоверяване с пръстов отпечатък</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Отключване с пръстов отпечатък</string>
     <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
@@ -250,7 +250,7 @@
     <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">Температура на батерията</string>
     <!-- Display cutout options -->
     <string name="cutout_main">Display cutout settings</string>
     <string name="cutout_main_keywords">display cutout, notch, hide notch, hide</string>
@@ -258,7 +258,7 @@
     <string name="display_cutout_style_title">Cutout style</string>
     <string name="display_cutout_style_normal">Normal</string>
     <string name="display_cutout_style_immerse">Immerse</string>
-    <string name="display_cutout_style_hide">Hide</string>
+    <string name="display_cutout_style_hide">Скриване</string>
     <string name="stock_statusbar_in_hide">Stock statusbar height</string>
     <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
     <!-- Navigation bar -->

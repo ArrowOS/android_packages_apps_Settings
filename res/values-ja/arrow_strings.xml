@@ -268,5 +268,5 @@
     <string name="allow_incall_home_title">着信時のホームボタンの動作</string>
     <string name="allow_incall_home_summary">電話着信時のホームボタンの使用を許可する</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">通知履歴を表示する</string>
 </resources>

@@ -55,7 +55,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Táblagépe bal oldalán találhatja meg az ujjlenyomat-olvasót.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Táblagépe jobb oldalán találhatja meg az ujjlenyomat-olvasót.</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Dark theme styles</string>
+    <string name="theme_customization_systemui_title">A Fekete téma stílusa</string>
     <string name="theme_customization_accent_color_title">Kiemelőszín</string>
     <string name="theme_customization_font_title">Címsor / Törzs betűtípus</string>
     <string name="theme_customization_icon_shape_title">Ikonok formája</string>
@@ -66,7 +66,7 @@
     <string name="selinux_status_enforcing">Kényszerítve</string>
     <!-- Network traffic -->
     <string name="traffic_title">Hálózati forgalom jelzők</string>
-    <string name="traffic_summary">Enable or disable network speed indicators</string>
+    <string name="traffic_summary">Hálózati forgalmat jelző nyilak megjelenítése vagy elrejtése</string>
     <string name="network_traffic_title">Hálózati forgalom</string>
     <string name="network_traffic_type">Hálózati aktivitástípus kiválasztása</string>
     <string name="show_network_traffic_up">Feltöltési</string>
@@ -86,7 +86,7 @@
     <string name="gesture_settings_dashboard_title">Mozdulatok</string>
     <string name="gesture_settings_dashboard_summary">Mozdulatok beállítása</string>
     <string name="custom_device_gestures_preference_title">Eszköz függő mozdulat beállítások</string>
-    <string name="custom_device_gestures_preference_summary">Device specific gestures package is shown here</string>
+    <string name="custom_device_gestures_preference_summary">Eszközspecifikus gesztusok láthatóak itt</string>
     <!-- Global Actions -->
     <string name="advanced_powermenu_category_title">Speciális kikapcsolási menü</string>
     <string name="global_actions_title">Kikapcsolási menü</string>
@@ -252,21 +252,21 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">Akkumulátor hőmérséklete</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">Display cutout settings</string>
-    <string name="cutout_main_keywords">display cutout, notch, hide notch, hide</string>
-    <string name="cutout_main_summary">They really cut corners with this one</string>
-    <string name="display_cutout_style_title">Cutout style</string>
-    <string name="display_cutout_style_normal">Normal</string>
-    <string name="display_cutout_style_immerse">Immerse</string>
-    <string name="display_cutout_style_hide">Hide</string>
-    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
-    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <string name="cutout_main">Képernyőkivágási beállítások</string>
+    <string name="cutout_main_keywords">képernyőkivágás, sziget, sziget elrejtése, notch, elrejtés</string>
+    <string name="cutout_main_summary">Ezzel ténylegesen levághatóak a sarkok</string>
+    <string name="display_cutout_style_title">Kivágási stílus</string>
+    <string name="display_cutout_style_normal">Normál</string>
+    <string name="display_cutout_style_immerse">Immerzív</string>
+    <string name="display_cutout_style_hide">Elrejt</string>
+    <string name="stock_statusbar_in_hide">Gyári állapotsormagasság</string>
+    <string name="stock_statusbar_in_hide_summary">Rejtett állapotban a gyári állapotsormagasságot használja</string>
     <!-- Navigation bar -->
-    <string name="navigation_bar_title">Navigation bar</string>
-    <string name="navigation_bar_summary">Enable or disable navigation bar</string>
+    <string name="navigation_bar_title">Navigációs sáv</string>
+    <string name="navigation_bar_summary">Engedélyezheti vagy kikapcsolhatja a navigációs sávot</string>
     <!-- Incall Home button behavior-->
-    <string name="allow_incall_home_title">Home button when ringing</string>
-    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
+    <string name="allow_incall_home_title">Főképernyő gomb engedélyezése csörgés közben</string>
+    <string name="allow_incall_home_summary">Főképernyő gomb használatának engedélyezése bejövő hívás esetén</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Értesítéselőzmény-napló megjelenítése</string>
 </resources>
