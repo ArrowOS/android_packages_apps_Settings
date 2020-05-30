@@ -268,5 +268,5 @@
     <string name="allow_incall_home_title">Botão início quando estiver tocando</string>
     <string name="allow_incall_home_summary">Permitir que o botão de início seja usado quando o dispositivo estiver tocando</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Mostrar histórico de notificações</string>
 </resources>
