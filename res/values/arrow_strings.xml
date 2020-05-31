@@ -375,6 +375,7 @@
 
     <!-- Statusbar Battery -->
     <string name="battery_style_title">Battery icon style</string>
+    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
     <string name="battery_percent_title">Status bar battery percentage</string>
     <string name="battery_style_category_title">Battery icon</string>
     <string name="status_bar_battery_style_title">Battery style</string>

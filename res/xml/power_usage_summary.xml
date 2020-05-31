@@ -94,7 +94,8 @@
         android:key="battery_settings"
         android:fragment="com.android.settings.arrow.StatusBarBattery"
         android:order="8"
-        android:title="@string/battery_style_title" />
+        android:title="@string/battery_style_title"
+        android:summary="@string/battery_style_summary" />
 
     <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
