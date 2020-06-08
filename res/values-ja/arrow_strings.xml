@@ -269,4 +269,20 @@
     <string name="allow_incall_home_summary">電話着信時のホームボタンの使用を許可する</string>
     <!-- Notification log -->
     <string name="notification_log_summary">通知履歴を表示する</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">アイコンのスタイル</string>
+    <string name="battery_style_summary">バッテリーアイコンの編集、残量表示の切替え</string>
+    <string name="battery_percent_title">ステータスバーのバッテリー残量</string>
+    <string name="battery_style_category_title">バッテリーアイコン</string>
+    <string name="status_bar_battery_style_title">バッテリースタイル</string>
+    <string name="status_bar_battery_style_icon_portrait">縦アイコン (既定)</string>
+    <string name="status_bar_battery_style_circle">円</string>
+    <string name="status_bar_battery_style_dotted_circle">円 (点線)</string>
+    <string name="status_bar_battery_style_filled_circle">円 (塗り潰し)</string>
+    <string name="status_bar_battery_style_text">文字</string>
+    <string name="status_bar_battery_style_hidden">非表示</string>
+    <string name="status_bar_battery_percentage_title">バッテリー残量</string>
+    <string name="status_bar_battery_percentage_default">非表示 (既定)</string>
+    <string name="status_bar_battery_percentage_text_inside">アイコンの中</string>
+    <string name="status_bar_battery_percentage_text_next">アイコンの外</string>
 </resources>

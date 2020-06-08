@@ -269,4 +269,20 @@
     <string name="allow_incall_home_summary">Luba helisemise ajal kasutada Kodunuppu</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Kuva teate ajaloo logi</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Akuikooni stiil</string>
+    <string name="battery_style_summary">Akuikooni seaded, peitmine või protsendi näitamine</string>
+    <string name="battery_percent_title">Aku protsent olekuribal</string>
+    <string name="battery_style_category_title">Akuikoon</string>
+    <string name="status_bar_battery_style_title">Aku ikooni stiil</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portree (vaikimisi)</string>
+    <string name="status_bar_battery_style_circle">Ring</string>
+    <string name="status_bar_battery_style_dotted_circle">Ring (Katkendlik)</string>
+    <string name="status_bar_battery_style_filled_circle">Ring (täidetud)</string>
+    <string name="status_bar_battery_style_text">Tekst</string>
+    <string name="status_bar_battery_style_hidden">Peidetud</string>
+    <string name="status_bar_battery_percentage_title">Aku protsent</string>
+    <string name="status_bar_battery_percentage_default">Peidetud (vaikimisi)</string>
+    <string name="status_bar_battery_percentage_text_inside">Ikooni sees</string>
+    <string name="status_bar_battery_percentage_text_next">Ikooni kõrval</string>
 </resources>

@@ -269,4 +269,20 @@
     <string name="allow_incall_home_summary">Povolit použití tlačítka Domů při vyzvánění zařízení</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Zobrazit protokol historie oznámení</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Styl ikony baterie</string>
+    <string name="battery_style_summary">Přizpůsobit styl ikony baterie, skrýt nebo zobrazit procenta</string>
+    <string name="battery_percent_title">Procenta baterie ve stavovém řádku</string>
+    <string name="battery_style_category_title">Ikona baterie</string>
+    <string name="status_bar_battery_style_title">Styl baterie</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikona na výšku (výchozí)</string>
+    <string name="status_bar_battery_style_circle">Kruh</string>
+    <string name="status_bar_battery_style_dotted_circle">Kruh (tečkovaný)</string>
+    <string name="status_bar_battery_style_filled_circle">Kruh (plný)</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Nezobrazovat</string>
+    <string name="status_bar_battery_percentage_title">Procenta baterie</string>
+    <string name="status_bar_battery_percentage_default">Skryté (výchozí)</string>
+    <string name="status_bar_battery_percentage_text_inside">Uvnitř ikony</string>
+    <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
 </resources>

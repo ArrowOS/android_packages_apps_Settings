@@ -269,4 +269,20 @@
     <string name="allow_incall_home_summary">Permitir que o botão de início seja usado quando o dispositivo estiver tocando</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Mostrar histórico de notificações</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Estilo do ícone da bateria</string>
+    <string name="battery_style_summary">Personalizar os ícones da bateria, ocultar ou mostrar porcentagem</string>
+    <string name="battery_percent_title">Porcentagem da bateria na barra de status</string>
+    <string name="battery_style_category_title">Ícone da bateria</string>
+    <string name="status_bar_battery_style_title">Estilo do ícone da bateria</string>
+    <string name="status_bar_battery_style_icon_portrait">Ícone em modo retrato (padrão)</string>
+    <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo (pontilhado)</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo (preenchido)</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+    <string name="status_bar_battery_percentage_title">Porcentagem da bateria</string>
+    <string name="status_bar_battery_percentage_default">Oculto (padrão)</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
+    <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
 </resources>

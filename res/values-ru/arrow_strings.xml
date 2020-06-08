@@ -269,4 +269,20 @@
     <string name="allow_incall_home_summary">Разрешить использование кнопки \"Домой\" при звонке</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Показать историю уведомлений</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Стили иконки батареи</string>
+    <string name="battery_style_summary">Пользовательские настройки иконки батареи, скрывать или показывать процент</string>
+    <string name="battery_percent_title">Процент батареи в строке состояния</string>
+    <string name="battery_style_category_title">Иконка батареи</string>
+    <string name="status_bar_battery_style_title">Стиль батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Портрет (по умолчанию)</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_dotted_circle">Круг (Точечный)</string>
+    <string name="status_bar_battery_style_filled_circle">Круг (заполненный)</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Скрывать</string>
+    <string name="status_bar_battery_percentage_title">Процент заряда батареи</string>
+    <string name="status_bar_battery_percentage_default">Скрыто (по умолчанию)</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
+    <string name="status_bar_battery_percentage_text_next">После иконки</string>
 </resources>
