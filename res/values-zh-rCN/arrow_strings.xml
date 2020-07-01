@@ -268,21 +268,21 @@
     <string name="allow_incall_home_title">响铃时的主屏幕键</string>
     <string name="allow_incall_home_summary">设备响铃时允许使用主屏幕键</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">显示通知历史记录</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
-    <string name="battery_percent_title">Status bar battery percentage</string>
-    <string name="battery_style_category_title">Battery icon</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="battery_style_title">电池图标样式</string>
+    <string name="battery_style_summary">自定义电池图标，隐藏或显示百分比</string>
+    <string name="battery_percent_title">状态栏电量百分比</string>
+    <string name="battery_style_category_title">电池图标</string>
+    <string name="status_bar_battery_style_title">电池样式</string>
+    <string name="status_bar_battery_style_icon_portrait">竖置图标（默认）</string>
+    <string name="status_bar_battery_style_circle">环形</string>
+    <string name="status_bar_battery_style_dotted_circle">环形虚线</string>
+    <string name="status_bar_battery_style_filled_circle">实心圆圈</string>
+    <string name="status_bar_battery_style_text">文本</string>
+    <string name="status_bar_battery_style_hidden">隐藏</string>
+    <string name="status_bar_battery_percentage_title">电量百分比</string>
+    <string name="status_bar_battery_percentage_default">隐藏 (默认)</string>
+    <string name="status_bar_battery_percentage_text_inside">在图标内</string>
+    <string name="status_bar_battery_percentage_text_next">在图标旁</string>
 </resources>

@@ -55,7 +55,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Localiza el lector de huellas digitales en el lado izquierdo de tu tableta.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Localiza el lector de huellas digitales en el lado derecho de tu tableta.</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Dark theme styles</string>
+    <string name="theme_customization_systemui_title">Estilos de tema oscuro</string>
     <string name="theme_customization_accent_color_title">Color principal</string>
     <string name="theme_customization_font_title">Fuente de encabezado / cuerpo</string>
     <string name="theme_customization_icon_shape_title">Forma de ícono</string>
@@ -86,7 +86,7 @@
     <string name="gesture_settings_dashboard_title">Gestos</string>
     <string name="gesture_settings_dashboard_summary">Administrar configuración de gestos</string>
     <string name="custom_device_gestures_preference_title">Gestos específicos del dispositivo</string>
-    <string name="custom_device_gestures_preference_summary">Device specific gestures package is shown here</string>
+    <string name="custom_device_gestures_preference_summary">El paquete de gestos específicos del dispositivo se muestra aquí</string>
     <!-- Global Actions -->
     <string name="advanced_powermenu_category_title">Menú de apagado avanzado</string>
     <string name="global_actions_title">Menú de apagado</string>
@@ -252,37 +252,37 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">Temperatura de batería</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">Display cutout settings</string>
-    <string name="cutout_main_keywords">display cutout, notch, hide notch, hide</string>
-    <string name="cutout_main_summary">They really cut corners with this one</string>
-    <string name="display_cutout_style_title">Cutout style</string>
+    <string name="cutout_main">Mostrar ajustes de recorte</string>
+    <string name="cutout_main_keywords">recorte de pantalla, muesca, ocultar muesca, ocultar</string>
+    <string name="cutout_main_summary">Realmente cortan esquinas con este</string>
+    <string name="display_cutout_style_title">Estilo de corte</string>
     <string name="display_cutout_style_normal">Normal</string>
-    <string name="display_cutout_style_immerse">Immerse</string>
-    <string name="display_cutout_style_hide">Hide</string>
-    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
-    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <string name="display_cutout_style_immerse">Inmersivo</string>
+    <string name="display_cutout_style_hide">Ocultar</string>
+    <string name="stock_statusbar_in_hide">Altura predeterminada de la barra de estado</string>
+    <string name="stock_statusbar_in_hide_summary">Usar altura predeterminada de la barra de estado en Ocultar</string>
     <!-- Navigation bar -->
-    <string name="navigation_bar_title">Navigation bar</string>
-    <string name="navigation_bar_summary">Enable or disable navigation bar</string>
+    <string name="navigation_bar_title">Barra de navegación</string>
+    <string name="navigation_bar_summary">Activar o desactivar la barra de navegación</string>
     <!-- Incall Home button behavior-->
-    <string name="allow_incall_home_title">Home button when ringing</string>
-    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
+    <string name="allow_incall_home_title">Botón de inicio cuando esté sonando</string>
+    <string name="allow_incall_home_summary">Permitir usar el botón Inicio cuando el dispositivo está sonando</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Mostrar historial de notificaciones</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
-    <string name="battery_percent_title">Status bar battery percentage</string>
-    <string name="battery_style_category_title">Battery icon</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="battery_style_title">Estilo del icono de la batería</string>
+    <string name="battery_style_summary">Personalizar iconos de batería, ocultar o mostrar porcentaje</string>
+    <string name="battery_percent_title">Porcentaje de batería en la barra de estado</string>
+    <string name="battery_style_category_title">Icono de batería</string>
+    <string name="status_bar_battery_style_title">Estilo de batería</string>
+    <string name="status_bar_battery_style_icon_portrait">Retrato de icono (por defecto)</string>
+    <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo (Punteado)</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo (Relleno)</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+    <string name="status_bar_battery_percentage_title">Porcentaje de batería</string>
+    <string name="status_bar_battery_percentage_default">Oculto (por defecto)</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
+    <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
 </resources>

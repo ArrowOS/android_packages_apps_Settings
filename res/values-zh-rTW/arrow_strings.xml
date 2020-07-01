@@ -17,10 +17,10 @@
     <!-- Arrow version preference -->
     <string name="arrow_version">"ArrowOS 版本"</string>
     <string name="build_date">"組建日期"</string>
-    <string name="about_device_name">"Device"</string>
-    <string name="arrow_firmware_version">"Firmware Information"</string>
+    <string name="about_device_name">"裝置"</string>
+    <string name="arrow_firmware_version">"固件訊息"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Close</string>
+    <string name="suggestion_button_close">關閉</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">顏色選擇器</string>
     <string name="press_color_to_apply">按下顏色以套用</string>
@@ -37,25 +37,25 @@
     <string name="screenshot_sound_title">螢幕截圖音效</string>
     <!-- Changelog -->
     <string name="changelog_title">更新日誌</string>
-    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_summary">自上次更新以來</string>
     <string name="changelog_error">無法載入更新日誌</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">ArrowOS 統計資訊</string>
-    <string name="arrow_stats_summary">Just counting how many devices we run on</string>
+    <string name="arrow_stats_summary">僅計算我們運作的裝置數量</string>
     <!-- Fingerprint location message - default -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">指紋感應器位於手機背面。</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">指紋感應器位於手機左侧。</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">指紋感應器位於手機右侧。</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">找到位於裝置前面的指紋感應器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">找到位於裝置左側的指紋感應器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">找到位於裝置右側的指紋感應器。</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">找到位於平板電腦前面的指紋感應器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">找到位於平板電腦左側的指紋感應器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">找到位於平板電腦右側的指紋感應器。</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Dark theme styles</string>
+    <string name="theme_customization_systemui_title">暗色主題樣式</string>
     <string name="theme_customization_accent_color_title">Accent color</string>
     <string name="theme_customization_font_title">Headline / Body font</string>
     <string name="theme_customization_icon_shape_title">Icon shape</string>
