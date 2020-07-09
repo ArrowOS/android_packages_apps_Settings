@@ -56,4 +56,11 @@
             android:defaultValue="0"
             android:dependency="fod_recognizing_animation" />
 
+    <com.arrow.support.preferences.SystemSettingSwitchPreference
+        android:key="fod_gesture"
+        android:title="@string/fod_gesture_title"
+        android:summary="@string/fod_gesture_summary"
+        android:defaultValue="true"
+        settings:controller="com.android.settings.security.FodGesturePreferenceController" />
+
 </PreferenceScreen>
