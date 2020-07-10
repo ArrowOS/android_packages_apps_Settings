@@ -36,4 +36,10 @@
         android:entryValues="@array/battery_percent_values"
         android:defaultValue="0" />
 
+    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+        android:key="qs_header_show_battery_percent"
+        android:title="@string/qs_battery_percentage_title"
+        android:summary="@string/qs_battery_percentage_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
