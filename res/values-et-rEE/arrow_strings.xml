@@ -285,4 +285,6 @@
     <string name="status_bar_battery_percentage_default">Peidetud (vaikimisi)</string>
     <string name="status_bar_battery_percentage_text_inside">Ikooni sees</string>
     <string name="status_bar_battery_percentage_text_next">Ikooni kõrval</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 </resources>

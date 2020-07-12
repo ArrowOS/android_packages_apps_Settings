@@ -285,4 +285,6 @@
     <string name="status_bar_battery_percentage_default">隐藏 (默认)</string>
     <string name="status_bar_battery_percentage_text_inside">在图标内</string>
     <string name="status_bar_battery_percentage_text_next">在图标旁</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 </resources>
