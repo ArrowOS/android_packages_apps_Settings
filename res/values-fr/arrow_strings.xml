@@ -285,4 +285,6 @@
     <string name="status_bar_battery_percentage_default">Masqué (Par défaut)</string>
     <string name="status_bar_battery_percentage_text_inside">Dans l\'icône</string>
     <string name="status_bar_battery_percentage_text_next">À côté de l\'icône</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 </resources>

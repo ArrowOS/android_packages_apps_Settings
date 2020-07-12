@@ -285,4 +285,6 @@
     <string name="status_bar_battery_percentage_default">Nascosta (predefinito)</string>
     <string name="status_bar_battery_percentage_text_inside">Dentro l\'icona</string>
     <string name="status_bar_battery_percentage_text_next">Accanto all\'icona</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 </resources>
