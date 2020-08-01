@@ -99,6 +99,7 @@
     <string name="global_actions_soundpanel">Ton-Einstellungen</string>
     <string name="global_actions_users">Benutzer</string>
     <string name="global_actions_screenshot">Bildschirmfoto</string>
+    <string name="global_actions_screenrecord">Screenrecord</string>
     <string name="global_actions_flashlight">Taschenlampe</string>
     <string name="global_actions_emergency">Notfall</string>
     <string name="global_actions_advanced_reboot_title">Erweitertes Neustart-Menü aktivieren</string>
@@ -212,6 +213,8 @@
     <string name="swap_volume_buttons_title">Neuausrichtung</string>
     <string name="swap_volume_buttons_summary">Belegung der Lautstärketasten umkehren, wenn der Bildschirm gedreht wird</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
     <string name="data_usage_app_restrict_data">Mobile Daten</string>
     <string name="data_usage_app_restrict_data_summary">Mobile Datennutzung aktivieren</string>
     <string name="data_usage_app_restrict_vpn">VPN Daten</string>
@@ -287,4 +290,7 @@
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
 </resources>

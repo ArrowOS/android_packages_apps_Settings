@@ -99,6 +99,7 @@
     <string name="global_actions_soundpanel">Pannello audio</string>
     <string name="global_actions_users">Utenti</string>
     <string name="global_actions_screenshot">Screenshot</string>
+    <string name="global_actions_screenrecord">Screenrecord</string>
     <string name="global_actions_flashlight">Torcia</string>
     <string name="global_actions_emergency">Emergenza</string>
     <string name="global_actions_advanced_reboot_title">Abilita riavvio avanzato</string>
@@ -212,6 +213,8 @@
     <string name="swap_volume_buttons_title">Riorienta</string>
     <string name="swap_volume_buttons_summary">Inverti i tasti del volume quando lo schermo è ruotato</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
     <string name="data_usage_app_restrict_data">Rete dati</string>
     <string name="data_usage_app_restrict_data_summary">Abilita l\'utilizzo della rete dati del cellulare</string>
     <string name="data_usage_app_restrict_vpn">Dati VPN</string>
@@ -286,5 +289,8 @@
     <string name="status_bar_battery_percentage_text_inside">Dentro l\'icona</string>
     <string name="status_bar_battery_percentage_text_next">Accanto all\'icona</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Auricolari salvati</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
 </resources>
