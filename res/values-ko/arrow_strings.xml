@@ -99,6 +99,7 @@
     <string name="global_actions_soundpanel">Sound Panel</string>
     <string name="global_actions_users">사용자</string>
     <string name="global_actions_screenshot">스크린샷</string>
+    <string name="global_actions_screenrecord">Screenrecord</string>
     <string name="global_actions_flashlight">손전등</string>
     <string name="global_actions_emergency">Emergency</string>
     <string name="global_actions_advanced_reboot_title">고급 다시 시작 사용</string>
@@ -212,6 +213,8 @@
     <string name="swap_volume_buttons_title">버튼 재정렬</string>
     <string name="swap_volume_buttons_summary">화면이 회전되었을 때 볼륨 버튼 위/아래 전환</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
     <string name="data_usage_app_restrict_data">모바일 데이터</string>
     <string name="data_usage_app_restrict_data_summary">모바일 데이터를 사용합니다</string>
     <string name="data_usage_app_restrict_vpn">VPN 데이터</string>
@@ -287,4 +290,10 @@
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <!-- Quick statusbar header battery percentage -->
+    <string name="qs_battery_percentage_title">QS battery percentage</string>
+    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
 </resources>

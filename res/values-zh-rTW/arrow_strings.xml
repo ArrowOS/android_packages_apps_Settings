@@ -58,12 +58,12 @@
     <string name="theme_customization_systemui_title">暗色主題樣式</string>
     <string name="theme_customization_accent_color_title">Accent color</string>
     <string name="theme_customization_font_title">Headline / Body font</string>
-    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <string name="theme_customization_icon_shape_title">圖示形狀</string>
     <!-- SELinux status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status">SELinux 狀態</string>
+    <string name="selinux_status_disabled">已禁用</string>
     <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status_enforcing">執行中</string>
     <!-- Network traffic -->
     <string name="traffic_title">Traffic indicators</string>
     <string name="traffic_summary">Enable or disable network speed indicators</string>
@@ -89,32 +89,33 @@
     <string name="custom_device_gestures_preference_summary">Device specific gestures package is shown here</string>
     <!-- Global Actions -->
     <string name="advanced_powermenu_category_title">Advanced power menu</string>
-    <string name="global_actions_title">Power menu</string>
-    <string name="global_actions_summary">Select what to show when you press the power button</string>
-    <string name="global_actions_power">Power</string>
-    <string name="global_actions_restart">Restart</string>
-    <string name="global_actions_airplane">Airplane</string>
-    <string name="global_actions_settings">Settings</string>
+    <string name="global_actions_title">電源選單</string>
+    <string name="global_actions_summary">選擇按電源按鈕時顯示的内容</string>
+    <string name="global_actions_power">電源</string>
+    <string name="global_actions_restart">重新啟動</string>
+    <string name="global_actions_airplane">飛行模式</string>
+    <string name="global_actions_settings">設定</string>
     <string name="global_actions_lockdown">Lock Down</string>
-    <string name="global_actions_soundpanel">Sound Panel</string>
-    <string name="global_actions_users">Users</string>
-    <string name="global_actions_screenshot">Screenshot</string>
-    <string name="global_actions_flashlight">Flashlight</string>
-    <string name="global_actions_emergency">Emergency</string>
+    <string name="global_actions_soundpanel">聲音面板</string>
+    <string name="global_actions_users">使用者</string>
+    <string name="global_actions_screenshot">螢幕截圖</string>
+    <string name="global_actions_screenrecord">Screenrecord</string>
+    <string name="global_actions_flashlight">手電筒</string>
+    <string name="global_actions_emergency">緊急狀況</string>
     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
     <string name="global_actions_advanced_reboot_summary">When restarting also show options for recovery and bootloader</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+    <string name="fp_unlock_keystore_title">指紋解鎖</string>
     <string name="fp_unlock_keystore_summary">在重新開機後不使用 PIN 碼/密碼/圖案的情況下解鎖設備
 \n注意：請自行承擔風險!</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">天氣</string>
     <string name="weather_config_title">服務設定</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Weather style</string>
+    <string name="lock_screen_weather_style_title">天氣樣式</string>
     <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
     <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
     <string name="header_weather_title">Header view weather</string>
@@ -213,6 +214,8 @@
     <string name="swap_volume_buttons_title">Reorient</string>
     <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
     <string name="data_usage_app_restrict_data">行動網路流量</string>
     <string name="data_usage_app_restrict_data_summary">啟用行動網路流量統計</string>
     <string name="data_usage_app_restrict_vpn">VPN data</string>
@@ -288,4 +291,10 @@
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <!-- Quick statusbar header battery percentage -->
+    <string name="qs_battery_percentage_title">QS battery percentage</string>
+    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
 </resources>

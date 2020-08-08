@@ -99,6 +99,7 @@
     <string name="global_actions_soundpanel">Äänipaneeli</string>
     <string name="global_actions_users">Käyttäjät</string>
     <string name="global_actions_screenshot">Ruutukaappaus</string>
+    <string name="global_actions_screenrecord">Screenrecord</string>
     <string name="global_actions_flashlight">Taskulamppu</string>
     <string name="global_actions_emergency">Hätätila</string>
     <string name="global_actions_advanced_reboot_title">Ota käyttöön edistynyt uudelleen käynnistys</string>
@@ -212,6 +213,8 @@
     <string name="swap_volume_buttons_title">Käännä äänenvoimakkuusnäppäimet</string>
     <string name="swap_volume_buttons_summary">Vaihda äänenvoimakkuusnäppäimien paikkoja näytön ollessa käännettynä</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
     <string name="data_usage_app_restrict_data">Mobiilidata</string>
     <string name="data_usage_app_restrict_data_summary">Ota mobiilidata käyttöön</string>
     <string name="data_usage_app_restrict_vpn">VPN data</string>
@@ -287,4 +290,10 @@
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <!-- Quick statusbar header battery percentage -->
+    <string name="qs_battery_percentage_title">QS battery percentage</string>
+    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
 </resources>
