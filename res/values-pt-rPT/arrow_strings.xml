@@ -23,7 +23,7 @@
     <string name="suggestion_button_close">Fechar</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Paleta de cores</string>
-    <string name="press_color_to_apply">Pressione uma cor abaixo para aplicar</string>
+    <string name="press_color_to_apply">Pressione uma cor em baixo para aplicar</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
@@ -99,7 +99,7 @@
     <string name="global_actions_soundpanel">Painel de som</string>
     <string name="global_actions_users">Utilizadores</string>
     <string name="global_actions_screenshot">Captura de Ecrã</string>
-    <string name="global_actions_screenrecord">Screenrecord</string>
+    <string name="global_actions_screenrecord">Gravador de ecrã</string>
     <string name="global_actions_flashlight">Lanterna</string>
     <string name="global_actions_emergency">Emergência</string>
     <string name="global_actions_advanced_reboot_title">Activar reinicialização avançada</string>
@@ -213,8 +213,8 @@
     <string name="swap_volume_buttons_title">Reorientar</string>
     <string name="swap_volume_buttons_summary">Inverter os botões de volume quando o ecrã é rodado</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_all">Permitir acesso à rede</string>
+    <string name="data_usage_app_restrict_all_summary">Activar utilização da rede</string>
     <string name="data_usage_app_restrict_data">Dados móveis</string>
     <string name="data_usage_app_restrict_data_summary">Ativar a utilização de dados de rede móvel</string>
     <string name="data_usage_app_restrict_vpn">Dados VPN</string>
@@ -273,27 +273,27 @@
     <!-- Notification log -->
     <string name="notification_log_summary">Mostrar histórico de notificações</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
-    <string name="battery_percent_title">Status bar battery percentage</string>
-    <string name="battery_style_category_title">Battery icon</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="battery_style_title">Estilo do indicador de bateria</string>
+    <string name="battery_style_summary">Personalize os ícones da bateria, oculte ou mostre a porcentagem</string>
+    <string name="battery_percent_title">Porcentagem da bateria na barra de estado</string>
+    <string name="battery_style_category_title">Ícone da bateria</string>
+    <string name="status_bar_battery_style_title">Estilo da bateria</string>
+    <string name="status_bar_battery_style_icon_portrait">Ícone em retrato (padrão)</string>
+    <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo (pontilhado)</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo (Preenchido)</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+    <string name="status_bar_battery_percentage_title">Porcentagem da bateria</string>
+    <string name="status_bar_battery_percentage_default">Oculto (padrão)</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
+    <string name="status_bar_battery_percentage_text_next">Junto ao ícone</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Auriculares guardados</string>
     <!-- Hotspot VPN -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">Permitir que os clientes usem VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes de hotspot usem as ligações VPN deste dispositivo\u2019s</string>
     <!-- Quick statusbar header battery percentage -->
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
-    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
+    <string name="qs_battery_percentage_title">Percentagem da bateria</string>
+    <string name="qs_battery_percentage_summary">Mostrar a porcentagem da bateria no cabeçalho QS em vez da estimativa da bateria</string>
 </resources>

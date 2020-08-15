@@ -294,6 +294,6 @@
     <string name="tethering_allow_vpn_upstreams_title">Consenti ai dispositivi connessi di utilizzare le VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Consenti ai client hotspot di utilizzare le connessioni VPN di questo dispositivo per la connettività</string>
     <!-- Quick statusbar header battery percentage -->
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
-    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
+    <string name="qs_battery_percentage_title">Percentuale batteria in Quick Settings</string>
+    <string name="qs_battery_percentage_summary">Visualizza la percentuale della batteria invece dell\'autonomia stimata nel pannello dei Quick Settings</string>
 </resources>

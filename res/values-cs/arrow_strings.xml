@@ -294,6 +294,6 @@
     <string name="tethering_allow_vpn_upstreams_title">Umožnit klientům používat VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Povolit klientům hotspotu používat připojení VPN tohoto zařízení pro odchozí připojení</string>
     <!-- Quick statusbar header battery percentage -->
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
-    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
+    <string name="qs_battery_percentage_title">Procenta baterie v QS</string>
+    <string name="qs_battery_percentage_summary">Zobrazit procenta baterie v záhlaví QS namísto odhadu baterie</string>
 </resources>

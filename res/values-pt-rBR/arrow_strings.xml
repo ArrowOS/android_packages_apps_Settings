@@ -99,7 +99,7 @@
     <string name="global_actions_soundpanel">Painel de som</string>
     <string name="global_actions_users">Usuários</string>
     <string name="global_actions_screenshot">Captura de tela</string>
-    <string name="global_actions_screenrecord">Screenrecord</string>
+    <string name="global_actions_screenrecord">Gravação a tela</string>
     <string name="global_actions_flashlight">Lanterna</string>
     <string name="global_actions_emergency">Emergência</string>
     <string name="global_actions_advanced_reboot_title">Habilitar o reinício avançado</string>
@@ -294,6 +294,6 @@
     <string name="tethering_allow_vpn_upstreams_title">Permitir que clientes usem VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes do ponto de acesso usem este dispositivo\u2019s para conexões VPN</string>
     <!-- Quick statusbar header battery percentage -->
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
-    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
+    <string name="qs_battery_percentage_title">Porcentagem da bateria nas Configurações Rápidas</string>
+    <string name="qs_battery_percentage_summary">Mostrar porcentagem da bateria nas configurações rápidas do cabeçalho ao invés da estimativa da bateria</string>
 </resources>
