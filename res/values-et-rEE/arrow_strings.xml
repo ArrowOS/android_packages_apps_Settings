@@ -99,7 +99,7 @@
     <string name="global_actions_soundpanel">Helipaneel</string>
     <string name="global_actions_users">Kasutajad</string>
     <string name="global_actions_screenshot">Kuvatõmmis</string>
-    <string name="global_actions_screenrecord">Screenrecord</string>
+    <string name="global_actions_screenrecord">Ekraani salvestus</string>
     <string name="global_actions_flashlight">Taskulamp</string>
     <string name="global_actions_emergency">Hädaabi</string>
     <string name="global_actions_advanced_reboot_title">Luba täpsustatud taaskäivitamine</string>
@@ -213,8 +213,8 @@
     <string name="swap_volume_buttons_title">Orienteeri ümber</string>
     <string name="swap_volume_buttons_summary">Vaheta helitugevusklahvid ekraani pööramisel</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_all">Lubage võrgule juurdepääs</string>
+    <string name="data_usage_app_restrict_all_summary">Lubage võrgu kasutamine</string>
     <string name="data_usage_app_restrict_data">Mobiilne andmeside</string>
     <string name="data_usage_app_restrict_data_summary">Luba mobiilse andmeside kasutus</string>
     <string name="data_usage_app_restrict_vpn">VPN andmed</string>
@@ -291,9 +291,9 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Salvestatud nööpkuularid</string>
     <!-- Hotspot VPN -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">Luba klientidel kasutada VPN-e</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Luba kuumkoha klientidel kasutada selle seadme VPN-ühendusi ülesvoolu ühenduvuseks</string>
     <!-- Quick statusbar header battery percentage -->
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
-    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
+    <string name="qs_battery_percentage_title">Laadimisprotsent kiirseadetes</string>
+    <string name="qs_battery_percentage_summary">Kuva aku protsent kiire seadete päises prognoositud tööaja asemel</string>
 </resources>
