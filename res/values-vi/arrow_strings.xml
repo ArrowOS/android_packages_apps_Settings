@@ -26,7 +26,7 @@
     <string name="press_color_to_apply">Nhấn vào màu sắc dưới đây để áp dụng</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="hex">Hex:</string>
+    <string name="hex">Mã Hex:</string>
     <string name="hex_hint">#ff000000</string>
     <string name="set">Đặt</string>
     <string name="color_default">Mặc định</string>
@@ -99,7 +99,7 @@
     <string name="global_actions_soundpanel">Bảng điều khiển âm lượng</string>
     <string name="global_actions_users">Người dùng</string>
     <string name="global_actions_screenshot">Chụp ảnh màn hình</string>
-    <string name="global_actions_screenrecord">Screenrecord</string>
+    <string name="global_actions_screenrecord">Quay màn hình</string>
     <string name="global_actions_flashlight">Đèn pin</string>
     <string name="global_actions_emergency">Khẩn cấp</string>
     <string name="global_actions_advanced_reboot_title">Bật khởi động lại nâng cao</string>
@@ -213,8 +213,8 @@
     <string name="swap_volume_buttons_title">Đảo chiều phím âm lượng</string>
     <string name="swap_volume_buttons_summary">Hoán đổi vị trí nút âm lượng khi xoay màn hình</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_all">Cho phép truy cập mạng</string>
+    <string name="data_usage_app_restrict_all_summary">Cho phép sử dụng mạng</string>
     <string name="data_usage_app_restrict_data">Dữ liệu di động</string>
     <string name="data_usage_app_restrict_data_summary">Bật sử dụng dữ liệu di động</string>
     <string name="data_usage_app_restrict_vpn">Dữ liệu VPN</string>
@@ -271,29 +271,29 @@
     <string name="allow_incall_home_title">Nút Home khi đổ chuông</string>
     <string name="allow_incall_home_summary">Cho phép sử dụng nút Home khi thiết bị đổ chuông</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Hiển thị nhật ký lịch sử thông báo</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
-    <string name="battery_percent_title">Status bar battery percentage</string>
-    <string name="battery_style_category_title">Battery icon</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="battery_style_title">Kiểu biểu tượng pin</string>
+    <string name="battery_style_summary">Tùy chỉnh biểu tượng pin, ẩn hoặc hiển thị phần trăm</string>
+    <string name="battery_percent_title">Tuỳ chọn phần trăm pin</string>
+    <string name="battery_style_category_title">Biểu tượng pin</string>
+    <string name="status_bar_battery_style_title">Kiểu biểu tượng pin</string>
+    <string name="status_bar_battery_style_icon_portrait">Biểu tượng dọc (mặc định)</string>
+    <string name="status_bar_battery_style_circle">Vòng tròn</string>
+    <string name="status_bar_battery_style_dotted_circle">Vòng tròn (Chấm)</string>
+    <string name="status_bar_battery_style_filled_circle">Vòng tròn (Đầy)</string>
+    <string name="status_bar_battery_style_text">Văn bản</string>
+    <string name="status_bar_battery_style_hidden">Ẩn</string>
+    <string name="status_bar_battery_percentage_title">Tỉ lệ phần trăm pin</string>
+    <string name="status_bar_battery_percentage_default">Ẩn (mặc định)</string>
+    <string name="status_bar_battery_percentage_text_inside">Bên trong biểu tượng pin</string>
+    <string name="status_bar_battery_percentage_text_next">Bên cạnh biểu tượng pin</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Tai nghe đã lưu</string>
     <!-- Hotspot VPN -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">Cho phép máy khách sử dụng VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Cho phép máy khách sử dụng điểm truy cập với kết nối VPN của thiết bị này để kết nối đến máy chủ</string>
     <!-- Quick statusbar header battery percentage -->
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
-    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
+    <string name="qs_battery_percentage_title">Phần trăm pin trong QS</string>
+    <string name="qs_battery_percentage_summary">Hiển thị phần trăm pin trong tiêu đề QS thay vì ước tính pin</string>
 </resources>

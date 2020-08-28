@@ -99,7 +99,7 @@
     <string name="global_actions_soundpanel">Panel de sonido</string>
     <string name="global_actions_users">Usuarios</string>
     <string name="global_actions_screenshot">Captura de pantalla</string>
-    <string name="global_actions_screenrecord">Screenrecord</string>
+    <string name="global_actions_screenrecord">Grabación de pantalla</string>
     <string name="global_actions_flashlight">Linterna</string>
     <string name="global_actions_emergency">Emergencia</string>
     <string name="global_actions_advanced_reboot_title">Habilitar reinicio avanzado</string>
@@ -213,8 +213,8 @@
     <string name="swap_volume_buttons_title">Reorientar botones</string>
     <string name="swap_volume_buttons_summary">Intercambiar los botones de volumen al rotar la pantalla</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_all">Permitir acceso a la red</string>
+    <string name="data_usage_app_restrict_all_summary">Habilitar uso de red</string>
     <string name="data_usage_app_restrict_data">Datos móviles</string>
     <string name="data_usage_app_restrict_data_summary">Habilitar el uso de datos móviles</string>
     <string name="data_usage_app_restrict_vpn">Datos VPN</string>
@@ -291,9 +291,9 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Auriculares guardados</string>
     <!-- Hotspot VPN -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">Permitir a los clientes usar VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permitir a los clientes de hotspot usar las conexiones VPN de este dispositivo\u2019 como conectividad de subida</string>
     <!-- Quick statusbar header battery percentage -->
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
-    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
+    <string name="qs_battery_percentage_title">Porcentaje de batería QS</string>
+    <string name="qs_battery_percentage_summary">Mostrar porcentaje de batería en la cabecera QS en lugar de estimar la batería</string>
 </resources>
