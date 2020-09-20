@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "026ad836_b4e2ef61",
+        "filename": "res/values/arrow_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 71
+      },
+      "writtenOn": "2020-09-20T15:20:25Z",
+      "side": 1,
+      "message": "sar why it here?",
+      "revId": "0ff5c91217a48589fbed4c2655dc8bef55e0e891",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196",
+      "unresolved": true
+    }
+  ]
+}
