@@ -36,6 +36,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.hwkeys.ActionConstants;
 import com.android.internal.util.hwkeys.ActionUtils;
 import com.android.settings.arrow.preferences.ActionFragment;
+import com.arrow.support.preferences.CustomSeekBarPreference;
 
 public class HardwareKeys extends ActionFragment implements Preference.OnPreferenceChangeListener {
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
@@ -49,6 +50,11 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
     private static final String CATEGORY_APPSWITCH = "app_switch_key";
     private static final String CATEGORY_VOLUME = "volume_keys";
     private static final String CATEGORY_POWER = "power_key";
+
+    private static final String KEY_BUTTON_BRIGHTNESS = "button_brightness";
+    private static final String KEY_BACKLIGHT_TIMEOUT = "backlight_timeout";
+    private static final String KEY_BUTTON_BRIGHTNESS_SW = "button_brightness_sw";
+
      // Masks for checking presence of hardware keys.
     // Must match values in frameworks/base/core/res/res/values/config.xml
     public static final int KEY_MASK_HOME = 0x01;
@@ -60,6 +66,9 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
     public static final int KEY_MASK_VOLUME = 0x40;
 
     private SwitchPreference mHwKeyDisable;
+    private ListPreference mBacklightTimeout;
+    private CustomSeekBarPreference mButtonBrightness;
+    private SwitchPreference mButtonBrightness_sw;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -67,6 +76,39 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
         addPreferencesFromResource(R.xml.hardware_keys);
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        final boolean variableBrightness = getResources().getBoolean(
+                com.android.internal.R.bool.config_deviceHasVariableButtonBrightness);
+
+        mBacklightTimeout =
+                (ListPreference) findPreference(KEY_BACKLIGHT_TIMEOUT);
+        mButtonBrightness =
+                (CustomSeekBarPreference) findPreference(KEY_BUTTON_BRIGHTNESS);
+
+        if (mBacklightTimeout != null) {
+            mBacklightTimeout.setOnPreferenceChangeListener(this);
+            int BacklightTimeout = Settings.System.getInt(getContentResolver(),
+                    Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 5000);
+            mBacklightTimeout.setValue(Integer.toString(BacklightTimeout));
+            mBacklightTimeout.setSummary(mBacklightTimeout.getEntry());
+        }
+
+        if (variableBrightness) {
+            prefScreen.removePreference(mButtonBrightness_sw);
+            if (mButtonBrightness != null) {
+                int ButtonBrightness = Settings.System.getInt(getContentResolver(),
+                        Settings.System.BUTTON_BRIGHTNESS, 255);
+                mButtonBrightness.setValue(ButtonBrightness / 1);
+                mButtonBrightness.setOnPreferenceChangeListener(this);
+            }
+        } else {
+            prefScreen.removePreference(mButtonBrightness);
+            if (mButtonBrightness_sw != null) {
+                mButtonBrightness_sw.setChecked((Settings.System.getInt(getContentResolver(),
+                        Settings.System.BUTTON_BRIGHTNESS, 1) == 1));
+                mButtonBrightness_sw.setOnPreferenceChangeListener(this);
+            }
+        }
 
         final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
         final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen
@@ -132,7 +174,28 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
     }
      @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mHwKeyDisable) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mBacklightTimeout) {
+            String BacklightTimeout = (String) newValue;
+            int BacklightTimeoutValue = Integer.parseInt(BacklightTimeout);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.BUTTON_BACKLIGHT_TIMEOUT, BacklightTimeoutValue);
+            int BacklightTimeoutIndex = mBacklightTimeout
+                    .findIndexOfValue(BacklightTimeout);
+            mBacklightTimeout
+                    .setSummary(mBacklightTimeout.getEntries()[BacklightTimeoutIndex]);
+            return true;
+        } else if (preference == mButtonBrightness) {
+            int value = (Integer) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.BUTTON_BRIGHTNESS, value * 1);
+            return true;
+        } else if (preference == mButtonBrightness_sw) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.BUTTON_BRIGHTNESS, value ? 1 : 0);
+            return true;
+        } else if (preference == mHwKeyDisable) {
             boolean value = (Boolean) newValue;
             Settings.Secure.putInt(getContentResolver(), Settings.Secure.HARDWARE_KEYS_DISABLE,
                     value ? 1 : 0);
@@ -141,6 +204,7 @@ public class HardwareKeys extends ActionFragment implements Preference.OnPrefere
         }
         return false;
     }
+
      @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.ARROW;
