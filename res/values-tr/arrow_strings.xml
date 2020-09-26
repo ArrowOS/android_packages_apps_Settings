@@ -22,7 +22,7 @@
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">Kapat</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Renk seçin</string>
+    <string name="dialog_color_picker">Renk Seçici</string>
     <string name="press_color_to_apply">Uygulamak istediğiniz rengin üzerine dokunun</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
@@ -31,17 +31,17 @@
     <string name="set">Ayarla</string>
     <string name="color_default">Varsayılan</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Pil bilgisi</string>
-    <string name="lockscreen_battery_info_summary">Şarj olurken kilit ekranında şarj cihazının maksimum akım voltajını ve pil sıcaklığını görüntüle</string>
+    <string name="lockscreen_battery_info_title">Kilit ekranı şarj bilgisi</string>
+    <string name="lockscreen_battery_info_summary">Cihaz şarj olurken kilit ekranında şarj cihazının varolan akımını, voltajını ve pil sıcaklığını görüntüler</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Ekran görüntüsü sesi</string>
     <!-- Changelog -->
     <string name="changelog_title">Değişiklikler</string>
-    <string name="changelog_summary">Son güncelleme değişiklikleri</string>
+    <string name="changelog_summary">Son güncellemedeki değişiklikler</string>
     <string name="changelog_error">Değişiklikler yüklenemiyor</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">ArrowOS istatistikleri</string>
-    <string name="arrow_stats_summary">Sadece kaç cihazla çalıştığımızı sayıyoruz</string>
+    <string name="arrow_stats_summary">Sadece kaç cihazda çalıştığımızı sayıyoruz</string>
     <!-- Fingerprint location message - default -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Telefonunuzun önündeki parmak izi sensörünü bulun.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Telefonunuzun sol tarafındaki parmak izi sensörünü bulun.</string>
@@ -56,7 +56,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Tabletinizin sağ tarafında bulunan parmak izi sensörünü bulun.</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Koyu tema stilleri</string>
-    <string name="theme_customization_accent_color_title">Vurgu Rengi</string>
+    <string name="theme_customization_accent_color_title">Vurgu rengi</string>
     <string name="theme_customization_font_title">Başlık / Gövde yazı tipi</string>
     <string name="theme_customization_icon_shape_title">Simge şekli</string>
     <!-- SELinux status -->
@@ -99,7 +99,7 @@
     <string name="global_actions_soundpanel">Ses paneli</string>
     <string name="global_actions_users">Kullanıcılar</string>
     <string name="global_actions_screenshot">Ekran görüntüsü</string>
-    <string name="global_actions_screenrecord">Screenrecord</string>
+    <string name="global_actions_screenrecord">Ekran kaydı</string>
     <string name="global_actions_flashlight">El feneri</string>
     <string name="global_actions_emergency">Acil durum</string>
     <string name="global_actions_advanced_reboot_title">Gelişmiş yeniden başlatmayı etkinleştir</string>
@@ -108,22 +108,22 @@
     <string name="fprint_sucess_vib_title">Parmak izi kimlik doğrulama titreşimi</string>
     <string name="fprint_sucess_vib_summary">Başarılı parmak izi kimlik doğrulamasında titre</string>
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">Parmak iziyle kilit açma</string>
+    <string name="fp_unlock_keystore_title">Parmak iziyle kilidi aç</string>
     <string name="fp_unlock_keystore_summary">Yeniden başlattıktan sonra PIN/Şifre/Desen olmadan parmak iziyle cihazın kilidini açın\nNot: kendi sorumluluğunuzdadır!</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Hava durumu</string>
     <string name="weather_config_title">Servis ayarları</string>
     <string name="weather_config_summary"></string>
     <string name="lock_screen_weather_style_title">Hava durumu stili</string>
-    <string name="lock_screen_weather_style_summaryOff">Hava durumu konumun bulunduğu tarih satırının altında gösterilir</string>
+    <string name="lock_screen_weather_style_summaryOff">Hava durumu tarih satırının altında konum ile birlikte gösterilir</string>
     <string name="lock_screen_weather_style_summaryOn">Hava durumu tarih satırında konumsuz olarak gösterilir</string>
     <string name="header_weather_title">Başlık görünümünde hava durumu</string>
     <string name="header_weather_summary">Bildirim paneli başlığında hava durumu görüntüsünü etkinleştir</string>
     <string name="weather_icon_pack_title">Durum simge paketi</string>
     <string name="weather_icon_pack_note">Not\u003a Play Store\'den \"Chronus icons\" araması yaparak yeni simge paketleri yükleyebilirsiniz</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Kilit ekranı</string>
-    <string name="lockscreen_weather_summary">Kilit ekranında mevcut hava durumunu ve sıcaklığını göster</string>
+    <string name="lockscreen_weather_title">Kilit ekranı hava durumu</string>
+    <string name="lockscreen_weather_summary">Kilit ekranında şu anki hava durumunu ve sıcaklığını göster</string>
     <string name="lockscreen_items_aod_info_title">Bu görüş konfigürasyonu aynı zamanda ortam ekranı için de geçerlidir</string>
     <string name="lockscreen_weather_show_city_title">Şehir adını göster</string>
     <string name="lockscreen_weather_show_city_summary">Görüntünün solunda mevcut şehrin adını göster</string>
@@ -139,11 +139,11 @@
     <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
     <string name="unlock_quick_unlock_control_summary">Doğru PIN/şifre girildiğinde otomatik olarak kilidi aç</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Pil şarj ışığı</string>
+    <string name="battery_light_settings">Şarj oluyor ışığı</string>
     <string name="battery_light_summary">DND düşük pil durumunda iken pil ışığını etkinleştir veya devre dışı bırak</string>
     <string name="battery_light_enable">Pil ışığı</string>
     <string name="battery_light_allow_on_dnd_title">Rahatsız etmeyinde ışığı yak söndür</string>
-    <string name="battery_light_low_blinking_title">Düşük pilde ışığı yak söndür</string>
+    <string name="battery_light_low_blinking_title">Düşük pilde ışığı yakıp söndür</string>
     <string name="battery_light_cat">Şarj olurken pil ışığı rengi</string>
     <string name="battery_light_low_color">Düşük pil</string>
     <string name="battery_light_medium_color">Orta seviye pil</string>
@@ -213,8 +213,8 @@
     <string name="swap_volume_buttons_title">Yeniden ata</string>
     <string name="swap_volume_buttons_summary">Ekran döndürüldüğünde ses tuşlarının yerini değiştir</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_all">Ağ erişimine izin ver</string>
+    <string name="data_usage_app_restrict_all_summary">Ağ kullanımını etkinleştir</string>
     <string name="data_usage_app_restrict_data">Hücresel veri</string>
     <string name="data_usage_app_restrict_data_summary">Hücresel veri kullanımını etkinleştir</string>
     <string name="data_usage_app_restrict_vpn">VPN verisi</string>
@@ -257,7 +257,7 @@ Bu seçenek yalnızca hareketle gezinme için kullanılabilir!</string>
     <string name="battery_temp_title">Batarya sıcaklığı</string>
     <!-- Display cutout options -->
     <string name="cutout_main">Kesme ayarlarını görüntüle</string>
-    <string name="cutout_main_keywords">display cutout, notch, hide notch, hide</string>
+    <string name="cutout_main_keywords">ekran kesme, çentik, çentiği gizle, gizle</string>
     <string name="cutout_main_summary">Bununla köşeler gerçekten kesilir</string>
     <string name="display_cutout_style_title">Kesme stili</string>
     <string name="display_cutout_style_normal">Normal</string>
@@ -269,32 +269,32 @@ Bu seçenek yalnızca hareketle gezinme için kullanılabilir!</string>
     <string name="navigation_bar_title">Gezinme çubuğu</string>
     <string name="navigation_bar_summary">Gezinme çubuğunu etkinleştir veya devre dışı bırak</string>
     <!-- Incall Home button behavior-->
-    <string name="allow_incall_home_title">Home button when ringing</string>
-    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
+    <string name="allow_incall_home_title">Ana ekran tuşu ile cevapla</string>
+    <string name="allow_incall_home_summary">Arama geldiğinde Ana ekran tuşunu kullanarak cevaplamaya izin verir</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Bildirimler geçmişi günlüğünü göster</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
-    <string name="battery_percent_title">Status bar battery percentage</string>
-    <string name="battery_style_category_title">Battery icon</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="battery_style_title">Pil simge stili</string>
+    <string name="battery_style_summary">Pil simgesini ve yüzdesini özelleştirme</string>
+    <string name="battery_percent_title">Durum çubuğu pil yüzdesi</string>
+    <string name="battery_style_category_title">Pil simgesi</string>
+    <string name="status_bar_battery_style_title">Pil stili</string>
+    <string name="status_bar_battery_style_icon_portrait">Dikey simge (varsayılan)</string>
+    <string name="status_bar_battery_style_circle">Daire</string>
+    <string name="status_bar_battery_style_dotted_circle">Daire (Noktalı)</string>
+    <string name="status_bar_battery_style_filled_circle">Daire (Dolu)</string>
+    <string name="status_bar_battery_style_text">Metin</string>
+    <string name="status_bar_battery_style_hidden">Gizli</string>
+    <string name="status_bar_battery_percentage_title">Pil yüzdesi</string>
+    <string name="status_bar_battery_percentage_default">Gizli (varsayılan)</string>
+    <string name="status_bar_battery_percentage_text_inside">Simgenin içinde</string>
+    <string name="status_bar_battery_percentage_text_next">Simgenin yanında</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Kayıtlı Kulaklıklar</string>
     <!-- Hotspot VPN -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın \u2019s VPN bağlantısını kullanmasına izin ver</string>
     <!-- Quick statusbar header battery percentage -->
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
-    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
+    <string name="qs_battery_percentage_title">Hızlı ayarlar pil yüzdesi</string>
+    <string name="qs_battery_percentage_summary">Pil tahmini yerine hızlı ayarlar başlığında pil yüzdesini gösterir</string>
 </resources>

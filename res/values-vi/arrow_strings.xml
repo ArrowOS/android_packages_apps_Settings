@@ -228,7 +228,7 @@
     <string name="wake_when_plugged_or_unplugged_summary">Bật màn hình khi kết nối hoặc ngắt kết nối nguồn điện</string>
     <!-- Gesture Navigation -->
     <string name="back_height_low_label">Đầy đủ</string>
-    <string name="back_height_high_label">Đáy</string>
+    <string name="back_height_high_label">Phần dưới</string>
     <string name="back_options_dialog_title">Tùy chọn</string>
     <string name="back_height_message">Phần màn hình được dùng cho cử chỉ quay lại.</string>
     <string name="app_package_name_title">Gói</string>
