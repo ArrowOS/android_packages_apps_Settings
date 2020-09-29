@@ -189,12 +189,12 @@
     <string name="hard_soft_keys">按鍵</string>
     <string name="hard_soft_keys_summary">自定裝置按鍵</string>
     <string name="navigation_keys">啟動導航列</string>
-    <string name="navigation_keys_title">Onscreen navigation bar</string>
+    <string name="navigation_keys_title">在螢幕上顯示導航列</string>
     <string name="hardware_keys_category">實體導航按鈕</string>
     <string name="hardware_keys_disable_title">停用實體按鈕</string>
     <string name="hardware_keys_wake_title">喚醒裝置</string>
     <!-- Settings categories -->
-    <string name="statusbar_category_title">StatusBar</string>
+    <string name="statusbar_category_title">狀態列</string>
     <!-- Button brightness -->
     <string name="button_backlight_options_category">背光選項</string>
     <string name="button_backlight_enable_title">允許按鍵背光</string>
@@ -211,52 +211,52 @@
     <string name="volume_rocker_wake_title">音量鍵喚醒</string>
     <string name="volume_rocker_wake_summary">按音量鍵喚醒裝置</string>
     <!-- Volume key rotation -->
-    <string name="swap_volume_buttons_title">Reorient</string>
-    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
+    <string name="swap_volume_buttons_title">重新調整方向</string>
+    <string name="swap_volume_buttons_summary">當螢幕旋轉時交換音量按鈕</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_all">允許網路存取</string>
+    <string name="data_usage_app_restrict_all_summary">啟用網路用量</string>
     <string name="data_usage_app_restrict_data">行動網路流量</string>
     <string name="data_usage_app_restrict_data_summary">啟用行動網路流量統計</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_vpn">VPN 數據</string>
+    <string name="data_usage_app_restrict_vpn_summary">啟用 VPN 流量統計</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 流量</string>
     <string name="data_usage_app_restrict_wifi_summary">啟用 Wi\u2011Fi 流量統計</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">狀態列項目</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="wake_when_plugged_or_unplugged_title">接上或移除電源時喚醒</string>
+    <string name="wake_when_plugged_or_unplugged_summary">接上或拔除電源時喚醒螢幕</string>
     <!-- Gesture Navigation -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
-    <string name="app_package_name_title">Package</string>
-    <string name="app_version_title">Version</string>
+    <string name="back_height_low_label">已充滿</string>
+    <string name="back_height_high_label">底部</string>
+    <string name="back_options_dialog_title">選項</string>
+    <string name="back_height_message">返回手勢可觸發範圍</string>
+    <string name="app_package_name_title">套件</string>
+    <string name="app_version_title">版本</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">點擊顯示詳細資料</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">防止意外喚醒</string>
+    <string name="proximity_wake_summary">喚醒螢幕前檢查接近感應器</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="navbar_gesture_mode_category_title">Gesture mode tweaks</string>
-    <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
-    <string name="navbar_gesture_pill_toggle_title">Full screen gestures</string>
-    <string name="navbar_gesture_pill_toggle_summary">This will hide both the navigation bar and the pill for a seamless fullscreen gesture experience.</string>
-    <string name="navbar_gesture_pill_toggle_summary_disabled">This option is only available for gesture navigation!</string>
+    <string name="navbar_gesture_mode_category_title">手勢模式調整</string>
+    <string name="navbar_gesture_mode_category_key">手勢_模式_調整</string>
+    <string name="navbar_gesture_pill_toggle_title">全螢幕手勢</string>
+    <string name="navbar_gesture_pill_toggle_summary">這將隱藏導航欄和底線以獲得無縫的全螢幕手勢體驗</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">此選項僅適用於手勢導航！</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Invert layout</string>
+    <string name="navbar_invert_layout_title">反轉佈局</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <string name="double_tap_power_flashlight_screen_title">啟動手電筒</string>
+    <string name="double_tap_power_flashlight_title">熒幕關閉時按電源鍵啓動手電筒</string>
+    <string name="torch_power_button_gesture_none">已停用</string>
+    <string name="torch_power_button_gesture_dt">按兩下電源鍵以啓/停用手電筒</string>
+    <string name="torch_power_button_gesture_lp">長按電源鍵以啟用/停用手電筒</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">電池溫度</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">Display cutout settings</string>
+    <string name="cutout_main">顯示剪切設定</string>
     <string name="cutout_main_keywords">display cutout, notch, hide notch, hide</string>
     <string name="cutout_main_summary">They really cut corners with this one</string>
     <string name="display_cutout_style_title">Cutout style</string>

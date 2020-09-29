@@ -18,7 +18,7 @@
     <string name="arrow_version">"Wersja ArrowOS"</string>
     <string name="build_date">"Data kompilacji"</string>
     <string name="about_device_name">"Urządzenie"</string>
-    <string name="arrow_firmware_version">"Firmware Information"</string>
+    <string name="arrow_firmware_version">"Informacje o firmware"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">Zamknij</string>
     <!-- Color Picker -->
@@ -41,7 +41,7 @@
     <string name="changelog_error">Nie można załadować listy zmian</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">Statystyki ArrowOS</string>
-    <string name="arrow_stats_summary">Just counting how many devices we run on</string>
+    <string name="arrow_stats_summary">Po prostu liczymy ile urządzeń uruchamiamy</string>
     <!-- Fingerprint location message - default -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Zlokalizuj czytnik linii papilarnych z przodu Twojego telefonu.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Zlokalizuj czytnik linii papilarnych po lewej stronie Twojego telefonu.</string>
@@ -57,7 +57,7 @@
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Style ciemnego motywu</string>
     <string name="theme_customization_accent_color_title">Kolor akcentu</string>
-    <string name="theme_customization_font_title">Headline / Body font</string>
+    <string name="theme_customization_font_title">Nagłówek / Czcionka treści</string>
     <string name="theme_customization_icon_shape_title">Kształt ikon</string>
     <!-- SELinux status -->
     <string name="selinux_status">Status SELinux </string>
@@ -66,13 +66,13 @@
     <string name="selinux_status_enforcing">Restrykcyjny</string>
     <!-- Network traffic -->
     <string name="traffic_title">Wskaźnik ruchu sieciowego</string>
-    <string name="traffic_summary">Enable or disable network speed indicators</string>
+    <string name="traffic_summary">Włącz lub wyłącz wskaźniki prędkości sieci</string>
     <string name="network_traffic_title">Ruch sieciowy</string>
     <string name="network_traffic_type">Wybierz typ aktywności Internetu</string>
     <string name="show_network_traffic_up">Wysyłanie</string>
     <string name="show_network_traffic_down">Pobieranie</string>
     <string name="show_network_traffic_all">Wysyłanie i Pobieranie</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_state_title">Pokaż aktywność sieci na pasku stanu</string>
     <string name="network_traffic_autohide_threshold_title">Schowaj poniżej limitu (KB/s)</string>
     <string name="network_traffic_hidearrow">Ukryj strzałki transferu</string>
     <string name="network_traffic_hidearrow_summary">Ukryj strzałki wskaźnika ruchu sieciowego</string>
@@ -84,9 +84,9 @@
     <string name="double_tap_sleep_lockscreen_title">Stuknij dwukrotnie ekran blokady, aby uśpić</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">Gesty</string>
-    <string name="gesture_settings_dashboard_summary">Manage gesture settings</string>
-    <string name="custom_device_gestures_preference_title">Device specific gestures</string>
-    <string name="custom_device_gestures_preference_summary">Device specific gestures package is shown here</string>
+    <string name="gesture_settings_dashboard_summary">Zarządzanie ustawieniami gestów</string>
+    <string name="custom_device_gestures_preference_title">Gesty specyficzne dla urządzenia</string>
+    <string name="custom_device_gestures_preference_summary">Pakiet gestów dla urządzenia jest tutaj pokazany</string>
     <!-- Global Actions -->
     <string name="advanced_powermenu_category_title">Zaawansowane menu zasilania</string>
     <string name="global_actions_title">Menu zasilania</string>
@@ -99,11 +99,11 @@
     <string name="global_actions_soundpanel">Panel Głośności</string>
     <string name="global_actions_users">Użytkownicy</string>
     <string name="global_actions_screenshot">Zrzut ekranu</string>
-    <string name="global_actions_screenrecord">Screenrecord</string>
+    <string name="global_actions_screenrecord">Nagrywanie ekranu</string>
     <string name="global_actions_flashlight">Latarka</string>
-    <string name="global_actions_emergency">Emergency</string>
+    <string name="global_actions_emergency">Alarmowy</string>
     <string name="global_actions_advanced_reboot_title">Włącz zaawansowany restart</string>
-    <string name="global_actions_advanced_reboot_summary">When restarting also show options for recovery and bootloader</string>
+    <string name="global_actions_advanced_reboot_summary">Pokaż opcje restartu do Recovery i Bootloadera</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Wibracja uwierzytelniania odcisku palca</string>
     <string name="fprint_sucess_vib_summary">Wibracje po udanym uwierzytelnianiu odcisku palca</string>
@@ -213,12 +213,12 @@
     <string name="swap_volume_buttons_title">Zmiana orientacji</string>
     <string name="swap_volume_buttons_summary">Zamieniaj przyciski głośności po obróceniu ekranu</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_all">Zezwalaj na dostęp do sieci</string>
+    <string name="data_usage_app_restrict_all_summary">Rejestruj użycie sieci</string>
     <string name="data_usage_app_restrict_data">Komórkowa transmisja danych</string>
     <string name="data_usage_app_restrict_data_summary">Włącz dane komórkowe</string>
     <string name="data_usage_app_restrict_vpn">Dane VPN</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Włącz użycie danych VPN</string>
     <string name="data_usage_app_restrict_wifi">Dane Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Włącz użycie danych Wi\u2011Fi</string>
     <!-- Statusbar Tuner -->
@@ -228,72 +228,72 @@
     <string name="wake_when_plugged_or_unplugged_summary">Włącz ekran podczas podłączania i odłączania źródła zasilania</string>
     <!-- Gesture Navigation -->
     <string name="back_height_low_label">Pełny</string>
-    <string name="back_height_high_label">Bottom</string>
+    <string name="back_height_high_label">Dolny</string>
     <string name="back_options_dialog_title">Opcje</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_height_message">Obszar ekranu, na którym możesz użyć gestu cofania.</string>
     <string name="app_package_name_title">Pakiet</string>
     <string name="app_version_title">Wersja</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Dotknij, aby wyświetlić informacje</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Zapobiegaj przypadkowemu wybudzeniu</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_summary">Używaj czujnika zbliżeniowego podczas wybudzania ekranu</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="navbar_gesture_mode_category_title">Ulepszenia trybu gestów</string>
     <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
     <string name="navbar_gesture_pill_toggle_title">Gesty pełnoekranowe</string>
-    <string name="navbar_gesture_pill_toggle_summary">This will hide both the navigation bar and the pill for a seamless fullscreen gesture experience.</string>
+    <string name="navbar_gesture_pill_toggle_summary">Dla zapewnienia płynnych gestów na pełnym ekranie ukryty zostanie zarówno pasek nawigacyjny jak i pigułka gestów </string>
     <string name="navbar_gesture_pill_toggle_summary_disabled">Ta opcja jest dostępna tylko dla gestów nawigacji!</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Odwróć układ</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
+    <string name="double_tap_power_flashlight_screen_title">Włączanie latarki</string>
+    <string name="double_tap_power_flashlight_title">Włączenie latarki przyciskiem zasilania przy wyłączonym ekranie</string>
     <string name="torch_power_button_gesture_none">Wyłączony</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <string name="torch_power_button_gesture_dt">Podwójne wciśnięcie przycisku zasilania w celu włączenia latarki</string>
+    <string name="torch_power_button_gesture_lp">Naciśnij i przytrzymaj przycisk zasilania, aby włączyć latarkę</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Temperatura baterii</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">Display cutout settings</string>
-    <string name="cutout_main_keywords">display cutout, notch, hide notch, hide</string>
-    <string name="cutout_main_summary">They really cut corners with this one</string>
+    <string name="cutout_main">Wyświetl ustawienia wycinania</string>
+    <string name="cutout_main_keywords">wycięcie w wyświetlaczu, wycięcie, ukryj wycięcie, ukryj</string>
+    <string name="cutout_main_summary">Naprawdę przycięte narożniki</string>
     <string name="display_cutout_style_title">Styl wycięcia</string>
     <string name="display_cutout_style_normal">Normalny</string>
-    <string name="display_cutout_style_immerse">Immerse</string>
+    <string name="display_cutout_style_immerse">Tryb rozszerzony</string>
     <string name="display_cutout_style_hide">Ukryj</string>
-    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
-    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <string name="stock_statusbar_in_hide">Wysokość paska statusu</string>
+    <string name="stock_statusbar_in_hide_summary">Użyj domyślnej wysokości paska statusu w trybie ukrytym</string>
     <!-- Navigation bar -->
     <string name="navigation_bar_title">Pasek nawigacji</string>
-    <string name="navigation_bar_summary">Enable or disable navigation bar</string>
+    <string name="navigation_bar_summary">Włącz lub wyłącz pasek nawigacji</string>
     <!-- Incall Home button behavior-->
-    <string name="allow_incall_home_title">Home button when ringing</string>
-    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
+    <string name="allow_incall_home_title">Przycisk Home podczas dzwonienia</string>
+    <string name="allow_incall_home_summary">Pozwól na użycie przycisku Home podczas dzwonienia urządzenia</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Pokaż historię powiadomień</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
-    <string name="battery_percent_title">Status bar battery percentage</string>
-    <string name="battery_style_category_title">Battery icon</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="battery_style_title">Styl ikony baterii</string>
+    <string name="battery_style_summary">Dostosuj ikony baterii, ukryj lub pokaż procent</string>
+    <string name="battery_percent_title">Procent baterii na pasku stanu</string>
+    <string name="battery_style_category_title">Ikona baterii</string>
+    <string name="status_bar_battery_style_title">Styl baterii</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikona pionowa (domyślnie)</string>
+    <string name="status_bar_battery_style_circle">Okrąg</string>
+    <string name="status_bar_battery_style_dotted_circle">Okrąg (kropkowany)</string>
+    <string name="status_bar_battery_style_filled_circle">Okrąg (Wypełniony)</string>
+    <string name="status_bar_battery_style_text">Tekst</string>
+    <string name="status_bar_battery_style_hidden">Ukryty</string>
+    <string name="status_bar_battery_percentage_title">Procent baterii</string>
+    <string name="status_bar_battery_percentage_default">Ukryty (domyślne)</string>
+    <string name="status_bar_battery_percentage_text_inside">Wewnątrz ikony</string>
+    <string name="status_bar_battery_percentage_text_next">Obok ikony</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Zapisane słuchawki</string>
     <!-- Hotspot VPN -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">Zezwalaj klientom na korzystanie z sieci VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Zezwól urządzeniom podłączonym do udostępnionej sieci na wysyłanie pakietów, poprzez VPN tego urządzenia</string>
     <!-- Quick statusbar header battery percentage -->
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
-    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
+    <string name="qs_battery_percentage_title">Pokaż procent baterii</string>
+    <string name="qs_battery_percentage_summary">Pokaż procent baterii w szybkich ustawieniach zamiast szacowanego czasu pracy</string>
 </resources>

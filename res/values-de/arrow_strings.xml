@@ -55,7 +55,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Suchen Sie den Fingerabdrucksensor auf der linken Seite Ihres Tablets.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Suchen Sie den Fingerabdrucksensor auf der rechten Seite Ihres Tablets.</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Dark theme styles</string>
+    <string name="theme_customization_systemui_title">Dunkle Themenstile</string>
     <string name="theme_customization_accent_color_title">Akzentfarbe</string>
     <string name="theme_customization_font_title">Überschrift / Beschreibung Schriftart</string>
     <string name="theme_customization_icon_shape_title">Symbolform</string>
@@ -66,7 +66,7 @@
     <string name="selinux_status_enforcing">Strikt</string>
     <!-- Network traffic -->
     <string name="traffic_title">Netzwerk-Datenverkehr</string>
-    <string name="traffic_summary">Enable or disable network speed indicators</string>
+    <string name="traffic_summary">Netzwerkgeschwindigkeitsanzeige aktivieren oder deaktivieren</string>
     <string name="network_traffic_title">Netzwerkverkehr</string>
     <string name="network_traffic_type">Netzwerkverbindungsart wählen</string>
     <string name="show_network_traffic_up">Aktuelle Hochlade-Rate</string>
@@ -86,7 +86,7 @@
     <string name="gesture_settings_dashboard_title">Gesten</string>
     <string name="gesture_settings_dashboard_summary">Gesten Einstellungen verwalten</string>
     <string name="custom_device_gestures_preference_title">Gerätespezifische Gesten</string>
-    <string name="custom_device_gestures_preference_summary">Device specific gestures package is shown here</string>
+    <string name="custom_device_gestures_preference_summary">Gerätespezifisches Gesten Paket wird hier angezeigt</string>
     <!-- Global Actions -->
     <string name="advanced_powermenu_category_title">Erweitertes Neustartmenü</string>
     <string name="global_actions_title">Ein-/Aus-Menü</string>
@@ -250,30 +250,30 @@
     <string name="double_tap_power_flashlight_screen_title">Taschenlampe aktivieren</string>
     <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
     <string name="torch_power_button_gesture_none">Deaktiviert</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <string name="torch_power_button_gesture_dt">Ein-/Aus-Taste zum Umschalten der Taschenlampe doppelt drücken</string>
+    <string name="torch_power_button_gesture_lp">Ein-/Aus-Taste zum Umschalten der Taschenlampe lange drücken</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Akku Temperatur</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">Display cutout settings</string>
-    <string name="cutout_main_keywords">display cutout, notch, hide notch, hide</string>
-    <string name="cutout_main_summary">They really cut corners with this one</string>
-    <string name="display_cutout_style_title">Cutout style</string>
+    <string name="cutout_main">Bildschirmausschnitt Einstellungen anzeigen</string>
+    <string name="cutout_main_keywords">Ausschnitt darstellen, Notch, Notch ausblenden, ausblenden</string>
+    <string name="cutout_main_summary">Es werden wirklich Ecken hiermit abgeschnitten</string>
+    <string name="display_cutout_style_title">Ausschnitts Stil</string>
     <string name="display_cutout_style_normal">Normal</string>
     <string name="display_cutout_style_immerse">Immersiv</string>
     <string name="display_cutout_style_hide">Ausblenden</string>
-    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
+    <string name="stock_statusbar_in_hide">Standard Statusleistenhöhe</string>
     <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
     <!-- Navigation bar -->
     <string name="navigation_bar_title">Navigationsleiste</string>
-    <string name="navigation_bar_summary">Enable or disable navigation bar</string>
+    <string name="navigation_bar_summary">Navigationsleiste aktivieren oder deaktivieren</string>
     <!-- Incall Home button behavior-->
     <string name="allow_incall_home_title">Home button when ringing</string>
     <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
+    <string name="battery_style_title">Akkusymbol Stil</string>
     <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
     <string name="battery_percent_title">Status bar battery percentage</string>
     <string name="battery_style_category_title">Akkusymbol</string>
@@ -289,11 +289,11 @@
     <string name="status_bar_battery_percentage_text_inside">Innerhalb des Symbols</string>
     <string name="status_bar_battery_percentage_text_next">Neben dem Symbol</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Gespeicherte Kopfhörer</string>
     <!-- Hotspot VPN -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_title">Erlaube Clients VPNs zu verwenden</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
     <!-- Quick statusbar header battery percentage -->
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
+    <string name="qs_battery_percentage_title">QS Akkuprozentanzeige</string>
     <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
 </resources>
