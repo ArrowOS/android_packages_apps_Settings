@@ -116,4 +116,8 @@
 
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+
+    <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
+    <string name="lockscreen_tuner_summary">Modify the shortcuts shown in the lockscreen</string>
 </resources>
