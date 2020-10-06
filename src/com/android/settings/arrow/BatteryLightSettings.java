@@ -27,11 +27,11 @@ import android.provider.Settings;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-import com.android.settings.arrow.preferences.SystemSettingSwitchPreference;
+import com.arrow.support.preferences.SystemSettingSwitchPreference;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.android.settings.arrow.margaritov.preference.colorpicker.ColorPickerPreference;
+import com.arrow.support.colorpicker.ColorPickerPreference;
 
 public class BatteryLightSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {

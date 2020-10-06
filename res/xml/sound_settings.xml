@@ -90,7 +90,7 @@
         settings:controller="com.android.settings.notification.AlarmVolumePreferenceController"/>
 
     <!-- Link ringtone and notification volumes -->
-    <com.android.settings.arrow.preferences.SecureSettingSwitchPreference
+    <com.arrow.support.preferences.SecureSettingSwitchPreference
         android:key="volume_link_notification"
         android:title="@string/volume_link_notification_title"
         android:defaultValue="true"
