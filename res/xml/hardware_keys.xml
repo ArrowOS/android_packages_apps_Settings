@@ -14,13 +14,40 @@
      limitations under the License.
 -->
 
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/button_title"
+        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-	<PreferenceCategory android:key="hardware_keys"
-		android:title="@string/hardware_keys_category">
+    <PreferenceCategory
+        android:key="hardware_keys"
+        android:title="@string/hardware_keys_category" >
 
-		<SwitchPreference android:key="hardware_keys_disable"
-			android:title="@string/hardware_keys_disable_title" />
+        <SwitchPreference
+            android:key="hardware_keys_disable"
+            android:title="@string/hardware_keys_disable_title" />
+
+        <SwitchPreference
+            android:key="button_brightness_sw"
+            android:title="@string/button_brightness_sw_title"
+            android:persistent="false" />
+
+        <com.arrow.support.preferences.CustomSystemSeekBarPreference
+            android:key="button_brightness"
+            android:title="@string/button_brightness_title"
+            android:max="255"
+            settings:min="0"
+            settings:units=""
+            android:persistent="false" />
+
+        <ListPreference
+            android:dialogTitle="@string/backlight_timeout_title"
+            android:entries="@array/backlight_timeout_entries"
+            android:entryValues="@array/backlight_timeout_values"
+            android:key="backlight_timeout"
+            android:persistent="false"
+            android:title="@string/backlight_timeout_title" />
+
 	</PreferenceCategory>
 
     <PreferenceCategory
@@ -130,27 +157,4 @@
         </com.arrow.support.preferences.ActionPreference>
 
     </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="hardware_keys"
-        android:title="@string/hardware_keys_category" >
-
-        <com.arrow.support.preferences.CustomSystemSeekBarPreference
-            android:key="button_brightness"
-            android:title="@string/button_brightness_title"
-            android:max="255"
-            settings:min="0"
-            settings:units=""
-            android:persistent="false" />
-
-        <ListPreference
-            android:dialogTitle="@string/backlight_timeout_title"
-            android:entries="@array/backlight_timeout_entries"
-            android:entryValues="@array/backlight_timeout_values"
-            android:key="backlight_timeout"
-            android:persistent="false"
-            android:title="@string/backlight_timeout_title" />
-
-    </PreferenceCategory>
-
 </PreferenceScreen>
