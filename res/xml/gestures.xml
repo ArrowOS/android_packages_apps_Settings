@@ -91,7 +91,7 @@
         android:key="statusbar_gestures_category"
         android:title="@string/statusbar_gestures_category_title">
 
-	<com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+	<com.arrow.support.preferences.SystemSettingSwitchPreference
 	    android:key="double_tap_sleep_gesture"
             android:title="@string/double_tap_sleep_gesture_title"
             android:defaultValue="false" />

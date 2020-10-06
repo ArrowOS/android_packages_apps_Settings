@@ -15,18 +15,18 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+    <com.arrow.support.preferences.SystemSettingSwitchPreference
         android:key="battery_light_enabled"
         android:title="@string/battery_light_enable"
         android:defaultValue="true"/>
 
-    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+    <com.arrow.support.preferences.SystemSettingSwitchPreference
         android:key="battery_light_allow_on_dnd"
         android:title="@string/battery_light_allow_on_dnd_title"
         android:dependency="battery_light_enabled"
         android:defaultValue="false" />
 
-    <com.android.settings.arrow.preferences.SystemSettingSwitchPreference
+    <com.arrow.support.preferences.SystemSettingSwitchPreference
         android:key="battery_light_low_blinking"
         android:title="@string/battery_light_low_blinking_title"
         android:dependency="battery_light_enabled"
@@ -36,29 +36,29 @@
         android:key="battery_light_cat"
         android:title="@string/battery_light_cat"
         android:dependency="battery_light_enabled">
-        <com.android.settings.arrow.margaritov.preference.colorpicker.ColorPickerPreference
+        <com.arrow.support.colorpicker.ColorPickerSystemPreference
             android:key="battery_light_low_color"
             android:title="@string/battery_light_low_color"
             ledPreview="true"
-            settings:defaultColorValue="0xFFFF0000" />
+            android:defaultValue="0xFFFF0000" />
 
-        <com.android.settings.arrow.margaritov.preference.colorpicker.ColorPickerPreference
+        <com.arrow.support.colorpicker.ColorPickerSystemPreference
             android:key="battery_light_medium_color"
             android:title="@string/battery_light_medium_color"
             ledPreview="true"
-            settings:defaultColorValue="0xFFFFFF00" />
+            android:defaultValue="0xFFFFFF00" />
 
-        <com.android.settings.arrow.margaritov.preference.colorpicker.ColorPickerPreference
+        <com.arrow.support.colorpicker.ColorPickerSystemPreference
             android:key="battery_light_full_color"
             android:title="@string/battery_light_full_color"
             ledPreview="true"
-            settings:defaultColorValue="0xFF00FF00" />
+            android:defaultValue="0xFF00FF00" />
 
-        <com.android.settings.arrow.margaritov.preference.colorpicker.ColorPickerPreference
+        <com.arrow.support.colorpicker.ColorPickerSystemPreference
             android:key="battery_light_reallyfull_color"
             android:title="@string/battery_light_reallyfull_color"
             ledPreview="true"
-            settings:defaultColorValue="0xFF00FF00" />
+            android:defaultValue="0xFF00FF00" />
     </PreferenceCategory>
 
 </PreferenceScreen>
