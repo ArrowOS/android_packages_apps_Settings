@@ -106,7 +106,7 @@ public class BatterySaverController extends BasePreferenceController
     }
 
     private void updateSummary() {
-        mBatterySaverPref.setSummary(getSummary());
+        mBatterySaverPref.setSubtitle(getSummary());
     }
 
     private final ContentObserver mObserver = new ContentObserver(
