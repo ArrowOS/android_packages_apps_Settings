@@ -32,17 +32,22 @@
         android:title="@string/summary_placeholder"
         settings:controller="com.android.settings.fuelgauge.batterytip.BatteryTipPreferenceController" />
 
+    <com.android.settings.fuelgauge.PowerGaugePreference
+        android:key="last_full_charge"
+        android:title="@string/battery_last_full_charge"
+        android:selectable="false"/>
+
+    <com.android.settings.fuelgauge.PowerGaugePreference
+        android:key="screen_usage"
+        android:title="@string/device_screen_usage"
+        android:selectable="false" />
+
     <Preference
         android:fragment="com.android.settings.fuelgauge.batterysaver.BatterySaverSettings"
         android:key="battery_saver_summary"
         android:title="@string/battery_saver"
-        settings:controller="com.android.settings.fuelgauge.BatterySaverController" />
-
-    <Preference
-         android:key="battery_charging_light"
-         android:fragment="com.android.settings.arrow.BatteryLightSettings"
-         android:title="@string/battery_light_settings"
-         android:summary="@string/battery_light_summary"/>
+        settings:controller="com.android.settings.fuelgauge.BatterySaverController"
+        settings:allowDividerAbove="true" />
 
     <Preference
         android:fragment="com.android.settings.fuelgauge.SmartBatterySettings"
@@ -50,22 +55,17 @@
         android:title="@string/smart_battery_manager_title"
         settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController" />
 
+    <Preference
+         android:key="battery_charging_light"
+         android:fragment="com.android.settings.arrow.BatteryLightSettings"
+         android:title="@string/battery_light_settings"
+         android:summary="@string/battery_light_summary" />
+
     <SwitchPreference
         android:key="battery_percentage"
         android:title="@string/battery_percentage"
         android:summary="@string/battery_percentage_description"
         settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
-
-    <com.android.settings.fuelgauge.PowerGaugePreference
-        android:key="last_full_charge"
-        android:title="@string/battery_last_full_charge"
-        android:selectable="false"
-        settings:allowDividerAbove="true" />
-
-    <com.android.settings.fuelgauge.PowerGaugePreference
-        android:key="screen_usage"
-        android:title="@string/device_screen_usage"
-        android:selectable="false" />
 
     <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
