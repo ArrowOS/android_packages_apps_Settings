@@ -42,6 +42,7 @@
         android:title="@string/about_device_name"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
+        android:selectable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
 
     <!-- Arrow version -->
@@ -50,6 +51,7 @@
         android:title="@string/arrow_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
+        android:selectable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.ArrowVersionDetailPreferenceController"/>
 
     <!-- Security patch -->
@@ -91,6 +93,7 @@
         android:title="@string/build_date"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
+        android:selectable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.ArrowBuildDatePreferenceController"/>
 
     <!-- SELinux -->
