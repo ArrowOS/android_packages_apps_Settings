@@ -41,6 +41,7 @@
         android:key="about_device_name"
         android:title="@string/about_device_name"
         android:summary="@string/summary_placeholder"
+        android:selectable="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
 
@@ -90,6 +91,7 @@
         android:key="os_build_date"
         android:title="@string/build_date"
         android:summary="@string/summary_placeholder"
+        android:selectable="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.ArrowBuildDatePreferenceController"/>
 
