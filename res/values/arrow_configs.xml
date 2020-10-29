@@ -26,4 +26,6 @@
     <!-- Device specific gesture package -->
     <string name="config_customGesturesPackage" translatable="false"></string>
 
+    <!-- FOD recognizing animation -->
+    <bool name="config_showFODAnimationSettings">false</bool>
 </resources>
