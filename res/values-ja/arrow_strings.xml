@@ -18,78 +18,78 @@
     <string name="arrow_version">"ArrowOS バージョン"</string>
     <string name="build_date">"ビルド日時"</string>
     <string name="about_device_name">"端末"</string>
-    <string name="arrow_firmware_version">"ファームウェア情報"</string>
+    <string name="arrow_firmware_version">"Firmware Information"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">閉じる</string>
+    <string name="suggestion_button_close">Close</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">色の選択</string>
-    <string name="press_color_to_apply">色を選択して適用</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="hex">16進数:</string>
+    <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">設定</string>
-    <string name="color_default">既定</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">ロック画面での充電情報</string>
     <string name="lockscreen_battery_info_summary">充電中のロック画面に接続した充電器の情報を表示する</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">スクリーンショットの音</string>
     <!-- Changelog -->
-    <string name="changelog_title">更新履歴</string>
-    <string name="changelog_summary">前回の更新からの変更点</string>
-    <string name="changelog_error">更新履歴を読み込めませんでした</string>
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_error">Unable to load changelog</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">ArrowOS の統計情報</string>
     <string name="arrow_stats_summary">ArrowOS が何台の端末で動作しているか集計しています</string>
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">端末前面にある指紋認証センサーを探します</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">端末左側にある指紋認証センサーを探します</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">端末右側にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">端末前面にある指紋認証センサーを探します</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">端末左側にある指紋認証センサーを探します</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">端末右側にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">端末前面にある指紋認証センサーを探します</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">端末左側にある指紋認証センサーを探します</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">端末右側にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">ダークテーマスタイル</string>
-    <string name="theme_customization_accent_color_title">アクセント色</string>
-    <string name="theme_customization_font_title">見出し / 説明フォント</string>
-    <string name="theme_customization_icon_shape_title">アイコンの形状</string>
+    <string name="theme_customization_systemui_title">Dark theme styles</string>
+    <string name="theme_customization_accent_color_title">Accent color</string>
+    <string name="theme_customization_font_title">Headline / Body font</string>
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
     <!-- SELinux status -->
-    <string name="selinux_status">SELinux のステータス</string>
-    <string name="selinux_status_disabled">無効</string>
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Network traffic -->
-    <string name="traffic_title">通信速度</string>
-    <string name="traffic_summary">ネットワーク速度の表示を切り替える</string>
-    <string name="network_traffic_title">通信速度</string>
-    <string name="network_traffic_type">表示する通信方向を選択</string>
-    <string name="show_network_traffic_up">送信</string>
-    <string name="show_network_traffic_down">受信</string>
-    <string name="show_network_traffic_all">両方</string>
-    <string name="network_traffic_state_title">通信速度を表示</string>
-    <string name="network_traffic_autohide_threshold_title">自動非表示にするしきい値 (KB/s)</string>
-    <string name="network_traffic_hidearrow">矢印を隠す</string>
-    <string name="network_traffic_hidearrow_summary">通信速度表示の矢印を隠す</string>
+    <string name="traffic_title">Traffic indicators</string>
+    <string name="traffic_summary">Enable or disable network speed indicators</string>
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="network_traffic_type">Select net activity type</string>
+    <string name="show_network_traffic_up">Uplink</string>
+    <string name="show_network_traffic_down">Downlink</string>
+    <string name="show_network_traffic_all">Uplink and Downlink</string>
+    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
     <!--Double Tap to Sleep Statusbar-->
     <string name="statusbar_gestures_category_title">ステータスバーのジェスチャー</string>
     <string name="double_tap_sleep_gesture_title">ダブルタップでスリープ</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_gestures_category_title">ロック画面のジェスチャー</string>
+    <string name="lockscreen_gestures_category_title">Lockscreen gestures</string>
     <string name="double_tap_sleep_lockscreen_title">ダブルタップでスリープ</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">ジェスチャー</string>
     <string name="gesture_settings_dashboard_summary">ジェスチャー設定の管理</string>
-    <string name="custom_device_gestures_preference_title">端末固有のジェスチャー</string>
-    <string name="custom_device_gestures_preference_summary">端末固有ジェスチャーパッケージはここに表示されます</string>
+    <string name="custom_device_gestures_preference_title">Device specific gestures</string>
+    <string name="custom_device_gestures_preference_summary">Device specific gestures package is shown here</string>
     <!-- Global Actions -->
-    <string name="advanced_powermenu_category_title">高度な電源メニュー</string>
-    <string name="global_actions_title">電源メニュー</string>
+    <string name="advanced_powermenu_category_title">Advanced power menu</string>
+    <string name="global_actions_title">Power menu</string>
     <string name="global_actions_summary">電源ボタンを押した時に表示する項目を選択する</string>
     <string name="global_actions_power">電源</string>
     <string name="global_actions_restart">再起動</string>
@@ -105,42 +105,42 @@
     <string name="global_actions_advanced_reboot_title">高度な再起動の有効化</string>
     <string name="global_actions_advanced_reboot_summary">再起動時にリカバリーとブートローダーのオプションを表示する</string>
     <!-- Fingerprint authentication vibration -->
-    <string name="fprint_sucess_vib_title">指紋認証時の振動</string>
-    <string name="fprint_sucess_vib_summary">指紋認証が成功した時に振動させる</string>
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">指紋認証でのロック解除</string>
     <string name="fp_unlock_keystore_summary">再起動後も PIN/パスワード/パターン による認証なしで指紋認証によるロック解除を可能にします。\n注意: 自己責任で使用して下さい!</string>
     <!-- Weather - OmniJaws Settings -->
-    <string name="weather_title">天気</string>
-    <string name="weather_config_title">サービスの設定</string>
+    <string name="weather_title">Weather</string>
+    <string name="weather_config_title">Service settings</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">天気のスタイル</string>
-    <string name="lock_screen_weather_style_summaryOff">天気は位置情報付きの日付の下に表示されます</string>
-    <string name="lock_screen_weather_style_summaryOn">天気は位置情報なしの日付の上に表示されます</string>
-    <string name="header_weather_title">ヘッダーに天気を表示</string>
-    <string name="header_weather_summary">通知パネルの天気ヘッダー画像を有効にする</string>
-    <string name="weather_icon_pack_title">天気アイコンパック</string>
-    <string name="weather_icon_pack_note">備考\u003a プレイストアで「Chronus アイコン」を検索することで新しいアイコンパックをインストールできます</string>
+    <string name="lock_screen_weather_style_title">Weather style</string>
+    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
+    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">天気の設定</string>
-    <string name="lockscreen_weather_summary">現在の気象状況と温度をロック画面に表示する</string>
-    <string name="lockscreen_items_aod_info_title">この表示設定はアンビエント表示にも適用されます</string>
-    <string name="lockscreen_weather_show_city_title">都市名を表示</string>
-    <string name="lockscreen_weather_show_city_summary">画像の左側に現在の都市名を表示する</string>
-    <string name="lockscreen_weather_show_temp_title">温度を表示</string>
-    <string name="lockscreen_weather_show_temp_summary">画像の右に現在の都市の気温を表示する</string>
+    <string name="lockscreen_weather_title">Lockscreen weather</string>
+    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
+    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
+    <string name="lockscreen_weather_show_city_title">Show city name</string>
+    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
     <!-- Settings categories -->
     <string name="misc_category_title">その他</string>
-    <string name="buttons_category_title">ボタン</string>
+    <string name="buttons_category_title">Buttons</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">ランダムなレイアウト</string>
-    <string name="unlock_scramble_pin_layout_summary">端末のロック解除時に PIN レイアウトをランダムにする</string>
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
-    <string name="unlock_quick_unlock_control_summary">正しい PIN/パスワード が入力された時はロックを自動的に解除する</string>
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
     <!-- Battery light -->
     <string name="battery_light_settings">バッテリーライト</string>
-    <string name="battery_light_summary">残量低下時とマナーモード時のライトの有無を設定する</string>
+    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
     <string name="battery_light_enable">バッテリーライト</string>
     <string name="battery_light_allow_on_dnd_title">マナーモード中のライト</string>
     <string name="battery_light_low_blinking_title">残量低下時の点滅</string>
@@ -150,20 +150,20 @@
     <string name="battery_light_full_color">ほぼ充電完了</string>
     <string name="battery_light_reallyfull_color">充電完了</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">ローミング表示</string>
-    <string name="roaming_indicator_icon_summary">ローミング中に電波アイコンにローミング表示をする</string>
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
     <!-- Sizes for pattern lockscreen -->
-    <string name="lock_settings_picker_pattern_size_message">パターンサイズを選択</string>
+    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">パターンエラーを表示</string>
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">パターンのドットを表示</string>
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">着信と通知の音量をリンク</string>
     <!-- Reset battery stats -->
-    <string name="battery_stats_reset">統計をリセット</string>
-    <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
-    <string name="ok_string">OK</string>
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">アクティビティ</string>
     <string name="select_custom_app_title">カスタムアプリを選択</string>
@@ -185,115 +185,115 @@
     <string name="hardware_keys_single_tap_title">シングルタップアクション</string>
     <string name="hardware_keys_long_press_title">長押しアクション</string>
     <string name="hardware_keys_double_tap_title">ダブルタップアクション</string>
-    <string name="hard_soft_keys">ボタン</string>
-    <string name="hard_soft_keys_summary">端末のボタンを編集する</string>
-    <string name="navigation_keys">ナビゲーションバーを有効化</string>
-    <string name="navigation_keys_title">画面内ナビゲーションバー</string>
+    <string name="hard_soft_keys">Buttons</string>
+    <string name="hard_soft_keys_summary">Customise device buttons</string>
+    <string name="navigation_keys">Enable navigation bar</string>
+    <string name="navigation_keys_title">Onscreen navigation bar</string>
     <string name="hardware_keys_category">ハードウェアナビゲーションボタン</string>
     <string name="hardware_keys_disable_title">ハードウェアボタンを無効化</string>
-    <string name="hardware_keys_wake_title">スリープ解除</string>
+    <string name="hardware_keys_wake_title">Wake device</string>
     <!-- Settings categories -->
-    <string name="statusbar_category_title">ステータスバー</string>
+    <string name="statusbar_category_title">StatusBar</string>
     <!-- Button brightness -->
-    <string name="button_backlight_options_category">バックライトの設定</string>
-    <string name="button_backlight_enable_title">ボタンのバックライトを許可</string>
-    <string name="button_link_brightness">画面の明るさとリンク</string>
-    <string name="button_link_brightness_summary">ボタンのバックライトの明るさは現在の画面の明るさのレベルに応じて調整されます</string>
-    <string name="button_manual_brightness">明るさレベル</string>
-    <string name="button_timeout_title">バックライトの点灯時間</string>
-    <string name="button_backlight_on_touch_only_title">タッチ時のみバックライトを点灯</string>
-    <string name="button_backlight_on_touch_only_summary">ボタンを押した時にだけバックライトが点灯するようになります。点灯時間はこの設定にも引き続き影響します。</string>
+    <string name="button_backlight_options_category">Backlight options</string>
+    <string name="button_backlight_enable_title">Allow button backlight</string>
+    <string name="button_link_brightness">Link to screen brightness</string>
+    <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
+    <string name="button_manual_brightness">Brightness level</string>
+    <string name="button_timeout_title">Backlight timeout</string>
+    <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
+    <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">再生コントロール</string>
-    <string name="volume_button_music_control_summary">画面消灯時に音量キーを長押しして曲をシークする</string>
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">スリープ解除</string>
-    <string name="volume_rocker_wake_summary">音量ボタンを押して端末をスリープ解除する</string>
+    <string name="volume_rocker_wake_title">Volume wake</string>
+    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
     <!-- Volume key rotation -->
-    <string name="swap_volume_buttons_title">再配置</string>
-    <string name="swap_volume_buttons_summary">画面回転時に音量ボタンを入れ替える</string>
+    <string name="swap_volume_buttons_title">Reorient</string>
+    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">ネットワークアクセスを許可</string>
-    <string name="data_usage_app_restrict_all_summary">ネットワークの使用状況を有効化する</string>
-    <string name="data_usage_app_restrict_data">モバイルデータ</string>
-    <string name="data_usage_app_restrict_data_summary">モバイルデータ使用量を有効化する</string>
-    <string name="data_usage_app_restrict_vpn">VPN データ</string>
-    <string name="data_usage_app_restrict_vpn_summary">VPN データ使用量を有効化する</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi データ使用量</string>
-    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi データ使用量を有効化する</string>
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">ステータスバーのアイコン</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">接続時にスリープ解除</string>
-    <string name="wake_when_plugged_or_unplugged_summary">電源を接続または切断したときに画面を点灯する</string>
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
     <!-- Gesture Navigation -->
-    <string name="back_height_low_label">全画面</string>
-    <string name="back_height_high_label">下部</string>
-    <string name="back_options_dialog_title">オプション</string>
-    <string name="back_height_message">戻るジェスチャーに使用される操作可能な画面領域の高さ</string>
-    <string name="app_package_name_title">パッケージ</string>
-    <string name="app_version_title">バージョン</string>
+    <string name="back_height_low_label">Full</string>
+    <string name="back_height_high_label">Bottom</string>
+    <string name="back_options_dialog_title">Options</string>
+    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="app_package_name_title">Package</string>
+    <string name="app_version_title">Version</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">タップして情報を表示</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">偶発的なスリープ解除を防止</string>
     <string name="proximity_wake_summary">スリープ解除する前に接近センサーで確認する</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="navbar_gesture_mode_category_title">ジェスチャーモードの設定</string>
+    <string name="navbar_gesture_mode_category_title">Gesture mode tweaks</string>
     <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
-    <string name="navbar_gesture_pill_toggle_title">フルスクリーンのジェスチャー</string>
-    <string name="navbar_gesture_pill_toggle_summary">これによってシームレスなジェスチャー体験のためにナビゲーションバーとピルを両方隠します。</string>
-    <string name="navbar_gesture_pill_toggle_summary_disabled">このオプションはジェスチャーナビゲーションのみ有効です!</string>
+    <string name="navbar_gesture_pill_toggle_title">Full screen gestures</string>
+    <string name="navbar_gesture_pill_toggle_summary">This will hide both the navigation bar and the pill for a seamless fullscreen gesture experience.</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">This option is only available for gesture navigation!</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">レイアウトを反転</string>
+    <string name="navbar_invert_layout_title">Invert layout</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">ライトの点灯</string>
-    <string name="double_tap_power_flashlight_title">画面消灯時のライト点灯</string>
-    <string name="torch_power_button_gesture_none">無効</string>
-    <string name="torch_power_button_gesture_dt">電源ボタンを2回押し</string>
-    <string name="torch_power_button_gesture_lp">電源ボタンを長押し</string>
+    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
+    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">バッテリー温度</string>
+    <string name="battery_temp_title">Battery temperature</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">画面切り取りの設定</string>
-    <string name="cutout_main_keywords">画面切り取り、ノッチ非表示</string>
-    <string name="cutout_main_summary">彼らは本当にこれでコーナーを切りました</string>
-    <string name="display_cutout_style_title">切り取りのスタイル</string>
-    <string name="display_cutout_style_normal">標準</string>
-    <string name="display_cutout_style_immerse">没入</string>
-    <string name="display_cutout_style_hide">非表示</string>
-    <string name="stock_statusbar_in_hide">標準のステータスバーの高さ</string>
-    <string name="stock_statusbar_in_hide_summary">非表示時は既定のステータスバーの高さを使う</string>
+    <string name="cutout_main">Display cutout settings</string>
+    <string name="cutout_main_keywords">display cutout, notch, hide notch, hide</string>
+    <string name="cutout_main_summary">They really cut corners with this one</string>
+    <string name="display_cutout_style_title">Cutout style</string>
+    <string name="display_cutout_style_normal">Normal</string>
+    <string name="display_cutout_style_immerse">Immerse</string>
+    <string name="display_cutout_style_hide">Hide</string>
+    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
+    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
     <!-- Navigation bar -->
-    <string name="navigation_bar_title">ナビゲーションバー</string>
-    <string name="navigation_bar_summary">ナビゲーションジェスチャーを切り替える</string>
+    <string name="navigation_bar_title">Navigation bar</string>
+    <string name="navigation_bar_summary">Enable or disable navigation bar</string>
     <!-- Incall Home button behavior-->
-    <string name="allow_incall_home_title">着信時のホームボタンの動作</string>
-    <string name="allow_incall_home_summary">電話着信時のホームボタンの使用を許可する</string>
+    <string name="allow_incall_home_title">Home button when ringing</string>
+    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">通知履歴を表示する</string>
+    <string name="notification_log_summary">Show notifications history log</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">アイコンのスタイル</string>
-    <string name="battery_style_summary">バッテリーアイコンの編集、残量表示の切替え</string>
-    <string name="battery_percent_title">ステータスバーのバッテリー残量</string>
-    <string name="battery_style_category_title">バッテリーアイコン</string>
-    <string name="status_bar_battery_style_title">バッテリースタイル</string>
-    <string name="status_bar_battery_style_icon_portrait">縦アイコン (既定)</string>
-    <string name="status_bar_battery_style_circle">円</string>
-    <string name="status_bar_battery_style_dotted_circle">円 (点線)</string>
-    <string name="status_bar_battery_style_filled_circle">円 (塗り潰し)</string>
-    <string name="status_bar_battery_style_text">文字</string>
-    <string name="status_bar_battery_style_hidden">非表示</string>
-    <string name="status_bar_battery_percentage_title">バッテリー残量</string>
-    <string name="status_bar_battery_percentage_default">非表示 (既定)</string>
-    <string name="status_bar_battery_percentage_text_inside">アイコンの中</string>
-    <string name="status_bar_battery_percentage_text_next">アイコンの外</string>
+    <string name="battery_style_title">Battery icon style</string>
+    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
+    <string name="battery_percent_title">Status bar battery percentage</string>
+    <string name="battery_style_category_title">Battery icon</string>
+    <string name="status_bar_battery_style_title">Battery style</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
+    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
+    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">保存されたイヤホン</string>
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
     <!-- Hotspot VPN -->
-    <string name="tethering_allow_vpn_upstreams_title">クライアントの VPN 使用の許可</string>
-    <string name="tethering_allow_vpn_upstreams_summary">この端末の VPN 接続をホットスポットのクライアントが送信接続に使うことを許可する</string>
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
     <!-- Quick statusbar header battery percentage -->
-    <string name="qs_battery_percentage_title">クイック設定のバッテリー残量</string>
-    <string name="qs_battery_percentage_summary">クイック設定ヘッダーに予想稼働時間の代わりにバッテリー残量を表示する</string>
+    <string name="qs_battery_percentage_title">QS battery percentage</string>
+    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
 </resources>

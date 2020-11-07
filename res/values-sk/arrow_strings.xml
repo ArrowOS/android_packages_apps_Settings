@@ -18,27 +18,27 @@
     <string name="arrow_version">"Verzia systému ArrowOS"</string>
     <string name="build_date">"Dátum zostavy"</string>
     <string name="about_device_name">"Zariadenie"</string>
-    <string name="arrow_firmware_version">"Informácie o firmvéri"</string>
+    <string name="arrow_firmware_version">"Firmware Information"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Zavrieť</string>
+    <string name="suggestion_button_close">Close</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Výber farby</string>
-    <string name="press_color_to_apply">Stlačením jednej z farieb nižšie ju použijete</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Nastaviť</string>
-    <string name="color_default">Predvolená</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informácie o nabíjaní na uzamknutej obrazovke</string>
     <string name="lockscreen_battery_info_summary">Zobrazenie nabíjacieho prúdu, napätia, výkonu a teploty batérie na uzamknutej obrazovke počas nabíjania</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Zvuk snímky obrazovky</string>
     <!-- Changelog -->
-    <string name="changelog_title">Zoznam zmien</string>
-    <string name="changelog_summary">Od poslednej aktualizácie</string>
-    <string name="changelog_error">Nie je možné načítať zoznam zmien</string>
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_error">Unable to load changelog</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">ArrowOS Stats</string>
     <string name="arrow_stats_summary">Just counting how many devices we run on</string>
@@ -55,7 +55,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Štýly tmavých motívov</string>
+    <string name="theme_customization_systemui_title">Dark theme styles</string>
     <string name="theme_customization_accent_color_title">Accent color</string>
     <string name="theme_customization_font_title">Headline / Body font</string>
     <string name="theme_customization_icon_shape_title">Icon shape</string>
@@ -67,7 +67,7 @@
     <!-- Network traffic -->
     <string name="traffic_title">Traffic indicators</string>
     <string name="traffic_summary">Enable or disable network speed indicators</string>
-    <string name="network_traffic_title">Sieťový prenos</string>
+    <string name="network_traffic_title">Network traffic</string>
     <string name="network_traffic_type">Select net activity type</string>
     <string name="show_network_traffic_up">Uplink</string>
     <string name="show_network_traffic_down">Downlink</string>

@@ -18,52 +18,52 @@
     <string name="arrow_version">"Verze ArrowOS"</string>
     <string name="build_date">"Datum sestavení"</string>
     <string name="about_device_name">"Zařízení"</string>
-    <string name="arrow_firmware_version">"Informace o firmware"</string>
+    <string name="arrow_firmware_version">"Firmware Information"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Zavřít</string>
+    <string name="suggestion_button_close">Close</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Výběr barvy</string>
-    <string name="press_color_to_apply">Klikněte na barvu pro její výběr</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Nastavit</string>
-    <string name="color_default">Výchozí</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informace o nabíjení na zamykací obrazovce</string>
     <string name="lockscreen_battery_info_summary">Zobrazit nabíjecí proud, napětí, příkon a teplotu baterie při nabíjení na zamykací obrazovce</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Zvuk při snímku obrazovky</string>
     <!-- Changelog -->
-    <string name="changelog_title">Seznam změn</string>
-    <string name="changelog_summary">Od poslední aktualizace</string>
-    <string name="changelog_error">Nelze načíst seznam změn</string>
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_error">Unable to load changelog</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">Statistiky ArrowOS</string>
     <string name="arrow_stats_summary">Jen počítejte, na kolika zařízeních pracujeme</string>
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Vyhledejte snímač otisků prstů na přední straně telefonu.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Vyhledejte snímač otisků prstů na levé straně telefonu.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Vyhledejte snímač otisků prstů na pravé straně telefonu.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Vyhledejte snímač otisků prstů na přední straně zařízení.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Vyhledejte snímač otisků prstů na levé straně zařízení.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Vyhledejte snímač otisků prstů na pravé straně zařízení.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Vyhledejte snímač otisků prstů na přední straně tabletu.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Vyhledejte snímač otisků prstů na levé straně tabletu.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Vyhledejte snímač otisků prstů na pravé straně tabletu.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Styly tmavého motivu</string>
-    <string name="theme_customization_accent_color_title">Doplňková barva</string>
-    <string name="theme_customization_font_title">Písmo nadpisu / těla</string>
-    <string name="theme_customization_icon_shape_title">Tvar ikony</string>
+    <string name="theme_customization_systemui_title">Dark theme styles</string>
+    <string name="theme_customization_accent_color_title">Accent color</string>
+    <string name="theme_customization_font_title">Headline / Body font</string>
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
     <!-- SELinux status -->
-    <string name="selinux_status">Stav SELinux</string>
-    <string name="selinux_status_disabled">Zakázáno</string>
-    <string name="selinux_status_permissive">Mírný</string>
-    <string name="selinux_status_enforcing">Vynucený</string>
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Network traffic -->
     <string name="traffic_title">Indikátor síťového provozu</string>
     <string name="traffic_summary">Zapnout nebo vypnout indikátory rychlosti sítě</string>
@@ -74,22 +74,22 @@
     <string name="show_network_traffic_all">Uplink a Downlink</string>
     <string name="network_traffic_state_title">Zobrazit indikátor síťové aktivity ve stavovém řádku</string>
     <string name="network_traffic_autohide_threshold_title">Prahová hodnota pro automatické skrytí síťové aktivity (KB/s)</string>
-    <string name="network_traffic_hidearrow">Skrýt šipky</string>
-    <string name="network_traffic_hidearrow_summary">Skrýt šipky datového provozu</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
     <!--Double Tap to Sleep Statusbar-->
     <string name="statusbar_gestures_category_title">Gesta stavového řádku</string>
     <string name="double_tap_sleep_gesture_title">Dvojím poklepáním na stavový řádek uspat zařízení</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_gestures_category_title">Gesta na zamykací obrazovce</string>
+    <string name="lockscreen_gestures_category_title">Lockscreen gestures</string>
     <string name="double_tap_sleep_lockscreen_title">Při zamknuté obrazovce uspat dvojitým poklepáním</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">Gesta</string>
     <string name="gesture_settings_dashboard_summary">Správa nastavení gest</string>
-    <string name="custom_device_gestures_preference_title">Gesta specifická pro zařízení</string>
-    <string name="custom_device_gestures_preference_summary">Zde se zobrazuje balíček gest pro konkrétní zařízení</string>
+    <string name="custom_device_gestures_preference_title">Device specific gestures</string>
+    <string name="custom_device_gestures_preference_summary">Device specific gestures package is shown here</string>
     <!-- Global Actions -->
-    <string name="advanced_powermenu_category_title">Rozšířené menu napájení</string>
-    <string name="global_actions_title">Menu napájení</string>
+    <string name="advanced_powermenu_category_title">Advanced power menu</string>
+    <string name="global_actions_title">Power menu</string>
     <string name="global_actions_summary">Vyberte, co se má zobrazit po stisku tlačítka „Napájení“</string>
     <string name="global_actions_power">Vypnout</string>
     <string name="global_actions_restart">Restartovat</string>
@@ -105,8 +105,8 @@
     <string name="global_actions_advanced_reboot_title">Povolit rozšířený restart</string>
     <string name="global_actions_advanced_reboot_summary">Při restartu se také zobrazí možnosti pro recovery a bootloader</string>
     <!-- Fingerprint authentication vibration -->
-    <string name="fprint_sucess_vib_title">Vibrace při ověření otisků prstů</string>
-    <string name="fprint_sucess_vib_summary">Vibrovat při úspěšném ověření otisku prstu</string>
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Odemknout pomocí otisku prstu</string>
     <string name="fp_unlock_keystore_summary">Odemknutí zařízení pomocí otisku prstu po restartu bez zadání PINu/hesla/Vzoru\nUpozornění: na vlastní nebezpečí!</string>
@@ -131,16 +131,16 @@
     <string name="lockscreen_weather_show_temp_summary">Zobrazit aktuální teplotu ve městě vpravo od obrázku</string>
     <!-- Settings categories -->
     <string name="misc_category_title">Různé</string>
-    <string name="buttons_category_title">Tlačítka</string>
+    <string name="buttons_category_title">Buttons</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Přeházet rozložení</string>
-    <string name="unlock_scramble_pin_layout_summary">Přeházet rozložení pro zadání PINu při odemykání zařízení</string>
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Rychlé odemknutí</string>
-    <string name="unlock_quick_unlock_control_summary">Automatické odemknutí, pokud je zadán správný PIN/heslo</string>
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Kontrolka nabíjení baterie</string>
-    <string name="battery_light_summary">Povolit nebo zakázat LED baterie během režimu \"Nerušit\" nebo nízkém stavu baterie</string>
+    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
     <string name="battery_light_enable">Světelná signalizace baterie</string>
     <string name="battery_light_allow_on_dnd_title">Světelná signalizace baterie v režimu „Nerušit“</string>
     <string name="battery_light_low_blinking_title">Blikat při nízkém stavu baterie</string>
@@ -150,19 +150,19 @@
     <string name="battery_light_full_color">Téměř nabito</string>
     <string name="battery_light_reallyfull_color">Plně nabito (100%)</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Indikátor roamingu</string>
-    <string name="roaming_indicator_icon_summary">V režimu roamingu zobrazit indikátor v ikoně signálu</string>
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
     <!-- Sizes for pattern lockscreen -->
-    <string name="lock_settings_picker_pattern_size_message">Zvolit velikost vzoru</string>
+    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Zobrazit cestu chybného gesta</string>
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Zobrazit body gesta</string>
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Spojit hlasitost vyzvánění &amp; oznámení</string>
     <!-- Reset battery stats -->
-    <string name="battery_stats_reset">Vynulovat statistiky</string>
-    <string name="battery_stats_message">Chystáte se obnovit historii statistiky baterie</string>
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
     <string name="ok_string">Ok</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">Aktivity</string>
@@ -185,115 +185,115 @@
     <string name="hardware_keys_single_tap_title">Akce jedním klepnutím</string>
     <string name="hardware_keys_long_press_title">Akce dlouhým stiskem</string>
     <string name="hardware_keys_double_tap_title">Akce dvojím poklepáním</string>
-    <string name="hard_soft_keys">Tlačítka</string>
-    <string name="hard_soft_keys_summary">Přizpůsobit tlačítka zařízení</string>
-    <string name="navigation_keys">Povolit navigační panel</string>
-    <string name="navigation_keys_title">Navigační panel na obrazovce</string>
+    <string name="hard_soft_keys">Buttons</string>
+    <string name="hard_soft_keys_summary">Customise device buttons</string>
+    <string name="navigation_keys">Enable navigation bar</string>
+    <string name="navigation_keys_title">Onscreen navigation bar</string>
     <string name="hardware_keys_category">Hardwarová navigační tlačítka</string>
     <string name="hardware_keys_disable_title">Zakázat hardwarová tlačítka</string>
-    <string name="hardware_keys_wake_title">Probudit zařízení</string>
+    <string name="hardware_keys_wake_title">Wake device</string>
     <!-- Settings categories -->
-    <string name="statusbar_category_title">Stavový řádek</string>
+    <string name="statusbar_category_title">StatusBar</string>
     <!-- Button brightness -->
-    <string name="button_backlight_options_category">Možnosti podsvícení</string>
-    <string name="button_backlight_enable_title">Povolit podsvícení tlačítek</string>
-    <string name="button_link_brightness">Sjednotit s jasem obrazovky</string>
-    <string name="button_link_brightness_summary">Jas podsvícení tlačítek bude nastaven na úroveň jasu obrazovky</string>
-    <string name="button_manual_brightness">Úroveň podsvícení</string>
-    <string name="button_timeout_title">Délka podsvícení</string>
-    <string name="button_backlight_on_touch_only_title">Podsvícení tlačítek při dotyku</string>
-    <string name="button_backlight_on_touch_only_summary">Podsvícení tlačítek bude zobrazeno pouze při stisknutí, nikoli po celou dobu. Časový limit stále ovlivňuje tuto funkci.</string>
+    <string name="button_backlight_options_category">Backlight options</string>
+    <string name="button_backlight_enable_title">Allow button backlight</string>
+    <string name="button_link_brightness">Link to screen brightness</string>
+    <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
+    <string name="button_manual_brightness">Brightness level</string>
+    <string name="button_timeout_title">Backlight timeout</string>
+    <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
+    <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Ovládání přehrávání</string>
-    <string name="volume_button_music_control_summary">Když je obrazovka vypnutá, dlouhý stisk tlačítka hlasitosti posune na další skladbu</string>
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Probudit tlačítky hlasitosti</string>
-    <string name="volume_rocker_wake_summary">Probudit zařízení stisknutím tlačítek hlasitosti</string>
+    <string name="volume_rocker_wake_title">Volume wake</string>
+    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
     <!-- Volume key rotation -->
-    <string name="swap_volume_buttons_title">Přeorientovat</string>
-    <string name="swap_volume_buttons_summary">Prohodit tlačítka hlasitosti při otočení obrazovky</string>
+    <string name="swap_volume_buttons_title">Reorient</string>
+    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Povolit přístup k síti</string>
-    <string name="data_usage_app_restrict_all_summary">Povolit využití sítě</string>
-    <string name="data_usage_app_restrict_data">Mobilní data</string>
-    <string name="data_usage_app_restrict_data_summary">Povolit používání mobilních dat</string>
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
     <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Povolit používání VPN dat</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Povolit používání Wi\u2011Fi dat</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Položky stavového řádku</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Probudit při nabíjení</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Zapnout obrazovku při připojení nebo odpojení zdroje napájení</string>
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
     <!-- Gesture Navigation -->
-    <string name="back_height_low_label">Plná</string>
-    <string name="back_height_high_label">Dolní</string>
-    <string name="back_options_dialog_title">Možnosti</string>
-    <string name="back_height_message">Hodnota výšky obrazovky použité jako dotyková oblast pro gesto Zpět.</string>
-    <string name="app_package_name_title">Balíček</string>
-    <string name="app_version_title">Verze</string>
+    <string name="back_height_low_label">Full</string>
+    <string name="back_height_high_label">Bottom</string>
+    <string name="back_options_dialog_title">Options</string>
+    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="app_package_name_title">Package</string>
+    <string name="app_version_title">Version</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Klepnutím zobrazit informace</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Zabránit nechtěnému probuzení</string>
     <string name="proximity_wake_summary">Kontrolovat senzor přiblížení pro zabránění nechtěného probuzení</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="navbar_gesture_mode_category_title">Vylepšení režimu gest</string>
+    <string name="navbar_gesture_mode_category_title">Gesture mode tweaks</string>
     <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
-    <string name="navbar_gesture_pill_toggle_title">Gesta přes celou obrazovku</string>
-    <string name="navbar_gesture_pill_toggle_summary">Tímto skryjete jak navigační panel, tak pilulku pro plynulé používání gest přes celou obrazovku.</string>
-    <string name="navbar_gesture_pill_toggle_summary_disabled">Tato možnost je k dispozici pouze pro navigaci pomocí gest!</string>
+    <string name="navbar_gesture_pill_toggle_title">Full screen gestures</string>
+    <string name="navbar_gesture_pill_toggle_summary">This will hide both the navigation bar and the pill for a seamless fullscreen gesture experience.</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">This option is only available for gesture navigation!</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Převrátit rozložení</string>
+    <string name="navbar_invert_layout_title">Invert layout</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Zapnout svítilnu</string>
-    <string name="double_tap_power_flashlight_title">Zapnout svítilnu tlačítkem napájení při vypnuté obrazovce</string>
-    <string name="torch_power_button_gesture_none">Vypnuto</string>
-    <string name="torch_power_button_gesture_dt">Dvojím klepnutím tlačítka napájení přepínat svítilnu</string>
-    <string name="torch_power_button_gesture_lp">Dlouhým stisknutím tlačítka napájení přepínat svítilnu</string>
+    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
+    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Teplota baterie</string>
+    <string name="battery_temp_title">Battery temperature</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">Nastavení zobrazení výřezu</string>
-    <string name="cutout_main_keywords">zobrazení výřezu, výřez, skrýt výřez, skrýt</string>
-    <string name="cutout_main_summary">Dvakrát měř, jednou řež</string>
-    <string name="display_cutout_style_title">Styl výřezu</string>
-    <string name="display_cutout_style_normal">Normální</string>
-    <string name="display_cutout_style_immerse">Vnořený</string>
-    <string name="display_cutout_style_hide">Skrytý</string>
-    <string name="stock_statusbar_in_hide">Výchozí výška stavového řádku</string>
-    <string name="stock_statusbar_in_hide_summary">Použít výchozí výšku stavového řádku při použití stylu Skrytý</string>
+    <string name="cutout_main">Display cutout settings</string>
+    <string name="cutout_main_keywords">display cutout, notch, hide notch, hide</string>
+    <string name="cutout_main_summary">They really cut corners with this one</string>
+    <string name="display_cutout_style_title">Cutout style</string>
+    <string name="display_cutout_style_normal">Normal</string>
+    <string name="display_cutout_style_immerse">Immerse</string>
+    <string name="display_cutout_style_hide">Hide</string>
+    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
+    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
     <!-- Navigation bar -->
-    <string name="navigation_bar_title">Navigační panel</string>
-    <string name="navigation_bar_summary">Povolit nebo zakázat navigační panel</string>
+    <string name="navigation_bar_title">Navigation bar</string>
+    <string name="navigation_bar_summary">Enable or disable navigation bar</string>
     <!-- Incall Home button behavior-->
-    <string name="allow_incall_home_title">Tlačítko Domů při vyzvánění</string>
-    <string name="allow_incall_home_summary">Povolit použití tlačítka Domů při vyzvánění zařízení</string>
+    <string name="allow_incall_home_title">Home button when ringing</string>
+    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Zobrazit protokol historie oznámení</string>
+    <string name="notification_log_summary">Show notifications history log</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Styl ikony baterie</string>
-    <string name="battery_style_summary">Přizpůsobit styl ikony baterie, skrýt nebo zobrazit procenta</string>
-    <string name="battery_percent_title">Procenta baterie ve stavovém řádku</string>
-    <string name="battery_style_category_title">Ikona baterie</string>
-    <string name="status_bar_battery_style_title">Styl baterie</string>
-    <string name="status_bar_battery_style_icon_portrait">Ikona na výšku (výchozí)</string>
-    <string name="status_bar_battery_style_circle">Kruh</string>
-    <string name="status_bar_battery_style_dotted_circle">Kruh (tečkovaný)</string>
-    <string name="status_bar_battery_style_filled_circle">Kruh (plný)</string>
+    <string name="battery_style_title">Battery icon style</string>
+    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
+    <string name="battery_percent_title">Status bar battery percentage</string>
+    <string name="battery_style_category_title">Battery icon</string>
+    <string name="status_bar_battery_style_title">Battery style</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
+    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
     <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Nezobrazovat</string>
-    <string name="status_bar_battery_percentage_title">Procenta baterie</string>
-    <string name="status_bar_battery_percentage_default">Skryté (výchozí)</string>
-    <string name="status_bar_battery_percentage_text_inside">Uvnitř ikony</string>
-    <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
+    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
+    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Uložená sluchátka</string>
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
     <!-- Hotspot VPN -->
-    <string name="tethering_allow_vpn_upstreams_title">Umožnit klientům používat VPN</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Povolit klientům hotspotu používat připojení VPN tohoto zařízení pro odchozí připojení</string>
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
     <!-- Quick statusbar header battery percentage -->
-    <string name="qs_battery_percentage_title">Procenta baterie v QS</string>
-    <string name="qs_battery_percentage_summary">Zobrazit procenta baterie v záhlaví QS namísto odhadu baterie</string>
+    <string name="qs_battery_percentage_title">QS battery percentage</string>
+    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
 </resources>

@@ -18,27 +18,27 @@
     <string name="arrow_version">"ArrowOS பதிப்பு"</string>
     <string name="build_date">"உருவாக்கல் தேதி"</string>
     <string name="about_device_name">"சாதனம்"</string>
-    <string name="arrow_firmware_version">"நிலைபொருள் தகவல்"</string>
+    <string name="arrow_firmware_version">"Firmware Information"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">மூடு</string>
+    <string name="suggestion_button_close">Close</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">வண்ண தேர்வு</string>
-    <string name="press_color_to_apply">செயற்படுத்த கீழே உள்ள ஒரு வண்ணம் மேல் அழுத்தவும்</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">அமை</string>
-    <string name="color_default">இயல்புநிலை</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">பூட்டுத்திரை சார்ஜிங் தகவல்</string>
     <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">திரைப்பிடிப்பு ஒலி</string>
     <!-- Changelog -->
-    <string name="changelog_title">மாற்றம் பதிவு</string>
-    <string name="changelog_summary">கடந்த புதுப்பித்தலில் இருந்து</string>
-    <string name="changelog_error">மாற்றப் பதிவை ஏற்ற இயலவில்லை</string>
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_error">Unable to load changelog</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">ArrowOS விபரம்</string>
     <string name="arrow_stats_summary">Just counting how many devices we run on</string>
@@ -55,13 +55,13 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">இருள் பயன்முறை நடைகள்</string>
-    <string name="theme_customization_accent_color_title">அழுத்த வண்ணம்</string>
+    <string name="theme_customization_systemui_title">Dark theme styles</string>
+    <string name="theme_customization_accent_color_title">Accent color</string>
     <string name="theme_customization_font_title">Headline / Body font</string>
-    <string name="theme_customization_icon_shape_title">படவுரு வடிவம்</string>
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
     <!-- SELinux status -->
-    <string name="selinux_status">SELinux நிலை</string>
-    <string name="selinux_status_disabled">முடக்கப்பட்டது</string>
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Network traffic -->
@@ -74,13 +74,13 @@
     <string name="show_network_traffic_all">Uplink and Downlink</string>
     <string name="network_traffic_state_title">Show net activity in statusbar</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
-    <string name="network_traffic_hidearrow">அம்புகளை மறை</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
     <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
     <!--Double Tap to Sleep Statusbar-->
     <string name="statusbar_gestures_category_title">நிலைப்பட்டி சைகைகள்</string>
     <string name="double_tap_sleep_gesture_title">Double tap to sleep on status bar</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_gestures_category_title">முழுத்திரை சைகைகள்</string>
+    <string name="lockscreen_gestures_category_title">Lockscreen gestures</string>
     <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">சைகைகள்</string>
@@ -88,8 +88,8 @@
     <string name="custom_device_gestures_preference_title">Device specific gestures</string>
     <string name="custom_device_gestures_preference_summary">Device specific gestures package is shown here</string>
     <!-- Global Actions -->
-    <string name="advanced_powermenu_category_title">மேம்பட்ட மின்சக்தி பட்டியல்</string>
-    <string name="global_actions_title">மின்சக்தி மெனு</string>
+    <string name="advanced_powermenu_category_title">Advanced power menu</string>
+    <string name="global_actions_title">Power menu</string>
     <string name="global_actions_summary">நீங்கள் பவர் பொத்தானை தொடும்போது காண்பிப்பதைத் தேர்வுசெய்க</string>
     <string name="global_actions_power">பவர்</string>
     <string name="global_actions_restart">மறுதொடக்கம்</string>
@@ -105,16 +105,16 @@
     <string name="global_actions_advanced_reboot_title">மேம்பட்ட மறுதொடக்கத்தை இயக்கவும்</string>
     <string name="global_actions_advanced_reboot_summary">When restarting also show options for recovery and bootloader</string>
     <!-- Fingerprint authentication vibration -->
-    <string name="fprint_sucess_vib_title">கைரேகை அங்கீகார அதிர்வு</string>
-    <string name="fprint_sucess_vib_summary">வெற்றிகரமான கைரேகை அங்கீகாரத்தில் அதிர்வு</string>
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">கைரேகைத் திறத்தல்</string>
     <string name="fp_unlock_keystore_summary">மறுதொடக்கத்திற்குப் பிறகு PIN/கடவுச்சொல்/களவடிவம் இல்லாமல் கைரேகை உடன் சாதனத்தைப் பூட்டுநீக்குக\nகுறிப்பு: உங்கள் சொந்த ஆபத்துடன்!</string>
     <!-- Weather - OmniJaws Settings -->
-    <string name="weather_title">வானிலை</string>
-    <string name="weather_config_title">சேவை அமைப்புகள்</string>
+    <string name="weather_title">Weather</string>
+    <string name="weather_config_title">Service settings</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">வானிலை நடை</string>
+    <string name="lock_screen_weather_style_title">Weather style</string>
     <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
     <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
     <string name="header_weather_title">Header view weather</string>
@@ -122,22 +122,22 @@
     <string name="weather_icon_pack_title">Condition icon pack</string>
     <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">பூட்டுத்திரை வானிலை</string>
+    <string name="lockscreen_weather_title">Lockscreen weather</string>
     <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
     <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
-    <string name="lockscreen_weather_show_city_title">ஊரின் பெயரை காட்டு</string>
+    <string name="lockscreen_weather_show_city_title">Show city name</string>
     <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">வெப்பநிலையைக் காட்டு</string>
+    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
     <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
     <!-- Settings categories -->
     <string name="misc_category_title">சில்லறையானவை</string>
-    <string name="buttons_category_title">பொத்தான்கள்</string>
+    <string name="buttons_category_title">Buttons</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">விரைவாக திற</string>
-    <string name="unlock_quick_unlock_control_summary">திறப்பதற்காக தானாகவே சரியான PIN/கடவுச்சொல்லை நுழைந்தபோது உள்ளிடப்படும்</string>
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Battery charging light</string>
     <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
@@ -155,15 +155,15 @@
     <!-- Sizes for pattern lockscreen -->
     <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">களவடிவ பிழையைக் காண்பி</string>
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">களவடிவ புள்ளிகளைக் காட்டு</string>
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
     <!-- Reset battery stats -->
-    <string name="battery_stats_reset">புள்ளிவிவரங்களை மீட்டமை</string>
+    <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
-    <string name="ok_string">சரி</string>
+    <string name="ok_string">Ok</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">செயல்பாடுகள்</string>
     <string name="select_custom_app_title">தனிப்பயன் பயன்பாட்டை தேர்வுசெய்க</string>
@@ -185,26 +185,26 @@
     <string name="hardware_keys_single_tap_title">ஒருமுறை தட்டல் செயல்</string>
     <string name="hardware_keys_long_press_title">நீண்ட பத்திரிகை செயல்</string>
     <string name="hardware_keys_double_tap_title">இரட்டை தட்டுதல் செயல்பாடு</string>
-    <string name="hard_soft_keys">பொத்தான்கள்</string>
-    <string name="hard_soft_keys_summary">சாதன பொத்தான்களைத் தனிமையாக்கு</string>
-    <string name="navigation_keys">வழிசெலுத்தல் பட்டியை இயக்கு</string>
-    <string name="navigation_keys_title">திரைமேல் வழிசெலுத்தல் பட்டை</string>
+    <string name="hard_soft_keys">Buttons</string>
+    <string name="hard_soft_keys_summary">Customise device buttons</string>
+    <string name="navigation_keys">Enable navigation bar</string>
+    <string name="navigation_keys_title">Onscreen navigation bar</string>
     <string name="hardware_keys_category">வன்பொருள் வழிசெலுத்தல் பொத்தான்</string>
     <string name="hardware_keys_disable_title">வன்பொருள் பொத்தான்களை முடக்கு</string>
-    <string name="hardware_keys_wake_title">சாதனத்தை எழுப்பு</string>
+    <string name="hardware_keys_wake_title">Wake device</string>
     <!-- Settings categories -->
-    <string name="statusbar_category_title">நிலைப்பட்டி</string>
+    <string name="statusbar_category_title">StatusBar</string>
     <!-- Button brightness -->
-    <string name="button_backlight_options_category">பின்னொளி விருப்பங்கள்</string>
-    <string name="button_backlight_enable_title">பொத்தான் பின்னொளியை அனுமதி</string>
+    <string name="button_backlight_options_category">Backlight options</string>
+    <string name="button_backlight_enable_title">Allow button backlight</string>
     <string name="button_link_brightness">Link to screen brightness</string>
     <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
-    <string name="button_manual_brightness">பிரகாச நிலை</string>
+    <string name="button_manual_brightness">Brightness level</string>
     <string name="button_timeout_title">Backlight timeout</string>
     <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
     <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">இயக்கம் கட்டுப்பாடு</string>
+    <string name="volume_button_music_control_title">Playback control</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume wake</string>
@@ -215,24 +215,24 @@
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Allow network access</string>
     <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_data">செல்லுலார் தரவு</string>
-    <string name="data_usage_app_restrict_data_summary">செல்லுயார் தரவை பயன்படுத்த அனுமதி</string>
-    <string name="data_usage_app_restrict_vpn">VPN தரவு</string>
-    <string name="data_usage_app_restrict_vpn_summary">VPN தரவை பயன்படுத்த அனுமதிக்கவும்</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi தரவு</string>
-    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi தரவை பயன்படுத்த அனுமதிக்கவும்</string>
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">நிலைப்பட்டி உருப்படிகள்</string>
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
     <!-- Gesture Navigation -->
-    <string name="back_height_low_label">முழு</string>
-    <string name="back_height_high_label">கீழ்</string>
-    <string name="back_options_dialog_title">விருப்பங்கள்</string>
+    <string name="back_height_low_label">Full</string>
+    <string name="back_height_high_label">Bottom</string>
+    <string name="back_options_dialog_title">Options</string>
     <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
-    <string name="app_package_name_title">பொதி</string>
-    <string name="app_version_title">பதிப்பு</string>
+    <string name="app_package_name_title">Package</string>
+    <string name="app_version_title">Version</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">விவரங்களைக் காட்ட தட்டவும்</string>
     <!-- Proximity wake -->
@@ -241,19 +241,19 @@
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="navbar_gesture_mode_category_title">Gesture mode tweaks</string>
     <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
-    <string name="navbar_gesture_pill_toggle_title">முழுத்திரை சைகைகள்</string>
+    <string name="navbar_gesture_pill_toggle_title">Full screen gestures</string>
     <string name="navbar_gesture_pill_toggle_summary">This will hide both the navigation bar and the pill for a seamless fullscreen gesture experience.</string>
     <string name="navbar_gesture_pill_toggle_summary_disabled">This option is only available for gesture navigation!</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">தளவமைப்பைச் சுழற்று</string>
+    <string name="navbar_invert_layout_title">Invert layout</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">டார்சை இயக்கு</string>
+    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
     <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">முடக்கப்பட்டுள்ளது</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
     <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">பேட்டரி வெப்பநிலை</string>
+    <string name="battery_temp_title">Battery temperature</string>
     <!-- Display cutout options -->
     <string name="cutout_main">Display cutout settings</string>
     <string name="cutout_main_keywords">display cutout, notch, hide notch, hide</string>
@@ -261,12 +261,12 @@
     <string name="display_cutout_style_title">Cutout style</string>
     <string name="display_cutout_style_normal">Normal</string>
     <string name="display_cutout_style_immerse">Immerse</string>
-    <string name="display_cutout_style_hide">மறை</string>
+    <string name="display_cutout_style_hide">Hide</string>
     <string name="stock_statusbar_in_hide">Stock statusbar height</string>
     <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
     <!-- Navigation bar -->
-    <string name="navigation_bar_title">வழிசெல்லுதல் பட்டி</string>
-    <string name="navigation_bar_summary">வழிசெலுத்தல் பட்டியை இயக்கு அல்லது முடக்கு</string>
+    <string name="navigation_bar_title">Navigation bar</string>
+    <string name="navigation_bar_summary">Enable or disable navigation bar</string>
     <!-- Incall Home button behavior-->
     <string name="allow_incall_home_title">Home button when ringing</string>
     <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
