@@ -18,78 +18,78 @@
     <string name="arrow_version">"ArrowOS 版本"</string>
     <string name="build_date">"組建日期"</string>
     <string name="about_device_name">"裝置"</string>
-    <string name="arrow_firmware_version">"固件訊息"</string>
+    <string name="arrow_firmware_version">"Firmware Information"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">關閉</string>
+    <string name="suggestion_button_close">Close</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">顏色選擇器</string>
-    <string name="press_color_to_apply">按下顏色以套用</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="hex">十六進位：</string>
+    <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">設定</string>
-    <string name="color_default">預設</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">鎖定螢幕上顯示充電資訊</string>
     <string name="lockscreen_battery_info_summary">在充電時，於鎖定螢幕上顯示充電的電流、電壓和電池溫度</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">螢幕截圖音效</string>
     <!-- Changelog -->
-    <string name="changelog_title">更新日誌</string>
-    <string name="changelog_summary">自上次更新以來</string>
-    <string name="changelog_error">無法載入更新日誌</string>
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_error">Unable to load changelog</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">ArrowOS 統計資訊</string>
     <string name="arrow_stats_summary">僅計算我們運作的裝置數量</string>
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">指紋感應器位於手機背面。</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">指紋感應器位於手機左侧。</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">指紋感應器位於手機右侧。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">找到位於裝置前面的指紋感應器。</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">找到位於裝置左側的指紋感應器。</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">找到位於裝置右側的指紋感應器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">找到位於平板電腦前面的指紋感應器。</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">找到位於平板電腦左側的指紋感應器。</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">找到位於平板電腦右側的指紋感應器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">暗色主題樣式</string>
-    <string name="theme_customization_accent_color_title">強調色</string>
-    <string name="theme_customization_font_title">標題/內文字體</string>
-    <string name="theme_customization_icon_shape_title">圖示形狀</string>
+    <string name="theme_customization_systemui_title">Dark theme styles</string>
+    <string name="theme_customization_accent_color_title">Accent color</string>
+    <string name="theme_customization_font_title">Headline / Body font</string>
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
     <!-- SELinux status -->
-    <string name="selinux_status">SELinux 狀態</string>
-    <string name="selinux_status_disabled">已禁用</string>
-    <string name="selinux_status_permissive">許可</string>
-    <string name="selinux_status_enforcing">執行中</string>
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Network traffic -->
-    <string name="traffic_title">網速顯示</string>
-    <string name="traffic_summary">啟用或停用網速監察器</string>
-    <string name="network_traffic_title">網絡流量</string>
-    <string name="network_traffic_type">選擇網路活動類型</string>
-    <string name="show_network_traffic_up">上傳</string>
-    <string name="show_network_traffic_down">下載</string>
-    <string name="show_network_traffic_all">上傳和下載</string>
-    <string name="network_traffic_state_title">在狀態列中顯示網路活動</string>
-    <string name="network_traffic_autohide_threshold_title">網路流量指示自動隱藏值（KB/s）</string>
-    <string name="network_traffic_hidearrow">隱藏箭頭</string>
-    <string name="network_traffic_hidearrow_summary">隱藏流量監視器中的箭頭</string>
+    <string name="traffic_title">Traffic indicators</string>
+    <string name="traffic_summary">Enable or disable network speed indicators</string>
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="network_traffic_type">Select net activity type</string>
+    <string name="show_network_traffic_up">Uplink</string>
+    <string name="show_network_traffic_down">Downlink</string>
+    <string name="show_network_traffic_all">Uplink and Downlink</string>
+    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
     <!--Double Tap to Sleep Statusbar-->
     <string name="statusbar_gestures_category_title">狀態列手勢</string>
     <string name="double_tap_sleep_gesture_title">輕觸兩下狀態列以關閉螢幕</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_gestures_category_title">鎖定畫面手勢</string>
+    <string name="lockscreen_gestures_category_title">Lockscreen gestures</string>
     <string name="double_tap_sleep_lockscreen_title">輕觸兩下鎖定畫面以關閉螢幕</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">手勢</string>
     <string name="gesture_settings_dashboard_summary">管理手勢設定</string>
-    <string name="custom_device_gestures_preference_title">裝置特別手勢</string>
-    <string name="custom_device_gestures_preference_summary">裝置特別手勢包已在這裏顯示</string>
+    <string name="custom_device_gestures_preference_title">Device specific gestures</string>
+    <string name="custom_device_gestures_preference_summary">Device specific gestures package is shown here</string>
     <!-- Global Actions -->
-    <string name="advanced_powermenu_category_title">進階電源選單</string>
-    <string name="global_actions_title">電源選單</string>
+    <string name="advanced_powermenu_category_title">Advanced power menu</string>
+    <string name="global_actions_title">Power menu</string>
     <string name="global_actions_summary">選擇按電源按鈕時顯示的内容</string>
     <string name="global_actions_power">電源</string>
     <string name="global_actions_restart">重新啟動</string>
@@ -105,43 +105,43 @@
     <string name="global_actions_advanced_reboot_title">啟動進階重啟選單</string>
     <string name="global_actions_advanced_reboot_summary">當重新啟動時顯示 Recovery 和 BootLoader 的選項</string>
     <!-- Fingerprint authentication vibration -->
-    <string name="fprint_sucess_vib_title">驗證指紋時震動</string>
-    <string name="fprint_sucess_vib_summary">成功認證指紋時震動</string>
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">指紋解鎖</string>
     <string name="fp_unlock_keystore_summary">在重新開機後不使用 PIN 碼/密碼/圖案的情況下解鎖設備
 \n注意：請自行承擔風險!</string>
     <!-- Weather - OmniJaws Settings -->
-    <string name="weather_title">天氣</string>
-    <string name="weather_config_title">服務設定</string>
+    <string name="weather_title">Weather</string>
+    <string name="weather_config_title">Service settings</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">天氣樣式</string>
-    <string name="lock_screen_weather_style_summaryOff">天氣和位置在日期下顯示</string>
-    <string name="lock_screen_weather_style_summaryOn">天氣(位置除外)在日期上顯示</string>
-    <string name="header_weather_title">標頭檢視天氣資訊</string>
-    <string name="header_weather_summary">啟用狀態列通知列天氣顯示</string>
-    <string name="weather_icon_pack_title">天氣狀況圖示包</string>
-    <string name="weather_icon_pack_note">注意：您現在可以從 Play 商店安裝新的圖示包了，請搜尋「Chronus icons」</string>
+    <string name="lock_screen_weather_style_title">Weather style</string>
+    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
+    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">鎖定畫面天氣</string>
-    <string name="lockscreen_weather_summary">於鎖定畫面顯示現時天氣狀況及溫度</string>
-    <string name="lockscreen_items_aod_info_title">此可見性配置同時適用於環境顯示</string>
-    <string name="lockscreen_weather_show_city_title">顯示城市名稱</string>
-    <string name="lockscreen_weather_show_city_summary">在圖片左邊顯示目前城市名稱</string>
-    <string name="lockscreen_weather_show_temp_title">顯示溫度</string>
-    <string name="lockscreen_weather_show_temp_summary">在圖片右邊顯示目前城市氣溫</string>
+    <string name="lockscreen_weather_title">Lockscreen weather</string>
+    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
+    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
+    <string name="lockscreen_weather_show_city_title">Show city name</string>
+    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
     <!-- Settings categories -->
     <string name="misc_category_title">雜項</string>
-    <string name="buttons_category_title">按鈕</string>
+    <string name="buttons_category_title">Buttons</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">亂序佈局</string>
-    <string name="unlock_scramble_pin_layout_summary">解鎖裝置時使用亂序 PIN 佈局</string>
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">快速解鎖</string>
-    <string name="unlock_quick_unlock_control_summary">當正確的輸入 PIN 碼/密碼時自動解鎖</string>
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
     <!-- Battery light -->
     <string name="battery_light_settings">充電指示燈</string>
-    <string name="battery_light_summary">於勿擾模式, 低電量時啟用或停用電充電指示燈</string>
+    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
     <string name="battery_light_enable">電池指示燈</string>
     <string name="battery_light_allow_on_dnd_title">勿擾模式下的啟用呼吸燈</string>
     <string name="battery_light_low_blinking_title">低電量時閃爍指示燈</string>
@@ -151,20 +151,20 @@
     <string name="battery_light_full_color">電量幾乎已滿</string>
     <string name="battery_light_reallyfull_color">電池已滿 (100%)</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">行動網路漫遊指示器</string>
-    <string name="roaming_indicator_icon_summary">在漫遊模式下顯示訊號圖示中的漫遊指示符號</string>
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
     <!-- Sizes for pattern lockscreen -->
-    <string name="lock_settings_picker_pattern_size_message">選擇解鎖圖案大小</string>
+    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">顯示解鎖圖形錯誤</string>
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">顯示解鎖圖形點</string>
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">連結 &amp; 鈴聲與通知音量</string>
     <!-- Reset battery stats -->
-    <string name="battery_stats_reset">重置統計數據</string>
-    <string name="battery_stats_message">電池統計數據即將重設</string>
-    <string name="ok_string">確定</string>
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">活動</string>
     <string name="select_custom_app_title">選擇自訂應用程式</string>
@@ -186,77 +186,77 @@
     <string name="hardware_keys_single_tap_title">點一下的動作</string>
     <string name="hardware_keys_long_press_title">長按的動作</string>
     <string name="hardware_keys_double_tap_title">點兩下的動作</string>
-    <string name="hard_soft_keys">按鍵</string>
-    <string name="hard_soft_keys_summary">自定裝置按鍵</string>
-    <string name="navigation_keys">啟動導航列</string>
-    <string name="navigation_keys_title">在螢幕上顯示導航列</string>
+    <string name="hard_soft_keys">Buttons</string>
+    <string name="hard_soft_keys_summary">Customise device buttons</string>
+    <string name="navigation_keys">Enable navigation bar</string>
+    <string name="navigation_keys_title">Onscreen navigation bar</string>
     <string name="hardware_keys_category">實體導航按鈕</string>
     <string name="hardware_keys_disable_title">停用實體按鈕</string>
-    <string name="hardware_keys_wake_title">喚醒裝置</string>
+    <string name="hardware_keys_wake_title">Wake device</string>
     <!-- Settings categories -->
-    <string name="statusbar_category_title">狀態列</string>
+    <string name="statusbar_category_title">StatusBar</string>
     <!-- Button brightness -->
-    <string name="button_backlight_options_category">背光選項</string>
-    <string name="button_backlight_enable_title">允許按鍵背光</string>
-    <string name="button_link_brightness">連結至螢幕亮度</string>
-    <string name="button_link_brightness_summary">按鈕背光亮度將根據螢幕的亮度調整</string>
-    <string name="button_manual_brightness">亮度等級</string>
-    <string name="button_timeout_title">背光逾時</string>
-    <string name="button_backlight_on_touch_only_title">按鍵背光觸控</string>
-    <string name="button_backlight_on_touch_only_summary">按鍵背光只會在按下按鍵時出現，而不是一直顯示。逾時仍會影響此功能。</string>
+    <string name="button_backlight_options_category">Backlight options</string>
+    <string name="button_backlight_enable_title">Allow button backlight</string>
+    <string name="button_link_brightness">Link to screen brightness</string>
+    <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
+    <string name="button_manual_brightness">Brightness level</string>
+    <string name="button_timeout_title">Backlight timeout</string>
+    <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
+    <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">播放控制</string>
-    <string name="volume_button_music_control_summary">當螢幕關閉時，長按音量鍵即可切換曲目</string>
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">音量鍵喚醒</string>
-    <string name="volume_rocker_wake_summary">按音量鍵喚醒裝置</string>
+    <string name="volume_rocker_wake_title">Volume wake</string>
+    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
     <!-- Volume key rotation -->
-    <string name="swap_volume_buttons_title">重新調整方向</string>
-    <string name="swap_volume_buttons_summary">當螢幕旋轉時交換音量按鈕</string>
+    <string name="swap_volume_buttons_title">Reorient</string>
+    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">允許網路存取</string>
-    <string name="data_usage_app_restrict_all_summary">啟用網路用量</string>
-    <string name="data_usage_app_restrict_data">行動網路流量</string>
-    <string name="data_usage_app_restrict_data_summary">啟用行動網路流量統計</string>
-    <string name="data_usage_app_restrict_vpn">VPN 數據</string>
-    <string name="data_usage_app_restrict_vpn_summary">啟用 VPN 流量統計</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 流量</string>
-    <string name="data_usage_app_restrict_wifi_summary">啟用 Wi\u2011Fi 流量統計</string>
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">狀態列項目</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">接上或移除電源時喚醒</string>
-    <string name="wake_when_plugged_or_unplugged_summary">接上或拔除電源時喚醒螢幕</string>
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
     <!-- Gesture Navigation -->
-    <string name="back_height_low_label">已充滿</string>
-    <string name="back_height_high_label">底部</string>
-    <string name="back_options_dialog_title">選項</string>
-    <string name="back_height_message">返回手勢可觸發範圍</string>
-    <string name="app_package_name_title">套件</string>
-    <string name="app_version_title">版本</string>
+    <string name="back_height_low_label">Full</string>
+    <string name="back_height_high_label">Bottom</string>
+    <string name="back_options_dialog_title">Options</string>
+    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="app_package_name_title">Package</string>
+    <string name="app_version_title">Version</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">點擊顯示詳細資料</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">防止意外喚醒</string>
     <string name="proximity_wake_summary">喚醒螢幕前檢查接近感應器</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="navbar_gesture_mode_category_title">手勢模式調整</string>
-    <string name="navbar_gesture_mode_category_key">手勢_模式_調整</string>
-    <string name="navbar_gesture_pill_toggle_title">全螢幕手勢</string>
-    <string name="navbar_gesture_pill_toggle_summary">這將隱藏導航欄和底線以獲得無縫的全螢幕手勢體驗</string>
-    <string name="navbar_gesture_pill_toggle_summary_disabled">此選項僅適用於手勢導航！</string>
+    <string name="navbar_gesture_mode_category_title">Gesture mode tweaks</string>
+    <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
+    <string name="navbar_gesture_pill_toggle_title">Full screen gestures</string>
+    <string name="navbar_gesture_pill_toggle_summary">This will hide both the navigation bar and the pill for a seamless fullscreen gesture experience.</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">This option is only available for gesture navigation!</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">反轉佈局</string>
+    <string name="navbar_invert_layout_title">Invert layout</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">啟動手電筒</string>
-    <string name="double_tap_power_flashlight_title">熒幕關閉時按電源鍵啓動手電筒</string>
-    <string name="torch_power_button_gesture_none">已停用</string>
-    <string name="torch_power_button_gesture_dt">按兩下電源鍵以啓/停用手電筒</string>
-    <string name="torch_power_button_gesture_lp">長按電源鍵以啟用/停用手電筒</string>
+    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
+    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">電池溫度</string>
+    <string name="battery_temp_title">Battery temperature</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">顯示剪切設定</string>
+    <string name="cutout_main">Display cutout settings</string>
     <string name="cutout_main_keywords">display cutout, notch, hide notch, hide</string>
     <string name="cutout_main_summary">They really cut corners with this one</string>
     <string name="display_cutout_style_title">Cutout style</string>
@@ -278,10 +278,10 @@
     <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
     <string name="battery_percent_title">Status bar battery percentage</string>
     <string name="battery_style_category_title">Battery icon</string>
-    <string name="status_bar_battery_style_title">電池樣式</string>
-    <string name="status_bar_battery_style_icon_portrait">直立圖標（預設）</string>
-    <string name="status_bar_battery_style_circle">圓形</string>
-    <string name="status_bar_battery_style_dotted_circle">虛線圓圈</string>
+    <string name="status_bar_battery_style_title">Battery style</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
     <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
     <string name="status_bar_battery_style_text">Text</string>
     <string name="status_bar_battery_style_hidden">Hidden</string>

@@ -22,14 +22,14 @@
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">Close</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Färgväljaren</string>
-    <string name="press_color_to_apply">Tryck på en färg nedan för att tillämpa</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Ange</string>
-    <string name="color_default">Standard</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Laddningsinformation på låsskärmen</string>
     <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
@@ -43,9 +43,9 @@
     <string name="arrow_stats_title">Statistik för ArrowOS</string>
     <string name="arrow_stats_summary">Just counting how many devices we run on</string>
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Leta reda på fingeravtryckssensorn på framsidan av mobilen.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Leta reda på fingeravtryckssensorn på vänster sida av mobilen.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Leta reda på fingeravtryckssensorn på höger sida av mobilen.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
     <!-- Fingerprint location message - generic -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
@@ -122,22 +122,22 @@
     <string name="weather_icon_pack_title">Condition icon pack</string>
     <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Väder på låsskärmen</string>
-    <string name="lockscreen_weather_summary">Visa nuvarande väder och temperatur på låsskärmen</string>
-    <string name="lockscreen_items_aod_info_title">Denna synlighetskonfiguration gäller även den omgivande skärmen</string>
-    <string name="lockscreen_weather_show_city_title">Visa ortsnamn</string>
-    <string name="lockscreen_weather_show_city_summary">Visa namnet på aktuell ort till vänster om bilden</string>
-    <string name="lockscreen_weather_show_temp_title">Visa temperatur</string>
-    <string name="lockscreen_weather_show_temp_summary">Visa nuvarande orts temperatur till höger om bilden</string>
+    <string name="lockscreen_weather_title">Lockscreen weather</string>
+    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
+    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
+    <string name="lockscreen_weather_show_city_title">Show city name</string>
+    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
     <!-- Settings categories -->
     <string name="misc_category_title">Övrigt</string>
-    <string name="buttons_category_title">Knappar</string>
+    <string name="buttons_category_title">Buttons</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Kasta om layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Kasta om PIN-layout vid upplåsning av enheten</string>
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Snabb upplåsning</string>
-    <string name="unlock_quick_unlock_control_summary">Lås upp automatiskt när rätt PIN/lösenord har angivits</string>
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Battery charging light</string>
     <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
@@ -150,8 +150,8 @@
     <string name="battery_light_full_color">Almost full battery</string>
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Roamingindikator</string>
-    <string name="roaming_indicator_icon_summary">Roamingindikator i signalikonen i roamingläge</string>
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
     <!-- Sizes for pattern lockscreen -->
     <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -191,36 +191,36 @@
     <string name="navigation_keys_title">Onscreen navigation bar</string>
     <string name="hardware_keys_category">Hårdvaruknappar för navigering</string>
     <string name="hardware_keys_disable_title">Inaktivera hårdvaruknappar</string>
-    <string name="hardware_keys_wake_title">Väck enheten</string>
+    <string name="hardware_keys_wake_title">Wake device</string>
     <!-- Settings categories -->
     <string name="statusbar_category_title">StatusBar</string>
     <!-- Button brightness -->
-    <string name="button_backlight_options_category">Alternativ för bakbelysning</string>
-    <string name="button_backlight_enable_title">Tillåt bakbelysning för knappar</string>
+    <string name="button_backlight_options_category">Backlight options</string>
+    <string name="button_backlight_enable_title">Allow button backlight</string>
     <string name="button_link_brightness">Link to screen brightness</string>
     <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
     <string name="button_manual_brightness">Brightness level</string>
     <string name="button_timeout_title">Backlight timeout</string>
-    <string name="button_backlight_on_touch_only_title">Bakbelysning för knappar vid tryck</string>
-    <string name="button_backlight_on_touch_only_summary">Bakbelysning för knappar kommer bara att aktiveras vid knapptryckningar i stället för att alltid vara aktiv. Tidsgräns påverkar ändå denna funktion.</string>
+    <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
+    <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Uppspelningskontroll</string>
-    <string name="volume_button_music_control_summary">Långtryck på volymknapparna kommer att byta musikspår medan skärmen är av</string>
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Vakna vid volym</string>
-    <string name="volume_rocker_wake_summary">Väck enheten genom att trycka på volymknapparna</string>
+    <string name="volume_rocker_wake_title">Volume wake</string>
+    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
     <!-- Volume key rotation -->
     <string name="swap_volume_buttons_title">Reorient</string>
     <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Allow network access</string>
     <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_data">Mobildata</string>
-    <string name="data_usage_app_restrict_data_summary">Aktivera användning av mobildata</string>
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
     <string name="data_usage_app_restrict_vpn">VPN data</string>
     <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi-data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Aktivera användning av Wi\u2011Fi-data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
     <!-- Wake on plug -->

@@ -18,78 +18,78 @@
     <string name="arrow_version">"ArrowOS verzió"</string>
     <string name="build_date">"Build dátuma"</string>
     <string name="about_device_name">"Eszköz"</string>
-    <string name="arrow_firmware_version">"Firmware Információ"</string>
+    <string name="arrow_firmware_version">"Firmware Information"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Bezár</string>
+    <string name="suggestion_button_close">Close</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Szín választó</string>
-    <string name="press_color_to_apply">Érintse meg a színt az alkalmazáshoz</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Beállít</string>
-    <string name="color_default">Alapértelmezett</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Töltés kijelzése képernyőzáron</string>
     <string name="lockscreen_battery_info_summary">Töltés közbeni töltőáram, feszültség és az akkumulátor hőmérsékletének megjelenítése a zárképernyőn</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Képernyőmentés hang</string>
     <!-- Changelog -->
-    <string name="changelog_title">Változások listája</string>
-    <string name="changelog_summary">Az utolsó frissítés óta</string>
-    <string name="changelog_error">Nem lehet betölteni a változások listáját</string>
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_error">Unable to load changelog</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">ArrowOS statisztikák</string>
     <string name="arrow_stats_summary">Csak tudni szeretnénk hány eszközön futunk</string>
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Telefonja előlapján találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Telefonja bal oldalán találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Telefonja jobb oldalán találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Készüléke előlapján találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Készüléke bal oldalán találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Készüléke jobb oldalán találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Táblagépe előlapján találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Táblagépe bal oldalán találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Táblagépe jobb oldalán találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">A Fekete téma stílusa</string>
-    <string name="theme_customization_accent_color_title">Kiemelőszín</string>
-    <string name="theme_customization_font_title">Címsor / Törzs betűtípus</string>
-    <string name="theme_customization_icon_shape_title">Ikonok formája</string>
+    <string name="theme_customization_systemui_title">Dark theme styles</string>
+    <string name="theme_customization_accent_color_title">Accent color</string>
+    <string name="theme_customization_font_title">Headline / Body font</string>
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
     <!-- SELinux status -->
-    <string name="selinux_status">SELinux állapot</string>
-    <string name="selinux_status_disabled">Letiltva</string>
-    <string name="selinux_status_permissive">Megengedő</string>
-    <string name="selinux_status_enforcing">Kényszerítve</string>
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Hálózati forgalom jelzők</string>
-    <string name="traffic_summary">Hálózati forgalmat jelző nyilak megjelenítése vagy elrejtése</string>
-    <string name="network_traffic_title">Hálózati forgalom</string>
-    <string name="network_traffic_type">Hálózati aktivitástípus kiválasztása</string>
-    <string name="show_network_traffic_up">Feltöltési</string>
-    <string name="show_network_traffic_down">Letöltési</string>
-    <string name="show_network_traffic_all">Feltöltési és Letöltési</string>
-    <string name="network_traffic_state_title">Hálózati tevékenység megjelenítése az állapotsoron</string>
-    <string name="network_traffic_autohide_threshold_title">Hálózati forgalom automatikus elrejtésének a határértéke (KB/s)</string>
-    <string name="network_traffic_hidearrow">Nyilak elrejtése</string>
-    <string name="network_traffic_hidearrow_summary">Hálózati forgalmat jelző nyilak elrejtése</string>
+    <string name="traffic_title">Traffic indicators</string>
+    <string name="traffic_summary">Enable or disable network speed indicators</string>
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="network_traffic_type">Select net activity type</string>
+    <string name="show_network_traffic_up">Uplink</string>
+    <string name="show_network_traffic_down">Downlink</string>
+    <string name="show_network_traffic_all">Uplink and Downlink</string>
+    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
     <!--Double Tap to Sleep Statusbar-->
     <string name="statusbar_gestures_category_title">Állapotsor mozdulatok</string>
     <string name="double_tap_sleep_gesture_title">Dupla érintésre alvómód az állapotsoron</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_gestures_category_title">Zárképernyő mozdulatok</string>
+    <string name="lockscreen_gestures_category_title">Lockscreen gestures</string>
     <string name="double_tap_sleep_lockscreen_title">Dupla érintésre alvómód a záróképernyőn</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">Mozdulatok</string>
     <string name="gesture_settings_dashboard_summary">Mozdulatok beállítása</string>
-    <string name="custom_device_gestures_preference_title">Eszköz függő mozdulat beállítások</string>
-    <string name="custom_device_gestures_preference_summary">Eszközspecifikus gesztusok láthatóak itt</string>
+    <string name="custom_device_gestures_preference_title">Device specific gestures</string>
+    <string name="custom_device_gestures_preference_summary">Device specific gestures package is shown here</string>
     <!-- Global Actions -->
-    <string name="advanced_powermenu_category_title">Speciális kikapcsolási menü</string>
-    <string name="global_actions_title">Kikapcsolási menü</string>
+    <string name="advanced_powermenu_category_title">Advanced power menu</string>
+    <string name="global_actions_title">Power menu</string>
     <string name="global_actions_summary">Válassza ki mi jelenjen meg, amikor megnyomja a bekapcsológombot</string>
     <string name="global_actions_power">Kikapcsolás</string>
     <string name="global_actions_restart">Újraindítás</string>
@@ -105,42 +105,42 @@
     <string name="global_actions_advanced_reboot_title">A Speciális újraindítás engedélyezése</string>
     <string name="global_actions_advanced_reboot_summary">Újraindításkor szintén megjeleníti a recoverybe és bootloaderbe indítás lehetőségét is</string>
     <!-- Fingerprint authentication vibration -->
-    <string name="fprint_sucess_vib_title">Ujjlenyomat-hitelesítési rezgés</string>
-    <string name="fprint_sucess_vib_summary">Rezgés sikeres ujjlenyomat-hitelesítéskor</string>
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Feloldás ujjlenyomattal</string>
     <string name="fp_unlock_keystore_summary">Készülék feloldása ujjlenyomattal újraindítás után PIN/Jelszó/Minta nélkül\nMegjegyzés: csak saját felelősségre!</string>
     <!-- Weather - OmniJaws Settings -->
-    <string name="weather_title">Időjárás</string>
-    <string name="weather_config_title">Szolgáltatás beállítások</string>
+    <string name="weather_title">Weather</string>
+    <string name="weather_config_title">Service settings</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Az Időjárás stílusa</string>
-    <string name="lock_screen_weather_style_summaryOff">Az Időjárás a tartózkodási hellyel együtt a dátum sora alatt látható</string>
-    <string name="lock_screen_weather_style_summaryOn">Az Időjárás a tartózkodási hely nélkül a dátum sorában látható</string>
-    <string name="header_weather_title">Időjárás fejléc nézet</string>
-    <string name="header_weather_summary">Engedélyezi az időjárás megjelenítését az értesítési panelen</string>
-    <string name="weather_icon_pack_title">Időjárás-állapot ikoncsomag</string>
-    <string name="weather_icon_pack_note">Megjegyzés: \u003a új ikoncsomagokat telepíthet, ha a Google Play Áruházban a \"Chronus icons\"-ra keres rá</string>
+    <string name="lock_screen_weather_style_title">Weather style</string>
+    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
+    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Zárképernyő időjárás</string>
-    <string name="lockscreen_weather_summary">Az aktuális időjárási és hőmérséklet megjelenítése a zárképernyőn</string>
-    <string name="lockscreen_items_aod_info_title">Ez a láthatósági beállítás a környezeti kijelzőre is vonatkozik</string>
-    <string name="lockscreen_weather_show_city_title">Város nevének mutatása</string>
-    <string name="lockscreen_weather_show_city_summary">Az aktuális város nevének megjelenítése a kép bal oldalán</string>
-    <string name="lockscreen_weather_show_temp_title">Hőmérséklet megjelenítése</string>
-    <string name="lockscreen_weather_show_temp_summary">Az aktuális város hőmérsékletének megjelenítése a kép jobb oldalán</string>
+    <string name="lockscreen_weather_title">Lockscreen weather</string>
+    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
+    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
+    <string name="lockscreen_weather_show_city_title">Show city name</string>
+    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
     <!-- Settings categories -->
     <string name="misc_category_title">Egyéb</string>
-    <string name="buttons_category_title">Gombok</string>
+    <string name="buttons_category_title">Buttons</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Véletlenszerű elrendezés</string>
-    <string name="unlock_scramble_pin_layout_summary">Összekeveri a beviteli mezőn a számok elrendezését az eszköz feloldásakor</string>
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Gyorsfeloldás</string>
-    <string name="unlock_quick_unlock_control_summary">Oldja fel automatikusan ha helyes a PIN/jelszó</string>
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Akkumulátor töltés jelzőfény</string>
-    <string name="battery_light_summary">Akkumulátor fény bekapcsolása vagy letiltása a Ne zavarjanak üzemmódban alacsony töltöttség esetén</string>
+    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
     <string name="battery_light_enable">Akkumulátor jelző fény</string>
     <string name="battery_light_allow_on_dnd_title">Akkumulátor fény a Ne zavarj módban</string>
     <string name="battery_light_low_blinking_title">Alacsony akkumulátorszintnél villogó fényjelzés</string>
@@ -150,19 +150,19 @@
     <string name="battery_light_full_color">Majdnem teljes akkumulátor töltöttség</string>
     <string name="battery_light_reallyfull_color">Teljesen feltöltve (100%)</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Barangolás kijelzése</string>
-    <string name="roaming_indicator_icon_summary">Barangolás kijelzőjének megjelenítése a térerő ikonban, ha barangolásmódban van</string>
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
     <!-- Sizes for pattern lockscreen -->
-    <string name="lock_settings_picker_pattern_size_message">Válassza ki a minta méretét</string>
+    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Hibás minta megjelenítése</string>
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Feloldási pontok megjelenítése</string>
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Csengő és értesítési hangok összekapcsolása</string>
     <!-- Reset battery stats -->
-    <string name="battery_stats_reset">Statisztikák törlése</string>
-    <string name="battery_stats_message">Az akkumulátorhasználati statisztika törlésre kerül</string>
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
     <string name="ok_string">Ok</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">Tevékenységek</string>
@@ -185,93 +185,93 @@
     <string name="hardware_keys_single_tap_title">Egyszerű érintési művelet</string>
     <string name="hardware_keys_long_press_title">Hosszú érintési művelete</string>
     <string name="hardware_keys_double_tap_title">Dupla érintés eseménye</string>
-    <string name="hard_soft_keys">Gombok</string>
-    <string name="hard_soft_keys_summary">Eszköz gombjainak testreszabása</string>
-    <string name="navigation_keys">Navigációs sáv engedélyezése</string>
-    <string name="navigation_keys_title">Navigációs sáv engedélyezése</string>
+    <string name="hard_soft_keys">Buttons</string>
+    <string name="hard_soft_keys_summary">Customise device buttons</string>
+    <string name="navigation_keys">Enable navigation bar</string>
+    <string name="navigation_keys_title">Onscreen navigation bar</string>
     <string name="hardware_keys_category">Hardveres navigációs gombok</string>
     <string name="hardware_keys_disable_title">Hardveres gombok kikapcsolása</string>
-    <string name="hardware_keys_wake_title">Eszköz felébresztése</string>
+    <string name="hardware_keys_wake_title">Wake device</string>
     <!-- Settings categories -->
-    <string name="statusbar_category_title">Állapotsor</string>
+    <string name="statusbar_category_title">StatusBar</string>
     <!-- Button brightness -->
-    <string name="button_backlight_options_category">Háttérvilágítás beállítások</string>
-    <string name="button_backlight_enable_title">Gombok háttérvilágításának engedélyezése</string>
-    <string name="button_link_brightness">Csatolás a képernyő fényerejéhez</string>
-    <string name="button_link_brightness_summary">Gombok háttérvilágításának fényerejét a képernyő fényerőszintje alapján fogja módosítani</string>
-    <string name="button_manual_brightness">Fényerősség</string>
-    <string name="button_timeout_title">Háttérvilágítás időtartama</string>
-    <string name="button_backlight_on_touch_only_title">Gombok háttérvilágítása érintésre</string>
-    <string name="button_backlight_on_touch_only_summary">A gomb háttérvilágítása csak a gombok megnyomásakor jelenik meg, és nem állandóan. Az időkorlát erre a szolgáltatásra is hatással van.</string>
+    <string name="button_backlight_options_category">Backlight options</string>
+    <string name="button_backlight_enable_title">Allow button backlight</string>
+    <string name="button_link_brightness">Link to screen brightness</string>
+    <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
+    <string name="button_manual_brightness">Brightness level</string>
+    <string name="button_timeout_title">Backlight timeout</string>
+    <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
+    <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Lejátszás vezérlés</string>
-    <string name="volume_button_music_control_summary">Ha a képernyő ki van kapcsolva, a hangerő-gombok hosszú megnyomásával zeneszámokat ugorhat át</string>
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Ébresztés hangerőgombbal</string>
-    <string name="volume_rocker_wake_summary">Hangerőgomb megnyomására ébredjen fel a készülék</string>
+    <string name="volume_rocker_wake_title">Volume wake</string>
+    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
     <!-- Volume key rotation -->
-    <string name="swap_volume_buttons_title">Átrendezés</string>
-    <string name="swap_volume_buttons_summary">Hangerőgombok felcserélése, ha a képernyő el van forgatva</string>
+    <string name="swap_volume_buttons_title">Reorient</string>
+    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Allow network access</string>
     <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_data">Mobiladat-kapcsolat</string>
-    <string name="data_usage_app_restrict_data_summary">Mobiladat-használat engedélyezése</string>
-    <string name="data_usage_app_restrict_vpn">VPN adatok</string>
-    <string name="data_usage_app_restrict_vpn_summary">A VPN adathasználat engedélyezése</string>
-    <string name="data_usage_app_restrict_wifi">Wi-Fi adat</string>
-    <string name="data_usage_app_restrict_wifi_summary">Wi-Fi adathasználat engedélyezése</string>
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Állapotsori elemek</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Felébredés töltő csatlakoztatásakor</string>
-    <string name="wake_when_plugged_or_unplugged_summary">A képernyő bekapcsolása a töltő csatlakoztatása/eltávolítása után</string>
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
     <!-- Gesture Navigation -->
-    <string name="back_height_low_label">Feltöltve</string>
-    <string name="back_height_high_label">Alul</string>
-    <string name="back_options_dialog_title">Beállítások</string>
-    <string name="back_height_message">A mozdulatok felismeréséhez használt képernyő magasság.</string>
-    <string name="app_package_name_title">Csomag</string>
-    <string name="app_version_title">Verzió</string>
+    <string name="back_height_low_label">Full</string>
+    <string name="back_height_high_label">Bottom</string>
+    <string name="back_options_dialog_title">Options</string>
+    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="app_package_name_title">Package</string>
+    <string name="app_version_title">Version</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Érintse meg az információ megjelenítéséhez</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Véletlen ébresztés megakadályozása</string>
     <string name="proximity_wake_summary">Közelség érzékelő ellenőrzése a képernyő felébresztése előtt</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="navbar_gesture_mode_category_title">Mozdulatok finomhangolása</string>
-    <string name="navbar_gesture_mode_category_key">mozdulatok finomhangolása</string>
-    <string name="navbar_gesture_pill_toggle_title">Teljes képernyős mozdulatok</string>
-    <string name="navbar_gesture_pill_toggle_summary">Eltünteti a navigációs sávot és a fogantyút a zökkenőmentes teljes képernyős élményért.</string>
-    <string name="navbar_gesture_pill_toggle_summary_disabled">Ez a beállítás csak a mozdulat vezérlés esetén elérhető!</string>
+    <string name="navbar_gesture_mode_category_title">Gesture mode tweaks</string>
+    <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
+    <string name="navbar_gesture_pill_toggle_title">Full screen gestures</string>
+    <string name="navbar_gesture_pill_toggle_summary">This will hide both the navigation bar and the pill for a seamless fullscreen gesture experience.</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">This option is only available for gesture navigation!</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Fordított elrendezés</string>
+    <string name="navbar_invert_layout_title">Invert layout</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Zseblámpa aktiválása</string>
-    <string name="double_tap_power_flashlight_title">Bekapcsológomb használata a zseblámpához</string>
-    <string name="torch_power_button_gesture_none">Letiltva</string>
-    <string name="torch_power_button_gesture_dt">Zseblámpa indítása a bekapcsológomb dupla nyomásával</string>
-    <string name="torch_power_button_gesture_lp">Zseblámpa indítása a bekapcsológomb hosszan nyomásával</string>
+    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
+    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Akkumulátor hőmérséklete</string>
+    <string name="battery_temp_title">Battery temperature</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">Képernyőkivágási beállítások</string>
-    <string name="cutout_main_keywords">képernyőkivágás, sziget, sziget elrejtése, notch, elrejtés</string>
-    <string name="cutout_main_summary">Ezzel ténylegesen levághatóak a sarkok</string>
-    <string name="display_cutout_style_title">Kivágási stílus</string>
-    <string name="display_cutout_style_normal">Normál</string>
-    <string name="display_cutout_style_immerse">Immerzív</string>
-    <string name="display_cutout_style_hide">Elrejt</string>
-    <string name="stock_statusbar_in_hide">Gyári állapotsormagasság</string>
-    <string name="stock_statusbar_in_hide_summary">Rejtett állapotban a gyári állapotsormagasságot használja</string>
+    <string name="cutout_main">Display cutout settings</string>
+    <string name="cutout_main_keywords">display cutout, notch, hide notch, hide</string>
+    <string name="cutout_main_summary">They really cut corners with this one</string>
+    <string name="display_cutout_style_title">Cutout style</string>
+    <string name="display_cutout_style_normal">Normal</string>
+    <string name="display_cutout_style_immerse">Immerse</string>
+    <string name="display_cutout_style_hide">Hide</string>
+    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
+    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
     <!-- Navigation bar -->
-    <string name="navigation_bar_title">Navigációs sáv</string>
-    <string name="navigation_bar_summary">Engedélyezheti vagy kikapcsolhatja a navigációs sávot</string>
+    <string name="navigation_bar_title">Navigation bar</string>
+    <string name="navigation_bar_summary">Enable or disable navigation bar</string>
     <!-- Incall Home button behavior-->
-    <string name="allow_incall_home_title">Főképernyő gomb engedélyezése csörgés közben</string>
-    <string name="allow_incall_home_summary">Főképernyő gomb használatának engedélyezése bejövő hívás esetén</string>
+    <string name="allow_incall_home_title">Home button when ringing</string>
+    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Értesítéselőzmény-napló megjelenítése</string>
+    <string name="notification_log_summary">Show notifications history log</string>
     <!-- Statusbar Battery -->
     <string name="battery_style_title">Battery icon style</string>
     <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>

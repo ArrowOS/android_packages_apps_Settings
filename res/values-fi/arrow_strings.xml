@@ -16,80 +16,80 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Arrow version preference -->
     <string name="arrow_version">"ArrowOS versio"</string>
-    <string name="build_date">"Luontipäivä"</string>
+    <string name="build_date">"Koontipäivä"</string>
     <string name="about_device_name">"Laite"</string>
-    <string name="arrow_firmware_version">"Ohjelmistotiedot"</string>
+    <string name="arrow_firmware_version">"Firmware Information"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Sulje</string>
+    <string name="suggestion_button_close">Close</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Värivalitsin</string>
-    <string name="press_color_to_apply">Paina väriä alla valitaksesi</string>
-    <string name="arrow_right">Nuoli oikealle</string>
-    <string name="arrow_down">Nuoli alas</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Määritä</string>
-    <string name="color_default">Oletus</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Akun lataustiedot lukitusnäytöllä</string>
     <string name="lockscreen_battery_info_summary">Näytä tämän hetkinen laturin virta, jännite ja akun lämpötila lukitusnäytöllä akun latautuessa</string>
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Ruudunkaappauksen äänimerkki</string>
+    <string name="screenshot_sound_title">Kuvakaappauksen ääni</string>
     <!-- Changelog -->
-    <string name="changelog_title">Muutosloki</string>
-    <string name="changelog_summary">Edellisen päivityksen jälkeen</string>
-    <string name="changelog_error">Muutoslokin lataaminen epäonnistui</string>
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_error">Unable to load changelog</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">ArrowOS tilastot</string>
     <string name="arrow_stats_summary">Laskuri monellako laitteella pyörimme</string>
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Löydä sormenjälkitunnistin puhelimesi etuosasta.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Löydä sormenjälkitunnistin puhelimesi vasemmasta reunasta.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Löydä sormenjälkitunnistin puhelimesi oikeasta reunasta.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Löydä sormenjälkitunnistin laitteesi etuosasta.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Löydä sormenjälkitunnistin laitteesi vasemmasta reunasta.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Löydä sormenjälkitunnistin laitteesi oikeasta reunasta.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Löydä sormenjälkitunnistin tablettisi etuosasta.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Löydä sormenjälkitunnistin tablettisi vasemmasta reunasta.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Löydä sormenjälkitunnistin tablettisi oikeasta reunasta.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Tumman teeman tyyli</string>
-    <string name="theme_customization_accent_color_title">Korostusväri</string>
-    <string name="theme_customization_font_title">Otsikko/ runko fontti</string>
-    <string name="theme_customization_icon_shape_title">Kuvakkeiden muoto</string>
+    <string name="theme_customization_systemui_title">Dark theme styles</string>
+    <string name="theme_customization_accent_color_title">Accent color</string>
+    <string name="theme_customization_font_title">Headline / Body font</string>
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
     <!-- SELinux status -->
-    <string name="selinux_status">SELinux-tila</string>
-    <string name="selinux_status_disabled">Ei käytössä</string>
-    <string name="selinux_status_permissive">Salliva</string>
-    <string name="selinux_status_enforcing">Pakottava</string>
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Nettiliikenteen mittari</string>
-    <string name="traffic_summary">Näytä tai piilota verkon nopeus</string>
-    <string name="network_traffic_title">Verkkoliikenne</string>
-    <string name="network_traffic_type">Valitse netinkäyttö tapa</string>
-    <string name="show_network_traffic_up">Siirtolinkki</string>
-    <string name="show_network_traffic_down">Latauslinkki</string>
-    <string name="show_network_traffic_all">Siirto- ja latauslinkki</string>
-    <string name="network_traffic_state_title">Näytä verkon aktiivisuus tilapalkissa</string>
-    <string name="network_traffic_autohide_threshold_title">Verkon aktiivisuuden automaattisen piilotuksen raja (KB/s)</string>
-    <string name="network_traffic_hidearrow">Piilota nuolet</string>
-    <string name="network_traffic_hidearrow_summary">Piilota verkkoliikenteen nuolet</string>
+    <string name="traffic_title">Traffic indicators</string>
+    <string name="traffic_summary">Enable or disable network speed indicators</string>
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="network_traffic_type">Select net activity type</string>
+    <string name="show_network_traffic_up">Uplink</string>
+    <string name="show_network_traffic_down">Downlink</string>
+    <string name="show_network_traffic_all">Uplink and Downlink</string>
+    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
     <!--Double Tap to Sleep Statusbar-->
     <string name="statusbar_gestures_category_title">Tilapalkin eleet</string>
     <string name="double_tap_sleep_gesture_title">Siirry unitilaan tuplatäppäämällä tilapalkkia</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_gestures_category_title">Lukitusnäytön eleet</string>
+    <string name="lockscreen_gestures_category_title">Lockscreen gestures</string>
     <string name="double_tap_sleep_lockscreen_title">Siirry unitilaan tuplatäpäyttämällä lukitusnäytössä</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">Eleet</string>
     <string name="gesture_settings_dashboard_summary">Säädä eleiden asetuksia</string>
-    <string name="custom_device_gestures_preference_title">Laitekohtaiset eleet</string>
-    <string name="custom_device_gestures_preference_summary">Laitekohtaisten eleiden paketti näkyy täällä</string>
+    <string name="custom_device_gestures_preference_title">Device specific gestures</string>
+    <string name="custom_device_gestures_preference_summary">Device specific gestures package is shown here</string>
     <!-- Global Actions -->
-    <string name="advanced_powermenu_category_title">Edistynyt käynnistysvalikko</string>
-    <string name="global_actions_title">Käynnistysvalikko</string>
+    <string name="advanced_powermenu_category_title">Advanced power menu</string>
+    <string name="global_actions_title">Power menu</string>
     <string name="global_actions_summary">Valitse mitä haluat nähdä, kun painat power-näppäintä</string>
     <string name="global_actions_power">Power</string>
     <string name="global_actions_restart">Käynnistä uudelleen</string>
@@ -99,48 +99,48 @@
     <string name="global_actions_soundpanel">Äänipaneeli</string>
     <string name="global_actions_users">Käyttäjät</string>
     <string name="global_actions_screenshot">Ruutukaappaus</string>
-    <string name="global_actions_screenrecord">Screenrecord</string>
+    <string name="global_actions_screenrecord">Näytöntallennus</string>
     <string name="global_actions_flashlight">Taskulamppu</string>
     <string name="global_actions_emergency">Hätätila</string>
     <string name="global_actions_advanced_reboot_title">Ota käyttöön edistynyt uudelleen käynnistys</string>
     <string name="global_actions_advanced_reboot_summary">Uudelleenkäynnistyksen aikana näytä myös recovery ja bootloader valikko</string>
     <!-- Fingerprint authentication vibration -->
-    <string name="fprint_sucess_vib_title">Sormenjälkitunnistuksen värinä</string>
-    <string name="fprint_sucess_vib_summary">Värise onnistuneen sormenjälkitunnistuksen yhteydessä</string>
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Sormenjälkiavaus</string>
     <string name="fp_unlock_keystore_summary">Avaa laitteen lukitus sormenjäljellä uudelleenkäynnistyksen jälkeen ilman PIN-koodia/salasanaa/kuviota\nHuom: Omalla vastuulla!</string>
     <!-- Weather - OmniJaws Settings -->
-    <string name="weather_title">Sää</string>
-    <string name="weather_config_title">Palveluasetukset</string>
+    <string name="weather_title">Weather</string>
+    <string name="weather_config_title">Service settings</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Sään tyyli</string>
-    <string name="lock_screen_weather_style_summaryOff">Sää ja paikka näytetään päivämäärän alla</string>
-    <string name="lock_screen_weather_style_summaryOn">Sää näytetään päivämäärän kanssa ilman paikkatietoa</string>
-    <string name="header_weather_title">Yläosan säänäkymä</string>
-    <string name="header_weather_summary">Aktivoi ilmoituspalkin paneelin yläosan sää</string>
-    <string name="weather_icon_pack_title">Sää kuvakepaketti</string>
-    <string name="weather_icon_pack_note">Asenna uusia ikonipaketteja play storesta. Hae \"Chronus icons\"</string>
+    <string name="lock_screen_weather_style_title">Weather style</string>
+    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
+    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Lukitusnäytön sää</string>
-    <string name="lockscreen_weather_summary">Näytä nykyinen sää- ja lämpötila lukitusnäytöllä</string>
-    <string name="lockscreen_items_aod_info_title">Tämä näkyvyysasetus pätee myös tunnelmanäytössä</string>
-    <string name="lockscreen_weather_show_city_title">Näytä kaupunki</string>
-    <string name="lockscreen_weather_show_city_summary">Näytä nykyinen kaupunki kuvan vasemmalla puolella</string>
-    <string name="lockscreen_weather_show_temp_title">Näytä lämpötila</string>
-    <string name="lockscreen_weather_show_temp_summary">Näytä nykyisen kaupungin lämpötila kuvan oikealla puolella</string>
+    <string name="lockscreen_weather_title">Lockscreen weather</string>
+    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
+    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
+    <string name="lockscreen_weather_show_city_title">Show city name</string>
+    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
     <!-- Settings categories -->
     <string name="misc_category_title">Sekalaista</string>
-    <string name="buttons_category_title">Painikkeet</string>
+    <string name="buttons_category_title">Buttons</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Sekoitettu asettelu</string>
-    <string name="unlock_scramble_pin_layout_summary">Sekoita PIN-numerot poistettaessa lukitusta</string>
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Nopea lukituksen avaus</string>
-    <string name="unlock_quick_unlock_control_summary">Avaa automaattisesti kun oikea PIN/salasana on syötetty</string>
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Akun latauksen ilmotusvalo</string>
-    <string name="battery_light_summary">Näytä tai piilota akun valo DND, akun alhainen varaus</string>
+    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
     <string name="battery_light_enable">Akun merkkivalo</string>
     <string name="battery_light_allow_on_dnd_title">Akun ilmoitusvalo Älä Häiritse-tilassa</string>
     <string name="battery_light_low_blinking_title">Vilkkuva ilmoitusvalo kun akku vähissä</string>
@@ -150,19 +150,19 @@
     <string name="battery_light_full_color">Melkein täysi akku</string>
     <string name="battery_light_reallyfull_color">Täysi (100%) akku</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Roaming-tilan osoitin</string>
-    <string name="roaming_indicator_icon_summary">Roamingmerkki signaalin osoittimessa roamingtilan ollessa käytössä</string>
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
     <!-- Sizes for pattern lockscreen -->
-    <string name="lock_settings_picker_pattern_size_message">Valitse lukituskuvion koko</string>
+    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Näytä lukituskuvion virhe</string>
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Näytä lukituskuvion pisteet</string>
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Yhdistä soittoääni &amp; ilmoitusäänet</string>
     <!-- Reset battery stats -->
-    <string name="battery_stats_reset">Nollaa tilastot</string>
-    <string name="battery_stats_message">Akun historiatiedot nollataan</string>
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
     <string name="ok_string">Ok</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">Toiminnat</string>
@@ -185,91 +185,91 @@
     <string name="hardware_keys_single_tap_title">Yhden painalluksen toiminto</string>
     <string name="hardware_keys_long_press_title">Pitkän painalluksen toiminto</string>
     <string name="hardware_keys_double_tap_title">Kaksoisnapautuksen toiminto</string>
-    <string name="hard_soft_keys">Painikkeet</string>
-    <string name="hard_soft_keys_summary">Räätälöi laitteen painikkeet</string>
-    <string name="navigation_keys">Ota navigointipalkki käyttöön</string>
-    <string name="navigation_keys_title">Näytön navigaatiopalkki</string>
+    <string name="hard_soft_keys">Buttons</string>
+    <string name="hard_soft_keys_summary">Customise device buttons</string>
+    <string name="navigation_keys">Enable navigation bar</string>
+    <string name="navigation_keys_title">Onscreen navigation bar</string>
     <string name="hardware_keys_category">Fyysiset navigaationäppäimet</string>
     <string name="hardware_keys_disable_title">Poista fyysiset näppäimet käytöstä</string>
-    <string name="hardware_keys_wake_title">Herätä laite</string>
+    <string name="hardware_keys_wake_title">Wake device</string>
     <!-- Settings categories -->
-    <string name="statusbar_category_title">Tilapalkki</string>
+    <string name="statusbar_category_title">StatusBar</string>
     <!-- Button brightness -->
-    <string name="button_backlight_options_category">Taustavalon asetukset</string>
-    <string name="button_backlight_enable_title">Salli näppäinten taustavalo</string>
-    <string name="button_link_brightness">Linkitä näytön kirkkauteen</string>
-    <string name="button_link_brightness_summary">Näppäinten taustavaloa säädetään yhdessä ruudun kirkkauden säädön kanssa</string>
-    <string name="button_manual_brightness">Kirkkaustaso</string>
-    <string name="button_timeout_title">Taustavalon aikakatkaisu</string>
-    <string name="button_backlight_on_touch_only_title">Näppäinten taustavalon kosketus</string>
-    <string name="button_backlight_on_touch_only_summary">Näppäinten taustavalo ilmestyy vain kun näppäimiä painetaan sen sijaan että valo palaisi koko ajan. Näppäinten taustavalon sammutus silti vaikuttaa tähän.</string>
+    <string name="button_backlight_options_category">Backlight options</string>
+    <string name="button_backlight_enable_title">Allow button backlight</string>
+    <string name="button_link_brightness">Link to screen brightness</string>
+    <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
+    <string name="button_manual_brightness">Brightness level</string>
+    <string name="button_timeout_title">Backlight timeout</string>
+    <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
+    <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Toiston ohjaus</string>
-    <string name="volume_button_music_control_summary">Kappale vaihtuu painamalla äänenvoimakkuuspainikkeita pitkään näytön ollessa suljettuna</string>
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Näytön herättäminen äänenvoimakkuus-näppäimillä</string>
-    <string name="volume_rocker_wake_summary">Herätä laitteesi painamalla äänenvoimakkuuden-näppäimiä</string>
+    <string name="volume_rocker_wake_title">Volume wake</string>
+    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
     <!-- Volume key rotation -->
-    <string name="swap_volume_buttons_title">Käännä äänenvoimakkuusnäppäimet</string>
-    <string name="swap_volume_buttons_summary">Vaihda äänenvoimakkuusnäppäimien paikkoja näytön ollessa käännettynä</string>
+    <string name="swap_volume_buttons_title">Reorient</string>
+    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Allow network access</string>
     <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_data">Mobiilidata</string>
-    <string name="data_usage_app_restrict_data_summary">Ota mobiilidata käyttöön</string>
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
     <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Ota käyttöön VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi tiedot</string>
-    <string name="data_usage_app_restrict_wifi_summary">Salli Wi?\u2011Fi:n tietojen käyttö</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Tilapalkin kohteet</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Herää kytkettäessä laturiin</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Avaa näyttö kun liität tai irroitat laturin</string>
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
     <!-- Gesture Navigation -->
-    <string name="back_height_low_label">Täynnä</string>
-    <string name="back_height_high_label">Alareuna</string>
-    <string name="back_options_dialog_title">Valinnat</string>
-    <string name="back_height_message">Takaisin-eleen kosketus alueen korkeus.</string>
-    <string name="app_package_name_title">Paketti</string>
-    <string name="app_version_title">Versio</string>
+    <string name="back_height_low_label">Full</string>
+    <string name="back_height_high_label">Bottom</string>
+    <string name="back_options_dialog_title">Options</string>
+    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="app_package_name_title">Package</string>
+    <string name="app_version_title">Version</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Napauta näyttääksesi info</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Estä vahinkoherätykset</string>
     <string name="proximity_wake_summary">Tarkista lähesyysanturi ennen näytön herättämistä</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="navbar_gesture_mode_category_title">Ele-tilan säädöt</string>
-    <string name="navbar_gesture_mode_category_key">ele-tilan_säädöt</string>
-    <string name="navbar_gesture_pill_toggle_title">Täyden näytön eleet</string>
-    <string name="navbar_gesture_pill_toggle_summary">Tämä tyhjentää ylimääräiset roippeet että saat täydet näytön elämyksen.</string>
-    <string name="navbar_gesture_pill_toggle_summary_disabled">Tämä vaihtoehto on käytössä ainoastaan elenavigoinnissa!</string>
+    <string name="navbar_gesture_mode_category_title">Gesture mode tweaks</string>
+    <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
+    <string name="navbar_gesture_pill_toggle_title">Full screen gestures</string>
+    <string name="navbar_gesture_pill_toggle_summary">This will hide both the navigation bar and the pill for a seamless fullscreen gesture experience.</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">This option is only available for gesture navigation!</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Käänteinen asettelu</string>
+    <string name="navbar_invert_layout_title">Invert layout</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Käynnistä taskulamppu</string>
-    <string name="double_tap_power_flashlight_title">Näyttö pois, Power-näppäin taskulamppu</string>
-    <string name="torch_power_button_gesture_none">Ei käytössä</string>
-    <string name="torch_power_button_gesture_dt">Taskulampun kytkeminen tuplanäppäilemällä powernappulaa</string>
-    <string name="torch_power_button_gesture_lp">Paina pitkään virtanäppäintä avataksesi taskulamppu</string>
+    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
+    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Akun lämpötila</string>
+    <string name="battery_temp_title">Battery temperature</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">Näytön automaattikatkaisun asetukset</string>
-    <string name="cutout_main_keywords">näytön automaattikatkaisu, lovi, piilota lovi, piilota</string>
-    <string name="cutout_main_summary">He todella oikaisivat tämän kanssa</string>
-    <string name="display_cutout_style_title">Leikkauksen tyyli</string>
-    <string name="display_cutout_style_normal">Normaali</string>
-    <string name="display_cutout_style_immerse">Upotettu</string>
-    <string name="display_cutout_style_hide">Piilota</string>
-    <string name="stock_statusbar_in_hide">Tilapalkin oletuskorkeus</string>
-    <string name="stock_statusbar_in_hide_summary">Käytä tilapalkin oletuskorkeutta Piilossa</string>
+    <string name="cutout_main">Display cutout settings</string>
+    <string name="cutout_main_keywords">display cutout, notch, hide notch, hide</string>
+    <string name="cutout_main_summary">They really cut corners with this one</string>
+    <string name="display_cutout_style_title">Cutout style</string>
+    <string name="display_cutout_style_normal">Normal</string>
+    <string name="display_cutout_style_immerse">Immerse</string>
+    <string name="display_cutout_style_hide">Hide</string>
+    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
+    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
     <!-- Navigation bar -->
-    <string name="navigation_bar_title">Navigaatiopalkki</string>
-    <string name="navigation_bar_summary">Näytä tai piilota navigointipalkki</string>
+    <string name="navigation_bar_title">Navigation bar</string>
+    <string name="navigation_bar_summary">Enable or disable navigation bar</string>
     <!-- Incall Home button behavior-->
-    <string name="allow_incall_home_title">Koti näppäin puhelun saapuessa</string>
-    <string name="allow_incall_home_summary">Salli Koti näppäimen käyttö kun laite hälyttää</string>
+    <string name="allow_incall_home_title">Home button when ringing</string>
+    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
     <!-- Statusbar Battery -->

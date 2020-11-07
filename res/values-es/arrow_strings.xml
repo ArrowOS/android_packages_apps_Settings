@@ -18,78 +18,78 @@
     <string name="arrow_version">"Versión de ArrowOS"</string>
     <string name="build_date">"Fecha de compilación"</string>
     <string name="about_device_name">"Dispositivo"</string>
-    <string name="arrow_firmware_version">"Información del firmware"</string>
+    <string name="arrow_firmware_version">"Firmware Information"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Cerrar</string>
+    <string name="suggestion_button_close">Close</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Selector de Color</string>
-    <string name="press_color_to_apply">Pulse un color de abajo para aplicar los cambios</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Aplicar</string>
-    <string name="color_default">Por defecto</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Información de carga en pantalla de bloqueo</string>
     <string name="lockscreen_battery_info_summary">Mostrar corriente de carga, voltaje, potencia y temperatura de la batería en la pantalla de bloqueo mientras se carga</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Sonido de captura de pantalla</string>
     <!-- Changelog -->
-    <string name="changelog_title">Historial de cambios</string>
-    <string name="changelog_summary">Desde la última actualización</string>
-    <string name="changelog_error">No se pudo cargar el historial de cambios</string>
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_error">Unable to load changelog</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">Estadísticas ArrowOS</string>
     <string name="arrow_stats_summary">Solo contabilizamos en cuántos dispositivos operamos</string>
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Localiza el sensor de huellas dactilares en la parte frontal del dispositivo.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Localiza el sensor de huellas dactilares en el lado izquierdo del dispositivo.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Localiza el sensor de huellas dactilares en el lado derecho del dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Localiza el lector de huellas digitales en la parte frontal de tu dispositivo.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Localiza el lector de huellas digitales en el lado izquierdo de tu dispositivo.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Localiza el lector de huellas digitales en el lado derecho de tu dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Localiza el lector de huellas digitales en la parte frontal de tu tableta.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Localiza el lector de huellas digitales en el lado izquierdo de tu tableta.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Localiza el lector de huellas digitales en el lado derecho de tu tableta.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Estilos de tema oscuro</string>
-    <string name="theme_customization_accent_color_title">Color principal</string>
-    <string name="theme_customization_font_title">Fuente de encabezado / cuerpo</string>
-    <string name="theme_customization_icon_shape_title">Forma de ícono</string>
+    <string name="theme_customization_systemui_title">Dark theme styles</string>
+    <string name="theme_customization_accent_color_title">Accent color</string>
+    <string name="theme_customization_font_title">Headline / Body font</string>
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
     <!-- SELinux status -->
-    <string name="selinux_status">Estado de SELinux</string>
-    <string name="selinux_status_disabled">Desabilitado</string>
-    <string name="selinux_status_permissive">Permisivo</string>
-    <string name="selinux_status_enforcing">Obligatorio</string>
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Indicadores de tráfico</string>
-    <string name="traffic_summary">Activar o desactivar indicadores de velocidad de red</string>
-    <string name="network_traffic_title">Tráfico de red</string>
-    <string name="network_traffic_type">Seleccionar tipo de actividad de red</string>
-    <string name="show_network_traffic_up">Subida</string>
-    <string name="show_network_traffic_down">Bajada</string>
-    <string name="show_network_traffic_all">Subida y Bajada</string>
-    <string name="network_traffic_state_title">Mostrar la actividad de la red en la barra de estado</string>
-    <string name="network_traffic_autohide_threshold_title">Umbral mínimo de red para autoocultarse (KB/s)</string>
-    <string name="network_traffic_hidearrow">Ocultar flechas</string>
-    <string name="network_traffic_hidearrow_summary">Ocultar las flechas indicadoras de tráfico</string>
+    <string name="traffic_title">Traffic indicators</string>
+    <string name="traffic_summary">Enable or disable network speed indicators</string>
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="network_traffic_type">Select net activity type</string>
+    <string name="show_network_traffic_up">Uplink</string>
+    <string name="show_network_traffic_down">Downlink</string>
+    <string name="show_network_traffic_all">Uplink and Downlink</string>
+    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
     <!--Double Tap to Sleep Statusbar-->
     <string name="statusbar_gestures_category_title">Gestos de la barra de estado</string>
     <string name="double_tap_sleep_gesture_title">Doble toque en la barra de estado para suspender</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_gestures_category_title">Gestos de la pantalla de bloqueo</string>
+    <string name="lockscreen_gestures_category_title">Lockscreen gestures</string>
     <string name="double_tap_sleep_lockscreen_title">Doble toque en la pantalla de bloqueo para apagar la pantalla</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">Gestos</string>
     <string name="gesture_settings_dashboard_summary">Administrar configuración de gestos</string>
-    <string name="custom_device_gestures_preference_title">Gestos específicos del dispositivo</string>
-    <string name="custom_device_gestures_preference_summary">El paquete de gestos específicos del dispositivo se muestra aquí</string>
+    <string name="custom_device_gestures_preference_title">Device specific gestures</string>
+    <string name="custom_device_gestures_preference_summary">Device specific gestures package is shown here</string>
     <!-- Global Actions -->
-    <string name="advanced_powermenu_category_title">Menú de apagado avanzado</string>
-    <string name="global_actions_title">Menú de apagado</string>
+    <string name="advanced_powermenu_category_title">Advanced power menu</string>
+    <string name="global_actions_title">Power menu</string>
     <string name="global_actions_summary">Seleccionar qué mostrar cuando se presiona el botón de apagado</string>
     <string name="global_actions_power">Apagar</string>
     <string name="global_actions_restart">Reiniciar</string>
@@ -105,42 +105,42 @@
     <string name="global_actions_advanced_reboot_title">Habilitar reinicio avanzado</string>
     <string name="global_actions_advanced_reboot_summary">Mostrar también las opciones para el modo de recuperación y el gestor de arranque al reiniciar</string>
     <!-- Fingerprint authentication vibration -->
-    <string name="fprint_sucess_vib_title">Vibrar con la autenticación de huella digital</string>
-    <string name="fprint_sucess_vib_summary">Vibrar cuando la autenticación con la huella es correcta</string>
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Desbloqueo por huella</string>
     <string name="fp_unlock_keystore_summary">Desbloquear con huella digital después de reiniciar el dispositivo sin PIN/Contraseña/Patrón\nNota: ¡bajo su propio riesgo!</string>
     <!-- Weather - OmniJaws Settings -->
-    <string name="weather_title">Clima</string>
-    <string name="weather_config_title">Ajustes del servicio</string>
+    <string name="weather_title">Weather</string>
+    <string name="weather_config_title">Service settings</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Estilo de clima</string>
-    <string name="lock_screen_weather_style_summaryOff">El clima se muestra por debajo de la línea de fecha con la ubicación</string>
-    <string name="lock_screen_weather_style_summaryOn">El clima se muestra por debajo de la línea de fecha sin la ubicación</string>
-    <string name="header_weather_title">Vista del clima en el encabezado</string>
-    <string name="header_weather_summary">Habilitar clima en la cabecera del panel de notificaciones</string>
-    <string name="weather_icon_pack_title">Paquete de iconos del clima</string>
-    <string name="weather_icon_pack_note">Nota\u003a puedes instalar nuevos paquetes de iconos desde la PlayStore buscando \"Chronus icons\"</string>
+    <string name="lock_screen_weather_style_title">Weather style</string>
+    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
+    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Ajustes de clima en la pantalla de bloqueo</string>
-    <string name="lockscreen_weather_summary">Mostrar clima y temperatura actual en la pantalla de bloqueo</string>
-    <string name="lockscreen_items_aod_info_title">La configuración de visibilidad también se aplica en la pantalla ambiente</string>
-    <string name="lockscreen_weather_show_city_title">Mostrar nombre de la ciudad</string>
-    <string name="lockscreen_weather_show_city_summary">Mostrar nombre de la ciudad actual a la izquierda de la imagen</string>
-    <string name="lockscreen_weather_show_temp_title">Mostrar temperatura</string>
-    <string name="lockscreen_weather_show_temp_summary">Mostrar la temperatura actual de la ciudad a la derecha de la imagen</string>
+    <string name="lockscreen_weather_title">Lockscreen weather</string>
+    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
+    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
+    <string name="lockscreen_weather_show_city_title">Show city name</string>
+    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
     <!-- Settings categories -->
     <string name="misc_category_title">Misceláneo</string>
-    <string name="buttons_category_title">Botones</string>
+    <string name="buttons_category_title">Buttons</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Disposición aleatoria</string>
-    <string name="unlock_scramble_pin_layout_summary">Disposición aleatorio de PIN al desbloquear el dispositivo</string>
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
-    <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente al introducir el PIN/contraseña correctos</string>
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Luz de batería cargando</string>
-    <string name="battery_light_summary">Activar o desactivar el indicador de carga en modo No Molestar, batería baja</string>
+    <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
     <string name="battery_light_enable">Indicador de carga</string>
     <string name="battery_light_allow_on_dnd_title">Indicador de carga en modo No Molestar</string>
     <string name="battery_light_low_blinking_title">LED intermitente con batería baja</string>
@@ -150,20 +150,20 @@
     <string name="battery_light_full_color">Carga casi completa</string>
     <string name="battery_light_reallyfull_color">Bateria llena (100%)</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Indicador de itinerancia</string>
-    <string name="roaming_indicator_icon_summary">Mostrar indicador de roaming en el ícono de señal cuando se esté en modo roaming</string>
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
     <!-- Sizes for pattern lockscreen -->
-    <string name="lock_settings_picker_pattern_size_message">Elije un tamaño de patrón</string>
+    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Mostrar patrón erróneo</string>
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Mostrar puntos del patrón</string>
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Vincular volumen de tono y notificaciones</string>
     <!-- Reset battery stats -->
-    <string name="battery_stats_reset">Resetear estadísticas</string>
-    <string name="battery_stats_message">Las estadísticas de la batería van a restablecerse</string>
-    <string name="ok_string">Aceptar</string>
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">Actividades</string>
     <string name="select_custom_app_title">Seleccionar aplicación personalizada</string>
@@ -185,115 +185,115 @@
     <string name="hardware_keys_single_tap_title">Acción de un toque</string>
     <string name="hardware_keys_long_press_title">Acción de pulsación larga</string>
     <string name="hardware_keys_double_tap_title">Acción de doble toque</string>
-    <string name="hard_soft_keys">Botones</string>
-    <string name="hard_soft_keys_summary">Personalizar botones del dispositivo</string>
-    <string name="navigation_keys">Activar barra de navegación</string>
-    <string name="navigation_keys_title">Barra de navegación en pantalla</string>
+    <string name="hard_soft_keys">Buttons</string>
+    <string name="hard_soft_keys_summary">Customise device buttons</string>
+    <string name="navigation_keys">Enable navigation bar</string>
+    <string name="navigation_keys_title">Onscreen navigation bar</string>
     <string name="hardware_keys_category">Botones de navegación físicos</string>
     <string name="hardware_keys_disable_title">Desactivar los botones físicos</string>
-    <string name="hardware_keys_wake_title">Despertar dispositivo</string>
+    <string name="hardware_keys_wake_title">Wake device</string>
     <!-- Settings categories -->
-    <string name="statusbar_category_title">Barra de estado</string>
+    <string name="statusbar_category_title">StatusBar</string>
     <!-- Button brightness -->
-    <string name="button_backlight_options_category">Ajustes de retroiluminación</string>
-    <string name="button_backlight_enable_title">Permitir retroiluminación de los botones</string>
-    <string name="button_link_brightness">Vincular al brillo de la pantalla</string>
-    <string name="button_link_brightness_summary">La retroiluminación de los botones se ajustara en función del brillo de la pantalla</string>
-    <string name="button_manual_brightness">Nivel de brillo</string>
-    <string name="button_timeout_title">Tiempo de espera de retroiluminación</string>
-    <string name="button_backlight_on_touch_only_title">Retroiluminación de los botones</string>
-    <string name="button_backlight_on_touch_only_summary">La retroiluminación de los botones solo se encenderá cuando los botones sean presionados en vez de continuamente. El \"periodo de retroiluminación\" sigue funcionando con esta característica.</string>
+    <string name="button_backlight_options_category">Backlight options</string>
+    <string name="button_backlight_enable_title">Allow button backlight</string>
+    <string name="button_link_brightness">Link to screen brightness</string>
+    <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
+    <string name="button_manual_brightness">Brightness level</string>
+    <string name="button_timeout_title">Backlight timeout</string>
+    <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
+    <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Control multimedia</string>
-    <string name="volume_button_music_control_summary">Cuando la pantalla esté apagada, una pulsación larga de los controles de volumen, avanzará o retrocederá las canciones</string>
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Despertar con botones de volumen</string>
-    <string name="volume_rocker_wake_summary">Encender el dispositivo presionando los botones de volumen</string>
+    <string name="volume_rocker_wake_title">Volume wake</string>
+    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
     <!-- Volume key rotation -->
-    <string name="swap_volume_buttons_title">Reorientar botones</string>
-    <string name="swap_volume_buttons_summary">Intercambiar los botones de volumen al rotar la pantalla</string>
+    <string name="swap_volume_buttons_title">Reorient</string>
+    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Permitir acceso a la red</string>
-    <string name="data_usage_app_restrict_all_summary">Habilitar uso de red</string>
-    <string name="data_usage_app_restrict_data">Datos móviles</string>
-    <string name="data_usage_app_restrict_data_summary">Habilitar el uso de datos móviles</string>
-    <string name="data_usage_app_restrict_vpn">Datos VPN</string>
-    <string name="data_usage_app_restrict_vpn_summary">Habilitar el uso de datos VPN</string>
-    <string name="data_usage_app_restrict_wifi">Datos Wi\u2011Fi</string>
-    <string name="data_usage_app_restrict_wifi_summary">Habilitar el uso de datos Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Elementos de la barra de estado</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Encender al enchufar</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Encender la pantalla al conectar o desconectar el cargador</string>
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
     <!-- Gesture Navigation -->
-    <string name="back_height_low_label">Toda</string>
-    <string name="back_height_high_label">Parte inferior</string>
-    <string name="back_options_dialog_title">Opciones</string>
-    <string name="back_height_message">Parte de la pantalla habilitada para volver atrás.</string>
-    <string name="app_package_name_title">Paquete</string>
-    <string name="app_version_title">Versión</string>
+    <string name="back_height_low_label">Full</string>
+    <string name="back_height_high_label">Bottom</string>
+    <string name="back_options_dialog_title">Options</string>
+    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="app_package_name_title">Package</string>
+    <string name="app_version_title">Version</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Toca para mostrar información</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Prevenir el encendido accidental de la pantalla</string>
     <string name="proximity_wake_summary">Comprobar el sensor de proximidad antes de encender la pantalla</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="navbar_gesture_mode_category_title">Retoques del modo de gestos</string>
-    <string name="navbar_gesture_mode_category_key">retoques_del_modo_de_gestos</string>
-    <string name="navbar_gesture_pill_toggle_title">Gestos a pantalla completa</string>
-    <string name="navbar_gesture_pill_toggle_summary">Esto ocultará tanto la barra de navegación como la píldora para una inadvertida experiencia de gestos a pantalla completa.</string>
-    <string name="navbar_gesture_pill_toggle_summary_disabled">¡Esta opción solo está disponible para la navegación por gestos!</string>
+    <string name="navbar_gesture_mode_category_title">Gesture mode tweaks</string>
+    <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
+    <string name="navbar_gesture_pill_toggle_title">Full screen gestures</string>
+    <string name="navbar_gesture_pill_toggle_summary">This will hide both the navigation bar and the pill for a seamless fullscreen gesture experience.</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">This option is only available for gesture navigation!</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Diseño invertido</string>
+    <string name="navbar_invert_layout_title">Invert layout</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activar la linterna</string>
-    <string name="double_tap_power_flashlight_title">Con la pantalla apagada el botón de encendido enciende la linterna</string>
-    <string name="torch_power_button_gesture_none">Deshabilitado</string>
-    <string name="torch_power_button_gesture_dt">Pulsar doblemente el botón de encendido para encender la linterna</string>
-    <string name="torch_power_button_gesture_lp">Pulsación larga del botón de encendido para encender la linterna</string>
+    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
+    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Temperatura de batería</string>
+    <string name="battery_temp_title">Battery temperature</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">Mostrar ajustes de recorte</string>
-    <string name="cutout_main_keywords">recorte de pantalla, muesca, ocultar muesca, ocultar</string>
-    <string name="cutout_main_summary">Realmente cortan esquinas con este</string>
-    <string name="display_cutout_style_title">Estilo de corte</string>
+    <string name="cutout_main">Display cutout settings</string>
+    <string name="cutout_main_keywords">display cutout, notch, hide notch, hide</string>
+    <string name="cutout_main_summary">They really cut corners with this one</string>
+    <string name="display_cutout_style_title">Cutout style</string>
     <string name="display_cutout_style_normal">Normal</string>
-    <string name="display_cutout_style_immerse">Inmersivo</string>
-    <string name="display_cutout_style_hide">Ocultar</string>
-    <string name="stock_statusbar_in_hide">Altura predeterminada de la barra de estado</string>
-    <string name="stock_statusbar_in_hide_summary">Usar altura predeterminada de la barra de estado en Ocultar</string>
+    <string name="display_cutout_style_immerse">Immerse</string>
+    <string name="display_cutout_style_hide">Hide</string>
+    <string name="stock_statusbar_in_hide">Stock statusbar height</string>
+    <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
     <!-- Navigation bar -->
-    <string name="navigation_bar_title">Barra de navegación</string>
-    <string name="navigation_bar_summary">Activar o desactivar la barra de navegación</string>
+    <string name="navigation_bar_title">Navigation bar</string>
+    <string name="navigation_bar_summary">Enable or disable navigation bar</string>
     <!-- Incall Home button behavior-->
-    <string name="allow_incall_home_title">Botón de inicio cuando esté sonando</string>
-    <string name="allow_incall_home_summary">Permitir usar el botón Inicio cuando el dispositivo está sonando</string>
+    <string name="allow_incall_home_title">Home button when ringing</string>
+    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Mostrar historial de notificaciones</string>
+    <string name="notification_log_summary">Show notifications history log</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Estilo del icono de la batería</string>
-    <string name="battery_style_summary">Personalizar iconos de batería, ocultar o mostrar porcentaje</string>
-    <string name="battery_percent_title">Porcentaje de batería en la barra de estado</string>
-    <string name="battery_style_category_title">Icono de batería</string>
-    <string name="status_bar_battery_style_title">Estilo de batería</string>
-    <string name="status_bar_battery_style_icon_portrait">Retrato de icono (por defecto)</string>
-    <string name="status_bar_battery_style_circle">Círculo</string>
-    <string name="status_bar_battery_style_dotted_circle">Círculo (Punteado)</string>
-    <string name="status_bar_battery_style_filled_circle">Círculo (Relleno)</string>
-    <string name="status_bar_battery_style_text">Texto</string>
-    <string name="status_bar_battery_style_hidden">Oculto</string>
-    <string name="status_bar_battery_percentage_title">Porcentaje de batería</string>
-    <string name="status_bar_battery_percentage_default">Oculto (por defecto)</string>
-    <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
-    <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
+    <string name="battery_style_title">Battery icon style</string>
+    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
+    <string name="battery_percent_title">Status bar battery percentage</string>
+    <string name="battery_style_category_title">Battery icon</string>
+    <string name="status_bar_battery_style_title">Battery style</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
+    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
+    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Auriculares guardados</string>
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
     <!-- Hotspot VPN -->
-    <string name="tethering_allow_vpn_upstreams_title">Permitir a los clientes usar VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permitir a los clientes de hotspot usar las conexiones VPN de este dispositivo\u2019 como conectividad de subida</string>
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
     <!-- Quick statusbar header battery percentage -->
-    <string name="qs_battery_percentage_title">Porcentaje de batería QS</string>
-    <string name="qs_battery_percentage_summary">Mostrar porcentaje de batería en la cabecera QS en lugar de estimar la batería</string>
+    <string name="qs_battery_percentage_title">QS battery percentage</string>
+    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
 </resources>

@@ -15,41 +15,41 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Arrow version preference -->
-    <string name="arrow_version">"ArrowOS version"</string>
+    <string name="arrow_version">"ArrowOS वर्शन"</string>
     <string name="build_date">"निर्माण दिनांक"</string>
     <string name="about_device_name">"डिवाइस (Automatic Translation)"</string>
     <string name="arrow_firmware_version">"Firmware Information"</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">बंद करें</string>
+    <string name="suggestion_button_close">Close</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">रंग चयन</string>
-    <string name="press_color_to_apply">लागू करने के लिए नीचे वाले रंग पर दबाएँ</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="hex">हेक्स:</string>
+    <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">स्थापित करे</string>
-    <string name="color_default">पूर्व निर्धारित</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">लॉकसक्रीन पर चार्जिंग की जानकारी</string>
-    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_summary">चार्ज करते समय चार्जिंग करंट, वोल्टेज, वाट क्षमता और बैटरी तापमान को लॉकस्क्रीन पर दिखाएँ</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">स्क्रीनशॉट ध्वनि</string>
     <!-- Changelog -->
-    <string name="changelog_title">चेंजलॉग</string>
+    <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Since the last update</string>
-    <string name="changelog_error">चैंजलोग लोड करने में असमर्थ</string>
+    <string name="changelog_error">Unable to load changelog</string>
     <!-- ArrowOS Installation Stats -->
-    <string name="arrow_stats_title">ArrowOS Stats</string>
-    <string name="arrow_stats_summary">Just counting how many devices we run on</string>
+    <string name="arrow_stats_title">ArrowOS आंकड़े</string>
+    <string name="arrow_stats_summary">बस डिवाइसेस की गिनती कर रहे जिन पर हम चलते हैं</string>
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">फोन के पर स्थित फिंगरप्रिंट सेंसर को पहचाने</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">फोन के पर स्थित फिंगरप्रिंट सेंसर को पहचाने</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">अपने फ़ोन के दाईं ओर फ़िंगरप्रिंट सेंसर का पता लगाएँ.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">फोन पर स्थित फिंगरप्रिंट सेंसर को पहचाने</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">फ़ोन के बाईं ओर फिंगरप्रिंट सेंसर खोजें</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">फ़ोन के दाईं ओर फिंगरप्रिंट सेंसर खोजें</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
     <!-- Fingerprint location message - tablet -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
@@ -58,26 +58,26 @@
     <string name="theme_customization_systemui_title">Dark theme styles</string>
     <string name="theme_customization_accent_color_title">Accent color</string>
     <string name="theme_customization_font_title">Headline / Body font</string>
-    <string name="theme_customization_icon_shape_title">आईकन का आकार</string>
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
     <!-- SELinux status -->
     <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">निष्क्रिय</string>
+    <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Network traffic -->
-    <string name="traffic_title">इंटरनेट ट्रैफिक सूचक</string>
+    <string name="traffic_title">Traffic indicators</string>
     <string name="traffic_summary">Enable or disable network speed indicators</string>
     <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">नेट गतिविधि प्रकार का चयन करें</string>
-    <string name="show_network_traffic_up">अपलोड</string>
-    <string name="show_network_traffic_down">डाउनलोड</string>
-    <string name="show_network_traffic_all">अपलोड और डाउनलोड</string>
-    <string name="network_traffic_state_title">स्टेटस बार में इंटरनेट गतिविधि दिखाएं</string>
-    <string name="network_traffic_autohide_threshold_title">नेट गतिविधि स्वतः छुपाने की सीमा (KB/s)</string>
+    <string name="network_traffic_type">Select net activity type</string>
+    <string name="show_network_traffic_up">Uplink</string>
+    <string name="show_network_traffic_down">Downlink</string>
+    <string name="show_network_traffic_all">Uplink and Downlink</string>
+    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
     <string name="network_traffic_hidearrow">Hide arrows</string>
     <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
     <!--Double Tap to Sleep Statusbar-->
-    <string name="statusbar_gestures_category_title">Statusbar gestures</string>
+    <string name="statusbar_gestures_category_title">स्टेटसबार जेस्चर</string>
     <string name="double_tap_sleep_gesture_title">स्क्रीन बंद करने के लिए स्टेटसबार पर डबल टैप करें</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_gestures_category_title">Lockscreen gestures</string>
@@ -89,7 +89,7 @@
     <string name="custom_device_gestures_preference_summary">Device specific gestures package is shown here</string>
     <!-- Global Actions -->
     <string name="advanced_powermenu_category_title">Advanced power menu</string>
-    <string name="global_actions_title">पावर मेन्यू</string>
+    <string name="global_actions_title">Power menu</string>
     <string name="global_actions_summary">Select what to show when you press the power button</string>
     <string name="global_actions_power">पावर</string>
     <string name="global_actions_restart">Restart</string>
@@ -127,42 +127,42 @@
     <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
     <string name="lockscreen_weather_show_city_title">Show city name</string>
     <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">तापमान दिखाएं|</string>
+    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
     <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
     <!-- Settings categories -->
     <string name="misc_category_title">विविध</string>
-    <string name="buttons_category_title">बटन</string>
+    <string name="buttons_category_title">Buttons</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">तुरन्त अनलॉक</string>
-    <string name="unlock_quick_unlock_control_summary">सही पिन/पासवर्ड दर्ज करने पर स्वतः खोले</string>
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Battery charging light</string>
+    <string name="battery_light_settings">बैटरी चार्जिंग प्रकाश</string>
     <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
-    <string name="battery_light_enable">Battery light</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
+    <string name="battery_light_enable">बैटरी प्रकाश</string>
+    <string name="battery_light_allow_on_dnd_title">डू नॉट डिस्टर्ब मोड में बैटरी प्रकाश</string>
+    <string name="battery_light_low_blinking_title">बैटरी कम होने पर झपकती रोशनी</string>
     <string name="battery_light_cat">चार्जिंग के समय बैटरी लाइट का रंग</string>
     <string name="battery_light_low_color">कम बैटरी</string>
     <string name="battery_light_medium_color">मध्यम बैटरी</string>
     <string name="battery_light_full_color">लगभग पुर्ण बैटरी</string>
     <string name="battery_light_reallyfull_color">पूर्ण (१००) बैटरी</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">रोमिंग सूचक</string>
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
     <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
     <!-- Sizes for pattern lockscreen -->
-    <string name="lock_settings_picker_pattern_size_message">पैटर्न का आकार चुने</string>
+    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">पैटर्न गलत होने पर एरर दिखाएँ</string>
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">पैटर्न बिंदु दिखाएँ</string>
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">रिंगटोन और नोटिफिकेशनस ध्वनि को जोड़ दें</string>
     <!-- Reset battery stats -->
-    <string name="battery_stats_reset">आँकड़े रीसेट करें</string>
-    <string name="battery_stats_message">बैटरी के इतिहास के आँकड़े रीसेट किये जाने वाले हैं</string>
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
     <string name="ok_string">Ok</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">गतिविधि</string>
@@ -177,20 +177,20 @@
     <string name="hardware_keys_home_key_title">होम बटन</string>
     <string name="hardware_keys_menu_key_title">मेन्यू बटन</string>
     <string name="hardware_keys_assist_key_title">खोज बटन</string>
-    <string name="hardware_keys_appswitch_key_title">Overview button</string>
-    <string name="hardware_keys_back_key_title">Back button</string>
-    <string name="hardware_keys_double_tap_summary">Set double tap action</string>
-    <string name="hardware_keys_single_tap_summary">Set single tap action</string>
-    <string name="hardware_keys_long_press_summary">Set long press action</string>
-    <string name="hardware_keys_single_tap_title">Single tap action</string>
-    <string name="hardware_keys_long_press_title">Long press action</string>
-    <string name="hardware_keys_double_tap_title">Double tap action</string>
+    <string name="hardware_keys_appswitch_key_title">अवलोकन बटन</string>
+    <string name="hardware_keys_back_key_title">बैक बटन</string>
+    <string name="hardware_keys_double_tap_summary">दो बार टैप क्रिया</string>
+    <string name="hardware_keys_single_tap_summary">एक बार टैप क्रिया</string>
+    <string name="hardware_keys_long_press_summary">लम्बा दबाने पर क्रिया</string>
+    <string name="hardware_keys_single_tap_title">एक बार टैप क्रिया</string>
+    <string name="hardware_keys_long_press_title">लंबा दबाने पर क्रिया</string>
+    <string name="hardware_keys_double_tap_title">दो बार टैप पर क्रिया</string>
     <string name="hard_soft_keys">Buttons</string>
     <string name="hard_soft_keys_summary">Customise device buttons</string>
     <string name="navigation_keys">Enable navigation bar</string>
     <string name="navigation_keys_title">Onscreen navigation bar</string>
-    <string name="hardware_keys_category">Hardware navigation buttons</string>
-    <string name="hardware_keys_disable_title">Disable hardware buttons</string>
+    <string name="hardware_keys_category">हार्डवेयर नेविगेशन बटन्स</string>
+    <string name="hardware_keys_disable_title">हार्डवेयर बटन्स बंद करें</string>
     <string name="hardware_keys_wake_title">Wake device</string>
     <!-- Settings categories -->
     <string name="statusbar_category_title">StatusBar</string>
@@ -215,14 +215,14 @@
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Allow network access</string>
     <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_data">सेल्युलर डेटा</string>
-    <string name="data_usage_app_restrict_data_summary">सेल्युलर डेटा के उपयोग को सक्षम करें</string>
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
     <string name="data_usage_app_restrict_vpn">VPN data</string>
     <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">वाईफाई डाटा</string>
-    <string name="data_usage_app_restrict_wifi_summary">वाईफाई डेटा के उपयोग को सक्षम करें</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">स्टेटसबार आइटम्स</string>
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
@@ -234,10 +234,10 @@
     <string name="app_package_name_title">Package</string>
     <string name="app_version_title">Version</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">जानकारी देखने के लिए दबाएं</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">ग़लती से स्क्रीन जागने को रोकें</string>
+    <string name="proximity_wake_summary">स्क्रीन जगाने से पहले निकटता सेंसर की जांच करें</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="navbar_gesture_mode_category_title">Gesture mode tweaks</string>
     <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
