@@ -22,14 +22,14 @@
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">Close</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Kleurkiezer</string>
-    <string name="press_color_to_apply">Druk op de kleur hieronder om toe te passen</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Instellen</string>
-    <string name="color_default">Standaard</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Oplaadinfo op vergrendelingsscherm</string>
     <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
@@ -43,9 +43,9 @@
     <string name="arrow_stats_title">ArrowOS-statistieken</string>
     <string name="arrow_stats_summary">Just counting how many devices we run on</string>
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Zoek de vingerafdruksensor aan de voorkant van je telefoon.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Zoek de vingerafdruksensor aan de linkerkant van je telefoon.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Zoek de vingerafdruksensor aan de rechterkant van je telefoon.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
     <!-- Fingerprint location message - generic -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
@@ -133,11 +133,11 @@
     <string name="misc_category_title">Misc</string>
     <string name="buttons_category_title">Buttons</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Lay-out husselen</string>
-    <string name="unlock_scramble_pin_layout_summary">PIN-lay-out husselen wanneer apparaat wordt ontgrendeld</string>
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Snelle ontgrendeling</string>
-    <string name="unlock_quick_unlock_control_summary">Automatisch ontgrendelen wanneer de/het juiste PIN/wachtwoord wordt ingevoerd</string>
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Battery charging light</string>
     <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
@@ -201,8 +201,8 @@
     <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
     <string name="button_manual_brightness">Brightness level</string>
     <string name="button_timeout_title">Backlight timeout</string>
-    <string name="button_backlight_on_touch_only_title">Knop achtergrondverlichting</string>
-    <string name="button_backlight_on_touch_only_summary">De knop achtergrondverlichting zal enkel verschijnen wanneer de knoppen zijn ingedrukt in plaats van de hele tijd. Time-out heeft nog steeds invloed op deze functie.</string>
+    <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
+    <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Playback control</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
@@ -215,12 +215,12 @@
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Allow network access</string>
     <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_data">Mobiele data</string>
-    <string name="data_usage_app_restrict_data_summary">Schakel gebruik van mobiele data in</string>
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
     <string name="data_usage_app_restrict_vpn">VPN data</string>
     <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi-data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Schakel gebruik van Wi\u2011Fi-data in</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
     <!-- Wake on plug -->

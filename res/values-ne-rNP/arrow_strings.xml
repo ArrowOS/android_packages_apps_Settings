@@ -131,7 +131,7 @@
     <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
     <!-- Settings categories -->
     <string name="misc_category_title">नेभिगेसन बार सुचारु गर्नुहोस</string>
-    <string name="buttons_category_title">बटनहरु</string>
+    <string name="buttons_category_title">Buttons</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
@@ -150,8 +150,8 @@
     <string name="battery_light_full_color">Almost full battery</string>
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">रोमिङ सूचक खुला</string>
-    <string name="roaming_indicator_icon_summary">रोमिङ सूचक आईकन रोमिङमा </string>
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
     <!-- Sizes for pattern lockscreen -->
     <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -163,7 +163,7 @@
     <!-- Reset battery stats -->
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
-    <string name="ok_string">ठिक छ</string>
+    <string name="ok_string">Ok</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">गतिविधिहरु</string>
     <string name="select_custom_app_title">कस्टम एप छान्नुहोस्|</string>

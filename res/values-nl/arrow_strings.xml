@@ -22,14 +22,14 @@
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">Close</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Kleurkiezer</string>
-    <string name="press_color_to_apply">Druk op de kleur hieronder om toe te passen</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Instellen</string>
-    <string name="color_default">Standaard</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Oplaad info op vergrendelscherm</string>
     <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
@@ -43,9 +43,9 @@
     <string name="arrow_stats_title">ArrowOS Statistieken</string>
     <string name="arrow_stats_summary">Just counting how many devices we run on</string>
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Zoek de vingerafdruksensor op de voorkant van je telefoon.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Zoek de vingerafdruksensor op de linker zijkant van je telefoon.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Zoek de vingerafdruksensor op de rechter zijkant van je telefoon.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
     <!-- Fingerprint location message - generic -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
@@ -131,13 +131,13 @@
     <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
     <!-- Settings categories -->
     <string name="misc_category_title">Diversen</string>
-    <string name="buttons_category_title">Knoppen</string>
+    <string name="buttons_category_title">Buttons</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Lay-out husselen</string>
-    <string name="unlock_scramble_pin_layout_summary">PIN-lay-out door elkaar husselen bij apparaat ontgrendelen</string>
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Snel ontgrendelen</string>
-    <string name="unlock_quick_unlock_control_summary">Ontgrendel automatisch wanneer de juiste pincode of wachtwoord is ingevoerd</string>
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Battery charging light</string>
     <string name="battery_light_summary">Enable or disable Battery light while on DND, low battery</string>
@@ -150,8 +150,8 @@
     <string name="battery_light_full_color">Almost full battery</string>
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Roaming Indicator</string>
-    <string name="roaming_indicator_icon_summary">Toon roaming indicator in het signaal pictogram wanneer het toestel aan het roamen is</string>
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Roaming indicator in signal icon when in roaming mode</string>
     <!-- Sizes for pattern lockscreen -->
     <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -191,36 +191,36 @@
     <string name="navigation_keys_title">Onscreen navigation bar</string>
     <string name="hardware_keys_category">Hardware navigatieknoppen</string>
     <string name="hardware_keys_disable_title">Hardware toetsen uitschakelen</string>
-    <string name="hardware_keys_wake_title">Apparaat ontwaken</string>
+    <string name="hardware_keys_wake_title">Wake device</string>
     <!-- Settings categories -->
     <string name="statusbar_category_title">StatusBar</string>
     <!-- Button brightness -->
-    <string name="button_backlight_options_category">Achtergrondverlichting opties</string>
-    <string name="button_backlight_enable_title">Achtergrondverlichting van knoppen toestaan</string>
-    <string name="button_link_brightness">Koppelen aan helderheid scherm</string>
-    <string name="button_link_brightness_summary">Achtergrondverlichting van knoppen zal aangepast worden aan de hand van de schermhelderheid</string>
-    <string name="button_manual_brightness">Helderheidsniveau</string>
-    <string name="button_timeout_title">Time-out achtergrondverlichting</string>
-    <string name="button_backlight_on_touch_only_title">Achtergrondverlichting van knoppen bij aanraken</string>
-    <string name="button_backlight_on_touch_only_summary">Achtergrondverlichting van knoppen alleen aan bij aanraken in plaats van altijd aan. Time-out heeft nog steeds invloed op deze functie.</string>
+    <string name="button_backlight_options_category">Backlight options</string>
+    <string name="button_backlight_enable_title">Allow button backlight</string>
+    <string name="button_link_brightness">Link to screen brightness</string>
+    <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
+    <string name="button_manual_brightness">Brightness level</string>
+    <string name="button_timeout_title">Backlight timeout</string>
+    <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
+    <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Afspeel controle</string>
-    <string name="volume_button_music_control_summary">Bij scherm uit, volumeknoppen indrukken om door muzieknummers te navigeren</string>
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Ontwaken met volumeknop</string>
-    <string name="volume_rocker_wake_summary">Apparaat ontwaken door indrukken volumeknop</string>
+    <string name="volume_rocker_wake_title">Volume wake</string>
+    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
     <!-- Volume key rotation -->
-    <string name="swap_volume_buttons_title">Heroriënteren</string>
-    <string name="swap_volume_buttons_summary">Volumeknoppen omdraaien indien het scherm gedraaid is</string>
+    <string name="swap_volume_buttons_title">Reorient</string>
+    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Allow network access</string>
     <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_data">Mobiele data</string>
-    <string name="data_usage_app_restrict_data_summary">Schakel het gebruik van mobiele data in</string>
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
     <string name="data_usage_app_restrict_vpn">VPN data</string>
     <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Schakel het gebruik van Wi\u2011Fi data in</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
     <!-- Wake on plug -->
