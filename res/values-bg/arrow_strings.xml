@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Arrow version preference -->
+    <string name="arrow_version">"Версия на ArrowOS"</string>
+    <string name="build_date">"Дата на изграждане"</string>
+    <string name="about_device_name">"Устройство"</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Tap to show info</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">Статистики на ArrowOS</string>
+    <string name="arrow_stats_summary">Just counting how many devices we run on</string>
+    <!--Double Tap to Sleep Statusbar-->
+    <string name="statusbar_gestures_category_title">Statusbar gestures</string>
+    <string name="double_tap_sleep_gesture_title">Докоснете два пъти, за да заспите в лентата на състоянието</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">What to do</string>
+    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Звук при снимка на екрана</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <!-- Themes customisation -->
+    <string name="theme_customization_systemui_title">Color bucket</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Информация за зареждането на заключен екран</string>
+    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Settings categories -->
+    <string name="misc_category_title">Разни</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbar items</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Customization</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">Светлина при зареждане на батерията</string>
+    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
+    <string name="battery_light_enable">Светлинна индикация на батерията</string>
+    <string name="battery_light_allow_on_dnd_title">Индикации в режим \"Не ме безпокойте\"</string>
+    <string name="battery_light_low_blinking_title">Мигаща светлина при изтощена батерия</string>
+    <string name="battery_light_cat">Цвят на светлинката при зареждане</string>
+    <string name="battery_light_low_color">Ниско ниво на батерия</string>
+    <string name="battery_light_medium_color">Средно ниво на батерия</string>
+    <string name="battery_light_full_color">Почти пълна батерия</string>
+    <string name="battery_light_reallyfull_color">Заредена (100) батерия</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Light color</string>
+    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
+    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <!-- Hardware button navigation -->
+    <string name="picker_activities">Дейности</string>
+    <string name="select_custom_app_title">Изберете персонализирано приложение</string>
+    <string name="select_custom_activity_title">Изберете персонализирана активност</string>
+    <string name="profile_applist_title">Приложения</string>
+    <string name="choose_action_title">Изберете действие</string>
+    <string name="action_entry_default_action">Стандартни настройки</string>
+    <string name="action_entry_select_app">Изберете приложение</string>
+    <string name="action_entry_custom_action">Избери персонализирана активност</string>
+    <string name="hardware_keys_volume_keys_title">Бутон за промяна на звука</string>
+    <string name="hardware_keys_home_key_title">Начален бутон</string>
+    <string name="hardware_keys_menu_key_title">Бутон за меню</string>
+    <string name="hardware_keys_assist_key_title">Бутон за търсене</string>
+    <string name="hardware_keys_appswitch_key_title">Бутон за изглед</string>
+    <string name="hardware_keys_back_key_title">Бутон \"Назад\"</string>
+    <string name="hardware_keys_double_tap_summary">Задай действие при двукратно натискане</string>
+    <string name="hardware_keys_single_tap_summary">Задай действие при еднократно натискане</string>
+    <string name="hardware_keys_long_press_summary">Задай дйствие при дълго натискане</string>
+    <string name="hardware_keys_single_tap_title">Действие при еднократно натискане</string>
+    <string name="hardware_keys_long_press_title">Действие при дълго натискане</string>
+    <string name="hardware_keys_double_tap_title">Действие при двукратно натискане</string>
+    <string name="hardware_keys">Buttons</string>
+    <string name="hardware_keys_summary">Customise hardware buttons</string>
+    <string name="navigation_keys">Navigation bar</string>
+    <string name="navigation_keys_summary">Customise on-screen navigation bar</string>
+    <string name="hardware_keys_category">Софтуерни бутони за навигиране</string>
+    <string name="hardware_keys_disable_title">Забраняване на хардуерни бутони</string>
+    <!-- Buttons backlight timeout -->
+    <string name="backlight_timeout_title">Buttons backlight timeout</string>
+    <string name="backlight_timeout_on">Enabled always</string>
+    <string name="backlight_timeout_3s">3 sec</string>
+    <string name="backlight_timeout_default">5 sec (default)</string>
+    <string name="backlight_timeout_10s">10 sec</string>
+    <string name="backlight_timeout_15s">15 sec</string>
+    <string name="backlight_timeout_20s">20 sec</string>
+    <string name="backlight_timeout_30s">30 sec</string>
+    <string name="button_title">Buttons</string>
+    <!-- Enable keys backlight-->
+    <string name="button_brightness_title">Backlight</string>
+    <string name="button_brightness_sw_title">Enable backlight</string>
+    <string name="button_backlight_on_touch_only_title">Button touch</string>
+    <string name="button_backlight_on_touch_only_summary">Enablebacklight with timeout only on button touch</string>
+    <!-- ANBI -->
+    <string name="anbi_title">Accidental touch</string>
+    <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
+    <!-- Global Actions -->
+    <string name="power_menu_customization_category_title">Power menu customization</string>
+    <string name="global_actions_title">Power menu actions</string>
+    <string name="global_actions_summary">Select what to show when you press the power button</string>
+    <string name="global_actions_power">Power</string>
+    <string name="global_actions_restart">Рестартиране</string>
+    <string name="global_actions_airplane">Самолетен режим</string>
+    <string name="global_actions_settings">Настройки</string>
+    <string name="global_actions_lockdown">Lock Down</string>
+    <string name="global_actions_soundpanel">Звуков панел</string>
+    <string name="global_actions_users">Потребители</string>
+    <string name="global_actions_screenshot">Екранна снимка</string>
+    <string name="global_actions_screenrecord">Screenrecord</string>
+    <string name="global_actions_flashlight">Фенерче</string>
+    <string name="global_actions_emergency">Извънредна ситуация</string>
+    <string name="global_actions_advanced_reboot_title">Включване на разширено рестартиране</string>
+    <string name="global_actions_advanced_reboot_summary">При рестартиране също се показват опции за възстановяване и зареждачка за операционни системи</string>
+    <string name="global_actions_max_columns_title">Max actions to show</string>
+    <string name="global_actions_max_columns_summary">Set how many actions to show before buttons move to overflow menu</string>
+    <!-- Settings dashboard gestures -->
+    <string name="gesture_settings_dashboard_title">Жестове</string>
+    <string name="gesture_settings_dashboard_summary">Управление на настройките за жестове</string>
+    <string name="custom_device_gestures_preference_title">Device gestures</string>
+    <!-- Heads up -->
+    <string name="heads_up_notifications">Heads up</string>
+    <string name="heads_up_notifications_summary">Control heads up behaviour</string>
+    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
+    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
+    <string name="add_heads_up_package">Add app</string>
+    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
+    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
+    <string name="heads_up_stoplist_title">Stoplist</string>
+    <string name="heads_up_blacklist_title">Blacklist</string>
+    <string name="profile_choose_app">Choose app</string>
+    <string name="dialog_delete_title">Delete</string>
+    <string name="dialog_delete_message">Remove selected item?</string>
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Отключване с пръстов отпечатък</string>
+    <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+    <!-- Volume panel on left switch -->
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <!-- Density options -->
+    <string name="density_category">Density options</string>
+    <!-- Navbar length -->
+    <string name="navbar_length">Gesture bar length</string>
+    <string name="hidden_label">Hidden</string>
+    <string name="long_label">Long</string>
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Display media cover art</string>
+    <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+    <!-- Network traffic -->
+    <string name="traffic_title">Traffic indicators</string>
+    <string name="traffic_summary">Enable or disable network speed indicators</string>
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="network_traffic_type">Select net activity type</string>
+    <string name="show_network_traffic_up">Uplink</string>
+    <string name="show_network_traffic_down">Downlink</string>
+    <string name="show_network_traffic_all">Uplink and Downlink</string>
+    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <!-- Weather - OmniJaws Settings -->
+    <string name="weather_title">Weather</string>
+    <string name="weather_config_title">Service settings</string>
+    <string name="weather_config_summary"></string>
+    <string name="lock_screen_weather_style_title">Weather style</string>
+    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
+    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <!-- Lockscreen weather settings -->
+    <string name="lockscreen_weather_title">Lockscreen weather</string>
+    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
+    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
+    <string name="lockscreen_weather_show_city_title">Show city name</string>
+    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">FOD recognizing animation</string>
+    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
+    <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
+    <string name="fod_recog_animation_miui_normal">MIUI default</string>
+    <string name="fod_recog_animation_miui_aod">AOD</string>
+    <string name="fod_recog_animation_miui_light">Light</string>
+    <string name="fod_recog_animation_miui_pop">Pop</string>
+    <string name="fod_recog_animation_miui_pulse">Pulse</string>
+    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
+    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
+    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
+    <string name="fod_recog_animation_op_mclaren">McLaren</string>
+    <string name="fod_recog_animation_op_stripe">Stripe</string>
+    <string name="fod_recog_animation_op_wave">Wave</string>
+    <string name="fod_recog_animation_pureview_dna">DNA</string>
+    <string name="fod_recog_animation_pureview_future">Future</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
+    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+</resources>
