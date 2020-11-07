@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Arrow version preference -->
+    <string name="arrow_version">"ArrowOS 버전"</string>
+    <string name="build_date">"빌드 날짜"</string>
+    <string name="about_device_name">"장치"</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Tap to show info</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">ArrowOS 통계</string>
+    <string name="arrow_stats_summary">Just counting how many devices we run on</string>
+    <!--Double Tap to Sleep Statusbar-->
+    <string name="statusbar_gestures_category_title">Statusbar gestures</string>
+    <string name="double_tap_sleep_gesture_title">상태 표시줄을에서 2 번 두드려 화면 끄기</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">What to do</string>
+    <string name="double_tap_sleep_lockscreen_title">잠금 화면에서 2 번 두드려 화면 끄기</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">스크린샷 음향</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">벨소리 볼륨과 알림 볼륨 연결</string>
+    <!-- Themes customisation -->
+    <string name="theme_customization_systemui_title">Color bucket</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">잠금 화면에 충전 정보 표시</string>
+    <string name="lockscreen_battery_info_summary">충전 중 잠금 화면에 현재 충전 전압과 배터리 온도를 표시합니다.</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Settings categories -->
+    <string name="misc_category_title">기타</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">상태 표시줄 항목</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Customization</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">배터리 충전 중 표시등 색상</string>
+    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
+    <string name="battery_light_enable">배터리 표시등</string>
+    <string name="battery_light_allow_on_dnd_title">방해 금지 모드에서 배터리 표시등 설정</string>
+    <string name="battery_light_low_blinking_title">배터리 부족시 표시등 깜박임</string>
+    <string name="battery_light_cat">충전시 배터리 표시등 생삭</string>
+    <string name="battery_light_low_color">배터리 부족</string>
+    <string name="battery_light_medium_color">배터리 보통</string>
+    <string name="battery_light_full_color">거의 충전됨</string>
+    <string name="battery_light_reallyfull_color">충전 (100%) 완료</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">실수로 화면 켜기 방지</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Light color</string>
+    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
+    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <!-- Hardware button navigation -->
+    <string name="picker_activities">활동</string>
+    <string name="select_custom_app_title">사용자 정의 앱 선택</string>
+    <string name="select_custom_activity_title">사용자 지정 활동 선택</string>
+    <string name="profile_applist_title">어플리케이션</string>
+    <string name="choose_action_title">작업 선택</string>
+    <string name="action_entry_default_action">기본 시용 설정</string>
+    <string name="action_entry_select_app">어플리케이션 지정</string>
+    <string name="action_entry_custom_action">사용자 지정 작업 선택</string>
+    <string name="hardware_keys_volume_keys_title">볼륨 버튼</string>
+    <string name="hardware_keys_home_key_title">홈 버튼</string>
+    <string name="hardware_keys_menu_key_title">메뉴 버튼</string>
+    <string name="hardware_keys_assist_key_title">검색 버튼</string>
+    <string name="hardware_keys_appswitch_key_title">최근 앱 목록 버튼</string>
+    <string name="hardware_keys_back_key_title">뒤로 가기 버튼</string>
+    <string name="hardware_keys_double_tap_summary">2 번 누를 때 동작 설정</string>
+    <string name="hardware_keys_single_tap_summary">1 번 누를 때 동작 설정</string>
+    <string name="hardware_keys_long_press_summary">길게 누를 때 동작 설정</string>
+    <string name="hardware_keys_single_tap_title">1 번 누를 때 동작</string>
+    <string name="hardware_keys_long_press_title">길게 누를 때 동작</string>
+    <string name="hardware_keys_double_tap_title">2 번 누를 때 동작</string>
+    <string name="hardware_keys">Buttons</string>
+    <string name="hardware_keys_summary">Customise hardware buttons</string>
+    <string name="navigation_keys">Navigation bar</string>
+    <string name="navigation_keys_summary">Customise on-screen navigation bar</string>
+    <string name="hardware_keys_category">하드웨어 내비게이션 버튼</string>
+    <string name="hardware_keys_disable_title">하드웨어 버튼 비활성화</string>
+    <!-- Buttons backlight timeout -->
+    <string name="backlight_timeout_title">Buttons backlight timeout</string>
+    <string name="backlight_timeout_on">Enabled always</string>
+    <string name="backlight_timeout_3s">3 sec</string>
+    <string name="backlight_timeout_default">5 sec (default)</string>
+    <string name="backlight_timeout_10s">10 sec</string>
+    <string name="backlight_timeout_15s">15 sec</string>
+    <string name="backlight_timeout_20s">20 sec</string>
+    <string name="backlight_timeout_30s">30 sec</string>
+    <string name="button_title">Buttons</string>
+    <!-- Enable keys backlight-->
+    <string name="button_brightness_title">Backlight</string>
+    <string name="button_brightness_sw_title">Enable backlight</string>
+    <string name="button_backlight_on_touch_only_title">Button touch</string>
+    <string name="button_backlight_on_touch_only_summary">Enablebacklight with timeout only on button touch</string>
+    <!-- ANBI -->
+    <string name="anbi_title">Accidental touch</string>
+    <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
+    <!-- Global Actions -->
+    <string name="power_menu_customization_category_title">Power menu customization</string>
+    <string name="global_actions_title">Power menu actions</string>
+    <string name="global_actions_summary">전원 단추를 누를 때 표시 할 항목 선택</string>
+    <string name="global_actions_power">전원</string>
+    <string name="global_actions_restart">다시 시작</string>
+    <string name="global_actions_airplane">비행기 모드</string>
+    <string name="global_actions_settings">설정</string>
+    <string name="global_actions_lockdown">잠금</string>
+    <string name="global_actions_soundpanel">Sound Panel</string>
+    <string name="global_actions_users">사용자</string>
+    <string name="global_actions_screenshot">스크린샷</string>
+    <string name="global_actions_screenrecord">Screenrecord</string>
+    <string name="global_actions_flashlight">손전등</string>
+    <string name="global_actions_emergency">Emergency</string>
+    <string name="global_actions_advanced_reboot_title">고급 다시 시작 사용</string>
+    <string name="global_actions_advanced_reboot_summary">다시 시작할 때 복구 및 부트 로더 옵션 표시 합니다.</string>
+    <string name="global_actions_max_columns_title">Max actions to show</string>
+    <string name="global_actions_max_columns_summary">Set how many actions to show before buttons move to overflow menu</string>
+    <!-- Settings dashboard gestures -->
+    <string name="gesture_settings_dashboard_title">제스처</string>
+    <string name="gesture_settings_dashboard_summary">제스쳐 설정</string>
+    <string name="custom_device_gestures_preference_title">Device gestures</string>
+    <!-- Heads up -->
+    <string name="heads_up_notifications">Heads up</string>
+    <string name="heads_up_notifications_summary">Control heads up behaviour</string>
+    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
+    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
+    <string name="add_heads_up_package">Add app</string>
+    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
+    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
+    <string name="heads_up_stoplist_title">Stoplist</string>
+    <string name="heads_up_blacklist_title">Blacklist</string>
+    <string name="profile_choose_app">Choose app</string>
+    <string name="dialog_delete_title">Delete</string>
+    <string name="dialog_delete_message">Remove selected item?</string>
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">지문 인식 잠금 해제</string>
+    <string name="fp_unlock_keystore_summary">기기를 재시작 한 이후 PIN/비밀번호/패턴을 입력하지 않고 지문으로 잠금을 해제합니다.\n주의: 모든 책임은 사용자에게 있습니다!</string>
+    <!-- Volume panel on left switch -->
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <!-- Density options -->
+    <string name="density_category">Density options</string>
+    <!-- Navbar length -->
+    <string name="navbar_length">Gesture bar length</string>
+    <string name="hidden_label">Hidden</string>
+    <string name="long_label">Long</string>
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Display media cover art</string>
+    <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+    <!-- Network traffic -->
+    <string name="traffic_title">Traffic indicators</string>
+    <string name="traffic_summary">Enable or disable network speed indicators</string>
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="network_traffic_type">Select net activity type</string>
+    <string name="show_network_traffic_up">Uplink</string>
+    <string name="show_network_traffic_down">Downlink</string>
+    <string name="show_network_traffic_all">Uplink and Downlink</string>
+    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <!-- Weather - OmniJaws Settings -->
+    <string name="weather_title">Weather</string>
+    <string name="weather_config_title">Service settings</string>
+    <string name="weather_config_summary"></string>
+    <string name="lock_screen_weather_style_title">Weather style</string>
+    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
+    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <!-- Lockscreen weather settings -->
+    <string name="lockscreen_weather_title">Lockscreen weather</string>
+    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
+    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
+    <string name="lockscreen_weather_show_city_title">Show city name</string>
+    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">FOD recognizing animation</string>
+    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
+    <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
+    <string name="fod_recog_animation_miui_normal">MIUI default</string>
+    <string name="fod_recog_animation_miui_aod">AOD</string>
+    <string name="fod_recog_animation_miui_light">Light</string>
+    <string name="fod_recog_animation_miui_pop">Pop</string>
+    <string name="fod_recog_animation_miui_pulse">Pulse</string>
+    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
+    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
+    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
+    <string name="fod_recog_animation_op_mclaren">McLaren</string>
+    <string name="fod_recog_animation_op_stripe">Stripe</string>
+    <string name="fod_recog_animation_op_wave">Wave</string>
+    <string name="fod_recog_animation_pureview_dna">DNA</string>
+    <string name="fod_recog_animation_pureview_future">Future</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
+    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+</resources>
