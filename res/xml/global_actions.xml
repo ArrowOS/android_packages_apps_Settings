@@ -41,10 +41,10 @@
         android:title="@string/global_actions_lockdown"
         android:defaultValue="false" />
 
-    <com.arrow.support.preferences.SystemSettingSwitchPreference
+    <!--<com.arrow.support.preferences.SystemSettingSwitchPreference
         android:key="global_actions_flashlight"
         android:title="@string/global_actions_flashlight"
-        android:defaultValue="false" />
+        android:defaultValue="false" />-->
 
     <com.arrow.support.preferences.SystemSettingSwitchPreference
         android:key="global_actions_users"
