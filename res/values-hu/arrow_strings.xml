@@ -27,28 +27,28 @@
     <string name="statusbar_gestures_category_title">Állapotsor mozdulatok</string>
     <string name="double_tap_sleep_gesture_title">Dupla érintésre alvómód az állapotsoron</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">What to do</string>
+    <string name="lockscreen_tweaks_category_title">Mit csinálunk</string>
     <string name="double_tap_sleep_lockscreen_title">Dupla érintésre alvómód a záróképernyőn</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Képernyőmentés hang</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Csengő és értesítési hangok összekapcsolása</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Color bucket</string>
+    <string name="theme_customization_systemui_title">Színválasztó</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Töltés kijelzése képernyőzáron</string>
     <string name="lockscreen_battery_info_summary">Töltés közbeni töltőáram, feszültség és az akkumulátor hőmérsékletének megjelenítése a zárképernyőn</string>
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+    <string name="app_play_store">Google Play Áruház</string>
     <!-- Settings categories -->
     <string name="misc_category_title">Egyéb</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Állapotsori elemek</string>
     <!-- Display customization category -->
-    <string name="customization_category_title">Customization</string>
+    <string name="customization_category_title">Testreszabás</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Akkumulátor töltés jelzőfény</string>
-    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
+    <string name="battery_light_summary">Töltésjelző viselkedése Ne zavarjanak módban</string>
     <string name="battery_light_enable">Akkumulátor jelző fény</string>
     <string name="battery_light_allow_on_dnd_title">Akkumulátor fény a Ne zavarj módban</string>
     <string name="battery_light_low_blinking_title">Alacsony akkumulátorszintnél villogó fényjelzés</string>
@@ -61,9 +61,9 @@
     <string name="proximity_wake_title">Véletlen ébresztés megakadályozása</string>
     <string name="proximity_wake_summary">Közelség érzékelő ellenőrzése a képernyő felébresztése előtt</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <string name="custom_light_title">Fény színe</string>
+    <string name="custom_light_on_time_title">Fény bekapcsolt állapotának ideje villogás közben (ms)</string>
+    <string name="custom_light_off_time_title">A kikapcsolt fény állapotának ideje villogás közben (ms)</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">Tevékenységek</string>
     <string name="select_custom_app_title">Válasszon egyedi alkalmazást</string>
@@ -85,33 +85,33 @@
     <string name="hardware_keys_single_tap_title">Egyszerű érintési művelet</string>
     <string name="hardware_keys_long_press_title">Hosszú érintési művelete</string>
     <string name="hardware_keys_double_tap_title">Dupla érintés eseménye</string>
-    <string name="hardware_keys">Buttons</string>
-    <string name="hardware_keys_summary">Customise hardware buttons</string>
-    <string name="navigation_keys">Navigation bar</string>
-    <string name="navigation_keys_summary">Customise on-screen navigation bar</string>
+    <string name="hardware_keys">Gombok</string>
+    <string name="hardware_keys_summary">Eszköz gombjainak testreszabása</string>
+    <string name="navigation_keys">Navigációs sáv</string>
+    <string name="navigation_keys_summary">A képernyőn megjelenő navigációs sáv beállítása</string>
     <string name="hardware_keys_category">Hardveres navigációs gombok</string>
     <string name="hardware_keys_disable_title">Hardveres gombok kikapcsolása</string>
     <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Buttons backlight timeout</string>
-    <string name="backlight_timeout_on">Enabled always</string>
-    <string name="backlight_timeout_3s">3 sec</string>
-    <string name="backlight_timeout_default">5 sec (default)</string>
-    <string name="backlight_timeout_10s">10 sec</string>
-    <string name="backlight_timeout_15s">15 sec</string>
-    <string name="backlight_timeout_20s">20 sec</string>
-    <string name="backlight_timeout_30s">30 sec</string>
-    <string name="button_title">Buttons</string>
+    <string name="backlight_timeout_title">Gombok háttérvilágításának ideje</string>
+    <string name="backlight_timeout_on">Mindig engedélyezve</string>
+    <string name="backlight_timeout_3s">3 mp</string>
+    <string name="backlight_timeout_default">5 mp (alapértelmezett)</string>
+    <string name="backlight_timeout_10s">10 mp</string>
+    <string name="backlight_timeout_15s">15 mp</string>
+    <string name="backlight_timeout_20s">20 mp</string>
+    <string name="backlight_timeout_30s">30 mp</string>
+    <string name="button_title">Gombok</string>
     <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Backlight</string>
-    <string name="button_brightness_sw_title">Enable backlight</string>
-    <string name="button_backlight_on_touch_only_title">Button touch</string>
-    <string name="button_backlight_on_touch_only_summary">Enablebacklight with timeout only on button touch</string>
+    <string name="button_brightness_title">Háttérvilágítás</string>
+    <string name="button_brightness_sw_title">Háttérvilágítás engedélyezése</string>
+    <string name="button_backlight_on_touch_only_title">Gomb érintése</string>
+    <string name="button_backlight_on_touch_only_summary">Csak a gombok érintésekor kapcsolja be a háttérvilágítást</string>
     <!-- ANBI -->
-    <string name="anbi_title">Accidental touch</string>
-    <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
+    <string name="anbi_title">Véletlen érintés</string>
+    <string name="anbi_summary">A képernyő megérintése közben megakadályozza a navigációs gombokkal való akaratlan érintkezést</string>
     <!-- Global Actions -->
-    <string name="power_menu_customization_category_title">Power menu customization</string>
-    <string name="global_actions_title">Power menu actions</string>
+    <string name="power_menu_customization_category_title">Kikapcsolási menü beállítás</string>
+    <string name="global_actions_title">Kikapcsolási-menüfunkciók</string>
     <string name="global_actions_summary">Válassza ki mi jelenjen meg, amikor megnyomja a bekapcsológombot</string>
     <string name="global_actions_power">Kikapcsolás</string>
     <string name="global_actions_restart">Újraindítás</string>
@@ -121,93 +121,104 @@
     <string name="global_actions_soundpanel">Hangpanel</string>
     <string name="global_actions_users">Felhasználók</string>
     <string name="global_actions_screenshot">Képernyőkép</string>
-    <string name="global_actions_screenrecord">Screenrecord</string>
+    <string name="global_actions_screenrecord">Képernyőrögzítés</string>
     <string name="global_actions_flashlight">Zseblámpa</string>
     <string name="global_actions_emergency">Vészhelyzet</string>
     <string name="global_actions_advanced_reboot_title">A Speciális újraindítás engedélyezése</string>
     <string name="global_actions_advanced_reboot_summary">Újraindításkor szintén megjeleníti a recoverybe és bootloaderbe indítás lehetőségét is</string>
-    <string name="global_actions_max_columns_title">Max actions to show</string>
-    <string name="global_actions_max_columns_summary">Set how many actions to show before buttons move to overflow menu</string>
+    <string name="global_actions_max_columns_title">Maximális elemek száma</string>
+    <string name="global_actions_max_columns_summary">Állítsa be, hogy hány elemet jelenítsen meg, mielőtt a gombok a következő menübe kerülnek</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">Mozdulatok</string>
     <string name="gesture_settings_dashboard_summary">Mozdulatok beállítása</string>
-    <string name="custom_device_gestures_preference_title">Device gestures</string>
+    <string name="custom_device_gestures_preference_title">Készülékvezérlő-mozdulatok</string>
     <!-- Heads up -->
-    <string name="heads_up_notifications">Heads up</string>
-    <string name="heads_up_notifications_summary">Control heads up behaviour</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="heads_up_notifications">Lebegő értesítés</string>
+    <string name="heads_up_notifications_summary">Lebegő értesítés ellenőrzése</string>
+    <string name="summary_heads_up_enabled">Lebegő értesítések engedélyezve</string>
+    <string name="summary_heads_up_disabled">Lebegő értesítések letiltva</string>
+    <string name="add_heads_up_package">Alkalmazás hozzáadása</string>
+    <string name="add_heads_up_stoplist_summary">A Lebegő értesítések letiltása ezeknél az alkalmazásoknál</string>
+    <string name="add_heads_up_blacklist_summary">Lebegő értesítések letiltása ezekben az alkalmazásokban</string>
+    <string name="heads_up_stoplist_title">Leállítottak listája</string>
+    <string name="heads_up_blacklist_title">Tiltólista</string>
+    <string name="profile_choose_app">Alkalmazás kiválasztása</string>
+    <string name="dialog_delete_title">Törlés</string>
+    <string name="dialog_delete_message">Törli a kiválasztott elemeket?</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Feloldás ujjlenyomattal</string>
     <string name="fp_unlock_keystore_summary">Készülék feloldása ujjlenyomattal újraindítás után PIN/Jelszó/Minta nélkül\nMegjegyzés: csak saját felelősségre!</string>
     <!-- Volume panel on left switch -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_title">Hangerőpanel a bal oldalon</string>
     <!-- Density options -->
-    <string name="density_category">Density options</string>
+    <string name="density_category">Képpont sűrűség beállítások</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Gesture bar length</string>
-    <string name="hidden_label">Hidden</string>
-    <string name="long_label">Long</string>
+    <string name="navbar_length">Mozdulatmező hossza</string>
+    <string name="hidden_label">Rejtett</string>
+    <string name="long_label">Hosszú</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
-    <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+    <string name="lockscreen_media_art_title">Médiaborító megjelenítése</string>
+    <string name="lockscreen_media_art_summary">Médiaborító megjelenítése a lezárási képernyőn</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_summary">Enable or disable network speed indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="traffic_title">Hálózatiforgalom-kijelzők</string>
+    <string name="traffic_summary">Hálózati forgalmat jelző nyilak megjelenítése vagy elrejtése</string>
+    <string name="network_traffic_title">Hálózati forgalom</string>
+    <string name="network_traffic_type">Hálózati aktivitástípus kiválasztása</string>
+    <string name="show_network_traffic_up">Feltöltés</string>
+    <string name="show_network_traffic_down">Letöltés</string>
+    <string name="show_network_traffic_all">Feltöltés és Letöltés</string>
+    <string name="network_traffic_state_title">Hálózati tevékenység megjelenítése az állapotsoron</string>
+    <string name="network_traffic_autohide_threshold_title">Hálózati forgalom automatikus elrejtésének a határértéke (KB/s)</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">Képernyőkép csúsztatással</string>
+    <string name="three_finger_gesture_summary">Képernyőmentés készítéséhez húzza egyszerre három ujját lefelé a képernyőn</string>
     <!-- Weather - OmniJaws Settings -->
-    <string name="weather_title">Weather</string>
-    <string name="weather_config_title">Service settings</string>
+    <string name="weather_title">Időjárás</string>
+    <string name="weather_config_title">Szolgáltatás beállítások</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Weather style</string>
-    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
-    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="lock_screen_weather_style_title">Időjárás stílusa</string>
+    <string name="lock_screen_weather_style_summaryOff">Az Időjárás a tartózkodási hellyel együtt a dátum sora alatt látható</string>
+    <string name="lock_screen_weather_style_summaryOn">Az Időjárás a tartózkodási hely nélkül a dátum sorában látható</string>
+    <string name="header_weather_title">Időjárás fejléc nézet</string>
+    <string name="header_weather_summary">Engedélyezi az időjárás megjelenítését az értesítési panelen</string>
+    <string name="weather_icon_pack_title">Időjárás-állapot ikoncsomag</string>
+    <string name="weather_icon_pack_note">Megjegyzés: \u003a új ikoncsomagok telepíthetőek a Google Play áruházban a \"Chronus ikons\" ra való kereséssel</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Lockscreen weather</string>
-    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
-    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
-    <string name="lockscreen_weather_show_city_title">Show city name</string>
-    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_title">Zárképernyő időjárás</string>
+    <string name="lockscreen_weather_summary">Az aktuális időjárási és hőmérséklet megjelenítése a zárképernyőn</string>
+    <string name="lockscreen_items_aod_info_title">Ez a láthatósági beállítás a környezeti kijelzőre is vonatkozik</string>
+    <string name="lockscreen_weather_show_city_title">Város nevének mutatása</string>
+    <string name="lockscreen_weather_show_city_summary">Az aktuális város nevének megjelenítése a kép bal oldalán</string>
+    <string name="lockscreen_weather_show_temp_title">Hőmérséklet megjelenítése</string>
+    <string name="lockscreen_weather_show_temp_summary">Az aktuális város hőmérsékletének megjelenítése a kép jobb oldalán</string>
     <!-- FOD animations -->
-    <string name="fod_recog_animation">FOD recognizing animation</string>
-    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
-    <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
-    <string name="fod_recog_animation_miui_normal">MIUI default</string>
-    <string name="fod_recog_animation_miui_aod">AOD</string>
-    <string name="fod_recog_animation_miui_light">Light</string>
-    <string name="fod_recog_animation_miui_pop">Pop</string>
-    <string name="fod_recog_animation_miui_pulse">Pulse</string>
-    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
-    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
-    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
+    <string name="fod_recog_animation">Ujjlenyomat-felismerési animáció</string>
+    <string name="fod_recog_animation_summary">Ujjlenyomat-felismeréskor jelenítsen meg animációt</string>
+    <string name="fod_recog_animation_effect_title">Felismerési animáció</string>
+    <string name="fod_recog_animation_miui_normal">MIUI alapértelmezett</string>
+    <string name="fod_recog_animation_miui_aod">Mindig bekapcsolt kijelző (AOD)</string>
+    <string name="fod_recog_animation_miui_light">Világos</string>
+    <string name="fod_recog_animation_miui_pop">Felugró</string>
+    <string name="fod_recog_animation_miui_pulse">Pulzáló</string>
+    <string name="fod_recog_animation_miui_pulse_white">Pulzáló (fehér)</string>
+    <string name="fod_recog_animation_miui_rhythm">Ritmus</string>
+    <string name="fod_recog_animation_op_cosmos">Kozmosz</string>
     <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_stripe">Stripe</string>
-    <string name="fod_recog_animation_op_wave">Wave</string>
-    <string name="fod_recog_animation_pureview_dna">DNA</string>
-    <string name="fod_recog_animation_pureview_future">Future</string>
+    <string name="fod_recog_animation_op_stripe">Csík</string>
+    <string name="fod_recog_animation_op_wave">Hullám</string>
+    <string name="fod_recog_animation_pureview_dna">DNS</string>
+    <string name="fod_recog_animation_pureview_future">Jövő</string>
     <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
-    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_pureview_molecular">Molekuláris</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total RAM</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Volume wake</string>
+    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
 </resources>

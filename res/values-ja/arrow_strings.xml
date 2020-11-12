@@ -27,14 +27,14 @@
     <string name="statusbar_gestures_category_title">ステータスバーのジェスチャー</string>
     <string name="double_tap_sleep_gesture_title">ダブルタップでスリープ</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">What to do</string>
+    <string name="lockscreen_tweaks_category_title">予定</string>
     <string name="double_tap_sleep_lockscreen_title">ダブルタップでスリープ</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">スクリーンショットの音</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">着信と通知の音量をリンク</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Color bucket</string>
+    <string name="theme_customization_systemui_title">色のバケツ</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">ロック画面での充電情報</string>
     <string name="lockscreen_battery_info_summary">充電中のロック画面に接続した充電器の情報を表示する</string>
@@ -45,10 +45,10 @@
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">ステータスバーのアイコン</string>
     <!-- Display customization category -->
-    <string name="customization_category_title">Customization</string>
+    <string name="customization_category_title">カスタマイズ</string>
     <!-- Battery light -->
     <string name="battery_light_settings">バッテリーライト</string>
-    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
+    <string name="battery_light_summary">サイレント時と電池残量が少ない時のバッテリーライトの動作</string>
     <string name="battery_light_enable">バッテリーライト</string>
     <string name="battery_light_allow_on_dnd_title">マナーモード中のライト</string>
     <string name="battery_light_low_blinking_title">残量低下時の点滅</string>
@@ -61,9 +61,9 @@
     <string name="proximity_wake_title">偶発的なスリープ解除を防止</string>
     <string name="proximity_wake_summary">スリープ解除する前に接近センサーで確認する</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <string name="custom_light_title">ライトカラー</string>
+    <string name="custom_light_on_time_title">LED 点滅時の光っている時間 (ms)</string>
+    <string name="custom_light_off_time_title">LED 点滅時の消えている時間 (ms)</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">アクティビティ</string>
     <string name="select_custom_app_title">カスタムアプリを選択</string>
@@ -85,33 +85,33 @@
     <string name="hardware_keys_single_tap_title">シングルタップアクション</string>
     <string name="hardware_keys_long_press_title">長押しアクション</string>
     <string name="hardware_keys_double_tap_title">ダブルタップアクション</string>
-    <string name="hardware_keys">Buttons</string>
-    <string name="hardware_keys_summary">Customise hardware buttons</string>
-    <string name="navigation_keys">Navigation bar</string>
-    <string name="navigation_keys_summary">Customise on-screen navigation bar</string>
+    <string name="hardware_keys">ボタン</string>
+    <string name="hardware_keys_summary">ハードウェアボタンを編集する</string>
+    <string name="navigation_keys">ナビゲーションバー</string>
+    <string name="navigation_keys_summary">画面内ナビゲーションバーを編集する</string>
     <string name="hardware_keys_category">ハードウェアナビゲーションボタン</string>
     <string name="hardware_keys_disable_title">ハードウェアボタンを無効化</string>
     <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Buttons backlight timeout</string>
-    <string name="backlight_timeout_on">Enabled always</string>
-    <string name="backlight_timeout_3s">3 sec</string>
-    <string name="backlight_timeout_default">5 sec (default)</string>
-    <string name="backlight_timeout_10s">10 sec</string>
-    <string name="backlight_timeout_15s">15 sec</string>
-    <string name="backlight_timeout_20s">20 sec</string>
-    <string name="backlight_timeout_30s">30 sec</string>
-    <string name="button_title">Buttons</string>
+    <string name="backlight_timeout_title">ボタンのバックライトの点灯時間</string>
+    <string name="backlight_timeout_on">常に点灯</string>
+    <string name="backlight_timeout_3s">3秒</string>
+    <string name="backlight_timeout_default">5秒 (既定)</string>
+    <string name="backlight_timeout_10s">10秒</string>
+    <string name="backlight_timeout_15s">15秒</string>
+    <string name="backlight_timeout_20s">20秒</string>
+    <string name="backlight_timeout_30s">30秒</string>
+    <string name="button_title">ボタン</string>
     <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Backlight</string>
-    <string name="button_brightness_sw_title">Enable backlight</string>
-    <string name="button_backlight_on_touch_only_title">Button touch</string>
-    <string name="button_backlight_on_touch_only_summary">Enablebacklight with timeout only on button touch</string>
+    <string name="button_brightness_title">バックライト</string>
+    <string name="button_brightness_sw_title">バックライトを有効化</string>
+    <string name="button_backlight_on_touch_only_title">ボタンタッチ</string>
+    <string name="button_backlight_on_touch_only_summary">タッチ時のボタンのバックライト有効時間を有効にする</string>
     <!-- ANBI -->
-    <string name="anbi_title">Accidental touch</string>
-    <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
+    <string name="anbi_title">誤タッチ防止</string>
+    <string name="anbi_summary">画面がタッチされている間はナビゲーションボタンを無効化して誤操作を防ぐ</string>
     <!-- Global Actions -->
-    <string name="power_menu_customization_category_title">Power menu customization</string>
-    <string name="global_actions_title">Power menu actions</string>
+    <string name="power_menu_customization_category_title">電源メニューの編集</string>
+    <string name="global_actions_title">電源メニューのアクション</string>
     <string name="global_actions_summary">電源ボタンを押した時に表示する項目を選択する</string>
     <string name="global_actions_power">電源</string>
     <string name="global_actions_restart">再起動</string>
@@ -126,88 +126,99 @@
     <string name="global_actions_emergency">緊急通報</string>
     <string name="global_actions_advanced_reboot_title">高度な再起動の有効化</string>
     <string name="global_actions_advanced_reboot_summary">再起動時にリカバリーとブートローダーのオプションを表示する</string>
-    <string name="global_actions_max_columns_title">Max actions to show</string>
-    <string name="global_actions_max_columns_summary">Set how many actions to show before buttons move to overflow menu</string>
+    <string name="global_actions_max_columns_title">表示する最大アクション</string>
+    <string name="global_actions_max_columns_summary">オーバーフローメニューにボタンが移動する前にいくつのアクションを表示するか設定する</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">ジェスチャー</string>
     <string name="gesture_settings_dashboard_summary">ジェスチャー設定の管理</string>
-    <string name="custom_device_gestures_preference_title">Device gestures</string>
+    <string name="custom_device_gestures_preference_title">端末ジェスチャー</string>
     <!-- Heads up -->
-    <string name="heads_up_notifications">Heads up</string>
-    <string name="heads_up_notifications_summary">Control heads up behaviour</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="heads_up_notifications">Heads Up</string>
+    <string name="heads_up_notifications_summary">Heads Up の動作の管理</string>
+    <string name="summary_heads_up_enabled">ポップアップ通知は有効です</string>
+    <string name="summary_heads_up_disabled">ポップアップ通知は無効です</string>
+    <string name="add_heads_up_package">アプリを追加</string>
+    <string name="add_heads_up_stoplist_summary">これらのアプリ起動中には Heads Up を無効化する</string>
+    <string name="add_heads_up_blacklist_summary">このアプリの Heads Up を無効化する</string>
+    <string name="heads_up_stoplist_title">ストップリスト</string>
+    <string name="heads_up_blacklist_title">ブラックリスト</string>
+    <string name="profile_choose_app">アプリを選択</string>
+    <string name="dialog_delete_title">削除</string>
+    <string name="dialog_delete_message">選択した項目を削除しますか?</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">指紋認証でのロック解除</string>
     <string name="fp_unlock_keystore_summary">再起動後も PIN/パスワード/パターン による認証なしで指紋認証によるロック解除を可能にします。\n注意: 自己責任で使用して下さい!</string>
     <!-- Volume panel on left switch -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_title">音量パネルの左側表示</string>
     <!-- Density options -->
-    <string name="density_category">Density options</string>
+    <string name="density_category">解像度オプション</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Gesture bar length</string>
-    <string name="hidden_label">Hidden</string>
-    <string name="long_label">Long</string>
+    <string name="navbar_length">ジェスチャーバーの長さ</string>
+    <string name="hidden_label">非表示</string>
+    <string name="long_label">長い</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
-    <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+    <string name="lockscreen_media_art_title">メディアカバーアートを表示</string>
+    <string name="lockscreen_media_art_summary">再生中のメディアのアルバムアートをロック画面に表示する</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_summary">Enable or disable network speed indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="traffic_title">通信速度</string>
+    <string name="traffic_summary">ネットワーク速度の表示を切り替える</string>
+    <string name="network_traffic_title">通信速度</string>
+    <string name="network_traffic_type">表示する通信方向を選択</string>
+    <string name="show_network_traffic_up">送信</string>
+    <string name="show_network_traffic_down">受信</string>
+    <string name="show_network_traffic_all">両方</string>
+    <string name="network_traffic_state_title">通信速度を表示</string>
+    <string name="network_traffic_autohide_threshold_title">自動非表示にするしきい値 (KB/s)</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">スワイプでスクリーンショット</string>
+    <string name="three_finger_gesture_summary">3本指で下スワイプしてスクリーンショットを取得する</string>
     <!-- Weather - OmniJaws Settings -->
-    <string name="weather_title">Weather</string>
-    <string name="weather_config_title">Service settings</string>
+    <string name="weather_title">天気</string>
+    <string name="weather_config_title">サービスの設定</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Weather style</string>
-    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
-    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="lock_screen_weather_style_title">天気のスタイル</string>
+    <string name="lock_screen_weather_style_summaryOff">天気は位置情報付きの日付の下に表示されます</string>
+    <string name="lock_screen_weather_style_summaryOn">天気は位置情報なしの日付の上に表示されます</string>
+    <string name="header_weather_title">ヘッダーに天気を表示</string>
+    <string name="header_weather_summary">通知パネルの天気ヘッダー画像を有効にする</string>
+    <string name="weather_icon_pack_title">天気アイコンパック</string>
+    <string name="weather_icon_pack_note">備考\u003a プレイストアで「Chronus アイコン」を検索することで新しいアイコンパックをインストールできます</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Lockscreen weather</string>
-    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
-    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
-    <string name="lockscreen_weather_show_city_title">Show city name</string>
-    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_title">天気の設定</string>
+    <string name="lockscreen_weather_summary">現在の気象状況と温度をロック画面に表示する</string>
+    <string name="lockscreen_items_aod_info_title">この表示設定はアンビエント表示にも適用されます</string>
+    <string name="lockscreen_weather_show_city_title">都市名を表示</string>
+    <string name="lockscreen_weather_show_city_summary">画像の左側に現在の都市名を表示する</string>
+    <string name="lockscreen_weather_show_temp_title">温度を表示</string>
+    <string name="lockscreen_weather_show_temp_summary">画像の右に現在の都市の気温を表示する</string>
     <!-- FOD animations -->
-    <string name="fod_recog_animation">FOD recognizing animation</string>
-    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
-    <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
-    <string name="fod_recog_animation_miui_normal">MIUI default</string>
+    <string name="fod_recog_animation">指紋認証アニメーション</string>
+    <string name="fod_recog_animation_summary">指紋認識中にアニメーションを表示する</string>
+    <string name="fod_recog_animation_effect_title">認識アニメーション効果</string>
+    <string name="fod_recog_animation_miui_normal">MIUI 既定</string>
     <string name="fod_recog_animation_miui_aod">AOD</string>
-    <string name="fod_recog_animation_miui_light">Light</string>
-    <string name="fod_recog_animation_miui_pop">Pop</string>
-    <string name="fod_recog_animation_miui_pulse">Pulse</string>
-    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
-    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
-    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
-    <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_stripe">Stripe</string>
-    <string name="fod_recog_animation_op_wave">Wave</string>
+    <string name="fod_recog_animation_miui_light">ライト</string>
+    <string name="fod_recog_animation_miui_pop">ポップ</string>
+    <string name="fod_recog_animation_miui_pulse">パルス</string>
+    <string name="fod_recog_animation_miui_pulse_white">パルス (白)</string>
+    <string name="fod_recog_animation_miui_rhythm">リズム</string>
+    <string name="fod_recog_animation_op_cosmos">コスモス</string>
+    <string name="fod_recog_animation_op_mclaren">マクラーレン</string>
+    <string name="fod_recog_animation_op_stripe">ストライプ</string>
+    <string name="fod_recog_animation_op_wave">波</string>
     <string name="fod_recog_animation_pureview_dna">DNA</string>
-    <string name="fod_recog_animation_pureview_future">Future</string>
-    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
-    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_pureview_future">未来</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Halo Ring</string>
+    <string name="fod_recog_animation_pureview_molecular">分子</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total RAM</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Volume wake</string>
+    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
 </resources>

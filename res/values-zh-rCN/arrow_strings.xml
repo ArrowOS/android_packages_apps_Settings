@@ -27,33 +27,33 @@
     <string name="statusbar_gestures_category_title">状态栏手势</string>
     <string name="double_tap_sleep_gesture_title">双击状态栏休眠</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">What to do</string>
+    <string name="lockscreen_tweaks_category_title">要做什么</string>
     <string name="double_tap_sleep_lockscreen_title">在锁屏界面双击屏幕休眠</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">截屏音效</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">链接铃声和通知的音量</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Color bucket</string>
+    <string name="theme_customization_systemui_title">色桶</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">锁屏充电信息</string>
     <string name="lockscreen_battery_info_summary">充电时在锁屏上显示充电电流、电压、功率和电池温度</string>
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+    <string name="app_play_store">Google Play 商店</string>
     <!-- Settings categories -->
     <string name="misc_category_title">杂项</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">状态栏图标</string>
     <!-- Display customization category -->
-    <string name="customization_category_title">Customization</string>
+    <string name="customization_category_title">定制</string>
     <!-- Battery light -->
     <string name="battery_light_settings">充电指示灯</string>
-    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
+    <string name="battery_light_summary">勿扰模式下和低电量时的电量指示灯行为</string>
     <string name="battery_light_enable">电量指示灯</string>
     <string name="battery_light_allow_on_dnd_title">勿扰模式启用充电指示灯</string>
     <string name="battery_light_low_blinking_title">低电量时指示灯闪烁</string>
     <string name="battery_light_cat">充电时电量指示灯颜色</string>
-    <string name="battery_light_low_color">电池电量低</string>
+    <string name="battery_light_low_color">低电量</string>
     <string name="battery_light_medium_color">中等电量</string>
     <string name="battery_light_full_color">接近满电</string>
     <string name="battery_light_reallyfull_color">100%电量</string>
@@ -61,9 +61,9 @@
     <string name="proximity_wake_title">防止意外唤醒</string>
     <string name="proximity_wake_summary">唤醒屏幕前检查距离传感器</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <string name="custom_light_title">指示灯颜色</string>
+    <string name="custom_light_on_time_title">呼吸灯闪烁时亮灯时间 (毫秒)</string>
+    <string name="custom_light_off_time_title">呼吸灯闪烁时熄灯时间 (毫秒)\"</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">活动</string>
     <string name="select_custom_app_title">选择自定义程序</string>
@@ -85,35 +85,35 @@
     <string name="hardware_keys_single_tap_title">单击操作</string>
     <string name="hardware_keys_long_press_title">长按操作</string>
     <string name="hardware_keys_double_tap_title">双击操作</string>
-    <string name="hardware_keys">Buttons</string>
-    <string name="hardware_keys_summary">Customise hardware buttons</string>
-    <string name="navigation_keys">Navigation bar</string>
-    <string name="navigation_keys_summary">Customise on-screen navigation bar</string>
-    <string name="hardware_keys_category">硬件导航按钮</string>
-    <string name="hardware_keys_disable_title">禁用实体按钮</string>
+    <string name="hardware_keys">按键</string>
+    <string name="hardware_keys_summary">自定义实体按键</string>
+    <string name="navigation_keys">导航栏</string>
+    <string name="navigation_keys_summary">自定义屏幕导航栏</string>
+    <string name="hardware_keys_category">实体导航键</string>
+    <string name="hardware_keys_disable_title">禁用实体按键</string>
     <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Buttons backlight timeout</string>
-    <string name="backlight_timeout_on">Enabled always</string>
-    <string name="backlight_timeout_3s">3 sec</string>
-    <string name="backlight_timeout_default">5 sec (default)</string>
-    <string name="backlight_timeout_10s">10 sec</string>
-    <string name="backlight_timeout_15s">15 sec</string>
-    <string name="backlight_timeout_20s">20 sec</string>
-    <string name="backlight_timeout_30s">30 sec</string>
-    <string name="button_title">Buttons</string>
+    <string name="backlight_timeout_title">按键背光超时</string>
+    <string name="backlight_timeout_on">总是启用</string>
+    <string name="backlight_timeout_3s">3 秒</string>
+    <string name="backlight_timeout_default">5 秒 (默认)</string>
+    <string name="backlight_timeout_10s">10 秒</string>
+    <string name="backlight_timeout_15s">15 秒</string>
+    <string name="backlight_timeout_20s">20 秒</string>
+    <string name="backlight_timeout_30s">30 秒</string>
+    <string name="button_title">按键</string>
     <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Backlight</string>
-    <string name="button_brightness_sw_title">Enable backlight</string>
-    <string name="button_backlight_on_touch_only_title">Button touch</string>
-    <string name="button_backlight_on_touch_only_summary">Enablebacklight with timeout only on button touch</string>
+    <string name="button_brightness_title">背光</string>
+    <string name="button_brightness_sw_title">启用背光</string>
+    <string name="button_backlight_on_touch_only_title">按键触摸</string>
+    <string name="button_backlight_on_touch_only_summary">仅在触摸按键时启用按键背光</string>
     <!-- ANBI -->
-    <string name="anbi_title">Accidental touch</string>
-    <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
+    <string name="anbi_title">防误触</string>
+    <string name="anbi_summary">在触摸屏幕时阻止和导航按键的交互</string>
     <!-- Global Actions -->
-    <string name="power_menu_customization_category_title">Power menu customization</string>
-    <string name="global_actions_title">Power menu actions</string>
+    <string name="power_menu_customization_category_title">电源菜单自定义</string>
+    <string name="global_actions_title">电源菜单快捷方式</string>
     <string name="global_actions_summary">选择按电源键时显示的内容</string>
-    <string name="global_actions_power">电源</string>
+    <string name="global_actions_power">关机</string>
     <string name="global_actions_restart">重启</string>
     <string name="global_actions_airplane">飞行模式</string>
     <string name="global_actions_settings">设置</string>
@@ -126,88 +126,99 @@
     <string name="global_actions_emergency">紧急呼救</string>
     <string name="global_actions_advanced_reboot_title">启用高级重启</string>
     <string name="global_actions_advanced_reboot_summary">重新启动时还会显示恢复模式和引导模式的选项</string>
-    <string name="global_actions_max_columns_title">Max actions to show</string>
-    <string name="global_actions_max_columns_summary">Set how many actions to show before buttons move to overflow menu</string>
+    <string name="global_actions_max_columns_title">可显示的最多快捷方式数目</string>
+    <string name="global_actions_max_columns_summary">收纳进菜单前可显示的快捷方式数目</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">手势</string>
     <string name="gesture_settings_dashboard_summary">管理手势设置</string>
-    <string name="custom_device_gestures_preference_title">Device gestures</string>
+    <string name="custom_device_gestures_preference_title">设备手势</string>
     <!-- Heads up -->
-    <string name="heads_up_notifications">Heads up</string>
-    <string name="heads_up_notifications_summary">Control heads up behaviour</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="heads_up_notifications">浮动通知</string>
+    <string name="heads_up_notifications_summary">控制浮动通知行为</string>
+    <string name="summary_heads_up_enabled">浮动通知已启用</string>
+    <string name="summary_heads_up_disabled">浮动通知已禁用</string>
+    <string name="add_heads_up_package">添加应用</string>
+    <string name="add_heads_up_stoplist_summary">进入这些应用程序时停用浮动通知</string>
+    <string name="add_heads_up_blacklist_summary">禁用来自这些应用程序的浮动通知</string>
+    <string name="heads_up_stoplist_title">停用列表</string>
+    <string name="heads_up_blacklist_title">禁用列表</string>
+    <string name="profile_choose_app">选择应用</string>
+    <string name="dialog_delete_title">删除</string>
+    <string name="dialog_delete_message">要删除所选项吗?</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">指纹解锁</string>
     <string name="fp_unlock_keystore_summary">在重启后可直接使用指纹解锁设备，无须 PIN/密码/图案\n注意： 风险由您自己承担！</string>
     <!-- Volume panel on left switch -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_title">左侧显示音量面板</string>
     <!-- Density options -->
-    <string name="density_category">Density options</string>
+    <string name="density_category">分辨率选项</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Gesture bar length</string>
-    <string name="hidden_label">Hidden</string>
-    <string name="long_label">Long</string>
+    <string name="navbar_length">手势栏长度</string>
+    <string name="hidden_label">隐藏</string>
+    <string name="long_label">长</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
-    <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+    <string name="lockscreen_media_art_title">显示媒体专辑封面</string>
+    <string name="lockscreen_media_art_summary">在锁屏界面显示当前播放的媒体专辑封面</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_summary">Enable or disable network speed indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="traffic_title">网速指示器</string>
+    <string name="traffic_summary">启用或禁用网速指示器</string>
+    <string name="network_traffic_title">网络流量</string>
+    <string name="network_traffic_type">选择网络活动类型</string>
+    <string name="show_network_traffic_up">上行</string>
+    <string name="show_network_traffic_down">下行</string>
+    <string name="show_network_traffic_all">上行和下行</string>
+    <string name="network_traffic_state_title">在状态栏显示网络状态</string>
+    <string name="network_traffic_autohide_threshold_title">网络活动自动隐藏阈值 (KB/s)</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">滑动截屏</string>
+    <string name="three_finger_gesture_summary">三指同时下滑以截取屏幕</string>
     <!-- Weather - OmniJaws Settings -->
-    <string name="weather_title">Weather</string>
-    <string name="weather_config_title">Service settings</string>
+    <string name="weather_title">天气</string>
+    <string name="weather_config_title">服务设置</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Weather style</string>
-    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
-    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="lock_screen_weather_style_title">天气样式</string>
+    <string name="lock_screen_weather_style_summaryOff">天气显示在日期下方 (显示位置信息)</string>
+    <string name="lock_screen_weather_style_summaryOn">天气显示在日期旁边 (无位置信息)</string>
+    <string name="header_weather_title">顶部天气视图</string>
+    <string name="header_weather_summary">启用通知面板顶部天气显示</string>
+    <string name="weather_icon_pack_title">天气状况图标包</string>
+    <string name="weather_icon_pack_note">注意\u003a 您可以在 Play 商店搜索 \"Chronus icons\" 来安装新的图标包</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Lockscreen weather</string>
-    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
-    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
-    <string name="lockscreen_weather_show_city_title">Show city name</string>
-    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_title">锁屏天气</string>
+    <string name="lockscreen_weather_summary">在锁屏界面显示当前天气状况与温度</string>
+    <string name="lockscreen_items_aod_info_title">此可见性配置也适用于环境显示</string>
+    <string name="lockscreen_weather_show_city_title">显示城市名</string>
+    <string name="lockscreen_weather_show_city_summary">在天气图标左边显示城市名</string>
+    <string name="lockscreen_weather_show_temp_title">显示温度</string>
+    <string name="lockscreen_weather_show_temp_summary">在图片右侧显示当前城市温度</string>
     <!-- FOD animations -->
-    <string name="fod_recog_animation">FOD recognizing animation</string>
-    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
-    <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
-    <string name="fod_recog_animation_miui_normal">MIUI default</string>
-    <string name="fod_recog_animation_miui_aod">AOD</string>
-    <string name="fod_recog_animation_miui_light">Light</string>
-    <string name="fod_recog_animation_miui_pop">Pop</string>
-    <string name="fod_recog_animation_miui_pulse">Pulse</string>
-    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
-    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
-    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
-    <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_stripe">Stripe</string>
-    <string name="fod_recog_animation_op_wave">Wave</string>
+    <string name="fod_recog_animation">屏幕指纹识别动画</string>
+    <string name="fod_recog_animation_summary">在识别手指时显示动画</string>
+    <string name="fod_recog_animation_effect_title">屏幕指纹识别动画效果</string>
+    <string name="fod_recog_animation_miui_normal">MIUI 默认</string>
+    <string name="fod_recog_animation_miui_aod">息屏常亮</string>
+    <string name="fod_recog_animation_miui_light">浅色</string>
+    <string name="fod_recog_animation_miui_pop">流行</string>
+    <string name="fod_recog_animation_miui_pulse">脉冲</string>
+    <string name="fod_recog_animation_miui_pulse_white">脉冲 (白色)</string>
+    <string name="fod_recog_animation_miui_rhythm">节拍</string>
+    <string name="fod_recog_animation_op_cosmos">宇宙</string>
+    <string name="fod_recog_animation_op_mclaren">迈凯轮</string>
+    <string name="fod_recog_animation_op_stripe">条纹</string>
+    <string name="fod_recog_animation_op_wave">波浪</string>
     <string name="fod_recog_animation_pureview_dna">DNA</string>
-    <string name="fod_recog_animation_pureview_future">Future</string>
-    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
-    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_pureview_future">未来</string>
+    <string name="fod_recog_animation_pureview_halo_ring">光环</string>
+    <string name="fod_recog_animation_pureview_molecular">分子</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total RAM</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Volume wake</string>
+    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
 </resources>
