@@ -261,4 +261,8 @@
     <string name="power_menu_hide_on_secure_title">Disable power menu on lock screen</string>
     <string name="power_menu_hide_on_secure_summary">This will only disable the power menu on secure lockscreen</string>
 
+    <!-- Quick Settings quick pulldown -->
+    <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
+    <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
+
 </resources>
