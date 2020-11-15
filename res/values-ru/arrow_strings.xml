@@ -126,99 +126,99 @@
     <string name="global_actions_emergency">Экстренный вызов</string>
     <string name="global_actions_advanced_reboot_title">Включить меню расширенной перезагрузки</string>
     <string name="global_actions_advanced_reboot_summary">При перезагрузке также показывать опции для рекавери и fastboot</string>
-    <string name="global_actions_max_columns_title">Max actions to show</string>
-    <string name="global_actions_max_columns_summary">Set how many actions to show before buttons move to overflow menu</string>
+    <string name="global_actions_max_columns_title">Макс количество действий для показа</string>
+    <string name="global_actions_max_columns_summary">Установить количество действий для показа перед перемещением кнопок в меню переполнения</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">Жесты</string>
     <string name="gesture_settings_dashboard_summary">Управление настройками жестов</string>
-    <string name="custom_device_gestures_preference_title">Device gestures</string>
+    <string name="custom_device_gestures_preference_title">Жесты устройства</string>
     <!-- Heads up -->
-    <string name="heads_up_notifications">Heads up</string>
-    <string name="heads_up_notifications_summary">Control heads up behaviour</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="heads_up_notifications">Всплывающие уведомления</string>
+    <string name="heads_up_notifications_summary">Контролируйте поведение головы</string>
+    <string name="summary_heads_up_enabled">Всплывающие уведомления включены</string>
+    <string name="summary_heads_up_disabled">Всплывающие уведомления отключены </string>
+    <string name="add_heads_up_package">Добавить приложение</string>
+    <string name="add_heads_up_stoplist_summary">Отключить всплывающие уведомления в этих приложениях</string>
+    <string name="add_heads_up_blacklist_summary">Отключить всплывающие уведомления от этих приложений</string>
+    <string name="heads_up_stoplist_title">Белый список</string>
+    <string name="heads_up_blacklist_title">Чёрный список</string>
+    <string name="profile_choose_app">Выбор приложения</string>
+    <string name="dialog_delete_title">Удалить</string>
+    <string name="dialog_delete_message">Удалить выбранный элемент?</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Разблокировка отпечатком пальца</string>
     <string name="fp_unlock_keystore_summary">Разблокировка устройства после перезагрузки с помощью отпечатка пальца без использования PIN-кода/Пароля/Графического ключа\nПримечание: используйте на свой страх и риск!</string>
     <!-- Volume panel on left switch -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_title">Панель громкости слева</string>
     <!-- Density options -->
-    <string name="density_category">Density options</string>
+    <string name="density_category">Настройки плотности экрана</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Gesture bar length</string>
-    <string name="hidden_label">Hidden</string>
-    <string name="long_label">Long</string>
+    <string name="navbar_length">Длина полосы жестов</string>
+    <string name="hidden_label">Скрыть</string>
+    <string name="long_label">Длинный</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
-    <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+    <string name="lockscreen_media_art_title">Отображать обложки мультимедиа</string>
+    <string name="lockscreen_media_art_summary">Показывать текущую картину альбома музыки на экране блокировки</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_summary">Enable or disable network speed indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="traffic_title">Индикатор сетевого трафика</string>
+    <string name="traffic_summary">Включение и отключение индикатора сетевого трафика</string>
+    <string name="network_traffic_title">Сетевой трафик</string>
+    <string name="network_traffic_type">Выберите тип сетевой активности</string>
+    <string name="show_network_traffic_up">Исходящий трафик</string>
+    <string name="show_network_traffic_down">Входящий трафик</string>
+    <string name="show_network_traffic_all">Исходящий и входящий</string>
+    <string name="network_traffic_state_title">Показывать индикатор сетевого трафика в строке состояния</string>
+    <string name="network_traffic_autohide_threshold_title">Порог автоскрытия индикатора сетевого трафика (КБ/с)</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">Свайп для создания скриншота</string>
+    <string name="three_finger_gesture_summary">Проведите вниз тремя пальцами для создания скриншота</string>
     <!-- Weather - OmniJaws Settings -->
-    <string name="weather_title">Weather</string>
-    <string name="weather_config_title">Service settings</string>
+    <string name="weather_title">Погода</string>
+    <string name="weather_config_title">Настройки службы</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Weather style</string>
-    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
-    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="lock_screen_weather_style_title">Стиль отображения погоды</string>
+    <string name="lock_screen_weather_style_summaryOff">Показывать погоду вместе с местоположением под строкой даты</string>
+    <string name="lock_screen_weather_style_summaryOn">Показывать погоду без местоположения на одной строке с датой</string>
+    <string name="header_weather_title">Погода в заголовке панели уведомлений</string>
+    <string name="header_weather_summary">Включить отображение погоды в заголовке панели уведомлений</string>
+    <string name="weather_icon_pack_title">Набор значков состояния</string>
+    <string name="weather_icon_pack_note">Примечание\u003a Вы можете установить новые наборы значков из Play Market, введя в строке поиска \"Chronus icons\"</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Lockscreen weather</string>
-    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
-    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
-    <string name="lockscreen_weather_show_city_title">Show city name</string>
-    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_title">Погода на экране блокировки</string>
+    <string name="lockscreen_weather_summary">Показывать текущую погоду и температуру на экране блокировки</string>
+    <string name="lockscreen_items_aod_info_title">Эти настройки видимости применяются и к Ambient Display</string>
+    <string name="lockscreen_weather_show_city_title">Отображать название города</string>
+    <string name="lockscreen_weather_show_city_summary">Отображать название города слева от изображения</string>
+    <string name="lockscreen_weather_show_temp_title">Отображать значение температуры</string>
+    <string name="lockscreen_weather_show_temp_summary">Отображать название города и температуру справа от изображения</string>
     <!-- FOD animations -->
-    <string name="fod_recog_animation">FOD recognizing animation</string>
-    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
-    <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
-    <string name="fod_recog_animation_miui_normal">MIUI default</string>
-    <string name="fod_recog_animation_miui_aod">AOD</string>
-    <string name="fod_recog_animation_miui_light">Light</string>
+    <string name="fod_recog_animation">Анимация распознавания отпечатка</string>
+    <string name="fod_recog_animation_summary">Показывать анимацию при распознавании отпечатка</string>
+    <string name="fod_recog_animation_effect_title">Эффект анимации распознавания отпечатка</string>
+    <string name="fod_recog_animation_miui_normal">MIUI по умолчанию</string>
+    <string name="fod_recog_animation_miui_aod">Always On Display</string>
+    <string name="fod_recog_animation_miui_light">Светлая</string>
     <string name="fod_recog_animation_miui_pop">Pop</string>
-    <string name="fod_recog_animation_miui_pulse">Pulse</string>
-    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
-    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
-    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
+    <string name="fod_recog_animation_miui_pulse">Эффект пульсации</string>
+    <string name="fod_recog_animation_miui_pulse_white">Эффект пульсации (белый)</string>
+    <string name="fod_recog_animation_miui_rhythm">Ритм</string>
+    <string name="fod_recog_animation_op_cosmos">Космос</string>
     <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_stripe">Stripe</string>
-    <string name="fod_recog_animation_op_wave">Wave</string>
+    <string name="fod_recog_animation_op_stripe">Полосы</string>
+    <string name="fod_recog_animation_op_wave">Волна</string>
     <string name="fod_recog_animation_pureview_dna">DNA</string>
-    <string name="fod_recog_animation_pureview_future">Future</string>
+    <string name="fod_recog_animation_pureview_future">Будущее</string>
     <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
-    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_pureview_molecular">Молекулы</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
+    <string name="platform_revision">Платформа</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total RAM</string>
+    <string name="total_ram">Обьем ОЗУ</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Управление воспроизведением</string>
+    <string name="volume_button_music_control_summary">Когда экран выключен, долгое нажатие на кнопки громкости переключает композиции</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
-    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    <string name="volume_rocker_wake_title">Пробуждение кнопками громкости</string>
+    <string name="volume_rocker_wake_summary">Пробудите свое устройство, нажав клавиши регулировки громкости</string>
 </resources>

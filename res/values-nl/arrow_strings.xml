@@ -214,11 +214,11 @@
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total RAM</string>
+    <string name="total_ram">Totale RAM-geheugen</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Afspeel controle</string>
+    <string name="volume_button_music_control_summary">Wanneer het scherm uit is, zal het langdurig drukken op de volume knoppen muzieknummers overslaan</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
-    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    <string name="volume_rocker_wake_title">Ontwaken met volumeknop</string>
+    <string name="volume_rocker_wake_summary">Apparaat ontwaken door indrukken volumeknop</string>
 </resources>

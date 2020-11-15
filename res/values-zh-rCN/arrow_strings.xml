@@ -22,7 +22,7 @@
     <string name="device_info_protected_single_press">点击以显示信息</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">ArrowOS 统计信息</string>
-    <string name="arrow_stats_summary">仅计算我们运行的设备数量</string>
+    <string name="arrow_stats_summary">仅统计我们运行的设备数量</string>
     <!--Double Tap to Sleep Statusbar-->
     <string name="statusbar_gestures_category_title">状态栏手势</string>
     <string name="double_tap_sleep_gesture_title">双击状态栏休眠</string>
@@ -30,7 +30,7 @@
     <string name="lockscreen_tweaks_category_title">要做什么</string>
     <string name="double_tap_sleep_lockscreen_title">在锁屏界面双击屏幕休眠</string>
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">截屏音效</string>
+    <string name="screenshot_sound_title">截屏提示音</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">链接铃声和通知的音量</string>
     <!-- Themes customisation -->
@@ -39,7 +39,7 @@
     <string name="lockscreen_battery_info_title">锁屏充电信息</string>
     <string name="lockscreen_battery_info_summary">充电时在锁屏上显示充电电流、电压、功率和电池温度</string>
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play 商店</string>
+    <string name="app_play_store">Google Play</string>
     <!-- Settings categories -->
     <string name="misc_category_title">杂项</string>
     <!-- Statusbar Tuner -->
@@ -50,7 +50,7 @@
     <string name="battery_light_settings">充电指示灯</string>
     <string name="battery_light_summary">勿扰模式下和低电量时的电量指示灯行为</string>
     <string name="battery_light_enable">电量指示灯</string>
-    <string name="battery_light_allow_on_dnd_title">勿扰模式启用充电指示灯</string>
+    <string name="battery_light_allow_on_dnd_title">勿扰模式下启用充电指示灯</string>
     <string name="battery_light_low_blinking_title">低电量时指示灯闪烁</string>
     <string name="battery_light_cat">充电时电量指示灯颜色</string>
     <string name="battery_light_low_color">低电量</string>
@@ -62,8 +62,8 @@
     <string name="proximity_wake_summary">唤醒屏幕前检查距离传感器</string>
     <!-- Custom light color -->
     <string name="custom_light_title">指示灯颜色</string>
-    <string name="custom_light_on_time_title">呼吸灯闪烁时亮灯时间 (毫秒)</string>
-    <string name="custom_light_off_time_title">呼吸灯闪烁时熄灯时间 (毫秒)\"</string>
+    <string name="custom_light_on_time_title">指示灯闪烁时亮灯时间 (毫秒)</string>
+    <string name="custom_light_off_time_title">指示灯闪烁时熄灯时间 (毫秒)</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">活动</string>
     <string name="select_custom_app_title">选择自定义程序</string>
@@ -126,8 +126,8 @@
     <string name="global_actions_emergency">紧急呼救</string>
     <string name="global_actions_advanced_reboot_title">启用高级重启</string>
     <string name="global_actions_advanced_reboot_summary">重新启动时还会显示恢复模式和引导模式的选项</string>
-    <string name="global_actions_max_columns_title">可显示的最多快捷方式数目</string>
-    <string name="global_actions_max_columns_summary">收纳进菜单前可显示的快捷方式数目</string>
+    <string name="global_actions_max_columns_title">最多可显示的快捷方式数目</string>
+    <string name="global_actions_max_columns_summary">设定收纳进菜单前可显示的快捷方式数目</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">手势</string>
     <string name="gesture_settings_dashboard_summary">管理手势设置</string>
@@ -139,7 +139,7 @@
     <string name="summary_heads_up_disabled">浮动通知已禁用</string>
     <string name="add_heads_up_package">添加应用</string>
     <string name="add_heads_up_stoplist_summary">进入这些应用程序时停用浮动通知</string>
-    <string name="add_heads_up_blacklist_summary">禁用来自这些应用程序的浮动通知</string>
+    <string name="add_heads_up_blacklist_summary">禁止来自这些应用程序的浮动通知</string>
     <string name="heads_up_stoplist_title">停用列表</string>
     <string name="heads_up_blacklist_title">禁用列表</string>
     <string name="profile_choose_app">选择应用</string>
@@ -147,9 +147,9 @@
     <string name="dialog_delete_message">要删除所选项吗?</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">指纹解锁</string>
-    <string name="fp_unlock_keystore_summary">在重启后可直接使用指纹解锁设备，无须 PIN/密码/图案\n注意： 风险由您自己承担！</string>
+    <string name="fp_unlock_keystore_summary">在重启后可直接使用指纹解锁设备，无须 PIN/密码/图案\n注意：风险由您自己承担！</string>
     <!-- Volume panel on left switch -->
-    <string name="volume_panel_on_left_title">左侧显示音量面板</string>
+    <string name="volume_panel_on_left_title">音量面板居左</string>
     <!-- Density options -->
     <string name="density_category">分辨率选项</string>
     <!-- Navbar length -->
@@ -167,7 +167,7 @@
     <string name="show_network_traffic_up">上行</string>
     <string name="show_network_traffic_down">下行</string>
     <string name="show_network_traffic_all">上行和下行</string>
-    <string name="network_traffic_state_title">在状态栏显示网络状态</string>
+    <string name="network_traffic_state_title">在状态栏显示网络活动</string>
     <string name="network_traffic_autohide_threshold_title">网络活动自动隐藏阈值 (KB/s)</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">滑动截屏</string>
@@ -212,13 +212,13 @@
     <string name="fod_recog_animation_pureview_molecular">分子</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
+    <string name="platform_revision">平台</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total RAM</string>
+    <string name="total_ram">总内存</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">播放控制</string>
+    <string name="volume_button_music_control_summary">屏幕关闭时，长按音量键来切换不同曲目</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
-    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    <string name="volume_rocker_wake_title">音量键唤醒</string>
+    <string name="volume_rocker_wake_summary">使用音量键唤醒您的设备</string>
 </resources>
