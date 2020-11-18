@@ -39,4 +39,10 @@
 
     <!-- Device specific doze package -->
     <string name="config_customDozePackage" translatable="false"></string>
+
+    <!-- Seedvault -->
+    <string-array name="config_ignored_backup_transports" translatable="false">
+        <item>com.android.localtransport/.LocalTransport</item>
+    </string-array>
+
 </resources>
