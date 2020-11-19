@@ -235,4 +235,7 @@
     <string name="fp_wake_unlock_title">Fingerprint behaviour for unlock</string>
     <string name="fp_wake_unlock_touch">Touch the scanner</string>
     <string name="fp_wake_unlock_press">After press the power button</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
 </resources>
