@@ -40,6 +40,16 @@
         android:key="power_button_instantly_locks"
         android:title="@string/lockpattern_settings_enable_power_button_instantly_locks" />
 
+    <!-- Fp wake unlock -->
+    <DropDownPreference
+        android:key="fp_wake_unlock"
+        android:title="@string/fp_wake_unlock_title"
+        android:summary="%s"
+        android:entries="@array/fp_wake_unlock_preference_titles"
+        android:entryValues="@array/fp_wake_unlock_preference_titles"
+        settings:controller="com.android.settings.security.screenlock.FpWakeUnlockSelectorController"
+        settings:keywords="@string/fp_wake_unlock_keywords"/>
+
     <!-- FOD recognizing animation -->
     <com.arrow.support.preferences.SystemSettingSwitchPreference
             android:key="fod_recognizing_animation"
