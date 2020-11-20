@@ -140,7 +140,7 @@
     <string name="add_heads_up_package">Uygulama ekle</string>
     <string name="add_heads_up_stoplist_summary">Şu uygulamalarda bildirim pencerelerini devre dışı bırak</string>
     <string name="add_heads_up_blacklist_summary">Şu uygulamaların bildirim pencerelerini devre dışı bırak</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
+    <string name="heads_up_stoplist_title">Durdurma listesi</string>
     <string name="heads_up_blacklist_title">Karaliste</string>
     <string name="profile_choose_app">Uygulama seç</string>
     <string name="dialog_delete_title">Sil</string>
@@ -154,71 +154,73 @@
     <string name="density_category">Yoğunluk seçenekleri</string>
     <!-- Navbar length -->
     <string name="navbar_length">Navigasyon çubuğu genişliği</string>
-    <string name="hidden_label">Hidden</string>
-    <string name="long_label">Long</string>
+    <string name="hidden_label">Gizli</string>
+    <string name="long_label">Uzun</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
-    <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+    <string name="lockscreen_media_art_title">Medya kapak resmini göster</string>
+    <string name="lockscreen_media_art_summary">Şu anda çalan medyanın albüm kapağını kilit ekranında göster</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_summary">Enable or disable network speed indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="traffic_title">Ağ göstergeleri</string>
+    <string name="traffic_summary">İnternet hız göstergesini aktif edin veya devre dışı bırakın</string>
+    <string name="network_traffic_title">Ağ etkinliği</string>
+    <string name="network_traffic_type">İnternet etkinlik türünü seç</string>
+    <string name="show_network_traffic_up">Giden</string>
+    <string name="show_network_traffic_down">Gelen</string>
+    <string name="show_network_traffic_all">Giden ve gelen</string>
+    <string name="network_traffic_state_title">Durum çubuğunda ağ etkinliğini göster</string>
+    <string name="network_traffic_autohide_threshold_title">Ağ etkinliğini otomatik olarak gizleme eşiği (KB/s)</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">Ekran görüntüsü almak için kaydırın</string>
+    <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızı kaydırın</string>
     <!-- Weather - OmniJaws Settings -->
-    <string name="weather_title">Weather</string>
-    <string name="weather_config_title">Service settings</string>
+    <string name="weather_title">Hava durumu</string>
+    <string name="weather_config_title">Servis ayarları</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Weather style</string>
-    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
-    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="lock_screen_weather_style_title">Hava durumu stili</string>
+    <string name="lock_screen_weather_style_summaryOff">Hava durumu tarih satırının altında konum ile birlikte gösterilir</string>
+    <string name="lock_screen_weather_style_summaryOn">Hava durumu tarih satırının altında konum olmadan gösterilir</string>
+    <string name="header_weather_title">Başlık hava durumunu gösterir</string>
+    <string name="header_weather_summary">Bildirim paneli başlığında hava durumunu göster</string>
+    <string name="weather_icon_pack_title">Durum simge paketi</string>
+    <string name="weather_icon_pack_note">Not\u003a Play Store\'dan \"Chronus icons\" uygulamasını indirip yeni simge paketleri yükleyebilirsiniz</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Lockscreen weather</string>
-    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
-    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
-    <string name="lockscreen_weather_show_city_title">Show city name</string>
-    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_title">Kilit ekranı hava durumu</string>
+    <string name="lockscreen_weather_summary">Kilit ekranında şu anki hava durumunu ve sıcaklığını göster</string>
+    <string name="lockscreen_items_aod_info_title">Bu görünüm ayarı aynı zamanda ortam ekranı için de geçerlidir</string>
+    <string name="lockscreen_weather_show_city_title">Şehir adını göster</string>
+    <string name="lockscreen_weather_show_city_summary">Simgenin solunda şehir adını göster</string>
+    <string name="lockscreen_weather_show_temp_title">Sıcaklığı göster</string>
+    <string name="lockscreen_weather_show_temp_summary">Simgenin sağında şehrin sıcaklığını göster</string>
     <!-- FOD animations -->
-    <string name="fod_recog_animation">FOD recognizing animation</string>
-    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
-    <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
-    <string name="fod_recog_animation_miui_normal">MIUI default</string>
-    <string name="fod_recog_animation_miui_aod">AOD</string>
-    <string name="fod_recog_animation_miui_light">Light</string>
+    <string name="fod_recog_animation">Parmak izi tanıma animasyonu</string>
+    <string name="fod_recog_animation_summary">Parmak izi okunurken bir animasyon gösterir</string>
+    <string name="fod_recog_animation_effect_title">Tanıma efekti animasyonu</string>
+    <string name="fod_recog_animation_miui_normal">MIUI varsayılanı</string>
+    <string name="fod_recog_animation_miui_aod">Her zaman açık ekran</string>
+    <string name="fod_recog_animation_miui_light">Açık</string>
     <string name="fod_recog_animation_miui_pop">Pop</string>
-    <string name="fod_recog_animation_miui_pulse">Pulse</string>
-    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
-    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
-    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
+    <string name="fod_recog_animation_miui_pulse">Nabız</string>
+    <string name="fod_recog_animation_miui_pulse_white">Nabız (Beyaz)</string>
+    <string name="fod_recog_animation_miui_rhythm">Ritim</string>
+    <string name="fod_recog_animation_op_cosmos">Evren</string>
     <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_stripe">Stripe</string>
-    <string name="fod_recog_animation_op_wave">Wave</string>
+    <string name="fod_recog_animation_op_stripe">Şerit</string>
+    <string name="fod_recog_animation_op_wave">Dalga</string>
     <string name="fod_recog_animation_pureview_dna">DNA</string>
-    <string name="fod_recog_animation_pureview_future">Future</string>
-    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
-    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_pureview_future">Gelecek</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Halo halkası</string>
+    <string name="fod_recog_animation_pureview_molecular">Moleküler</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total RAM</string>
+    <string name="total_ram">Toplam RAM</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Oynatma kontrolü</string>
+    <string name="volume_button_music_control_summary">Ekran kapalıyken, ses tuşlarına uzun basmak şarkıyı değiştirir</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
-    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    <string name="volume_rocker_wake_title">Ses tuşlarıyla uyandır</string>
+    <string name="volume_rocker_wake_summary">Ses tuşlarına basıldığında cihazı uyandır</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert layout</string>
 </resources>

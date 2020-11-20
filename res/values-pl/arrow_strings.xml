@@ -48,7 +48,7 @@
     <string name="customization_category_title">Dostosowywanie</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Dioda ładowania baterii</string>
-    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
+    <string name="battery_light_summary">Zachowanie światła baterii w DND, niski poziom baterii</string>
     <string name="battery_light_enable">Dioda baterii</string>
     <string name="battery_light_allow_on_dnd_title">Dioda baterii w trybie \"Nie przeszkadzać\"</string>
     <string name="battery_light_low_blinking_title">Miganie diody LED gdy bateria jest na wyczerpaniu</string>
@@ -62,8 +62,8 @@
     <string name="proximity_wake_summary">Używaj czujnika zbliżeniowego podczas wybudzania ekranu</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Kolor LED</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <string name="custom_light_on_time_title">Czas świecenia LED podczas pulsowania (ms)</string>
+    <string name="custom_light_off_time_title">Czas nieświecenia diody LED podczas pulsowania (ms)\"</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">Aktywności</string>
     <string name="select_custom_app_title">Wybierz niestandardową aplikację</string>
@@ -140,7 +140,7 @@
     <string name="add_heads_up_package">Dodaj aplikację</string>
     <string name="add_heads_up_stoplist_summary">Wyłącz wyskakujące powiadomienia w tych aplikacjach</string>
     <string name="add_heads_up_blacklist_summary">Wyłącz wyskakujące powiadomienia z tych aplikacji</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
+    <string name="heads_up_stoplist_title">Lista wstrzymanych</string>
     <string name="heads_up_blacklist_title">Czarna lista</string>
     <string name="profile_choose_app">Wybierz aplikację</string>
     <string name="dialog_delete_title">Usuń</string>
@@ -158,58 +158,58 @@
     <string name="long_label">Długo</string>
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Wyświetl okładkę albumu</string>
-    <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+    <string name="lockscreen_media_art_summary">Pokaż okładkę albumu na ekranie blokady</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_summary">Enable or disable network speed indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="traffic_title">Wskaźnik ruchu sieciowego</string>
+    <string name="traffic_summary">Włącz lub wyłącz wskaźniki prędkości sieci</string>
+    <string name="network_traffic_title">Ruch sieciowy</string>
+    <string name="network_traffic_type">Wybierz typ aktywności sieci</string>
+    <string name="show_network_traffic_up">Wysyłanie</string>
+    <string name="show_network_traffic_down">Pobieranie</string>
+    <string name="show_network_traffic_all">Wysyłanie i Pobieranie</string>
+    <string name="network_traffic_state_title">Pokaż aktywność sieci na pasku stanu</string>
+    <string name="network_traffic_autohide_threshold_title">Schowaj poniżej limitu (KB/s)</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">Przesuń trzema palcami, aby zrobić zrzut ekranu</string>
+    <string name="three_finger_gesture_summary">Przeciągnij w dół trzema palcami aby zrobić zrzut ekranu</string>
     <!-- Weather - OmniJaws Settings -->
-    <string name="weather_title">Weather</string>
-    <string name="weather_config_title">Service settings</string>
+    <string name="weather_title">Pogoda</string>
+    <string name="weather_config_title">Ustawienia usługi</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Weather style</string>
-    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
-    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="lock_screen_weather_style_title">Styl pogody</string>
+    <string name="lock_screen_weather_style_summaryOff">Pogoda jest pokazywana pod datą wraz z lokalizacją</string>
+    <string name="lock_screen_weather_style_summaryOn">Pogoda jest pokazywana wraz z datą bez lokalizacji</string>
+    <string name="header_weather_title">Pogoda w nagłówku</string>
+    <string name="header_weather_summary">Włącz wyświetlanie pogody w panelu powiadomień</string>
+    <string name="weather_icon_pack_title">Paczka ikon pogody</string>
+    <string name="weather_icon_pack_note">Uwaga\u003a możesz zainstalować nowe paczki ikon ze sklepu play, wyszukując: \"Chronus icons\"</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Lockscreen weather</string>
-    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
-    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
-    <string name="lockscreen_weather_show_city_title">Show city name</string>
-    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_title">Pogoda na blokadzie ekranu</string>
+    <string name="lockscreen_weather_summary">Wyświetl obecną pogodę oraz temperaturę na ekranie blokady</string>
+    <string name="lockscreen_items_aod_info_title">Ta konfiguracja widoczności dotyczy również ekranu dostosowanego do otoczenia</string>
+    <string name="lockscreen_weather_show_city_title">Pokaż nazwę miasta</string>
+    <string name="lockscreen_weather_show_city_summary">Pokaż nazwę miasta po lewej stronie ekranu blokady</string>
+    <string name="lockscreen_weather_show_temp_title">Pokaż temperaturę</string>
+    <string name="lockscreen_weather_show_temp_summary">Pokaż aktualną temperaturę miasta po prawej stronie ekranu blokady</string>
     <!-- FOD animations -->
-    <string name="fod_recog_animation">FOD recognizing animation</string>
-    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
-    <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
-    <string name="fod_recog_animation_miui_normal">MIUI default</string>
-    <string name="fod_recog_animation_miui_aod">AOD</string>
-    <string name="fod_recog_animation_miui_light">Light</string>
+    <string name="fod_recog_animation">Animacja rozpoznawania FOD</string>
+    <string name="fod_recog_animation_summary">Pokazuje animację podczas skanowania linii papilarnych</string>
+    <string name="fod_recog_animation_effect_title">Efekt animacji rozpoznawania</string>
+    <string name="fod_recog_animation_miui_normal">Domyślna MIUI</string>
+    <string name="fod_recog_animation_miui_aod">Tryb Always-On-Display</string>
+    <string name="fod_recog_animation_miui_light">Jasny</string>
     <string name="fod_recog_animation_miui_pop">Pop</string>
-    <string name="fod_recog_animation_miui_pulse">Pulse</string>
-    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
-    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
-    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
+    <string name="fod_recog_animation_miui_pulse">Pulsujący</string>
+    <string name="fod_recog_animation_miui_pulse_white">Pulsujący (biały)</string>
+    <string name="fod_recog_animation_miui_rhythm">Rytm</string>
+    <string name="fod_recog_animation_op_cosmos">Kosmos</string>
     <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_stripe">Stripe</string>
-    <string name="fod_recog_animation_op_wave">Wave</string>
+    <string name="fod_recog_animation_op_stripe">Pasek</string>
+    <string name="fod_recog_animation_op_wave">Fala</string>
     <string name="fod_recog_animation_pureview_dna">DNA</string>
-    <string name="fod_recog_animation_pureview_future">Future</string>
-    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
-    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_pureview_future">Przyszłość</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Pierścień Halo</string>
+    <string name="fod_recog_animation_pureview_molecular">Molekularny</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platforma</string>
@@ -221,4 +221,6 @@
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Wybudź klawiszami głośności</string>
     <string name="volume_rocker_wake_summary">Wybudź przy użyciu przycisków głośności</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert layout</string>
 </resources>

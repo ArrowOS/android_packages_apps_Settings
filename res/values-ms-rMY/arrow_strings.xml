@@ -15,193 +15,193 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Arrow version preference -->
-    <string name="arrow_version">"ArrowOS version"</string>
-    <string name="build_date">"Build date"</string>
-    <string name="about_device_name">"Device"</string>
+    <string name="arrow_version">"Versi ArrowOS"</string>
+    <string name="build_date">"Tarikh Bina"</string>
+    <string name="about_device_name">"Peranti"</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">Ketik untuk maklumat</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">ArrowOS Stats</string>
-    <string name="arrow_stats_summary">Just counting how many devices we run on</string>
+    <string name="arrow_stats_summary">Mengira berapa banyak peranti yang dijalankan</string>
     <!--Double Tap to Sleep Statusbar-->
-    <string name="statusbar_gestures_category_title">Statusbar gestures</string>
-    <string name="double_tap_sleep_gesture_title">Double tap to sleep on status bar</string>
+    <string name="statusbar_gestures_category_title">Gerak isyarat Statusbar</string>
+    <string name="double_tap_sleep_gesture_title">Sentuh berganda untuk sleep di bar status</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">What to do</string>
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <string name="double_tap_sleep_lockscreen_title">Sentuh berganda untuk \"sleep\" di layar kunci</string>
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_title">Bunyi tangkapan layar</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">Pautan ringtone &amp; notifikasi kelantangan</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Color bucket</string>
+    <string name="theme_customization_systemui_title">Bucket warna</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_title">Maklumat pengecasan layar kunci</string>
+    <string name="lockscreen_battery_info_summary">Paparkan arus pengecasan, voltan, watt dan suhu bateri pada layar kunci semasa mengecas</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Settings categories -->
-    <string name="misc_category_title">Misc</string>
+    <string name="misc_category_title">Lain-lain</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">Item Statusbar</string>
     <!-- Display customization category -->
-    <string name="customization_category_title">Customization</string>
+    <string name="customization_category_title">Penyesuaian</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Battery charging light</string>
-    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
-    <string name="battery_light_enable">Battery light</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
+    <string name="battery_light_settings">Lampu bateri sedang dicas</string>
+    <string name="battery_light_summary">Tingkah laku lampu bateri semasa DND, bateri lemah</string>
+    <string name="battery_light_enable">Lampu bateri</string>
+    <string name="battery_light_allow_on_dnd_title">Lampu dalam Mod Tidak Diganggu</string>
+    <string name="battery_light_low_blinking_title">Lampu berkelip ketika bateri lemah</string>
+    <string name="battery_light_cat">Warna lampu bateri semasa mengecas</string>
+    <string name="battery_light_low_color">Bateri lemah</string>
+    <string name="battery_light_medium_color">Bateri sederhana</string>
+    <string name="battery_light_full_color">Bateri hampir penuh</string>
+    <string name="battery_light_reallyfull_color">Bateri penuh (100)</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Pencegahan \"wake-up\" secara tidak sengaja</string>
+    <string name="proximity_wake_summary">Periksa sensor jarak sebelum menghidupkan layar</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <string name="custom_light_title">Warna lampu</string>
+    <string name="custom_light_on_time_title">Cahaya pada masa semasa denyutan nadi (ms)</string>
+    <string name="custom_light_off_time_title">Tempoh lampu OFF semasa denyutan led (ms)</string>
     <!-- Hardware button navigation -->
-    <string name="picker_activities">Activities</string>
-    <string name="select_custom_app_title">Select custom app</string>
-    <string name="select_custom_activity_title">Select custom activity</string>
-    <string name="profile_applist_title">Applications</string>
-    <string name="choose_action_title">Choose action</string>
-    <string name="action_entry_default_action">Default settings</string>
-    <string name="action_entry_select_app">Select application</string>
-    <string name="action_entry_custom_action">Select custom action</string>
-    <string name="hardware_keys_volume_keys_title">Volume rocker</string>
-    <string name="hardware_keys_home_key_title">Home button</string>
-    <string name="hardware_keys_menu_key_title">Menu button</string>
-    <string name="hardware_keys_assist_key_title">Search button</string>
-    <string name="hardware_keys_appswitch_key_title">Overview button</string>
-    <string name="hardware_keys_back_key_title">Back button</string>
-    <string name="hardware_keys_double_tap_summary">Set double tap action</string>
-    <string name="hardware_keys_single_tap_summary">Set single tap action</string>
-    <string name="hardware_keys_long_press_summary">Set long press action</string>
-    <string name="hardware_keys_single_tap_title">Single tap action</string>
-    <string name="hardware_keys_long_press_title">Long press action</string>
-    <string name="hardware_keys_double_tap_title">Double tap action</string>
-    <string name="hardware_keys">Buttons</string>
-    <string name="hardware_keys_summary">Customise hardware buttons</string>
-    <string name="navigation_keys">Navigation bar</string>
-    <string name="navigation_keys_summary">Customise on-screen navigation bar</string>
-    <string name="hardware_keys_category">Hardware navigation buttons</string>
-    <string name="hardware_keys_disable_title">Disable hardware buttons</string>
+    <string name="picker_activities">Aktiviti</string>
+    <string name="select_custom_app_title">Pilih aplikasi pilihan</string>
+    <string name="select_custom_activity_title">Pilih aktiviti pilihan</string>
+    <string name="profile_applist_title">Aplikasi</string>
+    <string name="choose_action_title">Pilih tindakan</string>
+    <string name="action_entry_default_action">Tetapan lalai</string>
+    <string name="action_entry_select_app">Pilih aplikasi</string>
+    <string name="action_entry_custom_action">Pilih tindakan pilihan</string>
+    <string name="hardware_keys_volume_keys_title">Pemilih kekuatan suara</string>
+    <string name="hardware_keys_home_key_title">Butang utama</string>
+    <string name="hardware_keys_menu_key_title">Butang menu</string>
+    <string name="hardware_keys_assist_key_title">Butang Carian</string>
+    <string name="hardware_keys_appswitch_key_title">Gambaran butang</string>
+    <string name="hardware_keys_back_key_title">Butang kembali</string>
+    <string name="hardware_keys_double_tap_summary">Tetapan tindakan sentuh berganda</string>
+    <string name="hardware_keys_single_tap_summary">Tetapan tindakan sentuh sekali</string>
+    <string name="hardware_keys_long_press_summary">Tetapan tekan lama</string>
+    <string name="hardware_keys_single_tap_title">Tindakan sentuh sekali</string>
+    <string name="hardware_keys_long_press_title">Tetapan tekan lama</string>
+    <string name="hardware_keys_double_tap_title">Tetapan tindakan sentuh berganda</string>
+    <string name="hardware_keys">Butang</string>
+    <string name="hardware_keys_summary">Sesuaikan butang perkakasan</string>
+    <string name="navigation_keys">Bar navigasi</string>
+    <string name="navigation_keys_summary">Sesuaikan bar navigasi pada layar</string>
+    <string name="hardware_keys_category">Butang navigasi perkakasan</string>
+    <string name="hardware_keys_disable_title">Nyahaktifkan butang perkakasan</string>
     <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Buttons backlight timeout</string>
-    <string name="backlight_timeout_on">Enabled always</string>
-    <string name="backlight_timeout_3s">3 sec</string>
-    <string name="backlight_timeout_default">5 sec (default)</string>
-    <string name="backlight_timeout_10s">10 sec</string>
-    <string name="backlight_timeout_15s">15 sec</string>
-    <string name="backlight_timeout_20s">20 sec</string>
-    <string name="backlight_timeout_30s">30 sec</string>
-    <string name="button_title">Buttons</string>
+    <string name="backlight_timeout_title">Butang lampu masa latar tamat</string>
+    <string name="backlight_timeout_on">Sentiasa dibenarkan</string>
+    <string name="backlight_timeout_3s">3 saat</string>
+    <string name="backlight_timeout_default">5 saat (lalai)</string>
+    <string name="backlight_timeout_10s">10 saat</string>
+    <string name="backlight_timeout_15s">15 saat</string>
+    <string name="backlight_timeout_20s">20 saat</string>
+    <string name="backlight_timeout_30s">30 saat</string>
+    <string name="button_title">Butang</string>
     <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Backlight</string>
-    <string name="button_brightness_sw_title">Enable backlight</string>
-    <string name="button_backlight_on_touch_only_title">Button touch</string>
-    <string name="button_backlight_on_touch_only_summary">Enablebacklight with timeout only on button touch</string>
+    <string name="button_brightness_title">Lampu latar</string>
+    <string name="button_brightness_sw_title">Aktifkan lampu latar</string>
+    <string name="button_backlight_on_touch_only_title">Butang sentuh</string>
+    <string name="button_backlight_on_touch_only_summary">Aktifkan lampu latar dengan masa tamat di butang sentuh</string>
     <!-- ANBI -->
-    <string name="anbi_title">Accidental touch</string>
-    <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
+    <string name="anbi_title">Sentuhan tidak sengaja</string>
+    <string name="anbi_summary">Elak interaksi dengan butang navigasi apabila skrin disentuh</string>
     <!-- Global Actions -->
-    <string name="power_menu_customization_category_title">Power menu customization</string>
-    <string name="global_actions_title">Power menu actions</string>
-    <string name="global_actions_summary">Select what to show when you press the power button</string>
-    <string name="global_actions_power">Power</string>
-    <string name="global_actions_restart">Restart</string>
-    <string name="global_actions_airplane">Airplane</string>
-    <string name="global_actions_settings">Settings</string>
-    <string name="global_actions_lockdown">Lock Down</string>
-    <string name="global_actions_soundpanel">Sound Panel</string>
-    <string name="global_actions_users">Users</string>
-    <string name="global_actions_screenshot">Screenshot</string>
-    <string name="global_actions_screenrecord">Screenrecord</string>
-    <string name="global_actions_flashlight">Flashlight</string>
-    <string name="global_actions_emergency">Emergency</string>
-    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
-    <string name="global_actions_advanced_reboot_summary">When restarting also show options for recovery and bootloader</string>
-    <string name="global_actions_max_columns_title">Max actions to show</string>
-    <string name="global_actions_max_columns_summary">Set how many actions to show before buttons move to overflow menu</string>
+    <string name="power_menu_customization_category_title">Penyesuaian menu kuasa</string>
+    <string name="global_actions_title">Tindakan menu kuasa</string>
+    <string name="global_actions_summary">Pilih apa yang akan ditunjukkan semasa anda menekan butang kuasa</string>
+    <string name="global_actions_power">Kuasa</string>
+    <string name="global_actions_restart">Memulakan semula</string>
+    <string name="global_actions_airplane">Pesawat</string>
+    <string name="global_actions_settings">Tetapan</string>
+    <string name="global_actions_lockdown">Penutupan dan penyekatan</string>
+    <string name="global_actions_soundpanel">Panel Bunyi</string>
+    <string name="global_actions_users">Pengguna</string>
+    <string name="global_actions_screenshot">Tangkap layar</string>
+    <string name="global_actions_screenrecord">Rakam layar</string>
+    <string name="global_actions_flashlight">Lampu suluh</string>
+    <string name="global_actions_emergency">Kecemasan</string>
+    <string name="global_actions_advanced_reboot_title">Aktifkan mula semula lanjutan</string>
+    <string name="global_actions_advanced_reboot_summary">Semasa memulakan semula, tunjukkan pilihan untuk pemulihan dan bootloader</string>
+    <string name="global_actions_max_columns_title">Paparkan tindakan maksimum</string>
+    <string name="global_actions_max_columns_summary">Tetapkan berapa banyak tindakan yang akan dipaparkan sebelum butang beralih ke menu limpahan</string>
     <!-- Settings dashboard gestures -->
-    <string name="gesture_settings_dashboard_title">Gestures</string>
-    <string name="gesture_settings_dashboard_summary">Manage gesture settings</string>
-    <string name="custom_device_gestures_preference_title">Device gestures</string>
+    <string name="gesture_settings_dashboard_title">Gerak isyarat</string>
+    <string name="gesture_settings_dashboard_summary">Uruskan tetapan gerak isyarat</string>
+    <string name="custom_device_gestures_preference_title">Gerak isyarat untuk peranti</string>
     <!-- Heads up -->
-    <string name="heads_up_notifications">Heads up</string>
-    <string name="heads_up_notifications_summary">Control heads up behaviour</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
+    <string name="heads_up_notifications">Notifikasi pop naik</string>
+    <string name="heads_up_notifications_summary">Kawal pop naik</string>
+    <string name="summary_heads_up_enabled">Notifikasi pop naik diaktifkan</string>
+    <string name="summary_heads_up_disabled">Notifikasi pop naik dinyahaktifkan</string>
+    <string name="add_heads_up_package">Tambah aplikasi</string>
+    <string name="add_heads_up_stoplist_summary">Nyahaktifkan notifikasi untuk aplikasi-aplikasi ini</string>
+    <string name="add_heads_up_blacklist_summary">Nyah-aktifkan notifikasi untuk aplikasi-aplikasi ini</string>
     <string name="heads_up_stoplist_title">Stoplist</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="heads_up_blacklist_title">Senarai hitam</string>
+    <string name="profile_choose_app">Pilih aplikasi</string>
+    <string name="dialog_delete_title">Hapus</string>
+    <string name="dialog_delete_message">Padamkan yang dipilih?</string>
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-    <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+    <string name="fp_unlock_keystore_title">Buka kunci melalui cap jari</string>
+    <string name="fp_unlock_keystore_summary">Buka kunci peranti dengan cap jari selepas boot semula tanpa PIN/Kata Laluan/Corak\nCatatan: dengan risiko anda sendiri!</string>
     <!-- Volume panel on left switch -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_title">Paparkan panel suara di kiri</string>
     <!-- Density options -->
-    <string name="density_category">Density options</string>
+    <string name="density_category">Pilihan ketumpatan</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Gesture bar length</string>
-    <string name="hidden_label">Hidden</string>
-    <string name="long_label">Long</string>
+    <string name="navbar_length">Gerak isyarat panjang bar</string>
+    <string name="hidden_label">Tersembunyi</string>
+    <string name="long_label">Panjang</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
-    <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+    <string name="lockscreen_media_art_title">Paparkan muka hadapan media</string>
+    <string name="lockscreen_media_art_summary">Paparkan media muka hadapan album yang sedang dimainkan pada layar kunci</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_summary">Enable or disable network speed indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
+    <string name="traffic_title">Petunjuk trafik</string>
+    <string name="traffic_summary">Aktifkan atau matikan penunjuk kelajuan rangkaian</string>
+    <string name="network_traffic_title">Trafik rangkaian</string>
+    <string name="network_traffic_type">Pilih jenis aktiviti rangkaian</string>
     <string name="show_network_traffic_up">Uplink</string>
     <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="show_network_traffic_all">Uplink dan Downlink</string>
+    <string name="network_traffic_state_title">Tunjuk aktiviti rangkaian di bar status</string>
+    <string name="network_traffic_autohide_threshold_title">Auto sembunyi had aktiviti rangkaian (KB/s)</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">Leret untuk tangkap layar</string>
+    <string name="three_finger_gesture_summary">Leret ke bawah dengan tiga jari untuk tangkapan layar</string>
     <!-- Weather - OmniJaws Settings -->
-    <string name="weather_title">Weather</string>
-    <string name="weather_config_title">Service settings</string>
+    <string name="weather_title">Cuaca</string>
+    <string name="weather_config_title">Perkhidmatan dan tetapan</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Weather style</string>
-    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
-    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="lock_screen_weather_style_title">Tetapan cuaca</string>
+    <string name="lock_screen_weather_style_summaryOff">Cuaca ditunjukkan di bawah garis tarikh bersama lokasi</string>
+    <string name="lock_screen_weather_style_summaryOn">Cuaca dipaparkan di bawah garis tarikh tanpa lokasi</string>
+    <string name="header_weather_title">Tajuk paparan cuaca</string>
+    <string name="header_weather_summary">Aktifkan notifikasi panel paparan cuaca</string>
+    <string name="weather_icon_pack_title">Pek ikon kondisi cuaca</string>
+    <string name="weather_icon_pack_note">Perhatian\u003a anda boleh memasang pek ikon baru dari play store dengan mencari \"Chronus icons\"</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Lockscreen weather</string>
-    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
-    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
-    <string name="lockscreen_weather_show_city_title">Show city name</string>
-    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_title">Cuaca di Layar kunci</string>
+    <string name="lockscreen_weather_summary">Paparkan keadaan semasa cuaca dan suhu di layar kunci</string>
+    <string name="lockscreen_items_aod_info_title">Konfigurasi keterlihatan ini juga terpakai untuk paparan ambien</string>
+    <string name="lockscreen_weather_show_city_title">Paparkan nama bandar</string>
+    <string name="lockscreen_weather_show_city_summary">Paparkan nama imej bandar di kiri</string>
+    <string name="lockscreen_weather_show_temp_title">Paparkan suhu</string>
+    <string name="lockscreen_weather_show_temp_summary">Paparkan nama imej bandar di kanan</string>
     <!-- FOD animations -->
-    <string name="fod_recog_animation">FOD recognizing animation</string>
-    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
-    <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
-    <string name="fod_recog_animation_miui_normal">MIUI default</string>
+    <string name="fod_recog_animation">FOD pengenalan animasi</string>
+    <string name="fod_recog_animation_summary">Paparkan animasi semasa mengimbas jari anda</string>
+    <string name="fod_recog_animation_effect_title">Pengenalan kesan animasi</string>
+    <string name="fod_recog_animation_miui_normal">Lalai MIUI</string>
     <string name="fod_recog_animation_miui_aod">AOD</string>
-    <string name="fod_recog_animation_miui_light">Light</string>
+    <string name="fod_recog_animation_miui_light">Lampu</string>
     <string name="fod_recog_animation_miui_pop">Pop</string>
-    <string name="fod_recog_animation_miui_pulse">Pulse</string>
-    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
-    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
+    <string name="fod_recog_animation_miui_pulse">Denyut</string>
+    <string name="fod_recog_animation_miui_pulse_white">Denyut (Putih)</string>
+    <string name="fod_recog_animation_miui_rhythm">Rentak</string>
     <string name="fod_recog_animation_op_cosmos">Cosmos</string>
     <string name="fod_recog_animation_op_mclaren">McLaren</string>
     <string name="fod_recog_animation_op_stripe">Stripe</string>
@@ -214,11 +214,13 @@
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total RAM</string>
+    <string name="total_ram">Jumlah RAM</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Kawalan pemain</string>
+    <string name="volume_button_music_control_summary">Bila skrin ditutup, menekan butang kawalan kelantangan suara akan melangkau trek music</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
-    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    <string name="volume_rocker_wake_title">Panel Suara</string>
+    <string name="volume_rocker_wake_summary">Bangunkan peranti anda dengan menekan kekunci kelantangan</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert layout</string>
 </resources>

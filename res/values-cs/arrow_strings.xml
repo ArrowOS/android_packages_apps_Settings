@@ -221,4 +221,6 @@
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Probudit tlačítky hlasitosti</string>
     <string name="volume_rocker_wake_summary">Probudit zařízení stisknutím tlačítek hlasitosti</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert layout</string>
 </resources>

@@ -139,7 +139,7 @@
     <string name="summary_heads_up_disabled">浮动通知已禁用</string>
     <string name="add_heads_up_package">添加应用</string>
     <string name="add_heads_up_stoplist_summary">进入这些应用程序时停用浮动通知</string>
-    <string name="add_heads_up_blacklist_summary">禁止来自这些应用程序的浮动通知</string>
+    <string name="add_heads_up_blacklist_summary">禁用来自这些应用程序的浮动通知</string>
     <string name="heads_up_stoplist_title">停用列表</string>
     <string name="heads_up_blacklist_title">禁用列表</string>
     <string name="profile_choose_app">选择应用</string>
@@ -186,7 +186,7 @@
     <!-- Lockscreen weather settings -->
     <string name="lockscreen_weather_title">锁屏天气</string>
     <string name="lockscreen_weather_summary">在锁屏界面显示当前天气状况与温度</string>
-    <string name="lockscreen_items_aod_info_title">此可见性配置也适用于环境显示</string>
+    <string name="lockscreen_items_aod_info_title">此可见性配置也适用于主动显示</string>
     <string name="lockscreen_weather_show_city_title">显示城市名</string>
     <string name="lockscreen_weather_show_city_summary">在天气图标左边显示城市名</string>
     <string name="lockscreen_weather_show_temp_title">显示温度</string>
@@ -221,4 +221,6 @@
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">音量键唤醒</string>
     <string name="volume_rocker_wake_summary">使用音量键唤醒您的设备</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert layout</string>
 </resources>
