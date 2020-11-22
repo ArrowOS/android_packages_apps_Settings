@@ -21,4 +21,7 @@
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">ArrowOS Stats</string>
     <string name="arrow_stats_summary">Just counting how many devices we run on</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Screen refresh rate</string>
 </resources>
