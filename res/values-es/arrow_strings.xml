@@ -182,7 +182,7 @@
     <string name="header_weather_title">Vista del clima en el encabezado</string>
     <string name="header_weather_summary">Habilitar clima en la cabecera del panel de notificaciones</string>
     <string name="weather_icon_pack_title">Paquete de iconos de clima</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_note">Nota\u003a puedes instalar nuevos paquetes de iconos desde la Play Store buscando \"Chronus icons\"</string>
     <!-- Lockscreen weather settings -->
     <string name="lockscreen_weather_title">Tiempo en la pantalla de bloqueo</string>
     <string name="lockscreen_weather_summary">Mostrar clima en la pantalla de bloqueo</string>
@@ -222,5 +222,8 @@
     <string name="volume_rocker_wake_title">Encender pantalla con botones de volumen</string>
     <string name="volume_rocker_wake_summary">Encender el dispositivo presionando los botones de volumen</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Invert layout</string>
+    <string name="navbar_invert_layout_title">Invertir barra de navegación</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Screen off fingerprint</string>
+    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
 </resources>

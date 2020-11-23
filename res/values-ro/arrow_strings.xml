@@ -95,15 +95,15 @@
     <string name="backlight_timeout_title">Buttons backlight timeout</string>
     <string name="backlight_timeout_on">Enabled always</string>
     <string name="backlight_timeout_3s">3 sec</string>
-    <string name="backlight_timeout_default">5 sec (default)</string>
+    <string name="backlight_timeout_default">5 sec (implicit)</string>
     <string name="backlight_timeout_10s">10 sec</string>
     <string name="backlight_timeout_15s">15 sec</string>
     <string name="backlight_timeout_20s">20 sec</string>
     <string name="backlight_timeout_30s">30 sec</string>
-    <string name="button_title">Buttons</string>
+    <string name="button_title">Butoane</string>
     <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Backlight</string>
-    <string name="button_brightness_sw_title">Enable backlight</string>
+    <string name="button_brightness_title">Lumină de fundal</string>
+    <string name="button_brightness_sw_title">Activează lumina de fundal</string>
     <string name="button_backlight_on_touch_only_title">Button touch</string>
     <string name="button_backlight_on_touch_only_summary">Enablebacklight with timeout only on button touch</string>
     <!-- ANBI -->
@@ -131,7 +131,7 @@
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">Gesturi</string>
     <string name="gesture_settings_dashboard_summary">Gestionați setările gesturilor</string>
-    <string name="custom_device_gestures_preference_title">Device gestures</string>
+    <string name="custom_device_gestures_preference_title">Gesturi dispozitiv</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">Heads up</string>
     <string name="heads_up_notifications_summary">Control heads up behaviour</string>
@@ -142,7 +142,7 @@
     <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
     <string name="heads_up_stoplist_title">Stoplist</string>
     <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="profile_choose_app">Choose app</string>
+    <string name="profile_choose_app">Alegeți aplicația</string>
     <string name="dialog_delete_title">Delete</string>
     <string name="dialog_delete_message">Remove selected item?</string>
     <!-- Fingerprint unlock keystore -->
@@ -223,4 +223,7 @@
     <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Invert layout</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Screen off fingerprint</string>
+    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
 </resources>

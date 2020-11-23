@@ -222,5 +222,8 @@
     <string name="volume_rocker_wake_title">Ses tuşlarıyla uyandır</string>
     <string name="volume_rocker_wake_summary">Ses tuşlarına basıldığında cihazı uyandır</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Invert layout</string>
+    <string name="navbar_invert_layout_title">Düzeni ters çevir</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Screen off fingerprint</string>
+    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
 </resources>
