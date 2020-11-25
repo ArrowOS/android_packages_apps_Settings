@@ -224,6 +224,6 @@
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Layout omkeren</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+    <string name="fod_gesture_title">Vingerafdruk bij scherm uit</string>
+    <string name="fod_gesture_summary">Ontgrendelen van het apparaat mogelijk zonder eerst het scherm wakker te maken</string>
 </resources>
