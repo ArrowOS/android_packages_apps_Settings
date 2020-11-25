@@ -15,11 +15,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Arrow version preference -->
-    <string name="arrow_version">"ArrowOS version"</string>
+    <string name="arrow_version">"Versi ArrowOS"</string>
     <string name="build_date">"Tanggal pembuatan"</string>
-    <string name="about_device_name">"Device"</string>
+    <string name="about_device_name">"Perangkat"</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">Sentuh untuk melihat info</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">Statistik ArrowOS</string>
     <string name="arrow_stats_summary">Just counting how many devices we run on</string>

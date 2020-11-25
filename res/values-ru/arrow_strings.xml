@@ -224,6 +224,6 @@
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Инвертировать порядок кнопок</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+    <string name="fod_gesture_title">Работа сканера отпечатка пальца только с выключенным экраном</string>
+    <string name="fod_gesture_summary">Позволяет разблокировать устройство без включения экрана</string>
 </resources>

@@ -224,6 +224,6 @@
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">反转布局</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+    <string name="fod_gesture_title">息屏指纹</string>
+    <string name="fod_gesture_summary">无需唤醒屏幕即可解锁设备</string>
 </resources>
