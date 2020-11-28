@@ -19,22 +19,22 @@
     <string name="build_date">"Дата збірки"</string>
     <string name="about_device_name">"Пристрій"</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">Натисніть, щоб переглянути інформацію</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">Статистика ArrowOS</string>
     <string name="arrow_stats_summary">Просто підраховуємо, скільки пристроїв ми запускаємо</string>
     <!--Double Tap to Sleep Statusbar-->
-    <string name="statusbar_gestures_category_title">Statusbar gestures</string>
+    <string name="statusbar_gestures_category_title">Жести рядку стану</string>
     <string name="double_tap_sleep_gesture_title">Двічі торкніться рядка стану, щоб заблокувати</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">What to do</string>
+    <string name="lockscreen_tweaks_category_title">Що робити</string>
     <string name="double_tap_sleep_lockscreen_title">Подвійне натискання для засинання на екрані блокування</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Звук знімка екрану</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Зв’язати гучність дзвінка &amp; сповіщень</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Color bucket</string>
+    <string name="theme_customization_systemui_title">Палітра кольорів</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Інформація про заряджання на екрані блокування</string>
     <string name="lockscreen_battery_info_summary">Відобразити струм заряджання, напругу, потужність та температуру акумулятора на екрані блокування під час зарядки</string>
@@ -43,12 +43,12 @@
     <!-- Settings categories -->
     <string name="misc_category_title">Різне</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">Елементи рядку стану</string>
     <!-- Display customization category -->
-    <string name="customization_category_title">Customization</string>
+    <string name="customization_category_title">Персоналізація</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Індикація зарядки акумулятора</string>
-    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
+    <string name="battery_light_summary">Індикація батареї в режимі DND, низький заряд акумулятора</string>
     <string name="battery_light_enable">Індикація батареї</string>
     <string name="battery_light_allow_on_dnd_title">Індикатор заряду в режимі \"Не турбувати\"</string>
     <string name="battery_light_low_blinking_title">Блимання індикатора при низькому заряді</string>
@@ -58,10 +58,10 @@
     <string name="battery_light_full_color">Майже повний заряд батареї</string>
     <string name="battery_light_reallyfull_color">Повний заряд батареї (100%)</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Запобігання випадкового пробудження</string>
+    <string name="proximity_wake_summary">Перевірити датчик наближення до пробудження екрану</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
+    <string name="custom_light_title">Колір світлодіоду</string>
     <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
     <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
     <!-- Hardware button navigation -->
@@ -226,4 +226,7 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Screen off fingerprint</string>
     <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Quick torch</string>
+    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
 </resources>

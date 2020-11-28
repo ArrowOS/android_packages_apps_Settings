@@ -66,7 +66,7 @@
     <string name="custom_light_off_time_title">Czas nieświecenia diody LED podczas pulsowania (ms)\"</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">Aktywności</string>
-    <string name="select_custom_app_title">Wybierz niestandardową aplikację</string>
+    <string name="select_custom_app_title">Wybierz niestandardową aplikacje</string>
     <string name="select_custom_activity_title">Wybierz niestandardową aktywność</string>
     <string name="profile_applist_title">Aplikacje</string>
     <string name="choose_action_title">Wybierz akcję</string>
@@ -224,6 +224,9 @@
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Odwróć układ</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+    <string name="fod_gesture_title">Odcisk palca na wyłączonym ekranie</string>
+    <string name="fod_gesture_summary">Umożliwia odblokowanie urządzenia bez konieczności wcześniejszego wybudzania ekranu</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Quick torch</string>
+    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
 </resources>

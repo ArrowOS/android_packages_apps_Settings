@@ -226,4 +226,7 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Vingerafdruk bij scherm uit</string>
     <string name="fod_gesture_summary">Ontgrendelen van het apparaat mogelijk zonder eerst het scherm wakker te maken</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Quick torch</string>
+    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
 </resources>
