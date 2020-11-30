@@ -227,6 +227,6 @@
     <string name="fod_gesture_title">Работа сканера отпечатка пальца только с выключенным экраном</string>
     <string name="fod_gesture_summary">Позволяет разблокировать устройство без включения экрана</string>
     <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Quick torch</string>
-    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
+    <string name="power_button_torch_title">Быстрый фонарик</string>
+    <string name="power_button_torch_summary">Когда экран выключен, долгое нажатие кнопки питания включит фонарик</string>
 </resources>

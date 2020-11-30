@@ -224,9 +224,9 @@
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Düzeni ters çevir</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+    <string name="fod_gesture_title">Ekran kapalı parmak izi</string>
+    <string name="fod_gesture_summary">Önce ekranı uyandırmak zorunda kalmadan cihazın kilidini açmaya izin verir</string>
     <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Quick torch</string>
-    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
+    <string name="power_button_torch_title">Hızlı el feneri</string>
+    <string name="power_button_torch_summary">Ekran kapalıyken, uzun süreli güç tuşuna basıldığında el feneri etkinleştirilir</string>
 </resources>
