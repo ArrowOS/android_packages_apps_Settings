@@ -405,11 +405,11 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     @VisibleForTesting
     void updateBatteryTempPreference() {
         if (batteryTemp) {
-            mBatteryTemp.setSummary(
+            mBatteryTemp.setSubtitle(
                 ArrowUtils.batteryTemperature(getContext(), false));
             batteryTemp = false;
         } else {
-            mBatteryTemp.setSummary(
+            mBatteryTemp.setSubtitle(
                 ArrowUtils.batteryTemperature(getContext(), true));
             batteryTemp = true;
         }

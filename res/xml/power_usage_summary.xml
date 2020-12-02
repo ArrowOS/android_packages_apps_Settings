@@ -47,11 +47,6 @@
         android:order="-1"
         android:selectable="false" />
 
-    <com.android.settings.fuelgauge.PowerGaugePreference
-        android:key="battery_temp"
-        android:title="@string/battery_temp_title"
-        android:selectable="true" />
-
     <Preference
         android:fragment="com.android.settings.fuelgauge.SmartBatterySettings"
         android:key="smart_battery_manager"
@@ -73,6 +68,12 @@
          android:title="@string/battery_light_settings"
          android:order="6"
          android:summary="@string/battery_light_summary" />
+
+    <com.android.settings.fuelgauge.PowerGaugePreference
+        android:key="battery_temp"
+        android:title="@string/battery_temp_title"
+        android:summary="@string/battery_temp_summary"
+        android:selectable="true" />
 
     <SwitchPreference
         android:key="battery_percentage"
