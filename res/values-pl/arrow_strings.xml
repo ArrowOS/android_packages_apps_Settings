@@ -227,6 +227,9 @@
     <string name="fod_gesture_title">Odcisk palca na wyłączonym ekranie</string>
     <string name="fod_gesture_summary">Umożliwia odblokowanie urządzenia bez konieczności wcześniejszego wybudzania ekranu</string>
     <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Quick torch</string>
-    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
+    <string name="power_button_torch_title">Szybkie uruchomienie latarki</string>
+    <string name="power_button_torch_summary">Gdy ekran jest wyłączony, długie naciśnięcie przycisku zasilania włączy latarkę</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_summary">Tap to switch scale</string>
 </resources>

@@ -229,4 +229,7 @@
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">快捷手电筒</string>
     <string name="power_button_torch_summary">当屏幕关闭时，长按电源键将启用手电筒</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_summary">Tap to switch scale</string>
 </resources>

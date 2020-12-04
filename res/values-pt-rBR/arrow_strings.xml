@@ -227,6 +227,9 @@
     <string name="fod_gesture_title">Desbloquear com impressão digital quando a tela estiver desligada</string>
     <string name="fod_gesture_summary">Permite desbloquear o dispositivo sem ter que ligar a tela primeiro</string>
     <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Quick torch</string>
-    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
+    <string name="power_button_torch_title">Lanterna rápida</string>
+    <string name="power_button_torch_summary">Quando a tela estiver desligada, segurar o botão liga/desliga irá ativar a lanterna</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_summary">Tap to switch scale</string>
 </resources>

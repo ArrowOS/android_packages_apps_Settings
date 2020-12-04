@@ -229,4 +229,7 @@
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">クイックトーチ</string>
     <string name="power_button_torch_summary">画面消灯時に電源ボタンの長押しでトーチを有効にする</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_summary">Tap to switch scale</string>
 </resources>
