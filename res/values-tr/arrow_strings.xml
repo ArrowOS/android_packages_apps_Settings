@@ -47,10 +47,10 @@
     <!-- Display customization category -->
     <string name="customization_category_title">Özelleştirme</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Şarj oluyor ışığı</string>
+    <string name="battery_light_settings">Pil şarj ışığı</string>
     <string name="battery_light_summary">Rahatsız etmeyin modunda pil ışığı davranışı, düşük pil</string>
     <string name="battery_light_enable">Pil ışığı</string>
-    <string name="battery_light_allow_on_dnd_title">Rahatsız etmeyinde ışığı yak söndür</string>
+    <string name="battery_light_allow_on_dnd_title">Rahatsız etmeyin modunda ışığı yak söndür</string>
     <string name="battery_light_low_blinking_title">Düşük pilde ışığı yakıp söndür</string>
     <string name="battery_light_cat">Şarj olurken pil ışığı rengi</string>
     <string name="battery_light_low_color">Düşük pil</string>
@@ -146,12 +146,12 @@
     <string name="dialog_delete_title">Sil</string>
     <string name="dialog_delete_message">Seçili öge kaldırılsın mı?</string>
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">Parmak iziyle kilidi aç</string>
+    <string name="fp_unlock_keystore_title">Parmak iziyle kilit açma</string>
     <string name="fp_unlock_keystore_summary">Yeniden başlattıktan sonra PIN/Şifre/Desen olmadan parmak iziyle cihazın kilidini açın\nNot: kendi sorumluluğunuzdadır!</string>
     <!-- Volume panel on left switch -->
     <string name="volume_panel_on_left_title">Ses panelini solda göster</string>
     <!-- Density options -->
-    <string name="density_category">Yoğunluk seçenekleri</string>
+    <string name="density_category">Ekran yoğunluğu</string>
     <!-- Navbar length -->
     <string name="navbar_length">Navigasyon çubuğu genişliği</string>
     <string name="hidden_label">Gizli</string>
@@ -160,18 +160,18 @@
     <string name="lockscreen_media_art_title">Medya kapak resmini göster</string>
     <string name="lockscreen_media_art_summary">Şu anda çalan medyanın albüm kapağını kilit ekranında göster</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Ağ göstergeleri</string>
-    <string name="traffic_summary">İnternet hız göstergesini aktif edin veya devre dışı bırakın</string>
+    <string name="traffic_title">Ağ etkinliği</string>
+    <string name="traffic_summary">Ağ hızı göstergelerini etkinleştir veya devre dışı bırak</string>
     <string name="network_traffic_title">Ağ etkinliği</string>
     <string name="network_traffic_type">İnternet etkinlik türünü seç</string>
-    <string name="show_network_traffic_up">Giden</string>
-    <string name="show_network_traffic_down">Gelen</string>
-    <string name="show_network_traffic_all">Giden ve gelen</string>
+    <string name="show_network_traffic_up">Yükleme</string>
+    <string name="show_network_traffic_down">İndirme</string>
+    <string name="show_network_traffic_all">Yükleme ve İndirme</string>
     <string name="network_traffic_state_title">Durum çubuğunda ağ etkinliğini göster</string>
     <string name="network_traffic_autohide_threshold_title">Ağ etkinliğini otomatik olarak gizleme eşiği (KB/s)</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Ekran görüntüsü almak için kaydırın</string>
-    <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızı kaydırın</string>
+    <string name="three_finger_gesture">Üç parmak hareketi</string>
+    <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızı ekran üzerinde kaydırın</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Hava durumu</string>
     <string name="weather_config_title">Servis ayarları</string>
@@ -179,7 +179,7 @@
     <string name="lock_screen_weather_style_title">Hava durumu stili</string>
     <string name="lock_screen_weather_style_summaryOff">Hava durumu tarih satırının altında konum ile birlikte gösterilir</string>
     <string name="lock_screen_weather_style_summaryOn">Hava durumu tarih satırının altında konum olmadan gösterilir</string>
-    <string name="header_weather_title">Başlık hava durumunu gösterir</string>
+    <string name="header_weather_title">Başlık görünümünde hava durumu</string>
     <string name="header_weather_summary">Bildirim paneli başlığında hava durumunu göster</string>
     <string name="weather_icon_pack_title">Durum simge paketi</string>
     <string name="weather_icon_pack_note">Not\u003a Play Store\'dan \"Chronus icons\" uygulamasını indirip yeni simge paketleri yükleyebilirsiniz</string>
@@ -190,7 +190,7 @@
     <string name="lockscreen_weather_show_city_title">Şehir adını göster</string>
     <string name="lockscreen_weather_show_city_summary">Simgenin solunda şehir adını göster</string>
     <string name="lockscreen_weather_show_temp_title">Sıcaklığı göster</string>
-    <string name="lockscreen_weather_show_temp_summary">Simgenin sağında şehrin sıcaklığını göster</string>
+    <string name="lockscreen_weather_show_temp_summary">Simgenin sağında mevcut şehir sıcaklığını göster</string>
     <!-- FOD animations -->
     <string name="fod_recog_animation">Parmak izi tanıma animasyonu</string>
     <string name="fod_recog_animation_summary">Parmak izi okunurken bir animasyon gösterir</string>
@@ -217,19 +217,19 @@
     <string name="total_ram">Toplam RAM</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Oynatma kontrolü</string>
-    <string name="volume_button_music_control_summary">Ekran kapalıyken, ses tuşlarına uzun basmak şarkıyı değiştirir</string>
+    <string name="volume_button_music_control_summary">Ekran kapalıyken ses tuşlarına uzun basarak şarkıyı değiştir</string>
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Ses tuşlarıyla uyandır</string>
     <string name="volume_rocker_wake_summary">Ses tuşlarına basıldığında cihazı uyandır</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Düzeni ters çevir</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Ekran kapalı parmak izi</string>
+    <string name="fod_gesture_title">Kapalı ekran parmak izi</string>
     <string name="fod_gesture_summary">Önce ekranı uyandırmak zorunda kalmadan cihazın kilidini açmaya izin verir</string>
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">Hızlı el feneri</string>
     <string name="power_button_torch_summary">Ekran kapalıyken, uzun süreli güç tuşuna basıldığında el feneri etkinleştirilir</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
-    <string name="battery_temp_summary">Tap to switch scale</string>
+    <string name="battery_temp_title">Pil sıcaklığı</string>
+    <string name="battery_temp_summary">Ölçeği değiştirmek için dokunun</string>
 </resources>

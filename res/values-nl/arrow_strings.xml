@@ -230,6 +230,6 @@
     <string name="power_button_torch_title">Snelle zaklamp</string>
     <string name="power_button_torch_summary">Wanneer het scherm uit is, zal lang drukken op de aan/uit-knop de zaklamp inschakelen</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
-    <string name="battery_temp_summary">Tap to switch scale</string>
+    <string name="battery_temp_title">Batterijtemperatuur</string>
+    <string name="battery_temp_summary">Tik om van schaal te wisselen</string>
 </resources>
