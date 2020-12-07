@@ -230,6 +230,6 @@
     <string name="power_button_torch_title">Szybkie uruchomienie latarki</string>
     <string name="power_button_torch_summary">Gdy ekran jest wyłączony, długie naciśnięcie przycisku zasilania włączy latarkę</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
-    <string name="battery_temp_summary">Tap to switch scale</string>
+    <string name="battery_temp_title">Temperatura baterii</string>
+    <string name="battery_temp_summary">Kliknij, aby zmienić skalę</string>
 </resources>
