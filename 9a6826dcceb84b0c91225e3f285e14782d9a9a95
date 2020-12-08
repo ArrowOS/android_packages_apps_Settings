@@ -16,6 +16,24 @@
       "revId": "9a6826dcceb84b0c91225e3f285e14782d9a9a95",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "46152b0a_f59117a0",
+        "filename": "res/values/arrow_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 280,
+      "author": {
+        "id": 171
+      },
+      "writtenOn": "2020-12-08T10:26:02Z",
+      "side": 1,
+      "message": "Done, sorry for it",
+      "parentUuid": "ac13daed_9321f4fa",
+      "revId": "9a6826dcceb84b0c91225e3f285e14782d9a9a95",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196",
+      "unresolved": false
     }
   ]
 }
