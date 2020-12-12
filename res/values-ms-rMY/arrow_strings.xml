@@ -22,7 +22,7 @@
     <string name="device_info_protected_single_press">Ketik untuk maklumat</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">ArrowOS Stats</string>
-    <string name="arrow_stats_summary">Mengira bilangan peranti yang dijalankan</string>
+    <string name="arrow_stats_summary">Mengira bilangan peranti yang dipasang</string>
     <!--Double Tap to Sleep Statusbar-->
     <string name="statusbar_gestures_category_title">Gerak isyarat Statusbar</string>
     <string name="double_tap_sleep_gesture_title">Sentuh berganda untuk \"sleep\" di bar status</string>
@@ -226,10 +226,18 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Matikan layar menggunakan cap jari</string>
     <string name="fod_gesture_summary">Membolehkan membuka kunci peranti tanpa perlu mengaktifkan skrin terlebih dahulu</string>
-    <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Lampu</string>
-    <string name="power_button_torch_summary">Apabila layar dimatikan, menekan butang kuasa lama akan membuka lampu</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">Suhu bateri</string>
     <string name="battery_temp_summary">Tap to switch scale</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Off</string>
+    <string name="greatest_tick_label">Half screen</string>
+    <string name="gesture_back_deadzone_label">Dead zone</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUse the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
+    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
 </resources>

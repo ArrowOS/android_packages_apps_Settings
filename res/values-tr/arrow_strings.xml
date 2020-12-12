@@ -37,7 +37,7 @@
     <string name="theme_customization_systemui_title">Renk paleti</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Kilit ekranı şarj bilgisi</string>
-    <string name="lockscreen_battery_info_summary">Cihaz şarj olurken kilit ekranında şarj cihazının varolan akımını, voltajını ve pil sıcaklığını görüntüler</string>
+    <string name="lockscreen_battery_info_summary">Şarj olurken kilit ekranında şarj cihazının maksimum akım voltajını ve pil sıcaklığını görüntüle</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Settings categories -->
@@ -108,7 +108,7 @@
     <string name="button_backlight_on_touch_only_summary">Yalnızca tuşa dokunulduğunda zaman aşımlı arka ışığı etkinleştir</string>
     <!-- ANBI -->
     <string name="anbi_title">Yanlışlıkla dokunma</string>
-    <string name="anbi_summary">Ekrana dokunulurken gezinme tuşları ile etkileşimi önle</string>
+    <string name="anbi_summary">Ekrana dokunulduğunda gezinme tuşları ile etkileşimi önle</string>
     <!-- Global Actions -->
     <string name="power_menu_customization_category_title">Güç menüsünü özelleştirme</string>
     <string name="global_actions_title">Güç menüsü işlemleri</string>
@@ -153,7 +153,7 @@
     <!-- Density options -->
     <string name="density_category">Ekran yoğunluğu</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Navigasyon çubuğu genişliği</string>
+    <string name="navbar_length">Hareket çubuğu genişliği</string>
     <string name="hidden_label">Gizli</string>
     <string name="long_label">Uzun</string>
     <!-- Lock screen cover art -->
@@ -226,10 +226,18 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Kapalı ekran parmak izi</string>
     <string name="fod_gesture_summary">Önce ekranı uyandırmak zorunda kalmadan cihazın kilidini açmaya izin verir</string>
-    <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Hızlı el feneri</string>
-    <string name="power_button_torch_summary">Ekran kapalıyken, uzun süreli güç tuşuna basıldığında el feneri etkinleştirilir</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Pil sıcaklığı</string>
     <string name="battery_temp_summary">Ölçeği değiştirmek için dokunun</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Off</string>
+    <string name="greatest_tick_label">Half screen</string>
+    <string name="gesture_back_deadzone_label">Dead zone</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUse the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
+    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
 </resources>
