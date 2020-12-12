@@ -262,6 +262,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
 	{
 		prefSet.removePreference(mBatteryLightPref);
 	}
+        updateBatteryTempPreference();
     }
 
     @Override
@@ -364,7 +365,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         updateLastFullChargePreference();
         mScreenUsagePref.setSubtitle(StringUtil.formatElapsedTime(getContext(),
                 mBatteryUtils.calculateScreenUsageTime(mStatsHelper), false));
-        updateBatteryTempPreference();
 
 	final long elapsedRealtimeUs = SystemClock.elapsedRealtime() * 1000;
         Intent batteryBroadcast = context.registerReceiver(null,
