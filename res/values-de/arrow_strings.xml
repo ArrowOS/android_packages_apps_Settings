@@ -93,7 +93,7 @@
     <string name="hardware_keys_disable_title">Hardwaretasten deaktivieren</string>
     <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">Buttons backlight timeout</string>
-    <string name="backlight_timeout_on">Enabled always</string>
+    <string name="backlight_timeout_on">Immer aktiviert</string>
     <string name="backlight_timeout_3s">3 Sek.</string>
     <string name="backlight_timeout_default">5 Sek. (Standard)</string>
     <string name="backlight_timeout_10s">10 Sek.</string>
@@ -141,32 +141,32 @@
     <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
     <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
     <string name="heads_up_stoplist_title">Stoplist</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
+    <string name="heads_up_blacklist_title">Sperrliste</string>
     <string name="profile_choose_app">App auswählen</string>
     <string name="dialog_delete_title">Löschen</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="dialog_delete_message">Ausgewähltes Element entfernen?</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Entsperren mit Fingerabdruck</string>
     <string name="fp_unlock_keystore_summary">Das Gerät nur mittels Fingerabdruck (ohne PIN/Passwort/Muster) nach dem Neustart entsperren\nWarnung: Auf eigene Verantwortung!</string>
     <!-- Volume panel on left switch -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_title">Lautstärkeregler auf der linken Seite anzeigen</string>
     <!-- Density options -->
     <string name="density_category">Density options</string>
     <!-- Navbar length -->
     <string name="navbar_length">Gesture bar length</string>
-    <string name="hidden_label">Hidden</string>
-    <string name="long_label">Long</string>
+    <string name="hidden_label">Ausgeblendet</string>
+    <string name="long_label">Lang</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
+    <string name="lockscreen_media_art_title">Albumcover anzeigen</string>
     <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
     <!-- Network traffic -->
     <string name="traffic_title">Traffic indicators</string>
     <string name="traffic_summary">Enable or disable network speed indicators</string>
     <string name="network_traffic_title">Netzwerkverkehr</string>
     <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
+    <string name="show_network_traffic_up">Ausgehend</string>
+    <string name="show_network_traffic_down">Eingehend</string>
+    <string name="show_network_traffic_all">Aus- und eingehend</string>
     <string name="network_traffic_state_title">Show net activity in statusbar</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
     <!-- Three-fingers-swipe to screenshot -->
@@ -174,9 +174,9 @@
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Wetter</string>
-    <string name="weather_config_title">Service settings</string>
+    <string name="weather_config_title">Diensteinstellungen</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Weather style</string>
+    <string name="lock_screen_weather_style_title">Wetter Stil</string>
     <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
     <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
     <string name="header_weather_title">Header view weather</string>
@@ -214,7 +214,7 @@
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total RAM</string>
+    <string name="total_ram">Gesamter RAM</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Wiedergabesteuerung</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
@@ -226,10 +226,27 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Screen off fingerprint</string>
     <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
-    <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Quick torch</string>
-    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">Batterietemperatur</string>
     <string name="battery_temp_summary">Tap to switch scale</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Off</string>
+    <string name="greatest_tick_label">Half screen</string>
+    <string name="gesture_back_deadzone_label">Dead zone</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUse the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
+    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_mobile">Mobile data</string>
+    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 </resources>

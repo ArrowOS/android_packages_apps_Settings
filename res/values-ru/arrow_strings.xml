@@ -226,10 +226,27 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Работа сканера отпечатка пальца только с выключенным экраном</string>
     <string name="fod_gesture_summary">Позволяет разблокировать устройство без включения экрана</string>
-    <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Быстрый фонарик</string>
-    <string name="power_button_torch_summary">Когда экран выключен, долгое нажатие кнопки питания включит фонарик</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Температура батареи</string>
     <string name="battery_temp_summary">Нажмите, чтобы изменить масштаб</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Выкл.</string>
+    <string name="greatest_tick_label">В пол-экрана</string>
+    <string name="gesture_back_deadzone_label">Мертвая зона</string>
+    <string name="back_sensitivity_dialog_message_cust">\nИспользуйте первую и вторую панель поиска, чтобы настроить чувствительность жеста назад, последнюю панель поиска, чтобы установить мертвую зону в верхней части экрана, где свайп не может быть запущен, чтобы избежать конфликтов с жестами в приложении.</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Включить фонарик</string>
+    <string name="double_tap_power_flashlight_title">Включение фонарика кнопкой питания при выключенном экране</string>
+    <string name="torch_power_button_gesture_none">Отключено</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания для включения фонарика</string>
+    <string name="torch_power_button_gesture_lp">Удержание кнопки питания для включения фонарика</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_mobile">Mobile data</string>
+    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 </resources>

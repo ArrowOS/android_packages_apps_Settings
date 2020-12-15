@@ -226,10 +226,27 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Otisky prstů při vypnuté obrazovce</string>
     <string name="fod_gesture_summary">Umožňuje odemknutí zařízení, aniž by bylo nutné nejprve obrazovku probudit</string>
-    <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Rychlá svítilna</string>
-    <string name="power_button_torch_summary">Když je obrazovka vypnutá, dlouhým stiskem tlačítka napájení zapnete svítilnu</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Teplota baterie</string>
     <string name="battery_temp_summary">Klepnutím přepnete měřítko</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Vyp.</string>
+    <string name="greatest_tick_label">Polovina obrazovky</string>
+    <string name="gesture_back_deadzone_label">Mrtvá oblast</string>
+    <string name="back_sensitivity_dialog_message_cust">\nPomocí prvního a druhého vyhledávacího panelu nakonfigurujte citlivost přejetí zpět, posledním vyhledávacím panelem nastavte mrtvou oblast obrazovky, na které nelze použít přejetím prstem, aby nedocházelo ke konfliktům s gesty v aplikacích.</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Zapnout svítilnu</string>
+    <string name="double_tap_power_flashlight_title">Zapnout svítilnu tlačítkem napájení při vypnuté obrazovce</string>
+    <string name="torch_power_button_gesture_none">Vypnuto</string>
+    <string name="torch_power_button_gesture_dt">Dvojím klepnutím tlačítka napájení přepínat svítilnu</string>
+    <string name="torch_power_button_gesture_lp">Dlouhým stisknutím tlačítka napájení přepínat svítilnu</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_mobile">Mobile data</string>
+    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 </resources>

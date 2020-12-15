@@ -226,10 +226,27 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">息屏指纹</string>
     <string name="fod_gesture_summary">无需唤醒屏幕即可解锁设备</string>
-    <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">快捷手电筒</string>
-    <string name="power_button_torch_summary">当屏幕关闭时，长按电源键将启用手电筒</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">电池温度</string>
     <string name="battery_temp_summary">点击切换单位</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">禁用</string>
+    <string name="greatest_tick_label">半屏</string>
+    <string name="gesture_back_deadzone_label">禁止区域</string>
+    <string name="back_sensitivity_dialog_message_cust">\n使用第一个和第二个滑动栏来配置返回滑动手势的灵敏度。使用最后一个滑动栏来配置屏幕上半部分无法触发滑动手势的禁止区域，以避免与应用内手势发生冲突。</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">启动手电筒</string>
+    <string name="double_tap_power_flashlight_title">息屏状态下按电源键开启手电筒</string>
+    <string name="torch_power_button_gesture_none">已禁用</string>
+    <string name="torch_power_button_gesture_dt">双击电源键以开关手电筒</string>
+    <string name="torch_power_button_gesture_lp">长按电源键以开关手电筒</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_mobile">Mobile data</string>
+    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 </resources>

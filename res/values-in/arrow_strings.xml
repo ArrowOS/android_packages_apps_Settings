@@ -88,98 +88,98 @@
     <string name="hardware_keys">Tombol</string>
     <string name="hardware_keys_summary">Sesuaikan tombol perangkat keras</string>
     <string name="navigation_keys">Bar Navigasi</string>
-    <string name="navigation_keys_summary">Customise on-screen navigation bar</string>
+    <string name="navigation_keys_summary">Ubah bilah navigasi dalam layar</string>
     <string name="hardware_keys_category">Tombol fisik navigasi</string>
     <string name="hardware_keys_disable_title">Nonaktifkan tombol fisik</string>
     <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Buttons backlight timeout</string>
-    <string name="backlight_timeout_on">Enabled always</string>
-    <string name="backlight_timeout_3s">3 sec</string>
-    <string name="backlight_timeout_default">5 sec (default)</string>
-    <string name="backlight_timeout_10s">10 sec</string>
-    <string name="backlight_timeout_15s">15 sec</string>
-    <string name="backlight_timeout_20s">20 sec</string>
-    <string name="backlight_timeout_30s">30 sec</string>
-    <string name="button_title">Buttons</string>
+    <string name="backlight_timeout_title">Batas waktu lampu latar tombol habis</string>
+    <string name="backlight_timeout_on">Selalu diaktifkan</string>
+    <string name="backlight_timeout_3s">3 detik</string>
+    <string name="backlight_timeout_default">5 detik (bawaan)</string>
+    <string name="backlight_timeout_10s">10 detik</string>
+    <string name="backlight_timeout_15s">15 detik</string>
+    <string name="backlight_timeout_20s">20 detik</string>
+    <string name="backlight_timeout_30s">30 detik</string>
+    <string name="button_title">Tombol</string>
     <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Backlight</string>
-    <string name="button_brightness_sw_title">Enable backlight</string>
-    <string name="button_backlight_on_touch_only_title">Button touch</string>
-    <string name="button_backlight_on_touch_only_summary">Enablebacklight with timeout only on button touch</string>
+    <string name="button_brightness_title">Lampu latar</string>
+    <string name="button_brightness_sw_title">Aktifkan lampu latar</string>
+    <string name="button_backlight_on_touch_only_title">Tombol sentuh</string>
+    <string name="button_backlight_on_touch_only_summary">Aktifkan lampu latar dengan batas waktu hanya pada sentuhan tombol</string>
     <!-- ANBI -->
-    <string name="anbi_title">Accidental touch</string>
-    <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
+    <string name="anbi_title">Sentuhan tidak sengaja</string>
+    <string name="anbi_summary">Mencegah interaksi dengan tombol navigasi saat layar disentuh</string>
     <!-- Global Actions -->
-    <string name="power_menu_customization_category_title">Power menu customization</string>
-    <string name="global_actions_title">Power menu actions</string>
-    <string name="global_actions_summary">Select what to show when you press the power button</string>
-    <string name="global_actions_power">Power</string>
-    <string name="global_actions_restart">Restart</string>
-    <string name="global_actions_airplane">Airplane</string>
-    <string name="global_actions_settings">Settings</string>
-    <string name="global_actions_lockdown">Lock Down</string>
-    <string name="global_actions_soundpanel">Sound Panel</string>
-    <string name="global_actions_users">Users</string>
-    <string name="global_actions_screenshot">Screenshot</string>
-    <string name="global_actions_screenrecord">Screenrecord</string>
-    <string name="global_actions_flashlight">Flashlight</string>
-    <string name="global_actions_emergency">Emergency</string>
-    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
-    <string name="global_actions_advanced_reboot_summary">When restarting also show options for recovery and bootloader</string>
-    <string name="global_actions_max_columns_title">Max actions to show</string>
-    <string name="global_actions_max_columns_summary">Set how many actions to show before buttons move to overflow menu</string>
+    <string name="power_menu_customization_category_title">Menyesuaikan Menu Daya</string>
+    <string name="global_actions_title">Aksi menu power</string>
+    <string name="global_actions_summary">Pilih apa yang akan ditampilkan saat Anda menekan tombol daya</string>
+    <string name="global_actions_power">Daya</string>
+    <string name="global_actions_restart">Memulai ulang</string>
+    <string name="global_actions_airplane">Mode pesawat</string>
+    <string name="global_actions_settings">Pengaturan</string>
+    <string name="global_actions_lockdown">Kunci Rapat</string>
+    <string name="global_actions_soundpanel">Panel Suara</string>
+    <string name="global_actions_users">Pengguna</string>
+    <string name="global_actions_screenshot">Tangkapan Layar</string>
+    <string name="global_actions_screenrecord">Perekaman layar</string>
+    <string name="global_actions_flashlight">Senter</string>
+    <string name="global_actions_emergency">Darurat</string>
+    <string name="global_actions_advanced_reboot_title">Aktifkan pengaturan lanjutan</string>
+    <string name="global_actions_advanced_reboot_summary">Saat memulai ulang juga menunjukkan opsi untuk pemulihan dan bootloader</string>
+    <string name="global_actions_max_columns_title">Tindakan maksimal untuk ditampilkan</string>
+    <string name="global_actions_max_columns_summary">Setel berapa banyak tindakan yang akan ditampilkan sebelum tombol berpindah ke menu tambahan</string>
     <!-- Settings dashboard gestures -->
-    <string name="gesture_settings_dashboard_title">Gestures</string>
-    <string name="gesture_settings_dashboard_summary">Manage gesture settings</string>
-    <string name="custom_device_gestures_preference_title">Device gestures</string>
+    <string name="gesture_settings_dashboard_title">Gestur</string>
+    <string name="gesture_settings_dashboard_summary">Kelola pengaturan gestur</string>
+    <string name="custom_device_gestures_preference_title">Gerakan perangkat</string>
     <!-- Heads up -->
-    <string name="heads_up_notifications">Heads up</string>
-    <string name="heads_up_notifications_summary">Control heads up behaviour</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="heads_up_notifications">Notifikasi mengambang</string>
+    <string name="heads_up_notifications_summary">Kontrol perilaku notifikasi mengambang</string>
+    <string name="summary_heads_up_enabled">Pemberitahuan munculan diaktifkan</string>
+    <string name="summary_heads_up_disabled">Pemberitahuan munculan dinonaktifkan</string>
+    <string name="add_heads_up_package">Tambahkan apl</string>
+    <string name="add_heads_up_stoplist_summary">Matikan notifikasi mengambang pada aplikasi ini</string>
+    <string name="add_heads_up_blacklist_summary">Matikan notifikasi mengambang pada aplikasi ini</string>
+    <string name="heads_up_stoplist_title">Daftar berhenti</string>
+    <string name="heads_up_blacklist_title">Daftar hitam</string>
+    <string name="profile_choose_app">Pilih aplikasi</string>
+    <string name="dialog_delete_title">Hapus</string>
+    <string name="dialog_delete_message">Hapus item yang dipilih?</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Buka kunci sidik jari</string>
     <string name="fp_unlock_keystore_summary">Buka kunci perangkat dengan sidik jari setelah reboot tanpa PIN/Kata Sandi/Pola\nCatatan: dengan resiko Anda sendiri!</string>
     <!-- Volume panel on left switch -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_title">Tampilkan panel volume di kiri</string>
     <!-- Density options -->
-    <string name="density_category">Density options</string>
+    <string name="density_category">Pilihan kepadatan</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Gesture bar length</string>
-    <string name="hidden_label">Hidden</string>
-    <string name="long_label">Long</string>
+    <string name="navbar_length">Panjang bilah gerakan</string>
+    <string name="hidden_label">Tersembunyi</string>
+    <string name="long_label">Panjang</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
-    <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+    <string name="lockscreen_media_art_title">Tampilkan sampul media</string>
+    <string name="lockscreen_media_art_summary">Tampilkan seni album media yang diputar saat ini di layar kunci</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_summary">Enable or disable network speed indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="traffic_title">Indikator lalu lintas</string>
+    <string name="traffic_summary">Mengaktifkan atau menonaktifkan indikator kecepatan jaringan</string>
+    <string name="network_traffic_title">Lalu lintas jaringan</string>
+    <string name="network_traffic_type">Pilih tipe aktvitas jaringan</string>
+    <string name="show_network_traffic_up">Keluar</string>
+    <string name="show_network_traffic_down">Masuk</string>
+    <string name="show_network_traffic_all">Keluar dan Masuk</string>
+    <string name="network_traffic_state_title">Tampilkan aktivitas jaringan di bilah status</string>
+    <string name="network_traffic_autohide_threshold_title">Ambang batas untuk otomatis menyembunyikan aktivitas jaringan (KB/s)</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">Usap untuk menangkap layar</string>
+    <string name="three_finger_gesture_summary">Usap tiga jari ke bawah untuk menangkap layar</string>
     <!-- Weather - OmniJaws Settings -->
-    <string name="weather_title">Weather</string>
-    <string name="weather_config_title">Service settings</string>
+    <string name="weather_title">Cuaca</string>
+    <string name="weather_config_title">Pengaturan layanan</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Weather style</string>
-    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
-    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
-    <string name="header_weather_title">Header view weather</string>
+    <string name="lock_screen_weather_style_title">Gaya Cuaca</string>
+    <string name="lock_screen_weather_style_summaryOff">Cuaca ditampilkan di bawah garis tanggal dengan lokasi</string>
+    <string name="lock_screen_weather_style_summaryOn">Cuaca ditampilkan di bawah garis tanggal tanpa lokasi</string>
+    <string name="header_weather_title">Tampilkan cuaca dipanel atas</string>
     <string name="header_weather_summary">Enable notification panel header weather display</string>
     <string name="weather_icon_pack_title">Condition icon pack</string>
     <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
@@ -226,10 +226,27 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Screen off fingerprint</string>
     <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
-    <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Quick torch</string>
-    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Battery temperature</string>
     <string name="battery_temp_summary">Tap to switch scale</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Off</string>
+    <string name="greatest_tick_label">Half screen</string>
+    <string name="gesture_back_deadzone_label">Dead zone</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUse the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
+    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_mobile">Mobile data</string>
+    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 </resources>

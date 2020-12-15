@@ -62,8 +62,8 @@
     <string name="proximity_wake_summary">Перевірити датчик наближення до пробудження екрану</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Колір світлодіоду</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <string name="custom_light_on_time_title">Час увімкненого LED під час пульсації (мс)</string>
+    <string name="custom_light_off_time_title">Час викненого LED під час пульсації (мс)</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">Діяльності</string>
     <string name="select_custom_app_title">Вибрати власну програму</string>
@@ -85,114 +85,114 @@
     <string name="hardware_keys_single_tap_title">Дія одинарного натискання</string>
     <string name="hardware_keys_long_press_title">Дія при довгому натисканні</string>
     <string name="hardware_keys_double_tap_title">Дії подвійного натискання</string>
-    <string name="hardware_keys">Buttons</string>
-    <string name="hardware_keys_summary">Customise hardware buttons</string>
-    <string name="navigation_keys">Navigation bar</string>
-    <string name="navigation_keys_summary">Customise on-screen navigation bar</string>
+    <string name="hardware_keys">Клавіші</string>
+    <string name="hardware_keys_summary">Налаштувати дії апаратних кнопок</string>
+    <string name="navigation_keys">Панель навігації</string>
+    <string name="navigation_keys_summary">Налаштування наекранної панелі навігації</string>
     <string name="hardware_keys_category">Апаратні навігаційні клавіші</string>
     <string name="hardware_keys_disable_title">Вимкнути апаратні кнопки</string>
     <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Buttons backlight timeout</string>
-    <string name="backlight_timeout_on">Enabled always</string>
-    <string name="backlight_timeout_3s">3 sec</string>
-    <string name="backlight_timeout_default">5 sec (default)</string>
-    <string name="backlight_timeout_10s">10 sec</string>
-    <string name="backlight_timeout_15s">15 sec</string>
-    <string name="backlight_timeout_20s">20 sec</string>
-    <string name="backlight_timeout_30s">30 sec</string>
-    <string name="button_title">Buttons</string>
+    <string name="backlight_timeout_title">Тривалість підсвічування кнопок</string>
+    <string name="backlight_timeout_on">Завжди увімкнено</string>
+    <string name="backlight_timeout_3s">3 сек</string>
+    <string name="backlight_timeout_default">5 сек (за замовчуванням)</string>
+    <string name="backlight_timeout_10s">10 сек</string>
+    <string name="backlight_timeout_15s">15 сек</string>
+    <string name="backlight_timeout_20s">20 сек</string>
+    <string name="backlight_timeout_30s">30 сек</string>
+    <string name="button_title">Кнопки</string>
     <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Backlight</string>
-    <string name="button_brightness_sw_title">Enable backlight</string>
-    <string name="button_backlight_on_touch_only_title">Button touch</string>
-    <string name="button_backlight_on_touch_only_summary">Enablebacklight with timeout only on button touch</string>
+    <string name="button_brightness_title">Підсвічування</string>
+    <string name="button_brightness_sw_title">Увімкнути підсвічування клавіш</string>
+    <string name="button_backlight_on_touch_only_title">Під час дотику</string>
+    <string name="button_backlight_on_touch_only_summary">Підсвічувати кнопки тільки при дотику, а не весь час</string>
     <!-- ANBI -->
-    <string name="anbi_title">Accidental touch</string>
-    <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
+    <string name="anbi_title">Випадковий дотик</string>
+    <string name="anbi_summary">Запобігати роботу апаратних кнопок при натисканні на екран</string>
     <!-- Global Actions -->
-    <string name="power_menu_customization_category_title">Power menu customization</string>
-    <string name="global_actions_title">Power menu actions</string>
-    <string name="global_actions_summary">Select what to show when you press the power button</string>
-    <string name="global_actions_power">Power</string>
+    <string name="power_menu_customization_category_title">Налаштування меню живлення</string>
+    <string name="global_actions_title">Елементи меню живлення</string>
+    <string name="global_actions_summary">Виберіть що показувати при натисканні на кнопку живлення</string>
+    <string name="global_actions_power">Живлення</string>
     <string name="global_actions_restart">Перезавантажити</string>
     <string name="global_actions_airplane">Режим \"у літаку\"</string>
     <string name="global_actions_settings">Налаштування</string>
-    <string name="global_actions_lockdown">Lock Down</string>
+    <string name="global_actions_lockdown">Заблокувати</string>
     <string name="global_actions_soundpanel">Звукова панель</string>
     <string name="global_actions_users">Користувачі</string>
     <string name="global_actions_screenshot">Знімок екрану</string>
-    <string name="global_actions_screenrecord">Screenrecord</string>
+    <string name="global_actions_screenrecord">Запис екрану</string>
     <string name="global_actions_flashlight">Ліхтарик</string>
-    <string name="global_actions_emergency">Emergency</string>
+    <string name="global_actions_emergency">Екстрений виклик</string>
     <string name="global_actions_advanced_reboot_title">Ввімкнути розширене перезавантаження</string>
-    <string name="global_actions_advanced_reboot_summary">When restarting also show options for recovery and bootloader</string>
-    <string name="global_actions_max_columns_title">Max actions to show</string>
-    <string name="global_actions_max_columns_summary">Set how many actions to show before buttons move to overflow menu</string>
+    <string name="global_actions_advanced_reboot_summary">Показувати опції bootloader i recovery при перезавантаженні</string>
+    <string name="global_actions_max_columns_title">Максимум дій для відображення</string>
+    <string name="global_actions_max_columns_summary">Встановіть кількість дій для відображення перед переміщенням кнопок до меню</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">Жести</string>
     <string name="gesture_settings_dashboard_summary">Налаштування жестів</string>
-    <string name="custom_device_gestures_preference_title">Device gestures</string>
+    <string name="custom_device_gestures_preference_title">Жести пристрою</string>
     <!-- Heads up -->
-    <string name="heads_up_notifications">Heads up</string>
-    <string name="heads_up_notifications_summary">Control heads up behaviour</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="heads_up_notifications">Спливаючі сповіщення</string>
+    <string name="heads_up_notifications_summary">Управління спливаючими сповіщеннями</string>
+    <string name="summary_heads_up_enabled">Спливаючі сповіщення увімкнено</string>
+    <string name="summary_heads_up_disabled">Спливаючі сповіщення вимкнено</string>
+    <string name="add_heads_up_package">Додати додаток</string>
+    <string name="add_heads_up_stoplist_summary">Вимкнути спливаючі сповіщення в цих додатках</string>
+    <string name="add_heads_up_blacklist_summary">Вимкнути сповіщення в цих додатках</string>
+    <string name="heads_up_stoplist_title">Стоп-лист</string>
+    <string name="heads_up_blacklist_title">Чорний список</string>
+    <string name="profile_choose_app">Оберіть додаток</string>
+    <string name="dialog_delete_title">Видалити</string>
+    <string name="dialog_delete_message">Видалити вибраний елемент?</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Розблокувати відбитком пальця</string>
     <string name="fp_unlock_keystore_summary">Розблокувати пристрій сканером відбитків після перезавантаження без PIN-коду/Паролю/, Графічного паролю\nПримітка: на свій страх і ризик!</string>
     <!-- Volume panel on left switch -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_title">Показувати панель гучності ліворуч</string>
     <!-- Density options -->
-    <string name="density_category">Density options</string>
+    <string name="density_category">Параметри щільності екрану</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Gesture bar length</string>
-    <string name="hidden_label">Hidden</string>
-    <string name="long_label">Long</string>
+    <string name="navbar_length">Довжина рядку жестів</string>
+    <string name="hidden_label">Прихований</string>
+    <string name="long_label">Довгий</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
-    <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+    <string name="lockscreen_media_art_title">Показувати обкладинку треку</string>
+    <string name="lockscreen_media_art_summary">Показувати обкладинку альбому на екрані блокування</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_summary">Enable or disable network speed indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="traffic_title">Індикатор трафіку</string>
+    <string name="traffic_summary">Увімкнути або вимкнути індикатор швидкості мережі</string>
+    <string name="network_traffic_title">Монітор трафіку</string>
+    <string name="network_traffic_type">Оберіть тип мережевої активності</string>
+    <string name="show_network_traffic_up">Вихідний</string>
+    <string name="show_network_traffic_down">Вхідний</string>
+    <string name="show_network_traffic_all">Вихідний і вхідний</string>
+    <string name="network_traffic_state_title">Відображати мережеву активність у рядку стану</string>
+    <string name="network_traffic_autohide_threshold_title">Автоматичне приховування індикатора мережевої активності (KБ/с)</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">Провести для знімку екрану</string>
+    <string name="three_finger_gesture_summary">Проведіть вниз трьома пальцями на екрані, щоб зробити знімок екрану</string>
     <!-- Weather - OmniJaws Settings -->
-    <string name="weather_title">Weather</string>
-    <string name="weather_config_title">Service settings</string>
+    <string name="weather_title">Погода</string>
+    <string name="weather_config_title">Налаштування служби</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Weather style</string>
-    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
-    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="lock_screen_weather_style_title">Стиль відображення погоди</string>
+    <string name="lock_screen_weather_style_summaryOff">Погоду з місцем розташування буде показано нижче рядку дати</string>
+    <string name="lock_screen_weather_style_summaryOn">Погоду без місця розташування буде показано нижче рядку дати</string>
+    <string name="header_weather_title">Перегляд погоди у заголовку</string>
+    <string name="header_weather_summary">Увімкнути показ погоди у заголовку панелі сповіщень</string>
+    <string name="weather_icon_pack_title">Пакет значків погодних умов</string>
+    <string name="weather_icon_pack_note">Примітка\u003a ви можете встановити нові пакети іконок із Play Store за запитом \"Chronus icons\"</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Lockscreen weather</string>
-    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
-    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
-    <string name="lockscreen_weather_show_city_title">Show city name</string>
-    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_title">Погода на екрані блокування</string>
+    <string name="lockscreen_weather_summary">Показувати поточну погоду і температуру на екрані блокування</string>
+    <string name="lockscreen_items_aod_info_title">Ці налаштування видимості застосувуються і до Ambient Display</string>
+    <string name="lockscreen_weather_show_city_title">Показувати назву міста</string>
+    <string name="lockscreen_weather_show_city_summary">Показувати назву міста ліворуч від зображення</string>
+    <string name="lockscreen_weather_show_temp_title">Показати температуру</string>
+    <string name="lockscreen_weather_show_temp_summary">Показувати поточну температуру міста праворуч від зображення</string>
     <!-- FOD animations -->
-    <string name="fod_recog_animation">FOD recognizing animation</string>
+    <string name="fod_recog_animation">Анімація розпізнавання відбитку</string>
     <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
     <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
     <string name="fod_recog_animation_miui_normal">MIUI default</string>
@@ -226,10 +226,27 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Screen off fingerprint</string>
     <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
-    <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Quick torch</string>
-    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Battery temperature</string>
     <string name="battery_temp_summary">Tap to switch scale</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Off</string>
+    <string name="greatest_tick_label">Half screen</string>
+    <string name="gesture_back_deadzone_label">Dead zone</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUse the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
+    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_mobile">Mobile data</string>
+    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 </resources>

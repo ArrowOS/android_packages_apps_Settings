@@ -226,10 +226,27 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">画面消灯時の指紋認証</string>
     <string name="fod_gesture_summary">画面点灯なしでの端末の復帰を許可する</string>
-    <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">クイックトーチ</string>
-    <string name="power_button_torch_summary">画面消灯時に電源ボタンの長押しでトーチを有効にする</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">バッテリー温度</string>
     <string name="battery_temp_summary">タップしてサイズを変更する</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">OFF</string>
+    <string name="greatest_tick_label">半画面</string>
+    <string name="gesture_back_deadzone_label">非認識範囲</string>
+    <string name="back_sensitivity_dialog_message_cust">\n最初と2番目のシークバーで戻るジェスチャースワイプ感度を編集し、最後のシークバーでスワイプを認識しない画面領域を設定し、アプリ内ジェスチャーとの競合を回避します。</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">トーチを有効化</string>
+    <string name="double_tap_power_flashlight_title">画面消灯時のライト点灯</string>
+    <string name="torch_power_button_gesture_none">無効</string>
+    <string name="torch_power_button_gesture_dt">電源ボタンを2回押し</string>
+    <string name="torch_power_button_gesture_lp">電源ボタンを長押し</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_mobile">Mobile data</string>
+    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 </resources>
