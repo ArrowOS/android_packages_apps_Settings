@@ -241,12 +241,12 @@
     <string name="torch_power_button_gesture_dt">Dvojím klepnutím tlačítka napájení přepínat svítilnu</string>
     <string name="torch_power_button_gesture_lp">Dlouhým stisknutím tlačítka napájení přepínat svítilnu</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
+    <string name="data_usage_app_restrict_all">Povolit přístup k síti</string>
+    <string name="data_usage_app_restrict_all_summary">Povolit využití sítě</string>
+    <string name="data_usage_app_restrict_mobile">Mobilní data</string>
+    <string name="data_usage_app_restrict_mobile_summary">Povolit používání mobilních dat</string>
     <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Povolit používání VPN dat</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Povolit používání Wi\u2011Fi dat</string>
 </resources>

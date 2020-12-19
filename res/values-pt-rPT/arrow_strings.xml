@@ -227,26 +227,26 @@
     <string name="fod_gesture_title">Ecrã sem impressão digital</string>
     <string name="fod_gesture_summary">Permite desbloquear o diapositivo sem ter que activar o ecrã</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
-    <string name="battery_temp_summary">Tap to switch scale</string>
+    <string name="battery_temp_title">Temperatura da bateria</string>
+    <string name="battery_temp_summary">Toque para mudar para a aplicação</string>
     <!-- Back Gestures -->
-    <string name="smallest_tick_label">Off</string>
-    <string name="greatest_tick_label">Half screen</string>
-    <string name="gesture_back_deadzone_label">Dead zone</string>
-    <string name="back_sensitivity_dialog_message_cust">\nUse the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
+    <string name="smallest_tick_label">Desligado</string>
+    <string name="greatest_tick_label">Meio ecrã</string>
+    <string name="gesture_back_deadzone_label">Zona Inactiva</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUse a primeira e segunda barra de pesquisa para configurar a sensibilidade de deslizar para trás, a última barra de busca para definir uma área morta no topo do ecrã, onde o deslize não pode ser acionado, para evitar conflitos com gestos na aplicação.</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <string name="double_tap_power_flashlight_screen_title">Activar a lanterna</string>
+    <string name="double_tap_power_flashlight_title">Desligue a lanterna com o botão de energia</string>
+    <string name="torch_power_button_gesture_none">Desactivado</string>
+    <string name="torch_power_button_gesture_dt">Toque duplo para ligar a lanterna</string>
+    <string name="torch_power_button_gesture_lp">Toque longo no botão de energia para ligar a lanterna</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_all">Permitir ligação à rede</string>
+    <string name="data_usage_app_restrict_all_summary">Activar utilização da rede</string>
+    <string name="data_usage_app_restrict_mobile">Dados móveis</string>
+    <string name="data_usage_app_restrict_mobile_summary">Activar a utilização de dados móveis</string>
+    <string name="data_usage_app_restrict_vpn">Dados VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Activar o uso de dados VPN</string>
+    <string name="data_usage_app_restrict_wifi">Dados Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Activar o uso de dados Wi\u2011Fi</string>
 </resources>

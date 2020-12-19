@@ -241,12 +241,12 @@
     <string name="torch_power_button_gesture_dt">電源ボタンを2回押し</string>
     <string name="torch_power_button_gesture_lp">電源ボタンを長押し</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_all">ネットワークアクセスを許可</string>
+    <string name="data_usage_app_restrict_all_summary">ネットワークの使用状況を有効化する</string>
+    <string name="data_usage_app_restrict_mobile">モバイルデータ</string>
+    <string name="data_usage_app_restrict_mobile_summary">モバイルデータ使用量を有効化する</string>
+    <string name="data_usage_app_restrict_vpn">VPN データ</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN データ使用量を有効化する</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi データ</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi データ使用量を有効化する</string>
 </resources>

@@ -231,8 +231,8 @@
     <string name="battery_temp_summary">Toque para trocar escala</string>
     <!-- Back Gestures -->
     <string name="smallest_tick_label">Desligado</string>
-    <string name="greatest_tick_label">Tela dividida</string>
-    <string name="gesture_back_deadzone_label">Área Inativa</string>
+    <string name="greatest_tick_label">Meia tela</string>
+    <string name="gesture_back_deadzone_label">Área inativa</string>
     <string name="back_sensitivity_dialog_message_cust">\nUse a primeira e segunda barra para configurar a sensibilidade de deslizar para trás, a última barra para definir uma área morta no topo da tela, onde o deslize não pode ser acionado, para evitar conflitos com gestos no aplicativo.</string>
     <!-- Torch Power button gestures -->
     <string name="double_tap_power_flashlight_screen_title">Ativar a lanterna</string>
@@ -241,12 +241,12 @@
     <string name="torch_power_button_gesture_dt">Toque duplo no botão liga/desliga para ativar a lanterna</string>
     <string name="torch_power_button_gesture_lp">Manter pressionado o botão liga/desliga para ativar a lanterna</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_all">Permitir acesso à rede</string>
+    <string name="data_usage_app_restrict_all_summary">Permitir o uso de rede</string>
+    <string name="data_usage_app_restrict_mobile">Dados móveis</string>
+    <string name="data_usage_app_restrict_mobile_summary">Permitir o uso de dados móveis</string>
+    <string name="data_usage_app_restrict_vpn">Dados VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Permitir o uso de dados via VPN</string>
+    <string name="data_usage_app_restrict_wifi">Dados Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Permitir o uso de dados Wi\u2011Fi</string>
 </resources>

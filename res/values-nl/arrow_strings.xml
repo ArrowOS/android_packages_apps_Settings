@@ -241,12 +241,12 @@
     <string name="torch_power_button_gesture_dt">Dubbeltikken op aan/uit-knop voor zaklamp</string>
     <string name="torch_power_button_gesture_lp">Aan/uit-knop lang indrukken voor zaklamp</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_all">Netwerktoegang toestaan</string>
+    <string name="data_usage_app_restrict_all_summary">Schakel netwerkgebruik in</string>
+    <string name="data_usage_app_restrict_mobile">Mobiele data</string>
+    <string name="data_usage_app_restrict_mobile_summary">Schakel het gebruik van mobiele data in</string>
+    <string name="data_usage_app_restrict_vpn">VPN gegevens</string>
+    <string name="data_usage_app_restrict_vpn_summary">Gebruik van VPN-gegevens inschakelen</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Schakel het gebruik van Wi\u2011Fi data in</string>
 </resources>

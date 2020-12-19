@@ -230,23 +230,23 @@
     <string name="battery_temp_title">Temperatura de batería</string>
     <string name="battery_temp_summary">Pulsa para cambiar el escalado</string>
     <!-- Back Gestures -->
-    <string name="smallest_tick_label">Off</string>
-    <string name="greatest_tick_label">Half screen</string>
-    <string name="gesture_back_deadzone_label">Dead zone</string>
-    <string name="back_sensitivity_dialog_message_cust">\nUse the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
+    <string name="smallest_tick_label">Desactivado</string>
+    <string name="greatest_tick_label">Mitad de la pantalla</string>
+    <string name="gesture_back_deadzone_label">Zona muerta</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUtilice los dos controles superiores para configurar la sensibilidad del gesto Atrás. La barra inferior sirve para establecer un área en la parte superior de la pantalla en la que el deslizamiento no se puede activar, para evitar conflictos con gestos en aplicaciones.</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <string name="double_tap_power_flashlight_screen_title">Activar la linterna</string>
+    <string name="double_tap_power_flashlight_title">Activar la linterna con el boton de encendido</string>
+    <string name="torch_power_button_gesture_none">Deshabilitado</string>
+    <string name="torch_power_button_gesture_dt">Pulsar doblemente el botón de encendido para encender o apagar la linterna</string>
+    <string name="torch_power_button_gesture_lp">Pulsación larga del botón de encendido para encender o apagar la linterna</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_all">Permitir acceso a la red</string>
+    <string name="data_usage_app_restrict_all_summary">Habilitar uso de red</string>
+    <string name="data_usage_app_restrict_mobile">Datos móviles</string>
+    <string name="data_usage_app_restrict_mobile_summary">Habilitar el uso de datos móviles</string>
+    <string name="data_usage_app_restrict_vpn">Datos VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Habilitar el uso de datos VPN</string>
+    <string name="data_usage_app_restrict_wifi">Datos Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Habilitar el uso de datos Wi\u2011Fi</string>
 </resources>

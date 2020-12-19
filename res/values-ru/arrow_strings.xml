@@ -125,7 +125,7 @@
     <string name="global_actions_flashlight">Фонарик</string>
     <string name="global_actions_emergency">Экстренный вызов</string>
     <string name="global_actions_advanced_reboot_title">Включить меню расширенной перезагрузки</string>
-    <string name="global_actions_advanced_reboot_summary">При перезагрузке также показывать опции для рекавери и fastboot</string>
+    <string name="global_actions_advanced_reboot_summary">При перезагрузке также показывать опции для рекавери и загрузчика</string>
     <string name="global_actions_max_columns_title">Макс количество действий для показа</string>
     <string name="global_actions_max_columns_summary">Установить количество действий для показа перед перемещением кнопок в меню переполнения</string>
     <!-- Settings dashboard gestures -->
@@ -228,7 +228,7 @@
     <string name="fod_gesture_summary">Позволяет разблокировать устройство без включения экрана</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Температура батареи</string>
-    <string name="battery_temp_summary">Нажмите, чтобы изменить масштаб</string>
+    <string name="battery_temp_summary">Нажмите, чтобы изменить систему измерения</string>
     <!-- Back Gestures -->
     <string name="smallest_tick_label">Выкл.</string>
     <string name="greatest_tick_label">В пол-экрана</string>
@@ -241,12 +241,12 @@
     <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания для включения фонарика</string>
     <string name="torch_power_button_gesture_lp">Удержание кнопки питания для включения фонарика</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_all">Разрешить доступ к сети</string>
+    <string name="data_usage_app_restrict_all_summary">Включить использование сети</string>
+    <string name="data_usage_app_restrict_mobile">Мобильные данные</string>
+    <string name="data_usage_app_restrict_mobile_summary">Включить использование мобильных данных</string>
+    <string name="data_usage_app_restrict_vpn">Данные VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Включить использование данных VPN</string>
+    <string name="data_usage_app_restrict_wifi">Данные Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Включить использование данных Wi\u2011Fi</string>
 </resources>
