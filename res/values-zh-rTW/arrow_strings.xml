@@ -94,17 +94,17 @@
     <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">Buttons backlight timeout</string>
     <string name="backlight_timeout_on">Enabled always</string>
-    <string name="backlight_timeout_3s">3 sec</string>
-    <string name="backlight_timeout_default">5 sec (default)</string>
-    <string name="backlight_timeout_10s">10 sec</string>
-    <string name="backlight_timeout_15s">15 sec</string>
-    <string name="backlight_timeout_20s">20 sec</string>
-    <string name="backlight_timeout_30s">30 sec</string>
-    <string name="button_title">Buttons</string>
+    <string name="backlight_timeout_3s">3 秒</string>
+    <string name="backlight_timeout_default">5 秒 (預設)</string>
+    <string name="backlight_timeout_10s">10 秒</string>
+    <string name="backlight_timeout_15s">15 秒</string>
+    <string name="backlight_timeout_20s">20 秒</string>
+    <string name="backlight_timeout_30s">30 秒</string>
+    <string name="button_title">按鍵</string>
     <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Backlight</string>
-    <string name="button_brightness_sw_title">Enable backlight</string>
-    <string name="button_backlight_on_touch_only_title">Button touch</string>
+    <string name="button_brightness_title">背光</string>
+    <string name="button_brightness_sw_title">啟用背光</string>
+    <string name="button_backlight_on_touch_only_title">按鍵觸控</string>
     <string name="button_backlight_on_touch_only_summary">Enablebacklight with timeout only on button touch</string>
     <!-- ANBI -->
     <string name="anbi_title">Accidental touch</string>
@@ -155,8 +155,8 @@
     <string name="density_category">Density options</string>
     <!-- Navbar length -->
     <string name="navbar_length">Gesture bar length</string>
-    <string name="hidden_label">Hidden</string>
-    <string name="long_label">Long</string>
+    <string name="hidden_label">隱藏</string>
+    <string name="long_label">長</string>
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Display media cover art</string>
     <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
@@ -165,10 +165,10 @@
     <string name="traffic_summary">Enable or disable network speed indicators</string>
     <string name="network_traffic_title">Network traffic</string>
     <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="show_network_traffic_up">上傳</string>
+    <string name="show_network_traffic_down">下載</string>
+    <string name="show_network_traffic_all">上傳和下載</string>
+    <string name="network_traffic_state_title">在狀態列中顯示網路活動</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
@@ -250,4 +250,8 @@
     <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
     <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <!-- Reset battery stats -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
 </resources>

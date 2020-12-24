@@ -249,4 +249,8 @@
     <string name="data_usage_app_restrict_vpn_summary">Włącz użycie danych VPN</string>
     <string name="data_usage_app_restrict_wifi">Dane Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Włącz użycie danych Wi\u2011Fi</string>
+    <!-- Reset battery stats -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
 </resources>

@@ -27,14 +27,14 @@
     <string name="statusbar_gestures_category_title">Gesture barra di stato</string>
     <string name="double_tap_sleep_gesture_title">Doppio tocco per spegnere lo schermo sulla barra di stato</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">What to do</string>
+    <string name="lockscreen_tweaks_category_title">Che cosa fare</string>
     <string name="double_tap_sleep_lockscreen_title">Doppio tocco sulla schermata di blocco per spegnere lo schermo</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Suono cattura schermata</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Collega volume suoneria e notifiche</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Color bucket</string>
+    <string name="theme_customization_systemui_title">Selettore dei colori</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informazioni di ricarica nella schermata di blocco</string>
     <string name="lockscreen_battery_info_summary">Mostra la corrente di carica, la tensione, la potenza e la temperatura della batteria nella schermata di blocco durante la ricarica</string>
@@ -45,10 +45,10 @@
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Elementi della barra di stato</string>
     <!-- Display customization category -->
-    <string name="customization_category_title">Customization</string>
+    <string name="customization_category_title">Personalizzazione</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Luci batteria in carica</string>
-    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
+    <string name="battery_light_summary">Comportamento della luce della batteria durante il DND, batteria scarica</string>
     <string name="battery_light_enable">Led di notifica batteria</string>
     <string name="battery_light_allow_on_dnd_title">Led notifica batteria in modalità Non Disturbare</string>
     <string name="battery_light_low_blinking_title">Led notifica lampeggiante quando la batteria è scarica</string>
@@ -61,9 +61,9 @@
     <string name="proximity_wake_title">Previeni risveglio accidentale</string>
     <string name="proximity_wake_summary">Controllare il sensore di prossimità prima di riattivare lo schermo</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <string name="custom_light_title">Colore LED</string>
+    <string name="custom_light_on_time_title">Durata impulso del led acceso (ms)</string>
+    <string name="custom_light_off_time_title">Durata impulso del led spento (ms)\"</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">Attività</string>
     <string name="select_custom_app_title">Seleziona app personalizzata</string>
@@ -85,33 +85,33 @@
     <string name="hardware_keys_single_tap_title">Azione singolo tocco</string>
     <string name="hardware_keys_long_press_title">Azione pressione prolungata</string>
     <string name="hardware_keys_double_tap_title">Azione doppio tocco</string>
-    <string name="hardware_keys">Buttons</string>
-    <string name="hardware_keys_summary">Customise hardware buttons</string>
-    <string name="navigation_keys">Navigation bar</string>
-    <string name="navigation_keys_summary">Customise on-screen navigation bar</string>
+    <string name="hardware_keys">Pulsanti</string>
+    <string name="hardware_keys_summary">Personalizza i tasti fisici</string>
+    <string name="navigation_keys">Barra di navigazione</string>
+    <string name="navigation_keys_summary">Personalizza i tasti di navigazione sullo schermo</string>
     <string name="hardware_keys_category">Tasti di navigazione hardware</string>
     <string name="hardware_keys_disable_title">Disabilita i tasti hardware</string>
     <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Buttons backlight timeout</string>
-    <string name="backlight_timeout_on">Enabled always</string>
-    <string name="backlight_timeout_3s">3 sec</string>
-    <string name="backlight_timeout_default">5 sec (default)</string>
-    <string name="backlight_timeout_10s">10 sec</string>
-    <string name="backlight_timeout_15s">15 sec</string>
-    <string name="backlight_timeout_20s">20 sec</string>
-    <string name="backlight_timeout_30s">30 sec</string>
-    <string name="button_title">Buttons</string>
+    <string name="backlight_timeout_title">Tempo di retroilluminazione dei pulsanti</string>
+    <string name="backlight_timeout_on">Sempre abilitato</string>
+    <string name="backlight_timeout_3s">3 secondi</string>
+    <string name="backlight_timeout_default">5 secondi (predefinito)</string>
+    <string name="backlight_timeout_10s">10 secondi</string>
+    <string name="backlight_timeout_15s">15 secondi</string>
+    <string name="backlight_timeout_20s">20 secondi</string>
+    <string name="backlight_timeout_30s">30 secondi</string>
+    <string name="button_title">Pulsanti</string>
     <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Backlight</string>
-    <string name="button_brightness_sw_title">Enable backlight</string>
-    <string name="button_backlight_on_touch_only_title">Button touch</string>
-    <string name="button_backlight_on_touch_only_summary">Enablebacklight with timeout only on button touch</string>
+    <string name="button_brightness_title">Retroilluminazione</string>
+    <string name="button_brightness_sw_title">Attiva la retroilluminazione</string>
+    <string name="button_backlight_on_touch_only_title">Tocco del pulsante</string>
+    <string name="button_backlight_on_touch_only_summary">Attiva la retroilluminazione solo al tocco del pulsante</string>
     <!-- ANBI -->
-    <string name="anbi_title">Accidental touch</string>
-    <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
+    <string name="anbi_title">Tocco accidentale</string>
+    <string name="anbi_summary">Previeni l\'interazione con i pulsanti di navigazione mentre si tocca lo schermo</string>
     <!-- Global Actions -->
-    <string name="power_menu_customization_category_title">Power menu customization</string>
-    <string name="global_actions_title">Power menu actions</string>
+    <string name="power_menu_customization_category_title">Personalizzazioni del menu di riavvio</string>
+    <string name="global_actions_title">Azioni nel Menù di riavvio</string>
     <string name="global_actions_summary">Seleziona cosa mostrare quando premi il menù di spegnimento</string>
     <string name="global_actions_power">Spegni</string>
     <string name="global_actions_restart">Riavvia</string>
@@ -126,127 +126,131 @@
     <string name="global_actions_emergency">Emergenza</string>
     <string name="global_actions_advanced_reboot_title">Abilita riavvio avanzato</string>
     <string name="global_actions_advanced_reboot_summary">Quando si riavvia visualizza anche le opzioni per recovery e bootloader</string>
-    <string name="global_actions_max_columns_title">Max actions to show</string>
-    <string name="global_actions_max_columns_summary">Set how many actions to show before buttons move to overflow menu</string>
+    <string name="global_actions_max_columns_title">Massimo d\'azioni da mostrare</string>
+    <string name="global_actions_max_columns_summary">Imposta quante azioni mostrare prima di spostare i pulsanti nel menu di overflow</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">Gesture</string>
     <string name="gesture_settings_dashboard_summary">Gestisci impostazioni gesture</string>
-    <string name="custom_device_gestures_preference_title">Device gestures</string>
+    <string name="custom_device_gestures_preference_title">Gestures del dispositivo</string>
     <!-- Heads up -->
-    <string name="heads_up_notifications">Heads up</string>
-    <string name="heads_up_notifications_summary">Control heads up behaviour</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="heads_up_notifications">Notifiche a comparsa</string>
+    <string name="heads_up_notifications_summary">Controllo notifiche a comparsa</string>
+    <string name="summary_heads_up_enabled">Le notifiche a comparsa sono abilitate</string>
+    <string name="summary_heads_up_disabled">Le notifiche a comparsa sono disabilitate</string>
+    <string name="add_heads_up_package">Aggiungi app</string>
+    <string name="add_heads_up_stoplist_summary">Disabilita le notifiche a comparsa per queste applicazioni</string>
+    <string name="add_heads_up_blacklist_summary">Disabilita comparse per queste applicazioni</string>
+    <string name="heads_up_stoplist_title">Lista bloccate</string>
+    <string name="heads_up_blacklist_title">Lista vietate</string>
+    <string name="profile_choose_app">Scegli app</string>
+    <string name="dialog_delete_title">Elimina</string>
+    <string name="dialog_delete_message">Rimuovere l\'elemento selezionato?</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Sblocco con Impronta digitale</string>
     <string name="fp_unlock_keystore_summary">Sblocca il dispositivo con l\'impronta digitale dopo il riavvio senza inserire il PIN, la password o la sequenza\nNota: a tuo rischio e pericolo!</string>
     <!-- Volume panel on left switch -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_title">Mostra il pannello del volume a sinistra</string>
     <!-- Density options -->
-    <string name="density_category">Density options</string>
+    <string name="density_category">Opzioni densità</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Gesture bar length</string>
-    <string name="hidden_label">Hidden</string>
-    <string name="long_label">Long</string>
+    <string name="navbar_length">Lunghezza barra gesti</string>
+    <string name="hidden_label">Nascosto</string>
+    <string name="long_label">Lunga</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
-    <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+    <string name="lockscreen_media_art_title">Mostra copertina album</string>
+    <string name="lockscreen_media_art_summary">Mostra la copertina dell\'album in riproduzione sulla schermata di blocco</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_summary">Enable or disable network speed indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="traffic_title">Indicatori del traffico dati</string>
+    <string name="traffic_summary">Abilita o disabilita gli indicatori di velocità della rete</string>
+    <string name="network_traffic_title">Traffico di rete</string>
+    <string name="network_traffic_type">Seleziona il tipo di attività di rete</string>
+    <string name="show_network_traffic_up">In uscita</string>
+    <string name="show_network_traffic_down">In entrata</string>
+    <string name="show_network_traffic_all">In uscita e in entrata</string>
+    <string name="network_traffic_state_title">Mostra attività di rete nella barra di stato</string>
+    <string name="network_traffic_autohide_threshold_title">Soglia alla quale nascondere l\'attività di rete (KB/s)</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">Scorri per fare uno screenshot</string>
+    <string name="three_finger_gesture_summary">Scorri in giù con tre dita per scattare uno screenshot</string>
     <!-- Weather - OmniJaws Settings -->
-    <string name="weather_title">Weather</string>
-    <string name="weather_config_title">Service settings</string>
+    <string name="weather_title">Meteo</string>
+    <string name="weather_config_title">Impostazioni servizio meteo</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Weather style</string>
-    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
-    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="lock_screen_weather_style_title">Stile del Meteo</string>
+    <string name="lock_screen_weather_style_summaryOff">Il tempo è mostrato sotto la linea della data con la posizione</string>
+    <string name="lock_screen_weather_style_summaryOn">Il tempo è mostrato sulla linea data senza posizione</string>
+    <string name="header_weather_title">Visualizza meteo nell\'intestazione</string>
+    <string name="header_weather_summary">Attiva la visualizzazione del meteo nell\'intestazione del pannello delle notifiche</string>
+    <string name="weather_icon_pack_title">Pacchetto icone condizioni meteo</string>
+    <string name="weather_icon_pack_note">Nota\u003a puoi installare nuovi pacchetti dal Play Store cercando \"Chronus icons\"</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Lockscreen weather</string>
-    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
-    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
-    <string name="lockscreen_weather_show_city_title">Show city name</string>
-    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_title">Meteo in schermata di blocco</string>
+    <string name="lockscreen_weather_summary">Mostra le attuali condizioni del meteo e temperatura nella schermata di blocco</string>
+    <string name="lockscreen_items_aod_info_title">Questa configurazione di visibilità si applica anche ad Ambient Display</string>
+    <string name="lockscreen_weather_show_city_title">Visualizza il nome della città</string>
+    <string name="lockscreen_weather_show_city_summary">Visualizza il nome dell\'attuale città sulla sinistra dell\'immagine</string>
+    <string name="lockscreen_weather_show_temp_title">Mostra temperatura</string>
+    <string name="lockscreen_weather_show_temp_summary">Visualizza la temperatura attuale della città sulla destra dell\'immagine</string>
     <!-- FOD animations -->
-    <string name="fod_recog_animation">FOD recognizing animation</string>
-    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
-    <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
-    <string name="fod_recog_animation_miui_normal">MIUI default</string>
-    <string name="fod_recog_animation_miui_aod">AOD</string>
-    <string name="fod_recog_animation_miui_light">Light</string>
+    <string name="fod_recog_animation">Animazione al riconoscimento</string>
+    <string name="fod_recog_animation_summary">Mostra un\'animazione durante la scansione dell\'impronta digitale</string>
+    <string name="fod_recog_animation_effect_title">Effetto animazione durante il riconoscimento</string>
+    <string name="fod_recog_animation_miui_normal">Predefinito MIUI</string>
+    <string name="fod_recog_animation_miui_aod">Schermo sempre attivo</string>
+    <string name="fod_recog_animation_miui_light">Chiaro</string>
     <string name="fod_recog_animation_miui_pop">Pop</string>
-    <string name="fod_recog_animation_miui_pulse">Pulse</string>
-    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
-    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
-    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
+    <string name="fod_recog_animation_miui_pulse">Impulso</string>
+    <string name="fod_recog_animation_miui_pulse_white">Impulso (Bianco)</string>
+    <string name="fod_recog_animation_miui_rhythm">Ritmo</string>
+    <string name="fod_recog_animation_op_cosmos">Cosmo</string>
     <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_stripe">Stripe</string>
-    <string name="fod_recog_animation_op_wave">Wave</string>
+    <string name="fod_recog_animation_op_stripe">Striscia</string>
+    <string name="fod_recog_animation_op_wave">Onda</string>
     <string name="fod_recog_animation_pureview_dna">DNA</string>
-    <string name="fod_recog_animation_pureview_future">Future</string>
-    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
-    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_pureview_future">Futuro</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Cerchio di luce</string>
+    <string name="fod_recog_animation_pureview_molecular">Molecolare</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
+    <string name="platform_revision">Piattaforma</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total RAM</string>
+    <string name="total_ram">RAM totale</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Controllo riproduzione</string>
+    <string name="volume_button_music_control_summary">Quando lo schermo è spento, la pressione prolungata dei tasti del volume cambierà le tracce musicali</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
-    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    <string name="volume_rocker_wake_title">Risveglio tramite tasti volume</string>
+    <string name="volume_rocker_wake_summary">Risveglia il dispositivo premendo i tasti del volume</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Invert layout</string>
+    <string name="navbar_invert_layout_title">Inverti layout</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+    <string name="fod_gesture_title">Impronta digitale con schermo spento</string>
+    <string name="fod_gesture_summary">Consente di sbloccare il dispositivo senza dover prima accendere lo schermo</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
-    <string name="battery_temp_summary">Tap to switch scale</string>
+    <string name="battery_temp_title">Temperatura della batteria</string>
+    <string name="battery_temp_summary">Premi per cambiare scala</string>
     <!-- Back Gestures -->
-    <string name="smallest_tick_label">Off</string>
-    <string name="greatest_tick_label">Half screen</string>
-    <string name="gesture_back_deadzone_label">Dead zone</string>
-    <string name="back_sensitivity_dialog_message_cust">\nUse the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
+    <string name="smallest_tick_label">Spento</string>
+    <string name="greatest_tick_label">Mezza schermata</string>
+    <string name="gesture_back_deadzone_label">Zona morta</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUsa la prima e la seconda barra di scorrimento per riconfigurare la sensibilità del gesto, l\'ultima per impostare una zona morta in cima allo schermo dove non sarà possibile effettuare il gesto, per evitare i conflitti con i gesti in-app.</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <string name="double_tap_power_flashlight_screen_title">Attiva la torcia</string>
+    <string name="double_tap_power_flashlight_title">Attiva la torcia a schermo spento col pulsante di alimentazione</string>
+    <string name="torch_power_button_gesture_none">Disabilitato</string>
+    <string name="torch_power_button_gesture_dt">Doppio tocco sul pulsante di alimentazione per accendere la torcia</string>
+    <string name="torch_power_button_gesture_lp">Pressione prolungata sul pulsante di alimentazione per accendere la torcia</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_all">Consenti accesso alla rete</string>
+    <string name="data_usage_app_restrict_all_summary">Tieni traccia dell\'utilizzo della rete</string>
+    <string name="data_usage_app_restrict_mobile">Dati mobili</string>
+    <string name="data_usage_app_restrict_mobile_summary">Abilita l\'utilizzo dei dati mobili</string>
+    <string name="data_usage_app_restrict_vpn">Dati VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Abilita l\'uso dei dati VPN</string>
+    <string name="data_usage_app_restrict_wifi">Dati Wi‑Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Abilita l\'uso dei dati Wi\u2011Fi</string>
+    <!-- Reset battery stats -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
 </resources>

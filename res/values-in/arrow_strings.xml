@@ -180,73 +180,77 @@
     <string name="lock_screen_weather_style_summaryOff">Cuaca ditampilkan di bawah garis tanggal dengan lokasi</string>
     <string name="lock_screen_weather_style_summaryOn">Cuaca ditampilkan di bawah garis tanggal tanpa lokasi</string>
     <string name="header_weather_title">Tampilkan cuaca dipanel atas</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="header_weather_summary">Aktifkan tampilan notifikasi Cuaca Header Panel</string>
+    <string name="weather_icon_pack_title">Keadaan paket ikon</string>
+    <string name="weather_icon_pack_note">Catatan\u003a Anda dapat menginstal paket ikon baru dari Play Store dengan mencari \"Chronus ikon\"</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Lockscreen weather</string>
-    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
-    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
-    <string name="lockscreen_weather_show_city_title">Show city name</string>
-    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_title">Cuaca di Layar Kunci</string>
+    <string name="lockscreen_weather_summary">Tampilkan kondisi cuaca dan suhu saat ini di layar kunci</string>
+    <string name="lockscreen_items_aod_info_title">Konfigurasi visibilitas ini juga berlaku untuk tampilan ambien</string>
+    <string name="lockscreen_weather_show_city_title">Tampilkan nama kota</string>
+    <string name="lockscreen_weather_show_city_summary">Tampilkan nama kota saat ini di sebelah kiri gambar</string>
+    <string name="lockscreen_weather_show_temp_title">Tampilkan suhu</string>
+    <string name="lockscreen_weather_show_temp_summary">Tampilkan suhu kota saat ini di sebelah kanan gambar</string>
     <!-- FOD animations -->
-    <string name="fod_recog_animation">FOD recognizing animation</string>
-    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
-    <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
-    <string name="fod_recog_animation_miui_normal">MIUI default</string>
+    <string name="fod_recog_animation">Animasi pengenalan FOD</string>
+    <string name="fod_recog_animation_summary">Perlihatkan animasi saat jari Anda terdeteksi</string>
+    <string name="fod_recog_animation_effect_title">Efek animasi pengenalan</string>
+    <string name="fod_recog_animation_miui_normal">Bawaan MIUI</string>
     <string name="fod_recog_animation_miui_aod">AOD</string>
-    <string name="fod_recog_animation_miui_light">Light</string>
+    <string name="fod_recog_animation_miui_light">Terang</string>
     <string name="fod_recog_animation_miui_pop">Pop</string>
-    <string name="fod_recog_animation_miui_pulse">Pulse</string>
-    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
+    <string name="fod_recog_animation_miui_pulse">Denyut</string>
+    <string name="fod_recog_animation_miui_pulse_white">Denyut (putih)</string>
     <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
     <string name="fod_recog_animation_op_cosmos">Cosmos</string>
     <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_stripe">Stripe</string>
-    <string name="fod_recog_animation_op_wave">Wave</string>
+    <string name="fod_recog_animation_op_stripe">Garis</string>
+    <string name="fod_recog_animation_op_wave">Gelombang</string>
     <string name="fod_recog_animation_pureview_dna">DNA</string>
-    <string name="fod_recog_animation_pureview_future">Future</string>
+    <string name="fod_recog_animation_pureview_future">Masa depan</string>
     <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
-    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_pureview_molecular">Molekuler</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Total RAM</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Kontrol Pemutaran</string>
+    <string name="volume_button_music_control_summary">Ketika layar dimatikan, tekan-lama tombol suara akan melewatkan trek musik</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
-    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    <string name="volume_rocker_wake_title">Nyalakan dengan volume</string>
+    <string name="volume_rocker_wake_summary">Membangunkan perangkat Anda dengan menekan tombol volume</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Invert layout</string>
+    <string name="navbar_invert_layout_title">Tukar tata letak</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+    <string name="fod_gesture_title">Sidik jari saat layar mati</string>
+    <string name="fod_gesture_summary">Izinkan membuka kunci tanpa harus mengaktifkan layar terlebih dahulu</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
-    <string name="battery_temp_summary">Tap to switch scale</string>
+    <string name="battery_temp_title">Suhu Baterai</string>
+    <string name="battery_temp_summary">Ketuk untuk mengganti skala</string>
     <!-- Back Gestures -->
-    <string name="smallest_tick_label">Off</string>
-    <string name="greatest_tick_label">Half screen</string>
-    <string name="gesture_back_deadzone_label">Dead zone</string>
-    <string name="back_sensitivity_dialog_message_cust">\nUse the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
+    <string name="smallest_tick_label">Mati</string>
+    <string name="greatest_tick_label">Setengah layar</string>
+    <string name="gesture_back_deadzone_label">Zona mati</string>
+    <string name="back_sensitivity_dialog_message_cust">\nGunakan seekbar pertama dan kedua untuk mengonfigurasi sensitivitas geser ke belakang, seekbar terakhir untuk mengatur area mati di atas layar di mana gesekan tidak dapat dipicu, untuk menghindari konflik dengan isyarat dalam aplikasi.</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <string name="double_tap_power_flashlight_screen_title">Nyalakan senter</string>
+    <string name="double_tap_power_flashlight_title">Layar mati tombol power untuk senter</string>
+    <string name="torch_power_button_gesture_none">Dinonaktifkan</string>
+    <string name="torch_power_button_gesture_dt">Tekan dua kali tombol power untuk menyalakan senter</string>
+    <string name="torch_power_button_gesture_lp">Tekan lama tombol power untuk nyalakan senter</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_all">Izinkan akses jaringan</string>
+    <string name="data_usage_app_restrict_all_summary">Aktifkan penggunaan jaringan</string>
+    <string name="data_usage_app_restrict_mobile">Data Seluler</string>
+    <string name="data_usage_app_restrict_mobile_summary">Aktifkan penggunaan data seluler</string>
+    <string name="data_usage_app_restrict_vpn">Data VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Aktifkan penggunaan data VPN</string>
+    <string name="data_usage_app_restrict_wifi">Data Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Aktifkan penggunaan data Wi\u2011Fi</string>
+    <!-- Reset battery stats -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
 </resources>
