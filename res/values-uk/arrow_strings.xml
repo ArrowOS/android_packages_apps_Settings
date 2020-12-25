@@ -228,7 +228,7 @@
     <string name="fod_gesture_summary">Дозволяє розблокувати пристрій без попереднього пробудження екрану</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Температура батареї</string>
-    <string name="battery_temp_summary">Торкніться, щоб відкрити додаток</string>
+    <string name="battery_temp_summary">Торкніться, щоб змінити шкалу</string>
     <!-- Back Gestures -->
     <string name="smallest_tick_label">Вимкнено</string>
     <string name="greatest_tick_label">Половина екрану</string>
@@ -250,7 +250,7 @@
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi данні</string>
     <string name="data_usage_app_restrict_wifi_summary">Увімкнути використання Wi\u2011Fi даних</string>
     <!-- Reset battery stats -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
-    <string name="ok_string">Ok</string>
+    <string name="battery_stats_reset">Скинути статистику</string>
+    <string name="battery_stats_message">Історію використання батареї буде скинуто</string>
+    <string name="ok_string">Ок</string>
 </resources>

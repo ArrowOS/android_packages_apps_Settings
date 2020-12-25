@@ -250,7 +250,7 @@
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 数据</string>
     <string name="data_usage_app_restrict_wifi_summary">启用 Wi\u2011Fi 的数据使用统计</string>
     <!-- Reset battery stats -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
-    <string name="ok_string">Ok</string>
+    <string name="battery_stats_reset">重置统计数据</string>
+    <string name="battery_stats_message">电池的历史数据将被重置</string>
+    <string name="ok_string">确定</string>
 </resources>
