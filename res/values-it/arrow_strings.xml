@@ -253,4 +253,6 @@
     <string name="battery_stats_reset">Resetta le statistiche</string>
     <string name="battery_stats_message">Le statistiche della batteria stanno per essere resettate</string>
     <string name="ok_string">Ok</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 </resources>

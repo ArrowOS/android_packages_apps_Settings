@@ -250,7 +250,9 @@
     <string name="data_usage_app_restrict_wifi">Δεδομένα Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Ενεργοποίηση χρήσης δεδομένων Wi\u2011Fi</string>
     <!-- Reset battery stats -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">Επαναφορά στατιστικών</string>
+    <string name="battery_stats_message">Θα γίνει επαναφορά των στατιστικών στοιχείων της μπαταρίας</string>
     <string name="ok_string">Ok</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 </resources>

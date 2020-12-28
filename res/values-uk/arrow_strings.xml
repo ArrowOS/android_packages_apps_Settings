@@ -253,4 +253,6 @@
     <string name="battery_stats_reset">Скинути статистику</string>
     <string name="battery_stats_message">Історію використання батареї буде скинуто</string>
     <string name="ok_string">Ок</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 </resources>
