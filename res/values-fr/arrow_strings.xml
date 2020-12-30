@@ -16,7 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Arrow version preference -->
     <string name="arrow_version">"Version de ArrowOS"</string>
-    <string name="build_date">"Date de la version "</string>
+    <string name="build_date">"Date de la version"</string>
     <string name="about_device_name">"Appareil"</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Appuyez pour afficher les informations</string>
@@ -52,11 +52,11 @@
     <string name="battery_light_enable">Voyant de batterie</string>
     <string name="battery_light_allow_on_dnd_title">Voyant de batterie en mode Ne Pas Déranger</string>
     <string name="battery_light_low_blinking_title">LED clignotante en cas de batterie faible</string>
-    <string name="battery_light_cat">Couleur de la Led lors de la charge</string>
+    <string name="battery_light_cat">Couleur du voyant de batterie lors de la charge</string>
     <string name="battery_light_low_color">Batterie faible</string>
     <string name="battery_light_medium_color">Batterie moyenne</string>
     <string name="battery_light_full_color">Batterie presque pleine</string>
-    <string name="battery_light_reallyfull_color">Batterie pleine (100)</string>
+    <string name="battery_light_reallyfull_color">Batterie pleine (100%)</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Empêcher un réveil accidentel</string>
     <string name="proximity_wake_summary">Utiliser le capteur de proximité pour prévenir les réveils accidentels de l\'écran</string>
@@ -254,5 +254,5 @@
     <string name="battery_stats_message">Les statistiques de batterie vont être remises à zéro</string>
     <string name="ok_string">Ok</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Ecouteurs enregistrés</string>
 </resources>

@@ -254,5 +254,5 @@
     <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
     <string name="ok_string">OK</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">保存されたイヤホン</string>
 </resources>

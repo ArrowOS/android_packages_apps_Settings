@@ -228,31 +228,31 @@
     <string name="fod_gesture_summary">Membolehkan membuka kunci peranti tanpa perlu mengaktifkan skrin terlebih dahulu</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Suhu bateri</string>
-    <string name="battery_temp_summary">Tap to switch scale</string>
+    <string name="battery_temp_summary">Sentuh untuk ubah skala</string>
     <!-- Back Gestures -->
-    <string name="smallest_tick_label">Off</string>
-    <string name="greatest_tick_label">Half screen</string>
-    <string name="gesture_back_deadzone_label">Dead zone</string>
-    <string name="back_sensitivity_dialog_message_cust">\nUse the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
+    <string name="smallest_tick_label">Tutup</string>
+    <string name="greatest_tick_label">Sebahagian layar</string>
+    <string name="gesture_back_deadzone_label">Zon mati</string>
+    <string name="back_sensitivity_dialog_message_cust">\nGunakan bar pencarian pertama dan kedua untuk mengkonfigurasi sensitiviti leret belakang, bar pencarian terakhir untuk menetapkan kawasan mati di atas layar di mana leret tidak dapat berfungsi, untuk mengelakkan konflik dengan isyarat dalam aplikasi.</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <string name="double_tap_power_flashlight_screen_title">Mengaktifkan lampu suluh</string>
+    <string name="double_tap_power_flashlight_title">Butang kuasa lampu suluh layar terpadam</string>
+    <string name="torch_power_button_gesture_none">Nyahaktifkan</string>
+    <string name="torch_power_button_gesture_dt">Sentuh berganda butang kuasa untuk lampu suluh</string>
+    <string name="torch_power_button_gesture_lp">Tekan lama untuk aktifkan lampu suluh</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_all">Benarkan akses rangkaian</string>
+    <string name="data_usage_app_restrict_all_summary">Aktifkan penggunaan rangkaian</string>
+    <string name="data_usage_app_restrict_mobile">Data mudah alih</string>
+    <string name="data_usage_app_restrict_mobile_summary">Aktifkan penggunaan data mudahalih</string>
+    <string name="data_usage_app_restrict_vpn">Data VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Aktifkan data VPN</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Aktifkan data Wi\u2011Fi</string>
     <!-- Reset battery stats -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">Tetapkan semula statistik</string>
+    <string name="battery_stats_message">Sejarah statistik bateri akan di set semula</string>
     <string name="ok_string">Ok</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Peranti audio tersimpan</string>
 </resources>

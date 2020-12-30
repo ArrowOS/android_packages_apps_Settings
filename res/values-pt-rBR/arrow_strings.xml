@@ -254,5 +254,5 @@
     <string name="battery_stats_message">Os históricos de estatísticas da bateria serão reiniciados</string>
     <string name="ok_string">Ok</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Fones de ouvido salvos</string>
 </resources>

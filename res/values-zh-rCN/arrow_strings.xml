@@ -254,5 +254,5 @@
     <string name="battery_stats_message">电池的历史数据将被重置</string>
     <string name="ok_string">确定</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">已保存的耳机</string>
 </resources>
