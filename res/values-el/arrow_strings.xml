@@ -29,8 +29,6 @@
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Τι να κάνω</string>
     <string name="double_tap_sleep_lockscreen_title">Πατήστε δύο φορές για αναστολή λειτουργίας στην οθόνη κλειδώματος</string>
-    <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Ηχος στιγμιότυπου οθόνης</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Σύνδεση εντάσεων ήχου κλήσης &amp; ειδοποίησης</string>
     <!-- Themes customisation -->

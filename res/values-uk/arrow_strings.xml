@@ -29,8 +29,6 @@
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Що робити</string>
     <string name="double_tap_sleep_lockscreen_title">Подвійне натискання для засинання на екрані блокування</string>
-    <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Звук знімка екрану</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Зв’язати гучність дзвінка &amp; сповіщень</string>
     <!-- Themes customisation -->

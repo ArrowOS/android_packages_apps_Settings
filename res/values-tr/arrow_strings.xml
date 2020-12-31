@@ -29,8 +29,6 @@
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Ne yapılsın</string>
     <string name="double_tap_sleep_lockscreen_title">Kilit ekranında uyutmak için çift dokunun</string>
-    <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Ekran görüntüsü sesi</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Zil sesi ve bildirim sesini bağla</string>
     <!-- Themes customisation -->

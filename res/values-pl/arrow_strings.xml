@@ -29,8 +29,6 @@
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Co zrobić</string>
     <string name="double_tap_sleep_lockscreen_title">Stuknij dwukrotnie ekran blokady, aby uśpić</string>
-    <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Dźwięk zrzutu ekranu</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Połącz głośność dzwonka i powiadomień</string>
     <!-- Themes customisation -->

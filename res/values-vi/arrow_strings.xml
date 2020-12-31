@@ -29,8 +29,6 @@
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Giờ muốn sao?</string>
     <string name="double_tap_sleep_lockscreen_title">Nhấn đúp trên màn hình khóa để tắt màn hình</string>
-    <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Âm thanh chụp màn hình</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
     <!-- Themes customisation -->

@@ -29,8 +29,6 @@
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">What to do</string>
     <string name="double_tap_sleep_lockscreen_title">लॉकस्क्रीन पर डबल टैप करने पर सक्रीन बंद करे</string>
-    <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">स्क्रीनशॉट ध्वनि</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">रिंगटोन और नोटिफिकेशनस ध्वनि को जोड़ दें</string>
     <!-- Themes customisation -->

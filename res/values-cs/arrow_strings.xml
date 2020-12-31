@@ -29,8 +29,6 @@
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Co dělat</string>
     <string name="double_tap_sleep_lockscreen_title">Při zamknuté obrazovce uspat dvojitým poklepáním</string>
-    <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Zvuk při snímku obrazovky</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Spojit hlasitost vyzvánění &amp; oznámení</string>
     <!-- Themes customisation -->

@@ -29,8 +29,6 @@
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">What to do</string>
     <string name="double_tap_sleep_lockscreen_title">輕觸兩下鎖定畫面以關閉螢幕</string>
-    <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">螢幕截圖音效</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">連結 &amp; 鈴聲與通知音量</string>
     <!-- Themes customisation -->

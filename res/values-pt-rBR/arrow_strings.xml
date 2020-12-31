@@ -29,8 +29,6 @@
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">O que fazer</string>
     <string name="double_tap_sleep_lockscreen_title">Toque duas vezes para desligar na tela de bloqueio</string>
-    <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Som de captura de tela</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Associar volumes de toque e notificação</string>
     <!-- Themes customisation -->

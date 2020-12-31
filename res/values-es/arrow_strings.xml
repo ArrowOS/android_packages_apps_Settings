@@ -29,8 +29,6 @@
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">¿Qué quieres hacer?</string>
     <string name="double_tap_sleep_lockscreen_title">Doble toque en la pantalla de bloqueo para apagar la pantalla</string>
-    <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Sonido de captura de pantalla</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Vincular volumen de tono y notificaciones</string>
     <!-- Themes customisation -->

@@ -29,8 +29,6 @@
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Mit csinálunk</string>
     <string name="double_tap_sleep_lockscreen_title">Dupla érintésre alvómód a záróképernyőn</string>
-    <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Képernyőmentés hang</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Csengő és értesítési hangok összekapcsolása</string>
     <!-- Themes customisation -->
