@@ -29,8 +29,6 @@
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Wat te doen</string>
     <string name="double_tap_sleep_lockscreen_title">Dubbel tikken op het vergrendelscherm om te slapen</string>
-    <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Schermafdruk geluid</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Koppel beltoon &amp; meldingsvolumes</string>
     <!-- Themes customisation -->

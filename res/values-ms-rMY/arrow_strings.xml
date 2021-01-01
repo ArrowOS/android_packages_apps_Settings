@@ -29,8 +29,6 @@
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Tindakan seterusnya</string>
     <string name="double_tap_sleep_lockscreen_title">Sentuh berganda untuk \"sleep\" di layar kunci</string>
-    <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Bunyi tangkapan layar</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Pautan ringtone &amp; notifikasi kelantangan</string>
     <!-- Themes customisation -->

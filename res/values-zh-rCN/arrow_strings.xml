@@ -29,8 +29,6 @@
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">要做什么</string>
     <string name="double_tap_sleep_lockscreen_title">在锁屏界面双击屏幕休眠</string>
-    <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">截屏提示音</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">链接铃声和通知的音量</string>
     <!-- Themes customisation -->

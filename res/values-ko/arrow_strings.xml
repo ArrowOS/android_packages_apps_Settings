@@ -29,8 +29,6 @@
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">What to do</string>
     <string name="double_tap_sleep_lockscreen_title">잠금 화면에서 2 번 두드려 화면 끄기</string>
-    <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">스크린샷 음향</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">벨소리 볼륨과 알림 볼륨 연결</string>
     <!-- Themes customisation -->

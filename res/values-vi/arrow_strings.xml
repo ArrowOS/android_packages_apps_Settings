@@ -19,18 +19,16 @@
     <string name="build_date">"Ngày dựng"</string>
     <string name="about_device_name">"Thiết bị"</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Chạm để hiện thông tin</string>
+    <string name="device_info_protected_single_press">Chạm để hiển thị thông tin</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">Số liệu thống kê của ArrowOS</string>
-    <string name="arrow_stats_summary">Chỉ cần đếm có bao nhiêu thiết bị chúng ta chạy trên</string>
+    <string name="arrow_stats_summary">Chỉ hiển thị số lượng các thiết bị đang chạy</string>
     <!--Double Tap to Sleep Statusbar-->
     <string name="statusbar_gestures_category_title">Cử chỉ thanh trạng thái</string>
     <string name="double_tap_sleep_gesture_title">Nhấn đúp trên thanh trạng thái để tắt màn hình</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Giờ muốn sao?</string>
     <string name="double_tap_sleep_lockscreen_title">Nhấn đúp trên màn hình khóa để tắt màn hình</string>
-    <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Âm thanh chụp màn hình</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
     <!-- Themes customisation -->
@@ -58,8 +56,8 @@
     <string name="battery_light_full_color">Pin gần đầy</string>
     <string name="battery_light_reallyfull_color">Pin đầy (100%)</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Ngăn chặn vô tình bật màn hình</string>
-    <string name="proximity_wake_summary">Kiểm tra cảm biến tiệm cận để mở màn hình</string>
+    <string name="proximity_wake_title">Ngưng ngẫu nhiên bật màn hình</string>
+    <string name="proximity_wake_summary">Kiểm tra cảm biến tiếp cận để mở màn hình</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Màu đèn</string>
     <string name="custom_light_on_time_title">Tốc độ hiện nhấp nháy đèn thông báo (mili giây)</string>
@@ -94,12 +92,12 @@
     <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">Thời gian sáng đèn thanh cử chỉ vật lý</string>
     <string name="backlight_timeout_on">Luôn bật</string>
-    <string name="backlight_timeout_3s">Ba giây</string>
-    <string name="backlight_timeout_default">Năm giây (mặc định)</string>
-    <string name="backlight_timeout_10s">Mười giây</string>
-    <string name="backlight_timeout_15s">Mười lăm giây</string>
-    <string name="backlight_timeout_20s">Hai mươi giây</string>
-    <string name="backlight_timeout_30s">Ba mươi giây</string>
+    <string name="backlight_timeout_3s">3 giây</string>
+    <string name="backlight_timeout_default">5 giây (mặc định)</string>
+    <string name="backlight_timeout_10s">10 giây</string>
+    <string name="backlight_timeout_15s">15 giây</string>
+    <string name="backlight_timeout_20s">20 giây</string>
+    <string name="backlight_timeout_30s">30 giây</string>
     <string name="button_title">Thanh cử chỉ</string>
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">Đèn</string>
@@ -250,9 +248,9 @@
     <string name="data_usage_app_restrict_wifi">Dữ liệu Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Bật mức sử dụng dữ liệu Wi\u2011Fi</string>
     <!-- Reset battery stats -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
-    <string name="ok_string">Ok</string>
+    <string name="battery_stats_reset">Đặt lại thông số pin</string>
+    <string name="battery_stats_message">Dữ liệu thông số pin đang chuẩn bị được đặt lại</string>
+    <string name="ok_string">Đồng ý</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Các tai nghe không dây đã lưu</string>
 </resources>

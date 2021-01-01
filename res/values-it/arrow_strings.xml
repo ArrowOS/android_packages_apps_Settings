@@ -29,8 +29,6 @@
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Che cosa fare</string>
     <string name="double_tap_sleep_lockscreen_title">Doppio tocco sulla schermata di blocco per spegnere lo schermo</string>
-    <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Suono cattura schermata</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Collega volume suoneria e notifiche</string>
     <!-- Themes customisation -->
@@ -254,5 +252,5 @@
     <string name="battery_stats_message">Le statistiche della batteria stanno per essere resettate</string>
     <string name="ok_string">Ok</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Cuffie associate</string>
 </resources>
