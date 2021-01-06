@@ -252,5 +252,5 @@
     <string name="battery_stats_message">Aku statistika lähtestatakse</string>
     <string name="ok_string">Ok</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Salvestatud nööpkuularid</string>
 </resources>

@@ -252,5 +252,5 @@
     <string name="battery_stats_message">Statistik penggunaan baterai akan diatur ulang</string>
     <string name="ok_string">Oke</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Earbud tersimpan</string>
 </resources>

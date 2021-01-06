@@ -103,7 +103,7 @@
     <string name="button_brightness_title">Tastenbeleuchtung</string>
     <string name="button_brightness_sw_title">Tastenbeleuchtung aktivieren</string>
     <string name="button_backlight_on_touch_only_title">Tastendruck</string>
-    <string name="button_backlight_on_touch_only_summary">Aktiviert Beleuchtung mit Timeout nur bei Tastendruck</string>
+    <string name="button_backlight_on_touch_only_summary">Aktiviert die Beleuchtung mit Timeout nur bei Tastendruck</string>
     <!-- ANBI -->
     <string name="anbi_title">Unbeabsichtigte Berührung</string>
     <string name="anbi_summary">Verhindert die Interaktion mit den Navigationstasten, während der Bildschirm berührt wird</string>
@@ -124,7 +124,7 @@
     <string name="global_actions_emergency">Notfall</string>
     <string name="global_actions_advanced_reboot_title">Erweitertes Neustart-Menü aktivieren</string>
     <string name="global_actions_advanced_reboot_summary">Wenn Neustarten ausgewählt wird, auch Optionen für Recovery und Bootloader anzeigen</string>
-    <string name="global_actions_max_columns_title">Maximale anzuzeigende Aktionen</string>
+    <string name="global_actions_max_columns_title">Maximal anzuzeigende Aktionen</string>
     <string name="global_actions_max_columns_summary">Legen Sie fest, wie viele Aktionen angezeigt werden sollen, bevor sich die Tasten zum Überlaufmenü verschieben</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">Gesten</string>
@@ -151,7 +151,7 @@
     <!-- Density options -->
     <string name="density_category">Displayauflösung</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Länge der Gestenleistenlänge</string>
+    <string name="navbar_length">Länge der Gestenleiste</string>
     <string name="hidden_label">Ausgeblendet</string>
     <string name="long_label">Lang</string>
     <!-- Lock screen cover art -->
@@ -217,21 +217,21 @@
     <string name="volume_button_music_control_title">Wiedergabesteuerung</string>
     <string name="volume_button_music_control_summary">Bei ausgeschaltetem Bildschirm wird durch langes Drücken der Lautstärketaste der Musiktitel gewechselt</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Lautstärketasten wecken Gerät</string>
+    <string name="volume_rocker_wake_title">Lautstärketasten wecken das Gerät</string>
     <string name="volume_rocker_wake_summary">Das Gerät wird durch Drücken der Lautstärketasten aufgeweckt</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Layout umkehren</string>
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Fingerabdruck bei ausgeschaltetem Display</string>
-    <string name="fod_gesture_summary">Ermöglicht das Entsperren des Geräts, ohne zuerst den Bildschirm einschalten zu müssen</string>
+    <string name="fod_gesture_summary">Ermöglicht das Entsperren des Geräts, ohne vorher den Bildschirm einzuschalten</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Batterietemperatur</string>
-    <string name="battery_temp_summary">Zum Wechseln der Skala tippen</string>
+    <string name="battery_temp_summary">Zum Wechseln der Einheit tippen</string>
     <!-- Back Gestures -->
     <string name="smallest_tick_label">Aus</string>
     <string name="greatest_tick_label">Halber Bildschirm</string>
     <string name="gesture_back_deadzone_label">Tote Zone</string>
-    <string name="back_sensitivity_dialog_message_cust">\nDie ersten beiden Regler verwenden, um die Zurück-Wischen Empfindlichkeit zu konfigurieren, und den letzten Regler, um den Bereich des Bildschirms festzulegen, in dem das Wischen nicht ausgelöst wird, um Konflikte mit In-App-Gesten zu vermeiden.</string>
+    <string name="back_sensitivity_dialog_message_cust">\nDie ersten beiden Regler verwenden, um die Zurück-Wischen Empfindlichkeit zu konfigurieren und den letzten Regler, um den Bereich des Bildschirms festzulegen, in dem das Wischen nicht ausgelöst wird, um Konflikte mit In-App-Gesten zu vermeiden.</string>
     <!-- Torch Power button gestures -->
     <string name="double_tap_power_flashlight_screen_title">Taschenlampe aktivieren</string>
     <string name="double_tap_power_flashlight_title">Taschenlampe mit Ein-/Aus-Taste bei ausgeschaltetem Display</string>
