@@ -116,11 +116,6 @@
         android:order="1001">
 
         <com.arrow.support.preferences.SystemSettingSwitchPreference
-            android:key="double_tap_sleep_lockscreen"
-            android:title="@string/double_tap_sleep_lockscreen_title"
-            android:defaultValue="false" />
-
-        <com.arrow.support.preferences.SystemSettingSwitchPreference
             android:key="proximity_on_wake"
             android:title="@string/proximity_wake_title"
             android:summary="@string/proximity_wake_summary"
