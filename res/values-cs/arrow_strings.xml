@@ -28,7 +28,6 @@
     <string name="double_tap_sleep_gesture_title">Dvojím poklepáním na stavový řádek uspat zařízení</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Co dělat</string>
-    <string name="double_tap_sleep_lockscreen_title">Při zamknuté obrazovce uspat dvojitým poklepáním</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Spojit hlasitost vyzvánění &amp; oznámení</string>
     <!-- Themes customisation -->
@@ -253,4 +252,8 @@
     <string name="ok_string">Ok</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Uložená sluchátka</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Screen refresh rate</string>
+    <!-- Display tap to wake custom summary -->
+    <string name="tap_to_wake_summary_arrow">Double-tap anywhere on the screen to wake or sleep device</string>
 </resources>

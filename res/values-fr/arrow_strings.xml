@@ -28,14 +28,13 @@
     <string name="double_tap_sleep_gesture_title">Double appui pour mettre en veille sur la barre d\'état</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Que faire</string>
-    <string name="double_tap_sleep_lockscreen_title">Double appui pour mettre en veille sur l\'écran de verrouillage</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Lier le volume de la sonnerie et des notifications</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Sélecteur de couleur</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informations de charge sur l\'écran de verrouillage</string>
-    <string name="lockscreen_battery_info_summary">Afficher le courant de charge, la tension, la puissance en watts et la température de la batterie sur l\'écran de verrouillage pendant le chargement</string>
+    <string name="lockscreen_battery_info_summary">Afficher l\'intensité, la puissance, la tension et la température de la batterie sur l\'écran de verrouillage pendant la charge</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Settings categories -->
@@ -226,7 +225,7 @@
     <string name="fod_gesture_summary">Autoriser le déverrouillage de l\'appareil sans devoir allumer l\'écran</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Température de la batterie</string>
-    <string name="battery_temp_summary">Appuyer pour changer d\'échelle</string>
+    <string name="battery_temp_summary">Appuyer pour changer d\'unité</string>
     <!-- Back Gestures -->
     <string name="smallest_tick_label">Off</string>
     <string name="greatest_tick_label">Demi-écran</string>
@@ -253,4 +252,8 @@
     <string name="ok_string">Ok</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Ecouteurs enregistrés</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Screen refresh rate</string>
+    <!-- Display tap to wake custom summary -->
+    <string name="tap_to_wake_summary_arrow">Double-tap anywhere on the screen to wake or sleep device</string>
 </resources>
