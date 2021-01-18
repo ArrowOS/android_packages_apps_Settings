@@ -76,18 +76,25 @@
         android:order="5"
         android:summary="@string/smart_charging_summary" />
 
+    <SwitchPreference
+        android:key="fast_charging"
+        android:title="@string/fast_charging_title"
+        android:summary="@string/fast_charging_summary"
+        android:order="6"
+        settings:controller="com.android.settings.fuelgauge.FastChargingPreferenceController"/>
+
     <Preference
          android:key="battery_charging_light"
          android:fragment="com.android.settings.arrow.BatteryLightSettings"
          android:title="@string/battery_light_settings"
-         android:order="6"
+         android:order="7"
          android:summary="@string/battery_light_summary" />
 
     <SwitchPreference
         android:key="battery_percentage"
         android:title="@string/battery_percentage"
         android:summary="@string/battery_percentage_description"
-        android:order="7"
+        android:order="8"
         settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
 
     <com.android.settingslib.widget.FooterPreference
