@@ -15,171 +15,170 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Arrow version preference -->
-    <string name="arrow_version">"ArrowOS version"</string>
-    <string name="build_date">"Build date"</string>
-    <string name="about_device_name">"Device"</string>
+    <string name="arrow_version">"ArrowOS ᱵᱷᱟᱹᱨᱥᱚᱱ"</string>
+    <string name="build_date">"ᱛᱮᱭᱟᱨ ᱢᱟᱹᱦᱟᱹᱛ"</string>
+    <string name="about_device_name">"ᱥᱟᱫᱷᱚᱱ"</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">ᱡᱟᱹᱥᱛᱤ ᱵᱤᱵᱨᱚᱬ ᱞᱟᱹᱜᱤᱫ ᱚᱛᱟᱭ ᱢᱮ</string>
     <!-- ArrowOS Installation Stats -->
-    <string name="arrow_stats_title">ArrowOS Stats</string>
-    <string name="arrow_stats_summary">Just counting how many devices we run on</string>
+    <string name="arrow_stats_title">ArrowOS ᱟᱸᱠᱲᱟ</string>
+    <string name="arrow_stats_summary">ᱠᱷᱟᱹᱞᱤ ᱧᱮᱞ ᱮᱫ ᱛᱟᱦᱮᱸᱡ ᱤᱧ ᱛᱤᱱᱟᱹᱝ ᱜᱟᱱ ᱥᱟᱫᱷᱚᱱ ᱟᱞᱮ ᱫᱟᱹᱲ ᱪᱷᱚᱭᱼᱟᱞᱮ</string>
     <!--Double Tap to Sleep Statusbar-->
-    <string name="statusbar_gestures_category_title">Statusbar gestures</string>
-    <string name="double_tap_sleep_gesture_title">Double tap to sleep on status bar</string>
+    <string name="statusbar_gestures_category_title">ᱥᱴᱟᱴᱟᱹᱥᱵᱟᱨ ᱜᱮᱥᱪᱚᱨᱠᱚ</string>
+    <string name="double_tap_sleep_gesture_title">ᱥᱴᱟᱴᱟᱹᱥᱵᱟᱨ ᱨᱮ ᱜᱤᱛᱤᱡ ᱞᱟᱹᱜᱤᱫ ᱵᱟᱨ ᱡᱮᱠᱷᱟ ᱚᱛᱟᱭ ᱢᱮ</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">What to do</string>
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <string name="lockscreen_tweaks_category_title">ᱪᱮᱫ ᱪᱤᱠᱟᱹᱭᱟ</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">ᱞᱤᱸᱠ ᱨᱤᱝ &amp; ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱣᱚᱞᱭᱩᱢᱠᱚ</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Color bucket</string>
+    <string name="theme_customization_systemui_title">ᱮᱚᱝ ᱵᱟᱹᱞᱴᱤ</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_title">ᱠᱩᱞᱩᱯᱥᱠᱨᱤᱱ ᱪᱟᱨᱡᱤᱝ ᱵᱤᱵᱨᱚᱬ</string>
+    <string name="lockscreen_battery_info_summary">ᱪᱟᱨᱡᱤᱝ ᱠᱚᱨᱮᱸᱴ, ᱵᱽᱷᱚᱞᱴᱚᱡᱽ, ᱣᱟᱴᱮᱡᱽ ᱟᱨ ᱵᱽᱮᱴᱨᱭ ᱛᱟᱯ ᱠᱚ ᱪᱟᱨᱡᱤᱝ ᱡᱷᱚᱜ ᱠᱩᱞᱯᱥᱠᱨᱤᱱ ᱨᱮ ᱫᱮᱠᱷᱟᱣ ᱢᱮ</string>
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+    <string name="app_play_store">ᱜᱩᱜᱟᱹᱞ ᱯᱞᱮ</string>
     <!-- Settings categories -->
-    <string name="misc_category_title">Misc</string>
+    <string name="misc_category_title">ᱢᱤᱥᱼᱠ</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">ᱥᱴᱟᱴᱟᱹᱥᱵᱟᱨ ᱟᱭᱴᱟᱹᱢᱠᱚ</string>
     <!-- Display customization category -->
-    <string name="customization_category_title">Customization</string>
+    <string name="customization_category_title">ᱠᱟᱹᱥᱴᱚᱢᱟᱭᱡᱮᱥᱚᱱ</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Battery charging light</string>
-    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
-    <string name="battery_light_enable">Battery light</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
+    <string name="battery_light_settings">ᱵᱽᱮᱴᱨᱭ ᱟᱨᱥᱟᱞ ᱪᱟᱨᱡᱤᱝ</string>
+    <string name="battery_light_summary">DND, ᱠᱚᱢ ᱵᱽᱮᱴᱨᱭ ᱡᱷᱚᱜ ᱵᱽᱮᱴᱨᱭ ᱞᱟᱹᱭᱴᱤ ᱨᱮᱭᱟᱜ ᱵᱮᱵᱷᱟᱨ</string>
+    <string name="battery_light_enable">ᱵᱽᱮᱴᱨᱭ ᱞᱟᱹᱭᱤᱴ</string>
+    <string name="battery_light_allow_on_dnd_title">ᱟᱞᱚ ᱦᱟᱨᱠᱮᱛ ᱢᱳᱰ ᱨᱮ ᱵᱽᱮᱴᱨᱭ ᱟᱨᱥᱟᱞ</string>
+    <string name="battery_light_low_blinking_title">ᱠᱚᱢ ᱵᱽᱮᱴᱨᱭ ᱨᱮ ᱟᱨᱥᱟᱞ ᱫᱷᱩᱯ ᱫᱷᱩᱯ</string>
+    <string name="battery_light_cat">ᱪᱟᱨᱡᱤᱝ ᱡᱷᱚᱜ ᱵᱽᱮᱴᱨᱭ ᱞᱟᱭᱤᱴ ᱨᱚᱸᱝ</string>
+    <string name="battery_light_low_color">ᱠᱚᱢ ᱵᱽᱮᱴᱨᱭ</string>
+    <string name="battery_light_medium_color">ᱢᱮᱰᱤᱭᱚᱢ ᱵᱽᱮᱴᱨᱭ</string>
+    <string name="battery_light_full_color">ᱯᱟᱠᱷᱟ ᱯᱟᱹᱠᱷᱤ ᱯᱩᱨᱟᱹ ᱵᱽᱮᱴᱨᱭ</string>
+    <string name="battery_light_reallyfull_color">ᱯᱩᱨᱟᱹ (᱑᱐᱐) ᱵᱽᱮᱴᱨᱭ</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">ᱵᱷᱩᱞ ᱛᱮ ᱵᱮᱨᱮᱫ ᱟᱠᱚᱴ ᱢᱮ</string>
+    <string name="proximity_wake_summary">ᱥᱠᱨᱤᱱ ᱠᱚ ᱵᱮᱨᱮᱫ ᱢᱟᱲᱟᱝ ᱨᱮ ᱯᱨᱚᱠᱥᱤᱢᱤᱴᱭ ᱥᱮᱱᱥᱚᱨ ᱧᱮᱞ ᱵᱤᱲᱟᱹᱣ ᱢᱮ</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <string name="custom_light_title">ᱟᱨᱥᱟᱞ ᱨᱚᱝ</string>
+    <string name="custom_light_on_time_title">ᱮᱞ ᱤ ᱰᱤ ᱯᱟᱹᱞᱥ (ms) ᱡᱷᱚᱜ ᱟᱨᱥᱟᱞ ᱚᱱ ᱚᱠᱛᱚ</string>
+    <string name="custom_light_off_time_title">ᱮᱞ ᱤ ᱰᱤ ᱯᱟᱹᱞᱥ (ms)\" ᱡᱷᱚᱜ ᱟᱨᱥᱟᱞ ᱵᱚᱸᱫ ᱚᱠᱛᱚ</string>
     <!-- Hardware button navigation -->
-    <string name="picker_activities">Activities</string>
-    <string name="select_custom_app_title">Select custom app</string>
-    <string name="select_custom_activity_title">Select custom activity</string>
-    <string name="profile_applist_title">Applications</string>
-    <string name="choose_action_title">Choose action</string>
-    <string name="action_entry_default_action">Default settings</string>
-    <string name="action_entry_select_app">Select application</string>
-    <string name="action_entry_custom_action">Select custom action</string>
-    <string name="hardware_keys_volume_keys_title">Volume rocker</string>
-    <string name="hardware_keys_home_key_title">Home button</string>
-    <string name="hardware_keys_menu_key_title">Menu button</string>
-    <string name="hardware_keys_assist_key_title">Search button</string>
-    <string name="hardware_keys_appswitch_key_title">Overview button</string>
-    <string name="hardware_keys_back_key_title">Back button</string>
-    <string name="hardware_keys_double_tap_summary">Set double tap action</string>
-    <string name="hardware_keys_single_tap_summary">Set single tap action</string>
-    <string name="hardware_keys_long_press_summary">Set long press action</string>
-    <string name="hardware_keys_single_tap_title">Single tap action</string>
-    <string name="hardware_keys_long_press_title">Long press action</string>
-    <string name="hardware_keys_double_tap_title">Double tap action</string>
-    <string name="hardware_keys">Buttons</string>
-    <string name="hardware_keys_summary">Customise hardware buttons</string>
-    <string name="navigation_keys">Navigation bar</string>
-    <string name="navigation_keys_summary">Customise on-screen navigation bar</string>
-    <string name="hardware_keys_category">Hardware navigation buttons</string>
-    <string name="hardware_keys_disable_title">Disable hardware buttons</string>
+    <string name="picker_activities">ᱠᱟᱹᱢᱤᱠᱚ</string>
+    <string name="select_custom_app_title">ᱠᱚᱥᱴᱚᱢ ᱮᱯ ᱪᱚᱭᱚᱱ</string>
+    <string name="select_custom_activity_title">ᱠᱚᱥᱴᱚᱢ ᱠᱟᱹᱢᱤ ᱪᱚᱭᱚᱱ</string>
+    <string name="profile_applist_title">ᱮᱯᱞᱤᱠᱮᱥᱚᱱᱠᱚ</string>
+    <string name="choose_action_title">ᱠᱟᱹᱢᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮ</string>
+    <string name="action_entry_default_action">ᱢᱩᱞ ᱥᱟᱡᱟᱣᱠᱚ</string>
+    <string name="action_entry_select_app">ᱮᱯᱞᱤᱠᱮᱥᱚᱱ ᱵᱟᱪᱷᱟᱣ ᱢᱮ</string>
+    <string name="action_entry_custom_action">ᱠᱚᱥᱴᱚᱢ ᱠᱟᱹᱢᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮ</string>
+    <string name="hardware_keys_volume_keys_title">ᱣᱚᱞᱭᱩᱢ ᱨᱚᱠᱟᱹᱨ</string>
+    <string name="hardware_keys_home_key_title">ᱚᱲᱟᱜ ᱵᱩᱛᱟᱹᱢ</string>
+    <string name="hardware_keys_menu_key_title">ᱢᱮᱱᱩ ᱵᱩᱛᱟᱹᱢ</string>
+    <string name="hardware_keys_assist_key_title">ᱥᱮᱸᱫᱽᱨᱟ ᱵᱩᱛᱟᱹᱢ</string>
+    <string name="hardware_keys_appswitch_key_title">ᱧᱮᱞᱦᱚᱨᱟ ᱵᱩᱛᱟᱹᱢ</string>
+    <string name="hardware_keys_back_key_title">ᱛᱟᱭᱚᱢ ᱵᱩᱛᱟᱹᱢ</string>
+    <string name="hardware_keys_double_tap_summary">ᱵᱟᱨ ᱡᱮᱠᱷᱟ ᱚᱛᱟ ᱠᱟᱹᱢᱤ ᱥᱮᱴ ᱢᱮ</string>
+    <string name="hardware_keys_single_tap_summary">ᱢᱤᱴᱟᱹᱝ ᱚᱛᱟ ᱠᱟᱹᱢᱤ ᱥᱮᱴ ᱢᱮ</string>
+    <string name="hardware_keys_long_press_summary">ᱡᱟᱹᱥᱛᱤ ᱜᱷᱟᱹᱬᱤᱡ ᱚᱛᱟ ᱠᱟᱹᱢᱤ ᱥᱮᱴ ᱢᱮ</string>
+    <string name="hardware_keys_single_tap_title">ᱢᱤᱫᱴᱟᱹᱝ ᱚᱛᱟ ᱠᱟᱹᱢᱤ ᱥᱮᱴ ᱢᱮ</string>
+    <string name="hardware_keys_long_press_title">ᱡᱟᱹᱥᱛᱤ ᱚᱛᱟ ᱵᱩᱛᱟᱹᱢ</string>
+    <string name="hardware_keys_double_tap_title">ᱟᱨ ᱡᱮᱠᱷᱟ ᱚᱛᱟ ᱠᱟᱹᱢᱤ</string>
+    <string name="hardware_keys">ᱵᱩᱛᱟᱢ ᱠᱚ</string>
+    <string name="hardware_keys_summary">ᱦᱟᱰᱣᱮᱨ ᱵᱩᱛᱟᱹᱢᱠᱚ ᱠᱚᱥᱴᱚᱢᱟᱭᱤᱡᱽ ᱢᱮ</string>
+    <string name="navigation_keys">ᱱᱮᱵᱷᱤᱜᱮᱥᱚᱱ ᱵᱟᱨ</string>
+    <string name="navigation_keys_summary">ᱚᱱᱥᱠᱨᱤᱱ ᱵᱽᱟᱨ ᱱᱮᱵᱷᱤᱜᱮᱥᱚᱱ ᱵᱟᱨ ᱠᱚᱥᱴᱚᱢᱟᱭᱤᱡᱽ ᱢᱮ</string>
+    <string name="hardware_keys_category">ᱦᱟᱰᱣᱮᱨ ᱱᱮᱵᱷᱤᱜᱮᱥᱚᱱ ᱵᱩᱛᱟᱹᱢᱠᱚ</string>
+    <string name="hardware_keys_disable_title">ᱦᱟᱰᱣᱮᱨ ᱵᱩᱛᱟᱹᱢᱠᱚ ᱵᱚᱸᱫᱚᱭ ᱢᱮ</string>
     <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Buttons backlight timeout</string>
-    <string name="backlight_timeout_on">Enabled always</string>
-    <string name="backlight_timeout_3s">3 sec</string>
-    <string name="backlight_timeout_default">5 sec (default)</string>
-    <string name="backlight_timeout_10s">10 sec</string>
-    <string name="backlight_timeout_15s">15 sec</string>
-    <string name="backlight_timeout_20s">20 sec</string>
-    <string name="backlight_timeout_30s">30 sec</string>
-    <string name="button_title">Buttons</string>
+    <string name="backlight_timeout_title">ᱵᱩᱛᱟᱹᱢᱠᱚ ᱨᱮᱭᱟᱜ ᱯᱟᱹᱪᱷᱞᱟᱹᱟᱨᱥᱟᱞ ᱚᱠᱛᱚ ᱪᱟᱵᱟ</string>
+    <string name="backlight_timeout_on">ᱡᱷᱚᱛᱚ ᱵᱮᱲᱟ ᱮᱢ ᱪᱷᱚ</string>
+    <string name="backlight_timeout_3s">᱓ ᱴᱤᱡ</string>
+    <string name="backlight_timeout_default">᱕ ᱴᱤᱡ (ᱢᱩᱞ)</string>
+    <string name="backlight_timeout_10s">᱑᱐ ᱴᱤᱡ</string>
+    <string name="backlight_timeout_15s">᱑᱕ ᱴᱤᱡ</string>
+    <string name="backlight_timeout_20s">᱒᱐ ᱴᱤᱡ</string>
+    <string name="backlight_timeout_30s">᱓᱐ ᱴᱤᱡ</string>
+    <string name="button_title">ᱵᱩᱛᱟᱹᱢ ᱠᱚ</string>
     <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Backlight</string>
-    <string name="button_brightness_sw_title">Enable backlight</string>
-    <string name="button_backlight_on_touch_only_title">Button touch</string>
-    <string name="button_backlight_on_touch_only_summary">Enablebacklight with timeout only on button touch</string>
+    <string name="button_brightness_title">ᱯᱟᱹᱪᱞᱟᱹ ᱞᱟᱭᱤᱴ</string>
+    <string name="button_brightness_sw_title">ᱯᱟᱹᱪᱷᱞᱟᱹᱟᱨᱥᱟᱞ ᱮᱢ ᱪᱷᱚ</string>
+    <string name="button_backlight_on_touch_only_title">ᱵᱩᱛᱟᱹᱢ ᱚᱛᱟ</string>
+    <string name="button_backlight_on_touch_only_summary">ᱵᱩᱛᱟᱹᱢ ᱚᱛᱟ ᱠᱟᱛᱮ ᱠᱷᱟᱹᱞᱤ ᱴᱟᱭᱤᱢᱟᱩᱴ ᱠᱟᱛᱮ ᱯᱟᱹᱪᱷᱞᱟᱹ ᱞᱟᱹᱭᱤᱴ ᱮᱢ ᱪᱷᱚᱭ ᱢᱮ</string>
     <!-- ANBI -->
-    <string name="anbi_title">Accidental touch</string>
-    <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
+    <string name="anbi_title">ᱵᱷᱩᱞ ᱛᱮ ᱚᱛᱟ</string>
+    <string name="anbi_summary">ᱥᱠᱨᱤᱱ ᱚᱛᱟ ᱡᱷᱚᱜ ᱱᱮᱵᱷᱤᱜᱮᱥᱚᱱ ᱵᱩᱛᱟᱹᱢ ᱟᱞᱚ ᱦᱮᱡ ᱪᱷᱚᱣᱟᱜᱼᱟ</string>
     <!-- Global Actions -->
-    <string name="power_menu_customization_category_title">Power menu customization</string>
-    <string name="global_actions_title">Power menu actions</string>
-    <string name="global_actions_summary">Select what to show when you press the power button</string>
-    <string name="global_actions_power">Power</string>
-    <string name="global_actions_restart">Restart</string>
-    <string name="global_actions_airplane">Airplane</string>
-    <string name="global_actions_settings">Settings</string>
-    <string name="global_actions_lockdown">Lock Down</string>
-    <string name="global_actions_soundpanel">Sound Panel</string>
-    <string name="global_actions_users">Users</string>
-    <string name="global_actions_screenshot">Screenshot</string>
-    <string name="global_actions_screenrecord">Screenrecord</string>
-    <string name="global_actions_flashlight">Flashlight</string>
-    <string name="global_actions_emergency">Emergency</string>
-    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
-    <string name="global_actions_advanced_reboot_summary">When restarting also show options for recovery and bootloader</string>
-    <string name="global_actions_max_columns_title">Max actions to show</string>
-    <string name="global_actions_max_columns_summary">Set how many actions to show before buttons move to overflow menu</string>
+    <string name="power_menu_customization_category_title">ᱯᱟᱣᱟᱨ ᱢᱮᱱᱴᱩ ᱠᱚᱥᱴᱚᱢᱟᱭᱡᱮᱥᱚᱱ</string>
+    <string name="global_actions_title">ᱣᱟᱹᱨ ᱢᱮᱱᱩ ᱠᱟᱹᱢᱤᱠᱚ</string>
+    <string name="global_actions_summary">ᱯᱟᱣᱟᱨ ᱢᱮᱱᱩ ᱚᱛᱟ ᱠᱟᱛᱮ ᱪᱮᱫ ᱮᱢ ᱫᱮᱠᱷᱟᱣ ᱥᱟᱱᱟᱢ ᱠᱟᱱᱟ ᱵᱟᱪᱷᱟᱣ ᱢᱮ</string>
+    <string name="global_actions_power">ᱯᱟᱣᱟᱨ</string>
+    <string name="global_actions_restart">ᱨᱤᱥᱴᱟᱴ</string>
+    <string name="global_actions_airplane">ᱮᱭᱟᱨᱯᱞᱮᱱ</string>
+    <string name="global_actions_settings">ᱥᱟᱡᱟᱣᱠᱚ</string>
+    <string name="global_actions_lockdown">ᱞᱚᱠ ᱰᱟᱩᱱ</string>
+    <string name="global_actions_soundpanel">ᱥᱟᱲᱮ ᱯᱮᱱᱟᱞ</string>
+    <string name="global_actions_users">ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ</string>
+    <string name="global_actions_screenshot">ᱥᱠᱨᱤᱱᱥᱚᱨᱴ!</string>
+    <string name="global_actions_screenrecord">ᱥᱠᱨᱤᱱᱨᱮᱠᱚᱰ</string>
+    <string name="global_actions_flashlight">ᱯᱷᱞᱟᱥᱞᱟᱭᱤᱴ</string>
+    <string name="global_actions_emergency">ᱮᱢᱟᱹᱨᱡᱮᱱᱥᱭ</string>
+    <string name="global_actions_advanced_reboot_title">ᱮᱰᱵᱷᱟᱱᱥ ᱨᱤᱥᱴᱟᱴ ᱮᱢ ᱪᱷᱚ</string>
+    <string name="global_actions_advanced_reboot_summary">ᱫᱩᱦᱫᱟᱹ ᱮᱦᱚᱵ ᱡᱷᱚᱜ ᱨᱤᱠᱟᱹᱣᱨᱤ ᱟᱨ ᱵᱩᱴᱞᱚᱰᱟᱹ ᱞᱟᱹᱜᱤᱫ ᱦᱚᱸ ᱚᱯᱥᱚᱱ ᱠᱚ ᱫᱮᱠᱷᱟᱣ ᱢᱮ</string>
+    <string name="global_actions_max_columns_title">ᱡᱷᱚᱛᱚ ᱠᱷᱚᱱ ᱡᱟᱹᱥᱛᱤ ᱠᱟᱹᱢᱤ ᱫᱮᱠᱷᱟᱣ</string>
+    <string name="global_actions_max_columns_summary">ᱚᱣᱟᱹᱨᱯᱷᱞᱚ ᱢᱮᱱᱩ ᱛᱮ ᱵᱩᱛᱟᱹᱢ ᱠᱚ ᱪᱟᱞᱟᱣ ᱢᱲᱟᱝ ᱨᱮ ᱠᱟᱹᱢᱤ ᱠᱚ ᱫᱮᱠᱷᱟᱣ ᱢᱮ</string>
     <!-- Settings dashboard gestures -->
-    <string name="gesture_settings_dashboard_title">Gestures</string>
-    <string name="gesture_settings_dashboard_summary">Manage gesture settings</string>
-    <string name="custom_device_gestures_preference_title">Device gestures</string>
+    <string name="gesture_settings_dashboard_title">ᱜᱮᱥᱪᱚᱨᱠᱚ</string>
+    <string name="gesture_settings_dashboard_summary">ᱜᱮᱥᱪᱚᱨ ᱥᱟᱡᱟᱣᱠᱚ ᱢᱮᱱᱮᱡᱽ ᱢᱮ</string>
+    <string name="custom_device_gestures_preference_title">ᱥᱟᱫᱷᱚᱱ ᱜᱮᱥᱪᱚᱨᱠᱚ</string>
     <!-- Heads up -->
-    <string name="heads_up_notifications">Heads up</string>
-    <string name="heads_up_notifications_summary">Control heads up behaviour</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="heads_up_notifications">ᱵᱚᱦᱚᱜ ᱪᱮᱛᱟᱱ</string>
+    <string name="heads_up_notifications_summary">ᱵᱚᱦᱚᱜ ᱪᱮᱛᱟᱱ ᱵᱮᱵᱷᱟᱨ ᱠᱚᱵᱽᱡᱟ</string>
+    <string name="summary_heads_up_enabled">ᱯᱳᱯ-ᱟᱹᱯ ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱᱠᱚ ᱮᱢ ᱮᱱᱟ</string>
+    <string name="summary_heads_up_disabled">ᱯᱳᱯ-ᱟᱹᱯ ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱᱠᱚ ᱵᱚᱸᱫ ᱮᱱᱟ</string>
+    <string name="add_heads_up_package">ᱮᱯ ᱥᱮᱞᱮᱫ ᱢᱮ</string>
+    <string name="add_heads_up_stoplist_summary">ᱱᱟᱶᱟ ᱠᱚ ᱮᱯᱞᱤᱠᱮᱥᱚᱱ ᱠᱚ ᱨᱮ ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱᱠᱚ ᱵᱚᱸᱫᱚᱭ ᱢᱮ</string>
+    <string name="add_heads_up_blacklist_summary">ᱱᱟᱶᱟ ᱮᱯᱞᱤᱠᱮᱥᱚᱱ ᱠᱚᱨᱮ ᱵᱚᱦᱚᱜ ᱪᱮᱛᱟᱱ ᱵᱚᱸᱫ ᱠᱟᱜ ᱢᱮ</string>
+    <string name="heads_up_stoplist_title">ᱛᱤᱸᱜᱩᱞᱤᱥᱴ</string>
+    <string name="heads_up_blacklist_title">ᱵᱞᱟᱠᱞᱤᱥᱴ</string>
+    <string name="profile_choose_app">ᱮᱯ ᱵᱟᱪᱷᱟᱣ ᱢᱮ</string>
+    <string name="dialog_delete_title">ᱢᱮᱴᱟᱣ</string>
+    <string name="dialog_delete_message">ᱵᱟᱪᱷᱟᱣ ᱟᱠᱟᱱ ᱡᱤᱱᱤᱥ ᱚᱪᱚᱜ ᱢᱮ?</string>
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-    <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+    <string name="fp_unlock_keystore_title">ᱛᱤᱠᱟᱹᱴᱩᱵᱪᱷᱟᱯᱟ ᱠᱷᱩᱞᱟ</string>
+    <string name="fp_unlock_keystore_summary">ᱨᱤᱵᱩᱴ ᱯᱚᱨᱮ ᱵᱤᱱᱟᱹ PIN/ᱫᱟᱱᱟᱝ ᱥᱟᱵᱟᱫ/ᱱᱟᱹᱢᱩᱱᱟ ᱛᱮ ᱥᱟᱫᱷᱚᱱ ᱛᱤᱠᱟᱹᱴᱩᱵᱪᱷᱟᱯᱟ ᱛᱮ ᱠᱷᱩᱞᱟᱹᱭ ᱢᱮ\nᱱᱚᱴ: ᱟᱢᱟᱜ ᱱᱤᱡᱚᱨ ᱨᱤᱥᱼᱠ ᱛᱮ!</string>
     <!-- Volume panel on left switch -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_title">ᱞᱮᱸᱜᱟ ᱛᱤ ᱯᱟᱦᱴᱟ ᱨᱮ ᱣᱚᱞᱭᱩᱢ ᱫᱮᱠᱷᱟᱣ ᱢᱮ</string>
     <!-- Density options -->
-    <string name="density_category">Density options</string>
+    <string name="density_category">ᱰᱮᱱᱥᱤᱴᱭ ᱚᱯᱥᱚᱱᱠᱚ</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Gesture bar length</string>
-    <string name="hidden_label">Hidden</string>
-    <string name="long_label">Long</string>
+    <string name="navbar_length">ᱜᱮᱥᱪᱚᱨ ᱵᱟᱨ ᱢᱟᱯ</string>
+    <string name="hidden_label">ᱩᱠᱩ</string>
+    <string name="long_label">ᱡᱤᱞᱤᱧ</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
-    <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+    <string name="lockscreen_media_art_title">ᱢᱮᱰᱤᱭᱟ ᱠᱚᱣᱟᱹᱨ ᱟᱨᱴ ᱫᱮᱠᱷᱟᱣ ᱢᱮ</string>
+    <string name="lockscreen_media_art_summary">ᱠᱩᱞᱩᱯᱥᱠᱨᱤᱱ ᱨᱮ ᱱᱤᱛᱚᱜ ᱯᱞᱮᱜᱽ ᱠᱟᱱ ᱢᱮᱰᱤᱭᱟ ᱟᱞᱵᱽᱟᱹᱢ ᱟᱨᱴ ᱫᱚᱠᱷᱟᱣ ᱢᱮ</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_summary">Enable or disable network speed indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="traffic_title">ᱴᱨᱟᱯᱷᱤᱠ ᱤᱱᱰᱤᱠᱮᱴᱚᱨ ᱠᱚ</string>
+    <string name="traffic_summary">ᱱᱮᱴᱣᱟᱨᱠ ᱨᱟᱹᱯᱛᱟᱨ ᱤᱱᱰᱤᱠᱮᱴᱟᱨ ᱠᱚᱢ ᱮᱢ ᱟᱨ ᱵᱟᱝ ᱵᱚᱸᱫ ᱪᱷᱚᱭ ᱢᱮ</string>
+    <string name="network_traffic_title">ᱱᱮᱴᱣᱟᱨᱠ ᱴᱨᱟᱯᱷᱤᱠ</string>
+    <string name="network_traffic_type">ᱢᱩᱴ ᱠᱟᱹᱢᱤ ᱯᱨᱚᱠᱟᱨ ᱪᱚᱭᱚᱱ ᱢᱮ</string>
+    <string name="show_network_traffic_up">ᱟᱹᱯᱞᱤᱸᱠ</string>
+    <string name="show_network_traffic_down">ᱰᱟᱩᱱᱞᱤᱸᱠ</string>
+    <string name="show_network_traffic_all">ᱟᱹᱯᱞᱤᱸᱠ ᱟᱨ ᱰᱟᱩᱱᱞᱤᱸᱠ</string>
+    <string name="network_traffic_state_title">ᱥᱴᱟᱴᱟᱹᱥᱵᱟᱨ ᱨᱮ ᱱᱮᱴ ᱠᱟᱹᱢᱤ ᱠᱚ ᱫᱮᱠᱷᱟᱣ ᱢᱮ</string>
+    <string name="network_traffic_autohide_threshold_title">ᱢᱩᱴ ᱠᱟᱹᱢᱤ ᱟᱡ ᱛᱮ ᱩᱠᱩ ᱥᱤᱢᱟᱹ (KB/s)</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">ᱥᱠᱨᱤᱱᱥᱚᱴ ᱞᱟᱹᱜᱤᱫ ᱴᱷᱮᱞᱟᱣ ᱢᱮ</string>
+    <string name="three_finger_gesture_summary">ᱯᱮᱭᱟ ᱠᱟᱹᱴᱩᱵ ᱛᱮ ᱞᱟᱛᱟᱨ ᱛᱮ ᱠᱷᱚᱥᱨᱚᱫ ᱠᱟᱛᱮ ᱥᱠᱨᱤᱱᱥᱚᱨᱴ ᱤᱫᱤ ᱢᱮ</string>
     <!-- Weather - OmniJaws Settings -->
-    <string name="weather_title">Weather</string>
-    <string name="weather_config_title">Service settings</string>
+    <string name="weather_title">ᱯᱟᱜᱚ</string>
+    <string name="weather_config_title">ᱥᱟᱹᱨᱣᱤᱥ ᱥᱟᱡᱟᱣᱠᱚ</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Weather style</string>
-    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
-    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="lock_screen_weather_style_title">ᱯᱟᱜᱚ ᱥᱴᱟᱭᱤᱞ</string>
+    <string name="lock_screen_weather_style_summaryOff">ᱯᱟᱜᱚ ᱢᱟᱦᱟᱸ ᱞᱟᱹᱭᱤᱱ ᱟᱨ ᱡᱟᱭᱜᱟ ᱞᱟᱛᱟᱨ ᱨᱮ ᱢᱮᱱᱟᱜᱼᱟ</string>
+    <string name="lock_screen_weather_style_summaryOn">ᱯᱟᱜᱚ ᱫᱚ ᱢᱟᱦᱟ ᱞᱟᱭᱤᱱ ᱨᱮ ᱵᱤᱱᱟᱫ ᱡᱟᱭᱜᱟ ᱛᱮ ᱫᱮᱠᱷᱟᱣ ᱠᱟᱱᱟ</string>
+    <string name="header_weather_title">ᱦᱮᱰᱟᱹᱨ ᱧᱮᱞ ᱯᱟᱜᱚ</string>
+    <string name="header_weather_summary">ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱯᱮᱱᱟᱞ ᱦᱮᱰᱟᱹᱨ ᱟᱛᱟᱥ ᱫᱮᱠᱷᱟᱣ</string>
+    <string name="weather_icon_pack_title">ᱠᱚᱱᱰᱤᱥᱚᱱ ᱟᱭᱠᱚᱱ ᱯᱮᱠ</string>
     <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
     <!-- Lockscreen weather settings -->
     <string name="lockscreen_weather_title">Lockscreen weather</string>
@@ -237,20 +236,24 @@
     <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
     <string name="torch_power_button_gesture_none">Disabled</string>
     <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <string name="torch_power_button_gesture_lp">ᱴᱚᱨᱪ ᱴᱚᱜᱟᱹᱞ ᱞᱟᱹᱜᱤᱫ ᱯᱟᱣᱟᱨ ᱵᱩᱛᱟᱹᱢ ᱡᱟᱹᱥᱛᱤ ᱜᱷᱟᱹᱬᱤᱡ ᱚᱛᱟᱭ ᱢᱮ</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_all">ᱱᱮᱴᱣᱟᱨᱠ ᱟᱫᱮᱨ ᱮᱢ ᱪᱷᱚ</string>
+    <string name="data_usage_app_restrict_all_summary">ᱱᱮᱴᱣᱟᱨᱠ ᱵᱮᱵᱷᱟᱨ ᱮᱢ ᱪᱷᱚ</string>
+    <string name="data_usage_app_restrict_mobile">ᱢᱚᱵᱟᱭᱤᱞ ᱰᱟᱴᱟ</string>
+    <string name="data_usage_app_restrict_mobile_summary">ᱢᱚᱵᱟᱭᱤᱞ ᱰᱟᱴᱟ ᱨᱮᱭᱟᱜ ᱵᱮᱵᱷᱟᱨ ᱮᱢ ᱪᱷᱚ</string>
+    <string name="data_usage_app_restrict_vpn">VPN ᱰᱟᱴᱟ</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN ᱰᱟᱴᱟ ᱨᱮᱭᱟᱜ ᱭᱩᱥᱮᱡᱽ ᱮᱢ ᱪᱷᱚ</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi ᱰᱟᱴᱟ</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi ᱰᱟᱴᱟ ᱭᱩᱥᱮᱡᱽ ᱮᱢ ᱪᱷᱚ</string>
     <!-- Reset battery stats -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
-    <string name="ok_string">Ok</string>
+    <string name="battery_stats_reset">ᱨᱤᱥᱮᱴ ᱥᱴᱟᱴᱥ</string>
+    <string name="battery_stats_message">ᱵᱮᱴᱨᱭ ᱱᱟᱜᱟᱢ ᱥᱴᱟᱴᱥ ᱞᱚ ᱨᱤᱥᱮᱴᱚᱜ ᱞᱟᱹᱜᱤᱫ</string>
+    <string name="ok_string">ᱴᱷᱤᱠ</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">ᱥᱟᱺᱪᱟᱣ ᱟᱠᱟᱱᱟ ᱤᱭᱟᱹᱨᱵᱟᱹᱰᱠᱚ</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Screen refresh rate</string>
+    <!-- Display tap to wake custom summary -->
+    <string name="tap_to_wake_summary_arrow">Double-tap anywhere on the screen to wake or sleep device</string>
 </resources>

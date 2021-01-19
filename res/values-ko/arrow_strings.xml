@@ -28,7 +28,6 @@
     <string name="double_tap_sleep_gesture_title">상태 표시줄을에서 2 번 두드려 화면 끄기</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">What to do</string>
-    <string name="double_tap_sleep_lockscreen_title">잠금 화면에서 2 번 두드려 화면 끄기</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">벨소리 볼륨과 알림 볼륨 연결</string>
     <!-- Themes customisation -->
@@ -253,4 +252,8 @@
     <string name="ok_string">Ok</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Screen refresh rate</string>
+    <!-- Display tap to wake custom summary -->
+    <string name="tap_to_wake_summary_arrow">Double-tap anywhere on the screen to wake or sleep device</string>
 </resources>

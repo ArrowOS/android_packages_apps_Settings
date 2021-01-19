@@ -28,7 +28,6 @@
     <string name="double_tap_sleep_gesture_title">Doppeltipp auf die Statusleiste, um den Bildschirm auszuschalten</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Was wird getan</string>
-    <string name="double_tap_sleep_lockscreen_title">Doppeltipp auf dem Sperrbildschirm, um den Bildschirm auszuschalten</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Klingelton- und Benachrichtigungslautstärke verknüpfen</string>
     <!-- Themes customisation -->
@@ -253,4 +252,8 @@
     <string name="ok_string">Ok</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Gespeicherte Kopfhörer</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Bildschirm Aktualisierungsrate</string>
+    <!-- Display tap to wake custom summary -->
+    <string name="tap_to_wake_summary_arrow">Doppeltippen Sie auf den Bildschirm, um das Gerät zu wecken oder es zu sperren</string>
 </resources>

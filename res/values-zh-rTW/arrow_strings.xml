@@ -28,7 +28,6 @@
     <string name="double_tap_sleep_gesture_title">輕觸兩下狀態列以關閉螢幕</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">要做什麼</string>
-    <string name="double_tap_sleep_lockscreen_title">輕觸兩下鎖定畫面以關閉螢幕</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">連結 &amp; 鈴聲與通知音量</string>
     <!-- Themes customisation -->
@@ -254,4 +253,8 @@
     <string name="ok_string">確定</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">已儲存的耳機</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">螢幕更新率</string>
+    <!-- Display tap to wake custom summary -->
+    <string name="tap_to_wake_summary_arrow">在螢幕上任一處輕按兩下即可喚醒或休眠裝置</string>
 </resources>
