@@ -142,6 +142,7 @@ public class NetworkDashboardFragment extends DashboardFragment implements
         if (Utils.isProviderModelEnabled(context)) {
             controllers.add(new NetworkProviderCallsSmsController(context, lifecycle));
         }
+        controllers.add(new OldMobileTypePreferenceController(context));
         return controllers;
     }
 
