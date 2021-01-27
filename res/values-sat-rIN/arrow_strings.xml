@@ -179,63 +179,63 @@
     <string name="header_weather_title">ᱦᱮᱰᱟᱹᱨ ᱧᱮᱞ ᱯᱟᱜᱚ</string>
     <string name="header_weather_summary">ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱯᱮᱱᱟᱞ ᱦᱮᱰᱟᱹᱨ ᱟᱛᱟᱥ ᱫᱮᱠᱷᱟᱣ</string>
     <string name="weather_icon_pack_title">ᱠᱚᱱᱰᱤᱥᱚᱱ ᱟᱭᱠᱚᱱ ᱯᱮᱠ</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_note">ᱱᱚᱴ\u003a ᱯᱞᱮ ᱥᱴᱚᱨ ᱨᱮ \"Chronus icons\" ᱥᱮᱸᱫᱽᱨᱟ ᱠᱟᱛᱮ ᱟᱢ ᱱᱟᱶᱟ ᱟᱭᱠᱚᱱ ᱯᱮᱠ ᱠᱚ ᱟᱹᱛᱩᱨ ᱟᱬᱜᱚ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Lockscreen weather</string>
-    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
-    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
-    <string name="lockscreen_weather_show_city_title">Show city name</string>
-    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_title">ᱠᱩᱞᱩᱯᱥᱠᱨᱤᱱ ᱟᱛᱚᱥ</string>
+    <string name="lockscreen_weather_summary">ᱱᱤᱛᱚᱜᱼᱟᱜ ᱟᱛᱟᱥ ᱟᱨ ᱛᱟᱯ ᱠᱚ ᱠᱩᱞᱩᱯᱥᱠᱨᱤᱱ ᱨᱮ ᱫᱮᱠᱷᱟᱣ ᱢᱮ</string>
+    <string name="lockscreen_items_aod_info_title">ᱱᱚᱶᱟ ᱧᱮᱞᱚᱜ ᱠᱚᱱᱯᱷᱤᱜᱽᱭᱩᱨᱮᱥᱚᱱ ᱫᱚ ᱮᱸᱵᱤᱭᱮᱸᱴ ᱰᱤᱥᱯᱞᱮ ᱴᱷᱮᱱ ᱦᱚᱸ ᱮᱢ ᱜᱟᱱᱚᱜᱼᱟ</string>
+    <string name="lockscreen_weather_show_city_title">ᱥᱚᱦᱟᱨ ᱧᱩᱛᱩᱢ ᱫᱮᱠᱷᱟᱣᱢᱮ</string>
+    <string name="lockscreen_weather_show_city_summary">ᱪᱤᱛᱟᱹᱨ ᱨᱮᱭᱟᱜ ᱞᱮᱸᱜᱟ ᱛᱤ ᱯᱟᱦᱴᱟ ᱨᱮ ᱱᱤᱛᱚᱜᱼᱟᱜ ᱧᱩᱛᱩᱢ ᱫᱮᱠᱷᱟᱣᱢᱮ</string>
+    <string name="lockscreen_weather_show_temp_title">ᱛᱟᱯ ᱫᱮᱠᱷᱟᱣᱢᱮ</string>
+    <string name="lockscreen_weather_show_temp_summary">ᱪᱤᱛᱟᱹᱨ ᱨᱮᱭᱟᱜ ᱡᱚᱡᱚᱢ ᱛᱤ ᱯᱟᱦᱴᱟ ᱨᱮ ᱱᱤᱛᱚᱜᱼᱟᱜ ᱥᱚᱦᱟᱨ ᱨᱮᱭᱟᱜ ᱛᱟᱯ ᱫᱮᱠᱷᱟᱣᱢᱮ</string>
     <!-- FOD animations -->
-    <string name="fod_recog_animation">FOD recognizing animation</string>
-    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
-    <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
-    <string name="fod_recog_animation_miui_normal">MIUI default</string>
+    <string name="fod_recog_animation">FOD ᱪᱤᱱᱦᱟᱹᱣ ᱮᱱᱤᱢᱮᱥᱚᱱ</string>
+    <string name="fod_recog_animation_summary">ᱟᱢᱟᱜ ᱠᱟᱹᱴᱩᱵ ᱛᱮ ᱯᱟᱲᱦᱟᱣ ᱡᱷᱚᱜ ᱮᱱᱤᱢᱮᱥᱚᱱ ᱫᱮᱠᱷᱟᱣ ᱢᱮ</string>
+    <string name="fod_recog_animation_effect_title">ᱮᱱᱤᱢᱮᱥᱚᱱ ᱤᱯᱷᱮᱠᱼᱴ ᱪᱤᱱᱦᱟᱹᱣᱼᱜ ᱠᱟᱱᱟ</string>
+    <string name="fod_recog_animation_miui_normal">MIUI ᱢᱩᱞ ᱯᱷᱮᱲᱟᱛ</string>
     <string name="fod_recog_animation_miui_aod">AOD</string>
-    <string name="fod_recog_animation_miui_light">Light</string>
-    <string name="fod_recog_animation_miui_pop">Pop</string>
-    <string name="fod_recog_animation_miui_pulse">Pulse</string>
-    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
-    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
-    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
+    <string name="fod_recog_animation_miui_light">ᱟᱨᱥᱟᱞ</string>
+    <string name="fod_recog_animation_miui_pop">ᱯᱚᱯ</string>
+    <string name="fod_recog_animation_miui_pulse">ᱯᱟᱹᱞᱥ</string>
+    <string name="fod_recog_animation_miui_pulse_white">ᱯᱟᱹᱞᱥ(ᱯᱩᱸᱰ)</string>
+    <string name="fod_recog_animation_miui_rhythm">ᱨᱭᱛᱷᱟᱹᱢ</string>
+    <string name="fod_recog_animation_op_cosmos">ᱠᱚᱥᱢᱚᱥ</string>
     <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_stripe">Stripe</string>
-    <string name="fod_recog_animation_op_wave">Wave</string>
+    <string name="fod_recog_animation_op_stripe">ᱥᱴᱨᱤᱯ</string>
+    <string name="fod_recog_animation_op_wave">ᱣᱮᱵᱽᱷ</string>
     <string name="fod_recog_animation_pureview_dna">DNA</string>
-    <string name="fod_recog_animation_pureview_future">Future</string>
-    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
-    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_pureview_future">ᱵᱷᱩᱛ ᱠᱟᱞ</string>
+    <string name="fod_recog_animation_pureview_halo_ring">ᱦᱟᱞᱚ ᱨᱤᱝ</string>
+    <string name="fod_recog_animation_pureview_molecular">ᱢᱚᱞᱮᱠᱭᱩᱞᱟᱹᱨ</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
+    <string name="platform_revision">ᱯᱞᱟᱴᱯᱷᱚᱨᱢ</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total RAM</string>
+    <string name="total_ram">ᱢᱩᱴ RAM</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">ᱯᱞᱮᱵᱮᱠ ᱠᱚᱵᱽᱡᱟ</string>
+    <string name="volume_button_music_control_summary">ᱚᱠᱟ ᱡᱷᱚᱜ ᱥᱠᱨᱤᱱ ᱵᱟᱸᱫᱚᱜᱼᱟ,‌ᱣᱚᱞᱭᱩᱢ ᱪᱟᱹᱵᱤ ᱡᱩᱨ ᱥᱮ ᱚᱛᱟ ᱞᱮᱠᱷᱟᱱ ᱥᱮᱨᱮᱧ ᱴᱨᱟᱠᱼᱠᱚ ᱥᱠᱤᱯᱚᱜᱼᱟ</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
-    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    <string name="volume_rocker_wake_title">ᱣᱚᱞᱭᱩᱢ ᱵᱮᱨᱮᱫ</string>
+    <string name="volume_rocker_wake_summary">ᱣᱚᱞᱭᱩᱢ ᱪᱟᱹᱵᱤ ᱚᱛᱟ ᱠᱟᱛᱮ ᱥᱟᱫᱷᱚᱱ ᱵᱮᱨᱮᱫ ᱪᱷᱚᱭ ᱢᱮ</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Invert layout</string>
+    <string name="navbar_invert_layout_title">ᱞᱮᱟᱩᱴ ᱩᱞᱴᱟᱹᱣ</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+    <string name="fod_gesture_title">ᱛᱤᱠᱟᱹᱴᱩᱵᱽᱪᱷᱟᱯᱟ ᱥᱠᱨᱤᱱ ᱵᱚᱸᱫᱽ</string>
+    <string name="fod_gesture_summary">ᱵᱤᱱᱟᱹ ᱥᱠᱨᱤᱱ ᱵᱮᱨᱮᱫᱽ ᱠᱟᱛᱮ ᱥᱟᱫᱷᱚᱱ ᱠᱚ ᱠᱷᱩᱞᱟᱹ ᱪᱷᱚ ᱮᱢᱟᱭ ᱟᱢ</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
-    <string name="battery_temp_summary">Tap to switch scale</string>
+    <string name="battery_temp_title">ᱵᱮᱴᱨᱭ ᱛᱟᱯ</string>
+    <string name="battery_temp_summary">ᱢᱟᱯ ᱵᱚᱫᱚᱞ ᱞᱟᱹᱜᱤᱫ ᱚᱛᱟᱭ ᱢᱮ</string>
     <!-- Back Gestures -->
-    <string name="smallest_tick_label">Off</string>
-    <string name="greatest_tick_label">Half screen</string>
-    <string name="gesture_back_deadzone_label">Dead zone</string>
-    <string name="back_sensitivity_dialog_message_cust">\nUse the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
+    <string name="smallest_tick_label">ᱵᱚᱸᱫᱽ</string>
+    <string name="greatest_tick_label">ᱚᱫᱷᱟ ᱥᱠᱨᱤᱱ</string>
+    <string name="gesture_back_deadzone_label">ᱜᱚᱡ ᱡᱚᱱ</string>
+    <string name="back_sensitivity_dialog_message_cust">\nᱯᱟᱹᱪᱞᱟᱹ ᱥᱣᱟᱭᱤᱯ ᱥᱮᱱᱴᱤᱵᱽᱷᱤᱴᱭ ᱠᱚ ᱠᱚᱱᱯᱷᱤᱜᱽ ᱞᱟᱹᱜᱤᱫ ᱢᱟᱲᱟᱝ ᱟᱨ ᱤᱱᱟᱹᱛᱟᱭᱚᱢ ᱥᱤᱠᱵᱟᱨ ᱵᱮᱵᱷᱟᱨ ᱢᱮ, ᱢᱩᱪᱟᱹᱫ ᱥᱤᱠᱵᱟᱨ ᱫᱚ ᱥᱠᱨᱤᱡᱱ ᱨᱮᱭᱟᱜ ᱪᱮᱛᱟᱱ ᱨᱮ ᱜᱚᱡ ᱡᱟᱭᱜᱟ ᱥᱮᱴ ᱞᱟᱹᱜᱤ ᱠᱟᱱᱟ ᱚᱠᱟᱨᱮ ᱫᱚ ᱥᱣᱟᱭᱤᱯ ᱵᱟᱭ ᱠᱟᱹᱢᱤᱟᱭ, ᱚᱠᱟ ᱫᱚ ᱦᱩᱛᱠᱟᱹᱢ ᱤᱱᱼᱟᱯ ᱜᱮᱥᱪᱚᱨ ᱠᱚ ᱥᱟᱞᱟᱜ ᱟᱞᱚ ᱦᱮᱨ ᱯᱷᱮᱨ ᱠᱮᱟᱭ ᱾</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
+    <string name="double_tap_power_flashlight_screen_title">ᱴᱚᱨᱪ ᱮᱢ ᱪᱷᱚ</string>
+    <string name="double_tap_power_flashlight_title">ᱥᱠᱨᱤᱱ ᱵᱚᱸᱫᱽ ᱯᱟᱣᱟᱹᱨ ᱵᱩᱛᱟᱹᱢ ᱴᱚᱨᱪ</string>
+    <string name="torch_power_button_gesture_none">ᱵᱚᱸᱫᱽᱮᱱᱟ</string>
+    <string name="torch_power_button_gesture_dt">ᱴᱚᱨᱪ ᱴᱚᱜᱟᱹᱞ ᱞᱟᱹᱜᱤᱫ ᱯᱟᱣᱟᱨ ᱵᱩᱛᱟᱹᱢ ᱵᱟᱨ ᱡᱮᱠᱷᱟ ᱚᱛᱟᱭ ᱢᱮ</string>
     <string name="torch_power_button_gesture_lp">ᱴᱚᱨᱪ ᱴᱚᱜᱟᱹᱞ ᱞᱟᱹᱜᱤᱫ ᱯᱟᱣᱟᱨ ᱵᱩᱛᱟᱹᱢ ᱡᱟᱹᱥᱛᱤ ᱜᱷᱟᱹᱬᱤᱡ ᱚᱛᱟᱭ ᱢᱮ</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">ᱱᱮᱴᱣᱟᱨᱠ ᱟᱫᱮᱨ ᱮᱢ ᱪᱷᱚ</string>
@@ -253,7 +253,25 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">ᱥᱟᱺᱪᱟᱣ ᱟᱠᱟᱱᱟ ᱤᱭᱟᱹᱨᱵᱟᱹᱰᱠᱚ</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Screen refresh rate</string>
+    <string name="refresh_rate_title">ᱥᱠᱴᱤᱱ ᱨᱤᱯᱷᱨᱮᱥ ᱨᱮᱴ</string>
     <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_arrow">Double-tap anywhere on the screen to wake or sleep device</string>
+    <string name="tap_to_wake_summary_arrow">ᱥᱟᱫᱷᱚᱱ ᱵᱮᱨᱮᱫᱽ ᱟᱨ ᱵᱟᱝ ᱜᱤᱛᱤᱡᱱ ᱪᱷᱚ ᱞᱟᱹᱜᱤᱫ ᱡᱟᱷᱟᱸ ᱨᱮᱜᱮ ᱵᱟᱨ ᱡᱮᱠᱷᱟ ᱚᱛᱟᱭ ᱢᱮ</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Smart Charging</string>
+    <string name="smart_charging_summary">Set maximum charging level</string>
+    <string name="smart_charging_switch_title">Use Smart charging</string>
+    <string name="smart_charging_level_title">Stop trigger level</string>
+    <string name="smart_charging_resume_level_title">Start trigger level</string>
+    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
+    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
+    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
 </resources>
