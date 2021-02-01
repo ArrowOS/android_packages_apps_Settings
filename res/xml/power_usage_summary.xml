@@ -25,33 +25,40 @@
         android:key="battery_header"
         android:title="@string/summary_placeholder"
         android:selectable="true"
-        android:order="-4"
+        android:order="-6"
         android:layout="@layout/battery_header" />
 
     <com.android.settings.widget.CardPreference
         android:key="battery_tip"
         android:title="@string/summary_placeholder"
-        android:order="-3"
+        android:order="-5"
         settings:controller="com.android.settings.fuelgauge.batterytip.BatteryTipPreferenceController" />
 
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="last_full_charge"
         android:title="@string/battery_last_full_charge"
         android:selectable="false"
-        android:order="-2"
+        android:order="-4"
         settings:allowDividerAbove="true" />
 
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="screen_usage"
         android:title="@string/device_screen_usage"
-        android:order="-1"
+        android:order="-3"
         android:selectable="false" />
+
+    <com.android.settings.fuelgauge.PowerGaugePreference
+        android:key="battery_temp"
+        android:title="@string/battery_temp_title"
+        android:summary="@string/battery_temp_summary"
+        android:order="-2"
+        android:selectable="true" />
 
     <Preference
         android:fragment="com.android.settings.fuelgauge.SmartBatterySettings"
         android:key="smart_battery_manager"
         android:title="@string/smart_battery_manager_title"
-        android:order="0"
+        android:order="-1"
         settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController"
         settings:allowDividerAbove="true" />
 
@@ -59,28 +66,22 @@
         android:fragment="com.android.settings.fuelgauge.batterysaver.BatterySaverSettings"
         android:key="battery_saver_summary"
         android:title="@string/battery_saver"
-        android:order="5"
+        android:order="0"
         settings:controller="com.android.settings.fuelgauge.BatterySaverController" />
 
     <Preference
          android:key="battery_charging_light"
          android:fragment="com.android.settings.arrow.BatteryLightSettings"
          android:title="@string/battery_light_settings"
-         android:order="6"
+         android:order="5"
          android:summary="@string/battery_light_summary" />
-
-    <com.android.settings.fuelgauge.PowerGaugePreference
-        android:key="battery_temp"
-        android:title="@string/battery_temp_title"
-        android:summary="@string/battery_temp_summary"
-        android:selectable="true" />
 
     <Preference
         android:fragment="com.android.settings.fuelgauge.smartcharging.SmartChargingSettings"
         android:key="smart_charging_key"
         android:title="@string/smart_charging_title"
-        android:summary="@string/smart_charging_summary"
-        settings:allowDividerAbove="true" />
+        android:order="6"
+        android:summary="@string/smart_charging_summary" />
 
     <SwitchPreference
         android:key="battery_percentage"
