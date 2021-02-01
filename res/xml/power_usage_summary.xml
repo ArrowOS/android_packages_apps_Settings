@@ -39,13 +39,19 @@
         android:title="@string/battery_last_full_charge"
         android:selectable="false"
         android:order="-2"
-        settings:allowDividerAbove="true" />
 
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="screen_usage"
         android:title="@string/device_screen_usage"
         android:order="-1"
-        android:selectable="false" />
+        android:selectable="false"
+        settings:allowDividerAbove="true" />
+
+    <com.android.settings.fuelgauge.PowerGaugePreference
+        android:key="battery_temp"
+        android:title="@string/battery_temp_title"
+        android:summary="@string/battery_temp_summary"
+        android:selectable="true" />
 
     <Preference
         android:fragment="com.android.settings.fuelgauge.SmartBatterySettings"
@@ -63,24 +69,17 @@
         settings:controller="com.android.settings.fuelgauge.BatterySaverController" />
 
     <Preference
+        android:fragment="com.android.settings.fuelgauge.smartcharging.SmartChargingSettings"
+        android:key="smart_charging_key"
+        android:title="@string/smart_charging_title"
+        android:summary="@string/smart_charging_summary"
+
+    <Preference
          android:key="battery_charging_light"
          android:fragment="com.android.settings.arrow.BatteryLightSettings"
          android:title="@string/battery_light_settings"
          android:order="6"
          android:summary="@string/battery_light_summary" />
-
-    <com.android.settings.fuelgauge.PowerGaugePreference
-        android:key="battery_temp"
-        android:title="@string/battery_temp_title"
-        android:summary="@string/battery_temp_summary"
-        android:selectable="true" />
-
-    <Preference
-        android:fragment="com.android.settings.fuelgauge.smartcharging.SmartChargingSettings"
-        android:key="smart_charging_key"
-        android:title="@string/smart_charging_title"
-        android:summary="@string/smart_charging_summary"
-        settings:allowDividerAbove="true" />
 
     <SwitchPreference
         android:key="battery_percentage"
