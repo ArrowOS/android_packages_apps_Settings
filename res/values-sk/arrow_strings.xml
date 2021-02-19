@@ -16,7 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Arrow version preference -->
     <string name="arrow_version">"Verzia systému ArrowOS"</string>
-    <string name="build_date">"Dátum zostavy"</string>
+    <string name="build_date">"Dátum kompilácie"</string>
     <string name="about_device_name">"Zariadenie"</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
