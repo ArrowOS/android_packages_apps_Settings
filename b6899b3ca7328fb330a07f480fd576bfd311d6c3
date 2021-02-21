@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "558d865e_8d838962",
+        "filename": "res/values/arrow_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 347,
+      "author": {
+        "id": 71
+      },
+      "writtenOn": "2021-02-21T11:46:13Z",
+      "side": 1,
+      "message": "empty space",
+      "revId": "b6899b3ca7328fb330a07f480fd576bfd311d6c3",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0ee3ef35_901b6dce",
+        "filename": "res/values/arrow_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 354,
+      "author": {
+        "id": 71
+      },
+      "writtenOn": "2021-02-21T11:46:13Z",
+      "side": 1,
+      "message": "empty space",
+      "revId": "b6899b3ca7328fb330a07f480fd576bfd311d6c3",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196",
+      "unresolved": true
+    }
+  ]
+}
