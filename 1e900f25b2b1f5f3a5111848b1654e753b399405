@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c0af8cdd_58d01f43",
+        "filename": "res/xml/security_lockscreen_settings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 71
+      },
+      "writtenOn": "2021-02-21T13:23:48Z",
+      "side": 1,
+      "message": "derp",
+      "revId": "1e900f25b2b1f5f3a5111848b1654e753b399405",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "44c4fe53_b4f05286",
+        "filename": "res/xml/security_lockscreen_settings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 71
+      },
+      "writtenOn": "2021-02-21T13:23:48Z",
+      "side": 1,
+      "message": "derp",
+      "revId": "1e900f25b2b1f5f3a5111848b1654e753b399405",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b9b8bb0b_f98c2436",
+        "filename": "res/xml/security_lockscreen_settings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 71
+      },
+      "writtenOn": "2021-02-21T13:23:48Z",
+      "side": 1,
+      "message": "empty space",
+      "revId": "1e900f25b2b1f5f3a5111848b1654e753b399405",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4aa13011_bf62893d",
+        "filename": "res/xml/security_lockscreen_settings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 71
+      },
+      "writtenOn": "2021-02-21T13:23:48Z",
+      "side": 1,
+      "message": "drop, not need",
+      "revId": "1e900f25b2b1f5f3a5111848b1654e753b399405",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196",
+      "unresolved": true
+    }
+  ]
+}
