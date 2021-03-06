@@ -77,10 +77,17 @@
         android:summary="@string/smart_charging_summary" />
 
     <Preference
+        android:fragment="com.android.settings.fuelgauge.smartcutoff.SmartCutoffSettings"
+        android:key="smart_cutoff_key"
+        android:title="@string/smart_cutoff_title"
+        android:order="6"
+        android:summary="@string/smart_cutoff_summary" />
+
+    <Preference
          android:key="battery_charging_light"
          android:fragment="com.android.settings.arrow.BatteryLightSettings"
          android:title="@string/battery_light_settings"
-         android:order="6"
+         android:order="7"
          android:summary="@string/battery_light_summary" />
 
     <!--<SwitchPreference
