@@ -22,9 +22,9 @@
     <string name="device_info_protected_single_press">Tap to show info</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">ArrowOS 통계</string>
-    <string name="arrow_stats_summary">Just counting how many devices we run on</string>
+    <string name="arrow_stats_summary">얼마나 많은 기기가 ArrowOS로 실행되는지 집계합니다.</string>
     <!--Double Tap to Sleep Statusbar-->
-    <string name="statusbar_gestures_category_title">Statusbar gestures</string>
+    <string name="statusbar_gestures_category_title">상태표시줄 설정</string>
     <string name="double_tap_sleep_gesture_title">상태 표시줄을에서 2 번 두드려 화면 끄기</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">What to do</string>
@@ -42,10 +42,10 @@
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">상태 표시줄 항목</string>
     <!-- Display customization category -->
-    <string name="customization_category_title">Customization</string>
+    <string name="customization_category_title">사용자 설정</string>
     <!-- Battery light -->
     <string name="battery_light_settings">배터리 충전 중 표시등 색상</string>
-    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
+    <string name="battery_light_summary">방해 금지 모드와 배터리 부족 시의 배터리 표시등을 설정합니다.</string>
     <string name="battery_light_enable">배터리 표시등</string>
     <string name="battery_light_allow_on_dnd_title">방해 금지 모드에서 배터리 표시등 설정</string>
     <string name="battery_light_low_blinking_title">배터리 부족시 표시등 깜박임</string>
@@ -83,21 +83,21 @@
     <string name="hardware_keys_long_press_title">길게 누를 때 동작</string>
     <string name="hardware_keys_double_tap_title">2 번 누를 때 동작</string>
     <string name="hardware_keys">Buttons</string>
-    <string name="hardware_keys_summary">Customise hardware buttons</string>
-    <string name="navigation_keys">Navigation bar</string>
+    <string name="hardware_keys_summary">하드웨어 버튼을 맞춤 설정합니다.</string>
+    <string name="navigation_keys">내비게이션 바</string>
     <string name="navigation_keys_summary">Customise on-screen navigation bar</string>
     <string name="hardware_keys_category">하드웨어 내비게이션 버튼</string>
     <string name="hardware_keys_disable_title">하드웨어 버튼 비활성화</string>
     <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">Buttons backlight timeout</string>
     <string name="backlight_timeout_on">Enabled always</string>
-    <string name="backlight_timeout_3s">3 sec</string>
-    <string name="backlight_timeout_default">5 sec (default)</string>
-    <string name="backlight_timeout_10s">10 sec</string>
-    <string name="backlight_timeout_15s">15 sec</string>
-    <string name="backlight_timeout_20s">20 sec</string>
-    <string name="backlight_timeout_30s">30 sec</string>
-    <string name="button_title">Buttons</string>
+    <string name="backlight_timeout_3s">3초</string>
+    <string name="backlight_timeout_default">5초 (기본값)</string>
+    <string name="backlight_timeout_10s">10초</string>
+    <string name="backlight_timeout_15s">15초</string>
+    <string name="backlight_timeout_20s">20초</string>
+    <string name="backlight_timeout_30s">30초</string>
+    <string name="button_title">버튼</string>
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">Backlight</string>
     <string name="button_brightness_sw_title">Enable backlight</string>
@@ -107,8 +107,8 @@
     <string name="anbi_title">Accidental touch</string>
     <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
     <!-- Global Actions -->
-    <string name="power_menu_customization_category_title">Power menu customization</string>
-    <string name="global_actions_title">Power menu actions</string>
+    <string name="power_menu_customization_category_title">전원 메뉴 맞춤설정</string>
+    <string name="global_actions_title">전원 메뉴 옵션</string>
     <string name="global_actions_summary">전원 단추를 누를 때 표시 할 항목 선택</string>
     <string name="global_actions_power">전원</string>
     <string name="global_actions_restart">다시 시작</string>
@@ -118,27 +118,27 @@
     <string name="global_actions_soundpanel">Sound Panel</string>
     <string name="global_actions_users">사용자</string>
     <string name="global_actions_screenshot">스크린샷</string>
-    <string name="global_actions_screenrecord">Screenrecord</string>
+    <string name="global_actions_screenrecord">화면 녹화</string>
     <string name="global_actions_flashlight">손전등</string>
     <string name="global_actions_emergency">Emergency</string>
     <string name="global_actions_advanced_reboot_title">고급 다시 시작 사용</string>
     <string name="global_actions_advanced_reboot_summary">다시 시작할 때 복구 및 부트 로더 옵션 표시 합니다.</string>
-    <string name="global_actions_max_columns_title">Max actions to show</string>
+    <string name="global_actions_max_columns_title">표시할 메뉴의 최대 수</string>
     <string name="global_actions_max_columns_summary">Set how many actions to show before buttons move to overflow menu</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">제스처</string>
     <string name="gesture_settings_dashboard_summary">제스쳐 설정</string>
     <string name="custom_device_gestures_preference_title">Device gestures</string>
     <!-- Heads up -->
-    <string name="heads_up_notifications">Heads up</string>
+    <string name="heads_up_notifications">헤드업 알림</string>
     <string name="heads_up_notifications_summary">Control heads up behaviour</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
+    <string name="summary_heads_up_enabled">팝업 알림이 활성화되었습니다</string>
+    <string name="summary_heads_up_disabled">헤드업 알림이 비활성화되었습니다</string>
+    <string name="add_heads_up_package">앱 추가</string>
+    <string name="add_heads_up_stoplist_summary">이 앱을 사용할 경우 헤드업 알림을 사용하지 않습니다.</string>
+    <string name="add_heads_up_blacklist_summary">이 앱의 헤드업 알람을 사용하지 않습니다.</string>
+    <string name="heads_up_stoplist_title">중지 목록</string>
+    <string name="heads_up_blacklist_title">금지 목록</string>
     <string name="profile_choose_app">Choose app</string>
     <string name="dialog_delete_title">Delete</string>
     <string name="dialog_delete_message">Remove selected item?</string>
@@ -146,48 +146,48 @@
     <string name="fp_unlock_keystore_title">지문 인식 잠금 해제</string>
     <string name="fp_unlock_keystore_summary">기기를 재시작 한 이후 PIN/비밀번호/패턴을 입력하지 않고 지문으로 잠금을 해제합니다.\n주의: 모든 책임은 사용자에게 있습니다!</string>
     <!-- Volume panel on left switch -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_title">볼륨 패널을 왼쪽에 표시</string>
     <!-- Density options -->
-    <string name="density_category">Density options</string>
+    <string name="density_category">해상도 옵션</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Gesture bar length</string>
-    <string name="hidden_label">Hidden</string>
-    <string name="long_label">Long</string>
+    <string name="navbar_length">제스처 바 길이</string>
+    <string name="hidden_label">숨김</string>
+    <string name="long_label">긺</string>
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Display media cover art</string>
     <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
     <!-- Network traffic -->
     <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_summary">Enable or disable network speed indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
+    <string name="traffic_summary">네트워크 속도를 표시합니다.</string>
+    <string name="network_traffic_title">네트워크 트래픽</string>
     <string name="network_traffic_type">Select net activity type</string>
     <string name="show_network_traffic_up">Uplink</string>
     <string name="show_network_traffic_down">Downlink</string>
     <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="network_traffic_state_title">상태 표시줄에 네트워크 트래픽 표시</string>
+    <string name="network_traffic_autohide_threshold_title">네트워크 사용량 자동으로 숨기기 (KB/s)</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">화면을 쓸어 스크린샷 찍기</string>
+    <string name="three_finger_gesture_summary">화면을 세 손가락으로 쓸어내려 캡처합니다.</string>
     <!-- Weather - OmniJaws Settings -->
-    <string name="weather_title">Weather</string>
-    <string name="weather_config_title">Service settings</string>
+    <string name="weather_title">날씨</string>
+    <string name="weather_config_title">서비스 설정</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Weather style</string>
-    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
-    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
+    <string name="lock_screen_weather_style_title">날씨 스타일</string>
+    <string name="lock_screen_weather_style_summaryOff">날씨는 날짜의 아랫줄에 표시됩니다.</string>
+    <string name="lock_screen_weather_style_summaryOn">날씨와 날짜가 같은 줄에 표시됩니다.</string>
     <string name="header_weather_title">Header view weather</string>
     <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_title">날씨 아이콘 팩</string>
     <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
     <!-- Lockscreen weather settings -->
-    <string name="lockscreen_weather_title">Lockscreen weather</string>
-    <string name="lockscreen_weather_summary">Show current weather condition and temperature on lockscreen</string>
-    <string name="lockscreen_items_aod_info_title">This visibility configuration also applies to the ambient display</string>
-    <string name="lockscreen_weather_show_city_title">Show city name</string>
-    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_title">잠금 화면 날씨</string>
+    <string name="lockscreen_weather_summary">잠금 화면에 현재 날씨와 기온을 표시합니다.</string>
+    <string name="lockscreen_items_aod_info_title">이 표시 설정은 앰비언트 디스플레이에도 적용됩니다.</string>
+    <string name="lockscreen_weather_show_city_title">도시명 표시</string>
+    <string name="lockscreen_weather_show_city_summary">현재 도시명을 날씨 왼쪽에 표시합니다</string>
+    <string name="lockscreen_weather_show_temp_title">기온 표시</string>
+    <string name="lockscreen_weather_show_temp_summary">현재 도시의 기온을 날씨 오른쪽에 표시합니다</string>
     <!-- FOD animations -->
     <string name="fod_recog_animation">FOD recognizing animation</string>
     <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
@@ -213,24 +213,24 @@
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Total RAM</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">재생 컨트롤</string>
+    <string name="volume_button_music_control_summary">화면이 꺼져있을 경우, 볼륨 버튼을 길게 눌러 음악을 넘깁니다.</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
-    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    <string name="volume_rocker_wake_title">볼륨 버튼으로 화면 켜기</string>
+    <string name="volume_rocker_wake_summary">볼륨 버튼을 눌러 화면을 켭니다.</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Invert layout</string>
+    <string name="navbar_invert_layout_title">버튼 순서 반전</string>
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Screen off fingerprint</string>
     <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
-    <string name="battery_temp_summary">Tap to switch scale</string>
+    <string name="battery_temp_title">배터리 온도</string>
+    <string name="battery_temp_summary">단위를 전환하려면 터치하세요.</string>
     <!-- Back Gestures -->
-    <string name="smallest_tick_label">Off</string>
-    <string name="greatest_tick_label">Half screen</string>
-    <string name="gesture_back_deadzone_label">Dead zone</string>
-    <string name="back_sensitivity_dialog_message_cust">\nUse the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
+    <string name="smallest_tick_label">비활성화</string>
+    <string name="greatest_tick_label">화면 절반</string>
+    <string name="gesture_back_deadzone_label">무시 구간</string>
+    <string name="back_sensitivity_dialog_message_cust">\n첫 번째 또는 두 번째 조절 바를 사용해 뒤로 가기 제스처 민감도를 설정하고, 마지막 조절 바를 사용해 뒤로 가기 제스처 높이를 설정하여, 앱 내부 제스처와의 충돌을 방지하세요.</string>
     <!-- Torch Power button gestures -->
     <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
     <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
@@ -238,8 +238,8 @@
     <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_all">네트워크 액세스 허용</string>
+    <string name="data_usage_app_restrict_all_summary">네트워크 사용량 활성화</string>
     <string name="data_usage_app_restrict_mobile">Mobile data</string>
     <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
     <string name="data_usage_app_restrict_vpn">VPN data</string>
@@ -255,10 +255,10 @@
     <!-- Refresh rate -->
     <string name="refresh_rate_title">Screen refresh rate</string>
     <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_arrow">Double-tap anywhere on the screen to wake or sleep device</string>
+    <string name="tap_to_wake_summary_arrow">화면을 두 번 터치하여 기기의 대기 모드를 해제합니다.</string>
     <!-- Hotspot VPN -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">클라이언트가 VPN을 사용하도록 허용</string>
+    <string name="tethering_allow_vpn_upstreams_summary">핫스팟이나 테더링 클라이언트가 연결성 향상을 위해 내 장치의 VPN연결을 사용하도록 허용합니다.</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -280,6 +280,12 @@
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Scale</string>
     <!-- Old mobile type icons -->
-    <string name="use_old_mobiletype_title">Small mobile type icon</string>
-    <string name="use_old_mobiletype_summary">Show mobile type icon on top of the signal indicator</string>
+    <string name="use_old_mobiletype_title">작은 모바일 타입 아이콘</string>
+    <string name="use_old_mobiletype_summary">신호 표시 위에 작은 모바일 타입 아이콘을 보이기</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
+    <string name="face_redo_confirm_btn">Redo</string>
+    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
 </resources>

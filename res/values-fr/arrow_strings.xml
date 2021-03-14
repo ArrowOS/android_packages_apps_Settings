@@ -63,7 +63,7 @@
     <string name="custom_light_off_time_title">Durée d’extinction des pulsations LED (ms)</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">Activités</string>
-    <string name="select_custom_app_title">Sélectionner une application personnalisée</string>
+    <string name="select_custom_app_title">Sélectionner une application</string>
     <string name="select_custom_activity_title">Sélectionner une activité personnalisée</string>
     <string name="profile_applist_title">Applications</string>
     <string name="choose_action_title">Choisir une action</string>
@@ -282,4 +282,10 @@
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Icône de type petit mobile</string>
     <string name="use_old_mobiletype_summary">Afficher l\'icône de type de mobile au dessus de l\'indicateur de signal</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
+    <string name="face_redo_confirm_btn">Redo</string>
+    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
 </resources>

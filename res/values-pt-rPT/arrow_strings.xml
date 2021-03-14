@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Arrow version preference -->
-    <string name="arrow_version">"Versão ArrowOS"</string>
+    <string name="arrow_version">"Versão ArrowOS:"</string>
     <string name="build_date">"Data de compilação"</string>
     <string name="about_device_name">"Dispositivo"</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
@@ -282,4 +282,10 @@
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Tipo do ícone de rede pequeno</string>
     <string name="use_old_mobiletype_summary">Mostrar o tipo de ícone móvel no topo do indicador de sinal</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
+    <string name="face_redo_confirm_btn">Redo</string>
+    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
 </resources>

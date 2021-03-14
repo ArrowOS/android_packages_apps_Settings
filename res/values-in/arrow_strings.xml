@@ -29,7 +29,7 @@
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Apa yang harus dilakukan</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Hubungkan &amp; volume notifikasi</string>
+    <string name="volume_link_notification_title">Hubungkan volume nada dering &amp; notifikasi</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Macam-macam warna</string>
     <!-- Lockscreen battery info indicator  -->
@@ -161,9 +161,9 @@
     <string name="traffic_summary">Mengaktifkan atau menonaktifkan indikator kecepatan jaringan</string>
     <string name="network_traffic_title">Lalu lintas jaringan</string>
     <string name="network_traffic_type">Pilih tipe aktvitas jaringan</string>
-    <string name="show_network_traffic_up">Keluar</string>
-    <string name="show_network_traffic_down">Masuk</string>
-    <string name="show_network_traffic_all">Keluar dan Masuk</string>
+    <string name="show_network_traffic_up">Unggah</string>
+    <string name="show_network_traffic_down">Unduh</string>
+    <string name="show_network_traffic_all">Unggah dan Unduh</string>
     <string name="network_traffic_state_title">Tampilkan aktivitas jaringan di bilah status</string>
     <string name="network_traffic_autohide_threshold_title">Ambang batas untuk otomatis menyembunyikan aktivitas jaringan (KB/s)</string>
     <!-- Three-fingers-swipe to screenshot -->
@@ -282,4 +282,10 @@
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Tipe ikon seluler kecil</string>
     <string name="use_old_mobiletype_summary">Tampilkan tipe ikon seluler di atas indikator sinyal</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
+    <string name="face_redo_confirm_btn">Redo</string>
+    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
 </resources>
