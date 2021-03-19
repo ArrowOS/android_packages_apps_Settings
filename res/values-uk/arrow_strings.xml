@@ -283,9 +283,9 @@
     <string name="use_old_mobiletype_title">Маленький значок типу мережі</string>
     <string name="use_old_mobiletype_summary">Відображати значок типу мережі над індикатором сигналу</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Видалити наявний знімок обличчя і створити новий</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Повторне сканування обличчя</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Блокування екрана, відбиток пальця, розблокування обличчям</string>
+    <string name="face_redo_confirm_btn">Повторити</string>
+    <string name="face_redo_warning_msg">Ви хочете видалити існуючий знімок обличчя та створити новий?</string>
 </resources>

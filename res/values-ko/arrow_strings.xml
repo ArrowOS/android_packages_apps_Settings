@@ -19,7 +19,7 @@
     <string name="build_date">"빌드 날짜"</string>
     <string name="about_device_name">"장치"</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">탭하여 정보 보기</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">ArrowOS 통계</string>
     <string name="arrow_stats_summary">얼마나 많은 기기가 ArrowOS로 실행되는지 집계합니다.</string>
@@ -27,16 +27,16 @@
     <string name="statusbar_gestures_category_title">상태표시줄 설정</string>
     <string name="double_tap_sleep_gesture_title">상태 표시줄을에서 2 번 두드려 화면 끄기</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">What to do</string>
+    <string name="lockscreen_tweaks_category_title">어떻게 할까요?</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">벨소리 볼륨과 알림 볼륨 연결</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Color bucket</string>
+    <string name="theme_customization_systemui_title">색상 선택</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">잠금 화면에 충전 정보 표시</string>
     <string name="lockscreen_battery_info_summary">충전 중 잠금 화면에 현재 충전 전압과 배터리 온도를 표시합니다.</string>
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+    <string name="app_play_store">구글 플레이</string>
     <!-- Settings categories -->
     <string name="misc_category_title">기타</string>
     <!-- Statusbar Tuner -->
@@ -56,11 +56,11 @@
     <string name="battery_light_reallyfull_color">충전 (100%) 완료</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">실수로 화면 켜기 방지</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_summary">화면을 켜기 전에 근접 센서 확인</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <string name="custom_light_title">밝은 색</string>
+    <string name="custom_light_on_time_title">LED 점등 지연시간 (ms)</string>
+    <string name="custom_light_off_time_title">LED 점등 끄기 지연시간 (ms)\"</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">활동</string>
     <string name="select_custom_app_title">사용자 정의 앱 선택</string>
@@ -82,15 +82,15 @@
     <string name="hardware_keys_single_tap_title">1 번 누를 때 동작</string>
     <string name="hardware_keys_long_press_title">길게 누를 때 동작</string>
     <string name="hardware_keys_double_tap_title">2 번 누를 때 동작</string>
-    <string name="hardware_keys">Buttons</string>
+    <string name="hardware_keys">버튼</string>
     <string name="hardware_keys_summary">하드웨어 버튼을 맞춤 설정합니다.</string>
     <string name="navigation_keys">내비게이션 바</string>
-    <string name="navigation_keys_summary">Customise on-screen navigation bar</string>
+    <string name="navigation_keys_summary">화면 내비게이션 바 설정</string>
     <string name="hardware_keys_category">하드웨어 내비게이션 버튼</string>
     <string name="hardware_keys_disable_title">하드웨어 버튼 비활성화</string>
     <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Buttons backlight timeout</string>
-    <string name="backlight_timeout_on">Enabled always</string>
+    <string name="backlight_timeout_title">버튼 조명 시간 제한</string>
+    <string name="backlight_timeout_on">항상 켜짐</string>
     <string name="backlight_timeout_3s">3초</string>
     <string name="backlight_timeout_default">5초 (기본값)</string>
     <string name="backlight_timeout_10s">10초</string>
@@ -99,13 +99,13 @@
     <string name="backlight_timeout_30s">30초</string>
     <string name="button_title">버튼</string>
     <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Backlight</string>
-    <string name="button_brightness_sw_title">Enable backlight</string>
-    <string name="button_backlight_on_touch_only_title">Button touch</string>
-    <string name="button_backlight_on_touch_only_summary">Enablebacklight with timeout only on button touch</string>
+    <string name="button_brightness_title">백라이트</string>
+    <string name="button_brightness_sw_title">백라이트 활성화</string>
+    <string name="button_backlight_on_touch_only_title">버튼 터치</string>
+    <string name="button_backlight_on_touch_only_summary">버튼을 터치할 때만 잠시 백라이트를 켭니다</string>
     <!-- ANBI -->
-    <string name="anbi_title">Accidental touch</string>
-    <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
+    <string name="anbi_title">터치 실수</string>
+    <string name="anbi_summary">화면이 조작될 때 내비게이션 버튼이 눌리는 것을 방지합니다</string>
     <!-- Global Actions -->
     <string name="power_menu_customization_category_title">전원 메뉴 맞춤설정</string>
     <string name="global_actions_title">전원 메뉴 옵션</string>
@@ -115,23 +115,23 @@
     <string name="global_actions_airplane">비행기 모드</string>
     <string name="global_actions_settings">설정</string>
     <string name="global_actions_lockdown">잠금</string>
-    <string name="global_actions_soundpanel">Sound Panel</string>
+    <string name="global_actions_soundpanel">사운드 패널</string>
     <string name="global_actions_users">사용자</string>
     <string name="global_actions_screenshot">스크린샷</string>
     <string name="global_actions_screenrecord">화면 녹화</string>
     <string name="global_actions_flashlight">손전등</string>
-    <string name="global_actions_emergency">Emergency</string>
+    <string name="global_actions_emergency">긴급 전화</string>
     <string name="global_actions_advanced_reboot_title">고급 다시 시작 사용</string>
     <string name="global_actions_advanced_reboot_summary">다시 시작할 때 복구 및 부트 로더 옵션 표시 합니다.</string>
     <string name="global_actions_max_columns_title">표시할 메뉴의 최대 수</string>
-    <string name="global_actions_max_columns_summary">Set how many actions to show before buttons move to overflow menu</string>
+    <string name="global_actions_max_columns_summary">오버플로우 메뉴로 버튼을 옮기기 전에 다양한 동작 보기 설정</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">제스처</string>
     <string name="gesture_settings_dashboard_summary">제스쳐 설정</string>
-    <string name="custom_device_gestures_preference_title">Device gestures</string>
+    <string name="custom_device_gestures_preference_title">기기 제스처</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">헤드업 알림</string>
-    <string name="heads_up_notifications_summary">Control heads up behaviour</string>
+    <string name="heads_up_notifications_summary">알림 행동 제어</string>
     <string name="summary_heads_up_enabled">팝업 알림이 활성화되었습니다</string>
     <string name="summary_heads_up_disabled">헤드업 알림이 비활성화되었습니다</string>
     <string name="add_heads_up_package">앱 추가</string>
@@ -139,9 +139,9 @@
     <string name="add_heads_up_blacklist_summary">이 앱의 헤드업 알람을 사용하지 않습니다.</string>
     <string name="heads_up_stoplist_title">중지 목록</string>
     <string name="heads_up_blacklist_title">금지 목록</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="profile_choose_app">앱 선택</string>
+    <string name="dialog_delete_title">삭제</string>
+    <string name="dialog_delete_message">선택된 항목을 삭제하시겠습니까?</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">지문 인식 잠금 해제</string>
     <string name="fp_unlock_keystore_summary">기기를 재시작 한 이후 PIN/비밀번호/패턴을 입력하지 않고 지문으로 잠금을 해제합니다.\n주의: 모든 책임은 사용자에게 있습니다!</string>
@@ -152,18 +152,18 @@
     <!-- Navbar length -->
     <string name="navbar_length">제스처 바 길이</string>
     <string name="hidden_label">숨김</string>
-    <string name="long_label">긺</string>
+    <string name="long_label">길게</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
-    <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+    <string name="lockscreen_media_art_title">미디어 커버 아트 표시</string>
+    <string name="lockscreen_media_art_summary">재생되고 있는 미디어 앨범 아트를 잠금 화면에 표시</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
+    <string name="traffic_title">트래픽 표시</string>
     <string name="traffic_summary">네트워크 속도를 표시합니다.</string>
     <string name="network_traffic_title">네트워크 트래픽</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
+    <string name="network_traffic_type">네트워크 종류 선택</string>
+    <string name="show_network_traffic_up">업링크</string>
+    <string name="show_network_traffic_down">다운링크</string>
+    <string name="show_network_traffic_all">업링크와 다운링크</string>
     <string name="network_traffic_state_title">상태 표시줄에 네트워크 트래픽 표시</string>
     <string name="network_traffic_autohide_threshold_title">네트워크 사용량 자동으로 숨기기 (KB/s)</string>
     <!-- Three-fingers-swipe to screenshot -->
@@ -176,10 +176,10 @@
     <string name="lock_screen_weather_style_title">날씨 스타일</string>
     <string name="lock_screen_weather_style_summaryOff">날씨는 날짜의 아랫줄에 표시됩니다.</string>
     <string name="lock_screen_weather_style_summaryOn">날씨와 날짜가 같은 줄에 표시됩니다.</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="header_weather_title">헤더에 날씨 표시</string>
+    <string name="header_weather_summary">알림 패널 헤더에 날씨 표시 활성화</string>
     <string name="weather_icon_pack_title">날씨 아이콘 팩</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_note">알림\u003a 플레이 스토어에 \"Chronus icons\"를 검색해 새 아이콘 팩 설치가 가능합니다.</string>
     <!-- Lockscreen weather settings -->
     <string name="lockscreen_weather_title">잠금 화면 날씨</string>
     <string name="lockscreen_weather_summary">잠금 화면에 현재 날씨와 기온을 표시합니다.</string>
@@ -189,29 +189,29 @@
     <string name="lockscreen_weather_show_temp_title">기온 표시</string>
     <string name="lockscreen_weather_show_temp_summary">현재 도시의 기온을 날씨 오른쪽에 표시합니다</string>
     <!-- FOD animations -->
-    <string name="fod_recog_animation">FOD recognizing animation</string>
-    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
-    <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
-    <string name="fod_recog_animation_miui_normal">MIUI default</string>
-    <string name="fod_recog_animation_miui_aod">AOD</string>
-    <string name="fod_recog_animation_miui_light">Light</string>
-    <string name="fod_recog_animation_miui_pop">Pop</string>
-    <string name="fod_recog_animation_miui_pulse">Pulse</string>
-    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
-    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
-    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
-    <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_stripe">Stripe</string>
-    <string name="fod_recog_animation_op_wave">Wave</string>
+    <string name="fod_recog_animation">디스플레이 지문 인식 애니메이션</string>
+    <string name="fod_recog_animation_summary">지문을 스캔하는 동안 애니메이션을 보여줍니다</string>
+    <string name="fod_recog_animation_effect_title">애니메이션 인식 효과</string>
+    <string name="fod_recog_animation_miui_normal">MIUI 기본값</string>
+    <string name="fod_recog_animation_miui_aod">디스플레이 항상 켜기</string>
+    <string name="fod_recog_animation_miui_light">조명</string>
+    <string name="fod_recog_animation_miui_pop">팝</string>
+    <string name="fod_recog_animation_miui_pulse">펄스</string>
+    <string name="fod_recog_animation_miui_pulse_white">펄스 (흰색)</string>
+    <string name="fod_recog_animation_miui_rhythm">리듬</string>
+    <string name="fod_recog_animation_op_cosmos">우주</string>
+    <string name="fod_recog_animation_op_mclaren">맥라렌</string>
+    <string name="fod_recog_animation_op_stripe">줄무늬</string>
+    <string name="fod_recog_animation_op_wave">웨이브</string>
     <string name="fod_recog_animation_pureview_dna">DNA</string>
-    <string name="fod_recog_animation_pureview_future">Future</string>
-    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
-    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_pureview_future">미래</string>
+    <string name="fod_recog_animation_pureview_halo_ring">헤일로 링</string>
+    <string name="fod_recog_animation_pureview_molecular">분자</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
+    <string name="platform_revision">플랫폼</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total RAM</string>
+    <string name="total_ram">전체 RAM</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">재생 컨트롤</string>
     <string name="volume_button_music_control_summary">화면이 꺼져있을 경우, 볼륨 버튼을 길게 눌러 음악을 넘깁니다.</string>
@@ -219,10 +219,10 @@
     <string name="volume_rocker_wake_title">볼륨 버튼으로 화면 켜기</string>
     <string name="volume_rocker_wake_summary">볼륨 버튼을 눌러 화면을 켭니다.</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">버튼 순서 반전</string>
+    <string name="navbar_invert_layout_title">레이아웃 반전</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+    <string name="fod_gesture_title">꺼진 화면 지문인식</string>
+    <string name="fod_gesture_summary">화면 켜짐 없이 잠금해제하는 것을 허용</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">배터리 온도</string>
     <string name="battery_temp_summary">단위를 전환하려면 터치하세요.</string>
@@ -232,60 +232,60 @@
     <string name="gesture_back_deadzone_label">무시 구간</string>
     <string name="back_sensitivity_dialog_message_cust">\n첫 번째 또는 두 번째 조절 바를 사용해 뒤로 가기 제스처 민감도를 설정하고, 마지막 조절 바를 사용해 뒤로 가기 제스처 높이를 설정하여, 앱 내부 제스처와의 충돌을 방지하세요.</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <string name="double_tap_power_flashlight_screen_title">손전등 켜기</string>
+    <string name="double_tap_power_flashlight_title">화면 끈 상태에서 전원 버튼으로 손전등 사용</string>
+    <string name="torch_power_button_gesture_none">비활성화</string>
+    <string name="torch_power_button_gesture_dt">전원 버튼을 두 번 눌러 손전등 사용</string>
+    <string name="torch_power_button_gesture_lp">전원 버튼을 길게 눌러 손전등 사용</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">네트워크 액세스 허용</string>
     <string name="data_usage_app_restrict_all_summary">네트워크 사용량 활성화</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_mobile">모바일 데이터</string>
+    <string name="data_usage_app_restrict_mobile_summary">모바일 데이터 사용량 활성화</string>
+    <string name="data_usage_app_restrict_vpn">VPN 데이터</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN 데이터 사용 설정</string>
+    <string name="data_usage_app_restrict_wifi">와이\u2011파이 데이터</string>
+    <string name="data_usage_app_restrict_wifi_summary">와이\u2011파이 데이터를 사용합니다</string>
     <!-- Reset battery stats -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
-    <string name="ok_string">Ok</string>
+    <string name="battery_stats_reset">상태 초기화</string>
+    <string name="battery_stats_message">배터리 사용 기록이 초기화됩니다</string>
+    <string name="ok_string">확인</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">저장된 무선 이어폰</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Screen refresh rate</string>
+    <string name="refresh_rate_title">화면 재생 빈도</string>
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">화면을 두 번 터치하여 기기의 대기 모드를 해제합니다.</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">클라이언트가 VPN을 사용하도록 허용</string>
     <string name="tethering_allow_vpn_upstreams_summary">핫스팟이나 테더링 클라이언트가 연결성 향상을 위해 내 장치의 VPN연결을 사용하도록 허용합니다.</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">패턴 크기 선택</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">패턴 오류 표시</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">패턴 점 표시</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use Smart charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
-    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <string name="smart_charging_title">스마트 충전</string>
+    <string name="smart_charging_summary">최대 충전 수준 설정</string>
+    <string name="smart_charging_switch_title">스마트 충전 사용</string>
+    <string name="smart_charging_level_title">충전 제한 멈춤</string>
+    <string name="smart_charging_resume_level_title">충전 제한 시작</string>
+    <string name="smart_charging_reset_stats_title">배터리 통계 재설정</string>
+    <string name="smart_charging_reset_stats_summary">사용자 정의 충전 수준에 도달 한 후 배터리 통계 재설정</string>
+    <string name="smart_charging_footer">스마트 충전은 배터리 수명을 늘리기 위해 최대 충전 레벨을 설정합니다.</string>
     <!-- Screen Off animation -->
-    <string name="screen_off_animation_title">Screen off animation</string>
-    <string name="screen_off_animation_default">Default</string>
+    <string name="screen_off_animation_title">화면 끄기 애니메이션</string>
+    <string name="screen_off_animation_default">기본값</string>
     <string name="screen_off_animation_crt">CRT</string>
-    <string name="screen_off_animation_scale">Scale</string>
+    <string name="screen_off_animation_scale">스케일</string>
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">작은 모바일 타입 아이콘</string>
     <string name="use_old_mobiletype_summary">신호 표시 위에 작은 모바일 타입 아이콘을 보이기</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">기존의 얼굴 스캔을 제거하고 새 스캔을 만듭니다.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">얼굴 스캔 취소</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">화면 잠금, 지문, 얼굴인식 잠금해제</string>
+    <string name="face_redo_confirm_btn">재시도</string>
+    <string name="face_redo_warning_msg">기존 얼굴 스캔을 제거하고 새 스캔을 만드시겠습니까?</string>
 </resources>
