@@ -247,6 +247,7 @@
     <string name="fod_recog_animation_pureview_future">Future</string>
     <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string> 
     <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_created_lotr">LOTR</string>
 
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
