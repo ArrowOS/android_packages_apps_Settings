@@ -207,6 +207,7 @@
     <string name="fod_recog_animation_pureview_future">Przyszłość</string>
     <string name="fod_recog_animation_pureview_halo_ring">Pierścień Halo</string>
     <string name="fod_recog_animation_pureview_molecular">Molekularny</string>
+    <string name="fod_recog_animation_created_lotr">LOTR</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platforma</string>
@@ -282,10 +283,60 @@
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Mała ikona typu mobilnego</string>
     <string name="use_old_mobiletype_summary">Pokaż ikonę typu mobilnego na górze wskaźnika sygnału</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opcje wibracji podczas rozmowy</string>
+    <string name="incall_vibrate_connect_title">Wibracja przy połączeniu</string>
+    <string name="incall_vibrate_call_wait_title">Wibracja przy połączeniu oczekującym</string>
+    <string name="incall_vibrate_disconnect_title">Wibracja przy rozłączeniu</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Usuń istniejący skan twarzy i utwórz nowy</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Zeskanuj twarz ponownie</string>
     <string name="security_dashboard_summary_face_and_fingerprint">Blokada ekranu, odcisk palca, odblokowanie twarzą</string>
     <string name="face_redo_confirm_btn">Powtórz</string>
     <string name="face_redo_warning_msg">Czy chcesz usunąć istniejący skan twarzy i utworzyć nowy?</string>
+    <!-- App Lock -->
+    <string name="applock_title">Blokada aplikacji</string>
+    <string name="applock_locked">Zablokowane</string>
+    <string name="applock_unlocked">Odblokowane</string>
+    <string name="applock_locked_apps">Zablokowane aplikacje</string>
+    <string name="applock_unlocked_apps">Odblokowane aplikacje</string>
+    <string name="applock_lock_after_title">Lock app after</string>
+    <string name="applock_lock_after_instantly">Instantly</string>
+    <string name="applock_lock_after_15_seconds">15 Seconds</string>
+    <string name="applock_lock_after_screen_off">Screen off</string>
+    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
+    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
+    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
+    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
+    <string name="applock_notification_info">Możesz pokazać/ukryć zawartość powiadomień dla każdej aplikacji klikając ikonę powiadomień wyświetlaną na każdej zablokowanej aplikacji</string>
+    <string name="applock_show_notif">Pokazywanie treści powiadomień</string>
+    <string name="applock_hide_notif">Ukrywanie treści powiadomień</string>
+    <string name="applock_setup">Ustaw blokadę aplikacji</string>
+    <string name="applock_overlay_summary">Ta funkcja nie jest dostępna, ponieważ ta aplikacja jest zablokowana</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 aplikacja zablokowana</item>
+        <item quantity="few">Zablokowano %d aplikacji</item>
+        <item quantity="many">Zablokowano %d aplikacji</item>
+        <item quantity="other">Zablokowano %d aplikacji</item>
+    </plurals>
+    <string name="keywords_applock_settings">applock, applocker, blokada aplikacji, blokader aplikacji</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Styl ikony baterii</string>
+    <string name="battery_style_summary">Dostosuj ikony baterii, ukryj lub pokaż procent</string>
+    <string name="battery_percent_title">Procent baterii na pasku stanu</string>
+    <string name="battery_style_category_title">Ikona baterii</string>
+    <string name="status_bar_battery_style_title">Styl baterii</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikona pionowa (domyślnie)</string>
+    <string name="status_bar_battery_style_circle">Okrąg</string>
+    <string name="status_bar_battery_style_dotted_circle">Okrąg (kropkowany)</string>
+    <string name="status_bar_battery_style_filled_circle">Okrąg (Wypełniony)</string>
+    <string name="status_bar_battery_style_text">Tekst</string>
+    <string name="status_bar_battery_style_hidden">Ukryty</string>
+    <string name="status_bar_battery_percentage_title">Procent baterii</string>
+    <string name="status_bar_battery_percentage_default">Ukryty (domyślne)</string>
+    <string name="status_bar_battery_percentage_text_inside">Wewnątrz ikony</string>
+    <string name="status_bar_battery_percentage_text_next">Obok ikony</string>
+    <!-- Supress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Dźwięk powiadomienia, jeśli ekran jest włączony</string>
+    <string name="notification_sound_vib_screen_on_summary">Odtwarzaj dźwięk i wibracje dla powiadomień, gdy ekran jest włączony</string>
 </resources>

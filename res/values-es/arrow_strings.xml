@@ -46,7 +46,7 @@
     <!-- Battery light -->
     <string name="battery_light_settings">Luz de batería cargando</string>
     <string name="battery_light_summary">Acciones de la luz de led en No molestar y en Batería baja</string>
-    <string name="battery_light_enable">Indicador de batería</string>
+    <string name="battery_light_enable">Led de batería</string>
     <string name="battery_light_allow_on_dnd_title">Indicador de carga en modo No Molestar</string>
     <string name="battery_light_low_blinking_title">LED intermitente con batería baja</string>
     <string name="battery_light_cat">Color del LED durante la carga</string>
@@ -67,7 +67,7 @@
     <string name="select_custom_activity_title">Seleccionar actividad personalizada</string>
     <string name="profile_applist_title">Aplicaciones</string>
     <string name="choose_action_title">Seleccionar acción</string>
-    <string name="action_entry_default_action">Configuración predeterminada</string>
+    <string name="action_entry_default_action">Ajustes predeterminados</string>
     <string name="action_entry_select_app">Seleccione una aplicación</string>
     <string name="action_entry_custom_action">Elegir acción personalizada</string>
     <string name="hardware_keys_volume_keys_title">Encender pantalla con botones de volúmen</string>
@@ -207,6 +207,7 @@
     <string name="fod_recog_animation_pureview_future">Futuro</string>
     <string name="fod_recog_animation_pureview_halo_ring">Anillo de Halo</string>
     <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_created_lotr">LOTR</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platforma</string>
@@ -282,10 +283,58 @@
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Icono pequeño de tipo móvil</string>
     <string name="use_old_mobiletype_summary">Mostrar icono de tipo móvil en la parte superior del indicador de señal</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opciones de vibración durante las llamadas</string>
+    <string name="incall_vibrate_connect_title">Vibrar al contestar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar con llamada en espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar al colgar</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Elimina el escaneo de tu cara y crea uno nuevo</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Rehacer escaneo facial</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Bloqueo de pantalla, huella dactilar, desbloqueo facial</string>
+    <string name="face_redo_confirm_btn">Rehacer</string>
+    <string name="face_redo_warning_msg">¿Deseas eliminar el escáner facial existente y hacer uno nuevo?</string>
+    <!-- App Lock -->
+    <string name="applock_title">Bloqueador de aplicación</string>
+    <string name="applock_locked">Bloqueado</string>
+    <string name="applock_unlocked">Desbloqueado</string>
+    <string name="applock_locked_apps">Aplicaciones bloqueadas</string>
+    <string name="applock_unlocked_apps">Aplicaciones desbloqueadas</string>
+    <string name="applock_lock_after_title">Lock app after</string>
+    <string name="applock_lock_after_instantly">Instantly</string>
+    <string name="applock_lock_after_15_seconds">15 Seconds</string>
+    <string name="applock_lock_after_screen_off">Screen off</string>
+    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
+    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
+    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
+    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
+    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
+    <string name="applock_show_notif">Mostrando contenido de notificaciones</string>
+    <string name="applock_hide_notif">Ocultando contenido de notificaciones</string>
+    <string name="applock_setup">Configurar bloqueador de aplicaciones</string>
+    <string name="applock_overlay_summary">Esta función no está disponible debido a que la aplicación está bloqueada</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 aplicación bloqueada</item>
+        <item quantity="other">%d aplicaciones bloqueadas</item>
+    </plurals>
+    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Estilo del icono de batería</string>
+    <string name="battery_style_summary">Personalizar iconos de batería, ocultar o mostrar porcentaje</string>
+    <string name="battery_percent_title">Porcentaje de batería en la barra de estado</string>
+    <string name="battery_style_category_title">Icono de batería</string>
+    <string name="status_bar_battery_style_title">Estilo de batería</string>
+    <string name="status_bar_battery_style_icon_portrait">Icono vertical (por defecto)</string>
+    <string name="status_bar_battery_style_circle">Circular</string>
+    <string name="status_bar_battery_style_dotted_circle">Circular (Punteado)</string>
+    <string name="status_bar_battery_style_filled_circle">Circular (Relleno)</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+    <string name="status_bar_battery_percentage_title">Porcentaje de batería</string>
+    <string name="status_bar_battery_percentage_default">Oculto (por defecto)</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
+    <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
+    <!-- Supress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Sonido de notificación si está activo</string>
+    <string name="notification_sound_vib_screen_on_summary">Reproducir sonido y vibración para las notificaciones cuando la pantalla está encendida</string>
 </resources>

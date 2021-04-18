@@ -27,11 +27,11 @@
     <string name="statusbar_gestures_category_title">Gesturi Bară de stare</string>
     <string name="double_tap_sleep_gesture_title">Atingeți de două bara de stare pentru a opri ecranul</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">What to do</string>
+    <string name="lockscreen_tweaks_category_title">Ce trebuie făcut</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Asociază volumele apelului &amp; notificării</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Color bucket</string>
+    <string name="theme_customization_systemui_title">Selector de culoare</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informații despre încărcare pe ecranul de blocare</string>
     <string name="lockscreen_battery_info_summary">Afișează curentul de încărcare, tensiunea și temperatura bateriei în timpul încărcării pe ecranul de blocare</string>
@@ -42,10 +42,10 @@
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Elemente bară de stare</string>
     <!-- Display customization category -->
-    <string name="customization_category_title">Customization</string>
+    <string name="customization_category_title">Personalizare</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Lumină de încărcare baterie</string>
-    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
+    <string name="battery_light_summary">Comportament lumină baterie în timpul utilizării DND, baterie descărcată</string>
     <string name="battery_light_enable">Lumina baterie</string>
     <string name="battery_light_allow_on_dnd_title">Lumină baterie în modul Nu Deranjați</string>
     <string name="battery_light_low_blinking_title">Lumină intermitentă la baterie slabă</string>
@@ -58,9 +58,9 @@
     <string name="proximity_wake_title">Prevenirea trezirii accidentale</string>
     <string name="proximity_wake_summary">Verificaţi senzorul de proximitate înainte de trezirea ecranului</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <string name="custom_light_title">Culoare lumină</string>
+    <string name="custom_light_on_time_title">Iluminare PORNITĂ în timpul pulsului LED (ms)</string>
+    <string name="custom_light_off_time_title">Iluminare OPRITĂ în timpul pulsului LED (ms)\"</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">Activități</string>
     <string name="select_custom_app_title">Selectați o aplicație personalizată</string>
@@ -83,14 +83,14 @@
     <string name="hardware_keys_long_press_title">Acțiune la apăsare lungă</string>
     <string name="hardware_keys_double_tap_title">Acțiune atingere dublă</string>
     <string name="hardware_keys">Butoane</string>
-    <string name="hardware_keys_summary">Customise hardware buttons</string>
+    <string name="hardware_keys_summary">Personalizează butoanele fizice</string>
     <string name="navigation_keys">Bară de navigare</string>
-    <string name="navigation_keys_summary">Customise on-screen navigation bar</string>
+    <string name="navigation_keys_summary">Personalizează bara de navigare pe ecran</string>
     <string name="hardware_keys_category">Butoane de navigare hardware</string>
     <string name="hardware_keys_disable_title">Dezactivează butoanele fizice</string>
     <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Buttons backlight timeout</string>
-    <string name="backlight_timeout_on">Enabled always</string>
+    <string name="backlight_timeout_title">Durată iluminare fundal butoane</string>
+    <string name="backlight_timeout_on">Activat întotdeauna</string>
     <string name="backlight_timeout_3s">3 sec</string>
     <string name="backlight_timeout_default">5 sec (implicit)</string>
     <string name="backlight_timeout_10s">10 sec</string>
@@ -101,14 +101,14 @@
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">Lumină de fundal</string>
     <string name="button_brightness_sw_title">Activează lumina de fundal</string>
-    <string name="button_backlight_on_touch_only_title">Button touch</string>
-    <string name="button_backlight_on_touch_only_summary">Enablebacklight with timeout only on button touch</string>
+    <string name="button_backlight_on_touch_only_title">Atingere buton</string>
+    <string name="button_backlight_on_touch_only_summary">Activează iluminarea de fundal cu timp expirat numai la atingerea butonului</string>
     <!-- ANBI -->
     <string name="anbi_title">Atingere accidentală</string>
-    <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
+    <string name="anbi_summary">Împiedicați interacțiunea cu butoanele de navigare în timp ce ecranul este atins</string>
     <!-- Global Actions -->
-    <string name="power_menu_customization_category_title">Power menu customization</string>
-    <string name="global_actions_title">Power menu actions</string>
+    <string name="power_menu_customization_category_title">Personalizare meniu de alimentare</string>
+    <string name="global_actions_title">Opţiuni meniu pornire</string>
     <string name="global_actions_summary">Selectează ce să afișezi când apeși butonul de pornire</string>
     <string name="global_actions_power">Pornire</string>
     <string name="global_actions_restart">Repornire</string>
@@ -123,62 +123,62 @@
     <string name="global_actions_emergency">Urgență</string>
     <string name="global_actions_advanced_reboot_title">Activează repornire avansată</string>
     <string name="global_actions_advanced_reboot_summary">La repornire se afişează, de asemenea, opţiuni pentru recuperare şi bootloader</string>
-    <string name="global_actions_max_columns_title">Max actions to show</string>
-    <string name="global_actions_max_columns_summary">Set how many actions to show before buttons move to overflow menu</string>
+    <string name="global_actions_max_columns_title">Număr maxim de acțiuni de afișat</string>
+    <string name="global_actions_max_columns_summary">Setați câte acțiuni să se afișeze înainte ca butoanele să se mute în meniul suprapus</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">Gesturi</string>
     <string name="gesture_settings_dashboard_summary">Gestionați setările gesturilor</string>
     <string name="custom_device_gestures_preference_title">Gesturi dispozitiv</string>
     <!-- Heads up -->
-    <string name="heads_up_notifications">Heads up</string>
-    <string name="heads_up_notifications_summary">Control heads up behaviour</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
+    <string name="heads_up_notifications">Atenționări</string>
+    <string name="heads_up_notifications_summary">Controlare comportament atenționări</string>
+    <string name="summary_heads_up_enabled">Notificările pop-up sunt activate</string>
+    <string name="summary_heads_up_disabled">Notificările pop-up sunt dezactivate</string>
     <string name="add_heads_up_package">Adaugă aplicație</string>
-    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
+    <string name="add_heads_up_stoplist_summary">Dezactivează notificările de atenționare în aceste aplicații</string>
+    <string name="add_heads_up_blacklist_summary">Dezactivează notificările de atenționare de la aceste aplicații</string>
+    <string name="heads_up_stoplist_title">Listă oprire</string>
     <string name="heads_up_blacklist_title">Lista neagră</string>
     <string name="profile_choose_app">Alegeți aplicația</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="dialog_delete_title">Ștergere</string>
+    <string name="dialog_delete_message">Ștergeți elementul selectat?</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Deblocare cu amprentă</string>
     <string name="fp_unlock_keystore_summary">Deblocați dispozitivul cu amprentă după repornire fără PIN/Parolă/Modelul\nNotă: pe propriul risc!</string>
     <!-- Volume panel on left switch -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_title">Arată panoul de volum în stânga</string>
     <!-- Density options -->
-    <string name="density_category">Density options</string>
+    <string name="density_category">Opțiuni de densitate</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Gesture bar length</string>
-    <string name="hidden_label">Hidden</string>
-    <string name="long_label">Long</string>
+    <string name="navbar_length">Lungime bară de gesturi</string>
+    <string name="hidden_label">Ascuns</string>
+    <string name="long_label">Lung</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
-    <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+    <string name="lockscreen_media_art_title">Afișează coperta artistică a piesei</string>
+    <string name="lockscreen_media_art_summary">Arată coperta de album curentă pe ecranul de blocare</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_summary">Enable or disable network speed indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
+    <string name="traffic_title">Indicatori de trafic</string>
+    <string name="traffic_summary">Activează sau dezactivează indicatorii de viteză ai rețelei</string>
+    <string name="network_traffic_title">Trafic de reţea</string>
+    <string name="network_traffic_type">Selectaţi tipul de activitate rețea</string>
     <string name="show_network_traffic_up">Uplink</string>
     <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
+    <string name="show_network_traffic_all">Uplink și Downlink</string>
     <string name="network_traffic_state_title">Afișează activitatea rețelei în bara de stare</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="network_traffic_autohide_threshold_title">Pragul de ascundere automată a activității rețelei (KB/s)</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Glisează pentru a face captură de ecran</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture_summary">Glisați în jos cu trei degete pentru a realiza o captură de ecran</string>
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Vremea</string>
-    <string name="weather_config_title">Service settings</string>
+    <string name="weather_config_title">Setări serviciu</string>
     <string name="weather_config_summary"></string>
-    <string name="lock_screen_weather_style_title">Weather style</string>
-    <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
-    <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="lock_screen_weather_style_title">Stil meteo</string>
+    <string name="lock_screen_weather_style_summaryOff">Vremea este afișată sub linia de dată cu locația</string>
+    <string name="lock_screen_weather_style_summaryOn">Vremea este afișată pe linia de dată fără locație</string>
+    <string name="header_weather_title">Antet vreme</string>
+    <string name="header_weather_summary">Activați afișarea antetului vremii în panoul de notificări</string>
+    <string name="weather_icon_pack_title">Pachet iconițe condiții meteo</string>
     <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
     <!-- Lockscreen weather settings -->
     <string name="lockscreen_weather_title">Lockscreen weather</string>
@@ -207,6 +207,7 @@
     <string name="fod_recog_animation_pureview_future">Future</string>
     <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
     <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_created_lotr">LOTR</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
@@ -282,10 +283,59 @@
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Small mobile type icon</string>
     <string name="use_old_mobiletype_summary">Show mobile type icon on top of the signal indicator</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
     <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
     <string name="face_redo_confirm_btn">Redo</string>
     <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <!-- App Lock -->
+    <string name="applock_title">App locker</string>
+    <string name="applock_locked">Locked</string>
+    <string name="applock_unlocked">Unlocked</string>
+    <string name="applock_locked_apps">Locked apps</string>
+    <string name="applock_unlocked_apps">Unlocked apps</string>
+    <string name="applock_lock_after_title">Lock app after</string>
+    <string name="applock_lock_after_instantly">Instantly</string>
+    <string name="applock_lock_after_15_seconds">15 Seconds</string>
+    <string name="applock_lock_after_screen_off">Screen off</string>
+    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
+    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
+    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
+    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
+    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
+    <string name="applock_show_notif">Showing notification content</string>
+    <string name="applock_hide_notif">Hiding notification content</string>
+    <string name="applock_setup">Setup app locker</string>
+    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 app locked</item>
+        <item quantity="few">%d apps locked</item>
+        <item quantity="other">%d apps locked</item>
+    </plurals>
+    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Battery icon style</string>
+    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
+    <string name="battery_percent_title">Status bar battery percentage</string>
+    <string name="battery_style_category_title">Battery icon</string>
+    <string name="status_bar_battery_style_title">Battery style</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
+    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
+    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <!-- Supress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 </resources>

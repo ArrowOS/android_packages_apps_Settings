@@ -22,7 +22,7 @@
     <string name="device_info_protected_single_press">Toque para mostrar as informações</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">Estatísticas ArrowOS</string>
-    <string name="arrow_stats_summary">Apenas contamos em quantos dispositivos rodamos</string>
+    <string name="arrow_stats_summary">Apenas contamos os dispositivos que usam ArrowOS</string>
     <!--Double Tap to Sleep Statusbar-->
     <string name="statusbar_gestures_category_title">Gestos na barra de estado</string>
     <string name="double_tap_sleep_gesture_title">Toque duplo na barra de estado para desligar</string>
@@ -207,6 +207,7 @@
     <string name="fod_recog_animation_pureview_future">Futuro</string>
     <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
     <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_created_lotr">LOTR</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Plataforma</string>
@@ -282,10 +283,58 @@
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Tipo do ícone de rede pequeno</string>
     <string name="use_old_mobiletype_summary">Mostrar o tipo de ícone móvel no topo do indicador de sinal</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opções de vibração durante chamada de voz</string>
+    <string name="incall_vibrate_connect_title">Vibrar ao atender</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar na chamada em espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar ao desligar</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remova a verificação de rosto existente e crie uma nova</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Analisar novamente o rosto</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Ecrã de bloqueio, impressão digital, desbloqueio facial</string>
+    <string name="face_redo_confirm_btn">Refazer</string>
+    <string name="face_redo_warning_msg">Deseja remover a verificação facial existente e criar uma nova?</string>
+    <!-- App Lock -->
+    <string name="applock_title">Bloqueio de aplicações</string>
+    <string name="applock_locked">Bloqueado</string>
+    <string name="applock_unlocked">Desbloqueado</string>
+    <string name="applock_locked_apps">Aplicações bloqueadas</string>
+    <string name="applock_unlocked_apps">Aplicações desbloqueadas</string>
+    <string name="applock_lock_after_title">Lock app after</string>
+    <string name="applock_lock_after_instantly">Instantly</string>
+    <string name="applock_lock_after_15_seconds">15 Seconds</string>
+    <string name="applock_lock_after_screen_off">Screen off</string>
+    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
+    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
+    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
+    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
+    <string name="applock_notification_info">Pode mostrar/ocultar o conteúdo da notificação por aplicação, clicando no ícone de notificação mostrado nas preferências de cada aplicação bloqueada</string>
+    <string name="applock_show_notif">Mostrando conteúdo das notificações</string>
+    <string name="applock_hide_notif">Ocultando conteúdo das notificações</string>
+    <string name="applock_setup">Configurar bloqueio de aplicações</string>
+    <string name="applock_overlay_summary">Este recurso não está disponível porque esta aplicação está bloqueada</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 aplicação bloqueada</item>
+        <item quantity="other">%d aplicações bloqueadas</item>
+    </plurals>
+    <string name="keywords_applock_settings">applock, applocker, bloqueio de aplicações, bloqueio de aplicações</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Estilo do indicador de bateria</string>
+    <string name="battery_style_summary">Personalizar os ícones da bateria, ocultar ou mostrar percentagem</string>
+    <string name="battery_percent_title">Percentagem da bateria na barra de estado</string>
+    <string name="battery_style_category_title">Ícone da bateria</string>
+    <string name="status_bar_battery_style_title">Estilo da bateria</string>
+    <string name="status_bar_battery_style_icon_portrait">Ícone em retrato (padrão)</string>
+    <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo (pontilhado)</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo (Preenchido)</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+    <string name="status_bar_battery_percentage_title">Percentagem da bateria</string>
+    <string name="status_bar_battery_percentage_default">Oculto (padrão)</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
+    <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
+    <!-- Supress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Som de notificação se ativo</string>
+    <string name="notification_sound_vib_screen_on_summary">As notificações reproduzem som e vibram quando o ecrã está ligado</string>
 </resources>

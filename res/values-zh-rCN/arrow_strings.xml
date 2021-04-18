@@ -207,6 +207,7 @@
     <string name="fod_recog_animation_pureview_future">未来</string>
     <string name="fod_recog_animation_pureview_halo_ring">光环</string>
     <string name="fod_recog_animation_pureview_molecular">分子</string>
+    <string name="fod_recog_animation_created_lotr">魔戒</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">平台</string>
@@ -282,10 +283,57 @@
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">小型移动数据图标</string>
     <string name="use_old_mobiletype_summary">在信号指示器顶部显示移动数据图标</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">通话振动选项</string>
+    <string name="incall_vibrate_connect_title">接通时振动</string>
+    <string name="incall_vibrate_call_wait_title">呼叫等待时振动</string>
+    <string name="incall_vibrate_disconnect_title">挂断时振动</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">移除现有的人脸数据并重新录入</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">重新录入人脸数据</string>
     <string name="security_dashboard_summary_face_and_fingerprint">屏幕锁定、指纹、人脸解锁</string>
     <string name="face_redo_confirm_btn">重做</string>
     <string name="face_redo_warning_msg">是否要移除现有的面部扫描并创建新的扫描？</string>
+    <!-- App Lock -->
+    <string name="applock_title">应用锁</string>
+    <string name="applock_locked">已锁定</string>
+    <string name="applock_unlocked">未锁定</string>
+    <string name="applock_locked_apps">已锁定的应用</string>
+    <string name="applock_unlocked_apps">未锁定的应用</string>
+    <string name="applock_lock_after_title">Lock app after</string>
+    <string name="applock_lock_after_instantly">Instantly</string>
+    <string name="applock_lock_after_15_seconds">15 Seconds</string>
+    <string name="applock_lock_after_screen_off">Screen off</string>
+    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
+    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
+    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
+    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
+    <string name="applock_notification_info">您可以通过点击每个锁定的应用程序首选项上显示的通知图标，按应用程序显示/隐藏通知内容</string>
+    <string name="applock_show_notif">显示通知内容</string>
+    <string name="applock_hide_notif">隐藏通知内容</string>
+    <string name="applock_setup">设置应用锁</string>
+    <string name="applock_overlay_summary">此应用已锁定，因此无法使用此功能</string>
+    <plurals name="applock_summary">
+        <item quantity="other">%d 个应用锁定</item>
+    </plurals>
+    <string name="keywords_applock_settings">应用锁，应用锁屏，应用锁，应用锁</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">电池图标样式</string>
+    <string name="battery_style_summary">自定义电池图标，隐藏或显示百分比</string>
+    <string name="battery_percent_title">状态栏电量百分比</string>
+    <string name="battery_style_category_title">电池图标</string>
+    <string name="status_bar_battery_style_title">电池样式</string>
+    <string name="status_bar_battery_style_icon_portrait">竖置图标（默认）</string>
+    <string name="status_bar_battery_style_circle">环形</string>
+    <string name="status_bar_battery_style_dotted_circle">环形虚线</string>
+    <string name="status_bar_battery_style_filled_circle">实心圆圈</string>
+    <string name="status_bar_battery_style_text">文本</string>
+    <string name="status_bar_battery_style_hidden">隐藏</string>
+    <string name="status_bar_battery_percentage_title">电量百分比</string>
+    <string name="status_bar_battery_percentage_default">隐藏 (默认)</string>
+    <string name="status_bar_battery_percentage_text_inside">在图标内</string>
+    <string name="status_bar_battery_percentage_text_next">在图标旁</string>
+    <!-- Supress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">屏幕开启时的通知声</string>
+    <string name="notification_sound_vib_screen_on_summary">当屏幕开启时播放声音和振动通知</string>
 </resources>

@@ -207,6 +207,7 @@
     <string name="fod_recog_animation_pureview_future">Μελλοντικός</string>
     <string name="fod_recog_animation_pureview_halo_ring">Δαχτυλίδι φωτοστέφανο</string>
     <string name="fod_recog_animation_pureview_molecular">Μοριακό</string>
+    <string name="fod_recog_animation_created_lotr">LOTR</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Πλατφόρμα</string>
@@ -282,10 +283,58 @@
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Μικρό εικονίδιο κινητού</string>
     <string name="use_old_mobiletype_summary">Εμφάνιση εικονιδίου τύπου κινητού πάνω από την ένδειξη σήματος</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Επιλογές δόνησης κατά την κλήση</string>
+    <string name="incall_vibrate_connect_title">Δόνηση κατά τη σύνδεση</string>
+    <string name="incall_vibrate_call_wait_title">Δόνηση στην αναμονή κλήσης</string>
+    <string name="incall_vibrate_disconnect_title">Δόνηση κατά την αποσύνδεση</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Καταργήστε την υπάρχουσα σάρωση προσώπου και δημιουργήστε μια νέα σάρωση</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Επανάληψη σάρωσης προσώπου</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Κλείδωμα οθόνης, δακτυλικό αποτύπωμα, ξεκλείδωμα προσώπου</string>
+    <string name="face_redo_confirm_btn">Ξανακάνω</string>
+    <string name="face_redo_warning_msg">Θέλετε να καταργήσετε την υπάρχουσα σάρωση προσώπου και να δημιουργήσετε μια νέα;</string>
+    <!-- App Lock -->
+    <string name="applock_title">Κλείδωμα εφαρμογών</string>
+    <string name="applock_locked">Κλειδωμένο</string>
+    <string name="applock_unlocked">Ξεκλείδωτο</string>
+    <string name="applock_locked_apps">Κλειδωμένες εφαρμογές</string>
+    <string name="applock_unlocked_apps">Ξεκλείδωτες εφαρμογές</string>
+    <string name="applock_lock_after_title">Lock app after</string>
+    <string name="applock_lock_after_instantly">Instantly</string>
+    <string name="applock_lock_after_15_seconds">15 Seconds</string>
+    <string name="applock_lock_after_screen_off">Screen off</string>
+    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
+    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
+    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
+    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
+    <string name="applock_notification_info">Μπορείτε να εμφανίσετε / αποκρύψετε το περιεχόμενο ειδοποιήσεων ανά εφαρμογή κάνοντας κλικ στο εικονίδιο ειδοποίησης που εμφανίζεται στην προτίμηση κάθε κλειδωμένης εφαρμογής</string>
+    <string name="applock_show_notif">Εμφάνιση περιεχομένου ειδοποιήσεων</string>
+    <string name="applock_hide_notif">Απόκρυψη περιεχομένου ειδοποιήσεων</string>
+    <string name="applock_setup">Ρύθμιση κλειδώματος εφαρμογών</string>
+    <string name="applock_overlay_summary">Αυτή η λειτουργία δεν είναι διαθέσιμη επειδή αυτή η εφαρμογή είναι κλειδωμένη</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 εφαρμογή κλειδωμένη</item>
+        <item quantity="other">%d εφαρμογές κλειδωμένες</item>
+    </plurals>
+    <string name="keywords_applock_settings">κλείδωμα εφαρμογής, κλείδωμα εφαρμογών, κλείδωμα,</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Στυλ εικονιδίου μπαταρίας</string>
+    <string name="battery_style_summary">Προσαρμογή εικονιδίων μπαταρίας, απόκρυψη ή εμφάνιση ποσοστού</string>
+    <string name="battery_percent_title">Ποσοστό μπαταρίας γραμμής κατάστασης</string>
+    <string name="battery_style_category_title">Εικονίδιο μπαταρίας</string>
+    <string name="status_bar_battery_style_title">Στυλ μπαταρίας</string>
+    <string name="status_bar_battery_style_icon_portrait">Κάθετο εικονίδιο (προεπιλογή)</string>
+    <string name="status_bar_battery_style_circle">Κυκλικό</string>
+    <string name="status_bar_battery_style_dotted_circle">Κυκλικό (Με τελείες)</string>
+    <string name="status_bar_battery_style_filled_circle">Κυκλικό (Γεμισμένο)</string>
+    <string name="status_bar_battery_style_text">Κείμενο</string>
+    <string name="status_bar_battery_style_hidden">Κρυφό</string>
+    <string name="status_bar_battery_percentage_title">Ποσοστό μπαταρίας</string>
+    <string name="status_bar_battery_percentage_default">Κρυμμένο (προεπιλογή)</string>
+    <string name="status_bar_battery_percentage_text_inside">Μέσα στο εικονίδιο</string>
+    <string name="status_bar_battery_percentage_text_next">Δίπλα στο εικονίδιο</string>
+    <!-- Supress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Ήχος ειδοποίησης εάν είναι ενεργός</string>
+    <string name="notification_sound_vib_screen_on_summary">Αναπαραγωγή ήχου και δόνησης για ειδοποιήσεις όταν η οθόνη είναι ενεργοποιημένη</string>
 </resources>

@@ -207,6 +207,7 @@
     <string name="fod_recog_animation_pureview_future">Masa depan</string>
     <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
     <string name="fod_recog_animation_pureview_molecular">Molekuler</string>
+    <string name="fod_recog_animation_created_lotr">LOTR</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
@@ -282,10 +283,57 @@
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Tipe ikon seluler kecil</string>
     <string name="use_old_mobiletype_summary">Tampilkan tipe ikon seluler di atas indikator sinyal</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opsi getar dalam panggilan</string>
+    <string name="incall_vibrate_connect_title">Bergetar saat terhubung</string>
+    <string name="incall_vibrate_call_wait_title">Bergetar saat menunggu panggilan</string>
+    <string name="incall_vibrate_disconnect_title">Bergetar saat terputus</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Hapus pemindaian wajah yang ada dan buat pemindaian baru</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Ulangi pemindaian wajah</string>
     <string name="security_dashboard_summary_face_and_fingerprint">Layar kunci, sidik jari, buka kunci dengan wajah</string>
     <string name="face_redo_confirm_btn">Ulangi</string>
     <string name="face_redo_warning_msg">Ingin menghapus pemindaian wajah yang ada dan membuat pemindaian baru?</string>
+    <!-- App Lock -->
+    <string name="applock_title">Pengunci Aplikasi</string>
+    <string name="applock_locked">Terkunci</string>
+    <string name="applock_unlocked">Terbuka</string>
+    <string name="applock_locked_apps">Aplikasi terkunci</string>
+    <string name="applock_unlocked_apps">Aplikasi tidak terkunci</string>
+    <string name="applock_lock_after_title">Lock app after</string>
+    <string name="applock_lock_after_instantly">Instantly</string>
+    <string name="applock_lock_after_15_seconds">15 Seconds</string>
+    <string name="applock_lock_after_screen_off">Screen off</string>
+    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
+    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
+    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
+    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
+    <string name="applock_notification_info">Anda dapat menampilkan/menyembunyikan konten notifikasi per aplikasi dengan mengklik ikon notifikasi yang ditampilkan di preferensi setiap aplikasi yang terkunci</string>
+    <string name="applock_show_notif">Menampilkan konten notifikasi</string>
+    <string name="applock_hide_notif">Menyembunyikan konten notifikasi</string>
+    <string name="applock_setup">Siapkan pengunci aplikasi</string>
+    <string name="applock_overlay_summary">Fitur ini tidak tersedia karena aplikasi ini terkunci</string>
+    <plurals name="applock_summary">
+        <item quantity="other">%d aplikasi terkunci</item>
+    </plurals>
+    <string name="keywords_applock_settings">kunci aplikasi, pengunci aplikasi</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Gaya ikon baterai</string>
+    <string name="battery_style_summary">Sesuaikan ikon baterai, sembunyikan atau tampilkan persentase</string>
+    <string name="battery_percent_title">Persentase baterai di Bilah Status</string>
+    <string name="battery_style_category_title">Ikon Baterai</string>
+    <string name="status_bar_battery_style_title">Gaya Baterai</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikon tegak (standar)</string>
+    <string name="status_bar_battery_style_circle">Lingkaran</string>
+    <string name="status_bar_battery_style_dotted_circle">Lingkaran (putus-putus)</string>
+    <string name="status_bar_battery_style_filled_circle">Lingkaran (terisi)</string>
+    <string name="status_bar_battery_style_text">Teks</string>
+    <string name="status_bar_battery_style_hidden">Tersembunyi</string>
+    <string name="status_bar_battery_percentage_title">Persentase Baterai</string>
+    <string name="status_bar_battery_percentage_default">Tersembunyi (standar)</string>
+    <string name="status_bar_battery_percentage_text_inside">Di dalam ikon</string>
+    <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
+    <!-- Supress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Suara notifikasi jika aktif</string>
+    <string name="notification_sound_vib_screen_on_summary">Memutar suara dan getaran untuk notifikasi ketika layar hidup</string>
 </resources>

@@ -207,6 +207,7 @@
     <string name="fod_recog_animation_pureview_future">Tulevik</string>
     <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
     <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_created_lotr">LOTR</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platvorm</string>
@@ -282,10 +283,58 @@
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Väike mobiilitüübi ikoon</string>
     <string name="use_old_mobiletype_summary">Kuva mobiilitüübi ikoon signaaliindikaatori kohal</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Kõne vibratsiooni valikud</string>
+    <string name="incall_vibrate_connect_title">Vibreeri ühendamisel</string>
+    <string name="incall_vibrate_call_wait_title">Vibreeri kõne koputusel</string>
+    <string name="incall_vibrate_disconnect_title">Vibreeri katkemisel</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Eemalda kasutatud näopilt ja loo uus</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Korda näo skaneerimist</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Lukustus, sõrmejäljed, näotuvastamine</string>
+    <string name="face_redo_confirm_btn">Korda</string>
+    <string name="face_redo_warning_msg">Kas soovid kustutada olemasolevad näotuvastuse andmed ja luua uued?</string>
+    <!-- App Lock -->
+    <string name="applock_title">Rakenduse lukustaja</string>
+    <string name="applock_locked">Lukustatud</string>
+    <string name="applock_unlocked">Avatud</string>
+    <string name="applock_locked_apps">Lukustatud rakendused</string>
+    <string name="applock_unlocked_apps">Avatud rakendused</string>
+    <string name="applock_lock_after_title">Lock app after</string>
+    <string name="applock_lock_after_instantly">Instantly</string>
+    <string name="applock_lock_after_15_seconds">15 Seconds</string>
+    <string name="applock_lock_after_screen_off">Screen off</string>
+    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
+    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
+    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
+    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
+    <string name="applock_notification_info">Rakenduse märguannete sisu saad näidata/peita, klõpsates iga lukustatud rakenduse seadetes kuvataval teateikoonil</string>
+    <string name="applock_show_notif">Märguannete sisu kuvamine</string>
+    <string name="applock_hide_notif">Märguannete sisu peitmine</string>
+    <string name="applock_setup">Rakenduse lukustuse seadistamine</string>
+    <string name="applock_overlay_summary">See funktsioon pole saadaval, kuna see rakendus on lukustatud</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 rakendus lukustatud</item>
+        <item quantity="other">%d rakendust lukustatud</item>
+    </plurals>
+    <string name="keywords_applock_settings">lukk, rakenduse lukustus, rakenduse lukustus</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Akuikooni stiil</string>
+    <string name="battery_style_summary">Akuikooni seaded, peitmine või protsendi näitamine</string>
+    <string name="battery_percent_title">Aku protsent olekuribal</string>
+    <string name="battery_style_category_title">Akuikoon</string>
+    <string name="status_bar_battery_style_title">Aku ikooni stiil</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portree (vaikimisi)</string>
+    <string name="status_bar_battery_style_circle">Ring</string>
+    <string name="status_bar_battery_style_dotted_circle">Ring (Katkendlik)</string>
+    <string name="status_bar_battery_style_filled_circle">Ring (täidetud)</string>
+    <string name="status_bar_battery_style_text">Tekst</string>
+    <string name="status_bar_battery_style_hidden">Peidetud</string>
+    <string name="status_bar_battery_percentage_title">Aku protsent</string>
+    <string name="status_bar_battery_percentage_default">Peidetud (vaikimisi)</string>
+    <string name="status_bar_battery_percentage_text_inside">Ikooni sees</string>
+    <string name="status_bar_battery_percentage_text_next">Ikooni kõrval</string>
+    <!-- Supress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Märguande heli, kui on aktiivne</string>
+    <string name="notification_sound_vib_screen_on_summary">Kui ekraan on sees, vibreeri ja esita teadete puhul heli</string>
 </resources>

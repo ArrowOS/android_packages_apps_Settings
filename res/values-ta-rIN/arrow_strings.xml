@@ -50,10 +50,10 @@
     <string name="battery_light_allow_on_dnd_title">தொ.செ பயன்முறையில் மின்கல ஒளி</string>
     <string name="battery_light_low_blinking_title">குறைந்த மின்கலத்தின்போது ஒளிரும் ஒளி</string>
     <string name="battery_light_cat">மின்னேற்றும்போது மின்கல ஒளி வண்ணம்</string>
-    <string name="battery_light_low_color">குறைந்த பேட்டரி</string>
-    <string name="battery_light_medium_color">நடுத்தர பேட்டரி</string>
-    <string name="battery_light_full_color">கிட்டத்தட்ட முழுமையான பேட்டரி</string>
-    <string name="battery_light_reallyfull_color">முழு (100) பேட்டரி</string>
+    <string name="battery_light_low_color">குறைந்த மின்கலம்</string>
+    <string name="battery_light_medium_color">நடுத்தர மின்கலம்</string>
+    <string name="battery_light_full_color">கிட்டத்தட்ட முழுமையான மின்கலம்</string>
+    <string name="battery_light_reallyfull_color">முழு (100) மின்கலம்</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">தற்செயலான விழித்தலை தடு</string>
     <string name="proximity_wake_summary">திரையை எழுப்புவதற்கு முன் அருகாமை சென்சார் சரிபார்க்கவும்</string>
@@ -63,30 +63,30 @@
     <string name="custom_light_off_time_title">துடிப்பு நேரத்தில் (மி) ஒளி அணையும் நேரம்</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">செயல்பாடுகள்</string>
-    <string name="select_custom_app_title">தனிப்பயன் பயன்பாட்டை தேர்வுசெய்க</string>
+    <string name="select_custom_app_title">தனிப்பயன் செயலியை தேர்வுசெய்க</string>
     <string name="select_custom_activity_title">தனிப்பயன் செயலைத் தேர்வுசெய்க</string>
     <string name="profile_applist_title">செயலிகள்</string>
     <string name="choose_action_title">செயலைத் தேர்வுசெய்க</string>
     <string name="action_entry_default_action">இயல்புநிலை அமைப்புகள்</string>
-    <string name="action_entry_select_app">பயன்பாட்டைத் தேர்ந்தெடு</string>
+    <string name="action_entry_select_app">செயலியைத் தேர்ந்தெடு</string>
     <string name="action_entry_custom_action">தனிப்பயன் செயலைத் தேர்ந்தெடு</string>
     <string name="hardware_keys_volume_keys_title">தொகுதி விசைப்பலகை</string>
     <string name="hardware_keys_home_key_title">முகப்பு பொத்தான்</string>
-    <string name="hardware_keys_menu_key_title">மெனு பொத்தான்</string>
+    <string name="hardware_keys_menu_key_title">பட்டியல் பொத்தான்</string>
     <string name="hardware_keys_assist_key_title">தேடல் பொத்தான்</string>
     <string name="hardware_keys_appswitch_key_title">கண்ணோட்டம் பொத்தான்</string>
     <string name="hardware_keys_back_key_title">பின் பொத்தான்</string>
     <string name="hardware_keys_double_tap_summary">இருமுறை தட்டல் செயல் அமை</string>
     <string name="hardware_keys_single_tap_summary">ஒருமுறை தட்டல் செயல் அமை</string>
-    <string name="hardware_keys_long_press_summary">நீண்ட பத்திரிகை நடவடிக்கைகளை அமைக்கவும்</string>
+    <string name="hardware_keys_long_press_summary">நீண்ட அழுத்த செயல் அமை</string>
     <string name="hardware_keys_single_tap_title">ஒருமுறை தட்டல் செயல்</string>
-    <string name="hardware_keys_long_press_title">நீண்ட பத்திரிகை செயல்</string>
-    <string name="hardware_keys_double_tap_title">இரட்டை தட்டுதல் செயல்பாடு</string>
+    <string name="hardware_keys_long_press_title">நீண்ட அழுத்த செயல்</string>
+    <string name="hardware_keys_double_tap_title">இரட்டை தட்டுதல் செயல்</string>
     <string name="hardware_keys">பொத்தான்கள்</string>
     <string name="hardware_keys_summary">வன்பொருள் பொத்தான்களைத் தனிப்பயனாக்கு</string>
     <string name="navigation_keys">வழிநடத்து பட்டை</string>
     <string name="navigation_keys_summary">திரையில் வழிநடத்து பட்டையை தனிப்பயனாக்கு</string>
-    <string name="hardware_keys_category">வன்பொருள் வழிசெலுத்தல் பொத்தான்</string>
+    <string name="hardware_keys_category">வன்பொருள் வழிசெலுத்தல் பொத்தான்கள்</string>
     <string name="hardware_keys_disable_title">வன்பொருள் பொத்தான்களை முடக்கு</string>
     <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">பொத்தான்கள் நேரம் பின்னொளியுடனான</string>
@@ -109,8 +109,8 @@
     <!-- Global Actions -->
     <string name="power_menu_customization_category_title">மின்சக்தி பட்டியல் தனிப்பயனாக்கம்</string>
     <string name="global_actions_title">மின்சக்தி பட்டியல் செயல்கள்</string>
-    <string name="global_actions_summary">நீங்கள் பவர் பொத்தானை தொடும்போது காண்பிப்பதைத் தேர்வுசெய்க</string>
-    <string name="global_actions_power">பவர்</string>
+    <string name="global_actions_summary">நீங்கள் சக்தி பொத்தானை தொடும்போது காண்பிப்பதைத் தேர்வுசெய்</string>
+    <string name="global_actions_power">சக்தி</string>
     <string name="global_actions_restart">மறுதொடக்கம்</string>
     <string name="global_actions_airplane">விமானம்</string>
     <string name="global_actions_settings">அமைப்புகள்</string>
@@ -119,9 +119,9 @@
     <string name="global_actions_users">பயனர்கள்</string>
     <string name="global_actions_screenshot">திரைப்பிடிப்பு</string>
     <string name="global_actions_screenrecord">திரைபதிவு</string>
-    <string name="global_actions_flashlight">டார்ச் விளக்கு</string>
+    <string name="global_actions_flashlight">ஒளிவிளக்கு</string>
     <string name="global_actions_emergency">அவசரநிலை</string>
-    <string name="global_actions_advanced_reboot_title">மேம்பட்ட மறுதொடக்கத்தை இயக்கவும்</string>
+    <string name="global_actions_advanced_reboot_title">மேம்பட்ட மறுதொடக்கத்தை இயக்கு</string>
     <string name="global_actions_advanced_reboot_summary">மறுதொடக்கம் செய்யும்போது மீட்பு மற்றும் துவக்க ஏற்றிக்கான விருப்பங்களையும் காண்பி</string>
     <string name="global_actions_max_columns_title">காண்பிக்கவேண்டிய அதிகபட்ச செயல்கள்</string>
     <string name="global_actions_max_columns_summary">பொத்தான்கள் வழிதல் மெனுவுக்கு நகரும் முன் எத்தனை செயல்களைக் காட்ட வேண்டும் என்பதை அமை</string>
@@ -207,6 +207,7 @@
     <string name="fod_recog_animation_pureview_future">Future</string>
     <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
     <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_created_lotr">LOTR</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
@@ -282,10 +283,58 @@
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Small mobile type icon</string>
     <string name="use_old_mobiletype_summary">Show mobile type icon on top of the signal indicator</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
     <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
     <string name="face_redo_confirm_btn">Redo</string>
     <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <!-- App Lock -->
+    <string name="applock_title">App locker</string>
+    <string name="applock_locked">Locked</string>
+    <string name="applock_unlocked">Unlocked</string>
+    <string name="applock_locked_apps">Locked apps</string>
+    <string name="applock_unlocked_apps">Unlocked apps</string>
+    <string name="applock_lock_after_title">Lock app after</string>
+    <string name="applock_lock_after_instantly">Instantly</string>
+    <string name="applock_lock_after_15_seconds">15 Seconds</string>
+    <string name="applock_lock_after_screen_off">Screen off</string>
+    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
+    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
+    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
+    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
+    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
+    <string name="applock_show_notif">Showing notification content</string>
+    <string name="applock_hide_notif">Hiding notification content</string>
+    <string name="applock_setup">Setup app locker</string>
+    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 app locked</item>
+        <item quantity="other">%d apps locked</item>
+    </plurals>
+    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Battery icon style</string>
+    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
+    <string name="battery_percent_title">Status bar battery percentage</string>
+    <string name="battery_style_category_title">Battery icon</string>
+    <string name="status_bar_battery_style_title">Battery style</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
+    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
+    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <!-- Supress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 </resources>
