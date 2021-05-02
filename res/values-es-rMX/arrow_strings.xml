@@ -15,50 +15,50 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Arrow version preference -->
-    <string name="arrow_version">"ArrowOS version"</string>
-    <string name="build_date">"Build date"</string>
-    <string name="about_device_name">"Device"</string>
+    <string name="arrow_version">"Versión de ArrowOS"</string>
+    <string name="build_date">"Fecha de compilación"</string>
+    <string name="about_device_name">"Dispositivo"</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">Toca para mostrar información</string>
     <!-- ArrowOS Installation Stats -->
-    <string name="arrow_stats_title">ArrowOS Stats</string>
-    <string name="arrow_stats_summary">Just counting how many devices we run on</string>
+    <string name="arrow_stats_title">Estadísticas ArrowOS</string>
+    <string name="arrow_stats_summary">Solo contabilizamos en cuántos dispositivos operamos</string>
     <!--Double Tap to Sleep Statusbar-->
-    <string name="statusbar_gestures_category_title">Statusbar gestures</string>
-    <string name="double_tap_sleep_gesture_title">Double tap to sleep on status bar</string>
+    <string name="statusbar_gestures_category_title">Gestos de la barra de estado</string>
+    <string name="double_tap_sleep_gesture_title">Doble toque en la barra de estado para suspender</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">What to do</string>
+    <string name="lockscreen_tweaks_category_title">Qué quieres hacer</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">Vincular volumen de tono y notificaciones</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Color bucket</string>
+    <string name="theme_customization_systemui_title">Selector de Color</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_title">Información de carga en pantalla de bloqueo</string>
+    <string name="lockscreen_battery_info_summary">Mostrar corriente de carga, voltaje, potencia y temperatura de la batería en la pantalla de bloqueo mientras se carga</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Settings categories -->
-    <string name="misc_category_title">Misc</string>
+    <string name="misc_category_title">Misceláneo</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">Elementos de la barra de estado</string>
     <!-- Display customization category -->
-    <string name="customization_category_title">Customization</string>
+    <string name="customization_category_title">Personalización</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Battery charging light</string>
-    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
-    <string name="battery_light_enable">Battery light</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
+    <string name="battery_light_settings">Luz de batería cargando</string>
+    <string name="battery_light_summary">Acciones de la luz de led en No molestar y en Batería baja</string>
+    <string name="battery_light_enable">Led de batería</string>
+    <string name="battery_light_allow_on_dnd_title">Indicador de carga en modo No Molestar</string>
+    <string name="battery_light_low_blinking_title">Led intermitente con batería baja</string>
+    <string name="battery_light_cat">Color del Led durante la carga</string>
+    <string name="battery_light_low_color">Batería baja</string>
+    <string name="battery_light_medium_color">Carga media</string>
+    <string name="battery_light_full_color">Carga casi completa</string>
+    <string name="battery_light_reallyfull_color">Bateria llena (100%)</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Prevenir el encendido accidental de la pantalla</string>
+    <string name="proximity_wake_summary">Comprobar el sensor de proximidad antes de encender la pantalla</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
+    <string name="custom_light_title">Color del Led</string>
     <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
     <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
     <!-- Hardware button navigation -->
@@ -337,4 +337,8 @@
     <!-- Supress notifications if screen is on -->
     <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
+    <string name="fp_wake_unlock_touch">Touch</string>
+    <string name="fp_wake_unlock_press">Press</string>
 </resources>

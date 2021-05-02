@@ -284,10 +284,10 @@
     <string name="use_old_mobiletype_title">Klein mobiel type icoon</string>
     <string name="use_old_mobiletype_summary">Mobiel type icoon weergeven bovenop de signaalindicator</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">Tijdens gesprek trilopties</string>
+    <string name="incall_vibrate_connect_title">Trillen tijdens verbinden</string>
+    <string name="incall_vibrate_call_wait_title">Trillen bij \"gesprek in de wacht\"</string>
+    <string name="incall_vibrate_disconnect_title">Trillen tijdens ophangen</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Verwijder de bestaande gezichtsscan en maak een nieuwe scan</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Gezicht opnieuw scannen</string>
@@ -295,46 +295,50 @@
     <string name="face_redo_confirm_btn">Opnieuw</string>
     <string name="face_redo_warning_msg">Wil je de bestaande gezichtsscan verwijderen en een nieuwe maken?</string>
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_lock_after_title">Lock app after</string>
-    <string name="applock_lock_after_instantly">Instantly</string>
-    <string name="applock_lock_after_15_seconds">15 Seconds</string>
-    <string name="applock_lock_after_screen_off">Screen off</string>
-    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
-    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
-    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
-    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_title">App vergrendeling</string>
+    <string name="applock_locked">Vergrendeld</string>
+    <string name="applock_unlocked">Ontgrendeld</string>
+    <string name="applock_locked_apps">Vergrendelde apps</string>
+    <string name="applock_unlocked_apps">Ontgrendelde apps</string>
+    <string name="applock_lock_after_title">App vergrendelen na</string>
+    <string name="applock_lock_after_instantly">Onmiddellijk</string>
+    <string name="applock_lock_after_15_seconds">15 Seconden</string>
+    <string name="applock_lock_after_screen_off">Scherm uit</string>
+    <string name="applock_lock_after_summary">App zal worden vergrendeld na geselecteerde time-out</string>
+    <string name="applock_lock_after_instantly_summary">App wordt direct vergrendeld wanneer deze wordt gesloten</string>
+    <string name="applock_lock_after_15_seconds_summary">App zal 15 seconden vergrendeld worden na sluiten</string>
+    <string name="applock_lock_after_screen_off_summary">App zal worden vergrendeld wanneer het scherm is uitgeschakeld</string>
+    <string name="applock_notification_info">U kunt de inhoud van de notificatie per app tonen/verbergen door te klikken op het meldingspictogram dat getoond wordt bij de voorkeur van elke vergrendelde app</string>
+    <string name="applock_show_notif">Inhoud van meldingen weergeven</string>
+    <string name="applock_hide_notif">Inhoud van meldingen verbergen</string>
+    <string name="applock_setup">App-vergrendeling instellen</string>
+    <string name="applock_overlay_summary">Deze functie is niet beschikbaar omdat deze app is vergrendeld</string>
     <plurals name="applock_summary">
-        <item quantity="one">1 app locked</item>
-        <item quantity="other">%d apps locked</item>
+        <item quantity="one">1 app vergrendeld</item>
+        <item quantity="other">%d apps vergrendeld</item>
     </plurals>
     <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
-    <string name="battery_percent_title">Status bar battery percentage</string>
-    <string name="battery_style_category_title">Battery icon</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="battery_style_title">Batterij pictogram stijl</string>
+    <string name="battery_style_summary">Batterijpictogrammen aanpassen, percentage verbergen of tonen</string>
+    <string name="battery_percent_title">Statusbalk accu percentage</string>
+    <string name="battery_style_category_title">Batterijpictogram</string>
+    <string name="status_bar_battery_style_title">Batterij stijl</string>
+    <string name="status_bar_battery_style_icon_portrait">Pictogram portret (standaard)</string>
+    <string name="status_bar_battery_style_circle">Cirkel</string>
+    <string name="status_bar_battery_style_dotted_circle">Cirkel (Gestippeld)</string>
+    <string name="status_bar_battery_style_filled_circle">Cirkel (Gevuld)</string>
+    <string name="status_bar_battery_style_text">Tekst</string>
+    <string name="status_bar_battery_style_hidden">Verborgen</string>
+    <string name="status_bar_battery_percentage_title">Batterij percentage</string>
+    <string name="status_bar_battery_percentage_default">Verborgen (standaard)</string>
+    <string name="status_bar_battery_percentage_text_inside">In het pictogram</string>
+    <string name="status_bar_battery_percentage_text_next">Naast het pictogram</string>
     <!-- Supress notifications if screen is on -->
-    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">Meldingsgeluid als actief</string>
+    <string name="notification_sound_vib_screen_on_summary">Geluid en trillen afspelen voor meldingen wanneer het scherm aan is</string>
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
+    <string name="fp_wake_unlock_touch">Touch</string>
+    <string name="fp_wake_unlock_press">Press</string>
 </resources>

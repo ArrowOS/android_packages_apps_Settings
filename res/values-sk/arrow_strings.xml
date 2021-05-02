@@ -284,10 +284,10 @@
     <string name="use_old_mobiletype_title">Malý typ ikony mobilnej siete</string>
     <string name="use_old_mobiletype_summary">Zobraziť ikonu mobilného typu v hornej časti indikátoru signálu</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">Možnosti vibrácií pri hovore</string>
+    <string name="incall_vibrate_connect_title">Vibrovať pri spojení</string>
+    <string name="incall_vibrate_call_wait_title">Vibrovať pri ďalšom hovore</string>
+    <string name="incall_vibrate_disconnect_title">Zavibrovať pri odpojení</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Odstráňte existujúcu naskenovanú tvár a vytvoriť nový sken</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Znovu naskenovať tvár</string>
@@ -295,48 +295,52 @@
     <string name="face_redo_confirm_btn">Znovu</string>
     <string name="face_redo_warning_msg">Chcete odstrániť existujúcu naskenovanú tvár a vytvoriť nový sken?</string>
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_lock_after_title">Lock app after</string>
-    <string name="applock_lock_after_instantly">Instantly</string>
-    <string name="applock_lock_after_15_seconds">15 Seconds</string>
-    <string name="applock_lock_after_screen_off">Screen off</string>
-    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
-    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
-    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
-    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_title">Zámok aplikácií</string>
+    <string name="applock_locked">Uzamknuté</string>
+    <string name="applock_unlocked">Odomknuté</string>
+    <string name="applock_locked_apps">Zamknuté aplikácie</string>
+    <string name="applock_unlocked_apps">Odomknuté aplikácie</string>
+    <string name="applock_lock_after_title">Uzamknúť aplikáciu po</string>
+    <string name="applock_lock_after_instantly">Okamžite</string>
+    <string name="applock_lock_after_15_seconds">15 sekúnd</string>
+    <string name="applock_lock_after_screen_off">Obrazovka vypnutá</string>
+    <string name="applock_lock_after_summary">Po zvolenom časovom limite bude aplikácia uzamknutá</string>
+    <string name="applock_lock_after_instantly_summary">Po zatvorení bude aplikácia okamžite uzamknutá</string>
+    <string name="applock_lock_after_15_seconds_summary">15 sekúnd po ukončení bude aplikácia uzamknutá</string>
+    <string name="applock_lock_after_screen_off_summary">Po vypnutí obrazovky bude aplikácia uzamknutá</string>
+    <string name="applock_notification_info">Obsah upozornení môžete zobraziť alebo skryť pre jednotlivé aplikácie kliknutím na ikonu upozornenia zobrazenú v predvoľbách jednotlivých uzamknutých aplikácií</string>
+    <string name="applock_show_notif">Obsah upozornení je zobrazovaný</string>
+    <string name="applock_hide_notif">Obsah upozornení je skrytý</string>
+    <string name="applock_setup">Nastaviť zámok aplikácií</string>
+    <string name="applock_overlay_summary">Táto funkcia nie je k dispozícii, pretože táto aplikácia je uzamknutá</string>
     <plurals name="applock_summary">
-        <item quantity="one">1 app locked</item>
-        <item quantity="few">%d apps locked</item>
-        <item quantity="many">%d apps locked</item>
-        <item quantity="other">%d apps locked</item>
+        <item quantity="one">1 aplikácia je uzamknutá</item>
+        <item quantity="few">%d aplikácie sú uzamknuté</item>
+        <item quantity="many">%d aplikácií je uzamknutých</item>
+        <item quantity="other">%d aplikácií je uzamknutých</item>
     </plurals>
-    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <string name="keywords_applock_settings">uzamknúť aplikáciu, uzamykanie aplikácie, uzamknutie aplikácie, zámok aplikácií</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
-    <string name="battery_percent_title">Status bar battery percentage</string>
-    <string name="battery_style_category_title">Battery icon</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
+    <string name="battery_style_title">Štýl ikony batérie</string>
+    <string name="battery_style_summary">Prispôsobiť štýl ikony batérie, skryť alebo zobraziť percentá</string>
+    <string name="battery_percent_title">Percentá batérie v stavovom riadku</string>
+    <string name="battery_style_category_title">Ikona batérie</string>
+    <string name="status_bar_battery_style_title">Štýl batérie</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikona na výšku (predvolené)</string>
+    <string name="status_bar_battery_style_circle">Kruh</string>
+    <string name="status_bar_battery_style_dotted_circle">Kruh (bodkovaný)</string>
+    <string name="status_bar_battery_style_filled_circle">Kruh (plný)</string>
     <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="status_bar_battery_style_hidden">Nezobrazovať</string>
+    <string name="status_bar_battery_percentage_title">Percentá stavu batérie</string>
+    <string name="status_bar_battery_percentage_default">Skryté (predvolené)</string>
+    <string name="status_bar_battery_percentage_text_inside">Vo vnútri ikony</string>
+    <string name="status_bar_battery_percentage_text_next">Vedľa ikony</string>
     <!-- Supress notifications if screen is on -->
-    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">Zvuk a vibrácie, keď je obrazovka zapnutá</string>
+    <string name="notification_sound_vib_screen_on_summary">Prehrávanie zvuku a vibrácie pre upozornenia, keď je obrazovka zapnutá</string>
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
+    <string name="fp_wake_unlock_touch">Touch</string>
+    <string name="fp_wake_unlock_press">Press</string>
 </resources>

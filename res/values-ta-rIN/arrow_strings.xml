@@ -160,12 +160,12 @@
     <string name="traffic_title">போக்குவரத்து குறிகாட்டிகள்</string>
     <string name="traffic_summary">பிணைய வேக குறிகாட்டிகளை இயக்கு அ முடக்கு</string>
     <string name="network_traffic_title">பிணைய போக்குவரத்து</string>
-    <string name="network_traffic_type">Select net activity type</string>
+    <string name="network_traffic_type">பிணைய செயல்பாட்டு வகையைத் தேர்ந்தெடு</string>
     <string name="show_network_traffic_up">மேலிணைப்பு</string>
     <string name="show_network_traffic_down">கீழிணைப்பு</string>
     <string name="show_network_traffic_all">மேலிணைப்பு மற்றும் கீழிணைப்பு</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="network_traffic_state_title">நிலைப்பட்டியில் பிணைய செயல்பாட்டைக் காட்டு</string>
+    <string name="network_traffic_autohide_threshold_title">பிணைய செயல்பாடு தானாக மறைதல் வாசல் (KB / s)</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">தேய்த்து திரைப்பிடி</string>
     <string name="three_finger_gesture_summary">திரைப்பிடிக்க மூன்று விரல்களால் கீழே தேய்</string>
@@ -212,44 +212,44 @@
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total RAM</string>
+    <string name="total_ram">மொத்த RAM</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">பின்னணி கட்டுப்பாடு</string>
+    <string name="volume_button_music_control_summary">திரை அணைவில் உள்ளபோது, ஒலியளவு விசைகளை நீண்டழுத்தல் இசை தடங்களை தவிர்க்கும்</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
-    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    <string name="volume_rocker_wake_title">ஒலியளவு எழுப்புதல்</string>
+    <string name="volume_rocker_wake_summary">ஒலியளவு விசைகளை அழுத்துவதன் மூலம் உங்கள் சாதனத்தை எழுப்பு</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Invert layout</string>
+    <string name="navbar_invert_layout_title">தலைகீழ் தளவமைப்பு</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+    <string name="fod_gesture_title">அணைந்த திரை கைரேகை</string>
+    <string name="fod_gesture_summary">திரையை முதலில் எழுப்பாமல் சாதனத்தைத் பூட்டவிற்க அனுமதிக்கிறது</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
-    <string name="battery_temp_summary">Tap to switch scale</string>
+    <string name="battery_temp_title">மின்கல வெப்பநிலை</string>
+    <string name="battery_temp_summary">அளவை மாற்ற தட்டவும்</string>
     <!-- Back Gestures -->
-    <string name="smallest_tick_label">Off</string>
-    <string name="greatest_tick_label">Half screen</string>
-    <string name="gesture_back_deadzone_label">Dead zone</string>
+    <string name="smallest_tick_label">அணை</string>
+    <string name="greatest_tick_label">அரை திரை</string>
+    <string name="gesture_back_deadzone_label">இறந்த மண்டலம்</string>
     <string name="back_sensitivity_dialog_message_cust">\nUse the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <string name="double_tap_power_flashlight_screen_title">விளக்கை செயல்படுத்து</string>
+    <string name="double_tap_power_flashlight_title">அணைந்த திரை சக்தி பொத்தான் விளக்கு</string>
+    <string name="torch_power_button_gesture_none">முடக்கப்பட்டுள்ளது</string>
+    <string name="torch_power_button_gesture_dt">விளக்கை மறுநிலைமாற்ற சக்தியை இருமுறை தட்டு</string>
+    <string name="torch_power_button_gesture_lp">விளக்கை மறுநிலைமாற்ற சக்தியை நீண்டழுத்து</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_all">பிணைய அணுகலை அனுமதி</string>
+    <string name="data_usage_app_restrict_all_summary">பிணைய பயன்பாட்டை இயக்கு</string>
+    <string name="data_usage_app_restrict_mobile">கைபேசி தரவு</string>
+    <string name="data_usage_app_restrict_mobile_summary">கைபேசி தரவு பயன்படுத்தலை இயக்கு</string>
+    <string name="data_usage_app_restrict_vpn">VPN தரவு</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN தரவு பயன்படுத்தலை இயக்கு</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi தரவு</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi தரவு பயன்படுத்தலை இயக்கு</string>
     <!-- Reset battery stats -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">புள்ளிவிவரங்களை மீட்டமை</string>
+    <string name="battery_stats_message">மின்கல வரலாறு புள்ளிவிவரங்கள் மீட்டமைக்கப்படும்</string>
     <string name="ok_string">Ok</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
@@ -293,48 +293,52 @@
     <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
     <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
     <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="face_redo_warning_msg">ஏற்கனவே உள்ள முக வருடலை அகற்றி, புதிய ஒன்றை உருவாக்க வேண்டுமா உமக்கு?</string>
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_lock_after_title">Lock app after</string>
-    <string name="applock_lock_after_instantly">Instantly</string>
-    <string name="applock_lock_after_15_seconds">15 Seconds</string>
-    <string name="applock_lock_after_screen_off">Screen off</string>
-    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
-    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
-    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
-    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
+    <string name="applock_title">செயலி பூட்டுவான்</string>
+    <string name="applock_locked">பூட்டப்பட்டது</string>
+    <string name="applock_unlocked">பூட்டவிற்கப்பட்டது</string>
+    <string name="applock_locked_apps">பூட்டப்பட்ட செயலிகள்</string>
+    <string name="applock_unlocked_apps">பூட்டப்படா செயலிகள்</string>
+    <string name="applock_lock_after_title">இதன்பிறகு செயலியை பூட்டு</string>
+    <string name="applock_lock_after_instantly">உடனடியாக</string>
+    <string name="applock_lock_after_15_seconds">௧௫ வினாடிகள்</string>
+    <string name="applock_lock_after_screen_off">திரை அணைந்தவுடன்</string>
+    <string name="applock_lock_after_summary">தேர்ந்தெடுக்கப்பட்ட நேரமுடிவின்பின் செயலி பூட்டப்படும்</string>
+    <string name="applock_lock_after_instantly_summary">மூடியவுடனே செயலி பூட்டப்படும்</string>
+    <string name="applock_lock_after_15_seconds_summary">மூடிய ௧௫ வினாடிகளுக்குப் பிறகு செயலி பூட்டப்படும்</string>
+    <string name="applock_lock_after_screen_off_summary">திரை அணைக்கப்படும் போது செயலி பூட்டப்படும்</string>
     <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_show_notif">அறிவிப்பு உள்ளடக்கத்தைக் காட்டுகிறது</string>
+    <string name="applock_hide_notif">அறிவிப்பு உள்ளடக்கத்தை மறைக்கிறது</string>
+    <string name="applock_setup">செயலி பூட்டுவானை அமை</string>
+    <string name="applock_overlay_summary">இந்த செயலி பூட்டப்பட்டிருப்பதால் இவ்வம்சம் கிடைக்கவில்லை</string>
     <plurals name="applock_summary">
         <item quantity="one">1 app locked</item>
-        <item quantity="other">%d apps locked</item>
+        <item quantity="other">%d செயலிகள் பூட்டப்பட்டுள்ளன</item>
     </plurals>
-    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <string name="keywords_applock_settings">செயலிப்பூட்டு, செயலிப்பூட்டுவான், செயலி பூட்டு, செயலி பூட்டுவான்</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
-    <string name="battery_percent_title">Status bar battery percentage</string>
-    <string name="battery_style_category_title">Battery icon</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="battery_style_title">மின்கல படவுரு பாணி</string>
+    <string name="battery_style_summary">மின்கல படவுருவை தனிப்பயனாக்கு, சதவீதத்தை காட்டு அ மறை</string>
+    <string name="battery_percent_title">நிலைப்பட்டி மின்கல சதவீதம்</string>
+    <string name="battery_style_category_title">மின்கல படவுரு</string>
+    <string name="status_bar_battery_style_title">மின்கல பாணி</string>
+    <string name="status_bar_battery_style_icon_portrait">ஐகான் நீலவாக்கு (இயல்புநிலை)</string>
+    <string name="status_bar_battery_style_circle">வட்டம்</string>
+    <string name="status_bar_battery_style_dotted_circle">வட்டம் (புள்ளியிடப்பட்ட)</string>
+    <string name="status_bar_battery_style_filled_circle">வட்டம் (நிரப்பப்பட்ட)</string>
+    <string name="status_bar_battery_style_text">சொற்சரம்</string>
+    <string name="status_bar_battery_style_hidden">மறைந்து</string>
+    <string name="status_bar_battery_percentage_title">மின்கல சதவீதம்</string>
+    <string name="status_bar_battery_percentage_default">மறைந்து (இயல்புநிலை)</string>
+    <string name="status_bar_battery_percentage_text_inside">படவுருக்குள்</string>
+    <string name="status_bar_battery_percentage_text_next">படவுருவிற்கு அடுத்து</string>
     <!-- Supress notifications if screen is on -->
-    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">செயலில் இருந்தால் அறிவிப்பு ஒலி</string>
+    <string name="notification_sound_vib_screen_on_summary">திரை இயங்கும் போது அறிவிப்புகளுக்கு ஒலி மற்றும் அதிர்வு இயக்கு</string>
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
+    <string name="fp_wake_unlock_touch">Touch</string>
+    <string name="fp_wake_unlock_press">Press</string>
 </resources>

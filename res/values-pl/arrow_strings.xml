@@ -300,14 +300,14 @@
     <string name="applock_unlocked">Odblokowane</string>
     <string name="applock_locked_apps">Zablokowane aplikacje</string>
     <string name="applock_unlocked_apps">Odblokowane aplikacje</string>
-    <string name="applock_lock_after_title">Lock app after</string>
-    <string name="applock_lock_after_instantly">Instantly</string>
-    <string name="applock_lock_after_15_seconds">15 Seconds</string>
-    <string name="applock_lock_after_screen_off">Screen off</string>
-    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
-    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
-    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
-    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
+    <string name="applock_lock_after_title">Zablokuj aplikację po</string>
+    <string name="applock_lock_after_instantly">Natychmiastowo</string>
+    <string name="applock_lock_after_15_seconds">15 Sekundach</string>
+    <string name="applock_lock_after_screen_off">Po wyłączeniu ekranu</string>
+    <string name="applock_lock_after_summary">Aplikacja zostanie zablokowana po wybranym przekroczeniu czasu</string>
+    <string name="applock_lock_after_instantly_summary">Aplikacja zostanie zablokowana natychmiast po zamknięciu</string>
+    <string name="applock_lock_after_15_seconds_summary">Aplikacja zostanie zablokowana 15 sekund po zamknięciu</string>
+    <string name="applock_lock_after_screen_off_summary">Aplikacja zostanie zablokowana po wyłączeniu ekranu</string>
     <string name="applock_notification_info">Możesz pokazać/ukryć zawartość powiadomień dla każdej aplikacji klikając ikonę powiadomień wyświetlaną na każdej zablokowanej aplikacji</string>
     <string name="applock_show_notif">Pokazywanie treści powiadomień</string>
     <string name="applock_hide_notif">Ukrywanie treści powiadomień</string>
@@ -339,4 +339,8 @@
     <!-- Supress notifications if screen is on -->
     <string name="notification_sound_vib_screen_on_title">Dźwięk powiadomienia, jeśli ekran jest włączony</string>
     <string name="notification_sound_vib_screen_on_summary">Odtwarzaj dźwięk i wibracje dla powiadomień, gdy ekran jest włączony</string>
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
+    <string name="fp_wake_unlock_touch">Touch</string>
+    <string name="fp_wake_unlock_press">Press</string>
 </resources>

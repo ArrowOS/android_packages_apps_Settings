@@ -300,14 +300,14 @@
     <string name="applock_unlocked">Разблокировано</string>
     <string name="applock_locked_apps">Заблокированные приложения</string>
     <string name="applock_unlocked_apps">Разблокированные приложения</string>
-    <string name="applock_lock_after_title">Lock app after</string>
-    <string name="applock_lock_after_instantly">Instantly</string>
-    <string name="applock_lock_after_15_seconds">15 Seconds</string>
-    <string name="applock_lock_after_screen_off">Screen off</string>
-    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
-    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
-    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
-    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
+    <string name="applock_lock_after_title">Заблокировать приложение через</string>
+    <string name="applock_lock_after_instantly">Мгновенно</string>
+    <string name="applock_lock_after_15_seconds">15 сек</string>
+    <string name="applock_lock_after_screen_off">Выключение экрана</string>
+    <string name="applock_lock_after_summary">Приложение будет заблокировано по истечении выбранного тайм-аута</string>
+    <string name="applock_lock_after_instantly_summary">Приложение будет заблокировано мгновенно при закрытии</string>
+    <string name="applock_lock_after_15_seconds_summary">Приложение будет заблокировано через 15 секунд после закрытия</string>
+    <string name="applock_lock_after_screen_off_summary">Приложение будет заблокировано при выключении экрана</string>
     <string name="applock_notification_info">Вы можете показать / скрыть содержимое уведомления для каждого приложения, щелкнув значок уведомления, отображаемый в настройках каждого заблокированного приложения</string>
     <string name="applock_show_notif">Отображение содержимого уведомления</string>
     <string name="applock_hide_notif">Скрытие содержимого уведомления</string>
@@ -339,4 +339,8 @@
     <!-- Supress notifications if screen is on -->
     <string name="notification_sound_vib_screen_on_title">Звук и вибрация при включенном экране</string>
     <string name="notification_sound_vib_screen_on_summary">Воспроизводить звук и вибрацию при получении уведомлений когда экран включен</string>
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
+    <string name="fp_wake_unlock_touch">Touch</string>
+    <string name="fp_wake_unlock_press">Press</string>
 </resources>

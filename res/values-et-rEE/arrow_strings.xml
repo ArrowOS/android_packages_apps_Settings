@@ -337,4 +337,8 @@
     <!-- Supress notifications if screen is on -->
     <string name="notification_sound_vib_screen_on_title">Märguande heli, kui on aktiivne</string>
     <string name="notification_sound_vib_screen_on_summary">Kui ekraan on sees, vibreeri ja esita teadete puhul heli</string>
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
+    <string name="fp_wake_unlock_touch">Touch</string>
+    <string name="fp_wake_unlock_press">Press</string>
 </resources>

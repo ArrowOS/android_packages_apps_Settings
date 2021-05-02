@@ -284,10 +284,10 @@
     <string name="use_old_mobiletype_title">작은 모바일 타입 아이콘</string>
     <string name="use_old_mobiletype_summary">신호 표시 위에 작은 모바일 타입 아이콘을 보이기</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">통화 중 진동 옵션</string>
+    <string name="incall_vibrate_connect_title">통화 연결 시 진동</string>
+    <string name="incall_vibrate_call_wait_title">통화 대기 중 진동</string>
+    <string name="incall_vibrate_disconnect_title">통화 종료 시 진동</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">기존의 얼굴 스캔을 제거하고 새 스캔을 만듭니다.</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">얼굴 스캔 취소</string>
@@ -295,45 +295,49 @@
     <string name="face_redo_confirm_btn">재시도</string>
     <string name="face_redo_warning_msg">기존 얼굴 스캔을 제거하고 새 스캔을 만드시겠습니까?</string>
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_lock_after_title">Lock app after</string>
-    <string name="applock_lock_after_instantly">Instantly</string>
-    <string name="applock_lock_after_15_seconds">15 Seconds</string>
-    <string name="applock_lock_after_screen_off">Screen off</string>
-    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
-    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
-    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
-    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_title">앱 잠금</string>
+    <string name="applock_locked">잠김</string>
+    <string name="applock_unlocked">잠금 해제됨</string>
+    <string name="applock_locked_apps">잠긴 앱</string>
+    <string name="applock_unlocked_apps">잠금 해제된 앱</string>
+    <string name="applock_lock_after_title">다음 시간 이후 앱 잠금</string>
+    <string name="applock_lock_after_instantly">즉시</string>
+    <string name="applock_lock_after_15_seconds">15초</string>
+    <string name="applock_lock_after_screen_off">화면 끄기</string>
+    <string name="applock_lock_after_summary">앱은 선택된 시간 후에 잠길 것입니다</string>
+    <string name="applock_lock_after_instantly_summary">앱은 종료 후 즉시 잠길 것입니다</string>
+    <string name="applock_lock_after_15_seconds_summary">앱 종료 15초 후 잠길 것입니다</string>
+    <string name="applock_lock_after_screen_off_summary">앱은 화면이 꺼졌을때 잠길 것입니다</string>
+    <string name="applock_notification_info">잠긴 앱에 표시된 알림 아이콘을 클릭하여 앱별로 알림 내용을 표시하거나 숨길 수 있습니다.</string>
+    <string name="applock_show_notif">알림 내용 표시</string>
+    <string name="applock_hide_notif">알림 내용 숨기기</string>
+    <string name="applock_setup">앱 잠금 설정</string>
+    <string name="applock_overlay_summary">앱이 잠겨있기 때문에 이 기능을 사용할 수 없습니다</string>
     <plurals name="applock_summary">
-        <item quantity="other">%d apps locked</item>
+        <item quantity="other">앱 %d개 잠김</item>
     </plurals>
-    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <string name="keywords_applock_settings">앱락, 앱락커, 앱 락, 앱 락커</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
-    <string name="battery_percent_title">Status bar battery percentage</string>
-    <string name="battery_style_category_title">Battery icon</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="battery_style_title">배터리 아이콘 형식</string>
+    <string name="battery_style_summary">배터리 아이콘, 퍼센트를 숨기거나 나타나게 커스텀합니다.</string>
+    <string name="battery_percent_title">상단바 배터리 퍼센트 표시</string>
+    <string name="battery_style_category_title">배터리 아이콘</string>
+    <string name="status_bar_battery_style_title">배터리 스타일</string>
+    <string name="status_bar_battery_style_icon_portrait">아이콘 초상화 (기본값)</string>
+    <string name="status_bar_battery_style_circle">원형</string>
+    <string name="status_bar_battery_style_dotted_circle">원형 (점선)</string>
+    <string name="status_bar_battery_style_filled_circle">원형 (채워진)</string>
+    <string name="status_bar_battery_style_text">텍스트</string>
+    <string name="status_bar_battery_style_hidden">숨김</string>
+    <string name="status_bar_battery_percentage_title">배터리 잔량 표시</string>
+    <string name="status_bar_battery_percentage_default">숨김 (기본값)</string>
+    <string name="status_bar_battery_percentage_text_inside">아이콘 안에 표시</string>
+    <string name="status_bar_battery_percentage_text_next">아이콘 옆에 표시</string>
     <!-- Supress notifications if screen is on -->
-    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">화면 켜져있을 때 알림 소리</string>
+    <string name="notification_sound_vib_screen_on_summary">화면이 켜져있을 때 소리 및 진동 알림을 재생합니다.</string>
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
+    <string name="fp_wake_unlock_touch">Touch</string>
+    <string name="fp_wake_unlock_press">Press</string>
 </resources>

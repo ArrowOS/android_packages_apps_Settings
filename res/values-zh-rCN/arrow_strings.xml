@@ -31,7 +31,7 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">链接铃声和通知的音量</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">色桶</string>
+    <string name="theme_customization_systemui_title">调色板</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">锁屏充电信息</string>
     <string name="lockscreen_battery_info_summary">充电时在锁屏上显示充电电流、电压、功率和电池温度</string>
@@ -300,14 +300,14 @@
     <string name="applock_unlocked">未锁定</string>
     <string name="applock_locked_apps">已锁定的应用</string>
     <string name="applock_unlocked_apps">未锁定的应用</string>
-    <string name="applock_lock_after_title">Lock app after</string>
-    <string name="applock_lock_after_instantly">Instantly</string>
-    <string name="applock_lock_after_15_seconds">15 Seconds</string>
-    <string name="applock_lock_after_screen_off">Screen off</string>
-    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
-    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
-    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
-    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
+    <string name="applock_lock_after_title">之后锁定应用</string>
+    <string name="applock_lock_after_instantly">即刻</string>
+    <string name="applock_lock_after_15_seconds">15 秒</string>
+    <string name="applock_lock_after_screen_off">屏幕关闭</string>
+    <string name="applock_lock_after_summary">应用在选定的超时后被锁定</string>
+    <string name="applock_lock_after_instantly_summary">应用关闭后立刻被锁定</string>
+    <string name="applock_lock_after_15_seconds_summary">应用关闭 15 秒后被锁定</string>
+    <string name="applock_lock_after_screen_off_summary">应用在屏幕关闭后被锁定</string>
     <string name="applock_notification_info">您可以通过点击每个锁定的应用程序首选项上显示的通知图标，按应用程序显示/隐藏通知内容</string>
     <string name="applock_show_notif">显示通知内容</string>
     <string name="applock_hide_notif">隐藏通知内容</string>
@@ -336,4 +336,8 @@
     <!-- Supress notifications if screen is on -->
     <string name="notification_sound_vib_screen_on_title">屏幕开启时的通知声</string>
     <string name="notification_sound_vib_screen_on_summary">当屏幕开启时播放声音和振动通知</string>
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
+    <string name="fp_wake_unlock_touch">Touch</string>
+    <string name="fp_wake_unlock_press">Press</string>
 </resources>
