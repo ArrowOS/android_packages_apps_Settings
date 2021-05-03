@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "af036bab_c35dfa79",
+        "filename": "res/values/arrow_configs.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 171
+      },
+      "writtenOn": "2021-05-03T19:15:36Z",
+      "side": 0,
+      "message": "I\u0027d leave the original boolean so devices that have the original one set don\u0027t have to manually switch to the new one.",
+      "range": {
+        "startLine": 36,
+        "startChar": 16,
+        "endLine": 36,
+        "endChar": 51
+      },
+      "revId": "af83657cc28d9114139a5865cda5ef245bd0d113",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196",
+      "unresolved": true
+    }
+  ]
+}
