@@ -45,7 +45,8 @@ public class TapToWakePreferenceController extends AbstractPreferenceController 
     @Override
     public void updateState(Preference preference) {
         int value = Settings.Secure.getInt(
-                mContext.getContentResolver(), Settings.Secure.DOUBLE_TAP_TO_WAKE, 0);
+                mContext.getContentResolver(), Settings.Secure.DOUBLE_TAP_TO_WAKE,
+                    mContext.getResources().getBoolean(R.bool.def_double_tap_to_wake));
         ((SwitchPreference) preference).setChecked(value != 0);
     }
 
