@@ -255,7 +255,10 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">已儲存的耳機</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">螢幕更新率</string>
+    <string name="min_refresh_rate_title">最低刷新率</string>
+    <string name="max_refresh_rate_title">最高刷新率</string>
+    <string name="battery_saver_refresh_rate_title">降低刷新率</string>
+    <string name="battery_saver_refresh_rate_summary">在省電模式开启时使用 60 Hz 熒幕刷新率以減少電量消耗</string>
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">在螢幕上任一處輕按兩下即可喚醒或休眠裝置</string>
     <!-- Hotspot VPN -->
@@ -285,10 +288,10 @@
     <string name="use_old_mobiletype_title">小型行動數據圖示</string>
     <string name="use_old_mobiletype_summary">在訊號指示器頂部顯示行動類型圖標</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">通話中震動選項</string>
+    <string name="incall_vibrate_connect_title">接通時震動</string>
+    <string name="incall_vibrate_call_wait_title">來電等待時震動</string>
+    <string name="incall_vibrate_disconnect_title">掛斷時震動</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">移除現有的臉部掃描資料，並建立新的資料</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">重新執行臉部掃描</string>
@@ -296,49 +299,86 @@
     <string name="face_redo_confirm_btn">重做</string>
     <string name="face_redo_warning_msg">您要移除現有的臉部掃描資料，並建立新的資料嗎?</string>
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_lock_after_title">Lock app after</string>
-    <string name="applock_lock_after_instantly">Instantly</string>
-    <string name="applock_lock_after_15_seconds">15 Seconds</string>
-    <string name="applock_lock_after_screen_off">Screen off</string>
-    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
-    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
-    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
-    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_title">應用程式鎖</string>
+    <string name="applock_locked">已鎖定</string>
+    <string name="applock_unlocked">未鎖定</string>
+    <string name="applock_locked_apps">已鎖定的應用程式</string>
+    <string name="applock_unlocked_apps">未鎖定的應用程式</string>
+    <string name="applock_lock_after_title">在多久後鎖定</string>
+    <string name="applock_lock_after_instantly">即時</string>
+    <string name="applock_lock_after_15_seconds">15 秒</string>
+    <string name="applock_lock_after_screen_off">關閉螢幕</string>
+    <string name="applock_lock_after_summary">應用程式將在選擇的時間後鎖定</string>
+    <string name="applock_lock_after_instantly_summary">應用程式在關閉後立刻鎖定</string>
+    <string name="applock_lock_after_15_seconds_summary">應用程式關閉15秒後鎖定</string>
+    <string name="applock_lock_after_screen_off_summary">應用程式在螢幕關閉後鎖定</string>
+    <string name="applock_notification_info">你可以點擊已鎖定應用旁的通知圖示，選擇顯示或隱藏該應用程式的通知內容</string>
+    <string name="applock_show_notif">顯示通知內容</string>
+    <string name="applock_hide_notif">隱藏通知內容</string>
+    <string name="applock_setup">設定應用程式鎖</string>
+    <string name="applock_overlay_summary">這項功能無法使用，因為此應用程式已鎖定</string>
     <plurals name="applock_summary">
-        <item quantity="other">%d apps locked</item>
+        <item quantity="other">%d 個應用程式已被鎖定</item>
     </plurals>
-    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <string name="keywords_applock_settings">應用程式鎖定, 應用程式鎖定, 應用程式鎖定, 應用程式鎖定</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
-    <string name="battery_percent_title">Status bar battery percentage</string>
-    <string name="battery_style_category_title">Battery icon</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="battery_style_title">電池圖示樣式</string>
+    <string name="battery_style_summary">自訂電池圖示及是否顯示百分比</string>
+    <string name="battery_percent_title">狀態列的電池樣式</string>
+    <string name="battery_style_category_title">電池圖示</string>
+    <string name="status_bar_battery_style_title">電池樣式</string>
+    <string name="status_bar_battery_style_icon_portrait">直立圖標(預設)</string>
+    <string name="status_bar_battery_style_circle">圓圈</string>
+    <string name="status_bar_battery_style_dotted_circle">虛線圓圈</string>
+    <string name="status_bar_battery_style_filled_circle">實心圓圈</string>
+    <string name="status_bar_battery_style_text">只有文字</string>
+    <string name="status_bar_battery_style_hidden">隱藏</string>
+    <string name="status_bar_battery_percentage_title">電量百分比</string>
+    <string name="status_bar_battery_percentage_default">隱藏(預設)</string>
+    <string name="status_bar_battery_percentage_text_inside">在電池圖示裡面</string>
+    <string name="status_bar_battery_percentage_text_next">在電池圖示旁</string>
     <!-- Supress notifications if screen is on -->
-    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">螢幕開啟時的通知音效</string>
+    <string name="notification_sound_vib_screen_on_summary">開啟當螢幕打開時通知的聲音及震動</string>
     <!-- Fp wake unlock options -->
-    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
-    <string name="fp_wake_unlock_touch">Touch</string>
-    <string name="fp_wake_unlock_press">Press</string>
+    <string name="fp_wake_unlock_title">觸發指紋行為</string>
+    <string name="fp_wake_unlock_touch">輕觸</string>
+    <string name="fp_wake_unlock_press">按壓</string>
+    <!-- global cleartext penalties -->
+    <string name="cleartext_network_policy_title">限制明文網路流量</string>
+    <string name="cleartext_network_policy_summary">阻止所有非 TLS 網路流量。需要私有 DNS 配置。注意：沒有明確的豁免，Tor 和大多數 VPN 將無法工作</string>
+    <!-- screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">自動關閉 Wi-Fi</string>
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">如果沒有連接網絡，則在 <xliff:g id="timeout_description">%1$s</xliff:g> 後關閉 Wi-Fi</string>
+    <string name="wifi_timeout_summary2">已禁用</string>
+    <string name="wifi_timeout_summary_never">從不</string>
+    <string name="wifi_timeout_summary_15secs">15 秒</string>
+    <string name="wifi_timeout_summary_30secs">30 秒</string>
+    <string name="wifi_timeout_summary_1min">1 分鐘</string>
+    <string name="wifi_timeout_summary_2mins">2 分鐘</string>
+    <string name="wifi_timeout_summary_5mins">5 分鐘</string>
+    <string name="wifi_timeout_summary_10mins">10 分鐘</string>
+    <string name="wifi_timeout_summary_30mins">30 分鐘</string>
+    <string name="wifi_timeout_summary_1hour">1 小時</string>
+    <string name="wifi_timeout_summary_2hours">2 小時</string>
+    <string name="wifi_timeout_summary_4hours">4 小時</string>
+    <string name="wifi_timeout_summary_8hours">8 小時</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">藍牙超時</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">如果沒有設備連接，藍牙將在 <xliff:g id="timeout_description">%1$s</xliff:g> 後關閉</string>
+    <string name="bluetooth_timeout_summary2">不要自動關閉藍牙</string>
+    <string name="bluetooth_timeout_summary_never">從不</string>
+    <string name="bluetooth_timeout_summary_15secs">15 秒</string>
+    <string name="bluetooth_timeout_summary_30secs">30 秒</string>
+    <string name="bluetooth_timeout_summary_1min">1 分鐘</string>
+    <string name="bluetooth_timeout_summary_2mins">2 分鐘</string>
+    <string name="bluetooth_timeout_summary_5mins">5 分鐘</string>
+    <string name="bluetooth_timeout_summary_10mins">10 分鐘</string>
+    <string name="bluetooth_timeout_summary_30mins">30 分鐘</string>
+    <string name="bluetooth_timeout_summary_1hour">1 小時</string>
+    <string name="bluetooth_timeout_summary_2hours">2 小時</string>
+    <string name="bluetooth_timeout_summary_4hours">4 小時</string>
+    <string name="bluetooth_timeout_summary_8hours">8 小時</string>
 </resources>

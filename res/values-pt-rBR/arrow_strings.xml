@@ -254,7 +254,10 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Fones de ouvido salvos</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Taxa de atualização da tela</string>
+    <string name="min_refresh_rate_title">Taxa de atualização mínima</string>
+    <string name="max_refresh_rate_title">Taxa de atualização máxima</string>
+    <string name="battery_saver_refresh_rate_title">Reduzir taxa de atualização</string>
+    <string name="battery_saver_refresh_rate_summary">Usar taxa de atualização da tela de 60hz para economizar energia quando o modo Economia de Bateria estiver ativado</string>
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">Toque duas vezes em qualquer lugar da tela para acordar ou desligar o dispositivo</string>
     <!-- Hotspot VPN -->
@@ -320,8 +323,8 @@
     <string name="keywords_applock_settings">applock, applocker, bloqueio de aplicativos, bloqueador de aplicativos</string>
     <!-- Statusbar Battery -->
     <string name="battery_style_title">Estilo do ícone da bateria</string>
-    <string name="battery_style_summary">Personalizar os ícones da bateria, ocultar ou mostrar porcentagem</string>
-    <string name="battery_percent_title">Porcentagem da bateria na barra de status</string>
+    <string name="battery_style_summary">Personalizar os ícones da bateria, ocultar ou mostrar percentagem</string>
+    <string name="battery_percent_title">Percentagem da bateria na barra de status</string>
     <string name="battery_style_category_title">Ícone da bateria</string>
     <string name="status_bar_battery_style_title">Estilo do ícone da bateria</string>
     <string name="status_bar_battery_style_icon_portrait">Ícone em modo retrato (padrão)</string>
@@ -330,7 +333,7 @@
     <string name="status_bar_battery_style_filled_circle">Círculo (preenchido)</string>
     <string name="status_bar_battery_style_text">Texto</string>
     <string name="status_bar_battery_style_hidden">Oculto</string>
-    <string name="status_bar_battery_percentage_title">Porcentagem da bateria</string>
+    <string name="status_bar_battery_percentage_title">Percentagem da bateria</string>
     <string name="status_bar_battery_percentage_default">Oculto (padrão)</string>
     <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
     <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
@@ -338,7 +341,44 @@
     <string name="notification_sound_vib_screen_on_title">Som de notificação se ativo</string>
     <string name="notification_sound_vib_screen_on_summary">Reproduzir som e vibração para notificações quando a tela estiver ativada</string>
     <!-- Fp wake unlock options -->
-    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
-    <string name="fp_wake_unlock_touch">Touch</string>
-    <string name="fp_wake_unlock_press">Press</string>
+    <string name="fp_wake_unlock_title">Comportamento da impressão digital</string>
+    <string name="fp_wake_unlock_touch">Toque</string>
+    <string name="fp_wake_unlock_press">Pressionar</string>
+    <!-- global cleartext penalties -->
+    <string name="cleartext_network_policy_title">Restringir tráfego de rede não encriptado</string>
+    <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede não-TLS. Requer configuração de DNS privado. Nota: Sem isenções explícitas, o Tor e a maioria das VPNs não funcionarão</string>
+    <!-- screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Desligar Wi-Fi automaticamente</string>
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">O Wi-Fi será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhuma rede estiver conectada</string>
+    <string name="wifi_timeout_summary2">Desabilitado</string>
+    <string name="wifi_timeout_summary_never">Nunca</string>
+    <string name="wifi_timeout_summary_15secs">15 segundos</string>
+    <string name="wifi_timeout_summary_30secs">30 segundos</string>
+    <string name="wifi_timeout_summary_1min">1 minuto</string>
+    <string name="wifi_timeout_summary_2mins">2 minutos</string>
+    <string name="wifi_timeout_summary_5mins">5 minutos</string>
+    <string name="wifi_timeout_summary_10mins">10 minutos</string>
+    <string name="wifi_timeout_summary_30mins">30 minutos</string>
+    <string name="wifi_timeout_summary_1hour">1 hora</string>
+    <string name="wifi_timeout_summary_2hours">2 horas</string>
+    <string name="wifi_timeout_summary_4hours">4 horas</string>
+    <string name="wifi_timeout_summary_8hours">8 horas</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Tempo limite do Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">O Bluetooth será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhum dispositivo estiver conectado</string>
+    <string name="bluetooth_timeout_summary2">Não desativar o Bluetooth automaticamente</string>
+    <string name="bluetooth_timeout_summary_never">Nunca</string>
+    <string name="bluetooth_timeout_summary_15secs">15 segundos</string>
+    <string name="bluetooth_timeout_summary_30secs">30 segundos</string>
+    <string name="bluetooth_timeout_summary_1min">1 minuto</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minutos</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minutos</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minutos</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minutos</string>
+    <string name="bluetooth_timeout_summary_1hour">1 hora</string>
+    <string name="bluetooth_timeout_summary_2hours">2 horas</string>
+    <string name="bluetooth_timeout_summary_4hours">4 horas</string>
+    <string name="bluetooth_timeout_summary_8hours">8 horas</string>
 </resources>

@@ -254,7 +254,10 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Screen refresh rate</string>
+    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <string name="max_refresh_rate_title">Maximum refresh rate</string>
+    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
+    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">Double-tap anywhere on the screen to wake or sleep device</string>
     <!-- Hotspot VPN -->
@@ -342,4 +345,41 @@
     <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
     <string name="fp_wake_unlock_touch">Touch</string>
     <string name="fp_wake_unlock_press">Press</string>
+    <!-- global cleartext penalties -->
+    <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
+    <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, Tor and most VPNs won\'t work</string>
+    <!-- screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary2">Disabled</string>
+    <string name="wifi_timeout_summary_never">Never</string>
+    <string name="wifi_timeout_summary_15secs">15 seconds</string>
+    <string name="wifi_timeout_summary_30secs">30 seconds</string>
+    <string name="wifi_timeout_summary_1min">1 minute</string>
+    <string name="wifi_timeout_summary_2mins">2 minutes</string>
+    <string name="wifi_timeout_summary_5mins">5 minutes</string>
+    <string name="wifi_timeout_summary_10mins">10 minutes</string>
+    <string name="wifi_timeout_summary_30mins">30 minutes</string>
+    <string name="wifi_timeout_summary_1hour">1 hour</string>
+    <string name="wifi_timeout_summary_2hours">2 hours</string>
+    <string name="wifi_timeout_summary_4hours">4 hours</string>
+    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
+    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
+    <string name="bluetooth_timeout_summary_never">Never</string>
+    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
+    <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
+    <string name="bluetooth_timeout_summary_1min">1 minute</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minutes</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minutes</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minutes</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minutes</string>
+    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
+    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
+    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
+    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
 </resources>

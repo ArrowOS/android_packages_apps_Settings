@@ -254,7 +254,10 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">已保存的耳机</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">屏幕刷新率</string>
+    <string name="min_refresh_rate_title">最低刷新率</string>
+    <string name="max_refresh_rate_title">最高刷新率</string>
+    <string name="battery_saver_refresh_rate_title">降低刷新率</string>
+    <string name="battery_saver_refresh_rate_summary">在省电模式开启时使用 60 Hz 屏幕刷新率以省电</string>
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">双击屏幕上的任意位置以唤醒或休眠设备</string>
     <!-- Hotspot VPN -->
@@ -300,21 +303,21 @@
     <string name="applock_unlocked">未锁定</string>
     <string name="applock_locked_apps">已锁定的应用</string>
     <string name="applock_unlocked_apps">未锁定的应用</string>
-    <string name="applock_lock_after_title">之后锁定应用</string>
-    <string name="applock_lock_after_instantly">即刻</string>
+    <string name="applock_lock_after_title">何时锁定应用</string>
+    <string name="applock_lock_after_instantly">立刻</string>
     <string name="applock_lock_after_15_seconds">15 秒</string>
     <string name="applock_lock_after_screen_off">屏幕关闭</string>
     <string name="applock_lock_after_summary">应用在选定的超时后被锁定</string>
     <string name="applock_lock_after_instantly_summary">应用关闭后立刻被锁定</string>
     <string name="applock_lock_after_15_seconds_summary">应用关闭 15 秒后被锁定</string>
     <string name="applock_lock_after_screen_off_summary">应用在屏幕关闭后被锁定</string>
-    <string name="applock_notification_info">您可以通过点击每个锁定的应用程序首选项上显示的通知图标，按应用程序显示/隐藏通知内容</string>
+    <string name="applock_notification_info">您可以点击已锁定的应用程序上的铃铛图标，来显示/隐藏其通知的内容</string>
     <string name="applock_show_notif">显示通知内容</string>
     <string name="applock_hide_notif">隐藏通知内容</string>
     <string name="applock_setup">设置应用锁</string>
     <string name="applock_overlay_summary">此应用已锁定，因此无法使用此功能</string>
     <plurals name="applock_summary">
-        <item quantity="other">%d 个应用锁定</item>
+        <item quantity="other">%d 个应用被锁定</item>
     </plurals>
     <string name="keywords_applock_settings">应用锁，应用锁屏，应用锁，应用锁</string>
     <!-- Statusbar Battery -->
@@ -327,7 +330,7 @@
     <string name="status_bar_battery_style_circle">环形</string>
     <string name="status_bar_battery_style_dotted_circle">环形虚线</string>
     <string name="status_bar_battery_style_filled_circle">实心圆圈</string>
-    <string name="status_bar_battery_style_text">文本</string>
+    <string name="status_bar_battery_style_text">文字</string>
     <string name="status_bar_battery_style_hidden">隐藏</string>
     <string name="status_bar_battery_percentage_title">电量百分比</string>
     <string name="status_bar_battery_percentage_default">隐藏 (默认)</string>
@@ -337,7 +340,44 @@
     <string name="notification_sound_vib_screen_on_title">屏幕开启时的通知声</string>
     <string name="notification_sound_vib_screen_on_summary">当屏幕开启时播放声音和振动通知</string>
     <!-- Fp wake unlock options -->
-    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
-    <string name="fp_wake_unlock_touch">Touch</string>
-    <string name="fp_wake_unlock_press">Press</string>
+    <string name="fp_wake_unlock_title">指纹行为</string>
+    <string name="fp_wake_unlock_touch">轻触</string>
+    <string name="fp_wake_unlock_press">按下</string>
+    <!-- global cleartext penalties -->
+    <string name="cleartext_network_policy_title">限制明文网络流量</string>
+    <string name="cleartext_network_policy_summary">阻止所有非 TLS 网络流量。需要私有 DNS 配置。注意：没有明确的豁免，Tor 和大多数 VPN 将无法工作</string>
+    <!-- screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">自动关闭 Wi-Fi</string>
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">如果没有网络连接，则在 <xliff:g id="timeout_description">%1$s</xliff:g> 后关闭 Wi-Fi</string>
+    <string name="wifi_timeout_summary2">已禁用</string>
+    <string name="wifi_timeout_summary_never">从不</string>
+    <string name="wifi_timeout_summary_15secs">15 秒</string>
+    <string name="wifi_timeout_summary_30secs">30 秒</string>
+    <string name="wifi_timeout_summary_1min">1 分钟</string>
+    <string name="wifi_timeout_summary_2mins">2 分钟</string>
+    <string name="wifi_timeout_summary_5mins">5 分钟</string>
+    <string name="wifi_timeout_summary_10mins">10 分钟</string>
+    <string name="wifi_timeout_summary_30mins">30 分钟</string>
+    <string name="wifi_timeout_summary_1hour">1 小时</string>
+    <string name="wifi_timeout_summary_2hours">2 小时</string>
+    <string name="wifi_timeout_summary_4hours">4 小时</string>
+    <string name="wifi_timeout_summary_8hours">8 小时</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">蓝牙超时</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">如果没有设备连接，蓝牙将在 <xliff:g id="timeout_description">%1$s</xliff:g> 后关闭</string>
+    <string name="bluetooth_timeout_summary2">不要自动关闭蓝牙</string>
+    <string name="bluetooth_timeout_summary_never">从不</string>
+    <string name="bluetooth_timeout_summary_15secs">15 秒</string>
+    <string name="bluetooth_timeout_summary_30secs">30 秒</string>
+    <string name="bluetooth_timeout_summary_1min">1 分钟</string>
+    <string name="bluetooth_timeout_summary_2mins">2 分钟</string>
+    <string name="bluetooth_timeout_summary_5mins">5 分钟</string>
+    <string name="bluetooth_timeout_summary_10mins">10 分钟</string>
+    <string name="bluetooth_timeout_summary_30mins">30 分钟</string>
+    <string name="bluetooth_timeout_summary_1hour">1 小时</string>
+    <string name="bluetooth_timeout_summary_2hours">2 小时</string>
+    <string name="bluetooth_timeout_summary_4hours">4 小时</string>
+    <string name="bluetooth_timeout_summary_8hours">8 小时</string>
 </resources>

@@ -47,7 +47,7 @@
     <string name="battery_light_settings">Luz de carregamento da bateria</string>
     <string name="battery_light_summary">Bateria fraca, comportamento da luz da bateria no modo DND</string>
     <string name="battery_light_enable">Luz da bateria</string>
-    <string name="battery_light_allow_on_dnd_title">Luz de bateria no modo Não incomodar</string>
+    <string name="battery_light_allow_on_dnd_title">Luz da bateria no modo Não incomodar</string>
     <string name="battery_light_low_blinking_title">Piscar a luz com bateria fraca</string>
     <string name="battery_light_cat">Cor da luz da bateria durante o carregamento</string>
     <string name="battery_light_low_color">Bateria fraca</string>
@@ -63,25 +63,25 @@
     <string name="custom_light_off_time_title">Luz DESLIGADA durante o tempo do piscar do led (ms)</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">Actividades</string>
-    <string name="select_custom_app_title">Seleccione a aplicação personalizada</string>
+    <string name="select_custom_app_title">Seleccione uma app personalizada</string>
     <string name="select_custom_activity_title">Seleccionar actividade personalizada</string>
     <string name="profile_applist_title">Aplicações</string>
     <string name="choose_action_title">Escolha a ação</string>
     <string name="action_entry_default_action">Definições padrão</string>
-    <string name="action_entry_select_app">Selecionar aplicação</string>
-    <string name="action_entry_custom_action">Selecionar ação personalizada</string>
+    <string name="action_entry_select_app">Seleccionar aplicação</string>
+    <string name="action_entry_custom_action">Seleccionar acção personalizada</string>
     <string name="hardware_keys_volume_keys_title">Botões de volume</string>
     <string name="hardware_keys_home_key_title">Botão da Página Inicial</string>
     <string name="hardware_keys_menu_key_title">Botão Menu</string>
-    <string name="hardware_keys_assist_key_title">Botão Pesquisa</string>
+    <string name="hardware_keys_assist_key_title">Botão de Pesquisa</string>
     <string name="hardware_keys_appswitch_key_title">Botão recentes</string>
     <string name="hardware_keys_back_key_title">Botão Voltar</string>
-    <string name="hardware_keys_double_tap_summary">Definir a ação de toque duplo</string>
-    <string name="hardware_keys_single_tap_summary">Definir ação de toque único</string>
-    <string name="hardware_keys_long_press_summary">Definir ação de pressão longa</string>
-    <string name="hardware_keys_single_tap_title">Ação de toque simples</string>
-    <string name="hardware_keys_long_press_title">Ação de toque longo</string>
-    <string name="hardware_keys_double_tap_title">Ação de toque duplo</string>
+    <string name="hardware_keys_double_tap_summary">Definir a acção de toque duplo</string>
+    <string name="hardware_keys_single_tap_summary">Definir acção de toque único</string>
+    <string name="hardware_keys_long_press_summary">Definir acção de pressão longa</string>
+    <string name="hardware_keys_single_tap_title">Acção de toque simples</string>
+    <string name="hardware_keys_long_press_title">Acção de toque longo</string>
+    <string name="hardware_keys_double_tap_title">Acção de toque duplo</string>
     <string name="hardware_keys">Botões</string>
     <string name="hardware_keys_summary">Personalizar botões de hardware</string>
     <string name="navigation_keys">Barra de navegação</string>
@@ -100,7 +100,7 @@
     <string name="button_title">Botões</string>
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">Luz de fundo</string>
-    <string name="button_brightness_sw_title">Activar a luz de fundo</string>
+    <string name="button_brightness_sw_title">Activar luz de fundo</string>
     <string name="button_backlight_on_touch_only_title">Toque do botão</string>
     <string name="button_backlight_on_touch_only_summary">Activar a luz de fundo com tempo limite apenas quando tocar no botão</string>
     <!-- ANBI -->
@@ -110,7 +110,7 @@
     <string name="power_menu_customization_category_title">Personalização do menu de energia</string>
     <string name="global_actions_title">Acções do menu de energia</string>
     <string name="global_actions_summary">Seleccione o que mostrar quando prime o botão de energia</string>
-    <string name="global_actions_power">Energia</string>
+    <string name="global_actions_power">Ligar/Desligar</string>
     <string name="global_actions_restart">Reiniciar</string>
     <string name="global_actions_airplane">Modo de avião</string>
     <string name="global_actions_settings">Definições</string>
@@ -122,9 +122,9 @@
     <string name="global_actions_flashlight">Lanterna</string>
     <string name="global_actions_emergency">Emergência</string>
     <string name="global_actions_advanced_reboot_title">Activar reinicio avançado</string>
-    <string name="global_actions_advanced_reboot_summary">Ao reiniciar também mostra opções para recuperação e bootloader</string>
+    <string name="global_actions_advanced_reboot_summary">Ao reiniciar mostra opções para recuperação e bootloader</string>
     <string name="global_actions_max_columns_title">Máximo de acções a mostrar</string>
-    <string name="global_actions_max_columns_summary">Defina quantas ações a mostrar antes que os botões se movam para o menu flutuante</string>
+    <string name="global_actions_max_columns_summary">Defina quantas acções mostra antes que os botões se movam para o menu flutuante</string>
     <!-- Settings dashboard gestures -->
     <string name="gesture_settings_dashboard_title">Gestos</string>
     <string name="gesture_settings_dashboard_summary">Gerir definições de gesto</string>
@@ -144,7 +144,7 @@
     <string name="dialog_delete_message">Remover o item seleccionado?</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Desbloquear com impressão digital</string>
-    <string name="fp_unlock_keystore_summary">Desbloquear o dispositivo sem impressão digital após reiniciar sem PIN, Palavra-passe ou Padrão\nNote: utilize por sua conta e risco!</string>
+    <string name="fp_unlock_keystore_summary">Desbloqueie o dispositivo com impressão digital após reiniciar sem PIN/Palavra-passe/Padrão\nNota: por sua própria conta e risco!</string>
     <!-- Volume panel on left switch -->
     <string name="volume_panel_on_left_title">Mostrar painel de volume à esquerda</string>
     <!-- Density options -->
@@ -254,7 +254,10 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Auriculares guardados</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Taxa de actualização do ecrã</string>
+    <string name="min_refresh_rate_title">Taxa mínima de atualização</string>
+    <string name="max_refresh_rate_title">Taxa máxima de atualização</string>
+    <string name="battery_saver_refresh_rate_title">Reduzir taxa de atualização</string>
+    <string name="battery_saver_refresh_rate_summary">Usar a taxa de atualização do ecrã de 60 Hz para economizar energia quando a Economia de bateria estiver ativada</string>
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">Toque duas vezes em qualquer lugar do ecrã para activar ou desactivar o dispositivo</string>
     <!-- Hotspot VPN -->
@@ -338,7 +341,44 @@
     <string name="notification_sound_vib_screen_on_title">Som de notificação se activo</string>
     <string name="notification_sound_vib_screen_on_summary">As notificações reproduzem som e vibram quando o ecrã está ligado</string>
     <!-- Fp wake unlock options -->
-    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
-    <string name="fp_wake_unlock_touch">Touch</string>
-    <string name="fp_wake_unlock_press">Press</string>
+    <string name="fp_wake_unlock_title">Comportamento da impressão digital</string>
+    <string name="fp_wake_unlock_touch">Tocar</string>
+    <string name="fp_wake_unlock_press">Pressionar</string>
+    <!-- global cleartext penalties -->
+    <string name="cleartext_network_policy_title">Restringir tráfego de rede cleartext</string>
+    <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede não-TLS. Requer configuração de DNS privado. Nota: Sem isenções explícitas, o Tor e a maioria das VPNs não funcionarão</string>
+    <!-- screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Desativar o Wi-Fi automaticamente</string>
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">O Wi-Fi será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhuma rede estiver conectada</string>
+    <string name="wifi_timeout_summary2">Desactivado</string>
+    <string name="wifi_timeout_summary_never">Nunca</string>
+    <string name="wifi_timeout_summary_15secs">15 segundos</string>
+    <string name="wifi_timeout_summary_30secs">30 segundos</string>
+    <string name="wifi_timeout_summary_1min">1 minuto</string>
+    <string name="wifi_timeout_summary_2mins">2 minutos</string>
+    <string name="wifi_timeout_summary_5mins">5 minutos</string>
+    <string name="wifi_timeout_summary_10mins">10 minutos</string>
+    <string name="wifi_timeout_summary_30mins">30 minutos</string>
+    <string name="wifi_timeout_summary_1hour">1 hora</string>
+    <string name="wifi_timeout_summary_2hours">2 horas</string>
+    <string name="wifi_timeout_summary_4hours">4 horas</string>
+    <string name="wifi_timeout_summary_8hours">8 horas</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Tempo limite do Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">O Bluetooth será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhum dispositivo estiver ligado</string>
+    <string name="bluetooth_timeout_summary2">Não desative automaticamente o Bluetooth</string>
+    <string name="bluetooth_timeout_summary_never">Nunca</string>
+    <string name="bluetooth_timeout_summary_15secs">15 segundos</string>
+    <string name="bluetooth_timeout_summary_30secs">30 segundos</string>
+    <string name="bluetooth_timeout_summary_1min">1 minuto</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minutos</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minutos</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minutos</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minutos</string>
+    <string name="bluetooth_timeout_summary_1hour">1 hora</string>
+    <string name="bluetooth_timeout_summary_2hours">2 horas</string>
+    <string name="bluetooth_timeout_summary_4hours">4 horas</string>
+    <string name="bluetooth_timeout_summary_8hours">8 horas</string>
 </resources>

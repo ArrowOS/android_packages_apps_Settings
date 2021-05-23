@@ -254,7 +254,10 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Сохраненные наушники</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Частота обновления экрана</string>
+    <string name="min_refresh_rate_title">Минимальная частота обновления экрана</string>
+    <string name="max_refresh_rate_title">Максимальная частота обновления экрана</string>
+    <string name="battery_saver_refresh_rate_title">Уменьшить частоту обновления экрана</string>
+    <string name="battery_saver_refresh_rate_summary">Использовать частоту обновления экрана 60 Гц для экономии энергии, когда включена экономия заряда</string>
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">Дважды нажмите в любом месте экрана, чтобы включить или выключить устройство</string>
     <!-- Hotspot VPN -->
@@ -340,7 +343,44 @@
     <string name="notification_sound_vib_screen_on_title">Звук и вибрация при включенном экране</string>
     <string name="notification_sound_vib_screen_on_summary">Воспроизводить звук и вибрацию при получении уведомлений когда экран включен</string>
     <!-- Fp wake unlock options -->
-    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
-    <string name="fp_wake_unlock_touch">Touch</string>
-    <string name="fp_wake_unlock_press">Press</string>
+    <string name="fp_wake_unlock_title">Метод распознавания отпечатков</string>
+    <string name="fp_wake_unlock_touch">Касание</string>
+    <string name="fp_wake_unlock_press">Нажатие</string>
+    <!-- global cleartext penalties -->
+    <string name="cleartext_network_policy_title">Ограничить сетевой трафик в открытом виде</string>
+    <string name="cleartext_network_policy_summary">Блокирует весь сетевой трафик без TLS. Требуется конфигурация частного DNS. Примечание: без явных исключений Tor и большинство VPN не будут работать</string>
+    <!-- screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Выключать Wi-Fi автоматически</string>
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi будет выключен через <xliff:g id="timeout_description">%1$s</xliff:g> если нет подключения к сети</string>
+    <string name="wifi_timeout_summary2">Отключено</string>
+    <string name="wifi_timeout_summary_never">Никогда</string>
+    <string name="wifi_timeout_summary_15secs">15 секунд</string>
+    <string name="wifi_timeout_summary_30secs">30 секунд</string>
+    <string name="wifi_timeout_summary_1min">1 минута</string>
+    <string name="wifi_timeout_summary_2mins">2 минуты</string>
+    <string name="wifi_timeout_summary_5mins">5 минут</string>
+    <string name="wifi_timeout_summary_10mins">10 минут</string>
+    <string name="wifi_timeout_summary_30mins">30 минут</string>
+    <string name="wifi_timeout_summary_1hour">1 час</string>
+    <string name="wifi_timeout_summary_2hours">2 часа</string>
+    <string name="wifi_timeout_summary_4hours">4 часа</string>
+    <string name="wifi_timeout_summary_8hours">8 часов</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Выключение Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth будет выключен через <xliff:g id="timeout_description">%1$s</xliff:g> если нет подключённых устройств</string>
+    <string name="bluetooth_timeout_summary2">Не выключать Bluetooth автоматически</string>
+    <string name="bluetooth_timeout_summary_never">Никогда</string>
+    <string name="bluetooth_timeout_summary_15secs">15 секунд</string>
+    <string name="bluetooth_timeout_summary_30secs">30 секунд</string>
+    <string name="bluetooth_timeout_summary_1min">1 минута</string>
+    <string name="bluetooth_timeout_summary_2mins">2 минуты</string>
+    <string name="bluetooth_timeout_summary_5mins">5 минут</string>
+    <string name="bluetooth_timeout_summary_10mins">10 минут</string>
+    <string name="bluetooth_timeout_summary_30mins">30 минут</string>
+    <string name="bluetooth_timeout_summary_1hour">1 час</string>
+    <string name="bluetooth_timeout_summary_2hours">2 часа</string>
+    <string name="bluetooth_timeout_summary_4hours">4 часа</string>
+    <string name="bluetooth_timeout_summary_8hours">8 часов</string>
 </resources>

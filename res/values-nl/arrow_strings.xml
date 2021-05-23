@@ -254,7 +254,10 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Opgeslagen Earbuds</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Scherm verversingsfrequentie</string>
+    <string name="min_refresh_rate_title">Minimale verversingsfrequentie</string>
+    <string name="max_refresh_rate_title">Maximale verversingsfrequentie</string>
+    <string name="battery_saver_refresh_rate_title">Vernieuwingsfrequentie verlagen</string>
+    <string name="battery_saver_refresh_rate_summary">Gebruik 60 Hz schermverversingssnelheid om energie te besparen wanneer batterijbesparing is ingeschakeld</string>
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">Dubbeltikken op het scherm om apparaat te ontwaken of uit te schakelen</string>
     <!-- Hotspot VPN -->
@@ -338,7 +341,44 @@
     <string name="notification_sound_vib_screen_on_title">Meldingsgeluid als actief</string>
     <string name="notification_sound_vib_screen_on_summary">Geluid en trillen afspelen voor meldingen wanneer het scherm aan is</string>
     <!-- Fp wake unlock options -->
-    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
-    <string name="fp_wake_unlock_touch">Touch</string>
-    <string name="fp_wake_unlock_press">Press</string>
+    <string name="fp_wake_unlock_title">Vingerafdruk gedrag</string>
+    <string name="fp_wake_unlock_touch">Aanraking</string>
+    <string name="fp_wake_unlock_press">Drukken</string>
+    <!-- global cleartext penalties -->
+    <string name="cleartext_network_policy_title">Beperken van het cleartext netwerkverkeer</string>
+    <string name="cleartext_network_policy_summary">Blokkeert al het niet-TLS-netwerkverkeer. Vereist een privé DNS-configuratie. Let op: Zonder expliciete vrijstellingen, werken Tor en de meeste VPN\'s niet</string>
+    <!-- screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Wi-Fi automatisch uitschakelen</string>
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi wordt uitgeschakeld na <xliff:g id="timeout_description">%1$s</xliff:g> als er geen netwerk is verbonden</string>
+    <string name="wifi_timeout_summary2">Uitgeschakeld</string>
+    <string name="wifi_timeout_summary_never">Nooit</string>
+    <string name="wifi_timeout_summary_15secs">15 seconden</string>
+    <string name="wifi_timeout_summary_30secs">30 seconden</string>
+    <string name="wifi_timeout_summary_1min">1 minuut</string>
+    <string name="wifi_timeout_summary_2mins">2 minuten</string>
+    <string name="wifi_timeout_summary_5mins">5 minuten</string>
+    <string name="wifi_timeout_summary_10mins">10 minuten</string>
+    <string name="wifi_timeout_summary_30mins">30 minuten</string>
+    <string name="wifi_timeout_summary_1hour">1 uur</string>
+    <string name="wifi_timeout_summary_2hours">2 uur</string>
+    <string name="wifi_timeout_summary_4hours">4 uur</string>
+    <string name="wifi_timeout_summary_8hours">8 uur</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Bluetooth time-out</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth wordt uitgeschakeld na <xliff:g id="timeout_description">%1$s</xliff:g> als er geen apparaten zijn verbonden</string>
+    <string name="bluetooth_timeout_summary2">Schakel Bluetooth niet automatisch uit</string>
+    <string name="bluetooth_timeout_summary_never">Nooit</string>
+    <string name="bluetooth_timeout_summary_15secs">15 seconden</string>
+    <string name="bluetooth_timeout_summary_30secs">30 seconden</string>
+    <string name="bluetooth_timeout_summary_1min">1 minuut</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minuten</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minuten</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minuten</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minuten</string>
+    <string name="bluetooth_timeout_summary_1hour">1 uur</string>
+    <string name="bluetooth_timeout_summary_2hours">2 uur</string>
+    <string name="bluetooth_timeout_summary_4hours">4 uur</string>
+    <string name="bluetooth_timeout_summary_8hours">8 uur</string>
 </resources>

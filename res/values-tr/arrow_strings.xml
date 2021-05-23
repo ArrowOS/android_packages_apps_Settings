@@ -254,7 +254,10 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Kayıtlı kulaklıklar</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Ekran yenileme aralığı</string>
+    <string name="min_refresh_rate_title">Minimum yenileme hızı</string>
+    <string name="max_refresh_rate_title">Maksimum yenileme hızı</string>
+    <string name="battery_saver_refresh_rate_title">Yenileme hızını azalt</string>
+    <string name="battery_saver_refresh_rate_summary">Pil tasarrufu açıkken güç tasarrufu yapmak için 60 Hz ekran yenileme hızını kullanın</string>
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">Cihazı uyandırmak veya uykutmak için ekranın herhangi bir yerine çift dokunun</string>
     <!-- Hotspot VPN -->
@@ -338,7 +341,44 @@
     <string name="notification_sound_vib_screen_on_title">Ekran açıkken bildirim sesi</string>
     <string name="notification_sound_vib_screen_on_summary">Ekran açıkken bildirimler için ses ve titreşim çal</string>
     <!-- Fp wake unlock options -->
-    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
-    <string name="fp_wake_unlock_touch">Touch</string>
-    <string name="fp_wake_unlock_press">Press</string>
+    <string name="fp_wake_unlock_title">Parmak izi davranışı</string>
+    <string name="fp_wake_unlock_touch">Dokunma</string>
+    <string name="fp_wake_unlock_press">Basma</string>
+    <!-- global cleartext penalties -->
+    <string name="cleartext_network_policy_title">Açık metin ağ trafiğini kısıtla</string>
+    <string name="cleartext_network_policy_summary">TLS dışı tüm ağ trafiğini engeller. Özel DNS yapılandırması gerektirir. Not: Açık muafiyetler olmadan Tor ve çoğu VPN çalışmaz</string>
+    <!-- screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Wi-Fi\'yi otomatik olarak kapatın</string>
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Hiçbir ağ bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Wi-Fi kapanacak</string>
+    <string name="wifi_timeout_summary2">Devre dışı</string>
+    <string name="wifi_timeout_summary_never">Asla</string>
+    <string name="wifi_timeout_summary_15secs">15 saniye</string>
+    <string name="wifi_timeout_summary_30secs">30 saniye</string>
+    <string name="wifi_timeout_summary_1min">1 dakika</string>
+    <string name="wifi_timeout_summary_2mins">2 dakika</string>
+    <string name="wifi_timeout_summary_5mins">5 dakika</string>
+    <string name="wifi_timeout_summary_10mins">10 dakika</string>
+    <string name="wifi_timeout_summary_30mins">30 dakika</string>
+    <string name="wifi_timeout_summary_1hour">1 saat</string>
+    <string name="wifi_timeout_summary_2hours">2 saat</string>
+    <string name="wifi_timeout_summary_4hours">4 saat</string>
+    <string name="wifi_timeout_summary_8hours">8 saat</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Bluetooth zaman aşımı</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Hiçbir cihaz bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Bluetooth kapanacak</string>
+    <string name="bluetooth_timeout_summary2">Bluetooth\'u otomatik olarak kapatma</string>
+    <string name="bluetooth_timeout_summary_never">Asla</string>
+    <string name="bluetooth_timeout_summary_15secs">15 saniye</string>
+    <string name="bluetooth_timeout_summary_30secs">30 saniye</string>
+    <string name="bluetooth_timeout_summary_1min">1 dakika</string>
+    <string name="bluetooth_timeout_summary_2mins">2 dakika</string>
+    <string name="bluetooth_timeout_summary_5mins">5 dakika</string>
+    <string name="bluetooth_timeout_summary_10mins">10 dakika</string>
+    <string name="bluetooth_timeout_summary_30mins">30 dakika</string>
+    <string name="bluetooth_timeout_summary_1hour">1 saat</string>
+    <string name="bluetooth_timeout_summary_2hours">2 saat</string>
+    <string name="bluetooth_timeout_summary_4hours">4 saat</string>
+    <string name="bluetooth_timeout_summary_8hours">8 saat</string>
 </resources>

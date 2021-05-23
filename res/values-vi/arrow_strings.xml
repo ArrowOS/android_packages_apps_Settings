@@ -254,7 +254,10 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Các tai nghe không dây đã lưu</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Tốc độ làm tươi màn hình</string>
+    <string name="min_refresh_rate_title">Tốc độ làm mới tối thiểu</string>
+    <string name="max_refresh_rate_title">Tốc độ làm mới tối đa</string>
+    <string name="battery_saver_refresh_rate_title">Giảm tốc độ làm mới</string>
+    <string name="battery_saver_refresh_rate_summary">Sử dụng màn hình 60 Hz để tiết kiệm pin khi bật Trình tiết kiệm pin</string>
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">Nhấn đúp vào vị trí bất kỳ trên màn hình để đánh thức thiết bị</string>
     <!-- Hotspot VPN -->
@@ -284,10 +287,10 @@
     <string name="use_old_mobiletype_title">Biểu tượng di động cỡ nhỏ</string>
     <string name="use_old_mobiletype_summary">Hiển thị biểu tượng loại di động trên đầu chỉ báo tín hiệu</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">Tùy chọn rung trong cuộc gọi</string>
+    <string name="incall_vibrate_connect_title">Rung khi kết nối</string>
+    <string name="incall_vibrate_call_wait_title">Rung khi chờ cuộc gọi</string>
+    <string name="incall_vibrate_disconnect_title">Rung khi ngắt kết nối</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Xóa quét khuôn mặt hiện có và tạo quét khuôn mặt mới</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Quét lại khuôn mặt</string>
@@ -295,49 +298,86 @@
     <string name="face_redo_confirm_btn">Làm lại</string>
     <string name="face_redo_warning_msg">Bạn có muốn xóa quét khuôn mặt hiện có và tạo quét khuôn mặt mới không?</string>
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_lock_after_title">Lock app after</string>
-    <string name="applock_lock_after_instantly">Instantly</string>
-    <string name="applock_lock_after_15_seconds">15 Seconds</string>
-    <string name="applock_lock_after_screen_off">Screen off</string>
-    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
-    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
-    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
-    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_title">Khóa ứng dụng</string>
+    <string name="applock_locked">Đã khóa</string>
+    <string name="applock_unlocked">Mở khóa</string>
+    <string name="applock_locked_apps">Khóa ứng dụng</string>
+    <string name="applock_unlocked_apps">Mở khóa ứng dụng</string>
+    <string name="applock_lock_after_title">Khóa ứng dụng sau</string>
+    <string name="applock_lock_after_instantly">Ngay lập tức</string>
+    <string name="applock_lock_after_15_seconds">15 Giây</string>
+    <string name="applock_lock_after_screen_off">Tắt màn hình</string>
+    <string name="applock_lock_after_summary">Ứng dụng sẽ tự khóa sau khi được lựa chọn</string>
+    <string name="applock_lock_after_instantly_summary">Ứng dụng sẽ tự khóa ngay lập tức khi đóng</string>
+    <string name="applock_lock_after_15_seconds_summary">Ứng dụng sẽ tự khóa sau 15 giây đóng</string>
+    <string name="applock_lock_after_screen_off_summary">Ứng dụng sẽ tự khóa sau khi màn hình tắt</string>
+    <string name="applock_notification_info">Bạn có thể hiện/ẩn nội dung thông báo từng ứng dụng bằng cách chạm vào biểu tượng thông báo hiện trên từng tuỳ chọn của ứng dụng được khoá</string>
+    <string name="applock_show_notif">Hiển thị tất cả nội dung thông báo</string>
+    <string name="applock_hide_notif">Ẩn nội dung thông báo</string>
+    <string name="applock_setup">Cài đặt khóa ứng dụng</string>
+    <string name="applock_overlay_summary">Tính năng này không khả dụng vì ứng dụng này đã bị khóa</string>
     <plurals name="applock_summary">
-        <item quantity="other">%d apps locked</item>
+        <item quantity="other">%d ứng dụng đã khóa</item>
     </plurals>
-    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <string name="keywords_applock_settings">ứng dụng khóa, ứng dụng người khóa, ứng dụng khóa, ứng dụng người khóa</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
-    <string name="battery_percent_title">Status bar battery percentage</string>
-    <string name="battery_style_category_title">Battery icon</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="battery_style_title">Kiểu biểu tượng pin</string>
+    <string name="battery_style_summary">Tùy chỉnh biểu tượng pin, ẩn hoặc hiển thị phần trăm</string>
+    <string name="battery_percent_title">Tuỳ chọn phần trăm pin</string>
+    <string name="battery_style_category_title">Biểu tượng pin</string>
+    <string name="status_bar_battery_style_title">Kiểu biểu tượng pin</string>
+    <string name="status_bar_battery_style_icon_portrait">Biểu tượng dọc (mặc định)</string>
+    <string name="status_bar_battery_style_circle">Vòng tròn</string>
+    <string name="status_bar_battery_style_dotted_circle">Vòng tròn (Chấm)</string>
+    <string name="status_bar_battery_style_filled_circle">Vòng tròn (Đầy)</string>
+    <string name="status_bar_battery_style_text">Văn bản</string>
+    <string name="status_bar_battery_style_hidden">Ẩn</string>
+    <string name="status_bar_battery_percentage_title">Phần trăm pin</string>
+    <string name="status_bar_battery_percentage_default">Ẩn (mặc định)</string>
+    <string name="status_bar_battery_percentage_text_inside">Bên trong biểu tượng pin</string>
+    <string name="status_bar_battery_percentage_text_next">Bên cạnh biểu tượng pin</string>
     <!-- Supress notifications if screen is on -->
-    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">Thông báo âm thanh nếu hoạt động</string>
+    <string name="notification_sound_vib_screen_on_summary">Phát âm thanh và rung để thông báo khi màn hình bật</string>
     <!-- Fp wake unlock options -->
-    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
-    <string name="fp_wake_unlock_touch">Touch</string>
-    <string name="fp_wake_unlock_press">Press</string>
+    <string name="fp_wake_unlock_title">Hành vi vân tay</string>
+    <string name="fp_wake_unlock_touch">Chạm</string>
+    <string name="fp_wake_unlock_press">Nhấn</string>
+    <!-- global cleartext penalties -->
+    <string name="cleartext_network_policy_title">Hạn chế xóa văn bản tốc bộ mạng</string>
+    <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, Tor and most VPNs won\'t work</string>
+    <!-- screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary2">Disabled</string>
+    <string name="wifi_timeout_summary_never">Never</string>
+    <string name="wifi_timeout_summary_15secs">15 seconds</string>
+    <string name="wifi_timeout_summary_30secs">30 seconds</string>
+    <string name="wifi_timeout_summary_1min">1 minute</string>
+    <string name="wifi_timeout_summary_2mins">2 minutes</string>
+    <string name="wifi_timeout_summary_5mins">5 minutes</string>
+    <string name="wifi_timeout_summary_10mins">10 minutes</string>
+    <string name="wifi_timeout_summary_30mins">30 minutes</string>
+    <string name="wifi_timeout_summary_1hour">1 hour</string>
+    <string name="wifi_timeout_summary_2hours">2 hours</string>
+    <string name="wifi_timeout_summary_4hours">4 hours</string>
+    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
+    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
+    <string name="bluetooth_timeout_summary_never">Never</string>
+    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
+    <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
+    <string name="bluetooth_timeout_summary_1min">1 minute</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minutes</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minutes</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minutes</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minutes</string>
+    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
+    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
+    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
+    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
 </resources>

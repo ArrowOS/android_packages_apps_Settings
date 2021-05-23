@@ -254,7 +254,10 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Uložené sluchadlá</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Obnovovacia frekvencia obrazovky</string>
+    <string name="min_refresh_rate_title">Minimálna obnovovacia frekvencia</string>
+    <string name="max_refresh_rate_title">Maximálna obnovovacia frekvencia</string>
+    <string name="battery_saver_refresh_rate_title">Znížiť obnovovaciu frekvenciu</string>
+    <string name="battery_saver_refresh_rate_summary">Použiť obnovovaciu frekvenciu 60 Hz ak je zapnutý šetrič batérie</string>
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">Dvojklikom kamkoľvek na obrazovku zariadenie prebudíte alebo uspíte</string>
     <!-- Hotspot VPN -->
@@ -340,7 +343,44 @@
     <string name="notification_sound_vib_screen_on_title">Zvuk a vibrácie, keď je obrazovka zapnutá</string>
     <string name="notification_sound_vib_screen_on_summary">Prehrávanie zvuku a vibrácie pre upozornenia, keď je obrazovka zapnutá</string>
     <!-- Fp wake unlock options -->
-    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
-    <string name="fp_wake_unlock_touch">Touch</string>
-    <string name="fp_wake_unlock_press">Press</string>
+    <string name="fp_wake_unlock_title">Nastavenia odtlačkov prstov</string>
+    <string name="fp_wake_unlock_touch">Dotyk</string>
+    <string name="fp_wake_unlock_press">Stlačenie</string>
+    <!-- global cleartext penalties -->
+    <string name="cleartext_network_policy_title">Obmedziť využitie internetu</string>
+    <string name="cleartext_network_policy_summary">Zablokuje všetky NON-TLS internetové spojenia. Vyžaduje Súkromnú DNS konfiguráciu. Poznámka: Bez vyhradenej siete, Tor a väčšina VPN nebude fungovať</string>
+    <!-- screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Vypnúť Wi-fi automaticky</string>
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi sa vypne po <xliff:g id="timeout_description">%1$s</xliff:g> ak nie je pripojená</string>
+    <string name="wifi_timeout_summary2">Zakázané</string>
+    <string name="wifi_timeout_summary_never">Nikdy</string>
+    <string name="wifi_timeout_summary_15secs">15 sekúnd</string>
+    <string name="wifi_timeout_summary_30secs">30 sekúnd</string>
+    <string name="wifi_timeout_summary_1min">1 minúta</string>
+    <string name="wifi_timeout_summary_2mins">2 minúty</string>
+    <string name="wifi_timeout_summary_5mins">5 minút</string>
+    <string name="wifi_timeout_summary_10mins">10 minút</string>
+    <string name="wifi_timeout_summary_30mins">30 minút</string>
+    <string name="wifi_timeout_summary_1hour">1 hodina</string>
+    <string name="wifi_timeout_summary_2hours">2 hodiny</string>
+    <string name="wifi_timeout_summary_4hours">4 hodiny</string>
+    <string name="wifi_timeout_summary_8hours">8 hodín</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Bluetooth odpočet</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth sa vypne po <xliff:g id="timeout_description">%1$s</xliff:g> ak nebude pripojený</string>
+    <string name="bluetooth_timeout_summary2">Nevypínať automaticky bluetooth</string>
+    <string name="bluetooth_timeout_summary_never">Nikdy</string>
+    <string name="bluetooth_timeout_summary_15secs">15 sekúnd</string>
+    <string name="bluetooth_timeout_summary_30secs">30 sekúnd</string>
+    <string name="bluetooth_timeout_summary_1min">1 minúta</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minúty</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minút</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minút</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minút</string>
+    <string name="bluetooth_timeout_summary_1hour">1 hodina</string>
+    <string name="bluetooth_timeout_summary_2hours">2 hodiny</string>
+    <string name="bluetooth_timeout_summary_4hours">4 hodiny</string>
+    <string name="bluetooth_timeout_summary_8hours">8 hodín</string>
 </resources>
