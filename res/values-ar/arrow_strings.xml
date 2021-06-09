@@ -60,7 +60,7 @@
     <!-- Custom light color -->
     <string name="custom_light_title">لـون الضوء</string>
     <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <string name="custom_light_off_time_title">Light ON time during led pulse (ms)\"</string>
     <!-- Hardware button navigation -->
     <string name="picker_activities">الأنشطة</string>
     <string name="select_custom_app_title">حدد تطبيق مخصص</string>

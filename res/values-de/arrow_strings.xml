@@ -254,10 +254,10 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Gespeicherte Kopfhörer</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
-    <string name="max_refresh_rate_title">Maximum refresh rate</string>
-    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
-    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+    <string name="min_refresh_rate_title">Minimale Bildwiederholrate</string>
+    <string name="max_refresh_rate_title">Maximale Bildwiederholrate</string>
+    <string name="battery_saver_refresh_rate_title">Reduziere Bildwiederholrate</string>
+    <string name="battery_saver_refresh_rate_summary">60 Hz Bildwiederholrate verwenden, um Energie zu sparen, wenn der Energiesparmodus aktiviert ist</string>
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">Doppeltippen Sie auf den Bildschirm, um das Gerät zu wecken oder es zu sperren</string>
     <!-- Hotspot VPN -->
@@ -287,10 +287,10 @@
     <string name="use_old_mobiletype_title">Kleines Mobilfunk-Symbol</string>
     <string name="use_old_mobiletype_summary">Symbol des Mobilfunk-Typs oberhalb des Signalstärke-Symbols anzeigen</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">Vibrationseinstellungen während eines Anrufs</string>
+    <string name="incall_vibrate_connect_title">Vibriere beim Verbinden</string>
+    <string name="incall_vibrate_call_wait_title">Vibriere beim Anklopfen</string>
+    <string name="incall_vibrate_disconnect_title">Vibriere beim Beenden des Anrufs</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Vorhandenen Gesichts-Scan entfernen und einen neuen Scan erstellen</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Gesichts-Scan wiederholen</string>
@@ -298,19 +298,19 @@
     <string name="face_redo_confirm_btn">Wiederholen</string>
     <string name="face_redo_warning_msg">Möchten Sie den vorhandenen Gesichts-Scan löschen und einen neuen Scan erstellen?</string>
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_lock_after_title">Lock app after</string>
-    <string name="applock_lock_after_instantly">Instantly</string>
-    <string name="applock_lock_after_15_seconds">15 Seconds</string>
-    <string name="applock_lock_after_screen_off">Screen off</string>
-    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
-    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
-    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
-    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
+    <string name="applock_title">App-Sperre</string>
+    <string name="applock_locked">Gesperrt</string>
+    <string name="applock_unlocked">Entsperrt</string>
+    <string name="applock_locked_apps">Gesperrte Apps</string>
+    <string name="applock_unlocked_apps">Entsperrte Apps</string>
+    <string name="applock_lock_after_title">Sperre App nach</string>
+    <string name="applock_lock_after_instantly">Sofort</string>
+    <string name="applock_lock_after_15_seconds">15 Sekunden</string>
+    <string name="applock_lock_after_screen_off">Bildschirm aus</string>
+    <string name="applock_lock_after_summary">App wird nach dem ausgewählten Zeitlimit gesperrt</string>
+    <string name="applock_lock_after_instantly_summary">App wird sofort gesperrt, wenn sie geschlossen wird</string>
+    <string name="applock_lock_after_15_seconds_summary">App wird 15 Sekunden nach dem Schließen gesperrt</string>
+    <string name="applock_lock_after_screen_off_summary">App wird gesperrt, wenn der Bildschirm ausgeschaltet ist</string>
     <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
     <string name="applock_show_notif">Showing notification content</string>
     <string name="applock_hide_notif">Hiding notification content</string>

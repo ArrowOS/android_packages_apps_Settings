@@ -345,39 +345,39 @@
     <string name="fp_wake_unlock_press">Nhấn</string>
     <!-- global cleartext penalties -->
     <string name="cleartext_network_policy_title">Hạn chế xóa văn bản tốc bộ mạng</string>
-    <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, Tor and most VPNs won\'t work</string>
+    <string name="cleartext_network_policy_summary">Chặn tất cả lưu lượng mạng không phải TLS. Yêu cầu cấu hình DNS riêng. Lưu ý: Nếu không có các trường hợp miễn trừ rõ ràng, Tor và hầu hết các VPN sẽ không hoạt động</string>
     <!-- screen, setting option name to change wifi timeout -->
-    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <string name="wifi_timeout">Tự động tắt Wi-Fi</string>
     <!-- screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
-    <string name="wifi_timeout_summary2">Disabled</string>
-    <string name="wifi_timeout_summary_never">Never</string>
-    <string name="wifi_timeout_summary_15secs">15 seconds</string>
-    <string name="wifi_timeout_summary_30secs">30 seconds</string>
-    <string name="wifi_timeout_summary_1min">1 minute</string>
-    <string name="wifi_timeout_summary_2mins">2 minutes</string>
-    <string name="wifi_timeout_summary_5mins">5 minutes</string>
-    <string name="wifi_timeout_summary_10mins">10 minutes</string>
-    <string name="wifi_timeout_summary_30mins">30 minutes</string>
-    <string name="wifi_timeout_summary_1hour">1 hour</string>
-    <string name="wifi_timeout_summary_2hours">2 hours</string>
-    <string name="wifi_timeout_summary_4hours">4 hours</string>
-    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <string name="wifi_timeout_summary">Wi-Fi sẽ tắt sau <xliff:g id="timeout_description">%1$s</xliff:g> nếu không có kết nối mạng</string>
+    <string name="wifi_timeout_summary2">Đã vô hiệu</string>
+    <string name="wifi_timeout_summary_never">Không bao giờ</string>
+    <string name="wifi_timeout_summary_15secs">15 giây</string>
+    <string name="wifi_timeout_summary_30secs">30 giây</string>
+    <string name="wifi_timeout_summary_1min">1 phút</string>
+    <string name="wifi_timeout_summary_2mins">2 phút</string>
+    <string name="wifi_timeout_summary_5mins">5 phút</string>
+    <string name="wifi_timeout_summary_10mins">10 phút</string>
+    <string name="wifi_timeout_summary_30mins">30 phút</string>
+    <string name="wifi_timeout_summary_1hour">1 giờ</string>
+    <string name="wifi_timeout_summary_2hours">2 giờ</string>
+    <string name="wifi_timeout_summary_4hours">4 giờ</string>
+    <string name="wifi_timeout_summary_8hours">8 giờ</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
-    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <string name="bluetooth_timeout">Thời gian chờ Bluetooth</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
-    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
-    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
-    <string name="bluetooth_timeout_summary_never">Never</string>
-    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
-    <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
-    <string name="bluetooth_timeout_summary_1min">1 minute</string>
-    <string name="bluetooth_timeout_summary_2mins">2 minutes</string>
-    <string name="bluetooth_timeout_summary_5mins">5 minutes</string>
-    <string name="bluetooth_timeout_summary_10mins">10 minutes</string>
-    <string name="bluetooth_timeout_summary_30mins">30 minutes</string>
-    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
-    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
-    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
-    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+    <string name="bluetooth_timeout_summary">Bluetooth sẽ tắt sau <xliff:g id="timeout_description">%1$s</xliff:g> nếu không có thiết bị nào được kết nối</string>
+    <string name="bluetooth_timeout_summary2">Không tự động tắt Bluetooth</string>
+    <string name="bluetooth_timeout_summary_never">Không bao giờ</string>
+    <string name="bluetooth_timeout_summary_15secs">15 giây</string>
+    <string name="bluetooth_timeout_summary_30secs">30 giây</string>
+    <string name="bluetooth_timeout_summary_1min">1 phút</string>
+    <string name="bluetooth_timeout_summary_2mins">2 phút</string>
+    <string name="bluetooth_timeout_summary_5mins">5 phút</string>
+    <string name="bluetooth_timeout_summary_10mins">10 phút</string>
+    <string name="bluetooth_timeout_summary_30mins">30 phút</string>
+    <string name="bluetooth_timeout_summary_1hour">1 giờ</string>
+    <string name="bluetooth_timeout_summary_2hours">2 giờ</string>
+    <string name="bluetooth_timeout_summary_4hours">4 giờ</string>
+    <string name="bluetooth_timeout_summary_8hours">8 giờ</string>
 </resources>
