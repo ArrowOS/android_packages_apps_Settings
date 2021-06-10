@@ -54,8 +54,6 @@ public class TapToWakePreferenceController extends AbstractPreferenceController 
         boolean value = (Boolean) newValue;
         Settings.Secure.putInt(
                 mContext.getContentResolver(), Settings.Secure.DOUBLE_TAP_TO_WAKE, value ? 1 : 0);
-        Settings.System.putInt(
-                mContext.getContentResolver(), Settings.System.DOUBLE_TAP_SLEEP_LOCKSCREEN, value ? 1 : 0);
         return true;
     }
 }
