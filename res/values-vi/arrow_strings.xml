@@ -380,4 +380,8 @@
     <string name="bluetooth_timeout_summary_2hours">2 giờ</string>
     <string name="bluetooth_timeout_summary_4hours">4 giờ</string>
     <string name="bluetooth_timeout_summary_8hours">8 giờ</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Allow face unlock when</string>
+    <string name="face_unlock_method_default">When the screen is turned on</string>
+    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
 </resources>

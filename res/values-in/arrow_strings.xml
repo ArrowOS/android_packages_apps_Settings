@@ -157,7 +157,7 @@
     <string name="lockscreen_media_art_title">Tampilkan sampul media</string>
     <string name="lockscreen_media_art_summary">Tampilkan seni album media yang diputar saat ini di layar kunci</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Indikator lalu lintas</string>
+    <string name="traffic_title">Indikator lalu lintas jaringan</string>
     <string name="traffic_summary">Mengaktifkan atau menonaktifkan indikator kecepatan jaringan</string>
     <string name="network_traffic_title">Lalu lintas jaringan</string>
     <string name="network_traffic_type">Pilih tipe aktvitas jaringan</string>
@@ -380,4 +380,8 @@
     <string name="bluetooth_timeout_summary_2hours">2 jam</string>
     <string name="bluetooth_timeout_summary_4hours">4 jam</string>
     <string name="bluetooth_timeout_summary_8hours">8 jam</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Allow face unlock when</string>
+    <string name="face_unlock_method_default">When the screen is turned on</string>
+    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
 </resources>

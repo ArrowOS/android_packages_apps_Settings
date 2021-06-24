@@ -27,14 +27,14 @@
     <string name="statusbar_gestures_category_title">Gestos na barra de estado</string>
     <string name="double_tap_sleep_gesture_title">Toque duplo na barra de estado para desligar</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">Como Resolver</string>
+    <string name="lockscreen_tweaks_category_title">Como resolver</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Associar volumes de toque &amp; notificação</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Paleta de cores</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informações de carregamento no ecrã de bloqueio</string>
-    <string name="lockscreen_battery_info_summary">Durante o carregamento, mostrar corrente/tensão de carregamento, mensagem e temperatura da bateria no ecrã de bloqueio</string>
+    <string name="lockscreen_battery_info_summary">Mostrar no ecrã de bloqueio durante o carregamento, corrente, tensão, potência e temperatura da bateria</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Settings categories -->
@@ -110,7 +110,7 @@
     <string name="power_menu_customization_category_title">Personalização do menu de energia</string>
     <string name="global_actions_title">Acções do menu de energia</string>
     <string name="global_actions_summary">Seleccione o que mostrar quando prime o botão de energia</string>
-    <string name="global_actions_power">Ligar/Desligar</string>
+    <string name="global_actions_power">Energia</string>
     <string name="global_actions_restart">Reiniciar</string>
     <string name="global_actions_airplane">Modo de avião</string>
     <string name="global_actions_settings">Definições</string>
@@ -350,7 +350,7 @@
     <!-- screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Desativar o Wi-Fi automaticamente</string>
     <!-- screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">O Wi-Fi será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhuma rede estiver conectada</string>
+    <string name="wifi_timeout_summary">O Wi-Fi será desactivado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhuma rede estiver ligada</string>
     <string name="wifi_timeout_summary2">Desactivado</string>
     <string name="wifi_timeout_summary_never">Nunca</string>
     <string name="wifi_timeout_summary_15secs">15 segundos</string>
@@ -381,4 +381,8 @@
     <string name="bluetooth_timeout_summary_2hours">2 horas</string>
     <string name="bluetooth_timeout_summary_4hours">4 horas</string>
     <string name="bluetooth_timeout_summary_8hours">8 horas</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Allow face unlock when</string>
+    <string name="face_unlock_method_default">When the screen is turned on</string>
+    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
 </resources>
