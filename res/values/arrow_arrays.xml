@@ -87,6 +87,11 @@
         <item>@string/fod_recog_animation_pureview_halo_ring</item>
         <item>@string/fod_recog_animation_pureview_molecular</item>
         <item>@string/fod_recog_animation_created_lotr</item>
+        <item>@string/fod_recog_animation_asus_colorcircle</item>
+        <item>@string/fod_recog_animation_asus_default</item>
+        <item>@string/fod_recog_animation_asus_force</item>
+        <item>@string/fod_recog_animation_asus_lighting</item>
+        <item>@string/fod_recog_animation_asus_takeoff</item>
     </string-array>
     <string-array name="fod_recognizing_animation_values" translatable="false">
         <item>0</item>
@@ -105,6 +110,11 @@
         <item>13</item>
         <item>14</item>
         <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
     </string-array>
 
     <string-array name="double_tap_power_flashlight_entries" translatable="false">
