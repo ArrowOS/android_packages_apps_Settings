@@ -248,6 +248,11 @@
     <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
     <string name="fod_recog_animation_pureview_molecular">Molecular</string>
     <string name="fod_recog_animation_created_lotr">LOTR</string>
+    <string name="fod_recog_animation_asus_colorcircle">Asus ColorCircle</string>
+    <string name="fod_recog_animation_asus_default">Asus Default</string>
+    <string name="fod_recog_animation_asus_force">Asus Force</string>
+    <string name="fod_recog_animation_asus_lighting">Asus Lighting</string>
+    <string name="fod_recog_animation_asus_takeoff">Asus Takeoff</string>
 
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
