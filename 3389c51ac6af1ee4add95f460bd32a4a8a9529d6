@@ -16,6 +16,24 @@
       "revId": "3389c51ac6af1ee4add95f460bd32a4a8a9529d6",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5c094eb4_324dd0ab",
+        "filename": "res/values/arrow_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 41
+      },
+      "writtenOn": "2021-07-09T12:25:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bec6bba3_dd959ff9",
+      "revId": "3389c51ac6af1ee4add95f460bd32a4a8a9529d6",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196",
+      "unresolved": false
     }
   ]
 }
