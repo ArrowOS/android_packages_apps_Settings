@@ -52,12 +52,6 @@
             settings:controller="com.android.settings.security.LockdownButtonPreferenceController" />
 
         <com.arrow.support.preferences.SystemSettingSwitchPreference
-            android:key="lockscreen_battery_info"
-            android:title="@string/lockscreen_battery_info_title"
-            android:summary="@string/lockscreen_battery_info_summary"
-            android:defaultValue="true" />
-
-        <com.arrow.support.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_media_metadata"
             android:title="@string/lockscreen_media_art_title"
             android:summary="@string/lockscreen_media_art_summary"
