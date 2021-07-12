@@ -74,6 +74,13 @@ public class SmartChargingSettings extends DashboardFragment implements OnPrefer
     }
 
     @Override
+    public int getAvailabilityStatus() {
+        return !getResources().getBoolean(R.bool.config_supportSmartCharging) &&
+                CustomSeekBarPreference != null && CustomSeekBarPreference.getEntries().length > 1
+                        ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+    }
+
+    @Override
     protected String getLogTag() {
         return TAG;
     }
