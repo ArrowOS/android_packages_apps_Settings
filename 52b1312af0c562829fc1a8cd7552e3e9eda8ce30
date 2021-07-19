@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d9e9616a_59d94255",
+        "filename": "res/xml/security_screen_off_fod.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 71
+      },
+      "writtenOn": "2021-07-19T23:59:56Z",
+      "side": 1,
+      "message": "Space sar",
+      "revId": "52b1312af0c562829fc1a8cd7552e3e9eda8ce30",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196",
+      "unresolved": true
+    }
+  ]
+}
