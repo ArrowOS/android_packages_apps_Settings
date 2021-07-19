@@ -402,6 +402,7 @@ public class FingerprintSettings extends SubSettings {
             root.addPreference(addPreference);
             addPreference.setOnPreferenceChangeListener(this);
             updateAddPreference();
+            addPreferencesFromResource(R.xml.security_screen_off_fod);
             createFooterPreference(root);
         }
 
