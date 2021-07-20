@@ -16,6 +16,24 @@
       "revId": "52b1312af0c562829fc1a8cd7552e3e9eda8ce30",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c8319796_66da3632",
+        "filename": "res/xml/security_screen_off_fod.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 171
+      },
+      "writtenOn": "2021-07-20T10:40:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d9e9616a_59d94255",
+      "revId": "52b1312af0c562829fc1a8cd7552e3e9eda8ce30",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196",
+      "unresolved": false
     }
   ]
 }
