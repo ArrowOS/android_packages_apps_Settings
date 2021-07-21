@@ -32,9 +32,6 @@
     <string name="volume_link_notification_title">Ühenda helina &amp; teadete helitugevus</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Värvi kopp</string>
-    <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Laadimise info lukustusekraanil</string>
-    <string name="lockscreen_battery_info_summary">Kuva lukustuskuval laadimis vool, pinge ja akutemperatuur, kui seadet laetakse</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Play Pood</string>
     <!-- Settings categories -->
@@ -381,8 +378,9 @@
     <string name="bluetooth_timeout_summary_2hours">2 hours</string>
     <string name="bluetooth_timeout_summary_4hours">4 hours</string>
     <string name="bluetooth_timeout_summary_8hours">8 hours</string>
-    <!-- Face Unlock -->
-    <string name="face_unlock_method_title">Allow face unlock when</string>
-    <string name="face_unlock_method_default">When the screen is turned on</string>
-    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_red">Red strength</string>
+    <string name="color_mode_balance_green">Green strength</string>
+    <string name="color_mode_balance_blue">Blue strength</string>
+    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
 </resources>

@@ -32,9 +32,6 @@
     <string name="volume_link_notification_title">Vincular volumen de tono y notificaciones</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Selector de color</string>
-    <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Información de carga en pantalla de bloqueo</string>
-    <string name="lockscreen_battery_info_summary">Mostrar corriente de carga, voltaje, potencia y temperatura de la batería en la pantalla de bloqueo mientras se carga</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Settings categories -->
@@ -44,10 +41,10 @@
     <!-- Display customization category -->
     <string name="customization_category_title">Personalización</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Luz de batería cargando</string>
+    <string name="battery_light_settings">Led de carga de la batería</string>
     <string name="battery_light_summary">Comportamiento del led de carga en el modo No Molestar y batería baja</string>
     <string name="battery_light_enable">Led de batería</string>
-    <string name="battery_light_allow_on_dnd_title">Indicador de carga en modo No Molestar</string>
+    <string name="battery_light_allow_on_dnd_title">Led de carga en modo No Molestar</string>
     <string name="battery_light_low_blinking_title">LED intermitente con batería baja</string>
     <string name="battery_light_cat">Color del LED durante la carga</string>
     <string name="battery_light_low_color">Batería baja</string>
@@ -87,10 +84,10 @@
     <string name="navigation_keys">Barra de navegación</string>
     <string name="navigation_keys_summary">Personalizar la barra de navegación en pantalla</string>
     <string name="hardware_keys_category">Botones físicos de navegación</string>
-    <string name="hardware_keys_disable_title">Desactivar los botones físicos</string>
+    <string name="hardware_keys_disable_title">Deshabilitar los botones físicos</string>
     <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">Retroiluminación de los botones</string>
-    <string name="backlight_timeout_on">Habilitado siempre</string>
+    <string name="backlight_timeout_on">Siempre activo</string>
     <string name="backlight_timeout_3s">3 segundos</string>
     <string name="backlight_timeout_default">5 segundos (predeterminado)</string>
     <string name="backlight_timeout_10s">10 segundos</string>
@@ -101,7 +98,7 @@
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">Retroiluminación</string>
     <string name="button_brightness_sw_title">Habilitar retroiluminación</string>
-    <string name="button_backlight_on_touch_only_title">Toque de botón</string>
+    <string name="button_backlight_on_touch_only_title">Botón táctil</string>
     <string name="button_backlight_on_touch_only_summary">Habilitar la retroiluminación de tiempo de espera solo en los botones táctiles</string>
     <!-- ANBI -->
     <string name="anbi_title">Toque accidental</string>
@@ -162,7 +159,7 @@
     <string name="network_traffic_title">Tráfico de red</string>
     <string name="network_traffic_type">Seleccionar tipo de actividad de red</string>
     <string name="show_network_traffic_up">Subida de datos</string>
-    <string name="show_network_traffic_down">Entrada de datos</string>
+    <string name="show_network_traffic_down">Bajada de datos</string>
     <string name="show_network_traffic_all">Subida y Bajada de datos</string>
     <string name="network_traffic_state_title">Mostrar la actividad de la red en la barra de estado</string>
     <string name="network_traffic_autohide_threshold_title">Tráfico de red mínimo para ocultar actividad (KB/s)</string>
@@ -177,7 +174,7 @@
     <string name="lock_screen_weather_style_summaryOff">Información meteorológica se muestra bajo la línea de fecha con la ubicación</string>
     <string name="lock_screen_weather_style_summaryOn">Información meteorológica se muestra en la línea de fecha sin la ubicación</string>
     <string name="header_weather_title">Vista de información meteorológica en el encabezado</string>
-    <string name="header_weather_summary">Habilitar información meteorológica en el encabezado del panel de notificaciones</string>
+    <string name="header_weather_summary">Habilitar clima en la cabecera del panel de notificaciones</string>
     <string name="weather_icon_pack_title">Paquete de iconos de la información meteorológica</string>
     <string name="weather_icon_pack_note">Nota\u003a puedes instalar nuevos paquetes de iconos desde la Play Store buscando \"Chronus icons\"</string>
     <!-- Lockscreen weather settings -->
@@ -272,7 +269,7 @@
     <!-- Smart charging -->
     <string name="smart_charging_title">Carga inteligente</string>
     <string name="smart_charging_summary">Establecer nivel máximo de carga</string>
-    <string name="smart_charging_switch_title">Usar carga inteligente</string>
+    <string name="smart_charging_switch_title">Usar Carga inteligente</string>
     <string name="smart_charging_level_title">Nivel para detención</string>
     <string name="smart_charging_resume_level_title">Nivel para inicio</string>
     <string name="smart_charging_reset_stats_title">Restablecer estadísticas de batería</string>
@@ -381,8 +378,9 @@
     <string name="bluetooth_timeout_summary_2hours">2 horas</string>
     <string name="bluetooth_timeout_summary_4hours">4 horas</string>
     <string name="bluetooth_timeout_summary_8hours">8 horas</string>
-    <!-- Face Unlock -->
-    <string name="face_unlock_method_title">Allow face unlock when</string>
-    <string name="face_unlock_method_default">When the screen is turned on</string>
-    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_red">Red strength</string>
+    <string name="color_mode_balance_green">Green strength</string>
+    <string name="color_mode_balance_blue">Blue strength</string>
+    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
 </resources>

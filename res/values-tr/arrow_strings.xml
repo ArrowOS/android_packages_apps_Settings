@@ -32,9 +32,6 @@
     <string name="volume_link_notification_title">Zil sesi ve bildirim sesini bağla</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Renk paleti</string>
-    <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Kilit ekranı şarj bilgisi</string>
-    <string name="lockscreen_battery_info_summary">Şarj olurken kilit ekranında şarj cihazının maksimum akım voltajını ve pil sıcaklığını görüntüle</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Settings categories -->
@@ -381,8 +378,9 @@
     <string name="bluetooth_timeout_summary_2hours">2 saat</string>
     <string name="bluetooth_timeout_summary_4hours">4 saat</string>
     <string name="bluetooth_timeout_summary_8hours">8 saat</string>
-    <!-- Face Unlock -->
-    <string name="face_unlock_method_title">Allow face unlock when</string>
-    <string name="face_unlock_method_default">When the screen is turned on</string>
-    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_red">Kırmızı yoğunluğu</string>
+    <string name="color_mode_balance_green">Yeşil yoğunluğu</string>
+    <string name="color_mode_balance_blue">Mavi yoğunluğu</string>
+    <string name="keywords_color_balance">renk, renk dengesi, renk düzeltmesi, kırmızı, yeşil, mavi, LiveDisplay</string>
 </resources>

@@ -32,9 +32,6 @@
     <string name="volume_link_notification_title">着信と通知の音量をリンク</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">色のバケツ</string>
-    <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">ロック画面での充電情報</string>
-    <string name="lockscreen_battery_info_summary">電流、電圧、電力、バッテリーの温度を充電中に表示します。</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Settings categories -->
@@ -122,7 +119,7 @@
     <string name="global_actions_flashlight">ライト</string>
     <string name="global_actions_emergency">緊急通報</string>
     <string name="global_actions_advanced_reboot_title">高度な再起動の有効化</string>
-    <string name="global_actions_advanced_reboot_summary">再起動時にリカバリーとブートローダーのオプションを表示する</string>
+    <string name="global_actions_advanced_reboot_summary">再起動メニューにリカバリーとブートローダーのオプションを表示する</string>
     <string name="global_actions_max_columns_title">表示する最大アクション</string>
     <string name="global_actions_max_columns_summary">オーバーフローメニューにボタンが移動する前にいくつのアクションを表示するか設定する</string>
     <!-- Settings dashboard gestures -->
@@ -233,7 +230,7 @@
     <string name="gesture_back_deadzone_label">非認識範囲</string>
     <string name="back_sensitivity_dialog_message_cust">\n最初と2番目のシークバーで戻るジェスチャースワイプ感度を編集し、最後のシークバーでスワイプを認識しない画面領域を設定し、アプリ内ジェスチャーとの競合を回避します。</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">トーチを有効化</string>
+    <string name="double_tap_power_flashlight_screen_title">トーチの有効化</string>
     <string name="double_tap_power_flashlight_title">画面消灯時のライト点灯</string>
     <string name="torch_power_button_gesture_none">無効</string>
     <string name="torch_power_button_gesture_dt">電源ボタンを2回押し</string>
@@ -284,7 +281,7 @@
     <string name="screen_off_animation_crt">ブラウン管</string>
     <string name="screen_off_animation_scale">縮小</string>
     <!-- Old mobile type icons -->
-    <string name="use_old_mobiletype_title">小さな電波種別アイコン</string>
+    <string name="use_old_mobiletype_title">小さな電波アイコン</string>
     <string name="use_old_mobiletype_summary">電波強度表示の上に通信種別を表示する</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">通話中の振動オプション</string>
@@ -380,8 +377,9 @@
     <string name="bluetooth_timeout_summary_2hours">2時間</string>
     <string name="bluetooth_timeout_summary_4hours">4時間</string>
     <string name="bluetooth_timeout_summary_8hours">8時間</string>
-    <!-- Face Unlock -->
-    <string name="face_unlock_method_title">Allow face unlock when</string>
-    <string name="face_unlock_method_default">When the screen is turned on</string>
-    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_red">赤の強度</string>
+    <string name="color_mode_balance_green">緑の強度</string>
+    <string name="color_mode_balance_blue">青の強度</string>
+    <string name="keywords_color_balance">色、色のバランス、色のコレクション、赤、緑、青、LiveDisplay</string>
 </resources>
