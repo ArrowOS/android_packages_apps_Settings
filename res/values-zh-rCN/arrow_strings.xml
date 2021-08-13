@@ -385,4 +385,7 @@
     !-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">插入电源时唤醒屏幕</string>
     <string name="wake_when_plugged_or_unplugged_summary">连接或断开电源时打开屏幕</string>
+    <!-- Quick statusbar header battery percentage -->
+    <string name="qs_battery_percentage_title">电池百分比</string>
+    <string name="qs_battery_percentage_summary">在标题中显示电池百分比，而不是电池估计值</string>
 </resources>
