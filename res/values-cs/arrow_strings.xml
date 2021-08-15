@@ -385,4 +385,13 @@
     <string name="color_mode_balance_green">Zelená</string>
     <string name="color_mode_balance_blue">Modrá</string>
     <string name="keywords_color_balance">barvy, vyvážení barev, korekce barev, červená, zelená, modrá, LiveDisplay</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Probudit při nabíjení</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Zapnout obrazovku při připojení nebo odpojení zdroje napájení</string>
+    <!-- Quick statusbar header battery percentage -->
+    <string name="qs_battery_percentage_title">Procenta baterie v QS</string>
+    <string name="qs_battery_percentage_summary">Zobrazit procenta baterie v záhlaví QS namísto odhadu výdrže baterie</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Vždy zapnuto při nabíjení</string>
+    <string name="doze_on_charge_summary">Při nabíjení vždy zobrazit obrazovku Doze</string>
 </resources>

@@ -379,8 +379,17 @@
     <string name="bluetooth_timeout_summary_4hours">4 horas</string>
     <string name="bluetooth_timeout_summary_8hours">8 horas</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
-    <string name="color_mode_balance_red">Red strength</string>
-    <string name="color_mode_balance_green">Green strength</string>
-    <string name="color_mode_balance_blue">Blue strength</string>
-    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+    <string name="color_mode_balance_red">Intensidade do vermelho</string>
+    <string name="color_mode_balance_green">Intensidade do verde</string>
+    <string name="color_mode_balance_blue">Intensidade do azul</string>
+    <string name="keywords_color_balance">cor, equilíbrio de cores, correção de cor, vermelho, verde, azul, LiveDisplay</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Acordar ao plugar</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Ligar a tela quando conectar ou desconectar uma fonte de energia</string>
+    <!-- Quick statusbar header battery percentage -->
+    <string name="qs_battery_percentage_title">Porcentagem da bateria nas Configurações Rápidas</string>
+    <string name="qs_battery_percentage_summary">Mostrar porcentagem da bateria ao invés da estimativa da bateria no cabeçalho das configurações rápidas</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Tela sempre ativa durante o carregamento</string>
+    <string name="doze_on_charge_summary">Sempre mostrar o protetor de tela durante o carregamento</string>
 </resources>

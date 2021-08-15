@@ -383,4 +383,13 @@
     <string name="color_mode_balance_green">Yeşil yoğunluğu</string>
     <string name="color_mode_balance_blue">Mavi yoğunluğu</string>
     <string name="keywords_color_balance">renk, renk dengesi, renk düzeltmesi, kırmızı, yeşil, mavi, LiveDisplay</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Şarj takıldığında uyandır</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Şarj aletine takıldığında veya çıkarıldığında ekranı aç</string>
+    <!-- Quick statusbar header battery percentage -->
+    <string name="qs_battery_percentage_title">QS battery percentage</string>
+    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always on when charging</string>
+    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
 </resources>

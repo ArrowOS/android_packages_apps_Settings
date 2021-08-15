@@ -382,4 +382,13 @@
     <string name="color_mode_balance_green">绿色强度</string>
     <string name="color_mode_balance_blue">蓝色强度</string>
     <string name="keywords_color_balance">颜色、颜色平衡、颜色校正、红色、绿色、蓝色、LiveDisplay</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">充电时唤醒</string>
+    <string name="wake_when_plugged_or_unplugged_summary">连接或断开电源时唤醒屏幕</string>
+    <!-- Quick statusbar header battery percentage -->
+    <string name="qs_battery_percentage_title">快速设置面板电量百分比</string>
+    <string name="qs_battery_percentage_summary">在快速设置面板顶部显示电量百分比，而不是使用时间估计</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">充电时始终开启</string>
+    <string name="doze_on_charge_summary">充电时一直开启息屏显示</string>
 </resources>

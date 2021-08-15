@@ -385,4 +385,13 @@
     <string name="color_mode_balance_green">Уровень зеленого</string>
     <string name="color_mode_balance_blue">Уровень синего</string>
     <string name="keywords_color_balance">цвет, цветовой баланс, цветовая коррекция, красный, зеленый, синий, LiveDisplay</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Пробуждение при зарядке</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Включать экран при подключении или отключении зарядного устройства</string>
+    <!-- Quick statusbar header battery percentage -->
+    <string name="qs_battery_percentage_title">Процент заряда в быстрых настройках</string>
+    <string name="qs_battery_percentage_summary">Показывать процент батареи в шторке быстрых настроек вместо оценки времени работы</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Всегда включенный экран при зарядке</string>
+    <string name="doze_on_charge_summary">Показывать Всегда включенный экран во время зарядки батареи</string>
 </resources>

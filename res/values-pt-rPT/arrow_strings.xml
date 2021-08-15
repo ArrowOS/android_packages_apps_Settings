@@ -162,7 +162,7 @@
     <string name="show_network_traffic_down">Transferir</string>
     <string name="show_network_traffic_all">Carregar e Descarregar</string>
     <string name="network_traffic_state_title">Mostrar a actividade da rede na barra de estado</string>
-    <string name="network_traffic_autohide_threshold_title">Limite para ocultar automaticamente a actividade de rede (KB/s)</string>
+    <string name="network_traffic_autohide_threshold_title">Limite de ocultação automática da actividade da rede (KB/s)</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Deslizar para capturar o ecrã</string>
     <string name="three_finger_gesture_summary">Deslizar para baixo com três dedos no ecrã para tirar uma captura de ecrã</string>
@@ -383,4 +383,13 @@
     <string name="color_mode_balance_green">Força verde</string>
     <string name="color_mode_balance_blue">Força azul</string>
     <string name="keywords_color_balance">cor, equilíbrio de cores, correção de cor, vermelho, verde, azul, Exibição ao vivo</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Ligar ecrã ao detectar o carregador</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Liga o ecrã quando ligar ou desligar uma fonte de energia</string>
+    <!-- Quick statusbar header battery percentage -->
+    <string name="qs_battery_percentage_title">Percentagem da bateria QS</string>
+    <string name="qs_battery_percentage_summary">Mostrar a percentagem da bateria no cabeçalho QS em vez da estimativa da bateria</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Sempre ligado durante o carregamento</string>
+    <string name="doze_on_charge_summary">Ecrã sempre ligado enquanto carrega</string>
 </resources>

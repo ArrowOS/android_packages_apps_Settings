@@ -19,12 +19,12 @@
     <string name="build_date">"Data di compilazione"</string>
     <string name="about_device_name">"Dispositivo"</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tocca per mostrare informazioni</string>
+    <string name="device_info_protected_single_press">Tocca per mostrare le informazioni</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">Statistiche di ArrowOS</string>
-    <string name="arrow_stats_summary">Calcolando su quanti dispositivi stiamo funzionando</string>
+    <string name="arrow_stats_summary">Stiamo calcolando su quanti dispositivi siamo installati</string>
     <!--Double Tap to Sleep Statusbar-->
-    <string name="statusbar_gestures_category_title">Gesture barra di stato</string>
+    <string name="statusbar_gestures_category_title">Gesti barra di stato</string>
     <string name="double_tap_sleep_gesture_title">Doppio tocco per spegnere lo schermo sulla barra di stato</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Che cosa fare</string>
@@ -123,9 +123,9 @@
     <string name="global_actions_max_columns_title">Massimo d\'azioni da mostrare</string>
     <string name="global_actions_max_columns_summary">Imposta quante azioni mostrare prima di spostare i pulsanti nel menu di overflow</string>
     <!-- Settings dashboard gestures -->
-    <string name="gesture_settings_dashboard_title">Gesture</string>
+    <string name="gesture_settings_dashboard_title">Gesti</string>
     <string name="gesture_settings_dashboard_summary">Gestisci impostazioni gesture</string>
-    <string name="custom_device_gestures_preference_title">Gestures del dispositivo</string>
+    <string name="custom_device_gestures_preference_title">Gesti del dispositivo</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">Notifiche a comparsa</string>
     <string name="heads_up_notifications_summary">Controllo notifiche a comparsa</string>
@@ -147,7 +147,7 @@
     <!-- Density options -->
     <string name="density_category">Opzioni densità</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Lunghezza barra gesti</string>
+    <string name="navbar_length">Lunghezza barra dei gesti</string>
     <string name="hidden_label">Nascosto</string>
     <string name="long_label">Lunga</string>
     <!-- Lock screen cover art -->
@@ -219,7 +219,7 @@
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Inverti layout</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Impronta digitale con schermo spento</string>
+    <string name="fod_gesture_title">Impronta digitale a schermo spento</string>
     <string name="fod_gesture_summary">Consente di sbloccare il dispositivo senza dover prima accendere lo schermo</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Temperatura della batteria</string>
@@ -228,13 +228,13 @@
     <string name="smallest_tick_label">Spento</string>
     <string name="greatest_tick_label">Mezza schermata</string>
     <string name="gesture_back_deadzone_label">Zona morta</string>
-    <string name="back_sensitivity_dialog_message_cust">\nUsa la prima e la seconda barra di scorrimento per riconfigurare la sensibilità del gesto, l\'ultima per impostare una zona morta in cima allo schermo dove non sarà possibile effettuare il gesto, per evitare i conflitti con i gesti in-app.</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUsa la prima e la seconda barra di scorrimento per riconfigurare la sensibilità del gesto indietro, l\'ultima per impostare una zona morta nella parte superiore dello schermo dove non sarà possibile effettuare il gesto, per evitare i conflitti con i gesti in-app (pannelli laterali ecc.).</string>
     <!-- Torch Power button gestures -->
     <string name="double_tap_power_flashlight_screen_title">Attiva la torcia</string>
-    <string name="double_tap_power_flashlight_title">Attiva la torcia a schermo spento col pulsante di alimentazione</string>
+    <string name="double_tap_power_flashlight_title">Torcia a schermo spento col pulsante di accensione</string>
     <string name="torch_power_button_gesture_none">Disabilitato</string>
-    <string name="torch_power_button_gesture_dt">Doppio tocco sul pulsante di alimentazione per accendere la torcia</string>
-    <string name="torch_power_button_gesture_lp">Pressione prolungata sul pulsante di alimentazione per accendere la torcia</string>
+    <string name="torch_power_button_gesture_dt">Doppio click sul pulsante di accensione per accendere la torcia</string>
+    <string name="torch_power_button_gesture_lp">Pressione prolungata sul pulsante di accensione per accendere la torcia</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Consenti accesso alla rete</string>
     <string name="data_usage_app_restrict_all_summary">Tieni traccia dell\'utilizzo della rete</string>
@@ -379,8 +379,17 @@
     <string name="bluetooth_timeout_summary_4hours">4 ore</string>
     <string name="bluetooth_timeout_summary_8hours">8 ore</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
-    <string name="color_mode_balance_red">Red strength</string>
-    <string name="color_mode_balance_green">Green strength</string>
-    <string name="color_mode_balance_blue">Blue strength</string>
-    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+    <string name="color_mode_balance_red">Intensità rosso</string>
+    <string name="color_mode_balance_green">Intensità verde</string>
+    <string name="color_mode_balance_blue">Intensità blu</string>
+    <string name="keywords_color_balance">colore, bilanciamento colore, correzione colore, rosso, verde, blu, LiveDisplay</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Risveglia al collegamento</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Accendi lo schermo quando colleghi o scolleghi il dispositivo dall\'alimentazione</string>
+    <!-- Quick statusbar header battery percentage -->
+    <string name="qs_battery_percentage_title">Percentuale batteria in Quick Settings</string>
+    <string name="qs_battery_percentage_summary">Visualizza la percentuale della batteria invece dell\'autonomia stimata nel pannello dei Quick Settings</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Schermo sempre attivo durante la ricarica</string>
+    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
 </resources>

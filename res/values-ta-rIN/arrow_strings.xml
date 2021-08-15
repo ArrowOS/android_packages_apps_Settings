@@ -282,7 +282,7 @@
     <string name="screen_off_animation_scale">Scale</string>
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">சிறிய கைபேசி வகை படவுரு</string>
-    <string name="use_old_mobiletype_summary">Show mobile type icon on top of the signal indicator</string>
+    <string name="use_old_mobiletype_summary">கைபேசி வகை படவுருவை சமிக்ஞை காட்டிக்கு மேலே காண்பி</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">In-call vibration options</string>
     <string name="incall_vibrate_connect_title">இணைப்பு மீது அதிர்வு</string>
@@ -362,10 +362,10 @@
     <string name="wifi_timeout_summary_4hours">4 மணிநேரம்</string>
     <string name="wifi_timeout_summary_8hours">8 மணிநேரம்</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
-    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <string name="bluetooth_timeout">புளூடூத் நேரமுடிவு</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
-    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
-    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
+    <string name="bluetooth_timeout_summary">சாதனங்களேதும் இணைக்காவிட்டால் <xliff:g id="timeout_description">%1$s</xliff:g> பிறகு புளூடூத் அணையும்</string>
+    <string name="bluetooth_timeout_summary2">புளூடூத்தை தானாக அணைக்காதே</string>
     <string name="bluetooth_timeout_summary_never">ஒருபோதுமில்லை</string>
     <string name="bluetooth_timeout_summary_15secs">15 விநாடிகள்</string>
     <string name="bluetooth_timeout_summary_30secs">30 விநாடிகள்</string>
@@ -379,8 +379,17 @@
     <string name="bluetooth_timeout_summary_4hours">4 மணிநேரம்</string>
     <string name="bluetooth_timeout_summary_8hours">8 மணிநேரம்</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
-    <string name="color_mode_balance_red">Red strength</string>
-    <string name="color_mode_balance_green">Green strength</string>
-    <string name="color_mode_balance_blue">Blue strength</string>
+    <string name="color_mode_balance_red">சிகப்பு பலம்</string>
+    <string name="color_mode_balance_green">பச்சை பலம்</string>
+    <string name="color_mode_balance_blue">நீலம் பலம்</string>
     <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <!-- Quick statusbar header battery percentage -->
+    <string name="qs_battery_percentage_title">QS battery percentage</string>
+    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always on when charging</string>
+    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
 </resources>
