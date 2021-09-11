@@ -379,17 +379,17 @@
     <string name="bluetooth_timeout_summary_4hours">nach 4 Stunden</string>
     <string name="bluetooth_timeout_summary_8hours">nach 8 Stunden</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
-    <string name="color_mode_balance_red">Red strength</string>
-    <string name="color_mode_balance_green">Green strength</string>
-    <string name="color_mode_balance_blue">Blue strength</string>
-    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+    <string name="color_mode_balance_red">Sättigung Rot</string>
+    <string name="color_mode_balance_green">Sättigung Grün</string>
+    <string name="color_mode_balance_blue">Sättigung Blau</string>
+    <string name="keywords_color_balance">farbe, farbe, farbkorrektur, kalibrierung, rot, grün, blau, Livedisplay</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="wake_when_plugged_or_unplugged_title">Beim Anschließen aufwecken</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Beim Anschließen oder Trennen einer Stromquelle den Bildschirm einschalten</string>
     <!-- Quick statusbar header battery percentage -->
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
-    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
+    <string name="qs_battery_percentage_title">Akku in Prozent in den Schnelleinst.</string>
+    <string name="qs_battery_percentage_summary">Akkustand in Prozent anstelle der Akkuschätzung in den Schnelleinst. anzeigen</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
-    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+    <string name="doze_on_charge_title">Display beim Laden aktiv lassen</string>
+    <string name="doze_on_charge_summary">Doze-Bildschirm während des Ladevorgangs anzeigen</string>
 </resources>

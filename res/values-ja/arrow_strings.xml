@@ -311,7 +311,7 @@
     <string name="applock_notification_info">それぞれのロック済みのアプリの設定に表示される通知アイコンをクリックすることで、アプリごとの通知の内容の表示/非表示を切り替えることができます。</string>
     <string name="applock_show_notif">通知の内容を表示中です</string>
     <string name="applock_hide_notif">通知の内容を非表示中です</string>
-    <string name="applock_setup">アプリのロックを設定</string>
+    <string name="applock_setup">アプリのロックを設定する</string>
     <string name="applock_overlay_summary">このアプリはロックされているためこの機能は利用できません</string>
     <plurals name="applock_summary">
         <item quantity="other">%d個のアプリがロックされました</item>

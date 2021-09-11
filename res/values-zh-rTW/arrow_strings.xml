@@ -387,9 +387,9 @@
     <string name="wake_when_plugged_or_unplugged_title">充電時喚醒</string>
     <string name="wake_when_plugged_or_unplugged_summary">連接或斷開電源時喚醒螢幕</string>
     <!-- Quick statusbar header battery percentage -->
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
-    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
+    <string name="qs_battery_percentage_title">快速設定電量百分比</string>
+    <string name="qs_battery_percentage_summary">在快速設定面板顯示電量百分比而非電池預估使用時間</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
-    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+    <string name="doze_on_charge_title">充電時一直開啟</string>
+    <string name="doze_on_charge_summary">充電時一直顯示隨顯螢幕</string>
 </resources>

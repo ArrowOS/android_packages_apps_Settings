@@ -381,17 +381,17 @@
     <string name="bluetooth_timeout_summary_4hours">4 години</string>
     <string name="bluetooth_timeout_summary_8hours">8 годин</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
-    <string name="color_mode_balance_red">Red strength</string>
-    <string name="color_mode_balance_green">Green strength</string>
-    <string name="color_mode_balance_blue">Blue strength</string>
-    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+    <string name="color_mode_balance_red">Рівень червоного</string>
+    <string name="color_mode_balance_green">Рівень зеленого</string>
+    <string name="color_mode_balance_blue">Рівень синього</string>
+    <string name="keywords_color_balance">колір, баланс, корекція кольорів, червоний, зелений, синій, LiveDisplay</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="wake_when_plugged_or_unplugged_title">Прокидатись при підключені</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Екран прокидається при підключені до зарядного пристрою</string>
     <!-- Quick statusbar header battery percentage -->
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
-    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
+    <string name="qs_battery_percentage_title">Відсоток батареї в Швидких Налаштуваннях</string>
+    <string name="qs_battery_percentage_summary">Показати відсоток заряду акумулятора в заголовку Швидких Налаштувань замість оцінки акумулятора</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
-    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+    <string name="doze_on_charge_title">Ввімкнути під час зарядки</string>
+    <string name="doze_on_charge_summary">Завжди відображати екран Doze під час зарядки</string>
 </resources>

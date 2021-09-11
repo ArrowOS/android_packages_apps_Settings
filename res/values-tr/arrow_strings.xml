@@ -387,9 +387,9 @@
     <string name="wake_when_plugged_or_unplugged_title">Şarj takıldığında uyandır</string>
     <string name="wake_when_plugged_or_unplugged_summary">Şarj aletine takıldığında veya çıkarıldığında ekranı aç</string>
     <!-- Quick statusbar header battery percentage -->
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
-    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
+    <string name="qs_battery_percentage_title">Hızlı ayarlar pil yüzdesi</string>
+    <string name="qs_battery_percentage_summary">Pil tahmini yerine Hızlı ayarlar başlığında pil yüzdesini gösterir</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
-    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+    <string name="doze_on_charge_title">Şarj olurken her zaman açık</string>
+    <string name="doze_on_charge_summary">Şarj olurken her zaman doze ekranını göster</string>
 </resources>

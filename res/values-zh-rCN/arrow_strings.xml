@@ -316,7 +316,7 @@
     <plurals name="applock_summary">
         <item quantity="other">%d 个应用被锁定</item>
     </plurals>
-    <string name="keywords_applock_settings">应用锁，应用锁屏，应用锁，应用锁</string>
+    <string name="keywords_applock_settings">应用锁、应用锁、应用锁、应用锁</string>
     <!-- Statusbar Battery -->
     <string name="battery_style_title">电池图标样式</string>
     <string name="battery_style_summary">自定义电池图标，隐藏或显示百分比</string>
