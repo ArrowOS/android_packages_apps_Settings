@@ -365,7 +365,7 @@
     <string name="bluetooth_timeout">Χρονικό όριο Bluetooth</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Το Bluetooth θα απενεργοποιηθεί μετά από <xliff:g id="timeout_description">%1$s</xliff:g> εάν δεν υπάρχουν συνδεδεμένες συσκευές</string>
-    <string name="bluetooth_timeout_summary2">Μην απενεργοποιείτε αυτόματα το Bluetooth</string>
+    <string name="bluetooth_timeout_summary2">Να μην απενεργοποιείται αυτόματα το Bluetooth</string>
     <string name="bluetooth_timeout_summary_never">Ποτέ</string>
     <string name="bluetooth_timeout_summary_15secs">15 δευτερόλεπτα</string>
     <string name="bluetooth_timeout_summary_30secs">30 δευτερόλεπτα</string>

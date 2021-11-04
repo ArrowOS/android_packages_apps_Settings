@@ -387,9 +387,9 @@
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
     <!-- Quick statusbar header battery percentage -->
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
+    <string name="qs_battery_percentage_title">விஅ மின்கல சதவீதம்</string>
     <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
-    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+    <string name="doze_on_charge_title">மின்னேறும்போது எப்போதும் இயக்கு</string>
+    <string name="doze_on_charge_summary">மின்னேறும்போது சிறுதூக்கத் திரையை எந்நேரமும் காட்டு</string>
 </resources>

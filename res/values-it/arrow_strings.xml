@@ -391,5 +391,5 @@
     <string name="qs_battery_percentage_summary">Visualizza la percentuale della batteria invece dell\'autonomia stimata nel pannello dei Quick Settings</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Schermo sempre attivo durante la ricarica</string>
-    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+    <string name="doze_on_charge_summary">Mostra lo schermo doze tutto il tempo durante la ricarica</string>
 </resources>
