@@ -157,4 +157,15 @@
     <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">Monet Engine</string>
+    <string name="monet_engine_summary">Customise monet parameters</string>
+    <string name="monet_engine_custom_color_title">Use custom color</string>
+    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
+    <string name="monet_engine_color_override_title">Custom color</string>
+    <string name="monet_engine_white_luminance_user_title">White luminance</string>
+    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
+    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
+    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
 </resources>
