@@ -80,6 +80,12 @@
             android:title="@string/screen_zoom_title"
             android:fragment="com.android.settings.display.ScreenZoomSettings"
             settings:keywords="@string/keywords_display_size"/>
+
+        <Preference
+            android:key="monet_engine"
+            android:title="@string/monet_engine_title"
+            android:summary="@string/monet_engine_summary"
+            android:fragment="com.android.settings.display.MonetEngine"/>
     </PreferenceCategory>
 
     <PreferenceCategory
