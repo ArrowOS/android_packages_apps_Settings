@@ -172,5 +172,12 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
         </Preference>
+
+      <Preference
+            android:key="monet_engine"
+            android:title="@string/monet_engine_title"
+            android:summary="@string/monet_engine_summary"
+            android:fragment="com.android.settings.display.MonetEngine"/>
+
     </PreferenceCategory>
 </PreferenceScreen>
