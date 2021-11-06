@@ -170,4 +170,8 @@
     <!-- Power menu on lockscreen -->
     <string name="power_menu_hide_on_secure_title">Hide power menu on lock screen</string>
     <string name="power_menu_hide_on_secure_summary">This will hide the power menu only on a secure lock screen</string>
+
+    <!-- Tiles on secure keyguard -->
+    <string name="use_tiles_on_secure_keyguard_title">Require unlocking to use sensitive tiles</string>
+    <string name="use_tiles_on_secure_keyguard_summary">Ask to unlock lockscreen when using sensitive tiles</string>
 </resources>
