@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">जानकारी देखने के लिए दबाएं</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">ArrowOS आंकड़े</string>
+    <string name="arrow_stats_summary">बस डिवाइसेस की गिनती कर रहे जिन पर हम चलते हैं</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">न्यून्तम ताज़ा करने की दर</string>
+    <string name="max_refresh_rate_title">अधिकतम ताज़ा करने की दर</string>
+    <string name="battery_saver_refresh_rate_title">ताज़ा करने की दर कम करें</string>
+    <string name="battery_saver_refresh_rate_summary">बैटरी सेवर चालू होने पर पावर की बचत के लिए ६० हर्ट्ज ताज़ा करने की दर को इस्तेमाल करें</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">रिंगटोन और नोटिफिकेशनस ध्वनि को जोड़ दें</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">स्क्रीनशॉट के लिए स्वाइप करे</string>
+    <string name="three_finger_gesture_summary">स्क्रीनशॉट लेने के लिए स्क्रीन पर तीन अंगुलियों से नीचे स्वाइप करें</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">स्क्रीनशॉट ध्वनि</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">उन्नत पुनरारंभ सक्षम करें</string>
+    <string name="global_actions_advanced_reboot_summary">रिकवरी और बूटलोडर के लिए पावर मेन्यू में विकल्प दिखाएं</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Color balance</string>
+    <string name="color_mode_balance_red">Red strength</string>
+    <string name="color_mode_balance_green">Green strength</string>
+    <string name="color_mode_balance_blue">Blue strength</string>
+    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">निर्माण दिनांक</string>
+    <string name="arrow_version">ArrowOS version</string>
+    <string name="about_device_name">Device</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
+    <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
+    <!-- Display tap to wake custom summary -->
+    <string name="tap_to_wake_summary_arrow">Double-tap anywhere on the screen to wake or sleep device</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+</resources>

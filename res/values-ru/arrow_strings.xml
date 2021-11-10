@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Нажмите, чтобы показать информацию</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">Статистика ArrowOS</string>
+    <string name="arrow_stats_summary">Мы просто считаем на скольких устройствах используется ROM</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Минимальная частота обновления экрана</string>
+    <string name="max_refresh_rate_title">Максимальная частота обновления экрана</string>
+    <string name="battery_saver_refresh_rate_title">Уменьшить частоту обновления экрана</string>
+    <string name="battery_saver_refresh_rate_summary">Использовать частоту обновления экрана 60 Гц для экономии энергии при включенном режиме энергосбережения</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Связать громкость рингтона и уведомлений</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Свайп для создания скриншота</string>
+    <string name="three_finger_gesture_summary">Проведите вниз тремя пальцами для создания скриншота</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Звук скриншота</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Включить меню расширенной перезагрузки</string>
+    <string name="global_actions_advanced_reboot_summary">Показать параметры для рекавери (режима восстановления) и загрузчика в меню кнопки питания</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Цветовой баланс</string>
+    <string name="color_mode_balance_red">Уровень красного</string>
+    <string name="color_mode_balance_green">Уровень зеленого</string>
+    <string name="color_mode_balance_blue">Уровень синего</string>
+    <string name="keywords_color_balance">цвет, цветовой баланс, цветовая коррекция, красный, зеленый, синий, LiveDisplay</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">Дата сборки</string>
+    <string name="arrow_version">Версия ArrowOS</string>
+    <string name="about_device_name">Устройство</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Нажмите, чтобы перейти в режим сна</string>
+    <string name="double_tap_sleep_gesture_summary">Дважды коснитесь в любом месте строки состояния, чтобы перевести устройство в спящий режим</string>
+    <!-- Display tap to wake custom summary -->
+    <string name="tap_to_wake_summary_arrow">Дважды коснитесь в любом месте экрана, чтобы включить или выключить устройство</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Управление воспроизведением</string>
+    <string name="volume_button_music_control_summary">Когда экран выключен, долгое нажатие на кнопки громкости переключает композиции</string>
+</resources>

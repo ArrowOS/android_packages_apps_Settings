@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Antippen, um Info anzuzeigen</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">ArrowOS Statistiken</string>
+    <string name="arrow_stats_summary">Zählt nur auf wie vielen Geräten wir laufen</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Minimale Bildwiederholrate</string>
+    <string name="max_refresh_rate_title">Maximale Bildwiederholrate</string>
+    <string name="battery_saver_refresh_rate_title">Reduziere Bildwiederholrate</string>
+    <string name="battery_saver_refresh_rate_summary">60 Hz Bildwiederholrate verwenden, um Energie zu sparen, wenn der Energiesparmodus aktiviert ist</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Klingelton- und Benachrichtigungslautstärke verknüpfen</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Wischen für Screenshot</string>
+    <string name="three_finger_gesture_summary">Mit drei Fingern nach unten streichen, um einen Screenshot zu erstellen</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Screenshot-Auslöseton</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Erweitertes Neustart-Menü aktivieren</string>
+    <string name="global_actions_advanced_reboot_summary">Optionen für Recovery und Bootloader im Power-Menü anzeigen</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Farbbalance</string>
+    <string name="color_mode_balance_red">Sättigung Rot</string>
+    <string name="color_mode_balance_green">Sättigung Grün</string>
+    <string name="color_mode_balance_blue">Sättigung Blau</string>
+    <string name="keywords_color_balance">farbe, farbe, farbkorrektur, kalibrierung, rot, grün, blau, Livedisplay</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">Erstellungsdatum</string>
+    <string name="arrow_version">ArrowOS version</string>
+    <string name="about_device_name">Device</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Doppeltippen für Standby</string>
+    <string name="double_tap_sleep_gesture_summary">Statusleiste zweimal antippen, um das Gerät in den Standby-Modus zu versetzen</string>
+    <!-- Display tap to wake custom summary -->
+    <string name="tap_to_wake_summary_arrow">Doppeltippen Sie auf den Bildschirm, um das Gerät zu wecken oder es zu sperren</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+</resources>

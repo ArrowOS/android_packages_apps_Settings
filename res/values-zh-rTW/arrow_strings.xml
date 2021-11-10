@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">輕觸顯示詳細資料</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">ArrowOS 統計資訊</string>
+    <string name="arrow_stats_summary">僅計算我們運作的裝置數量</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">最低刷新率</string>
+    <string name="max_refresh_rate_title">最高刷新率</string>
+    <string name="battery_saver_refresh_rate_title">降低刷新率</string>
+    <string name="battery_saver_refresh_rate_summary">在省電模式開啟時使用 60 Hz 螢幕刷新率以減少電量消耗</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">連結 &amp; 鈴聲與通知音量</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">滑動以截取螢幕截圖</string>
+    <string name="three_finger_gesture_summary">三指下滑以截取螢幕截圖</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">螢幕截圖音效</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">啟動進階重啟選單</string>
+    <string name="global_actions_advanced_reboot_summary">在電源選單中顯示 Recovery 和 Bootloader 選項</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">色彩平衡</string>
+    <string name="color_mode_balance_red">紅色強度</string>
+    <string name="color_mode_balance_green">綠色強度</string>
+    <string name="color_mode_balance_blue">藍色強度</string>
+    <string name="keywords_color_balance">顏色、顏色平衡、顏色校正、紅色、綠色、藍色、LiveDisplay</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">編譯日期</string>
+    <string name="arrow_version">ArrowOS version</string>
+    <string name="about_device_name">Device</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">輕觸兩下關閉螢幕</string>
+    <string name="double_tap_sleep_gesture_summary">雙擊狀態列來關閉螢幕</string>
+    <!-- Display tap to wake custom summary -->
+    <string name="tap_to_wake_summary_arrow">在螢幕上任一處輕按兩下即可喚醒或休眠裝置</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+</resources>

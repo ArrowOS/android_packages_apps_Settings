@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Appuyez pour afficher les informations</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">Statistiques ArrowOS</string>
+    <string name="arrow_stats_summary">Nous comptons le nombre d’appareils sur lesquels notre Os est installé</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Taux de rafraîchissement minimum</string>
+    <string name="max_refresh_rate_title">Taux de rafraîchissement maximum</string>
+    <string name="battery_saver_refresh_rate_title">Réduire le taux de rafraîchissement</string>
+    <string name="battery_saver_refresh_rate_summary">Utilisez un taux de rafraîchissement d\'écran de 60 Hz pour économiser de l\'énergie lorsque l\'économiseur de batterie est activé</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Lier le volume de la sonnerie et des notifications</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Glisser pour prendre une capture d\'écran</string>
+    <string name="three_finger_gesture_summary">Balayez vers le bas avec trois doigts pour prendre une capture d’écran</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Son de capture d\'écran</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Activer le redémarrage avancé</string>
+    <string name="global_actions_advanced_reboot_summary">Afficher les options pour le mode recovery et le mode bootloader dans le menu marche/arrêt</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Balance de Couleur</string>
+    <string name="color_mode_balance_red">Rouge intense</string>
+    <string name="color_mode_balance_green">Vert intense</string>
+    <string name="color_mode_balance_blue">Bleu intense</string>
+    <string name="keywords_color_balance">couleurs, balance des couleurs, correction des couleurs, rouge, vert, bleu, LiveDisplay</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">Date de la version</string>
+    <string name="arrow_version">Version de ArrowOS</string>
+    <string name="about_device_name">Appareil</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Double appui pour mettre en veille</string>
+    <string name="double_tap_sleep_gesture_summary">Double tap n\'importe où sur la barre d\'état pour mettre l\'appareil en veille</string>
+    <!-- Display tap to wake custom summary -->
+    <string name="tap_to_wake_summary_arrow">« Appui double » n\'importe où sur l\'écran pour réveiller/mettre en veille l\'appareil</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Contrôle de lecture</string>
+    <string name="volume_button_music_control_summary">Quand l\'écran est étaint, un appui long sur les boutons volume change la chanson</string>
+</resources>
