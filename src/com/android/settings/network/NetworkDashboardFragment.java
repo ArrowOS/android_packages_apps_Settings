@@ -131,6 +131,7 @@ public class NetworkDashboardFragment extends DashboardFragment implements
         controllers.add(new TetherPreferenceController(context, lifecycle));
         controllers.add(vpnPreferenceController);
         controllers.add(new ProxyPreferenceController(context));
+        controllers.add(new CombinedSignalIconsPreferenceController (context));
         controllers.add(mobilePlanPreferenceController);
         if (wifiPreferenceController != null) {
             controllers.add(wifiPreferenceController);
