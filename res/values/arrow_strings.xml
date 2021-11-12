@@ -72,4 +72,8 @@
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume wake</string>
     <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+
+    <!--Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons">Combined signal icons in status bar</string>
+    <string name="combined_status_bar_signal_icons_summary">Show combined signal icons in status bar</string>
 </resources>
