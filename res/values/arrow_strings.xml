@@ -64,4 +64,15 @@
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Playback control</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+<<<<<<< HEAD
+=======
+
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Volume wake</string>
+    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+
+    <!--Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons">Combined signal icons in status bar</string>
+    <string name="combined_status_bar_signal_icons_summary">Show combined signal icons in status bar</string>
+>>>>>>> f0af3b70d6... Settings: Add an option whether to show combined signal icons in status bar (2/2)
 </resources>
