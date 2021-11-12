@@ -70,4 +70,8 @@
 
     <!-- Display customization category -->
     <string name="customization_category_title">Customization</string>
+
+    <!--Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons">Combined signal icons</string>
+    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons in status bar. Needs SystemUI restart or reboot</string>
 </resources>
