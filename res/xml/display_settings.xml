@@ -172,5 +172,12 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
         </Preference>
+
+        <com.arrow.support.preferences.SecureSettingSwitchPreference
+            android:key="show_combined_status_bar_signal_icons"
+            android:title="@string/combined_status_bar_signal_icons"
+            android:summary="@string/combined_status_bar_signal_icons_summary"
+            settings:controller="com.android.settings.display.CombinedSignalIconsPreferenceController"
+            android:defaultValue="false"" />
     </PreferenceCategory>
 </PreferenceScreen>
