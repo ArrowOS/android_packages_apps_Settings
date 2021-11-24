@@ -42,14 +42,18 @@
     <string name="keywords_color_balance">顏色、顏色平衡、顏色校正、紅色、綠色、藍色、LiveDisplay</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">編譯日期</string>
-    <string name="arrow_version">ArrowOS version</string>
-    <string name="about_device_name">Device</string>
+    <string name="arrow_version">ArrowOS 版本</string>
+    <string name="about_device_name">裝置</string>
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">輕觸兩下關閉螢幕</string>
     <string name="double_tap_sleep_gesture_summary">雙擊狀態列來關閉螢幕</string>
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">在螢幕上任一處輕按兩下即可喚醒或休眠裝置</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">播放控制</string>
+    <string name="volume_button_music_control_summary">螢幕關閉時，長按音量鍵即可切換曲目</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">狀態列項目</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">自定義</string>
 </resources>

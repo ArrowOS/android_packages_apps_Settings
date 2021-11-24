@@ -52,4 +52,8 @@
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Управление воспроизведением</string>
     <string name="volume_button_music_control_summary">Когда экран выключен, долгое нажатие на кнопки громкости переключает композиции</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Элементы строки состояния</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Пользовательские настройки</string>
 </resources>

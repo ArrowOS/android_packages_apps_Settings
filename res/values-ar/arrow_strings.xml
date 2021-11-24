@@ -20,36 +20,41 @@
     <string name="arrow_stats_title">إحصائيات ArrowOS</string>
     <string name="arrow_stats_summary">فقط عد عدد الأجهزة التي نعمل عليها</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
-    <string name="max_refresh_rate_title">Maximum refresh rate</string>
-    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
-    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+    <string name="min_refresh_rate_title">معدل تحديث الشاشة الأدنى
+معدل التحديث</string>
+    <string name="max_refresh_rate_title">معدل تحديث الشاشة الأدنى</string>
+    <string name="battery_saver_refresh_rate_title">تقليل معدل التحديث</string>
+    <string name="battery_saver_refresh_rate_summary">استخدام معدل تحديث الشاشة 60 هرتز لتوفير الطاقة عند تشغيل توفير البطارية</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">ربط مستوى صوت نغمة الرنين مع الاشعارات</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">اسحب لأخذ لقطة شاشة</string>
+    <string name="three_finger_gesture_summary">السحب لأسفل بثلاث أصابع لأخذ لقطة شاشة</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">صوت لقطة الشاشة</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">تمكين إعادة التشغيل المتقدمة</string>
-    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+    <string name="global_actions_advanced_reboot_summary">إظهار خيارات الاسترداد والبوتلودر في قائمة الطاقة</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
-    <string name="color_mode_balance_category">Color balance</string>
-    <string name="color_mode_balance_red">Red strength</string>
-    <string name="color_mode_balance_green">Green strength</string>
-    <string name="color_mode_balance_blue">Blue strength</string>
-    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+    <string name="color_mode_balance_category">توازن اللون</string>
+    <string name="color_mode_balance_red">شدة الاحمر</string>
+    <string name="color_mode_balance_green">شدة الأخضر</string>
+    <string name="color_mode_balance_blue">شدة الأزرق</string>
+    <string name="keywords_color_balance">اللون ، توازن اللون ، تصحيح اللون ، الأحمر ، الأخضر ، الأزرق ، الشاشة الحية</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">تاريخ الإنشاء</string>
-    <string name="arrow_version">ArrowOS version</string>
-    <string name="about_device_name">Device</string>
+    <string name="arrow_version">إصدار ArrowOS</string>
+    <string name="about_device_name">الجهاز</string>
     <!-- Double Tap to Sleep Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
-    <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
+    <string name="double_tap_sleep_gesture_title">النقر للنوم</string>
+    <string name="double_tap_sleep_gesture_summary">الضغط مرتين على شريط الحالة لقفل الجهاز</string>
     <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_arrow">Double-tap anywhere on the screen to wake or sleep device</string>
+    <string name="tap_to_wake_summary_arrow">انقر نقرا مزدوجًا على أي مكان بالشاشة لأيقاظ او لقفل الجهاز</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_title">التحكم في الموسيقى</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbar items</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Customization</string>
 </resources>

@@ -52,4 +52,8 @@
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Contrôle de lecture</string>
     <string name="volume_button_music_control_summary">Quand l\'écran est étaint, un appui long sur les boutons volume change la chanson</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Éléments de la barre d\'état</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Personnalisation</string>
 </resources>

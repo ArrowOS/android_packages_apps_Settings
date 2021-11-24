@@ -42,14 +42,18 @@
     <string name="keywords_color_balance">màu, cân bằng màu, chỉnh màu, đỏ, lục, lam, LiveDisplay</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">Ngày dựng</string>
-    <string name="arrow_version">ArrowOS version</string>
-    <string name="about_device_name">Device</string>
+    <string name="arrow_version">Phiên bản ArrowOS</string>
+    <string name="about_device_name">Thiết bị</string>
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Chạm để tắt màn hình</string>
     <string name="double_tap_sleep_gesture_summary">Nhấn đúp vào thanh trạng thái để tắt màn hình</string>
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">Nhấn đúp vào vị trí bất kỳ trên màn hình để đánh thức thiết bị</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Điều khiển phát lại</string>
+    <string name="volume_button_music_control_summary">Khi màn hình tắt, nhấn giữ nút âm lượng để chuyển bài</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Biểu tượng thanh trạng thái</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Tuỳ biến</string>
 </resources>

@@ -52,4 +52,8 @@
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Ovládání přehrávání</string>
     <string name="volume_button_music_control_summary">Pokud je obrazovka vypnutá, dlouhé stisknutí tlačítek hlasitosti přeskočí skladby</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Položky stavového řádku</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Přizpůsobení</string>
 </resources>

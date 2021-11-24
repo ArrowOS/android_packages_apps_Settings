@@ -42,14 +42,18 @@
     <string name="keywords_color_balance">warna, keseimbangan warna, koreksi warna, merah, hijau, biru, LiveDisplay</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">Tanggal pembuatan</string>
-    <string name="arrow_version">ArrowOS version</string>
-    <string name="about_device_name">Device</string>
+    <string name="arrow_version">Versi ArrowOS</string>
+    <string name="about_device_name">Perangkat</string>
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Ketuk dua kali untuk tidur</string>
     <string name="double_tap_sleep_gesture_summary">Ketuk dua kali pada bilah status untuk mematikan layar</string>
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">Ketuk dua kali di mana saja pada layar untuk membangunkan atau tidurkan perangkat</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Kontrol Pemutaran</string>
+    <string name="volume_button_music_control_summary">Ketika layar mati, tahan tombol volume untuk melewati trek musik</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Item bilah status</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Kustomisasi</string>
 </resources>

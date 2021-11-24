@@ -42,14 +42,18 @@
     <string name="keywords_color_balance">renk, renk dengesi, renk düzeltmesi, kırmızı, yeşil, mavi, LiveDisplay</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">İnşa tarihi</string>
-    <string name="arrow_version">ArrowOS version</string>
-    <string name="about_device_name">Device</string>
+    <string name="arrow_version">ArrowOS sürümü</string>
+    <string name="about_device_name">Cihaz</string>
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Uyutmak için dokunun</string>
     <string name="double_tap_sleep_gesture_summary">Cihazı uyutmak için durum çubuğunun herhangi bir yerine çift dokunun</string>
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">Cihazı uyandırmak veya uykutmak için ekranın herhangi bir yerine çift dokunun</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Oynatma kontrolü</string>
+    <string name="volume_button_music_control_summary">Ekran kapalıyken, ses tuşlarına uzun basmak şarkıyı değiştirir</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Durum çubuğu ögeleri</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Özelleştirme</string>
 </resources>

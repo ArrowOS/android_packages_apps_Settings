@@ -52,4 +52,8 @@
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">再生コントロール</string>
     <string name="volume_button_music_control_summary">画面消灯時に音量キーを長押しして曲をシークする</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">ステータスバーのアイコン</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">カスタマイズ</string>
 </resources>

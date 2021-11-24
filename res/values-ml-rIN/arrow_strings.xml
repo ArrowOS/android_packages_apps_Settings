@@ -18,38 +18,42 @@
     <string name="device_info_protected_single_press">കൂടുതല്‍ വിവരങ്ങള്‍ കാണിക്കൂക</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">ആരോ ഓഎസ് സ്ഥിതിവിവരക്കണക്കുകള്‍</string>
-    <string name="arrow_stats_summary">Just counting how many devices we run on</string>
+    <string name="arrow_stats_summary">ഞങ്ങൾ എത്ര ഉപകരണങ്ങളിൽ പ്രവർത്തിക്കുന്നു എന്ന് കണക്കാക്കുന്നു</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
-    <string name="max_refresh_rate_title">Maximum refresh rate</string>
-    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
-    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+    <string name="min_refresh_rate_title">പുതുക്കിയ നിരക്ക്</string>
+    <string name="max_refresh_rate_title">പരമാവധി പുതുക്കൽ നിരക്ക്</string>
+    <string name="battery_saver_refresh_rate_title">പുതുക്കൽ നിരക്ക് കുറയ്ക്കുക</string>
+    <string name="battery_saver_refresh_rate_summary">ബാറ്ററി സേവർ ഓണായിരിക്കുമ്പോൾ വൈദ്യുതി ലാഭിക്കാൻ 60 Hz സ്‌ക്രീൻ പുതുക്കൽ നിരക്ക് ഉപയോഗിക്കുക</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">റിംഗ് &amp; അറിയിപ്പ് വോളിയങ്ങൾ ഒന്നാക്കുക</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">സ്‌ക്രീൻഷോട്ട് എഡ്യൂക്കൻ മുകളിലേക്ക് സ്വൈപ്പ് ചെയ്യുക</string>
+    <string name="three_finger_gesture_summary">സ്ക്രീൻഷോട്ട് എടുക്കാൻ മൂന്ന് വിരലുകൾ ഉപയോഗിച്ച് താഴേക്ക് സ്വൈപ്പുചെയ്യുക</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">സ്‌ക്രീൻഷോട്ട് ശബ്ദം</string>
     <!-- Global Actions -->
-    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
-    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+    <string name="global_actions_advanced_reboot_title">ആധുനിക സജ്ജീകരണം പ്രാപ്തമാക്കുക</string>
+    <string name="global_actions_advanced_reboot_summary">പവർ മെനുവിൽ വീണ്ടെടുക്കലിനും ബൂട്ട്ലോഡറിനുമുള്ള ഓപ്ഷനുകൾ കാണിക്കുക</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
-    <string name="color_mode_balance_category">Color balance</string>
-    <string name="color_mode_balance_red">Red strength</string>
-    <string name="color_mode_balance_green">Green strength</string>
-    <string name="color_mode_balance_blue">Blue strength</string>
-    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+    <string name="color_mode_balance_category">കളർ ബാലൻസ്</string>
+    <string name="color_mode_balance_red">റെഡിൻഡെ ശക്തി</string>
+    <string name="color_mode_balance_green">പച്ച നിറത്തിലുള്ള ശക്തി</string>
+    <string name="color_mode_balance_blue">നീലയുടെ ശക്തി</string>
+    <string name="keywords_color_balance">നിറം, കളർ ബാലൻസ്, കളർ തിരുത്തൽ, ചുവപ്പ്, പച്ച, നീല, ലൈവ് ഡിസ്പ്ലേ</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">ബിൽഡ് തീയതി</string>
     <string name="arrow_version">ArrowOS version</string>
-    <string name="about_device_name">Device</string>
+    <string name="about_device_name">ഫോൺ</string>
     <!-- Double Tap to Sleep Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
-    <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
+    <string name="double_tap_sleep_gesture_title">ഉറങ്ങാൻ ടാപ്പ് ചെയ്യുക</string>
+    <string name="double_tap_sleep_gesture_summary">ഫോൺ ഉറങ്ങാൻ സ്റ്റാറ്റസ് ബാറിൽ ഡബിൾ ടാപ്പ് ചെയ്യുക</string>
     <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_arrow">Double-tap anywhere on the screen to wake or sleep device</string>
+    <string name="tap_to_wake_summary_arrow">ഉപകരണം ഉണർത്തുന്നതിനോ ഉറങ്ങുന്നതിനോ സ്ക്രീനിൽ എവിടെയും രണ്ടുതവണ ടാപ്പ് ചെയ്യുക</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">പ്ലേബാക്ക് നിയന്ത്രണം</string>
+    <string name="volume_button_music_control_summary">സ്‌ക്രീൻ ഓഫായിരിക്കുമ്പോൾ, വോളിയം കീകൾ ദീർഘനേരം അമർത്തുന്നത് സംഗീത ട്രാക്കുകൾ ഒഴിവാക്കും</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbar items</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Customization</string>
 </resources>

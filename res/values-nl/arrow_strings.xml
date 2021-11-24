@@ -42,14 +42,18 @@
     <string name="keywords_color_balance">kleurbalans, kleurcorrectie, rood, groen, blauw, LiveDisplay</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">Compileerdatum</string>
-    <string name="arrow_version">ArrowOS version</string>
-    <string name="about_device_name">Device</string>
+    <string name="arrow_version">ArrowOS versie</string>
+    <string name="about_device_name">Toestel</string>
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Dubbeltikken voor slaapstand</string>
     <string name="double_tap_sleep_gesture_summary">Dubbel tikken op de statusbalk om het apparaat in slaapstand te zetten</string>
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">Dubbeltikken op het scherm om apparaat te ontwaken of uit te schakelen</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Afspeelbediening</string>
+    <string name="volume_button_music_control_summary">Wanneer het scherm uit is, zal het langdurig drukken op de volume knoppen muzieknummers overslaan</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbalk items</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Aanpassingen</string>
 </resources>

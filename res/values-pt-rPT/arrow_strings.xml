@@ -42,14 +42,18 @@
     <string name="keywords_color_balance">cor, equilíbrio de cores, correção de cor, vermelho, verde, azul, Exibição ao vivo</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">Data de compilação</string>
-    <string name="arrow_version">ArrowOS version</string>
-    <string name="about_device_name">Device</string>
+    <string name="arrow_version">Versão do ArrowOS</string>
+    <string name="about_device_name">Dispositivo</string>
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Toque para desligar</string>
     <string name="double_tap_sleep_gesture_summary">Toque duplo na barra de estado para desligar o ecrã do dispositivo</string>
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">Toque duas vezes em qualquer lugar do ecrã para activar ou desactivar o dispositivo</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Controlo de reprodução</string>
+    <string name="volume_button_music_control_summary">Quando o ecrã está desligado, pressione longamente os botões de volume para alternar as faixas</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Itens da barra de estado</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Personalizar</string>
 </resources>

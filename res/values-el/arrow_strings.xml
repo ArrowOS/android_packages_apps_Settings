@@ -42,14 +42,18 @@
     <string name="keywords_color_balance">χρώμα, ισορροπία χρώματος, διόρθωση χρώματος, κόκκινο, πράσινο, μπλε, LiveDisplay</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">Ημερομηνία δημιουργίας</string>
-    <string name="arrow_version">ArrowOS version</string>
-    <string name="about_device_name">Device</string>
+    <string name="arrow_version">Έκδοση ArrowOS</string>
+    <string name="about_device_name">Συσκευή</string>
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Πατήστε για αναστολή</string>
     <string name="double_tap_sleep_gesture_summary">Διπλό πάτημα οπουδήποτε στη γραμμή κατάστασης για αναστολή της συσκευής</string>
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_arrow">Πατήστε δύο φορές οπουδήποτε στην οθόνη για να ξυπνήσετε ή να κοιμηθείτε</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Έλεγχος αναπαραγωγής</string>
+    <string name="volume_button_music_control_summary">Όταν η οθόνη είναι απενεργοποιημένη, πατώντας παρατεταμένα τα πλήκτρα έντασης θα παραλείψουν τα μουσικά κομμάτια</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbar items</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Customization</string>
 </resources>
