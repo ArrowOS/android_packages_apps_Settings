@@ -75,6 +75,7 @@ android_library {
         "lottie",
         "VendorSupport-preference",
         "powerusagefeaturegoogle",
+        "accountfeatureprovidergoogle",
     ],
 
     libs: [
@@ -135,5 +136,11 @@ filegroup {
 java_import {
     name: "powerusagefeaturegoogle",
     jars: ["libs/powerusagefeaturegoogle.jar"],
+    sdk_version: "current",
+}
+
+java_import {
+    name: "accountfeatureprovidergoogle",
+    jars: ["libs/accountfeatureprovidergoogle.jar"],
     sdk_version: "current",
 }
