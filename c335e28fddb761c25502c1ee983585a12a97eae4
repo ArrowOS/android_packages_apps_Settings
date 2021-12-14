@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "06de92bd_a56d7920",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 71
+      },
+      "writtenOn": "2021-12-14T20:25:51Z",
+      "side": 1,
+      "message": "Don\u0027t work, need checkout fw/base code",
+      "revId": "c335e28fddb761c25502c1ee983585a12a97eae4",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
