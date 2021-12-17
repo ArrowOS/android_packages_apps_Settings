@@ -47,13 +47,47 @@
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Нажмите, чтобы перейти в режим сна</string>
     <string name="double_tap_sleep_gesture_summary">Дважды коснитесь в любом месте строки состояния, чтобы перевести устройство в спящий режим</string>
-    <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_arrow">Дважды коснитесь в любом месте экрана, чтобы включить или выключить устройство</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Что делать</string>
+    <string name="double_tap_sleep_lockscreen_title">Выключать экран при двойном нажатии на экране блокировки</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Управление воспроизведением</string>
     <string name="volume_button_music_control_summary">Когда экран выключен, долгое нажатие на кнопки громкости переключает композиции</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Пробуждение кнопками громкости</string>
+    <string name="volume_rocker_wake_summary">Вывести устройство из спящего режима нажатием кнопок громкости</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Настройка вибрации при вызове</string>
+    <string name="incall_vibrate_connect_title">Вибрировать при ответе</string>
+    <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
+    <string name="incall_vibrate_disconnect_title">Вибрировать при отбое</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Элементы строки состояния</string>
     <!-- Display customization category -->
     <string name="customization_category_title">Пользовательские настройки</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Надоедливые уведомления</string>
+    <string name="notification_sound_vib_screen_on_summary">Воспроизводить звук и вибрацию при получении уведомлений когда экран включен</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Уменьшить количество всплывающих уведомлений</string>
+    <string name="less_boring_heads_up_summary">Быстро отключить всплывающие уведомления для всех приложений, но оставить их включенными для приложений набора номера и обмена сообщениями</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Включать фонарик при выключенном экране</string>
+    <string name="torch_power_button_gesture_none">Отключено</string>
+    <string name="torch_power_button_gesture_dt">Дважды нажмите кнопку питания (отключает функцию Быстрого открытия камеры и добавляет задержку пробуждения 170 мс)</string>
+    <string name="torch_power_button_gesture_lp">Долгое нажатие кнопки питания</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Предотвращать случайные пробуждения</string>
+    <string name="proximity_wake_summary">Проверить датчик приближения перед пробуждением экрана</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Платформа</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Всего доступно ОЗУ</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Сбросить статистику</string>
+    <string name="battery_stats_message">Статистика использования батареи будет сброшена</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Панель жестов</string>
+    <string name="show_navbar_gesture_bar_summary">Показывать панель жестов в нижней части экрана</string>
 </resources>

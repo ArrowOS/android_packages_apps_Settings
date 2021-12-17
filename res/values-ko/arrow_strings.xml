@@ -30,30 +30,64 @@
     <string name="three_finger_gesture">화면을 쓸어 스크린샷 찍기</string>
     <string name="three_finger_gesture_summary">화면을 세 손가락으로 쓸어내려 캡처합니다.</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">스크린샷 촬영음</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">고급 다시 시작 사용</string>
-    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+    <string name="global_actions_advanced_reboot_summary">전원 메뉴에 복구 모드와 부트로더로 다시 시작 옵션을 표시합니다..</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
-    <string name="color_mode_balance_category">Color balance</string>
-    <string name="color_mode_balance_red">Red strength</string>
-    <string name="color_mode_balance_green">Green strength</string>
-    <string name="color_mode_balance_blue">Blue strength</string>
-    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+    <string name="color_mode_balance_category">색상 밸런스</string>
+    <string name="color_mode_balance_red">빨간색 강도</string>
+    <string name="color_mode_balance_green">초록색 강도</string>
+    <string name="color_mode_balance_blue">파란색 강도</string>
+    <string name="keywords_color_balance">색상, 색상 밸런스, 색상 교정, 빨간색, 초록색, 파란색, 라이브디스플레이</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">빌드 날짜</string>
-    <string name="arrow_version">ArrowOS version</string>
-    <string name="about_device_name">Device</string>
+    <string name="arrow_version">ArrowOS 버전</string>
+    <string name="about_device_name">기기</string>
     <!-- Double Tap to Sleep Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
-    <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
-    <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_arrow">화면을 두 번 터치하여 기기의 대기 모드를 해제합니다.</string>
+    <string name="double_tap_sleep_gesture_title">두 번 탭하여 화면 끄기</string>
+    <string name="double_tap_sleep_gesture_summary">상태 표시줄을 두 번 탭하여 화면을 끕니다.</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">What to do</string>
+    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">재생 제어</string>
+    <string name="volume_button_music_control_summary">화면이 꺼져 있을 때, 음량 버튼을 길게 눌러 곡을 넘깁니다.</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">음량 버튼 화면 켜기</string>
+    <string name="volume_rocker_wake_summary">음량 버튼을 눌러 화면을 켭니다.</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">통화 중 진동 옵션</string>
+    <string name="incall_vibrate_connect_title">통화 연결 시 진동</string>
+    <string name="incall_vibrate_call_wait_title">통화 대기 시 진동</string>
+    <string name="incall_vibrate_disconnect_title">통화 종료 시 진동</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">상태 표시줄 항목</string>
     <!-- Display customization category -->
-    <string name="customization_category_title">Customization</string>
+    <string name="customization_category_title">사용자 설정</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">알림음 중 진동</string>
+    <string name="notification_sound_vib_screen_on_summary">화면이 켜져 있을 때 알림에 소리 및 진동 동시 사용</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">헤드업 알림 방해 금지</string>
+    <string name="less_boring_heads_up_summary">전화와 메시지를 제외한 모든 헤드업 알림이 꺼집니다.</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">화면이 꺼져있을 때 손전등 사용</string>
+    <string name="torch_power_button_gesture_none">사용 안 함</string>
+    <string name="torch_power_button_gesture_dt">전원 버튼 두 번 누르기 (카메라 빠른 실행 옵션이 꺼지고, 화면 약 0.2초 느리게 켜짐)</string>
+    <string name="torch_power_button_gesture_lp">전원 버튼 길게 누르기</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">실수로 화면 켜기 방지</string>
+    <string name="proximity_wake_summary">화면을 두 번 탭하여 켤 때 근접 센서를 확인합니다.</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">플랫폼</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">RAM 용량</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">기록 초기화</string>
+    <string name="battery_stats_message">배터리 사용 기록을 초기화합니다</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Gesture bar</string>
+    <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
 </resources>

@@ -30,7 +30,7 @@
     <string name="three_finger_gesture">Scorri per fare uno screenshot</string>
     <string name="three_finger_gesture_summary">Scorri in giù con tre dita per scattare uno screenshot</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">Suono screenshot</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Abilita riavvio avanzato</string>
     <string name="global_actions_advanced_reboot_summary">Mostra le opzioni per recupero e bootloader nel menù di spegnimento</string>
@@ -42,18 +42,52 @@
     <string name="keywords_color_balance">colore, bilanciamento colore, correzione colore, rosso, verde, blu, LiveDisplay</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">Data di compilazione</string>
-    <string name="arrow_version">ArrowOS version</string>
-    <string name="about_device_name">Device</string>
+    <string name="arrow_version">Versione ArrowOS</string>
+    <string name="about_device_name">Dispositivo</string>
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Tocca per sospendere</string>
     <string name="double_tap_sleep_gesture_summary">Doppio tocco sulla barra di stato per spegnere lo schermo</string>
-    <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_arrow">Tocca due volte qualsiasi punto dello schermo per riattivare o sospendere il dispositivo</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Cosa fare</string>
+    <string name="double_tap_sleep_lockscreen_title">Doppio tocco sulla schermata di blocco per spegnere lo schermo</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Controllo riproduzione</string>
+    <string name="volume_button_music_control_summary">Quando lo schermo è spento, la pressione prolungata dei tasti del volume cambierà le tracce musicali</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Risveglio tramite tasti volume</string>
+    <string name="volume_rocker_wake_summary">Risveglia il dispositivo premendo i tasti del volume</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opzioni vibrazione in chiamata</string>
+    <string name="incall_vibrate_connect_title">Vibra alla risposta</string>
+    <string name="incall_vibrate_call_wait_title">Vibra per chiamate in attesa</string>
+    <string name="incall_vibrate_disconnect_title">Vibra alla chiusura</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">Elementi della barra di stato</string>
     <!-- Display customization category -->
-    <string name="customization_category_title">Customization</string>
+    <string name="customization_category_title">Personalizzazione</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Notifiche fastidiose</string>
+    <string name="notification_sound_vib_screen_on_summary">Riproduci il suono e la vibrazione delle notifiche quando lo schermo è acceso</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Notifiche fluttuanti saner</string>
+    <string name="less_boring_heads_up_summary">Disattiva velocemente tutte le notifiche fluttuanti tranne che per Telefono e Messaggi</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Attiva/disattiva la torcia quando lo schermo è spento</string>
+    <string name="torch_power_button_gesture_none">Disabilitato</string>
+    <string name="torch_power_button_gesture_dt">Premi due volte il pulsante di accensione (Disattiva la funzione di aprire rapidamente la fotocamera e aggiunge un ritardo di risveglio di 170ms)</string>
+    <string name="torch_power_button_gesture_lp">Pressione prolungata sul tasto di accensione</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Previeni risveglio accidentale</string>
+    <string name="proximity_wake_summary">Controllare il sensore di prossimità prima di risvegliare lo schermo dal doppio tocco 2 gesto di risveglio</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Piattaforma</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">RAM disponibile</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Resetta statistiche</string>
+    <string name="battery_stats_message">Le statistiche della batteria stanno per essere resettate</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Barra dei gesti</string>
+    <string name="show_navbar_gesture_bar_summary">Mostra la barra dei gesti nella parte inferiore dello schermo</string>
 </resources>

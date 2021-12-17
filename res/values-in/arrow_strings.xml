@@ -32,7 +32,7 @@
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Suara tangkapan layar</string>
     <!-- Global Actions -->
-    <string name="global_actions_advanced_reboot_title">Aktifkan pengaturan lanjutan</string>
+    <string name="global_actions_advanced_reboot_title">Aktifkan mulai ulang lanjutan</string>
     <string name="global_actions_advanced_reboot_summary">Tampilkan opsi untuk mode pemulihan dan bootloader di menu daya</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
     <string name="color_mode_balance_category">Keseimbangan warna</string>
@@ -47,13 +47,47 @@
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Ketuk dua kali untuk tidur</string>
     <string name="double_tap_sleep_gesture_summary">Ketuk dua kali pada bilah status untuk mematikan layar</string>
-    <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_arrow">Ketuk dua kali di mana saja pada layar untuk membangunkan atau tidurkan perangkat</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Apa yang harus dilakukan</string>
+    <string name="double_tap_sleep_lockscreen_title">Ketuk dua kali layar kunci untuk mematikan layar</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Kontrol Pemutaran</string>
     <string name="volume_button_music_control_summary">Ketika layar mati, tahan tombol volume untuk melewati trek musik</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Volume membangunkan</string>
+    <string name="volume_rocker_wake_summary">Membangunkan perangkat Anda dengan menekan tombol volume</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opsi getar dalam panggilan</string>
+    <string name="incall_vibrate_connect_title">Bergetar saat terhubung</string>
+    <string name="incall_vibrate_call_wait_title">Bergetar saat menunggu panggilan</string>
+    <string name="incall_vibrate_disconnect_title">Bergetar saat terputus</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Item bilah status</string>
     <!-- Display customization category -->
     <string name="customization_category_title">Kustomisasi</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Notifikasi Mengganggu</string>
+    <string name="notification_sound_vib_screen_on_summary">Memutar suara dan getaran untuk notifikasi ketika layar hidup</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Kurangi notifikasi mengambang</string>
+    <string name="less_boring_heads_up_summary">Nonaktifkan notifikasi mengambang dengan cepat untuk semua aplikasi tetapi tetap aktif untuk aplikasi telepon dan pesan</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Tombol aktifkan/matikan senter saat layar mati</string>
+    <string name="torch_power_button_gesture_none">Dinonaktifkan</string>
+    <string name="torch_power_button_gesture_dt">Tekan dua kali tombol daya (Menonaktifkan buka fitur kamera dengan cepat dan tambahkan penundaan bangun 170ms)</string>
+    <string name="torch_power_button_gesture_lp">Tekan lama tombol daya</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Mencegah bangun yang tidak disengaja</string>
+    <string name="proximity_wake_summary">Periksa sensor jarak sebelum layar bangun dari gestur Bangun Ketuk Dua Kali</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total RAM tersedia</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Setel ulang statistik</string>
+    <string name="battery_stats_message">Statistik penggunaan baterai akan disetel ulang</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Bilah gestur</string>
+    <string name="show_navbar_gesture_bar_summary">Tampilkan bilah gestur di bagian bawah layar</string>
 </resources>

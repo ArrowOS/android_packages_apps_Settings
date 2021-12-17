@@ -47,13 +47,47 @@
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">点按休眠</string>
     <string name="double_tap_sleep_gesture_summary">双击状态栏的任何位置来关闭屏幕</string>
-    <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_arrow">双击屏幕上的任意位置以唤醒或休眠设备</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">要做什么</string>
+    <string name="double_tap_sleep_lockscreen_title">在锁屏界面双击屏幕休眠</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">播放控制</string>
     <string name="volume_button_music_control_summary">屏幕关闭时，长按音量键来切换不同曲目</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">音量键唤醒</string>
+    <string name="volume_rocker_wake_summary">使用音量键唤醒您的设备</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">通话振动选项</string>
+    <string name="incall_vibrate_connect_title">接通时振动</string>
+    <string name="incall_vibrate_call_wait_title">呼叫等待时振动</string>
+    <string name="incall_vibrate_disconnect_title">挂断时振动</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">状态栏图标</string>
+    <string name="statusbar_items_title">状态栏项目</string>
     <!-- Display customization category -->
-    <string name="customization_category_title">定制</string>
+    <string name="customization_category_title">自定义</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">烦人的通知</string>
+    <string name="notification_sound_vib_screen_on_summary">当屏幕开启时播放声音和振动通知</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">减少浮动通知</string>
+    <string name="less_boring_heads_up_summary">快速禁用除了拨号程序和短信之外的所有应用的浮动通知</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">关闭屏幕时开启手电筒</string>
+    <string name="torch_power_button_gesture_none">已禁用</string>
+    <string name="torch_power_button_gesture_dt">双击电源键 (禁用快速打开相机功能并添加 170毫秒唤醒延迟)</string>
+    <string name="torch_power_button_gesture_lp">长按电源键</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">防止意外唤醒</string>
+    <string name="proximity_wake_summary">双击唤醒屏幕前检查距离传感器</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">平台</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">总计可用内存</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">重置统计数据</string>
+    <string name="battery_stats_message">电池的历史统计数据将会被重置</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">手势栏</string>
+    <string name="show_navbar_gesture_bar_summary">在屏幕底部显示手势栏</string>
 </resources>

@@ -47,13 +47,47 @@
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Toque para desligar</string>
     <string name="double_tap_sleep_gesture_summary">Toque duplo na barra de status para colocar o dispositivo para dormir</string>
-    <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_arrow">Toque duas vezes em qualquer lugar da tela para acordar ou desligar o dispositivo</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">What to do</string>
+    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Controle de reprodução</string>
     <string name="volume_button_music_control_summary">Quando a tela estiver desligada, pressione e segure as teclas de volume para pular de música</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Acordar com os botões de volume</string>
+    <string name="volume_rocker_wake_summary">Acorde o seu dispositivo pressionando as teclas de volume</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opções de vibração durante a chamada</string>
+    <string name="incall_vibrate_connect_title">Vibrar ao conectar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar ao desconectar</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Ícones da barra de status</string>
     <!-- Display customization category -->
     <string name="customization_category_title">Personalização</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Saner Heads-Up</string>
+    <string name="less_boring_heads_up_summary">Quickly disable heads up for all apps but keep them enabled for dialer and messaging apps</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Ligar/Desligar a lanterna quando a tela estiver desligada</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double press power button (Disables Quickly open camera feature and adds 170ms wakeup delay)</string>
+    <string name="torch_power_button_gesture_lp">Segurar botão Liga/Desliga</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen from Double Tap 2 Wake gesture</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total de RAM disponível</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Resetar estatísticas</string>
+    <string name="battery_stats_message">As estatísticas do histórico da bateria serão redefinidas</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Gesture bar</string>
+    <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
 </resources>

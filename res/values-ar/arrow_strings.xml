@@ -48,13 +48,47 @@
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">النقر للنوم</string>
     <string name="double_tap_sleep_gesture_summary">الضغط مرتين على شريط الحالة لقفل الجهاز</string>
-    <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_arrow">انقر نقرا مزدوجًا على أي مكان بالشاشة لأيقاظ او لقفل الجهاز</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">What to do</string>
+    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">التحكم في الموسيقى</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_summary">عندما تكون الشاشة مغلقة، فإن الضغط المطول على مفاتيح الصوت سينتقل بك لمسار موسيقى آخر</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">الصوت قيد التشغيل</string>
+    <string name="volume_rocker_wake_summary">نشط جهازك بالضغط على مفاتيح الصوت</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">إعدادات الرجاج أثناء المكالمة</string>
+    <string name="incall_vibrate_connect_title">الإهتزاز عند الإتصال</string>
+    <string name="incall_vibrate_call_wait_title">الإهتزاز عند انتظار المكالمة</string>
+    <string name="incall_vibrate_disconnect_title">الإهتزاز عند قطع الإتصال</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">عنـاصر شريط الإشعارات</string>
     <!-- Display customization category -->
-    <string name="customization_category_title">Customization</string>
+    <string name="customization_category_title">التخصيصات</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">الإشعارات المزعجة</string>
+    <string name="notification_sound_vib_screen_on_summary">تشغيل الصوت والاهتزاز للإشعارات بينما تكون الشاشة قيد التشغيل</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">تفعيل العقل</string>
+    <string name="less_boring_heads_up_summary">تعطيل التنبيهات العلوية لجميع التطبيقات بسرعة ولكن إبقائها مفعلة لتطبيقات الاتصال والرسائل</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">استخدام المصباح عند إيقاف الشاشة</string>
+    <string name="torch_power_button_gesture_none">مُعطّل</string>
+    <string name="torch_power_button_gesture_dt">الضغط المزدوج على زر الطاقة (تعطيل ميزة الكاميرا المفتوحة بسرعة ويضيف 170ملم بالثانية تأخير إيقاظ)</string>
+    <string name="torch_power_button_gesture_lp">الضغط مطولاً على زر الطاقة</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">منع التنشيط الخاطئ</string>
+    <string name="proximity_wake_summary">تحقق من مستشعر القرب قبل استيقاظ الشاشة من إيماءة الإيقاظ بالنقر المزدوج 2</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total available RAM</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Gesture bar</string>
+    <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
 </resources>

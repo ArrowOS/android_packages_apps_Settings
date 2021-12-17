@@ -47,13 +47,47 @@
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">タップでスリープ</string>
     <string name="double_tap_sleep_gesture_summary">ステータスバーの任意の場所をダブルタップして端末をスリープさせる</string>
-    <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_arrow">画面をダブルタップすると端末が復帰/スリープします</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">予定</string>
+    <string name="double_tap_sleep_lockscreen_title">ロック画面のダブルタップでスリープ</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">再生コントロール</string>
     <string name="volume_button_music_control_summary">画面消灯時に音量キーを長押しして曲をシークする</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">音量キーでスリープ解除</string>
+    <string name="volume_rocker_wake_summary">音量キーを押して端末をスリープ解除する</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">通話中の振動オプション</string>
+    <string name="incall_vibrate_connect_title">接続時に振動</string>
+    <string name="incall_vibrate_call_wait_title">割込通話時に振動</string>
+    <string name="incall_vibrate_disconnect_title">切断時に振動</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">ステータスバーのアイコン</string>
     <!-- Display customization category -->
     <string name="customization_category_title">カスタマイズ</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">不必要な通知</string>
+    <string name="notification_sound_vib_screen_on_summary">画面点灯中に通知を受信した時に通知音とバイブを鳴らす</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">不必要な Heads Up</string>
+    <string name="less_boring_heads_up_summary">全てのアプリの Heads Up を即時に無効化し、電話アプリとメッセージアプリは有効化のままにする。</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">画面消灯時のライト切り替え</string>
+    <string name="torch_power_button_gesture_none">無効</string>
+    <string name="torch_power_button_gesture_dt">電源ボタンを2回押し (カメラを素早く起動する機能は無効化され復帰が170ミリ秒遅延します)</string>
+    <string name="torch_power_button_gesture_lp">電源ボタンを長押し</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">誤起動を防止</string>
+    <string name="proximity_wake_summary">ダブルタップで復帰する機能で画面が復帰する前に近接センサーを確認する</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">プラットフォーム</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">合計利用可能 RAM</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">統計をリセット</string>
+    <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">ジェスチャーバー</string>
+    <string name="show_navbar_gesture_bar_summary">ジェスチャーバーを画面の下部に表示する</string>
 </resources>

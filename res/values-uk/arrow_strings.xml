@@ -47,13 +47,47 @@
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Торкніться для сну</string>
     <string name="double_tap_sleep_gesture_summary">Двічі торкніться рядка стану, щоб перевести пристрій у сплячий режим</string>
-    <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_arrow">Двічі торкніться будь-якого місця на екрані, щоб увімкнути або вимкнути пристрій</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Що робити</string>
+    <string name="double_tap_sleep_lockscreen_title">Подвійне натискання для засинання на екрані блокування</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Управління відтворенням</string>
     <string name="volume_button_music_control_summary">Коли екран вимкнений, тривале натискання клавіш регулювання гучності буде перемикати музичні композиції</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Пробудження гучності</string>
+    <string name="volume_rocker_wake_summary">Вимкніть пристрій, натиснувши клавіші гучності</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Параметри вібрації під час дзвінка</string>
+    <string name="incall_vibrate_connect_title">Вібрація при з\'єднанні</string>
+    <string name="incall_vibrate_call_wait_title">Вібрувати при паралельному виклику</string>
+    <string name="incall_vibrate_disconnect_title">Вібрація при роз\'єднанні</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Елементи рядку стану</string>
     <!-- Display customization category -->
     <string name="customization_category_title">Персоналізація</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Набридливі сповіщення</string>
+    <string name="notification_sound_vib_screen_on_summary">Відтворювання звуку та вібрації для сповіщень при увімкненому екрані</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Зменшити кількість спливаючих сповіщень</string>
+    <string name="less_boring_heads_up_summary">Швидко вимкнути спливаючі сповіщення для всіх програм, але зменшити їх увімкненими для дзвінків і програм обміну повідомлень</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Увімкніть ліхтарик, коли екран вимкнено</string>
+    <string name="torch_power_button_gesture_none">Вимкнено</string>
+    <string name="torch_power_button_gesture_dt">Подвійне натискання кнопки живлення (вимикає функцію швидкого відкриття камери та додає затримку пробудження на 170 мс)</string>
+    <string name="torch_power_button_gesture_lp">Довге натискання кнопки живлення</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Запобігання випадкового пробудження</string>
+    <string name="proximity_wake_summary">Перевірити датчик наближення, перш ніж пробудити екран</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Платформа</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Усього доступно ОЗП</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Скинути статистику</string>
+    <string name="battery_stats_message">Історію використання батареї буде скинуто</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Панель жестів</string>
+    <string name="show_navbar_gesture_bar_summary">Показувати панель жестів внизу екрану</string>
 </resources>

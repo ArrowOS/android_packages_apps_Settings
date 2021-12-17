@@ -47,13 +47,47 @@
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Uyutmak için dokunun</string>
     <string name="double_tap_sleep_gesture_summary">Cihazı uyutmak için durum çubuğunun herhangi bir yerine çift dokunun</string>
-    <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_arrow">Cihazı uyandırmak veya uykutmak için ekranın herhangi bir yerine çift dokunun</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Ne Yapılsın</string>
+    <string name="double_tap_sleep_lockscreen_title">Kilit ekranında uyutmak için çift dokunun</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Oynatma kontrolü</string>
-    <string name="volume_button_music_control_summary">Ekran kapalıyken, ses tuşlarına uzun basmak şarkıyı değiştirir</string>
+    <string name="volume_button_music_control_summary">Ekran kapalıyken, ses tuşlarına uzun basarak şarkıyı değiştir</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Ses tuşlarıyla uyandır</string>
+    <string name="volume_rocker_wake_summary">Ses tuşlarına basıldığında cihazı uyandır</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Arama titreşimi</string>
+    <string name="incall_vibrate_connect_title">Bağlandığında titret</string>
+    <string name="incall_vibrate_call_wait_title">Arama bekletildiğinde titret</string>
+    <string name="incall_vibrate_disconnect_title">Bağlantı kesildiğinde titret</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Durum çubuğu ögeleri</string>
     <!-- Display customization category -->
     <string name="customization_category_title">Özelleştirme</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Sıkıcı bildirimler</string>
+    <string name="notification_sound_vib_screen_on_summary">Ekran açıkken bildirimler için ses ve titreşim çalın</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Daha az Bildirim pencereleri</string>
+    <string name="less_boring_heads_up_summary">Tüm uygulamalar için bildirim pencerelerini dışı bırakır, sadece arama ve mesajlaşma uygulamaları için göstermeye devam eder</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Ekran kapalıyken fener aç</string>
+    <string name="torch_power_button_gesture_none">Devre dışı</string>
+    <string name="torch_power_button_gesture_dt">Güç tuşuna iki kez basın (Hızlı kamera açma özelliğini devre dışı bırakır ve 170s uyanma gecikmesi ekler)</string>
+    <string name="torch_power_button_gesture_lp">Güç tuşuna uzun basın</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Yanlışlıkla uyandırmayı önle</string>
+    <string name="proximity_wake_summary">Çift dokunuş hareketiyle ekranı uyandırmadan önce yakınlık sensörünü kontrol edin</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Toplam kullanılabilir RAM</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">İstatistikleri sıfırla</string>
+    <string name="battery_stats_message">Pil geçmişi istatistikleri sıfırlanacak</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Hareket çubuğu</string>
+    <string name="show_navbar_gesture_bar_summary">Ekranın altında hareket çubuğunu göster</string>
 </resources>

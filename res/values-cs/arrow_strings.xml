@@ -47,13 +47,47 @@
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Klepnutím uspat</string>
     <string name="double_tap_sleep_gesture_summary">Dvojí poklepání kdekoliv na stavový řádek uvede zařízení do režimu spánku</string>
-    <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_arrow">Dvojitým klepnutím kamkoli na obrazovku zařízení probudíte nebo uspíte</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Co dělat</string>
+    <string name="double_tap_sleep_lockscreen_title">Dvojitým poklepáním na zamykací obrazovku uspat zařízení</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Ovládání přehrávání</string>
     <string name="volume_button_music_control_summary">Pokud je obrazovka vypnutá, dlouhé stisknutí tlačítek hlasitosti přeskočí skladby</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Probudit tlačítky hlasitosti</string>
+    <string name="volume_rocker_wake_summary">Probudit zařízení stisknutím tlačítek hlasitosti</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Možnosti vibrací při volání</string>
+    <string name="incall_vibrate_connect_title">Zavibrovat při spojení</string>
+    <string name="incall_vibrate_call_wait_title">Zavibrovat při dalším hovoru</string>
+    <string name="incall_vibrate_disconnect_title">Zavibrovat při zavěšení</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Položky stavového řádku</string>
     <!-- Display customization category -->
     <string name="customization_category_title">Přizpůsobení</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Obtěžující oznámení</string>
+    <string name="notification_sound_vib_screen_on_summary">Přehrát zvuk a vibrovat při přijetí oznámení, když je obrazovka zapnutá</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Méně obtěžující plovoucí oznámení</string>
+    <string name="less_boring_heads_up_summary">Rychle vypne plovoucí oznámení pro všechny aplikace, ale ponechá je zapnuté pro aplikace Telefon a Zprávy</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Přepnutí svítilny při vypnuté obrazovce</string>
+    <string name="torch_power_button_gesture_none">Vypnuto</string>
+    <string name="torch_power_button_gesture_dt">Dvojité stisknutí tlačítka napájení (vypne funkci rychlého otevření fotoaparátu a přidá 170ms zpoždění)</string>
+    <string name="torch_power_button_gesture_lp">Dlouhým stiskem tlačítka napájení</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Zabránit nechtěnému probuzení</string>
+    <string name="proximity_wake_summary">Kontrola snímače přiblížení před probuzením obrazovky z gesta dvojitého klepnutí pro probuzení</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platforma</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Celková dostupná paměť RAM</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Vynulovat statistiky</string>
+    <string name="battery_stats_message">Historie statistiky baterie bude vynulovaná</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Panel gest</string>
+    <string name="show_navbar_gesture_bar_summary">Zobrazit panel gesta v dolní části obrazovky</string>
 </resources>
