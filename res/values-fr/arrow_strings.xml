@@ -90,4 +90,6 @@
     <!-- Navigation bar hint -->
     <string name="show_navbar_gesture_bar_title">Barre de navigation</string>
     <string name="show_navbar_gesture_bar_summary">Afficher la barre de navigation en bas de l\'écran</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Ecouteurs enregistrés</string>
 </resources>

@@ -48,7 +48,7 @@
     <string name="double_tap_sleep_gesture_title">Uyutmak için dokunun</string>
     <string name="double_tap_sleep_gesture_summary">Cihazı uyutmak için durum çubuğunun herhangi bir yerine çift dokunun</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">Ne Yapılsın</string>
+    <string name="lockscreen_tweaks_category_title">Ne yapılsın</string>
     <string name="double_tap_sleep_lockscreen_title">Kilit ekranında uyutmak için çift dokunun</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Oynatma kontrolü</string>
@@ -90,4 +90,6 @@
     <!-- Navigation bar hint -->
     <string name="show_navbar_gesture_bar_title">Hareket çubuğu</string>
     <string name="show_navbar_gesture_bar_summary">Ekranın altında hareket çubuğunu göster</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Kayıtlı kulaklıklar</string>
 </resources>

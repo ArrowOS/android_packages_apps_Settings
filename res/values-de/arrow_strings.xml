@@ -48,46 +48,48 @@
     <string name="double_tap_sleep_gesture_title">Doppeltippen für Standby</string>
     <string name="double_tap_sleep_gesture_summary">Statusleiste zweimal antippen, um das Gerät in den Standby-Modus zu versetzen</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">What to do</string>
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <string name="lockscreen_tweaks_category_title">Was wird getan</string>
+    <string name="double_tap_sleep_lockscreen_title">Doppeltipp auf dem Sperrbildschirm, um den Bildschirm auszuschalten</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Wiedergabesteuerung</string>
     <string name="volume_button_music_control_summary">Bei ausgeschaltetem Bildschirm wird durch langes Drücken der Lautstärketaste der Musiktitel übersprungen</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
-    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    <string name="volume_rocker_wake_title">Lautstärketasten wecken das Gerät</string>
+    <string name="volume_rocker_wake_summary">Das Gerät wird durch Drücken der Lautstärketasten aufgeweckt</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">Vibrationseinstellungen während eines Anrufs</string>
+    <string name="incall_vibrate_connect_title">Vibriere beim Verbinden</string>
+    <string name="incall_vibrate_call_wait_title">Vibriere beim Anklopfen</string>
+    <string name="incall_vibrate_disconnect_title">Vibriere beim Beenden des Anrufs</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Elemente der Statusleiste</string>
     <!-- Display customization category -->
     <string name="customization_category_title">Anpassung</string>
     <!-- Annoying Notifications -->
-    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">Störende Benachrichtigungen</string>
+    <string name="notification_sound_vib_screen_on_summary">Wiedergabe von Ton und Vibration für Benachrichtigungen bei eingeschaltetem Bildschirm</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Saner Heads-Up</string>
-    <string name="less_boring_heads_up_summary">Quickly disable heads up for all apps but keep them enabled for dialer and messaging apps</string>
+    <string name="less_boring_heads_up_title">Weniger Toast-Benachrichtigungen</string>
+    <string name="less_boring_heads_up_summary">Heads-Up schnell für alle Apps deaktivieren, aber für Telefon- und Messaging-Apps aktiviert lassen</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double press power button (Disables Quickly open camera feature and adds 170ms wakeup delay)</string>
-    <string name="torch_power_button_gesture_lp">Long press power button</string>
+    <string name="torch_power_button_gesture_title">Taschenlampe bei ausgeschaltetem Bildschirm ein-/ausschalten</string>
+    <string name="torch_power_button_gesture_none">Deaktiviert</string>
+    <string name="torch_power_button_gesture_dt">Drücken Sie zweimal die Ein/Aus-Taste (Deaktiviert die Funktion \"Kamera schnell öffnen\" und fügt eine Aufwachverzögerung von 170 ms hinzu)</string>
+    <string name="torch_power_button_gesture_lp">Ein/Aus-Taste lange drücken</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen from Double Tap 2 Wake gesture</string>
+    <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
+    <string name="proximity_wake_summary">Überprüfen Sie den Näherungssensor, bevor Sie den Bildschirm mit der Doppeltippgeste aktivieren</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
+    <string name="platform_revision">Plattform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total available RAM</string>
+    <string name="total_ram">Insgesamt verfügbarer RAM</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">Statistiken zurücksetzen</string>
+    <string name="battery_stats_message">Akkustatistiken werden zurückgesetzt</string>
     <!-- Navigation bar hint -->
-    <string name="show_navbar_gesture_bar_title">Gesture bar</string>
-    <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
+    <string name="show_navbar_gesture_bar_title">Gestenleiste</string>
+    <string name="show_navbar_gesture_bar_summary">Gestenleiste am unteren Bildschirmrand anzeigen</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 </resources>

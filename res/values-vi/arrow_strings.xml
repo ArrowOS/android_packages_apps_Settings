@@ -48,8 +48,8 @@
     <string name="double_tap_sleep_gesture_title">Chạm để tắt màn hình</string>
     <string name="double_tap_sleep_gesture_summary">Nhấn đúp vào thanh trạng thái để tắt màn hình</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">What to do</string>
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <string name="lockscreen_tweaks_category_title">Phải làm gì</string>
+    <string name="double_tap_sleep_lockscreen_title">Nhấn đúp trên màn hình khóa để tắt màn hình</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Điều khiển phát lại</string>
     <string name="volume_button_music_control_summary">Khi màn hình tắt, nhấn giữ nút âm lượng để chuyển bài</string>
@@ -88,6 +88,8 @@
     <string name="battery_stats_reset">Đặt lại thống kê</string>
     <string name="battery_stats_message">Số liệu thống kê lịch sử pin sẽ được đặt lại</string>
     <!-- Navigation bar hint -->
-    <string name="show_navbar_gesture_bar_title">Gesture bar</string>
-    <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
+    <string name="show_navbar_gesture_bar_title">Thanh cử chỉ</string>
+    <string name="show_navbar_gesture_bar_summary">Hiển thị thanh cử chỉ ở cuối màn hình</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 </resources>

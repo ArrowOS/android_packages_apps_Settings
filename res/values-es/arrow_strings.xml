@@ -17,45 +17,45 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tocar para mostrar información</string>
     <!-- ArrowOS Installation Stats -->
-    <string name="arrow_stats_title">Estadísticas ArrowOS</string>
+    <string name="arrow_stats_title">Estadísticas de ArrowOS</string>
     <string name="arrow_stats_summary">Solo contabilizamos en cuántos dispositivos operamos</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Tasa de refresco mínima</string>
     <string name="max_refresh_rate_title">Tasa de refresco máxima</string>
     <string name="battery_saver_refresh_rate_title">Reducir la tasa de refresco</string>
-    <string name="battery_saver_refresh_rate_summary">Usar velocidad de refresco de la pantalla de 60 Hz para ahorrar energía cuando el Ahorro de batería está encendido</string>
+    <string name="battery_saver_refresh_rate_summary">Usar 60 Hz como tasa de refresco de la pantalla para ahorrar energía cuando el Ahorro de batería está encendido</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Vincular volumen de tono y notificaciones</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Deslizar para hacer captura de pantalla</string>
-    <string name="three_finger_gesture_summary">Deslice hacia abajo con tres dedos para tomar una captura de pantalla</string>
+    <string name="three_finger_gesture_summary">Deslice hacia abajo con tres dedos para hacer una captura de pantalla</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Sonido de captura de pantalla</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Habilitar reinicio avanzado</string>
-    <string name="global_actions_advanced_reboot_summary">Mostrar opciones para recovery y bootloader en menú de apagado</string>
+    <string name="global_actions_advanced_reboot_summary">Mostrar opciones para Modo de recuperación y Gestor de arranque en el menú de apagado</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
     <string name="color_mode_balance_category">Balance de color</string>
-    <string name="color_mode_balance_red">Intensidad rojo</string>
-    <string name="color_mode_balance_green">Intensidad verde</string>
-    <string name="color_mode_balance_blue">Intensidad azul</string>
-    <string name="keywords_color_balance">color, balance de colores, corrección de color, rojo, verde, azul, pantalla LiveDisplay</string>
+    <string name="color_mode_balance_red">Intensidad de rojo</string>
+    <string name="color_mode_balance_green">Intensidad de verde</string>
+    <string name="color_mode_balance_blue">Intensidad de azul</string>
+    <string name="keywords_color_balance">color, balance de color, corrección de color, rojo, verde, azul, LiveDisplay</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">Fecha de compilación</string>
-    <string name="arrow_version">Versión ArrowOS</string>
+    <string name="arrow_version">Versión de ArrowOS</string>
     <string name="about_device_name">Dispositivo</string>
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Doble toque para apagar la pantalla</string>
-    <string name="double_tap_sleep_gesture_summary">Doble toque en la barra de estado para apagar la pantalla del dispositivo</string>
+    <string name="double_tap_sleep_gesture_summary">Toque dos veces en la barra de estado para apagar la pantalla del dispositivo</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">What to do</string>
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <string name="lockscreen_tweaks_category_title">Qué hacer</string>
+    <string name="double_tap_sleep_lockscreen_title">Doble toque en la pantalla de bloqueo para apagar la pantalla</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Control de reproducción</string>
-    <string name="volume_button_music_control_summary">Cuando la pantalla está apagada, al pulsar prolongadamente las teclas de volumen se saltan las pistas de música</string>
+    <string name="volume_button_music_control_summary">Cuando la pantalla esté apagada, una pulsación larga de los botones de volumen, avanzará o retrocederá las canciones</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Encender pantalla con botones de volumen</string>
-    <string name="volume_rocker_wake_summary">Encender el dispositivo presionando los botones de volumen</string>
+    <string name="volume_rocker_wake_title">Encender la pantalla con los botones de volumen</string>
+    <string name="volume_rocker_wake_summary">Presione los botones de volumen para encender la pantalla del dispositivo</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Opciones de vibración durante las llamadas</string>
     <string name="incall_vibrate_connect_title">Vibrar al contestar</string>
@@ -67,10 +67,10 @@
     <string name="customization_category_title">Personalización</string>
     <!-- Annoying Notifications -->
     <string name="notification_sound_vib_screen_on_title">Notificaciones molestas</string>
-    <string name="notification_sound_vib_screen_on_summary">Reproducir sonido y vibrar al recibir notificaciones cuando la pantalla está encendida</string>
+    <string name="notification_sound_vib_screen_on_summary">Las notificaciones suenan y vibran cuando la pantalla del dispositivo está encendida</string>
     <!-- Less boring heads up -->
     <string name="less_boring_heads_up_title">Notificaciones emergentes menos molestas</string>
-    <string name="less_boring_heads_up_summary">Deshabilita rápidamente las notificaciones emergentes para todas las aplicaciones, pero las mantiene habilitadas para aplicaciones de llamada y mensajería</string>
+    <string name="less_boring_heads_up_summary">Las notificaciones emergentes se deshabilitan para todas las aplicaciones, excepto para las de llamada y mensajería</string>
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Activar linterna con la pantalla apagada</string>
     <string name="torch_power_button_gesture_none">Desactivado</string>
@@ -78,7 +78,7 @@
     <string name="torch_power_button_gesture_lp">Pulsación prolongada del botón de encendido</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Prevenir el encendido accidental de la pantalla</string>
-    <string name="proximity_wake_summary">Comprueba el sensor de proximidad antes de encender la pantalla</string>
+    <string name="proximity_wake_summary">Comprueba el sensor de proximidad antes de encender la pantalla con el gesto de Doble toque para encender pantalla</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Plataforma</string>
@@ -88,6 +88,8 @@
     <string name="battery_stats_reset">Reiniciar estadísticas</string>
     <string name="battery_stats_message">Las estadísticas del historial de la batería van a ser reiniciadas</string>
     <!-- Navigation bar hint -->
-    <string name="show_navbar_gesture_bar_title">Gesture bar</string>
-    <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
+    <string name="show_navbar_gesture_bar_title">Barra de gestos</string>
+    <string name="show_navbar_gesture_bar_summary">La barra de gestos se muestra en la parte inferior de la pantalla</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Auriculares guardados</string>
 </resources>

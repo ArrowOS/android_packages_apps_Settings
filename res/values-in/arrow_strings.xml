@@ -18,11 +18,11 @@
     <string name="device_info_protected_single_press">Sentuh untuk melihat info</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">Statistik ArrowOS</string>
-    <string name="arrow_stats_summary">Hanya menghitung berapa banyak perangkat yang kami jalankan</string>
+    <string name="arrow_stats_summary">Hanya menghitung banyaknya perangkat yang kami jalankan</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Kecepatan refresh minimum</string>
-    <string name="max_refresh_rate_title">Kecepatan refresh maksimal</string>
-    <string name="battery_saver_refresh_rate_title">Kurangi kecepatan refresh</string>
+    <string name="min_refresh_rate_title">Laju menyegar minimum</string>
+    <string name="max_refresh_rate_title">Laju menyegar maksimal</string>
+    <string name="battery_saver_refresh_rate_title">Kurangi laju menyegar</string>
     <string name="battery_saver_refresh_rate_summary">Gunakan kecepatan refresh layar 60 Hz untuk menghemat daya saat Penghemat Baterai aktif</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Hubungkan volume nada dering &amp; notifikasi</string>
@@ -62,7 +62,7 @@
     <string name="incall_vibrate_call_wait_title">Bergetar saat menunggu panggilan</string>
     <string name="incall_vibrate_disconnect_title">Bergetar saat terputus</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Item bilah status</string>
+    <string name="statusbar_items_title">Butir bilah status</string>
     <!-- Display customization category -->
     <string name="customization_category_title">Kustomisasi</string>
     <!-- Annoying Notifications -->
@@ -72,7 +72,7 @@
     <string name="less_boring_heads_up_title">Kurangi notifikasi mengambang</string>
     <string name="less_boring_heads_up_summary">Nonaktifkan notifikasi mengambang dengan cepat untuk semua aplikasi tetapi tetap aktif untuk aplikasi telepon dan pesan</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Tombol aktifkan/matikan senter saat layar mati</string>
+    <string name="torch_power_button_gesture_title">Tombol cetikan senter saat layar mati</string>
     <string name="torch_power_button_gesture_none">Dinonaktifkan</string>
     <string name="torch_power_button_gesture_dt">Tekan dua kali tombol daya (Menonaktifkan buka fitur kamera dengan cepat dan tambahkan penundaan bangun 170ms)</string>
     <string name="torch_power_button_gesture_lp">Tekan lama tombol daya</string>
@@ -85,9 +85,11 @@
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Total RAM tersedia</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Setel ulang statistik</string>
+    <string name="battery_stats_reset">Atur ulang statistik</string>
     <string name="battery_stats_message">Statistik penggunaan baterai akan disetel ulang</string>
     <!-- Navigation bar hint -->
     <string name="show_navbar_gesture_bar_title">Bilah gestur</string>
     <string name="show_navbar_gesture_bar_summary">Tampilkan bilah gestur di bagian bawah layar</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Earbud tersimpan</string>
 </resources>

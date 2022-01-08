@@ -48,8 +48,8 @@
     <string name="double_tap_sleep_gesture_title">Toque para desligar</string>
     <string name="double_tap_sleep_gesture_summary">Toque duplo na barra de estado para desligar o ecrã do dispositivo</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">What to do</string>
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <string name="lockscreen_tweaks_category_title">Como resolver</string>
+    <string name="double_tap_sleep_lockscreen_title">Toque duplo no ecrã de bloqueio para dormir</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Controlo de reprodução</string>
     <string name="volume_button_music_control_summary">Quando o ecrã está desligado, pressione longamente os botões de volume para alternar as faixas</string>
@@ -88,6 +88,8 @@
     <string name="battery_stats_reset">Limpar estatísticas</string>
     <string name="battery_stats_message">O histórico da bateria será redefinido</string>
     <!-- Navigation bar hint -->
-    <string name="show_navbar_gesture_bar_title">Gesture bar</string>
-    <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
+    <string name="show_navbar_gesture_bar_title">Barra de gestos</string>
+    <string name="show_navbar_gesture_bar_summary">Mostrar barra de gestos na parte inferior do ecrã</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 </resources>

@@ -90,4 +90,6 @@
     <!-- Navigation bar hint -->
     <string name="show_navbar_gesture_bar_title">Γραμμή χειρονομιών</string>
     <string name="show_navbar_gesture_bar_summary">Εμφάνιση γραμμής χειρονομιών στο κάτω μέρος της οθόνης</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 </resources>

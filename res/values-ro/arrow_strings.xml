@@ -20,60 +20,60 @@
     <string name="arrow_stats_title">ArrowOS statistici</string>
     <string name="arrow_stats_summary">Numărând doar câte dispozitive rulăm</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
-    <string name="max_refresh_rate_title">Maximum refresh rate</string>
-    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
-    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+    <string name="min_refresh_rate_title">Rata minimă de reîmprospătare</string>
+    <string name="max_refresh_rate_title">Rata maximă de reîmprospătare</string>
+    <string name="battery_saver_refresh_rate_title">Reduceți rata reîmprospătarii</string>
+    <string name="battery_saver_refresh_rate_summary">Utilizați rata de reîmprospătare 60 Hz pentru a salva baterie când Modul de Economisire baterie este activ</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Asociază volumele apelului &amp; notificării</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Glisează pentru a face captură de ecran</string>
     <string name="three_finger_gesture_summary">Glisați în jos cu trei degete pentru a realiza o captură de ecran</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">Sunet de captură de ecran</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Activează repornire avansată</string>
-    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+    <string name="global_actions_advanced_reboot_summary">Arată opțiuni pentru modul recuperare și bootloader în meniul de power</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
-    <string name="color_mode_balance_category">Color balance</string>
-    <string name="color_mode_balance_red">Red strength</string>
-    <string name="color_mode_balance_green">Green strength</string>
-    <string name="color_mode_balance_blue">Blue strength</string>
-    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+    <string name="color_mode_balance_category">Balans de culoare</string>
+    <string name="color_mode_balance_red">Intensitate roșu</string>
+    <string name="color_mode_balance_green">Intensitate verde</string>
+    <string name="color_mode_balance_blue">Intensitate albastru</string>
+    <string name="keywords_color_balance">culoare, balans culoare, corectarea culorilor, roșu, verde, albastru, LiveDisplay</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">Dată compilare</string>
-    <string name="arrow_version">ArrowOS version</string>
-    <string name="about_device_name">Device</string>
+    <string name="arrow_version">Versiune ArrowOS</string>
+    <string name="about_device_name">Dizpozitiv</string>
     <!-- Double Tap to Sleep Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
-    <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
+    <string name="double_tap_sleep_gesture_title">Atinge pentru sleep</string>
+    <string name="double_tap_sleep_gesture_summary">Atinge de două ori oriunde pe bara de stare pentru a pune dizpozitivul în modul sleep</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">What to do</string>
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <string name="lockscreen_tweaks_category_title">Ce trebuie făcut</string>
+    <string name="double_tap_sleep_lockscreen_title">Apasă de două ori pe ecranul de blocare pentru a pune telefonul în modul sleep</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Controlul redării</string>
+    <string name="volume_button_music_control_summary">Când ecranul e oprit apăsarea butoanelor de volum vor omite melodii</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
-    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    <string name="volume_rocker_wake_title">Trezire apăsând tastele de volum</string>
+    <string name="volume_rocker_wake_summary">Trezește dispozitivul apăsând tastele de volum</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">Opțiuni de vibrații în apel</string>
+    <string name="incall_vibrate_connect_title">Vibrare la conectarea apelului</string>
+    <string name="incall_vibrate_call_wait_title">Vibrare când apelul este în așteptare</string>
+    <string name="incall_vibrate_disconnect_title">Vibrare la deconectare apel</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">Elementele bării de stare</string>
     <!-- Display customization category -->
-    <string name="customization_category_title">Customization</string>
+    <string name="customization_category_title">Personalizare</string>
     <!-- Annoying Notifications -->
-    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">Notificări evervante</string>
+    <string name="notification_sound_vib_screen_on_summary">Redă sunete și vibrații pentru notificări când ecranul este pornit</string>
     <!-- Less boring heads up -->
     <string name="less_boring_heads_up_title">Saner Heads-Up</string>
     <string name="less_boring_heads_up_summary">Quickly disable heads up for all apps but keep them enabled for dialer and messaging apps</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_title">Aprindeți lanterna când ecranul este oprit</string>
+    <string name="torch_power_button_gesture_none">Dezactivat</string>
     <string name="torch_power_button_gesture_dt">Double press power button (Disables Quickly open camera feature and adds 170ms wakeup delay)</string>
     <string name="torch_power_button_gesture_lp">Long press power button</string>
     <!-- Proximity wake -->
@@ -90,4 +90,6 @@
     <!-- Navigation bar hint -->
     <string name="show_navbar_gesture_bar_title">Gesture bar</string>
     <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 </resources>

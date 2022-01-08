@@ -48,8 +48,8 @@
     <string name="double_tap_sleep_gesture_title">두 번 탭하여 화면 끄기</string>
     <string name="double_tap_sleep_gesture_summary">상태 표시줄을 두 번 탭하여 화면을 끕니다.</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">What to do</string>
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <string name="lockscreen_tweaks_category_title">해야 할 것</string>
+    <string name="double_tap_sleep_lockscreen_title">잠금 화면을 두 번 눌러 화면 끄기</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">재생 제어</string>
     <string name="volume_button_music_control_summary">화면이 꺼져 있을 때, 음량 버튼을 길게 눌러 곡을 넘깁니다.</string>
@@ -88,6 +88,8 @@
     <string name="battery_stats_reset">기록 초기화</string>
     <string name="battery_stats_message">배터리 사용 기록을 초기화합니다</string>
     <!-- Navigation bar hint -->
-    <string name="show_navbar_gesture_bar_title">Gesture bar</string>
-    <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
+    <string name="show_navbar_gesture_bar_title">제스처 바</string>
+    <string name="show_navbar_gesture_bar_summary">화면 아래에 제스처 바를 표시</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 </resources>
