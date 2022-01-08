@@ -116,4 +116,30 @@
 
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+
+<!-- Battery bar -->
+    <string name="battery_icon">Battery icon style</string>
+    <string name="battery_not_title">Battery icon in notifications</string>
+    <string name="battery_not_summary">Battery icon will show up where the clear all button shows up</string>
+    <string name="battery_bar_options_title">Battery bar options</string>
+    <string name="battery_bar_title">Battery bar</string>
+    <string name="battery_bar_location">Battery bar location</string>
+    <string name="battery_bar_color">Battery bar color</string>
+    <string name="battery_bar_style_title">Battery bar style</string>
+    <string name="battery_bar_thickness_title">Battery bar thickness</string>
+    <string name="battery_bar_animate_title">Charging animation</string>
+    <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
+    <string name="battery_bar_hide">Hide</string>
+    <string name="battery_bar_statusbar">Statusbar</string>
+    <string name="battery_bar_topnav">Top of navbar</string>
+    <string name="battery_bar_bottomnav">Bottom of navbar</string>
+    <string name="battery_bar_reg">Regular</string>
+    <string name="battery_bar_center">Center-mirrored</string>
+    <string name="battery_bar_charging_color">Battery bar charging color</string>
+    <string name="battery_bar_battery_low_color">Battery bar low battery color</string>
+    <string name="battery_bar_reversed">Reversed</string>
+    <string name="battery_bar_use_gradient_color">Use gradient color</string>
+    <string name="battery_bar_gradient_color_summary">Use gradient color as a scale for the battery level</string>
+    <string name="battery_bar_high_color">High level color"</string>
+    <string name="battery_bar_low_color">Low level color"</string>
 </resources>
