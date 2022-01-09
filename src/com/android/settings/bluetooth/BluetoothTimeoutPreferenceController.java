@@ -72,8 +72,8 @@ public class BluetoothTimeoutPreferenceController extends BasePreferenceControll
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         try {
-            int value = Integer.parseInt((String) newValue);
-            Settings.Global.putInt(mContext.getContentResolver(), Settings.Global.BLUETOOTH_OFF_TIMEOUT, value);
+            long value = Long.parseLong((String) newValue);
+            Settings.Global.putLong(mContext.getContentResolver(), Settings.Global.BLUETOOTH_OFF_TIMEOUT, value);
             updateTimeoutPreferenceDescription((ListPreference) preference, value);
         } catch (NumberFormatException e) {
             Log.e(TAG, "could not persist bluetooth timeout setting", e);
