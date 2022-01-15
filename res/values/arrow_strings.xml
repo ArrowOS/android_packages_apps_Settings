@@ -116,4 +116,8 @@
 
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">Force small clock</string>
+    <string name="lockscreen_small_clock_summary">Don\'t switch to the big clock when there are no notifications</string>
 </resources>
