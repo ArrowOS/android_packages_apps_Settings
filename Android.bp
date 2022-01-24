@@ -77,6 +77,7 @@ android_library {
         "powerusagefeaturegoogle",
         "accountfeatureprovidergoogle",
         "gamemode-settingsgoogle",
+        "columbus-settingsgoogle",
     ],
 
     libs: [
@@ -149,5 +150,10 @@ java_import {
 java_import {
     name: "gamemode-settingsgoogle",
     jars: ["libs/gamemode.jar"],
+    sdk_version: "current",
+
+java_import {
+    name: "columbus-settingsgoogle",
+    jars: ["libs/columbus-settings.jar"],
     sdk_version: "current",
 }
