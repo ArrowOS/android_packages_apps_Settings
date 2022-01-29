@@ -36,6 +36,11 @@
         settings:controller="com.android.settings.gestures.ButtonNavigationSettingsAssistController"
     />
 
+    <com.arrow.support.preferences.SystemSettingSwitchPreference
+        android:key="pixel_nav_animation"
+        android:title="@string/pixel_navbar_anim_title"
+        android:summary="@string/pixel_navbar_anim_summary"
+        android:defaultValue="true" />
 
     <com.arrow.support.preferences.SecureSettingSwitchPreference
         android:key="sysui_nav_bar_inverse"
