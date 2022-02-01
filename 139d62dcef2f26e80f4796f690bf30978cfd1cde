@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a9c3779_86ea2206",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 71
+      },
+      "writtenOn": "2022-02-01T15:11:10Z",
+      "side": 1,
+      "message": "Temp hold on gerrit",
+      "revId": "139d62dcef2f26e80f4796f690bf30978cfd1cde",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
