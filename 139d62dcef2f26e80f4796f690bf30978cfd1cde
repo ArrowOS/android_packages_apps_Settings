@@ -33,6 +33,24 @@
       "message": "Mixing spaces and tabs.",
       "revId": "139d62dcef2f26e80f4796f690bf30978cfd1cde",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "03208e1b_e30ffbb8",
+        "filename": "res/xml/display_settings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2022-02-02T10:18:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "83f1ca6c_a0309bf6",
+      "revId": "139d62dcef2f26e80f4796f690bf30978cfd1cde",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
     }
   ]
 }
