@@ -75,8 +75,8 @@
             android:summary="@string/power_menu_hide_on_secure_summary"
             android:defaultValue="false" />
 
-        <com.arrow.support.preferences.SystemSettingSwitchPreference
-            android:key="use_tiles_on_secure_keyguard"
+        <com.arrow.support.preferences.SecureSettingSwitchPreference
+            android:key="disable_secure_tiles_on_lockscreen"
             android:title="@string/use_tiles_on_secure_keyguard_title"
             android:summary="@string/use_tiles_on_secure_keyguard_summary"
             android:defaultValue="true" />
