@@ -44,7 +44,10 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java"],
+    srcs: [
+        "src/**/*.java",
+        "src/**/*.kt",
+    ],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
@@ -54,7 +57,9 @@ android_library {
         "androidx.core_core",
         "androidx.appcompat_appcompat",
         "androidx.cardview_cardview",
+        "androidx.fragment_fragment-ktx",
         "androidx.preference_preference",
+        "androidx.preference_preference-ktx",
         "androidx.recyclerview_recyclerview",
         "com.google.android.material_material",
         "setupcompat",
