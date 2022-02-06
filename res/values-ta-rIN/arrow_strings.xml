@@ -30,7 +30,7 @@
     <string name="three_finger_gesture">தேய்த்து திரைப்பிடி</string>
     <string name="three_finger_gesture_summary">திரைப்பிடிக்க மூன்று விரல்களால் கீழே தேய்</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">திரைப்பிடிப்பு ஒலி</string>
+    <string name="screenshot_shutter_sound_title">திரைப்பிடிப்பு ஓசை</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">மேம்பட்ட மறுதொடக்கத்தை இயக்கு</string>
     <string name="global_actions_advanced_reboot_summary">ஆற்றல் பட்டியில் மீட்டெடுப்பு மற்றும் துவக்கயேற்றிக்கான விருப்பங்களைக் காட்டு</string>
@@ -42,38 +42,38 @@
     <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">உருவாக்கல் தேதி</string>
-    <string name="arrow_version">ArrowOS version</string>
-    <string name="about_device_name">Device</string>
+    <string name="arrow_version">ArrowOS பதிப்பு</string>
+    <string name="about_device_name">சாதனம்</string>
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">உறங்கத் தட்டு</string>
     <string name="double_tap_sleep_gesture_summary">சாதனத்தை உறக்கத்தில் போட நிலைப்பட்டையில் எங்காவது இரட்டை-தட்டு</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">What to do</string>
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <string name="lockscreen_tweaks_category_title">என்ன செய்ய</string>
+    <string name="double_tap_sleep_lockscreen_title">பூட்டுத்திரையில் உறங்க இரட்டை தட்டு</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">மீட்பொலித்தல் கட்டுப்பாடு</string>
+    <string name="volume_button_music_control_summary">அணைதிரையில், ஒலியளவு விசைகளை நீண்டழுத்தல் இசை தடங்களை கெந்தும்</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
-    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    <string name="volume_rocker_wake_title">ஒலியளவு எழுப்புதல்</string>
+    <string name="volume_rocker_wake_summary">ஒலியளவு விசைகளை அழுத்தி உம் சாதனத்தை எழுப்பு</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">அழைப்பில் அதிர்வு விருப்பங்கள்</string>
+    <string name="incall_vibrate_connect_title">இணைப்பு மீது அதிர்வு</string>
+    <string name="incall_vibrate_call_wait_title">அழைப்பு காத்திருப்பு மீது அதிர்வு</string>
+    <string name="incall_vibrate_disconnect_title">துண்டிப்பு மீது அதிர்வு</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">நிலைப்பட்டி உருப்படிகள்</string>
     <!-- Display customization category -->
-    <string name="customization_category_title">Customization</string>
+    <string name="customization_category_title">தனிப்பயனாக்கம்</string>
     <!-- Annoying Notifications -->
-    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">எரிச்சலூட்டும் அறிவிப்புகள்</string>
+    <string name="notification_sound_vib_screen_on_summary">எழிதிரையில் அறிவிப்புகளுக்கு ஓசை மற்றும் அதிர்வை இயக்கு</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Saner Heads-Up</string>
-    <string name="less_boring_heads_up_summary">Quickly disable heads up for all apps but keep them enabled for dialer and messaging apps</string>
+    <string name="less_boring_heads_up_title">பகுத்தறிவான தலை-உயர்த்தி</string>
+    <string name="less_boring_heads_up_summary">தலையுயர்த்தியைச் சுழற்றி மற்றும் குறுஞ்செய்தி செயலிகளைத் தவிர எல்லா செயலிகளுக்கும் விரைவாக முடக்கு</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_title">அணைதிரையில் ஒளிப்பந்தத்தை இருநிலைமாற்று</string>
+    <string name="torch_power_button_gesture_none">முடக்கத்தில்</string>
     <string name="torch_power_button_gesture_dt">Double press power button (Disables Quickly open camera feature and adds 170ms wakeup delay)</string>
     <string name="torch_power_button_gesture_lp">Long press power button</string>
     <!-- Proximity wake -->
@@ -81,15 +81,64 @@
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen from Double Tap 2 Wake gesture</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
+    <string name="platform_revision">நடைமேடை</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Total available RAM</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">புள்ளிவிவரங்களை அகரமாக்கு</string>
+    <string name="battery_stats_message">மின்கல வரலாறு புள்ளிவிவரங்கள் அகரமாக்கப்படவுள்ளன</string>
     <!-- Navigation bar hint -->
-    <string name="show_navbar_gesture_bar_title">Gesture bar</string>
-    <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
+    <string name="show_navbar_gesture_bar_title">சைகைப்பட்டி</string>
+    <string name="show_navbar_gesture_bar_summary">திரையின் அடிப்புறத்தில் சைகைப்பட்டியைக் காட்டு</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">சேமித்த காதுமொட்டுகள்</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Battery icon style</string>
+    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
+    <string name="battery_percent_title">Status bar battery percentage</string>
+    <string name="battery_style_category_title">Battery icon</string>
+    <string name="status_bar_battery_style_title">Battery style</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
+    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
+    <string name="status_bar_battery_style_big_circle">Big circle</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Big dotted circle</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
+    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">Force small clock</string>
+    <string name="lockscreen_small_clock_summary">Don\'t switch to the big clock when there are no notifications</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">Battery charging light</string>
+    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
+    <string name="battery_light_enable">Battery light</string>
+    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
+    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
+    <string name="battery_light_cat">Battery light color when charging</string>
+    <string name="battery_light_low_color">Low battery</string>
+    <string name="battery_light_medium_color">Medium battery</string>
+    <string name="battery_light_full_color">Almost full battery</string>
+    <string name="battery_light_reallyfull_color">Full (100) battery</string>
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">Monet Engine</string>
+    <string name="monet_engine_summary">Customise monet parameters</string>
+    <string name="monet_engine_custom_color_title">Use custom color</string>
+    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
+    <string name="monet_engine_color_override_title">Custom color</string>
+    <string name="monet_engine_linear_lightness_title">Use custom brightness scale</string>
+    <string name="monet_engine_linear_lightness_summary">It allows using the custom color brightness scale</string>
+    <string name="monet_engine_white_luminance_user_title">Brightness scale</string>
+    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
+    <string name="monet_engine_accurate_shades_summary">Better contrast and depth, but duller colors</string>
+    <string name="monet_engine_chroma_factor_title">Colorfulness</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
 </resources>

@@ -20,19 +20,19 @@
     <string name="arrow_stats_title">ArrowOS 統計資訊</string>
     <string name="arrow_stats_summary">僅計算我們運作的裝置數量</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">最低刷新率</string>
-    <string name="max_refresh_rate_title">最高刷新率</string>
-    <string name="battery_saver_refresh_rate_title">降低刷新率</string>
-    <string name="battery_saver_refresh_rate_summary">在省電模式開啟時使用 60 Hz 螢幕刷新率以減少電量消耗</string>
+    <string name="min_refresh_rate_title">最低更新率</string>
+    <string name="max_refresh_rate_title">最高更新率</string>
+    <string name="battery_saver_refresh_rate_title">降低更新率</string>
+    <string name="battery_saver_refresh_rate_summary">開啟省電模式時使用 60 Hz 螢幕更新率以減少耗電</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">連結 &amp; 鈴聲與通知音量</string>
+    <string name="volume_link_notification_title">連結鈴聲與通知音量</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">滑動以截取螢幕截圖</string>
+    <string name="three_finger_gesture">滑動螢幕截圖</string>
     <string name="three_finger_gesture_summary">三指下滑以截取螢幕截圖</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">螢幕截圖音效</string>
     <!-- Global Actions -->
-    <string name="global_actions_advanced_reboot_title">啟動進階重啟選單</string>
+    <string name="global_actions_advanced_reboot_title">啟用進階重啟</string>
     <string name="global_actions_advanced_reboot_summary">在電源選單中顯示 Recovery 和 Bootloader 選項</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
     <string name="color_mode_balance_category">色彩平衡</string>
@@ -54,8 +54,8 @@
     <string name="volume_button_music_control_title">播放控制</string>
     <string name="volume_button_music_control_summary">螢幕關閉時，長按音量鍵即可切換曲目</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
-    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    <string name="volume_rocker_wake_title">音量鍵喚醒</string>
+    <string name="volume_rocker_wake_summary">按音量鍵喚醒裝置</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">In-call vibration options</string>
     <string name="incall_vibrate_connect_title">Vibrate on connect</string>
@@ -73,23 +73,72 @@
     <string name="less_boring_heads_up_summary">Quickly disable heads up for all apps but keep them enabled for dialer and messaging apps</string>
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_none">已停用</string>
     <string name="torch_power_button_gesture_dt">Double press power button (Disables Quickly open camera feature and adds 170ms wakeup delay)</string>
-    <string name="torch_power_button_gesture_lp">Long press power button</string>
+    <string name="torch_power_button_gesture_lp">長按電源鍵</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_title">防止意外喚醒</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen from Double Tap 2 Wake gesture</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
+    <string name="platform_revision">平台</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total available RAM</string>
+    <string name="total_ram">總可用 RAM</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">重設統計資料</string>
+    <string name="battery_stats_message">將重設電池統計資料</string>
     <!-- Navigation bar hint -->
     <string name="show_navbar_gesture_bar_title">Gesture bar</string>
     <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">已儲存的耳機</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">電池圖示樣式</string>
+    <string name="battery_style_summary">自訂電池圖示及是否顯示百分比</string>
+    <string name="battery_percent_title">Status bar battery percentage</string>
+    <string name="battery_style_category_title">電池圖示</string>
+    <string name="status_bar_battery_style_title">Battery style</string>
+    <string name="status_bar_battery_style_icon_portrait">直立圖示（預設）</string>
+    <string name="status_bar_battery_style_circle">圓形</string>
+    <string name="status_bar_battery_style_dotted_circle">虛線圓圈</string>
+    <string name="status_bar_battery_style_filled_circle">實心圓圈</string>
+    <string name="status_bar_battery_style_big_circle">大圓圈</string>
+    <string name="status_bar_battery_style_big_dotted_circle">虛線大圓圈</string>
+    <string name="status_bar_battery_style_text">文字</string>
+    <string name="status_bar_battery_style_hidden">隱藏</string>
+    <string name="status_bar_battery_percentage_title">電量百分比</string>
+    <string name="status_bar_battery_percentage_default">隱藏（預設）</string>
+    <string name="status_bar_battery_percentage_text_inside">圖示內</string>
+    <string name="status_bar_battery_percentage_text_next">圖示旁</string>
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">Force small clock</string>
+    <string name="lockscreen_small_clock_summary">Don\'t switch to the big clock when there are no notifications</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">充電指示燈</string>
+    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
+    <string name="battery_light_enable">電量指示燈</string>
+    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
+    <string name="battery_light_low_blinking_title">低電量時閃爍指示燈</string>
+    <string name="battery_light_cat">充電時電池指示燈顏色</string>
+    <string name="battery_light_low_color">低電量</string>
+    <string name="battery_light_medium_color">中電量</string>
+    <string name="battery_light_full_color">接近滿電</string>
+    <string name="battery_light_reallyfull_color">滿電量 (100)</string>
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">Monet Engine</string>
+    <string name="monet_engine_summary">Customise monet parameters</string>
+    <string name="monet_engine_custom_color_title">Use custom color</string>
+    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
+    <string name="monet_engine_color_override_title">Custom color</string>
+    <string name="monet_engine_linear_lightness_title">Use custom brightness scale</string>
+    <string name="monet_engine_linear_lightness_summary">It allows using the custom color brightness scale</string>
+    <string name="monet_engine_white_luminance_user_title">Brightness scale</string>
+    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
+    <string name="monet_engine_accurate_shades_summary">Better contrast and depth, but duller colors</string>
+    <string name="monet_engine_chroma_factor_title">Colorfulness</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
 </resources>

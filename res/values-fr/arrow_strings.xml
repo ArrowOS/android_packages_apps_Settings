@@ -92,4 +92,53 @@
     <string name="show_navbar_gesture_bar_summary">Afficher la barre de navigation en bas de l\'écran</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Ecouteurs enregistrés</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Style d\'icône de la batterie</string>
+    <string name="battery_style_summary">Personnaliser les icônes de la batterie, masquer ou afficher le pourcentage</string>
+    <string name="battery_percent_title">Pourcentage de la batterie dans la barre d\'état</string>
+    <string name="battery_style_category_title">Icône de la batterie</string>
+    <string name="status_bar_battery_style_title">Style de l\'icône de la batterie</string>
+    <string name="status_bar_battery_style_icon_portrait">Icône portrait (défaut)</string>
+    <string name="status_bar_battery_style_circle">Cercle</string>
+    <string name="status_bar_battery_style_dotted_circle">Cercle (Pointillé)</string>
+    <string name="status_bar_battery_style_filled_circle">Cercle (Rempli)</string>
+    <string name="status_bar_battery_style_big_circle">Grand cercle</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Grand cercle pointillé</string>
+    <string name="status_bar_battery_style_text">Texte</string>
+    <string name="status_bar_battery_style_hidden">Masqué</string>
+    <string name="status_bar_battery_percentage_title">Pourcentage de la batterie</string>
+    <string name="status_bar_battery_percentage_default">Masqué (Par défaut)</string>
+    <string name="status_bar_battery_percentage_text_inside">À l\'intérieur de l\'icône</string>
+    <string name="status_bar_battery_percentage_text_next">A coté de l\'icône</string>
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">Forcer l\'affichage de la petitte horloge</string>
+    <string name="lockscreen_small_clock_summary">Ne pas passer à la grande horloge lorsqu\'il n\'y a pas de notifications</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Inverser la disposition de la barre de navigation</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">Voyant de batterie</string>
+    <string name="battery_light_summary">Comportement du voyant de batterie en mode Ne Pas Déranger, batterie faible</string>
+    <string name="battery_light_enable">Voyant de batterie</string>
+    <string name="battery_light_allow_on_dnd_title">Voyant de batterie en mode Ne Pas Déranger</string>
+    <string name="battery_light_low_blinking_title">Voyant clignotant en cas de batterie faible</string>
+    <string name="battery_light_cat">Couleur du voyant de batterie pendant la charge</string>
+    <string name="battery_light_low_color">Batterie faible</string>
+    <string name="battery_light_medium_color">Batterie moyenne</string>
+    <string name="battery_light_full_color">Batterie presque pleine</string>
+    <string name="battery_light_reallyfull_color">Batterie pleine (100%)</string>
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">Moteur Monet</string>
+    <string name="monet_engine_summary">Personnaliser les paramètres monet</string>
+    <string name="monet_engine_custom_color_title">Utiliser des Couleurs Personnalisées</string>
+    <string name="monet_engine_custom_color_summary">Utiliser des couleurs personnalisées pour le moteur monet au lieu des couleurs de fond d\'écran</string>
+    <string name="monet_engine_color_override_title">Couleurs personnalisées</string>
+    <string name="monet_engine_linear_lightness_title">Utiliser une échelle de luminosité personnalisée</string>
+    <string name="monet_engine_linear_lightness_summary">Il permet d\'utiliser l\'échelle de couleurs personnalisées</string>
+    <string name="monet_engine_white_luminance_user_title">Échelle de luminosité</string>
+    <string name="monet_engine_accurate_shades_title">Utiliser des nuances précises</string>
+    <string name="monet_engine_accurate_shades_summary">Mieux contraste et profondeur, mais couleurs plus ternes</string>
+    <string name="monet_engine_chroma_factor_title">Couleurs</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Autoriser les clients à utiliser les connexions VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permettre aux utilisateurs du point d\'accès d\'utiliser les connexions VPN de l\'appareil \u2019 pour la connectivité sortante</string>
 </resources>

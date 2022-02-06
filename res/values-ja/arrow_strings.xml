@@ -92,4 +92,53 @@
     <string name="show_navbar_gesture_bar_summary">ジェスチャーバーを画面の下部に表示する</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">保存されたイヤホン</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">バッテリーアイコン</string>
+    <string name="battery_style_summary">バッテリーのアイコンや残量の表示と非表示を編集する</string>
+    <string name="battery_percent_title">バッテリー残量</string>
+    <string name="battery_style_category_title">バッテリーアイコン</string>
+    <string name="status_bar_battery_style_title">バッテリースタイル</string>
+    <string name="status_bar_battery_style_icon_portrait">縦アイコン (既定)</string>
+    <string name="status_bar_battery_style_circle">円</string>
+    <string name="status_bar_battery_style_dotted_circle">円 (点線)</string>
+    <string name="status_bar_battery_style_filled_circle">円 (塗り潰し)</string>
+    <string name="status_bar_battery_style_big_circle">大きな円</string>
+    <string name="status_bar_battery_style_big_dotted_circle">大きな点線の円</string>
+    <string name="status_bar_battery_style_text">文字</string>
+    <string name="status_bar_battery_style_hidden">非表示</string>
+    <string name="status_bar_battery_percentage_title">バッテリー残量</string>
+    <string name="status_bar_battery_percentage_default">非表示 (既定)</string>
+    <string name="status_bar_battery_percentage_text_inside">アイコンの中</string>
+    <string name="status_bar_battery_percentage_text_next">アイコンの外</string>
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">小さな時計</string>
+    <string name="lockscreen_small_clock_summary">通知がない時でも大きな時計を表示しない</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">ナビゲーションバーレイアウトの反転</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">充電時のライト</string>
+    <string name="battery_light_summary">サイレント時と低残量時のバッテリーライトの動作</string>
+    <string name="battery_light_enable">バッテリーライト</string>
+    <string name="battery_light_allow_on_dnd_title">Do Not Disturb 中のライト</string>
+    <string name="battery_light_low_blinking_title">低残量時のライト点滅</string>
+    <string name="battery_light_cat">充電中のライトの色</string>
+    <string name="battery_light_low_color">低残量</string>
+    <string name="battery_light_medium_color">中程度</string>
+    <string name="battery_light_full_color">ほぼ充電完了</string>
+    <string name="battery_light_reallyfull_color">充電完了</string>
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">Monet エンジン</string>
+    <string name="monet_engine_summary">Monet のパラメータを編集する</string>
+    <string name="monet_engine_custom_color_title">カスタムの色を使用</string>
+    <string name="monet_engine_custom_color_summary">Monet エンジンに壁紙の色の代わりにカスタムの色を使用する</string>
+    <string name="monet_engine_color_override_title">カスタムの色</string>
+    <string name="monet_engine_linear_lightness_title">カスタムの輝度スケールを使用</string>
+    <string name="monet_engine_linear_lightness_summary">カスタムの色の輝度スケールの使用を許可する</string>
+    <string name="monet_engine_white_luminance_user_title">輝度スケール</string>
+    <string name="monet_engine_accurate_shades_title">正確な色合いを使用</string>
+    <string name="monet_engine_accurate_shades_summary">コントラストと色深度を向上させますが、彩度が低下することがあります。</string>
+    <string name="monet_engine_chroma_factor_title">彩度</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">クライアントの VPN 使用の許可</string>
+    <string name="tethering_allow_vpn_upstreams_summary">この端末の VPN 接続をホットスポットのクライアントが送信接続に使うことを許可する</string>
 </resources>
