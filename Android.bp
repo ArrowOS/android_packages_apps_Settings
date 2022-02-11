@@ -78,6 +78,7 @@ android_library {
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
         "VendorSupport-preference",
+        "faceunlock_framework",
     ],
 
     libs: [
