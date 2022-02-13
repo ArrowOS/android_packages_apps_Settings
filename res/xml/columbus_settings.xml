@@ -4,7 +4,7 @@
     <com.android.settingslib.widget.IllustrationPreference android:key="columbus_video" settings:lottie_rawRes="@raw/gesture_columbus" />
     <com.android.settingslib.widget.MainSwitchPreference android:title="@string/columbus_setting_enable_switch_title" android:key="columbus_enabled_switch" settings:controller="com.google.android.settings.gestures.columbus.ColumbusEnabledPreferenceController" />
     <PreferenceCategory android:title="@string/columbus_setting_actions_title" android:key="columbus_action_category" settings:controller="com.google.android.settings.gestures.columbus.ColumbusActionsPreferenceController" />
-    <PreferenceCategory android:title="@string/columbus_setting_additional_settings_title" android:key="columbus_sensitivity_category">
-        <SwitchPreference android:title="@string/columbus_setting_sensitivity_title" android:key="columbus_low_sensitivity" settings:controller="com.google.android.settings.gestures.columbus.ColumbusLowSensitivityPreferenceController" />
+    <PreferenceCategory android:title="@string/columbus_setting_additional_settings_title" settings:controller="com.android.settings.gestures.columbus.ColumbusLowSensitivityPreferenceController" android:key="columbus_sensitivity_category">
+        <SwitchPreference android:title="@string/columbus_setting_sensitivity_title" android:key="columbus_low_sensitivity" settings:controller="com.android.settings.gestures.columbus.ColumbusLowSensitivityPreferenceController" />
     </PreferenceCategory>
 </PreferenceScreen>
