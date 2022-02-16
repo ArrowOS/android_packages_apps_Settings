@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2461724_15c7f883",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 160
+      },
+      "writtenOn": "2022-02-16T14:36:19Z",
+      "side": 1,
+      "message": "bottom dialog needs to be adjusted",
+      "revId": "c640632afdac9ae204e7f5917b0a9943a2b13757",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
