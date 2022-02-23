@@ -116,29 +116,32 @@
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Inverte la disposizione della barra di navigazione</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Battery charging light</string>
-    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
-    <string name="battery_light_enable">Battery light</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
+    <string name="battery_light_settings">LED batteria in carica</string>
+    <string name="battery_light_summary">Comportamento del LED della batteria durante la modalità Non Disturbare, batteria scarica</string>
+    <string name="battery_light_enable">LED batteria</string>
+    <string name="battery_light_allow_on_dnd_title">LED batteria in modalità Non Disturbare</string>
+    <string name="battery_light_low_blinking_title">LED batteria quando la batteria è scarica</string>
+    <string name="battery_light_cat">Colore LED batteria durante la carica</string>
+    <string name="battery_light_low_color">Batteria scarica</string>
+    <string name="battery_light_medium_color">Batteria media</string>
+    <string name="battery_light_full_color">Batteria quasi carica</string>
+    <string name="battery_light_reallyfull_color">Batteria carica (100)</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_title">Monet Engine</string>
-    <string name="monet_engine_summary">Customise monet parameters</string>
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_linear_lightness_title">Use custom brightness scale</string>
-    <string name="monet_engine_linear_lightness_summary">It allows using the custom color brightness scale</string>
-    <string name="monet_engine_white_luminance_user_title">Brightness scale</string>
-    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
-    <string name="monet_engine_accurate_shades_summary">Better contrast and depth, but duller colors</string>
-    <string name="monet_engine_chroma_factor_title">Colorfulness</string>
+    <string name="monet_engine_title">Motore Monet</string>
+    <string name="monet_engine_summary">Personalizza i parametri di Monet</string>
+    <string name="monet_engine_custom_color_title">Usa un colore personalizzato</string>
+    <string name="monet_engine_custom_color_summary">Usa un colore personalizzato per Monet invece dei colori dello sfondo</string>
+    <string name="monet_engine_color_override_title">Colore personalizzato</string>
+    <string name="monet_engine_linear_lightness_title">Usa scala di luminosità personalizzata</string>
+    <string name="monet_engine_linear_lightness_summary">Consente di utilizzare una scala personalizzata di luminosità colore</string>
+    <string name="monet_engine_white_luminance_user_title">Scala luminosità</string>
+    <string name="monet_engine_accurate_shades_title">Usa sfumature accurate</string>
+    <string name="monet_engine_accurate_shades_summary">Contrasto e profondità migliori, ma colori più opachi</string>
+    <string name="monet_engine_chroma_factor_title">Vivacità</string>
     <!-- Hotspot VPN -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">Consenti ai client di usare le VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Consenti ai client hotspot di utilizzare le connessioni VPN di questo dispositivo per la connettività</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Effetto Increspatura</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Mostra l\'effetto increspatura allo sblocco con impronta digitale</string>
 </resources>

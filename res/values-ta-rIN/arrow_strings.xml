@@ -93,52 +93,55 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">சேமித்த காதுமொட்டுகள்</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
-    <string name="battery_percent_title">Status bar battery percentage</string>
-    <string name="battery_style_category_title">Battery icon</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_big_circle">Big circle</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Big dotted circle</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="battery_style_title">மின்கல படவுரு பாணி</string>
+    <string name="battery_style_summary">மின்கல படவுருவைத் தனிப்பயனாக்கு, சதவீதம் காட்டு அ மறை</string>
+    <string name="battery_percent_title">நிலைப்பட்டி மின்கல சதவீதம்</string>
+    <string name="battery_style_category_title">மின்கல படவுரு</string>
+    <string name="status_bar_battery_style_title">மின்கல பாணி</string>
+    <string name="status_bar_battery_style_icon_portrait">படவுரு உருவப்படம் (இயல்புநிலை)</string>
+    <string name="status_bar_battery_style_circle">வட்டம்</string>
+    <string name="status_bar_battery_style_dotted_circle">வட்டம் (புள்ளியிடப்பட்ட)</string>
+    <string name="status_bar_battery_style_filled_circle">வட்டம் (நிரப்பப்பட்ட)</string>
+    <string name="status_bar_battery_style_big_circle">பெருவட்டம்</string>
+    <string name="status_bar_battery_style_big_dotted_circle">பெரிய புள்ளியிடப்பட்ட வட்டம்</string>
+    <string name="status_bar_battery_style_text">சொற்சரம்</string>
+    <string name="status_bar_battery_style_hidden">மறைந்து</string>
+    <string name="status_bar_battery_percentage_title">மின்கல சதவீதம்</string>
+    <string name="status_bar_battery_percentage_default">மறைந்து (இயல்புநிலை)</string>
+    <string name="status_bar_battery_percentage_text_inside">படவுருவினுள்</string>
+    <string name="status_bar_battery_percentage_text_next">படவுருவிற்கடுத்து</string>
     <!-- Keyguard force small clock -->
     <string name="lockscreen_small_clock_title">Force small clock</string>
     <string name="lockscreen_small_clock_summary">Don\'t switch to the big clock when there are no notifications</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Battery charging light</string>
-    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
-    <string name="battery_light_enable">Battery light</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
+    <string name="battery_light_settings">மின்கல மின்னேற்ற ஒளி</string>
+    <string name="battery_light_summary">தொ. செ. இன் போது மின்கல ஒளி நடத்தை, குறைவான மின்கலம்</string>
+    <string name="battery_light_enable">மின்கல ஒளி</string>
+    <string name="battery_light_allow_on_dnd_title">தொ. செ. பயன்முறையில் மின்கல ஒளி</string>
+    <string name="battery_light_low_blinking_title">குறைந்த மின்கலத்தின்போது சிமிட்டொளி</string>
+    <string name="battery_light_cat">மின்னேறும்போது மின்கல ஒளியின் நிறம்</string>
+    <string name="battery_light_low_color">குறைந்த மின்கலம்</string>
+    <string name="battery_light_medium_color">நடுத்தர மின்கலம்</string>
+    <string name="battery_light_full_color">கிட்டத்தட்ட முழு மின்கலம்</string>
+    <string name="battery_light_reallyfull_color">முழு (100) மின்கலம்</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_title">Monet Engine</string>
-    <string name="monet_engine_summary">Customise monet parameters</string>
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_linear_lightness_title">Use custom brightness scale</string>
-    <string name="monet_engine_linear_lightness_summary">It allows using the custom color brightness scale</string>
-    <string name="monet_engine_white_luminance_user_title">Brightness scale</string>
-    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
-    <string name="monet_engine_accurate_shades_summary">Better contrast and depth, but duller colors</string>
-    <string name="monet_engine_chroma_factor_title">Colorfulness</string>
+    <string name="monet_engine_title">மோனெட் பொறி</string>
+    <string name="monet_engine_summary">மோனெட் அளவுருகளைத் தனிப்பயனாக்கு</string>
+    <string name="monet_engine_custom_color_title">தனிப்பயன் நிறம் பயன்படுத்து</string>
+    <string name="monet_engine_custom_color_summary">மோனெட் பொறிக்குச் சுவர்த்தாள் நிறங்களுக்குப் பதில் தனிப்பயன் நிறம் பயன்படுத்து</string>
+    <string name="monet_engine_color_override_title">தனிப்பயன் நிறம்</string>
+    <string name="monet_engine_linear_lightness_title">தனிப்பயன் ஒளிர்வு ஒப்பளவு பயன்படுத்து</string>
+    <string name="monet_engine_linear_lightness_summary">தனிப்பயன் நிற ஒளிர்வு ஒப்பளவு பயன்படுத்த அனுமதிக்கும்</string>
+    <string name="monet_engine_white_luminance_user_title">ஒளிர்வு ஒப்பளவு</string>
+    <string name="monet_engine_accurate_shades_title">துல்லிய நிறக்கூறு பயன்படுத்து</string>
+    <string name="monet_engine_accurate_shades_summary">நல்ல உறழ்பொருவும் ஆழமும், ஆனால் மழுங்கிய நிறங்கள்</string>
+    <string name="monet_engine_chroma_factor_title">வண்ணமயம்</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
 </resources>
