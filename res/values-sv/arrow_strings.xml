@@ -141,4 +141,7 @@
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Tillåt klienter att använda VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Tillåt surfpunktsklienter att använda den här enheten\u2019s VPN-anslutningar för anslutningar uppströms</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
 </resources>

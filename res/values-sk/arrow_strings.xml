@@ -132,13 +132,16 @@
     <string name="monet_engine_custom_color_title">Vybrať vlastnú farbu</string>
     <string name="monet_engine_custom_color_summary">Použít vlastnú farbu pre engine Monetu namiesto farby tapety</string>
     <string name="monet_engine_color_override_title">Vlastná farba</string>
-    <string name="monet_engine_linear_lightness_title">Použite vlastnú stupnicu jasu</string>
+    <string name="monet_engine_linear_lightness_title">Použiť vlastnú stupnicu jasu</string>
     <string name="monet_engine_linear_lightness_summary">Umožňuje použitie vlastnej stupnice jasu farieb</string>
-    <string name="monet_engine_white_luminance_user_title">Posuvník jasu</string>
+    <string name="monet_engine_white_luminance_user_title">Stupnica jasu</string>
     <string name="monet_engine_accurate_shades_title">Použiť presné odtiene</string>
     <string name="monet_engine_accurate_shades_summary">Lepší kontrast a hĺbka, ale matnejšie farby</string>
     <string name="monet_engine_chroma_factor_title">Farebnosť</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Povoliť klientom používanie VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Povoliť klientom hotspotu používať pripojenie VPN tohto zariadenia pre upstream konektivitu</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Efekt zvlnenia</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Zobraziť efekt zvlnenia pri odomknutí zariadenia pomocou odtlačku prsta</string>
 </resources>

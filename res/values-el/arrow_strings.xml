@@ -141,4 +141,7 @@
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Επιτρέψτε στους clients να χρησιμοποιούν VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Επιτρέψτε στους hotspot clients να χρησιμοποιούν αυτήν την συσκευή\u2019s συνδέσεις VPN για συνδεσιμότητα upstream</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Εφέ κυματισμού</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Εμφάνιση εφέ κυματισμού στο ξεκλείδωμα με δακτυλικό αποτύπωμα</string>
 </resources>
