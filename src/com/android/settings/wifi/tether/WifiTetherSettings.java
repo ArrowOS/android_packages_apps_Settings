@@ -69,12 +69,15 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
     @VisibleForTesting
     static final String KEY_WIFI_TETHER_MAXIMIZE_COMPATIBILITY =
             WifiTetherMaximizeCompatibilityPreferenceController.PREF_KEY;
+    @VisibleForTesting
+    static final String KEY_WIFI_TETHER_HIDDEN_SSID = "wifi_tether_hidden_ssid";
 
     private WifiTetherSwitchBarController mSwitchBarController;
     private WifiTetherSSIDPreferenceController mSSIDPreferenceController;
     private WifiTetherPasswordPreferenceController mPasswordPreferenceController;
     private WifiTetherSecurityPreferenceController mSecurityPreferenceController;
     private WifiTetherMaximizeCompatibilityPreferenceController mMaxCompatibilityPrefController;
+    private WifiTetherHiddenSsidPreferenceController mHiddenSsidPrefController;
 
     private WifiManager mWifiManager;
     private boolean mRestartWifiApAfterConfigChange;
@@ -132,6 +135,7 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
         mPasswordPreferenceController = use(WifiTetherPasswordPreferenceController.class);
         mMaxCompatibilityPrefController =
                 use(WifiTetherMaximizeCompatibilityPreferenceController.class);
+        mHiddenSsidPrefController = use(WifiTetherHiddenSsidPreferenceController.class);
     }
 
     @Override
@@ -207,6 +211,7 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
         controllers.add(
                 new WifiTetherAutoOffPreferenceController(context, KEY_WIFI_TETHER_AUTO_OFF));
         controllers.add(new WifiTetherMaximizeCompatibilityPreferenceController(context, listener));
+        controllers.add(new WifiTetherHiddenSsidPreferenceController(context, listener));
         return controllers;
     }
 
@@ -239,6 +244,7 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
                     securityType);
         }
         mMaxCompatibilityPrefController.setupMaximizeCompatibility(configBuilder);
+        configBuilder.setHiddenSsid(mHiddenSsidPrefController.isHiddenSsidEnabled());
         return configBuilder.build();
     }
 
@@ -252,6 +258,7 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
         use(WifiTetherSecurityPreferenceController.class).updateDisplay();
         use(WifiTetherPasswordPreferenceController.class).updateDisplay();
         use(WifiTetherMaximizeCompatibilityPreferenceController.class).updateDisplay();
+        use(WifiTetherHiddenSsidPreferenceController.class).updateDisplay();
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
@@ -284,6 +291,7 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
                 keys.add(KEY_WIFI_TETHER_NETWORK_PASSWORD);
                 keys.add(KEY_WIFI_TETHER_AUTO_OFF);
                 keys.add(KEY_WIFI_TETHER_MAXIMIZE_COMPATIBILITY);
+                keys.add(KEY_WIFI_TETHER_HIDDEN_SSID);
             }
 
             // Remove duplicate
