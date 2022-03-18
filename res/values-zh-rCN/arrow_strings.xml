@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">点击以显示信息</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">ArrowOS 统计信息</string>
+    <string name="arrow_stats_summary">仅统计我们运行的设备数量</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">最低刷新率</string>
+    <string name="max_refresh_rate_title">最高刷新率</string>
+    <string name="battery_saver_refresh_rate_title">降低刷新率</string>
+    <string name="battery_saver_refresh_rate_summary">在省电模式开启时使用 60 Hz 屏幕刷新率以省电</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">链接铃声和通知的音量</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">滑动截屏</string>
+    <string name="three_finger_gesture_summary">三指同时下滑以截取屏幕</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">截屏提示音</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">启用高级重启</string>
+    <string name="global_actions_advanced_reboot_summary">在电源菜单中显示恢复模式和引导模式选项</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">色彩平衡</string>
+    <string name="color_mode_balance_red">红色强度</string>
+    <string name="color_mode_balance_green">绿色强度</string>
+    <string name="color_mode_balance_blue">蓝色强度</string>
+    <string name="keywords_color_balance">颜色、颜色平衡、颜色校正、红色、绿色、蓝色、LiveDisplay</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">编译日期</string>
+    <string name="arrow_version">ArrowOS 版本</string>
+    <string name="about_device_name">设备</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">点按休眠</string>
+    <string name="double_tap_sleep_gesture_summary">双击状态栏的任何位置来关闭屏幕</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">进行操作</string>
+    <string name="double_tap_sleep_lockscreen_title">在锁屏界面双击屏幕休眠</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">播放控制</string>
+    <string name="volume_button_music_control_summary">屏幕关闭时，长按音量键来切换不同曲目</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">音量键唤醒</string>
+    <string name="volume_rocker_wake_summary">使用音量键唤醒您的设备</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">通话振动选项</string>
+    <string name="incall_vibrate_connect_title">接通时振动</string>
+    <string name="incall_vibrate_call_wait_title">呼叫等待时振动</string>
+    <string name="incall_vibrate_disconnect_title">挂断时振动</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">状态栏项目</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">自定义</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">额外的通知效果</string>
+    <string name="notification_sound_vib_screen_on_summary">当屏幕打开时播放声音和振动以进行通知</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">减少浮动通知</string>
+    <string name="less_boring_heads_up_summary">快速禁用除了拨号程序和短信之外的所有应用的浮动通知</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">关闭屏幕时开启手电筒</string>
+    <string name="torch_power_button_gesture_none">已禁用</string>
+    <string name="torch_power_button_gesture_dt">双击电源键 (禁用快速打开相机功能并添加 170毫秒唤醒延迟)</string>
+    <string name="torch_power_button_gesture_lp">长按电源键</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">防止意外唤醒</string>
+    <string name="proximity_wake_summary">双击唤醒屏幕前检查距离传感器</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">平台</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">总计可用内存</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">重置统计数据</string>
+    <string name="battery_stats_message">电池的历史统计数据将会被重置</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">手势栏</string>
+    <string name="show_navbar_gesture_bar_summary">在屏幕底部显示手势栏</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">已保存的耳机</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">电池图标样式</string>
+    <string name="battery_style_summary">自定义电池图标，隐藏或显示百分比</string>
+    <string name="battery_percent_title">状态栏电量百分比</string>
+    <string name="battery_style_category_title">电池图标</string>
+    <string name="status_bar_battery_style_title">电池样式</string>
+    <string name="status_bar_battery_style_icon_portrait">竖直图标 (默认)</string>
+    <string name="status_bar_battery_style_circle">环形</string>
+    <string name="status_bar_battery_style_dotted_circle">环形 (虚线)</string>
+    <string name="status_bar_battery_style_filled_circle">环形 (实心)</string>
+    <string name="status_bar_battery_style_big_circle">大环形</string>
+    <string name="status_bar_battery_style_big_dotted_circle">大环形 (虚线)</string>
+    <string name="status_bar_battery_style_text">文字</string>
+    <string name="status_bar_battery_style_hidden">隐藏</string>
+    <string name="status_bar_battery_percentage_title">电量百分比</string>
+    <string name="status_bar_battery_percentage_default">隐藏 (默认)</string>
+    <string name="status_bar_battery_percentage_text_inside">在图标内</string>
+    <string name="status_bar_battery_percentage_text_next">在图标旁</string>
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">强制使用小型时钟</string>
+    <string name="lockscreen_small_clock_summary">当锁屏界面没有通知时, 不自动切换至大型时钟</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">反转导航栏布局</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">充电指示灯</string>
+    <string name="battery_light_summary">勿扰模式下和低电量时的电量指示灯行为</string>
+    <string name="battery_light_enable">电量指示灯</string>
+    <string name="battery_light_allow_on_dnd_title">勿扰模式下启用充电指示灯</string>
+    <string name="battery_light_low_blinking_title">低电量时闪烁指示灯</string>
+    <string name="battery_light_cat">充电时电量指示灯颜色</string>
+    <string name="battery_light_low_color">低电量</string>
+    <string name="battery_light_medium_color">中等电量</string>
+    <string name="battery_light_full_color">电量将满</string>
+    <string name="battery_light_reallyfull_color">满电 (100%)</string>
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">Monet 引擎</string>
+    <string name="monet_engine_summary">自定义 Monet 参数</string>
+    <string name="monet_engine_custom_color_title">使用自定义颜色</string>
+    <string name="monet_engine_custom_color_summary">使用自定义颜色而非根据壁纸颜色变换</string>
+    <string name="monet_engine_color_override_title">自定义颜色</string>
+    <string name="monet_engine_linear_lightness_title">使用自定义亮度比例</string>
+    <string name="monet_engine_linear_lightness_summary">允许使用自定义的颜色亮度比例</string>
+    <string name="monet_engine_white_luminance_user_title">亮度比例</string>
+    <string name="monet_engine_accurate_shades_title">使用精确色调</string>
+    <string name="monet_engine_accurate_shades_summary">更好的对比度和深度，但颜色更暗淡</string>
+    <string name="monet_engine_chroma_factor_title">饱和度</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备的 VPN 连接</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">波纹效果</string>
+    <string name="enable_fingerprint_ripple_effect_summary">使用指纹解锁时显示波纹效果</string>
+</resources>

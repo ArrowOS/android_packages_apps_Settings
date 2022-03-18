@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Klõpsake teabe kuvamiseks</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">ArrowOS\'i statistika</string>
+    <string name="arrow_stats_summary">Lihtsalt loendades, kui palju seadmeid me käivitame</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Minimaalne värskendussagedus</string>
+    <string name="max_refresh_rate_title">Maksimaalne värskendussagedus</string>
+    <string name="battery_saver_refresh_rate_title">Vähendage värskendussagedust</string>
+    <string name="battery_saver_refresh_rate_summary">Kui akusäästja on sisse lülitatud, kasutage toite säästmiseks 60 Hz värskendussagedust</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Ühenda helina &amp; teadete helitugevus</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Viipa ekraanipildiks</string>
+    <string name="three_finger_gesture_summary">Viipa kolme sõrmega alla, et teha ekraanipilt</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Kuvatõmmise heli</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Luba täpsustatud taaskäivitamine</string>
+    <string name="global_actions_advanced_reboot_summary">Kuva toitemenüüs taastamise ja alglaaduri valikud</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Värvi tasakaal</string>
+    <string name="color_mode_balance_red">Punase tugevus</string>
+    <string name="color_mode_balance_green">Rohelise tugevus</string>
+    <string name="color_mode_balance_blue">Sinise tugevus</string>
+    <string name="keywords_color_balance">värv, värvi tasakaal, värvi korrigeerimine, punane, roheline, sinine, LiveDisplay</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">Järgu kuupäev</string>
+    <string name="arrow_version">ArrowOS versioon</string>
+    <string name="about_device_name">Seade</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Koputa unerežiimiks</string>
+    <string name="double_tap_sleep_gesture_summary">Unerežimi aktiveerimiseks topeltkoputa olekuribal</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Mida teha</string>
+    <string name="double_tap_sleep_lockscreen_title">Unerežiimiks topeltkoputa lukustusekraanil</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Taasesituse juhtimine</string>
+    <string name="volume_button_music_control_summary">Kui ekraan on välja lülitatud, jätab helitugevusklahvide pikaajaline vajutamine muusikapalad vahele</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Äratus helitugevuse nuppudega</string>
+    <string name="volume_rocker_wake_summary">Äratage seade helitugevusklahvide vajutamisega</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Kõne vibratsiooni valikud</string>
+    <string name="incall_vibrate_connect_title">Vibreeri ühendamisel</string>
+    <string name="incall_vibrate_call_wait_title">Vibreeri kõne koputusel</string>
+    <string name="incall_vibrate_disconnect_title">Vibreeri katkemisel</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Olekuriba elemendid</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Kohandamine</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Tüütud teavitused</string>
+    <string name="notification_sound_vib_screen_on_summary">Vibreeri ja esita teadete puhul heli, kui ekraan on sees</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Mõistlikud teavitused</string>
+    <string name="less_boring_heads_up_summary">Kiiresti deaktiveeri kõikide rakenduste teavitused, kuid hoia need sees helistamis- ja sõnumirakendustele</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Lülita taskulamp välja, kui ekraan on välja lülitatud</string>
+    <string name="torch_power_button_gesture_none">Keelatud</string>
+    <string name="torch_power_button_gesture_dt">Topeltvajuta toite nuppu (Keelab kiire kaamera avamise funktsiooni ja lisab 170ms ärkamise viite)</string>
+    <string name="torch_power_button_gesture_lp">Toitenupu pikk vajutus</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Väldi juhuslikku ärkamist</string>
+    <string name="proximity_wake_summary">Kontrolli läheduse andurit enne ekraani ärkamist Topelt koputuse ärkamise viipest</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platvorm</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Kogu saadaolev RAM</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Lähtesta statistika</string>
+    <string name="battery_stats_message">Aku kasutamise ajalugu nullitakse</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Viipamise riba</string>
+    <string name="show_navbar_gesture_bar_summary">Kuva viipamise riba ekraani allosas</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Salvestatud nööpkuularid</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Battery icon style</string>
+    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
+    <string name="battery_percent_title">Status bar battery percentage</string>
+    <string name="battery_style_category_title">Battery icon</string>
+    <string name="status_bar_battery_style_title">Battery style</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
+    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
+    <string name="status_bar_battery_style_big_circle">Big circle</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Big dotted circle</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
+    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">Force small clock</string>
+    <string name="lockscreen_small_clock_summary">Don\'t switch to the big clock when there are no notifications</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">Battery charging light</string>
+    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
+    <string name="battery_light_enable">Battery light</string>
+    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
+    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
+    <string name="battery_light_cat">Battery light color when charging</string>
+    <string name="battery_light_low_color">Low battery</string>
+    <string name="battery_light_medium_color">Medium battery</string>
+    <string name="battery_light_full_color">Almost full battery</string>
+    <string name="battery_light_reallyfull_color">Full (100) battery</string>
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">Monet Engine</string>
+    <string name="monet_engine_summary">Customise monet parameters</string>
+    <string name="monet_engine_custom_color_title">Use custom color</string>
+    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
+    <string name="monet_engine_color_override_title">Custom color</string>
+    <string name="monet_engine_linear_lightness_title">Use custom brightness scale</string>
+    <string name="monet_engine_linear_lightness_summary">It allows using the custom color brightness scale</string>
+    <string name="monet_engine_white_luminance_user_title">Brightness scale</string>
+    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
+    <string name="monet_engine_accurate_shades_summary">Better contrast and depth, but duller colors</string>
+    <string name="monet_engine_chroma_factor_title">Colorfulness</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+</resources>

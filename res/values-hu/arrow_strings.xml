@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Érintse meg az információ megjelenítéséhez</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">ArrowOS statisztikák</string>
+    <string name="arrow_stats_summary">Csak tudni szeretnénk hány eszközön futunk</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Minimális képernyőfrissítés</string>
+    <string name="max_refresh_rate_title">Maximális képernyőfrissítés</string>
+    <string name="battery_saver_refresh_rate_title">Képernyő frissítés csökkentése</string>
+    <string name="battery_saver_refresh_rate_summary">Ha az akkumulátorkímélőt bekapcsolja, használja a 60 Hz képernyőfrissítést</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Csengő és értesítési hangok összekapcsolása</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Képernyőkép csúsztatással</string>
+    <string name="three_finger_gesture_summary">Képernyőkép készítéséhez húzza egyszerre három ujját lefelé a képernyőn</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Képernyőkép hang</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Speciális újraindítás engedélyezése</string>
+    <string name="global_actions_advanced_reboot_summary">A recovery és bootloader opciók megjelenítése a kikapcsoló menüben</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Színegyensúly</string>
+    <string name="color_mode_balance_red">Vörös-erősség</string>
+    <string name="color_mode_balance_green">Zöld-erősség</string>
+    <string name="color_mode_balance_blue">Kék-erősség</string>
+    <string name="keywords_color_balance">szín, színegyensúly, színjavítás, színkorrekció, vörös, zöld, kék, LiveDisplay</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">Készítés dátuma</string>
+    <string name="arrow_version">ArrowOS verzió</string>
+    <string name="about_device_name">Eszköz</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Koppintás az alváshoz</string>
+    <string name="double_tap_sleep_gesture_summary">Koppintson duplán bárhol az állapotsoron az eszköz alvó állapotba helyezéséhez</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Mit kell tenni</string>
+    <string name="double_tap_sleep_lockscreen_title">Dupla koppintás a záróképernyőn az alvó állapothoz</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Lejátszás vezérlése</string>
+    <string name="volume_button_music_control_summary">Ha a képernyő ki van kapcsolva, a hangerő gombok hosszan tartó lenyomásával átugorja a zeneszámokat</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Hangerő ébresztés</string>
+    <string name="volume_rocker_wake_summary">Ébressze fel az eszközét a hangerő gombok megnyomásával</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Hívás közbeni rezgési lehetőségek</string>
+    <string name="incall_vibrate_connect_title">Rezgés csatlakozáskor</string>
+    <string name="incall_vibrate_call_wait_title">Rezgés hívásvárakoztatáskor</string>
+    <string name="incall_vibrate_disconnect_title">Rezgés lecsatlakozáskor</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Állapotsor elemei</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Testreszabás</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Bosszantó Értesítések</string>
+    <string name="notification_sound_vib_screen_on_summary">Hang és rezgés lejátszása az értesítésekhez, amikor a képernyő be van kapcsolva</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Kiegyensúlyozottabb lebegő értesítések</string>
+    <string name="less_boring_heads_up_summary">Gyorsan letilthatja a lebegő értesítések funkciót az összes alkalmazásnál, de engedélyezve marad a tárcsázó és üzenetküldő alkalmazásoknál</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">A zseblámpa váltása kikapcsolt képernyőnél</string>
+    <string name="torch_power_button_gesture_none">Letiltva</string>
+    <string name="torch_power_button_gesture_dt">A bekapcsológomb megnyomása kétszer (kikapcsolja a kamera gyors megnyitása funkciót, és 170 ms-os ébresztési késleltetést ad hozzá)</string>
+    <string name="torch_power_button_gesture_lp">A bekapcsológomb nyomva tartása</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Véletlen felébresztés megakadályozása</string>
+    <string name="proximity_wake_summary">Ellenőrizze a közelségérzékelőt, mielőtt felébreszti a képernyőt a dupla koppintásos gesztussal</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Felület</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Teljes elérhető RAM</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Statisztikák visszaállítása</string>
+    <string name="battery_stats_message">Az akkumulátor előzmény statisztikái visszaállnak</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Gesztussáv</string>
+    <string name="show_navbar_gesture_bar_summary">Gesztussáv megjelenítése a képernyő alján</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Mentett Fülhallgatók</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Akkumulátor ikon stílus</string>
+    <string name="battery_style_summary">Testreszabhatja az akkumulátor ikonokat, elrejtheti vagy megjelenítheti a százalékot</string>
+    <string name="battery_percent_title">Akkumulátor százalék az állapotsoron</string>
+    <string name="battery_style_category_title">Akkumulátor ikon</string>
+    <string name="status_bar_battery_style_title">Akkumulátor stílus</string>
+    <string name="status_bar_battery_style_icon_portrait">Álló ikon (alapértelmezett)</string>
+    <string name="status_bar_battery_style_circle">Kör</string>
+    <string name="status_bar_battery_style_dotted_circle">Kör (Pontozott)</string>
+    <string name="status_bar_battery_style_filled_circle">Kör (Megtöltött)</string>
+    <string name="status_bar_battery_style_big_circle">Nagy kör</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Nagy pontozott kör</string>
+    <string name="status_bar_battery_style_text">Szöveg</string>
+    <string name="status_bar_battery_style_hidden">Rejtett</string>
+    <string name="status_bar_battery_percentage_title">Akkumulátor százalék</string>
+    <string name="status_bar_battery_percentage_default">Rejtett (alapértelmezett)</string>
+    <string name="status_bar_battery_percentage_text_inside">Az ikon belsejében</string>
+    <string name="status_bar_battery_percentage_text_next">Az ikon mellett</string>
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">Kényszerített kis óra</string>
+    <string name="lockscreen_small_clock_summary">Ne váltson át a nagy órára, ha nincsenek értesítések</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Fordított navigációs sáv elrendezés</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">Akkumulátor töltés jelzőfény</string>
+    <string name="battery_light_summary">Az akkumulátor fényének viselkedése ne zavarjanak üzemmódban, alacsony akkumulátor töltöttségnél</string>
+    <string name="battery_light_enable">Akkumulátor fény</string>
+    <string name="battery_light_allow_on_dnd_title">Akkumulátor fény a Ne zavarjanak módban</string>
+    <string name="battery_light_low_blinking_title">Villogó fény alacsony töltöttség esetén</string>
+    <string name="battery_light_cat">Akkumulátor fény szín töltés közben</string>
+    <string name="battery_light_low_color">Alacsony akkumulátor</string>
+    <string name="battery_light_medium_color">Közepes akkumulátor</string>
+    <string name="battery_light_full_color">Majdnem tele akkumulátor</string>
+    <string name="battery_light_reallyfull_color">Teljes (100) akkumulátor</string>
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">Monet Motor</string>
+    <string name="monet_engine_summary">Monet paraméterek testreszabása</string>
+    <string name="monet_engine_custom_color_title">Egyéni szín használata</string>
+    <string name="monet_engine_custom_color_summary">Egyéni szín használata a monet motorhoz a háttérkép színei helyett</string>
+    <string name="monet_engine_color_override_title">Egyéni szín</string>
+    <string name="monet_engine_linear_lightness_title">Egyéni fényerő skála használata</string>
+    <string name="monet_engine_linear_lightness_summary">Lehetővé teszi az egyéni fényerő skála használatát</string>
+    <string name="monet_engine_white_luminance_user_title">Fényerő skála</string>
+    <string name="monet_engine_accurate_shades_title">Pontos árnyalatok használata</string>
+    <string name="monet_engine_accurate_shades_summary">Jobb kontraszt és mélység, de tompább színek</string>
+    <string name="monet_engine_chroma_factor_title">Színesség</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Kliens VPN-használat engedélyezés</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Engedélyezze a hotspot ügyfelek számára, hogy az eszközük VPN-kapcsolatait használják felfelé irányuló kapcsolathoz</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Hullámzó hatás</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Hullámzás effekt megjelenítése ujjlenyomattal történő feloldáskor</string>
+</resources>

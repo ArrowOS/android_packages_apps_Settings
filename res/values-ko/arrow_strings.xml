@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">탭하여 정보 보기</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">ArrowOS 통계</string>
+    <string name="arrow_stats_summary">얼마나 많은 기기가 ArrowOS로 실행되는지 집계합니다.</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">최소 재생률</string>
+    <string name="max_refresh_rate_title">최대 재생률</string>
+    <string name="battery_saver_refresh_rate_title">배터리 절약 재생률</string>
+    <string name="battery_saver_refresh_rate_summary">배터리 절약이 켜져 있으면 전력 소모를 줄이기 위해 60 Hz 화면 재생률 사용</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">벨소리 볼륨과 알림 볼륨 연결</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">화면을 쓸어 스크린샷 찍기</string>
+    <string name="three_finger_gesture_summary">화면을 세 손가락으로 쓸어내려 캡처합니다.</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">스크린샷 촬영음</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">고급 다시 시작 사용</string>
+    <string name="global_actions_advanced_reboot_summary">전원 메뉴에 복구 모드와 부트로더로 다시 시작 옵션을 표시합니다..</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">색상 밸런스</string>
+    <string name="color_mode_balance_red">빨간색 강도</string>
+    <string name="color_mode_balance_green">초록색 강도</string>
+    <string name="color_mode_balance_blue">파란색 강도</string>
+    <string name="keywords_color_balance">색상, 색상 밸런스, 색상 교정, 빨간색, 초록색, 파란색, 라이브디스플레이</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">빌드 날짜</string>
+    <string name="arrow_version">ArrowOS 버전</string>
+    <string name="about_device_name">기기</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">두 번 탭하여 화면 끄기</string>
+    <string name="double_tap_sleep_gesture_summary">상태 표시줄을 두 번 탭하여 화면을 끕니다.</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">해야 할 것</string>
+    <string name="double_tap_sleep_lockscreen_title">잠금 화면을 두 번 눌러 화면 끄기</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">재생 제어</string>
+    <string name="volume_button_music_control_summary">화면이 꺼져 있을 때, 음량 버튼을 길게 눌러 곡을 넘깁니다.</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">음량 버튼 화면 켜기</string>
+    <string name="volume_rocker_wake_summary">음량 버튼을 눌러 화면을 켭니다.</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">통화 중 진동 옵션</string>
+    <string name="incall_vibrate_connect_title">통화 연결 시 진동</string>
+    <string name="incall_vibrate_call_wait_title">통화 대기 시 진동</string>
+    <string name="incall_vibrate_disconnect_title">통화 종료 시 진동</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">상태 표시줄 항목</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">사용자 설정</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">알림음 중 진동</string>
+    <string name="notification_sound_vib_screen_on_summary">화면이 켜져 있을 때 알림에 소리 및 진동 동시 사용</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">헤드업 알림 방해 금지</string>
+    <string name="less_boring_heads_up_summary">전화와 메시지를 제외한 모든 헤드업 알림이 꺼집니다.</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">화면이 꺼져있을 때 손전등 사용</string>
+    <string name="torch_power_button_gesture_none">사용 안 함</string>
+    <string name="torch_power_button_gesture_dt">전원 버튼 두 번 누르기 (카메라 빠른 실행 옵션이 꺼지고, 화면 약 0.2초 느리게 켜짐)</string>
+    <string name="torch_power_button_gesture_lp">전원 버튼 길게 누르기</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">실수로 화면 켜기 방지</string>
+    <string name="proximity_wake_summary">화면을 두 번 탭하여 켤 때 근접 센서를 확인합니다.</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">플랫폼</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">RAM 용량</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">기록 초기화</string>
+    <string name="battery_stats_message">배터리 사용 기록을 초기화합니다</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">제스처 바</string>
+    <string name="show_navbar_gesture_bar_summary">화면 아래에 제스처 바를 표시</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">저장된 무선 이어폰</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">배터리 아이콘 스타일</string>
+    <string name="battery_style_summary">배터리 아이콘, 퍼센트를 숨기거나 나타나게 커스텀합니다</string>
+    <string name="battery_percent_title">상태 표시줄 배터리 잔량 표시</string>
+    <string name="battery_style_category_title">배터리 아이콘</string>
+    <string name="status_bar_battery_style_title">배터리 스타일</string>
+    <string name="status_bar_battery_style_icon_portrait">세로 아이콘 (기본값)</string>
+    <string name="status_bar_battery_style_circle">원형</string>
+    <string name="status_bar_battery_style_dotted_circle">원형 (점선)</string>
+    <string name="status_bar_battery_style_filled_circle">원형 (채워진)</string>
+    <string name="status_bar_battery_style_big_circle">큰 원형</string>
+    <string name="status_bar_battery_style_big_dotted_circle">큰 점선 원형</string>
+    <string name="status_bar_battery_style_text">텍스트</string>
+    <string name="status_bar_battery_style_hidden">숨김</string>
+    <string name="status_bar_battery_percentage_title">배터리 잔량</string>
+    <string name="status_bar_battery_percentage_default">숨김 (기본값)</string>
+    <string name="status_bar_battery_percentage_text_inside">아이콘 안에 표시</string>
+    <string name="status_bar_battery_percentage_text_next">아이콘 옆에 표시</string>
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">작은 시계 강제 설정</string>
+    <string name="lockscreen_small_clock_summary">알림이 없을 때 큰 시계로 전환하지 마십시오</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">네비게이션 바 레이아웃 반전</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">배터리 충전 표시등</string>
+    <string name="battery_light_summary">방해 금지 모드 및 배터리 부족 시 배터리 표시등 설정</string>
+    <string name="battery_light_enable">배터리 충전 표시등</string>
+    <string name="battery_light_allow_on_dnd_title">방해 금지 모드에서 배터리 충전 표시등 사용</string>
+    <string name="battery_light_low_blinking_title">배터리 부족 시 표시등 깜빡임</string>
+    <string name="battery_light_cat">충전 시 배터리 표시등 색상</string>
+    <string name="battery_light_low_color">배터리 부족</string>
+    <string name="battery_light_medium_color">배터리 중간</string>
+    <string name="battery_light_full_color">충전이 거의 완료 됨</string>
+    <string name="battery_light_reallyfull_color">충전 완료 (100%)</string>
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">Monet 엔진</string>
+    <string name="monet_engine_summary">Monet 설정 값 변경</string>
+    <string name="monet_engine_custom_color_title">사용자 지정 색 사용</string>
+    <string name="monet_engine_custom_color_summary">배경화면 색 대신 Monet 엔진에 설정된 사용자 지정 색 사용</string>
+    <string name="monet_engine_color_override_title">사용자 지정 색</string>
+    <string name="monet_engine_linear_lightness_title">사용자 지정 밝기 단계 사용</string>
+    <string name="monet_engine_linear_lightness_summary">사용자 지정 밝기 단계를 사용합니다</string>
+    <string name="monet_engine_white_luminance_user_title">밝기 단계 조절</string>
+    <string name="monet_engine_accurate_shades_title">정확한 음영 사용</string>
+    <string name="monet_engine_accurate_shades_summary">대비와 심도는 향상되지만, 색상이 흐릿해질 수 있습니다</string>
+    <string name="monet_engine_chroma_factor_title">색상 조절</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">클라이언트가 VPN을 사용하도록 허용</string>
+    <string name="tethering_allow_vpn_upstreams_summary">핫스팟 클라이언트가 연결성 향상을 위해 이 기기\u2019의 VPN 연결을 사용하도록 허용</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">물결 효과</string>
+    <string name="enable_fingerprint_ripple_effect_summary">지문으로 잠금 해제 시 물결 효과 표시</string>
+</resources>

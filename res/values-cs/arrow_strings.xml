@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Klepnutím zobrazit informace</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">Statistiky ArrowOS</string>
+    <string name="arrow_stats_summary">Jen počítejte, na kolika zařízeních pracujeme</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Minimální obnovovací frekvence</string>
+    <string name="max_refresh_rate_title">Maximální obnovovací frekvence</string>
+    <string name="battery_saver_refresh_rate_title">Snížit obnovovací frekvenci</string>
+    <string name="battery_saver_refresh_rate_summary">Když je zapnut spořič baterie, použít obnovovací frekvenci 60 Hz pro úsporu energie</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Spojit hlasitost vyzvánění &amp; oznámení</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Snímek obrazovky třemi prsty</string>
+    <string name="three_finger_gesture_summary">Přejetím dolů třemi prsty pořídit snímek obrazovky</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Zvuk při snímku obrazovky</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Povolit rozšířený restart</string>
+    <string name="global_actions_advanced_reboot_summary">V menu napájení zobrazit možnosti pro režim recovery a bootloader</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Vyvážení barev</string>
+    <string name="color_mode_balance_red">Červená</string>
+    <string name="color_mode_balance_green">Zelená</string>
+    <string name="color_mode_balance_blue">Modrá</string>
+    <string name="keywords_color_balance">barvy, vyvážení barev, korekce barev, červená, zelená, modrá, LiveDisplay</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">Datum sestavení</string>
+    <string name="arrow_version">Verze ArrowOS</string>
+    <string name="about_device_name">Zařízení</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Klepnutím uspat</string>
+    <string name="double_tap_sleep_gesture_summary">Dvojí poklepání kdekoliv na stavový řádek uvede zařízení do režimu spánku</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Co dělat</string>
+    <string name="double_tap_sleep_lockscreen_title">Dvojitým poklepáním na zamykací obrazovku uspat zařízení</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Ovládání přehrávání</string>
+    <string name="volume_button_music_control_summary">Pokud je obrazovka vypnutá, dlouhé stisknutí tlačítek hlasitosti přeskočí skladby</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Probudit tlačítky hlasitosti</string>
+    <string name="volume_rocker_wake_summary">Probudit zařízení stisknutím tlačítek hlasitosti</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Možnosti vibrací při volání</string>
+    <string name="incall_vibrate_connect_title">Zavibrovat při spojení</string>
+    <string name="incall_vibrate_call_wait_title">Zavibrovat při dalším hovoru</string>
+    <string name="incall_vibrate_disconnect_title">Zavibrovat při zavěšení</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Položky stavového řádku</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Přizpůsobení</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Obtěžující oznámení</string>
+    <string name="notification_sound_vib_screen_on_summary">Přehrát zvuk a vibrovat při přijetí oznámení, když je obrazovka zapnutá</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Méně obtěžující plovoucí oznámení</string>
+    <string name="less_boring_heads_up_summary">Rychle vypne plovoucí oznámení pro všechny aplikace, ale ponechá je zapnuté pro aplikace Telefon a Zprávy</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Přepnutí svítilny při vypnuté obrazovce</string>
+    <string name="torch_power_button_gesture_none">Vypnuto</string>
+    <string name="torch_power_button_gesture_dt">Dvojité stisknutí tlačítka napájení (vypne funkci rychlého otevření fotoaparátu a přidá 170ms zpoždění)</string>
+    <string name="torch_power_button_gesture_lp">Dlouhým stiskem tlačítka napájení</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Zabránit nechtěnému probuzení</string>
+    <string name="proximity_wake_summary">Kontrola snímače přiblížení před probuzením obrazovky z gesta dvojitého klepnutí pro probuzení</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platforma</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Celková dostupná paměť RAM</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Vynulovat statistiky</string>
+    <string name="battery_stats_message">Historie statistiky baterie bude vynulovaná</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Panel gest</string>
+    <string name="show_navbar_gesture_bar_summary">Zobrazit panel gesta v dolní části obrazovky</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Uložená sluchátka</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Styl ikony baterie</string>
+    <string name="battery_style_summary">Přizpůsobit styl ikony baterie, skrýt nebo zobrazit procenta</string>
+    <string name="battery_percent_title">Procenta baterie ve stavovém řádku</string>
+    <string name="battery_style_category_title">Ikona baterie</string>
+    <string name="status_bar_battery_style_title">Styl baterie</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikona na výšku (výchozí)</string>
+    <string name="status_bar_battery_style_circle">Kruh</string>
+    <string name="status_bar_battery_style_dotted_circle">Kruh (přerušovaný)</string>
+    <string name="status_bar_battery_style_filled_circle">Kruh (plný)</string>
+    <string name="status_bar_battery_style_big_circle">Velký kruh</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Velký přerušovaný kruh</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Nezobrazovat</string>
+    <string name="status_bar_battery_percentage_title">Procenta baterie</string>
+    <string name="status_bar_battery_percentage_default">Skryté (výchozí)</string>
+    <string name="status_bar_battery_percentage_text_inside">Uvnitř ikony</string>
+    <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">Vynutit malé hodiny</string>
+    <string name="lockscreen_small_clock_summary">Nepřepínat na velké hodiny, když nejsou přítomna žádná oznámení</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Převrátit rozložení navigačního panelu</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">Kontrolka nabíjení baterie</string>
+    <string name="battery_light_summary">Chování kontrolky baterie při DND, nízký stav baterie</string>
+    <string name="battery_light_enable">Kontrolka baterie</string>
+    <string name="battery_light_allow_on_dnd_title">Kontrolka baterie v režimu „Nerušit“</string>
+    <string name="battery_light_low_blinking_title">Blikat při nízkém stavu baterie</string>
+    <string name="battery_light_cat">Barva kontrolky baterie při nabíjení</string>
+    <string name="battery_light_low_color">Nízký stav baterie</string>
+    <string name="battery_light_medium_color">Střední stav baterie</string>
+    <string name="battery_light_full_color">Téměř nabito</string>
+    <string name="battery_light_reallyfull_color">Plně nabito (100%)</string>
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">Monet Engine</string>
+    <string name="monet_engine_summary">Přizpůsobit parametry Monetu</string>
+    <string name="monet_engine_custom_color_title">Použít vlastní barvu</string>
+    <string name="monet_engine_custom_color_summary">Použít vlastní barvu pro engine Monetu namísto barev tapety</string>
+    <string name="monet_engine_color_override_title">Vlastní barva</string>
+    <string name="monet_engine_linear_lightness_title">Použít vlastní stupnici jasu</string>
+    <string name="monet_engine_linear_lightness_summary">Umožňuje použití vlastní stupnici jasu barev</string>
+    <string name="monet_engine_white_luminance_user_title">Stupnice jasu</string>
+    <string name="monet_engine_accurate_shades_title">Použít přesné odstíny</string>
+    <string name="monet_engine_accurate_shades_summary">Lepší kontrast a hloubka, ale matnější barvy</string>
+    <string name="monet_engine_chroma_factor_title">Barevnost</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Umožnit klientům používat VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Povolit klientům hotspotu používat připojení VPN tohoto zařízení pro odchozí připojení</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Efekt zvlnění</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Zobrazit efekt zvlnění při odemknutí zařízení pomocí otisku prstu</string>
+</resources>

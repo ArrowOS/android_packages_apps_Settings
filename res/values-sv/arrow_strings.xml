@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Tryck för att visa information</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">Statistik för ArrowOS</string>
+    <string name="arrow_stats_summary">Sumering över hur många enheter som vi körs på</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Minsta uppdateringsfrekvens</string>
+    <string name="max_refresh_rate_title">Högsta uppdateringsfrekvensen</string>
+    <string name="battery_saver_refresh_rate_title">Minska uppdateringsfrekvensen</string>
+    <string name="battery_saver_refresh_rate_summary">Använd 60 Hz som högsta uppdateringsfrekvens för att spara ström när batterisparläge är aktiverat</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Länka ringsignals- &amp; aviseringsvolym</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Svep för skärmdump</string>
+    <string name="three_finger_gesture_summary">Svep nedåt med tre fingrar för att ta en skärmbild</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Skärmdumpsljud</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Aktivera avancerad omstart</string>
+    <string name="global_actions_advanced_reboot_summary">Visa alternativ för återställning och starthanterare i avstängningsmenyn</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Färgbalans</string>
+    <string name="color_mode_balance_red">Röd styrka</string>
+    <string name="color_mode_balance_green">Grön styrka</string>
+    <string name="color_mode_balance_blue">Blå styrka</string>
+    <string name="keywords_color_balance">färg, färgbalans, färgkorrigering, röd, grön, blå, Levande Skärm</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">Kompileringsdatum</string>
+    <string name="arrow_version">Version på ArrowOS</string>
+    <string name="about_device_name">Enhet</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Dubbeltryck för att släcka skärmen</string>
+    <string name="double_tap_sleep_gesture_summary">Dubbeltryck på statusfältet för att försätta enheten i viloläge</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Vad skall göras</string>
+    <string name="double_tap_sleep_lockscreen_title">Dubbeltryck på låsskärmen för att försätta enheten i viloläge</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Uppspelningskontroll</string>
+    <string name="volume_button_music_control_summary">När skärmen är i viloläge kommer ett långtryck på volymknapparna att byta musikspår</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Vakna med volymknappar</string>
+    <string name="volume_rocker_wake_summary">Väck enheten genom att trycka på volymknapparna</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Vibrationsalternativ vid samtal</string>
+    <string name="incall_vibrate_connect_title">Vibrera vid anslutning</string>
+    <string name="incall_vibrate_call_wait_title">Vibrera vid samtal väntar</string>
+    <string name="incall_vibrate_disconnect_title">Vibrera vid frånkoppling</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusfältsikoner</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Anpassning</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Irriterande aviseringar</string>
+    <string name="notification_sound_vib_screen_on_summary">Spela upp ljud och vibrera för aviseringar när skärmen är aktiv</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Vettigare popup</string>
+    <string name="less_boring_heads_up_summary">Skyndsamt inaktivera popup för alla applikationer, men behåll dem aktiverade för samtals- och meddelandeappar</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Kontrollera ficklampan när skärmen är i viloläge</string>
+    <string name="torch_power_button_gesture_none">Inaktiverad</string>
+    <string name="torch_power_button_gesture_dt">Dubbeltryck på strömbrytaren (inaktiverar funktionen Snabbåtkomst till kameran samt lägger till 170 ms fördröjning på uppvaknandet)</string>
+    <string name="torch_power_button_gesture_lp">Långtryck på strömbrytaren</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Förhindra oavsiktlig väckning</string>
+    <string name="proximity_wake_summary">Kontrollera närhetssensorn innan skärmen väcks av aktiveringsgesten Dubbeltryck för att vakna</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plattform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Totalt tillgängligt RAM</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Återställ statistik</string>
+    <string name="battery_stats_message">Statistik över batterianvändning kommer att återställas</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Fällt för gester</string>
+    <string name="show_navbar_gesture_bar_summary">Visa fällt för gester längst ner på skärmen</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Sparade Öronsnäckor</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Stil för batteriikon</string>
+    <string name="battery_style_summary">Anpassa batteriikonerna, visa eller göm batterinivå</string>
+    <string name="battery_percent_title">Batterinivå i statusfältet</string>
+    <string name="battery_style_category_title">Batteriikon</string>
+    <string name="status_bar_battery_style_title">Stil på batteri</string>
+    <string name="status_bar_battery_style_icon_portrait">Stående ikon (standard)</string>
+    <string name="status_bar_battery_style_circle">Cirkel</string>
+    <string name="status_bar_battery_style_dotted_circle">Cirkel (Streckad)</string>
+    <string name="status_bar_battery_style_filled_circle">Cirkel (Fylld)</string>
+    <string name="status_bar_battery_style_big_circle">Stor cirkel</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Stor streckad cirkel</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Dold</string>
+    <string name="status_bar_battery_percentage_title">Batterinivå</string>
+    <string name="status_bar_battery_percentage_default">Dold (standard)</string>
+    <string name="status_bar_battery_percentage_text_inside">Inuti ikonen</string>
+    <string name="status_bar_battery_percentage_text_next">Bredvid ikonen</string>
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">Tvinga liten klocka</string>
+    <string name="lockscreen_small_clock_summary">Byt inte till den stora klockan när det inte finns några aviseringar</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Kasta om ordningen på navigeringsdältet</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">Ljus vid batteriladdning</string>
+    <string name="battery_light_summary">Ljusbeteende under Stör-Ej, låg batterinivå</string>
+    <string name="battery_light_enable">Ljus för batteristatus</string>
+    <string name="battery_light_allow_on_dnd_title">Ljus för batteristatus under Stör-Ej läge</string>
+    <string name="battery_light_low_blinking_title">Blinkande ljus vid låg batterinivå</string>
+    <string name="battery_light_cat">Färg på batteristatusens ljus vid laddning</string>
+    <string name="battery_light_low_color">Låg batterinivå</string>
+    <string name="battery_light_medium_color">Medium batterinivå</string>
+    <string name="battery_light_full_color">Nästan full batterinivå</string>
+    <string name="battery_light_reallyfull_color">Full (100) batterinivå</string>
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">Monet temamotor</string>
+    <string name="monet_engine_summary">Anpassa parametrar för Monet</string>
+    <string name="monet_engine_custom_color_title">Använd anpassad färg</string>
+    <string name="monet_engine_custom_color_summary">Använd anpassad färg i temamotorn för Monet istället för färg tagen från bakgrundsbilden</string>
+    <string name="monet_engine_color_override_title">Anpassad färg</string>
+    <string name="monet_engine_linear_lightness_title">Använd anpassad skala för ljusstyrka</string>
+    <string name="monet_engine_linear_lightness_summary">Det möjliggör att använda anpassad skala för färgers ljusstyrka</string>
+    <string name="monet_engine_white_luminance_user_title">Skala för ljusstyrka</string>
+    <string name="monet_engine_accurate_shades_title">Använd korrekta nyanser</string>
+    <string name="monet_engine_accurate_shades_summary">Bättre kontrast och djup, men mattare färger</string>
+    <string name="monet_engine_chroma_factor_title">Färgmättnad</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Tillåt klienter att använda VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Tillåt surfpunktsklienter att använda den här enheten\u2019s VPN-anslutningar för anslutningar uppströms</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Bilgileri göstermek için dokunun</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">ArrowOS istatistikleri</string>
+    <string name="arrow_stats_summary">Sadece kaç cihazda çalıştığımızı sayıyoruz</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Minimum yenileme hızı</string>
+    <string name="max_refresh_rate_title">Maksimum yenileme hızı</string>
+    <string name="battery_saver_refresh_rate_title">Yenileme hızını azalt</string>
+    <string name="battery_saver_refresh_rate_summary">Pil tasarrufu açıkken güç tasarrufu yapmak için 60 Hz ekran yenileme hızını kullanın</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Zil sesi ve bildirim sesini bağla</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Üç parmak hareketi</string>
+    <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızı ekran üzerinde kaydırın</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Ekran görüntüsü sesi</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Gelişmiş yeniden başlatmayı etkinleştir</string>
+    <string name="global_actions_advanced_reboot_summary">Güç menüsünde kurtarma ve ön yükleyici seçeneklerini göster</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Renk dengesi</string>
+    <string name="color_mode_balance_red">Kırmızı yoğunluğu</string>
+    <string name="color_mode_balance_green">Yeşil yoğunluğu</string>
+    <string name="color_mode_balance_blue">Mavi yoğunluğu</string>
+    <string name="keywords_color_balance">renk, renk dengesi, renk düzeltmesi, kırmızı, yeşil, mavi, LiveDisplay</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">İnşa tarihi</string>
+    <string name="arrow_version">ArrowOS sürümü</string>
+    <string name="about_device_name">Cihaz</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Uyutmak için dokunun</string>
+    <string name="double_tap_sleep_gesture_summary">Cihazı uyutmak için durum çubuğunun herhangi bir yerine çift dokunun</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Ne yapılsın</string>
+    <string name="double_tap_sleep_lockscreen_title">Kilit ekranında uyutmak için çift dokunun</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Oynatma kontrolü</string>
+    <string name="volume_button_music_control_summary">Ekran kapalıyken, ses tuşlarına uzun basarak şarkıyı değiştir</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Ses tuşlarıyla uyandır</string>
+    <string name="volume_rocker_wake_summary">Ses tuşlarına basıldığında cihazı uyandır</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Arama titreşimi</string>
+    <string name="incall_vibrate_connect_title">Bağlandığında titret</string>
+    <string name="incall_vibrate_call_wait_title">Arama bekletildiğinde titret</string>
+    <string name="incall_vibrate_disconnect_title">Bağlantı kesildiğinde titret</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Durum çubuğu ögeleri</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Özelleştirme</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Sıkıcı bildirimler</string>
+    <string name="notification_sound_vib_screen_on_summary">Ekran açıkken bildirimler için ses ve titreşim çalın</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Daha az Bildirim pencereleri</string>
+    <string name="less_boring_heads_up_summary">Tüm uygulamalar için bildirim pencerelerini dışı bırakır, sadece arama ve mesajlaşma uygulamaları için göstermeye devam eder</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Ekran kapalıyken fener aç</string>
+    <string name="torch_power_button_gesture_none">Devre dışı</string>
+    <string name="torch_power_button_gesture_dt">Güç tuşuna iki kez basın (Hızlı kamera açma özelliğini devre dışı bırakır ve 170s uyanma gecikmesi ekler)</string>
+    <string name="torch_power_button_gesture_lp">Güç tuşuna uzun basın</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Yanlışlıkla uyandırmayı önle</string>
+    <string name="proximity_wake_summary">Çift dokunuş hareketiyle ekranı uyandırmadan önce yakınlık sensörünü kontrol edin</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Toplam kullanılabilir RAM</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">İstatistikleri sıfırla</string>
+    <string name="battery_stats_message">Pil geçmişi istatistikleri sıfırlanacak</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Hareket çubuğu</string>
+    <string name="show_navbar_gesture_bar_summary">Ekranın altında hareket çubuğunu göster</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Kayıtlı kulaklıklar</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Pil simgesi stili</string>
+    <string name="battery_style_summary">Pil simgelerini özelleştirin, yüzdeyi gizleyin veya gösterin</string>
+    <string name="battery_percent_title">Durum çubuğu pil yüzdesi</string>
+    <string name="battery_style_category_title">Pil simgesi</string>
+    <string name="status_bar_battery_style_title">Pil stili</string>
+    <string name="status_bar_battery_style_icon_portrait">Dikey simge (varsayılan)</string>
+    <string name="status_bar_battery_style_circle">Daire</string>
+    <string name="status_bar_battery_style_dotted_circle">Daire (Noktalı)</string>
+    <string name="status_bar_battery_style_filled_circle">Daire (Dolu)</string>
+    <string name="status_bar_battery_style_big_circle">Büyük daire</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Büyük noktalı daire</string>
+    <string name="status_bar_battery_style_text">Metin</string>
+    <string name="status_bar_battery_style_hidden">Gizli</string>
+    <string name="status_bar_battery_percentage_title">Pil yüzdesi</string>
+    <string name="status_bar_battery_percentage_default">Gizli (varsayılan)</string>
+    <string name="status_bar_battery_percentage_text_inside">Simge içinde</string>
+    <string name="status_bar_battery_percentage_text_next">Simge dışında</string>
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">Küçük saati kullanmaya zorla</string>
+    <string name="lockscreen_small_clock_summary">Bildirim olmadığında büyük saate geçmeyin</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Gezinme çubuğu düzenini tersine çevir</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">Pil şarj ışığı</string>
+    <string name="battery_light_summary">Rahatsız etmeyin modunda pil ışığı davranışı, düşük pil</string>
+    <string name="battery_light_enable">Pil ışığı</string>
+    <string name="battery_light_allow_on_dnd_title">Rahatsız etmeyinde ışığı yakıp söndür</string>
+    <string name="battery_light_low_blinking_title">Düşük pilde ışığı yakıp söndür</string>
+    <string name="battery_light_cat">Şarj olurken pil ışığı rengi</string>
+    <string name="battery_light_low_color">Düşük pil</string>
+    <string name="battery_light_medium_color">Orta seviye pil</string>
+    <string name="battery_light_full_color">Neredeyse dolu pil</string>
+    <string name="battery_light_reallyfull_color">Tam dolu pil (100)</string>
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">Monet Ayarları</string>
+    <string name="monet_engine_summary">Monet parametrelerini özelleştirin</string>
+    <string name="monet_engine_custom_color_title">Özel renk kullan</string>
+    <string name="monet_engine_custom_color_summary">Monet için duvar kağıdı renkleri yerine özel renk kullan</string>
+    <string name="monet_engine_color_override_title">Özel renk</string>
+    <string name="monet_engine_linear_lightness_title">Özel parlaklık ölçeğini kullan</string>
+    <string name="monet_engine_linear_lightness_summary">Özel renk parlaklığı ölçeğinin kullanılmasına izin verir</string>
+    <string name="monet_engine_white_luminance_user_title">Parlaklık ölçeği</string>
+    <string name="monet_engine_accurate_shades_title">Doğru renk tonları kullan</string>
+    <string name="monet_engine_accurate_shades_summary">Daha iyi kontrast ve derinlik, ancak daha mat renkler</string>
+    <string name="monet_engine_chroma_factor_title">Renklilik</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın\u2019s VPN bağlantısını kullanmasına izin ver</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Dalga etkisi</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Parmak izi ile kilit açma sırasında dalgalanma efekti göster</string>
+</resources>

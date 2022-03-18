@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Toque para mostrar as informações</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">Estatísticas ArrowOS</string>
+    <string name="arrow_stats_summary">Só contamos os dispositivos que usam ArrowOS</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Taxa mínima de atualização</string>
+    <string name="max_refresh_rate_title">Taxa máxima de atualização</string>
+    <string name="battery_saver_refresh_rate_title">Reduzir taxa de atualização</string>
+    <string name="battery_saver_refresh_rate_summary">Usar a taxa de atualização do ecrã de 60 Hz para economizar energia quando a Economia de bateria estiver ativada</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Associar volumes de toque &amp; notificação</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Deslizar para capturar o ecrã</string>
+    <string name="three_finger_gesture_summary">Deslizar para baixo com três dedos no ecrã para tirar uma captura de ecrã</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Som da captura de ecrã</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Activar reinicio avançado</string>
+    <string name="global_actions_advanced_reboot_summary">Mostrar opções para recuperação e bootloader no menu de energia</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Equilíbrio de cores</string>
+    <string name="color_mode_balance_red">Força vermelha</string>
+    <string name="color_mode_balance_green">Força verde</string>
+    <string name="color_mode_balance_blue">Força azul</string>
+    <string name="keywords_color_balance">cor, equilíbrio de cores, correção de cor, vermelho, verde, azul, Exibição ao vivo</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">Data de compilação</string>
+    <string name="arrow_version">Versão do ArrowOS</string>
+    <string name="about_device_name">Dispositivo</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Toque para desligar</string>
+    <string name="double_tap_sleep_gesture_summary">Toque duplo na barra de estado para desligar o ecrã do dispositivo</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Como resolver</string>
+    <string name="double_tap_sleep_lockscreen_title">Toque duplo no ecrã de bloqueio para dormir</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Controlo de reprodução</string>
+    <string name="volume_button_music_control_summary">Quando o ecrã está desligado, pressione longamente os botões de volume para alternar as faixas</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Despertar com as teclas de volume</string>
+    <string name="volume_rocker_wake_summary">Acorde o seu dispositivo pressionando as teclas de volume</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opções de vibração durante a chamada de voz</string>
+    <string name="incall_vibrate_connect_title">Vibrar ao atender</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar na chamada em espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar ao desligar</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Itens da barra de estado</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Personalizar</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Notificações Desconhecidas</string>
+    <string name="notification_sound_vib_screen_on_summary">As notificações reproduzem som e vibram quando o ecrã está ligado</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Aviso equilibrado</string>
+    <string name="less_boring_heads_up_summary">Desligar as notificações flutuantes para todas as aplicações menos aplicações de telefone e mensagens</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Ligar ou desligar a lanterna quando o ecrã estiver desligado</string>
+    <string name="torch_power_button_gesture_none">Desactivado</string>
+    <string name="torch_power_button_gesture_dt">Pressione duas vezes o botão energia (desactiva o recurso de abertura rápida da câmara e adiciona 170 ms de atraso ao despertar)</string>
+    <string name="torch_power_button_gesture_lp">Pressão longa no botão energia</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Previne que o ecrã se ligue acidentalmente</string>
+    <string name="proximity_wake_summary">Verifique o sensor de proximidade antes de acordar o ecrã com o gesto Toque duplo para despertar</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plataforma</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total de RAM disponível</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Limpar estatísticas</string>
+    <string name="battery_stats_message">O histórico da bateria será redefinido</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Barra de gestos</string>
+    <string name="show_navbar_gesture_bar_summary">Mostrar barra de gestos na parte inferior do ecrã</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Auriculares guardados</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Estilo do indicador de bateria</string>
+    <string name="battery_style_summary">Personalizar os ícones da bateria, ocultar ou mostrar percentagem</string>
+    <string name="battery_percent_title">Percentagem da bateria na barra de estado</string>
+    <string name="battery_style_category_title">Ícone da bateria</string>
+    <string name="status_bar_battery_style_title">Estilo da bateria</string>
+    <string name="status_bar_battery_style_icon_portrait">Ícone em retrato (padrão)</string>
+    <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo (Pontilhado)</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo (Preenchido)</string>
+    <string name="status_bar_battery_style_big_circle">Círculo grande</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Círculo pontilhado grande</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+    <string name="status_bar_battery_percentage_title">Percentagem da bateria</string>
+    <string name="status_bar_battery_percentage_default">Oculto (padrão)</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
+    <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">Forçar relógio pequeno</string>
+    <string name="lockscreen_small_clock_summary">Não alternar para o relógio grande quando não há notificações</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Inverter layout da barra de navegação</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">Luz de carregamento da bateria</string>
+    <string name="battery_light_summary">Comportamento da luz da bateria enquanto estiver no DND, bateria fraca</string>
+    <string name="battery_light_enable">Luz da bateria</string>
+    <string name="battery_light_allow_on_dnd_title">Luz da bateria no modo Não incomodar</string>
+    <string name="battery_light_low_blinking_title">Piscar a luz com bateria fraca</string>
+    <string name="battery_light_cat">Cor da luz da bateria durante o carregamento</string>
+    <string name="battery_light_low_color">Bateria fraca</string>
+    <string name="battery_light_medium_color">Bateria média</string>
+    <string name="battery_light_full_color">Bateria quase carregada</string>
+    <string name="battery_light_reallyfull_color">Bateria cheia (100%)</string>
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">Monet Engine</string>
+    <string name="monet_engine_summary">Personalizar parâmetros do monet</string>
+    <string name="monet_engine_custom_color_title">Usar cor personalizada</string>
+    <string name="monet_engine_custom_color_summary">Usar cor personalizada para monet em vez de cores do papel de parede</string>
+    <string name="monet_engine_color_override_title">Cor personalizada</string>
+    <string name="monet_engine_linear_lightness_title">Usar escala de brilho personalizada</string>
+    <string name="monet_engine_linear_lightness_summary">Permitir usar a escala personalizada de brilho de cor</string>
+    <string name="monet_engine_white_luminance_user_title">Escala de brilho</string>
+    <string name="monet_engine_accurate_shades_title">Usar tons precisos</string>
+    <string name="monet_engine_accurate_shades_summary">Melhor contraste e profundidade, porém cores menos brilhantes</string>
+    <string name="monet_engine_chroma_factor_title">Colorir</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Permitir que os clientes usem VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes de hotspot usem as ligações VPN deste dispositivo</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Efeito ondulação</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Mostrar efeito cascata ao desbloquear com impressão digital</string>
+</resources>

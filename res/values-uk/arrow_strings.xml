@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Натисніть, щоб переглянути інформацію</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">Статистика ArrowOS</string>
+    <string name="arrow_stats_summary">Просто підраховуємо, скільки пристроїв ми запускаємо</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Найменша частота оновлення</string>
+    <string name="max_refresh_rate_title">Максимальна частота оновлень</string>
+    <string name="battery_saver_refresh_rate_title">Зменшити частоту оновлення</string>
+    <string name="battery_saver_refresh_rate_summary">Використовувати 60 Гц, щоб зберегти заряд батареї, коли ввімкнено режим економії заряду акумулятора</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Зв’язати гучність дзвінка &amp; сповіщень</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Провести для знімку екрану</string>
+    <string name="three_finger_gesture_summary">Проведіть вниз трьома пальцями на екрані, щоб зробити знімок екрану</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Звук знімка екрану</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Ввімкнути розширене перезавантаження</string>
+    <string name="global_actions_advanced_reboot_summary">Показувати параметри відновлення і завантажувача в меню живлення</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Баланс Кольорів</string>
+    <string name="color_mode_balance_red">Рівень червоного</string>
+    <string name="color_mode_balance_green">Рівень зеленого</string>
+    <string name="color_mode_balance_blue">Рівень синього</string>
+    <string name="keywords_color_balance">колір, баланс, корекція кольорів, червоний, зелений, синій, LiveDisplay</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">Дата збірки</string>
+    <string name="arrow_version">Версія ArrowOS</string>
+    <string name="about_device_name">Пристрій</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Торкніться для сну</string>
+    <string name="double_tap_sleep_gesture_summary">Двічі торкніться рядка стану, щоб перевести пристрій у сплячий режим</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Що робити</string>
+    <string name="double_tap_sleep_lockscreen_title">Подвійне натискання для засинання на екрані блокування</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Управління відтворенням</string>
+    <string name="volume_button_music_control_summary">Коли екран вимкнений, тривале натискання клавіш регулювання гучності буде перемикати музичні композиції</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Пробудження гучності</string>
+    <string name="volume_rocker_wake_summary">Вимкніть пристрій, натиснувши клавіші гучності</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Параметри вібрації під час дзвінка</string>
+    <string name="incall_vibrate_connect_title">Вібрація при з\'єднанні</string>
+    <string name="incall_vibrate_call_wait_title">Вібрувати при паралельному виклику</string>
+    <string name="incall_vibrate_disconnect_title">Вібрація при роз\'єднанні</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Елементи рядку стану</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Персоналізація</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Набридливі сповіщення</string>
+    <string name="notification_sound_vib_screen_on_summary">Відтворювання звуку та вібрації для сповіщень при увімкненому екрані</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Зменшити кількість спливаючих сповіщень</string>
+    <string name="less_boring_heads_up_summary">Швидко вимкнути спливаючі сповіщення для всіх програм, але зменшити їх увімкненими для дзвінків і програм обміну повідомлень</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Увімкніть ліхтарик, коли екран вимкнено</string>
+    <string name="torch_power_button_gesture_none">Вимкнено</string>
+    <string name="torch_power_button_gesture_dt">Подвійне натискання кнопки живлення (вимикає функцію швидкого відкриття камери та додає затримку пробудження на 170 мс)</string>
+    <string name="torch_power_button_gesture_lp">Довге натискання кнопки живлення</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Запобігання випадкового пробудження</string>
+    <string name="proximity_wake_summary">Перевірити датчик наближення, перш ніж пробудити екран</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Платформа</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Усього доступно ОЗП</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Скинути статистику</string>
+    <string name="battery_stats_message">Історію використання батареї буде скинуто</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Панель жестів</string>
+    <string name="show_navbar_gesture_bar_summary">Показувати панель жестів внизу екрану</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Збережені навушники</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Стиль іконки батареї</string>
+    <string name="battery_style_summary">Налаштування піктограми батареї та індикатора заряду</string>
+    <string name="battery_percent_title">Відсоток акумулятора в рядку стану</string>
+    <string name="battery_style_category_title">Іконка батареї</string>
+    <string name="status_bar_battery_style_title">Стиль іконки батареї</string>
+    <string name="status_bar_battery_style_icon_portrait">Портретна іконка (за замовчуванням)</string>
+    <string name="status_bar_battery_style_circle">Коло</string>
+    <string name="status_bar_battery_style_dotted_circle">Коло (пунктирне)</string>
+    <string name="status_bar_battery_style_filled_circle">Коло (заповнене)</string>
+    <string name="status_bar_battery_style_big_circle">Велике коло</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Велике пунктирне коло</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Приховано</string>
+    <string name="status_bar_battery_percentage_title">Відсоток заряду</string>
+    <string name="status_bar_battery_percentage_default">Приховано (за замовчуванням)</string>
+    <string name="status_bar_battery_percentage_text_inside">Всередині іконки</string>
+    <string name="status_bar_battery_percentage_text_next">Поруч з іконкою</string>
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">Маленький годинник</string>
+    <string name="lockscreen_small_clock_summary">Не відображати великий годинник, якщо немає сповіщень</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Інвертувати панель навігації</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">Індикація зарядки акумулятора</string>
+    <string name="battery_light_summary">Індикація батареї в режимі \"Не турбувати\", низький заряд акумулятора</string>
+    <string name="battery_light_enable">Індикація батареї</string>
+    <string name="battery_light_allow_on_dnd_title">Індикатор заряду в режимі \"Не турбувати\"</string>
+    <string name="battery_light_low_blinking_title">Блимання індикатора при низькому заряді</string>
+    <string name="battery_light_cat">Колір індикатора під час заряджання</string>
+    <string name="battery_light_low_color">Низький заряд батареї</string>
+    <string name="battery_light_medium_color">Середній заряд батареї</string>
+    <string name="battery_light_full_color">Майже повний заряд батареї</string>
+    <string name="battery_light_reallyfull_color">Повний заряд батареї (100%)</string>
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">Налаштування Monet</string>
+    <string name="monet_engine_summary">Налаштування параметрів monet</string>
+    <string name="monet_engine_custom_color_title">Використовувати свій колір</string>
+    <string name="monet_engine_custom_color_summary">Використовувати свій колір для Monet замість кольорів шпалер</string>
+    <string name="monet_engine_color_override_title">Власний колір</string>
+    <string name="monet_engine_linear_lightness_title">Використовувати свою шкалу яскравості</string>
+    <string name="monet_engine_linear_lightness_summary">Дозволяє використовувати власну шкалу яскравості кольору</string>
+    <string name="monet_engine_white_luminance_user_title">Шкала яскравості</string>
+    <string name="monet_engine_accurate_shades_title">Використовувати точні відтінки</string>
+    <string name="monet_engine_accurate_shades_summary">Кращий контраст і глибина, але більш тьмяні кольори</string>
+    <string name="monet_engine_chroma_factor_title">Насиченість</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Дозволити клієнтам використовувати VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Дозволити клієнтам точки доступу використовувати VPN-з\'єднання цього пристрою для підключення до мережі</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ефект пульсації</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Відображати ефект пульсації під час розблокування відбитком пальця</string>
+</resources>

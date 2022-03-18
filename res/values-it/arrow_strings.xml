@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Tocca per mostrare le informazioni</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">Statistiche di ArrowOS</string>
+    <string name="arrow_stats_summary">Stiamo calcolando su quanti dispositivi siamo installati</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Frequenza di aggiornamento minima</string>
+    <string name="max_refresh_rate_title">Frequenza di aggiornamento massima</string>
+    <string name="battery_saver_refresh_rate_title">Riduci la frequenza di aggiornamento</string>
+    <string name="battery_saver_refresh_rate_summary">Usa la frequenza di aggiornamento dello schermo a 60 Hz per risparmiare energia quando è attivo il risparmio energetico</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Collega volume suoneria e notifiche</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Scorri per fare uno screenshot</string>
+    <string name="three_finger_gesture_summary">Scorri in giù con tre dita per scattare uno screenshot</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Suono screenshot</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Abilita riavvio avanzato</string>
+    <string name="global_actions_advanced_reboot_summary">Mostra le opzioni per recupero e bootloader nel menù di spegnimento</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Bilanciamento del colore</string>
+    <string name="color_mode_balance_red">Intensità rosso</string>
+    <string name="color_mode_balance_green">Intensità verde</string>
+    <string name="color_mode_balance_blue">Intensità blu</string>
+    <string name="keywords_color_balance">colore, bilanciamento colore, correzione colore, rosso, verde, blu, LiveDisplay</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">Data di compilazione</string>
+    <string name="arrow_version">Versione ArrowOS</string>
+    <string name="about_device_name">Dispositivo</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Tocca per sospendere</string>
+    <string name="double_tap_sleep_gesture_summary">Doppio tocco sulla barra di stato per spegnere lo schermo</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Cosa fare</string>
+    <string name="double_tap_sleep_lockscreen_title">Doppio tocco sulla schermata di blocco per spegnere lo schermo</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Controllo riproduzione</string>
+    <string name="volume_button_music_control_summary">Quando lo schermo è spento, la pressione prolungata dei tasti del volume cambierà le tracce musicali</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Risveglio tramite tasti volume</string>
+    <string name="volume_rocker_wake_summary">Risveglia il dispositivo premendo i tasti del volume</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opzioni vibrazione in chiamata</string>
+    <string name="incall_vibrate_connect_title">Vibra alla risposta</string>
+    <string name="incall_vibrate_call_wait_title">Vibra per chiamate in attesa</string>
+    <string name="incall_vibrate_disconnect_title">Vibra alla chiusura</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Elementi della barra di stato</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Personalizzazione</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Notifiche fastidiose</string>
+    <string name="notification_sound_vib_screen_on_summary">Riproduci il suono e la vibrazione delle notifiche quando lo schermo è acceso</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Notifiche fluttuanti saner</string>
+    <string name="less_boring_heads_up_summary">Disattiva velocemente tutte le notifiche fluttuanti tranne che per Telefono e Messaggi</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Attiva/disattiva la torcia quando lo schermo è spento</string>
+    <string name="torch_power_button_gesture_none">Disabilitato</string>
+    <string name="torch_power_button_gesture_dt">Premi due volte il pulsante di accensione (Disattiva la funzione di aprire rapidamente la fotocamera e aggiunge un ritardo di risveglio di 170ms)</string>
+    <string name="torch_power_button_gesture_lp">Pressione prolungata sul tasto di accensione</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Previeni risveglio accidentale</string>
+    <string name="proximity_wake_summary">Controllare il sensore di prossimità prima di risvegliare lo schermo dal doppio tocco 2 gesto di risveglio</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Piattaforma</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">RAM disponibile</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Resetta statistiche</string>
+    <string name="battery_stats_message">Le statistiche della batteria stanno per essere resettate</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Barra dei gesti</string>
+    <string name="show_navbar_gesture_bar_summary">Mostra la barra dei gesti nella parte inferiore dello schermo</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Cuffie associate</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Stile icona batteria</string>
+    <string name="battery_style_summary">Personalizza le icone della batteria, nascondi o mostra la percentuale</string>
+    <string name="battery_percent_title">Percentuale batteria nella barra di stato</string>
+    <string name="battery_style_category_title">Icona della batteria</string>
+    <string name="status_bar_battery_style_title">Stile batteria</string>
+    <string name="status_bar_battery_style_icon_portrait">Icona verticale (predefinito)</string>
+    <string name="status_bar_battery_style_circle">Cerchio</string>
+    <string name="status_bar_battery_style_dotted_circle">Cerchio (punteggiato)</string>
+    <string name="status_bar_battery_style_filled_circle">Cerchio (pieno)</string>
+    <string name="status_bar_battery_style_big_circle">Cerchio grande</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Cerchio grande tratteggiato</string>
+    <string name="status_bar_battery_style_text">Testo</string>
+    <string name="status_bar_battery_style_hidden">Nascosta</string>
+    <string name="status_bar_battery_percentage_title">Percentuale della batteria</string>
+    <string name="status_bar_battery_percentage_default">Nascosta (predefinito)</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro all\'icona</string>
+    <string name="status_bar_battery_percentage_text_next">Accanto all\'icona</string>
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">Forza l\'orologio piccolo</string>
+    <string name="lockscreen_small_clock_summary">Forza le dimensioni ridotte dell\'orologio quando non ci sono notifiche</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Inverte la disposizione della barra di navigazione</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">LED batteria in carica</string>
+    <string name="battery_light_summary">Comportamento del LED della batteria durante la modalità Non Disturbare, batteria scarica</string>
+    <string name="battery_light_enable">LED batteria</string>
+    <string name="battery_light_allow_on_dnd_title">LED batteria in modalità Non Disturbare</string>
+    <string name="battery_light_low_blinking_title">LED batteria quando la batteria è scarica</string>
+    <string name="battery_light_cat">Colore LED batteria durante la carica</string>
+    <string name="battery_light_low_color">Batteria scarica</string>
+    <string name="battery_light_medium_color">Batteria media</string>
+    <string name="battery_light_full_color">Batteria quasi carica</string>
+    <string name="battery_light_reallyfull_color">Batteria carica (100)</string>
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">Motore Monet</string>
+    <string name="monet_engine_summary">Personalizza i parametri di Monet</string>
+    <string name="monet_engine_custom_color_title">Usa un colore personalizzato</string>
+    <string name="monet_engine_custom_color_summary">Usa un colore personalizzato per Monet invece dei colori dello sfondo</string>
+    <string name="monet_engine_color_override_title">Colore personalizzato</string>
+    <string name="monet_engine_linear_lightness_title">Usa scala di luminosità personalizzata</string>
+    <string name="monet_engine_linear_lightness_summary">Consente di utilizzare una scala personalizzata di luminosità colore</string>
+    <string name="monet_engine_white_luminance_user_title">Scala luminosità</string>
+    <string name="monet_engine_accurate_shades_title">Usa sfumature accurate</string>
+    <string name="monet_engine_accurate_shades_summary">Contrasto e profondità migliori, ma colori più opachi</string>
+    <string name="monet_engine_chroma_factor_title">Vivacità</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Consenti ai client di usare le VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Consenti ai client hotspot di utilizzare le connessioni VPN di questo dispositivo per la connettività</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Effetto Increspatura</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Mostra l\'effetto increspatura allo sblocco con impronta digitale</string>
+</resources>

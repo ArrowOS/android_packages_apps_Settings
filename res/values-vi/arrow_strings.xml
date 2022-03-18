@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Chạm để hiển thị thông tin</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">Số liệu thống kê của ArrowOS</string>
+    <string name="arrow_stats_summary">Chỉ hiển thị số lượng các thiết bị đang chạy</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Tốc độ làm mới tối thiểu</string>
+    <string name="max_refresh_rate_title">Tốc độ làm mới tối đa</string>
+    <string name="battery_saver_refresh_rate_title">Giảm tốc độ làm mới</string>
+    <string name="battery_saver_refresh_rate_summary">Sử dụng màn hình 60 Hz để tiết kiệm pin khi bật Trình tiết kiệm pin</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Vuốt để chụp màn hình</string>
+    <string name="three_finger_gesture_summary">Vuốt ba ngón tay để chụp ảnh màn hình</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Âm thanh chụp màn hình</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Bật khởi động lại nâng cao</string>
+    <string name="global_actions_advanced_reboot_summary">Hiển thị các tuỳ chọn cho recovery và bootloader trong menu nguồn</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Cân bằng màu</string>
+    <string name="color_mode_balance_red">Đỏ rực</string>
+    <string name="color_mode_balance_green">Xanh lá đậm</string>
+    <string name="color_mode_balance_blue">Xanh đậm</string>
+    <string name="keywords_color_balance">màu, cân bằng màu, chỉnh màu, đỏ, lục, lam, LiveDisplay</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">Ngày dựng</string>
+    <string name="arrow_version">Phiên bản ArrowOS</string>
+    <string name="about_device_name">Thiết bị</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Chạm để tắt màn hình</string>
+    <string name="double_tap_sleep_gesture_summary">Nhấn đúp vào thanh trạng thái để tắt màn hình</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Phải làm gì</string>
+    <string name="double_tap_sleep_lockscreen_title">Nhấn đúp trên màn hình khóa để tắt màn hình</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Điều khiển phát lại</string>
+    <string name="volume_button_music_control_summary">Khi màn hình tắt, nhấn giữ nút âm lượng để chuyển bài</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Đánh thức bằng phím âm lượng</string>
+    <string name="volume_rocker_wake_summary">Đánh thức thiết bị bằng phím âm lượng</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Tùy chọn rung trong cuộc gọi</string>
+    <string name="incall_vibrate_connect_title">Rung khi kết nối</string>
+    <string name="incall_vibrate_call_wait_title">Rung khi chờ cuộc gọi</string>
+    <string name="incall_vibrate_disconnect_title">Rung khi ngắt kết nối</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Biểu tượng thanh trạng thái</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Tuỳ biến</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Thông báo làm phiền</string>
+    <string name="notification_sound_vib_screen_on_summary">Phát âm thanh và rung để thông báo khi màn hình bật</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Thông báo nổi vừa phải</string>
+    <string name="less_boring_heads_up_summary">Nhanh chóng tắt thông báo nổi cho tất cả các ứng dụng nhưng vẫn bật cho ứng dụng quay số và nhắn tin</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Bật tắt đèn pin khi màn hình tắt</string>
+    <string name="torch_power_button_gesture_none">Tắt</string>
+    <string name="torch_power_button_gesture_dt">Nhấn đúp nút nguồn (Tắt tính năng Mở nhanh máy ảnh và thêm độ trễ đánh thức 170ms)</string>
+    <string name="torch_power_button_gesture_lp">Bấm giữ phím nguồn</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Ngăn chặn tình cờ đánh thức</string>
+    <string name="proximity_wake_summary">Kiểm tra cảm biến tiệm cận trước khi đánh thức màn hình từ cử chỉ đánh thức</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Nền tảng</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Tổng số RAM khả dụng</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Đặt lại thống kê</string>
+    <string name="battery_stats_message">Số liệu thống kê lịch sử pin sẽ được đặt lại</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Thanh cử chỉ</string>
+    <string name="show_navbar_gesture_bar_summary">Hiển thị thanh cử chỉ ở cuối màn hình</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Các tai nghe không dây đã lưu</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Kiểu biểu tượng pin</string>
+    <string name="battery_style_summary">Tùy chỉnh biểu tượng pin, ẩn hoặc hiển thị phần trăm</string>
+    <string name="battery_percent_title">Phần trăm pin trên thanh trạng thái</string>
+    <string name="battery_style_category_title">Biểu tượng pin</string>
+    <string name="status_bar_battery_style_title">Kiểu biểu tượng pin</string>
+    <string name="status_bar_battery_style_icon_portrait">Biểu tượng dọc (mặc định)</string>
+    <string name="status_bar_battery_style_circle">Vòng tròn</string>
+    <string name="status_bar_battery_style_dotted_circle">Vòng tròn (Chấm)</string>
+    <string name="status_bar_battery_style_filled_circle">Vòng tròn (Đầy)</string>
+    <string name="status_bar_battery_style_big_circle">Vòng tròn lớn</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Vòng tròn chấm lớn</string>
+    <string name="status_bar_battery_style_text">Văn bản</string>
+    <string name="status_bar_battery_style_hidden">Ẩn</string>
+    <string name="status_bar_battery_percentage_title">Phần trăm pin</string>
+    <string name="status_bar_battery_percentage_default">Ẩn (mặc định)</string>
+    <string name="status_bar_battery_percentage_text_inside">Bên trong biểu tượng</string>
+    <string name="status_bar_battery_percentage_text_next">Bên cạnh biểu tượng</string>
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">Bắt buộc dùng đồng hồ nhỏ</string>
+    <string name="lockscreen_small_clock_summary">Không chuyển sang đồng hồ lớn khi không có thông báo</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Đảo ngược bố cục thanh điều hướng</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">Đèn báo sạc pin</string>
+    <string name="battery_light_summary">Tùy chỉnh đèn thông báo khi bật chế độ Không Làm Phiền, pin yếu</string>
+    <string name="battery_light_enable">Đèn báo pin</string>
+    <string name="battery_light_allow_on_dnd_title">Đèn báo pin trong chế độ Không Làm Phiền</string>
+    <string name="battery_light_low_blinking_title">Nhấp nháy đèn khi pin yếu</string>
+    <string name="battery_light_cat">Màu đèn báo pin khi sạc</string>
+    <string name="battery_light_low_color">Pin yếu</string>
+    <string name="battery_light_medium_color">Pin trung bình</string>
+    <string name="battery_light_full_color">Pin gần đầy</string>
+    <string name="battery_light_reallyfull_color">Pin đầy (100)</string>
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">Công cụ Monet</string>
+    <string name="monet_engine_summary">Tùy chỉnh các thông số monet</string>
+    <string name="monet_engine_custom_color_title">Sử dụng màu tùy chỉnh</string>
+    <string name="monet_engine_custom_color_summary">Sử dụng màu tùy chỉnh cho công cụ monet thay cho màu của hình nền</string>
+    <string name="monet_engine_color_override_title">Tùy chỉnh màu</string>
+    <string name="monet_engine_linear_lightness_title">Sử dụng thang đo độ sáng tùy chỉnh</string>
+    <string name="monet_engine_linear_lightness_summary">Nó cho phép sử dụng thang đo độ sáng màu tùy chỉnh</string>
+    <string name="monet_engine_white_luminance_user_title">Thang đo độ sáng</string>
+    <string name="monet_engine_accurate_shades_title">Sử dụng các sắc thái chính xác</string>
+    <string name="monet_engine_accurate_shades_summary">Độ tương phản và độ sâu tốt hơn, nhưng màu sắc xỉn hơn</string>
+    <string name="monet_engine_chroma_factor_title">Màu sắc</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Cho phép máy khách sử dụng VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Cho phép hotspot các máy khách sử dụng các kết nối VPN của thiết bị\u2019 này để kết nối ngược dòng</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Hiệu ứng gợn sóng</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Hiển thị hiệu ứng gợn sóng khi mở khóa bằng vân tay</string>
+</resources>

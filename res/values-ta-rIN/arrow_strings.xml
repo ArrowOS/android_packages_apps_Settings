@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">விவரங்களைக் காட்ட தட்டவும்</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">ArrowOS விபரம்</string>
+    <string name="arrow_stats_summary">நாம் எத்தனை சாதனங்களில் இயங்குகிறோம் என்பதைக் கணக்கிடுகிறோம்</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">குறைந்தபட்ச மறுபுத்துணர்வு வீதம்</string>
+    <string name="max_refresh_rate_title">அதிகபட்ச மறுபுத்துணர்வு வீதம்</string>
+    <string name="battery_saver_refresh_rate_title">புத்துணர்வு வீதத்தை குறை</string>
+    <string name="battery_saver_refresh_rate_summary">மின்கல சேமிப்பான் இயங்கும்போது ஆற்றல் சேமிக்க 60Hz புத்துணர்வு விகிதம் பயன்படுத்து</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">ரிங்டோன் &amp; அறிவுறுத்தல் சத்தங்களை இணை</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">தேய்த்து திரைப்பிடி</string>
+    <string name="three_finger_gesture_summary">திரைப்பிடிக்க மூன்று விரல்களால் கீழே தேய்</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">திரைப்பிடிப்பு ஓசை</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">மேம்பட்ட மறுதொடக்கத்தை இயக்கு</string>
+    <string name="global_actions_advanced_reboot_summary">ஆற்றல் பட்டியில் மீட்டெடுப்பு மற்றும் துவக்கயேற்றிக்கான விருப்பங்களைக் காட்டு</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">நிற சமநிலை</string>
+    <string name="color_mode_balance_red">சிகப்பு பலம்</string>
+    <string name="color_mode_balance_green">பச்சை பலம்</string>
+    <string name="color_mode_balance_blue">நீலம் பலம்</string>
+    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">உருவாக்கல் தேதி</string>
+    <string name="arrow_version">ArrowOS பதிப்பு</string>
+    <string name="about_device_name">சாதனம்</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">உறங்கத் தட்டு</string>
+    <string name="double_tap_sleep_gesture_summary">சாதனத்தை உறக்கத்தில் போட நிலைப்பட்டையில் எங்காவது இரட்டை-தட்டு</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">என்ன செய்ய</string>
+    <string name="double_tap_sleep_lockscreen_title">பூட்டுத்திரையில் உறங்க இரட்டை தட்டு</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">மீட்பொலித்தல் கட்டுப்பாடு</string>
+    <string name="volume_button_music_control_summary">அணைதிரையில், ஒலியளவு விசைகளை நீண்டழுத்தல் இசை தடங்களை கெந்தும்</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">ஒலியளவு எழுப்புதல்</string>
+    <string name="volume_rocker_wake_summary">ஒலியளவு விசைகளை அழுத்தி உம் சாதனத்தை எழுப்பு</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">அழைப்பில் அதிர்வு விருப்பங்கள்</string>
+    <string name="incall_vibrate_connect_title">இணைப்பு மீது அதிர்வு</string>
+    <string name="incall_vibrate_call_wait_title">அழைப்பு காத்திருப்பு மீது அதிர்வு</string>
+    <string name="incall_vibrate_disconnect_title">துண்டிப்பு மீது அதிர்வு</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">நிலைப்பட்டி உருப்படிகள்</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">தனிப்பயனாக்கம்</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">எரிச்சலூட்டும் அறிவிப்புகள்</string>
+    <string name="notification_sound_vib_screen_on_summary">எழிதிரையில் அறிவிப்புகளுக்கு ஓசை மற்றும் அதிர்வை இயக்கு</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">பகுத்தறிவான தலை-உயர்த்தி</string>
+    <string name="less_boring_heads_up_summary">தலையுயர்த்தியைச் சுழற்றி மற்றும் குறுஞ்செய்தி செயலிகளைத் தவிர எல்லா செயலிகளுக்கும் விரைவாக முடக்கு</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">அணைதிரையில் ஒளிப்பந்தத்தை இருநிலைமாற்று</string>
+    <string name="torch_power_button_gesture_none">முடக்கத்தில்</string>
+    <string name="torch_power_button_gesture_dt">Double press power button (Disables Quickly open camera feature and adds 170ms wakeup delay)</string>
+    <string name="torch_power_button_gesture_lp">Long press power button</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen from Double Tap 2 Wake gesture</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">நடைமேடை</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total available RAM</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">புள்ளிவிவரங்களை அகரமாக்கு</string>
+    <string name="battery_stats_message">மின்கல வரலாறு புள்ளிவிவரங்கள் அகரமாக்கப்படவுள்ளன</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">சைகைப்பட்டி</string>
+    <string name="show_navbar_gesture_bar_summary">திரையின் அடிப்புறத்தில் சைகைப்பட்டியைக் காட்டு</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">சேமித்த காதுமொட்டுகள்</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">மின்கல படவுரு பாணி</string>
+    <string name="battery_style_summary">மின்கல படவுருவைத் தனிப்பயனாக்கு, சதவீதம் காட்டு அ மறை</string>
+    <string name="battery_percent_title">நிலைப்பட்டி மின்கல சதவீதம்</string>
+    <string name="battery_style_category_title">மின்கல படவுரு</string>
+    <string name="status_bar_battery_style_title">மின்கல பாணி</string>
+    <string name="status_bar_battery_style_icon_portrait">படவுரு உருவப்படம் (இயல்புநிலை)</string>
+    <string name="status_bar_battery_style_circle">வட்டம்</string>
+    <string name="status_bar_battery_style_dotted_circle">வட்டம் (புள்ளியிடப்பட்ட)</string>
+    <string name="status_bar_battery_style_filled_circle">வட்டம் (நிரப்பப்பட்ட)</string>
+    <string name="status_bar_battery_style_big_circle">பெருவட்டம்</string>
+    <string name="status_bar_battery_style_big_dotted_circle">பெரிய புள்ளியிடப்பட்ட வட்டம்</string>
+    <string name="status_bar_battery_style_text">சொற்சரம்</string>
+    <string name="status_bar_battery_style_hidden">மறைந்து</string>
+    <string name="status_bar_battery_percentage_title">மின்கல சதவீதம்</string>
+    <string name="status_bar_battery_percentage_default">மறைந்து (இயல்புநிலை)</string>
+    <string name="status_bar_battery_percentage_text_inside">படவுருவினுள்</string>
+    <string name="status_bar_battery_percentage_text_next">படவுருவிற்கடுத்து</string>
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">Force small clock</string>
+    <string name="lockscreen_small_clock_summary">Don\'t switch to the big clock when there are no notifications</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">மின்கல மின்னேற்ற ஒளி</string>
+    <string name="battery_light_summary">தொ. செ. இன் போது மின்கல ஒளி நடத்தை, குறைவான மின்கலம்</string>
+    <string name="battery_light_enable">மின்கல ஒளி</string>
+    <string name="battery_light_allow_on_dnd_title">தொ. செ. பயன்முறையில் மின்கல ஒளி</string>
+    <string name="battery_light_low_blinking_title">குறைந்த மின்கலத்தின்போது சிமிட்டொளி</string>
+    <string name="battery_light_cat">மின்னேறும்போது மின்கல ஒளியின் நிறம்</string>
+    <string name="battery_light_low_color">குறைந்த மின்கலம்</string>
+    <string name="battery_light_medium_color">நடுத்தர மின்கலம்</string>
+    <string name="battery_light_full_color">கிட்டத்தட்ட முழு மின்கலம்</string>
+    <string name="battery_light_reallyfull_color">முழு (100) மின்கலம்</string>
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">மோனெட் பொறி</string>
+    <string name="monet_engine_summary">மோனெட் அளவுருகளைத் தனிப்பயனாக்கு</string>
+    <string name="monet_engine_custom_color_title">தனிப்பயன் நிறம் பயன்படுத்து</string>
+    <string name="monet_engine_custom_color_summary">மோனெட் பொறிக்குச் சுவர்த்தாள் நிறங்களுக்குப் பதில் தனிப்பயன் நிறம் பயன்படுத்து</string>
+    <string name="monet_engine_color_override_title">தனிப்பயன் நிறம்</string>
+    <string name="monet_engine_linear_lightness_title">தனிப்பயன் ஒளிர்வு ஒப்பளவு பயன்படுத்து</string>
+    <string name="monet_engine_linear_lightness_summary">தனிப்பயன் நிற ஒளிர்வு ஒப்பளவு பயன்படுத்த அனுமதிக்கும்</string>
+    <string name="monet_engine_white_luminance_user_title">ஒளிர்வு ஒப்பளவு</string>
+    <string name="monet_engine_accurate_shades_title">துல்லிய நிறக்கூறு பயன்படுத்து</string>
+    <string name="monet_engine_accurate_shades_summary">நல்ல உறழ்பொருவும் ஆழமும், ஆனால் மழுங்கிய நிறங்கள்</string>
+    <string name="monet_engine_chroma_factor_title">வண்ணமயம்</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+</resources>

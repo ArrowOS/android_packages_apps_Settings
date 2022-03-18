@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">タップして情報を表示</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">ArrowOS の統計情報</string>
+    <string name="arrow_stats_summary">ArrowOS が何台の端末で動作しているか集計しています</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">最小リフレッシュレート</string>
+    <string name="max_refresh_rate_title">最大リフレッシュレート</string>
+    <string name="battery_saver_refresh_rate_title">リフレッシュレートを減らす</string>
+    <string name="battery_saver_refresh_rate_summary">バッテリーセーバー有効時に電池消費を抑えるために60Hzのリフレッシュレートを使用する</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">着信と通知の音量をリンク</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">スワイプでスクリーンショット</string>
+    <string name="three_finger_gesture_summary">3本指で下スワイプしてスクリーンショットを取得する</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">スクリーンショットの音</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">高度な再起動の有効化</string>
+    <string name="global_actions_advanced_reboot_summary">電源メニューにリカバリーとブートローダーのオプションを表示する</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">カラーバランス</string>
+    <string name="color_mode_balance_red">赤の強度</string>
+    <string name="color_mode_balance_green">緑の強度</string>
+    <string name="color_mode_balance_blue">青の強度</string>
+    <string name="keywords_color_balance">色、色のバランス、色のコレクション、赤、緑、青、LiveDisplay</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">ビルド日時</string>
+    <string name="arrow_version">ArrowOS バージョン</string>
+    <string name="about_device_name">端末</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">タップでスリープ</string>
+    <string name="double_tap_sleep_gesture_summary">ステータスバーの任意の場所をダブルタップして端末をスリープさせる</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">予定</string>
+    <string name="double_tap_sleep_lockscreen_title">ロック画面のダブルタップでスリープ</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">再生コントロール</string>
+    <string name="volume_button_music_control_summary">画面消灯時に音量キーを長押しして曲をシークする</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">音量キーでスリープ解除</string>
+    <string name="volume_rocker_wake_summary">音量キーを押して端末をスリープ解除する</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">通話中の振動オプション</string>
+    <string name="incall_vibrate_connect_title">接続時に振動</string>
+    <string name="incall_vibrate_call_wait_title">割込通話時に振動</string>
+    <string name="incall_vibrate_disconnect_title">切断時に振動</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">ステータスバーのアイコン</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">カスタマイズ</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">不必要な通知</string>
+    <string name="notification_sound_vib_screen_on_summary">画面点灯中に通知を受信した時に通知音とバイブを鳴らす</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">不必要な Heads Up</string>
+    <string name="less_boring_heads_up_summary">全てのアプリの Heads Up を即時に無効化し、電話アプリとメッセージアプリは有効化のままにする。</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">画面消灯時のライト切り替え</string>
+    <string name="torch_power_button_gesture_none">無効</string>
+    <string name="torch_power_button_gesture_dt">電源ボタンを2回押し (カメラを素早く起動する機能は無効化され復帰が170ミリ秒遅延します)</string>
+    <string name="torch_power_button_gesture_lp">電源ボタンを長押し</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">誤起動を防止</string>
+    <string name="proximity_wake_summary">ダブルタップで復帰する機能で画面が復帰する前に近接センサーを確認する</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">プラットフォーム</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">合計利用可能 RAM</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">統計をリセット</string>
+    <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">ジェスチャーバー</string>
+    <string name="show_navbar_gesture_bar_summary">ジェスチャーバーを画面の下部に表示する</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">保存されたイヤホン</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">バッテリーアイコン</string>
+    <string name="battery_style_summary">バッテリーのアイコンや残量の表示と非表示を編集する</string>
+    <string name="battery_percent_title">バッテリー残量</string>
+    <string name="battery_style_category_title">バッテリーアイコン</string>
+    <string name="status_bar_battery_style_title">バッテリースタイル</string>
+    <string name="status_bar_battery_style_icon_portrait">縦アイコン (既定)</string>
+    <string name="status_bar_battery_style_circle">円</string>
+    <string name="status_bar_battery_style_dotted_circle">円 (点線)</string>
+    <string name="status_bar_battery_style_filled_circle">円 (塗り潰し)</string>
+    <string name="status_bar_battery_style_big_circle">大きな円</string>
+    <string name="status_bar_battery_style_big_dotted_circle">大きな点線の円</string>
+    <string name="status_bar_battery_style_text">文字</string>
+    <string name="status_bar_battery_style_hidden">非表示</string>
+    <string name="status_bar_battery_percentage_title">バッテリー残量</string>
+    <string name="status_bar_battery_percentage_default">非表示 (既定)</string>
+    <string name="status_bar_battery_percentage_text_inside">アイコンの中</string>
+    <string name="status_bar_battery_percentage_text_next">アイコンの外</string>
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">小さな時計</string>
+    <string name="lockscreen_small_clock_summary">通知がない時でも大きな時計を表示しない</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">ナビゲーションバーレイアウトの反転</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">充電時のライト</string>
+    <string name="battery_light_summary">サイレント時と低残量時のバッテリーライトの動作</string>
+    <string name="battery_light_enable">バッテリーライト</string>
+    <string name="battery_light_allow_on_dnd_title">Do Not Disturb 中のライト</string>
+    <string name="battery_light_low_blinking_title">低残量時のライト点滅</string>
+    <string name="battery_light_cat">充電中のライトの色</string>
+    <string name="battery_light_low_color">低残量</string>
+    <string name="battery_light_medium_color">中程度</string>
+    <string name="battery_light_full_color">ほぼ充電完了</string>
+    <string name="battery_light_reallyfull_color">充電完了</string>
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">Monet エンジン</string>
+    <string name="monet_engine_summary">Monet のパラメータを編集する</string>
+    <string name="monet_engine_custom_color_title">カスタムの色を使用</string>
+    <string name="monet_engine_custom_color_summary">Monet エンジンに壁紙の色の代わりにカスタムの色を使用する</string>
+    <string name="monet_engine_color_override_title">カスタムの色</string>
+    <string name="monet_engine_linear_lightness_title">カスタムの輝度スケールを使用</string>
+    <string name="monet_engine_linear_lightness_summary">カスタムの色の輝度スケールの使用を許可する</string>
+    <string name="monet_engine_white_luminance_user_title">輝度スケール</string>
+    <string name="monet_engine_accurate_shades_title">正確な色合いを使用</string>
+    <string name="monet_engine_accurate_shades_summary">コントラストと色深度を向上させますが、彩度が低下することがあります。</string>
+    <string name="monet_engine_chroma_factor_title">彩度</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">クライアントの VPN 使用の許可</string>
+    <string name="tethering_allow_vpn_upstreams_summary">この端末の VPN 接続をホットスポットのクライアントが送信接続に使うことを許可する</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">波紋の効果</string>
+    <string name="enable_fingerprint_ripple_effect_summary">指紋認証のロック解除時に波紋効果を表示する</string>
+</resources>
