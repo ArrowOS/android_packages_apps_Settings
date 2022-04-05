@@ -230,4 +230,8 @@
     <string name="qs_battery_category_title">In QS Panel</string>
     <string name="qs_battery_percent_title" translatable="false">@string/status_bar_battery_percent_title</string>
     <string name="qs_use_status_bar_battery_style">Follow status bar style</string>
+
+    <!-- Hidden apps -->
+    <string name="hidden_apps_title">Hidden apps</string>
+    <string name="hidden_apps_summary">Hide apps and their widgets from the drawer</string>
 </resources>

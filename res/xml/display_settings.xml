@@ -179,4 +179,10 @@
             android:summary="@string/qs_footer_datausage_summary"
             android:defaultValue="false" />
     </PreferenceCategory>
+    <Preference
+        android:key="hidden_apps"
+        android:title="@string/hidden_apps_title"
+        android:summary="@string/hidden_apps_summary"
+        android:persistent="false"
+        android:fragment="com.android.settings.display.HiddenAppSettingsFragment" />
 </PreferenceScreen>
