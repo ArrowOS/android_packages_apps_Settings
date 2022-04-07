@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5453eba8_49365d08",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 71
+      },
+      "writtenOn": "2022-04-07T22:01:13Z",
+      "side": 1,
+      "message": "res/values/lineage_styles.xml -\u003e res/values/arrow_styles.xml",
+      "revId": "93e5a81672e12483efd738ad6f9f62f938a21c28",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
