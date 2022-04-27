@@ -15,6 +15,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <string name="telephony_icons_title">Telephony icons</string>
+
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
 
@@ -230,4 +232,8 @@
     <string name="qs_battery_category_title">In QS Panel</string>
     <string name="qs_battery_percent_title" translatable="false">@string/status_bar_battery_percent_title</string>
     <string name="qs_use_status_bar_battery_style">Follow status bar style</string>
+  
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G icon</string>
+    <string name="show_fourg_icon_summary">Show 4G icon instead of LTE</string>
 </resources>
