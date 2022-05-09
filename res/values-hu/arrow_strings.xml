@@ -92,29 +92,6 @@
     <string name="show_navbar_gesture_bar_summary">Gesztussáv megjelenítése a képernyő alján</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Mentett Fülhallgatók</string>
-    <!-- Statusbar Battery -->
-    <string name="battery_style_title">Akkumulátor ikon stílus</string>
-    <string name="battery_style_summary">Testreszabhatja az akkumulátor ikonokat, elrejtheti vagy megjelenítheti a százalékot</string>
-    <string name="battery_percent_title">Akkumulátor százalék az állapotsoron</string>
-    <string name="battery_style_category_title">Akkumulátor ikon</string>
-    <string name="status_bar_battery_style_title">Akkumulátor stílus</string>
-    <string name="status_bar_battery_style_icon_portrait">Álló ikon (alapértelmezett)</string>
-    <string name="status_bar_battery_style_circle">Kör</string>
-    <string name="status_bar_battery_style_dotted_circle">Kör (Pontozott)</string>
-    <string name="status_bar_battery_style_filled_circle">Kör (Megtöltött)</string>
-    <string name="status_bar_battery_style_big_circle">Nagy kör</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Nagy pontozott kör</string>
-    <string name="status_bar_battery_style_text">Szöveg</string>
-    <string name="status_bar_battery_style_hidden">Rejtett</string>
-    <string name="status_bar_battery_percentage_title">Akkumulátor százalék</string>
-    <string name="status_bar_battery_percentage_default">Rejtett (alapértelmezett)</string>
-    <string name="status_bar_battery_percentage_text_inside">Az ikon belsejében</string>
-    <string name="status_bar_battery_percentage_text_next">Az ikon mellett</string>
-    <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">Kényszerített kis óra</string>
-    <string name="lockscreen_small_clock_summary">Ne váltson át a nagy órára, ha nincsenek értesítések</string>
-    <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Fordított navigációs sáv elrendezés</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Akkumulátor töltés jelzőfény</string>
     <string name="battery_light_summary">Az akkumulátor fényének viselkedése ne zavarjanak üzemmódban, alacsony akkumulátor töltöttségnél</string>
@@ -126,21 +103,35 @@
     <string name="battery_light_medium_color">Közepes akkumulátor</string>
     <string name="battery_light_full_color">Majdnem tele akkumulátor</string>
     <string name="battery_light_reallyfull_color">Teljes (100) akkumulátor</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_title">Monet Motor</string>
-    <string name="monet_engine_summary">Monet paraméterek testreszabása</string>
-    <string name="monet_engine_custom_color_title">Egyéni szín használata</string>
-    <string name="monet_engine_custom_color_summary">Egyéni szín használata a monet motorhoz a háttérkép színei helyett</string>
-    <string name="monet_engine_color_override_title">Egyéni szín</string>
-    <string name="monet_engine_linear_lightness_title">Egyéni fényerő skála használata</string>
-    <string name="monet_engine_linear_lightness_summary">Lehetővé teszi az egyéni fényerő skála használatát</string>
-    <string name="monet_engine_white_luminance_user_title">Fényerő skála</string>
-    <string name="monet_engine_accurate_shades_title">Pontos árnyalatok használata</string>
-    <string name="monet_engine_accurate_shades_summary">Jobb kontraszt és mélység, de tompább színek</string>
-    <string name="monet_engine_chroma_factor_title">Színesség</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Kliens VPN-használat engedélyezés</string>
     <string name="tethering_allow_vpn_upstreams_summary">Engedélyezze a hotspot ügyfelek számára, hogy az eszközük VPN-kapcsolatait használják felfelé irányuló kapcsolathoz</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Fordított navigációs sáv elrendezés</string>
+    <string name="navbar_invert_info">Swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Locate the fingerprint sensor on the back of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Locate the fingerprint sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Touch the sensor on the front of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touch the sensor on the front of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touch the sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Touch the sensor on the back of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touch the sensor on the back of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touch the sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touch the sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_summary">Display volume panel on the left side of the screen</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Hullámzó hatás</string>
     <string name="enable_fingerprint_ripple_effect_summary">Hullámzás effekt megjelenítése ujjlenyomattal történő feloldáskor</string>

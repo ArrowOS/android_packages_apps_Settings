@@ -92,29 +92,6 @@
     <string name="show_navbar_gesture_bar_summary">திரையின் அடிப்புறத்தில் சைகைப்பட்டியைக் காட்டு</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">சேமித்த காதுமொட்டுகள்</string>
-    <!-- Statusbar Battery -->
-    <string name="battery_style_title">மின்கல படவுரு பாணி</string>
-    <string name="battery_style_summary">மின்கல படவுருவைத் தனிப்பயனாக்கு, சதவீதம் காட்டு அ மறை</string>
-    <string name="battery_percent_title">நிலைப்பட்டி மின்கல சதவீதம்</string>
-    <string name="battery_style_category_title">மின்கல படவுரு</string>
-    <string name="status_bar_battery_style_title">மின்கல பாணி</string>
-    <string name="status_bar_battery_style_icon_portrait">படவுரு உருவப்படம் (இயல்புநிலை)</string>
-    <string name="status_bar_battery_style_circle">வட்டம்</string>
-    <string name="status_bar_battery_style_dotted_circle">வட்டம் (புள்ளியிடப்பட்ட)</string>
-    <string name="status_bar_battery_style_filled_circle">வட்டம் (நிரப்பப்பட்ட)</string>
-    <string name="status_bar_battery_style_big_circle">பெருவட்டம்</string>
-    <string name="status_bar_battery_style_big_dotted_circle">பெரிய புள்ளியிடப்பட்ட வட்டம்</string>
-    <string name="status_bar_battery_style_text">சொற்சரம்</string>
-    <string name="status_bar_battery_style_hidden">மறைந்து</string>
-    <string name="status_bar_battery_percentage_title">மின்கல சதவீதம்</string>
-    <string name="status_bar_battery_percentage_default">மறைந்து (இயல்புநிலை)</string>
-    <string name="status_bar_battery_percentage_text_inside">படவுருவினுள்</string>
-    <string name="status_bar_battery_percentage_text_next">படவுருவிற்கடுத்து</string>
-    <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">Force small clock</string>
-    <string name="lockscreen_small_clock_summary">Don\'t switch to the big clock when there are no notifications</string>
-    <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
     <!-- Battery light -->
     <string name="battery_light_settings">மின்கல மின்னேற்ற ஒளி</string>
     <string name="battery_light_summary">தொ. செ. இன் போது மின்கல ஒளி நடத்தை, குறைவான மின்கலம்</string>
@@ -126,21 +103,35 @@
     <string name="battery_light_medium_color">நடுத்தர மின்கலம்</string>
     <string name="battery_light_full_color">கிட்டத்தட்ட முழு மின்கலம்</string>
     <string name="battery_light_reallyfull_color">முழு (100) மின்கலம்</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_title">மோனெட் பொறி</string>
-    <string name="monet_engine_summary">மோனெட் அளவுருகளைத் தனிப்பயனாக்கு</string>
-    <string name="monet_engine_custom_color_title">தனிப்பயன் நிறம் பயன்படுத்து</string>
-    <string name="monet_engine_custom_color_summary">மோனெட் பொறிக்குச் சுவர்த்தாள் நிறங்களுக்குப் பதில் தனிப்பயன் நிறம் பயன்படுத்து</string>
-    <string name="monet_engine_color_override_title">தனிப்பயன் நிறம்</string>
-    <string name="monet_engine_linear_lightness_title">தனிப்பயன் ஒளிர்வு ஒப்பளவு பயன்படுத்து</string>
-    <string name="monet_engine_linear_lightness_summary">தனிப்பயன் நிற ஒளிர்வு ஒப்பளவு பயன்படுத்த அனுமதிக்கும்</string>
-    <string name="monet_engine_white_luminance_user_title">ஒளிர்வு ஒப்பளவு</string>
-    <string name="monet_engine_accurate_shades_title">துல்லிய நிறக்கூறு பயன்படுத்து</string>
-    <string name="monet_engine_accurate_shades_summary">நல்ல உறழ்பொருவும் ஆழமும், ஆனால் மழுங்கிய நிறங்கள்</string>
-    <string name="monet_engine_chroma_factor_title">வண்ணமயம்</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
+    <string name="navbar_invert_info">Swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Locate the fingerprint sensor on the back of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Locate the fingerprint sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Touch the sensor on the front of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touch the sensor on the front of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touch the sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Touch the sensor on the back of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touch the sensor on the back of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touch the sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touch the sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_summary">Display volume panel on the left side of the screen</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
     <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>

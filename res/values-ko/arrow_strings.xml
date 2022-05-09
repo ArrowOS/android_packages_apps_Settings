@@ -92,29 +92,6 @@
     <string name="show_navbar_gesture_bar_summary">화면 아래에 제스처 바를 표시</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">저장된 무선 이어폰</string>
-    <!-- Statusbar Battery -->
-    <string name="battery_style_title">배터리 아이콘 스타일</string>
-    <string name="battery_style_summary">배터리 아이콘, 퍼센트를 숨기거나 나타나게 커스텀합니다</string>
-    <string name="battery_percent_title">상태 표시줄 배터리 잔량 표시</string>
-    <string name="battery_style_category_title">배터리 아이콘</string>
-    <string name="status_bar_battery_style_title">배터리 스타일</string>
-    <string name="status_bar_battery_style_icon_portrait">세로 아이콘 (기본값)</string>
-    <string name="status_bar_battery_style_circle">원형</string>
-    <string name="status_bar_battery_style_dotted_circle">원형 (점선)</string>
-    <string name="status_bar_battery_style_filled_circle">원형 (채워진)</string>
-    <string name="status_bar_battery_style_big_circle">큰 원형</string>
-    <string name="status_bar_battery_style_big_dotted_circle">큰 점선 원형</string>
-    <string name="status_bar_battery_style_text">텍스트</string>
-    <string name="status_bar_battery_style_hidden">숨김</string>
-    <string name="status_bar_battery_percentage_title">배터리 잔량</string>
-    <string name="status_bar_battery_percentage_default">숨김 (기본값)</string>
-    <string name="status_bar_battery_percentage_text_inside">아이콘 안에 표시</string>
-    <string name="status_bar_battery_percentage_text_next">아이콘 옆에 표시</string>
-    <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">작은 시계 강제 설정</string>
-    <string name="lockscreen_small_clock_summary">알림이 없을 때 큰 시계로 전환하지 마십시오</string>
-    <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">네비게이션 바 레이아웃 반전</string>
     <!-- Battery light -->
     <string name="battery_light_settings">배터리 충전 표시등</string>
     <string name="battery_light_summary">방해 금지 모드 및 배터리 부족 시 배터리 표시등 설정</string>
@@ -126,21 +103,35 @@
     <string name="battery_light_medium_color">배터리 중간</string>
     <string name="battery_light_full_color">충전이 거의 완료 됨</string>
     <string name="battery_light_reallyfull_color">충전 완료 (100%)</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_title">Monet 엔진</string>
-    <string name="monet_engine_summary">Monet 설정 값 변경</string>
-    <string name="monet_engine_custom_color_title">사용자 지정 색 사용</string>
-    <string name="monet_engine_custom_color_summary">배경화면 색 대신 Monet 엔진에 설정된 사용자 지정 색 사용</string>
-    <string name="monet_engine_color_override_title">사용자 지정 색</string>
-    <string name="monet_engine_linear_lightness_title">사용자 지정 밝기 단계 사용</string>
-    <string name="monet_engine_linear_lightness_summary">사용자 지정 밝기 단계를 사용합니다</string>
-    <string name="monet_engine_white_luminance_user_title">밝기 단계 조절</string>
-    <string name="monet_engine_accurate_shades_title">정확한 음영 사용</string>
-    <string name="monet_engine_accurate_shades_summary">대비와 심도는 향상되지만, 색상이 흐릿해질 수 있습니다</string>
-    <string name="monet_engine_chroma_factor_title">색상 조절</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">클라이언트가 VPN을 사용하도록 허용</string>
     <string name="tethering_allow_vpn_upstreams_summary">핫스팟 클라이언트가 연결성 향상을 위해 이 기기\u2019의 VPN 연결을 사용하도록 허용</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">네비게이션 바 레이아웃 반전</string>
+    <string name="navbar_invert_info">Swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Locate the fingerprint sensor on the back of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Locate the fingerprint sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Touch the sensor on the front of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touch the sensor on the front of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touch the sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Touch the sensor on the back of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touch the sensor on the back of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touch the sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touch the sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_summary">Display volume panel on the left side of the screen</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">물결 효과</string>
     <string name="enable_fingerprint_ripple_effect_summary">지문으로 잠금 해제 시 물결 효과 표시</string>

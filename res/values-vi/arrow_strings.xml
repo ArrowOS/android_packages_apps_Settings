@@ -92,29 +92,6 @@
     <string name="show_navbar_gesture_bar_summary">Hiển thị thanh cử chỉ ở cuối màn hình</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Các tai nghe không dây đã lưu</string>
-    <!-- Statusbar Battery -->
-    <string name="battery_style_title">Kiểu biểu tượng pin</string>
-    <string name="battery_style_summary">Tùy chỉnh biểu tượng pin, ẩn hoặc hiển thị phần trăm</string>
-    <string name="battery_percent_title">Phần trăm pin trên thanh trạng thái</string>
-    <string name="battery_style_category_title">Biểu tượng pin</string>
-    <string name="status_bar_battery_style_title">Kiểu biểu tượng pin</string>
-    <string name="status_bar_battery_style_icon_portrait">Biểu tượng dọc (mặc định)</string>
-    <string name="status_bar_battery_style_circle">Vòng tròn</string>
-    <string name="status_bar_battery_style_dotted_circle">Vòng tròn (Chấm)</string>
-    <string name="status_bar_battery_style_filled_circle">Vòng tròn (Đầy)</string>
-    <string name="status_bar_battery_style_big_circle">Vòng tròn lớn</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Vòng tròn chấm lớn</string>
-    <string name="status_bar_battery_style_text">Văn bản</string>
-    <string name="status_bar_battery_style_hidden">Ẩn</string>
-    <string name="status_bar_battery_percentage_title">Phần trăm pin</string>
-    <string name="status_bar_battery_percentage_default">Ẩn (mặc định)</string>
-    <string name="status_bar_battery_percentage_text_inside">Bên trong biểu tượng</string>
-    <string name="status_bar_battery_percentage_text_next">Bên cạnh biểu tượng</string>
-    <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">Bắt buộc dùng đồng hồ nhỏ</string>
-    <string name="lockscreen_small_clock_summary">Không chuyển sang đồng hồ lớn khi không có thông báo</string>
-    <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Đảo ngược bố cục thanh điều hướng</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Đèn báo sạc pin</string>
     <string name="battery_light_summary">Tùy chỉnh đèn thông báo khi bật chế độ Không Làm Phiền, pin yếu</string>
@@ -126,21 +103,35 @@
     <string name="battery_light_medium_color">Pin trung bình</string>
     <string name="battery_light_full_color">Pin gần đầy</string>
     <string name="battery_light_reallyfull_color">Pin đầy (100)</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_title">Công cụ Monet</string>
-    <string name="monet_engine_summary">Tùy chỉnh các thông số monet</string>
-    <string name="monet_engine_custom_color_title">Sử dụng màu tùy chỉnh</string>
-    <string name="monet_engine_custom_color_summary">Sử dụng màu tùy chỉnh cho công cụ monet thay cho màu của hình nền</string>
-    <string name="monet_engine_color_override_title">Tùy chỉnh màu</string>
-    <string name="monet_engine_linear_lightness_title">Sử dụng thang đo độ sáng tùy chỉnh</string>
-    <string name="monet_engine_linear_lightness_summary">Nó cho phép sử dụng thang đo độ sáng màu tùy chỉnh</string>
-    <string name="monet_engine_white_luminance_user_title">Thang đo độ sáng</string>
-    <string name="monet_engine_accurate_shades_title">Sử dụng các sắc thái chính xác</string>
-    <string name="monet_engine_accurate_shades_summary">Độ tương phản và độ sâu tốt hơn, nhưng màu sắc xỉn hơn</string>
-    <string name="monet_engine_chroma_factor_title">Màu sắc</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Cho phép máy khách sử dụng VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Cho phép hotspot các máy khách sử dụng các kết nối VPN của thiết bị\u2019 này để kết nối ngược dòng</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Đảo ngược bố cục thanh điều hướng</string>
+    <string name="navbar_invert_info">Swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Locate the fingerprint sensor on the back of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Locate the fingerprint sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Touch the sensor on the front of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touch the sensor on the front of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touch the sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Touch the sensor on the back of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touch the sensor on the back of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touch the sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touch the sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_summary">Display volume panel on the left side of the screen</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Hiệu ứng gợn sóng</string>
     <string name="enable_fingerprint_ripple_effect_summary">Hiển thị hiệu ứng gợn sóng khi mở khóa bằng vân tay</string>

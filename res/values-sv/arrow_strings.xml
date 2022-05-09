@@ -92,29 +92,6 @@
     <string name="show_navbar_gesture_bar_summary">Visa fällt för gester längst ner på skärmen</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Sparade Öronsnäckor</string>
-    <!-- Statusbar Battery -->
-    <string name="battery_style_title">Stil för batteriikon</string>
-    <string name="battery_style_summary">Anpassa batteriikonerna, visa eller göm batterinivå</string>
-    <string name="battery_percent_title">Batterinivå i statusfältet</string>
-    <string name="battery_style_category_title">Batteriikon</string>
-    <string name="status_bar_battery_style_title">Stil på batteri</string>
-    <string name="status_bar_battery_style_icon_portrait">Stående ikon (standard)</string>
-    <string name="status_bar_battery_style_circle">Cirkel</string>
-    <string name="status_bar_battery_style_dotted_circle">Cirkel (Streckad)</string>
-    <string name="status_bar_battery_style_filled_circle">Cirkel (Fylld)</string>
-    <string name="status_bar_battery_style_big_circle">Stor cirkel</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Stor streckad cirkel</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Dold</string>
-    <string name="status_bar_battery_percentage_title">Batterinivå</string>
-    <string name="status_bar_battery_percentage_default">Dold (standard)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inuti ikonen</string>
-    <string name="status_bar_battery_percentage_text_next">Bredvid ikonen</string>
-    <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">Tvinga liten klocka</string>
-    <string name="lockscreen_small_clock_summary">Byt inte till den stora klockan när det inte finns några aviseringar</string>
-    <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Kasta om ordningen på navigeringsdältet</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Ljus vid batteriladdning</string>
     <string name="battery_light_summary">Ljusbeteende under Stör-Ej, låg batterinivå</string>
@@ -126,21 +103,35 @@
     <string name="battery_light_medium_color">Medium batterinivå</string>
     <string name="battery_light_full_color">Nästan full batterinivå</string>
     <string name="battery_light_reallyfull_color">Full (100) batterinivå</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_title">Monet temamotor</string>
-    <string name="monet_engine_summary">Anpassa parametrar för Monet</string>
-    <string name="monet_engine_custom_color_title">Använd anpassad färg</string>
-    <string name="monet_engine_custom_color_summary">Använd anpassad färg i temamotorn för Monet istället för färg tagen från bakgrundsbilden</string>
-    <string name="monet_engine_color_override_title">Anpassad färg</string>
-    <string name="monet_engine_linear_lightness_title">Använd anpassad skala för ljusstyrka</string>
-    <string name="monet_engine_linear_lightness_summary">Det möjliggör att använda anpassad skala för färgers ljusstyrka</string>
-    <string name="monet_engine_white_luminance_user_title">Skala för ljusstyrka</string>
-    <string name="monet_engine_accurate_shades_title">Använd korrekta nyanser</string>
-    <string name="monet_engine_accurate_shades_summary">Bättre kontrast och djup, men mattare färger</string>
-    <string name="monet_engine_chroma_factor_title">Färgmättnad</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Tillåt klienter att använda VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Tillåt surfpunktsklienter att använda den här enheten\u2019s VPN-anslutningar för anslutningar uppströms</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Kasta om ordningen på navigeringsdältet</string>
+    <string name="navbar_invert_info">Swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Locate the fingerprint sensor on the back of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Locate the fingerprint sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Touch the sensor on the front of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touch the sensor on the front of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touch the sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Touch the sensor on the back of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touch the sensor on the back of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touch the sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touch the sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_summary">Display volume panel on the left side of the screen</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
     <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>

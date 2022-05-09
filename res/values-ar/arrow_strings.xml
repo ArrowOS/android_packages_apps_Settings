@@ -20,9 +20,8 @@
     <string name="arrow_stats_title">إحصائيات ArrowOS</string>
     <string name="arrow_stats_summary">فقط عد عدد الأجهزة التي نعمل عليها</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">معدل تحديث الشاشة الأدنى
-معدل التحديث</string>
-    <string name="max_refresh_rate_title">معدل تحديث الشاشة الأدنى</string>
+    <string name="min_refresh_rate_title">معدل تحديث الشاشة الأدنى</string>
+    <string name="max_refresh_rate_title">معدل تحديث الشاشة الأعلى</string>
     <string name="battery_saver_refresh_rate_title">تقليل معدل التحديث</string>
     <string name="battery_saver_refresh_rate_summary">استخدام معدل تحديث الشاشة 60 هرتز لتوفير الطاقة عند تشغيل توفير البطارية</string>
     <!-- Volume link notification -->
@@ -42,15 +41,15 @@
     <string name="color_mode_balance_blue">شدة الأزرق</string>
     <string name="keywords_color_balance">اللون ، توازن اللون ، تصحيح اللون ، الأحمر ، الأخضر ، الأزرق ، الشاشة الحية</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
-    <string name="build_date">تاريخ الإنشاء</string>
+    <string name="build_date">تاريخ الإصدار</string>
     <string name="arrow_version">إصدار ArrowOS</string>
     <string name="about_device_name">الجهاز</string>
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">النقر للنوم</string>
     <string name="double_tap_sleep_gesture_summary">الضغط مرتين على شريط الحالة لقفل الجهاز</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">What to do</string>
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <string name="lockscreen_tweaks_category_title">ما يجب القيام به</string>
+    <string name="double_tap_sleep_lockscreen_title">اضغط مرتين لإسبات الجهاز</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">التحكم في الموسيقى</string>
     <string name="volume_button_music_control_summary">عندما تكون الشاشة مغلقة، فإن الضغط المطول على مفاتيح الصوت سينتقل بك لمسار موسيقى آخر</string>
@@ -82,67 +81,58 @@
     <string name="proximity_wake_summary">تحقق من مستشعر القرب قبل استيقاظ الشاشة من إيماءة الإيقاظ بالنقر المزدوج 2</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
+    <string name="platform_revision">النظام الأساسي</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total available RAM</string>
+    <string name="total_ram">إجمالي ذاكرة الوصول العشوائي المتاحة</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">إعادة تعيين الإحصائيات</string>
+    <string name="battery_stats_message">سيتم محو تاريخ إحصائيات البطارية</string>
     <!-- Navigation bar hint -->
-    <string name="show_navbar_gesture_bar_title">Gesture bar</string>
-    <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
+    <string name="show_navbar_gesture_bar_title">شريط التنقل</string>
+    <string name="show_navbar_gesture_bar_summary">إظهار شريط التنقل أسفل الشاشة</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
-    <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
-    <string name="battery_percent_title">Status bar battery percentage</string>
-    <string name="battery_style_category_title">Battery icon</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_big_circle">Big circle</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Big dotted circle</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
-    <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">Force small clock</string>
-    <string name="lockscreen_small_clock_summary">Don\'t switch to the big clock when there are no notifications</string>
-    <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
+    <string name="connected_tws_device_saved_title">السماعات اللاسلكية المحفوظة</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Battery charging light</string>
-    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
-    <string name="battery_light_enable">Battery light</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_title">Monet Engine</string>
-    <string name="monet_engine_summary">Customise monet parameters</string>
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_linear_lightness_title">Use custom brightness scale</string>
-    <string name="monet_engine_linear_lightness_summary">It allows using the custom color brightness scale</string>
-    <string name="monet_engine_white_luminance_user_title">Brightness scale</string>
-    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
-    <string name="monet_engine_accurate_shades_summary">Better contrast and depth, but duller colors</string>
-    <string name="monet_engine_chroma_factor_title">Colorfulness</string>
+    <string name="battery_light_settings">ضوء شحن البطارية</string>
+    <string name="battery_light_summary">إضاءة البطارية المنخفضة أثناء وضع عدم الإزعاج،البطارية منخفضة</string>
+    <string name="battery_light_enable">ضوء البطارية</string>
+    <string name="battery_light_allow_on_dnd_title">ضوء البطارية أثناء وضع عدم الإزعاج</string>
+    <string name="battery_light_low_blinking_title">وميض الضوء عند إنخفاض البطارية</string>
+    <string name="battery_light_cat">لون ضوء البطارية عند الشحن</string>
+    <string name="battery_light_low_color">البطارية منخفضة</string>
+    <string name="battery_light_medium_color">بطـارية متوسطة الشحن</string>
+    <string name="battery_light_full_color">البطارية كاملة تقريباً</string>
+    <string name="battery_light_reallyfull_color">البطارية كاملة (100)</string>
     <!-- Hotspot VPN -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">السماح للعملاء باستخدام VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">السماح لعملاء نقطة الاتصال باستخدام اتصالات الـVPN لهذا الجهاز\u2019</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">عكس تخطيط شريط التنقل</string>
+    <string name="navbar_invert_info">Swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Locate the fingerprint sensor on the back of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Locate the fingerprint sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Touch the sensor on the front of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touch the sensor on the front of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touch the sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Touch the sensor on the back of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touch the sensor on the back of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touch the sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touch the sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_summary">Display volume panel on the left side of the screen</string>
     <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
-    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+    <string name="enable_fingerprint_ripple_effect_title">تأثير الموجة</string>
+    <string name="enable_fingerprint_ripple_effect_summary">إظهار تأثير تموّج عند إلغاء القُفل باستخدام بصمة الإصبع</string>
 </resources>
