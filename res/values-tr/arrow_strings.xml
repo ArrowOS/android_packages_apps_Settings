@@ -92,29 +92,6 @@
     <string name="show_navbar_gesture_bar_summary">Ekranın altında hareket çubuğunu göster</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Kayıtlı kulaklıklar</string>
-    <!-- Statusbar Battery -->
-    <string name="battery_style_title">Pil simgesi stili</string>
-    <string name="battery_style_summary">Pil simgelerini özelleştirin, yüzdeyi gizleyin veya gösterin</string>
-    <string name="battery_percent_title">Durum çubuğu pil yüzdesi</string>
-    <string name="battery_style_category_title">Pil simgesi</string>
-    <string name="status_bar_battery_style_title">Pil stili</string>
-    <string name="status_bar_battery_style_icon_portrait">Dikey simge (varsayılan)</string>
-    <string name="status_bar_battery_style_circle">Daire</string>
-    <string name="status_bar_battery_style_dotted_circle">Daire (Noktalı)</string>
-    <string name="status_bar_battery_style_filled_circle">Daire (Dolu)</string>
-    <string name="status_bar_battery_style_big_circle">Büyük daire</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Büyük noktalı daire</string>
-    <string name="status_bar_battery_style_text">Metin</string>
-    <string name="status_bar_battery_style_hidden">Gizli</string>
-    <string name="status_bar_battery_percentage_title">Pil yüzdesi</string>
-    <string name="status_bar_battery_percentage_default">Gizli (varsayılan)</string>
-    <string name="status_bar_battery_percentage_text_inside">Simge içinde</string>
-    <string name="status_bar_battery_percentage_text_next">Simge dışında</string>
-    <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">Küçük saati kullanmaya zorla</string>
-    <string name="lockscreen_small_clock_summary">Bildirim olmadığında büyük saate geçmeyin</string>
-    <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Gezinme çubuğu düzenini tersine çevir</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Pil şarj ışığı</string>
     <string name="battery_light_summary">Rahatsız etmeyin modunda pil ışığı davranışı, düşük pil</string>
@@ -126,21 +103,35 @@
     <string name="battery_light_medium_color">Orta seviye pil</string>
     <string name="battery_light_full_color">Neredeyse dolu pil</string>
     <string name="battery_light_reallyfull_color">Tam dolu pil (100)</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_title">Monet Ayarları</string>
-    <string name="monet_engine_summary">Monet parametrelerini özelleştirin</string>
-    <string name="monet_engine_custom_color_title">Özel renk kullan</string>
-    <string name="monet_engine_custom_color_summary">Monet için duvar kağıdı renkleri yerine özel renk kullan</string>
-    <string name="monet_engine_color_override_title">Özel renk</string>
-    <string name="monet_engine_linear_lightness_title">Özel parlaklık ölçeğini kullan</string>
-    <string name="monet_engine_linear_lightness_summary">Özel renk parlaklığı ölçeğinin kullanılmasına izin verir</string>
-    <string name="monet_engine_white_luminance_user_title">Parlaklık ölçeği</string>
-    <string name="monet_engine_accurate_shades_title">Doğru renk tonları kullan</string>
-    <string name="monet_engine_accurate_shades_summary">Daha iyi kontrast ve derinlik, ancak daha mat renkler</string>
-    <string name="monet_engine_chroma_factor_title">Renklilik</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın\u2019s VPN bağlantısını kullanmasına izin ver</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Gezinme çubuğu düzenini tersine çevir</string>
+    <string name="navbar_invert_info">Navigasyon çubuğunda \"Geri Gitme\" ve \"Uygulamalar Arası Geçiş\" tuşlarının yerlerini değiştirin</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Tabletinizin önünde bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Telefonunuzun önünde bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Telefonunuzun önündeki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Tabletinizin arkasındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Cihazınızın arkasındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonunuzun arkasındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Tabletinizin yan tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Cihazınızın yan tarafında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Telefonunuzun yan tarafındaki parmak izi sensörünü bulun.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Tabletinizin önündeki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Cihazınızın önündeki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Telefonunuzun önünde bulunan parmak izi sensörüne dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Tabletinizin arkasındaki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Cihazınızın arkasındaki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Telefonunuzun arkasındaki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Tabletinizin yan tarafındaki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Cihazınızın yan tarafındaki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Telefonunuzun yan tarafında bulunan parmak izi sensörüne dokunun.</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Ses panelini solda göster</string>
+    <string name="volume_panel_on_left_summary">Ses panelini ekranın sol tarafında göster</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Dalga etkisi</string>
     <string name="enable_fingerprint_ripple_effect_summary">Parmak izi ile kilit açma sırasında dalgalanma efekti göster</string>

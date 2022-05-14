@@ -92,29 +92,6 @@
     <string name="show_navbar_gesture_bar_summary">Mostrar barra de gestos na parte inferior da tela</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Fones de ouvido salvos</string>
-    <!-- Statusbar Battery -->
-    <string name="battery_style_title">Estilo do ícone da bateria</string>
-    <string name="battery_style_summary">Personalizar os ícones da bateria, ocultar ou mostrar percentagem</string>
-    <string name="battery_percent_title">Percentagem da bateria na barra de status</string>
-    <string name="battery_style_category_title">Ícone da bateria</string>
-    <string name="status_bar_battery_style_title">Estilo do ícone da bateria</string>
-    <string name="status_bar_battery_style_icon_portrait">Ícone em modo retrato (padrão)</string>
-    <string name="status_bar_battery_style_circle">Círculo</string>
-    <string name="status_bar_battery_style_dotted_circle">Círculo (pontilhado)</string>
-    <string name="status_bar_battery_style_filled_circle">Círculo (preenchido)</string>
-    <string name="status_bar_battery_style_big_circle">Círculo grande</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Círculo pontilhado grande</string>
-    <string name="status_bar_battery_style_text">Texto</string>
-    <string name="status_bar_battery_style_hidden">Oculto</string>
-    <string name="status_bar_battery_percentage_title">Percentagem da bateria</string>
-    <string name="status_bar_battery_percentage_default">Oculto (padrão)</string>
-    <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
-    <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
-    <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">Relógio pequeno na tela de bloqueio</string>
-    <string name="lockscreen_small_clock_summary">Não mude para o relógio grande quando não houver notificações</string>
-    <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Inverter layout da barra de navegação</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Luz de carga da bateria</string>
     <string name="battery_light_summary">Comportamento da luz da bateria enquanto em modo não perturbe, bateria fraca</string>
@@ -126,21 +103,35 @@
     <string name="battery_light_medium_color">Bateria média</string>
     <string name="battery_light_full_color">Bateria quase cheia</string>
     <string name="battery_light_reallyfull_color">Bateria (100) carregada</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_title">Tema Monet</string>
-    <string name="monet_engine_summary">Personalize os parâmetros do tema Monet</string>
-    <string name="monet_engine_custom_color_title">Usar cor personalizada</string>
-    <string name="monet_engine_custom_color_summary">Usar cor personalizada para o motor de temas Monet em vez de cores do papel de parede</string>
-    <string name="monet_engine_color_override_title">Cor personalizada</string>
-    <string name="monet_engine_linear_lightness_title">Usar escala de brilho personalizada</string>
-    <string name="monet_engine_linear_lightness_summary">Permite usar a escala de brilho de cor personalizada</string>
-    <string name="monet_engine_white_luminance_user_title">Escala de brilho</string>
-    <string name="monet_engine_accurate_shades_title">Usar tons precisos</string>
-    <string name="monet_engine_accurate_shades_summary">Melhor contraste e profundidade, mas cores mais opacas</string>
-    <string name="monet_engine_chroma_factor_title">Coloração</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Permitir que clientes usem VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes do ponto de acesso usem este dispositivo\u2019s para conexões VPN</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Inverter layout da barra de navegação</string>
+    <string name="navbar_invert_info">Trocar os botões \"Voltar\" e \"Recentes\" na barra de navegação</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localize o sensor de impressão digital na parte frontal do seu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localize o sensor de impressão digital na parte frontal do seu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localize o Sensor de Impressão Digital na parte Frontal de seu Telefone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Localize o sensor de impressão digital na parte traseira do seu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Localize o sensor de impressão digital na parte traseira do seu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localize o sensor de impressão digital na parte de trás do smartphone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Localize o sensor de impressão digital na lateral do seu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Localize o sensor de impressão digital na lateral do seu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Localize o sensor de impressão digital na parte lateral do seu telefone.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Toque no sensor na parte frontal do seu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Toque no sensor na parte frontal do seu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Localize o sensor de impressão digital na parte frontal do seu telefone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Toque no sensor na parte traseira do seu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Toque no sensor na parte traseira do seu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Toque no sensor na parte traseira do seu telefone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Toque no sensor na lateral do seu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Toque no sensor na lateral do seu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Toque no sensor na lateral do seu telefone.</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Mostrar painel de volume à esquerda</string>
+    <string name="volume_panel_on_left_summary">Exibir painel de volume no lado esquerdo da tela</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Efeito ondulação</string>
     <string name="enable_fingerprint_ripple_effect_summary">Mostrar animação ao desbloquear usando a impressão digital</string>

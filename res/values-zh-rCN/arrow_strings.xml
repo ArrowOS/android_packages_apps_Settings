@@ -92,29 +92,6 @@
     <string name="show_navbar_gesture_bar_summary">在屏幕底部显示手势栏</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">已保存的耳机</string>
-    <!-- Statusbar Battery -->
-    <string name="battery_style_title">电池图标样式</string>
-    <string name="battery_style_summary">自定义电池图标，隐藏或显示百分比</string>
-    <string name="battery_percent_title">状态栏电量百分比</string>
-    <string name="battery_style_category_title">电池图标</string>
-    <string name="status_bar_battery_style_title">电池样式</string>
-    <string name="status_bar_battery_style_icon_portrait">竖直图标 (默认)</string>
-    <string name="status_bar_battery_style_circle">环形</string>
-    <string name="status_bar_battery_style_dotted_circle">环形 (虚线)</string>
-    <string name="status_bar_battery_style_filled_circle">环形 (实心)</string>
-    <string name="status_bar_battery_style_big_circle">大环形</string>
-    <string name="status_bar_battery_style_big_dotted_circle">大环形 (虚线)</string>
-    <string name="status_bar_battery_style_text">文字</string>
-    <string name="status_bar_battery_style_hidden">隐藏</string>
-    <string name="status_bar_battery_percentage_title">电量百分比</string>
-    <string name="status_bar_battery_percentage_default">隐藏 (默认)</string>
-    <string name="status_bar_battery_percentage_text_inside">在图标内</string>
-    <string name="status_bar_battery_percentage_text_next">在图标旁</string>
-    <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">强制使用小型时钟</string>
-    <string name="lockscreen_small_clock_summary">当锁屏界面没有通知时, 不自动切换至大型时钟</string>
-    <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">反转导航栏布局</string>
     <!-- Battery light -->
     <string name="battery_light_settings">充电指示灯</string>
     <string name="battery_light_summary">勿扰模式下和低电量时的电量指示灯行为</string>
@@ -126,21 +103,35 @@
     <string name="battery_light_medium_color">中等电量</string>
     <string name="battery_light_full_color">电量将满</string>
     <string name="battery_light_reallyfull_color">满电 (100%)</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_title">Monet 引擎</string>
-    <string name="monet_engine_summary">自定义 Monet 参数</string>
-    <string name="monet_engine_custom_color_title">使用自定义颜色</string>
-    <string name="monet_engine_custom_color_summary">使用自定义颜色而非根据壁纸颜色变换</string>
-    <string name="monet_engine_color_override_title">自定义颜色</string>
-    <string name="monet_engine_linear_lightness_title">使用自定义亮度比例</string>
-    <string name="monet_engine_linear_lightness_summary">允许使用自定义的颜色亮度比例</string>
-    <string name="monet_engine_white_luminance_user_title">亮度比例</string>
-    <string name="monet_engine_accurate_shades_title">使用精确色调</string>
-    <string name="monet_engine_accurate_shades_summary">更好的对比度和深度，但颜色更暗淡</string>
-    <string name="monet_engine_chroma_factor_title">饱和度</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备的 VPN 连接</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">反转导航栏布局</string>
+    <string name="navbar_invert_info">交换导航栏上的 \"返回\" 和 \"最近任务\" 按钮</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">在您的平板正面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">在您的设备正面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">在您的手机正面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">在您的平板背面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">在您的设备背面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">在您的手机背面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">在您的平板侧面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">在您的设备侧面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">在您的手机侧面找到指纹传感器。</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">触摸位于平板正面的指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">触摸位于设备正面的指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">触摸位于手机正面的指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">触摸位于平板背面的指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">触摸位于设备背面的指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">触摸位于手机背面的指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">触摸位于平板侧面的指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">触摸位于设备侧面的指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">触摸位于手机侧面的指纹传感器。</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">音量面板居左</string>
+    <string name="volume_panel_on_left_summary">在屏幕左侧显示音量面板</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">波纹效果</string>
     <string name="enable_fingerprint_ripple_effect_summary">使用指纹解锁时显示波纹效果</string>

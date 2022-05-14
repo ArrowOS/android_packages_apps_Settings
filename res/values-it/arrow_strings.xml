@@ -23,7 +23,7 @@
     <string name="min_refresh_rate_title">Frequenza di aggiornamento minima</string>
     <string name="max_refresh_rate_title">Frequenza di aggiornamento massima</string>
     <string name="battery_saver_refresh_rate_title">Riduci la frequenza di aggiornamento</string>
-    <string name="battery_saver_refresh_rate_summary">Usa la frequenza di aggiornamento dello schermo a 60 Hz per risparmiare energia quando è attivo il risparmio energetico</string>
+    <string name="battery_saver_refresh_rate_summary">Usa una frequenza di aggiornamento a 60 Hz per risparmiare batteria quando è attivo il Risparmio Energetico</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Collega volume suoneria e notifiche</string>
     <!-- Three-fingers-swipe to screenshot -->
@@ -45,7 +45,7 @@
     <string name="arrow_version">Versione ArrowOS</string>
     <string name="about_device_name">Dispositivo</string>
     <!-- Double Tap to Sleep Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Tocca per sospendere</string>
+    <string name="double_tap_sleep_gesture_title">Tocca per spegnere lo schermo</string>
     <string name="double_tap_sleep_gesture_summary">Doppio tocco sulla barra di stato per spegnere lo schermo</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Cosa fare</string>
@@ -92,29 +92,6 @@
     <string name="show_navbar_gesture_bar_summary">Mostra la barra dei gesti nella parte inferiore dello schermo</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Cuffie associate</string>
-    <!-- Statusbar Battery -->
-    <string name="battery_style_title">Stile icona batteria</string>
-    <string name="battery_style_summary">Personalizza le icone della batteria, nascondi o mostra la percentuale</string>
-    <string name="battery_percent_title">Percentuale batteria nella barra di stato</string>
-    <string name="battery_style_category_title">Icona della batteria</string>
-    <string name="status_bar_battery_style_title">Stile batteria</string>
-    <string name="status_bar_battery_style_icon_portrait">Icona verticale (predefinito)</string>
-    <string name="status_bar_battery_style_circle">Cerchio</string>
-    <string name="status_bar_battery_style_dotted_circle">Cerchio (punteggiato)</string>
-    <string name="status_bar_battery_style_filled_circle">Cerchio (pieno)</string>
-    <string name="status_bar_battery_style_big_circle">Cerchio grande</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Cerchio grande tratteggiato</string>
-    <string name="status_bar_battery_style_text">Testo</string>
-    <string name="status_bar_battery_style_hidden">Nascosta</string>
-    <string name="status_bar_battery_percentage_title">Percentuale della batteria</string>
-    <string name="status_bar_battery_percentage_default">Nascosta (predefinito)</string>
-    <string name="status_bar_battery_percentage_text_inside">Dentro all\'icona</string>
-    <string name="status_bar_battery_percentage_text_next">Accanto all\'icona</string>
-    <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">Forza l\'orologio piccolo</string>
-    <string name="lockscreen_small_clock_summary">Forza le dimensioni ridotte dell\'orologio quando non ci sono notifiche</string>
-    <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Inverte la disposizione della barra di navigazione</string>
     <!-- Battery light -->
     <string name="battery_light_settings">LED batteria in carica</string>
     <string name="battery_light_summary">Comportamento del LED della batteria durante la modalità Non Disturbare, batteria scarica</string>
@@ -126,21 +103,35 @@
     <string name="battery_light_medium_color">Batteria media</string>
     <string name="battery_light_full_color">Batteria quasi carica</string>
     <string name="battery_light_reallyfull_color">Batteria carica (100)</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_title">Motore Monet</string>
-    <string name="monet_engine_summary">Personalizza i parametri di Monet</string>
-    <string name="monet_engine_custom_color_title">Usa un colore personalizzato</string>
-    <string name="monet_engine_custom_color_summary">Usa un colore personalizzato per Monet invece dei colori dello sfondo</string>
-    <string name="monet_engine_color_override_title">Colore personalizzato</string>
-    <string name="monet_engine_linear_lightness_title">Usa scala di luminosità personalizzata</string>
-    <string name="monet_engine_linear_lightness_summary">Consente di utilizzare una scala personalizzata di luminosità colore</string>
-    <string name="monet_engine_white_luminance_user_title">Scala luminosità</string>
-    <string name="monet_engine_accurate_shades_title">Usa sfumature accurate</string>
-    <string name="monet_engine_accurate_shades_summary">Contrasto e profondità migliori, ma colori più opachi</string>
-    <string name="monet_engine_chroma_factor_title">Vivacità</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Consenti ai client di usare le VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Consenti ai client hotspot di utilizzare le connessioni VPN di questo dispositivo per la connettività</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Inverte la disposizione della barra di navigazione</string>
+    <string name="navbar_invert_info">Scambia i pulsanti \"Indietro\" e \"Recenti\" sulla barra di navigazione</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo telefono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo telefono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Individua il sensore d\'impronte digitali sulla parte posteriore del tuo tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Individua il sensore d\'impronte digitali sulla parte posteriore del tuo dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Individua il sensore d\'impronte digitali sulla parte posteriore del tuo telefono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Individua il sensore d\'impronte digitali sulla parte laterale del tuo tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Individua il sensore d\'impronte digitali sulla parte laterale del tuo dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Individua il sensore di impronte sulla parte laterale del tuo telefono.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Tocca il sensore sulla parte anteriore del tuo tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Tocca il sensore sulla parte anteriore del tuo dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Tocca il sensore sulla parte anteriore del tuo telefono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Tocca il sensore sulla parte posteriore del tuo tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Tocca il sensore sulla parte posteriore del tuo dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Tocca il sensore sulla parte posteriore del tuo telefono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Tocca il sensore sulla parte laterale del tuo tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Tocca il sensore sulla parte laterale del tuo dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Tocca il sensore sulla parte laterale del tuo telefono.</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Mostra il pannello del volume a sinistra</string>
+    <string name="volume_panel_on_left_summary">Visualizza il pannello del volume sul lato sinistro dello schermo</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Effetto Increspatura</string>
     <string name="enable_fingerprint_ripple_effect_summary">Mostra l\'effetto increspatura allo sblocco con impronta digitale</string>

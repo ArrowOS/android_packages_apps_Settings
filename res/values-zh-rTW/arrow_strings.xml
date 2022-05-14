@@ -41,12 +41,12 @@
     <string name="color_mode_balance_blue">藍色強度</string>
     <string name="keywords_color_balance">顏色、顏色平衡、顏色校正、紅色、綠色、藍色、LiveDisplay</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
-    <string name="build_date">編譯日期</string>
+    <string name="build_date">組建日期</string>
     <string name="arrow_version">ArrowOS 版本</string>
     <string name="about_device_name">裝置</string>
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">輕觸兩下關閉螢幕</string>
-    <string name="double_tap_sleep_gesture_summary">雙擊狀態列來關閉螢幕</string>
+    <string name="double_tap_sleep_gesture_summary">點兩下狀態列的任何位置即可使裝置睡眠</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">要做什麼</string>
     <string name="double_tap_sleep_lockscreen_title">輕觸兩下鎖定畫面以關閉螢幕</string>
@@ -64,21 +64,21 @@
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">狀態列項目</string>
     <!-- Display customization category -->
-    <string name="customization_category_title">自定義</string>
+    <string name="customization_category_title">個人化</string>
     <!-- Annoying Notifications -->
-    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
+    <string name="notification_sound_vib_screen_on_title">煩人的通知</string>
     <string name="notification_sound_vib_screen_on_summary">在螢幕開啟時為通知播放音效和震動</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Saner Heads-Up</string>
+    <string name="less_boring_heads_up_title">限定通知</string>
     <string name="less_boring_heads_up_summary">快速停用電話和簡訊以外的程式浮動通知</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
+    <string name="torch_power_button_gesture_title">關閉螢幕時開關手電筒</string>
     <string name="torch_power_button_gesture_none">已停用</string>
-    <string name="torch_power_button_gesture_dt">Double press power button (Disables Quickly open camera feature and adds 170ms wakeup delay)</string>
+    <string name="torch_power_button_gesture_dt">按兩下電源鍵（將停用快速開啟相機功能並延遲 170ms 喚醒）</string>
     <string name="torch_power_button_gesture_lp">長按電源鍵</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">防止意外喚醒</string>
-    <string name="proximity_wake_summary">雙擊螢幕前檢查距離傳感器</string>
+    <string name="proximity_wake_summary">由「點兩下喚醒」手勢喚醒螢幕前先檢查距離感測器</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">平台</string>
@@ -86,35 +86,12 @@
     <string name="total_ram">總可用 RAM</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">重設統計資料</string>
-    <string name="battery_stats_message">將重設電池統計資料</string>
+    <string name="battery_stats_message">將重設電池記錄統計資料</string>
     <!-- Navigation bar hint -->
-    <string name="show_navbar_gesture_bar_title">手勢欄</string>
-    <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
+    <string name="show_navbar_gesture_bar_title">手勢列</string>
+    <string name="show_navbar_gesture_bar_summary">在螢幕底部顯示手勢列</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">已儲存的耳機</string>
-    <!-- Statusbar Battery -->
-    <string name="battery_style_title">電池圖示樣式</string>
-    <string name="battery_style_summary">自訂電池圖示及是否顯示百分比</string>
-    <string name="battery_percent_title">狀態欄電量百分比</string>
-    <string name="battery_style_category_title">電池圖示</string>
-    <string name="status_bar_battery_style_title">電池樣式</string>
-    <string name="status_bar_battery_style_icon_portrait">直立圖示（預設）</string>
-    <string name="status_bar_battery_style_circle">圓形</string>
-    <string name="status_bar_battery_style_dotted_circle">虛線圓圈</string>
-    <string name="status_bar_battery_style_filled_circle">實心圓圈</string>
-    <string name="status_bar_battery_style_big_circle">大圓圈</string>
-    <string name="status_bar_battery_style_big_dotted_circle">虛線大圓圈</string>
-    <string name="status_bar_battery_style_text">文字</string>
-    <string name="status_bar_battery_style_hidden">隱藏</string>
-    <string name="status_bar_battery_percentage_title">電量百分比</string>
-    <string name="status_bar_battery_percentage_default">隱藏（預設）</string>
-    <string name="status_bar_battery_percentage_text_inside">圖示內</string>
-    <string name="status_bar_battery_percentage_text_next">圖示旁</string>
-    <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">強制使用小型時鐘</string>
-    <string name="lockscreen_small_clock_summary">在沒有通知時仍然顯示小型時鐘</string>
-    <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">反轉導航列佈局</string>
     <!-- Battery light -->
     <string name="battery_light_settings">充電指示燈</string>
     <string name="battery_light_summary">勿擾模式下和低電量時的電量指示燈行為</string>
@@ -126,21 +103,35 @@
     <string name="battery_light_medium_color">中電量</string>
     <string name="battery_light_full_color">接近滿電</string>
     <string name="battery_light_reallyfull_color">滿電量 (100)</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_title">Monet 引擎</string>
-    <string name="monet_engine_summary">自訂 Monet 設定</string>
-    <string name="monet_engine_custom_color_title">使用自訂顏色</string>
-    <string name="monet_engine_custom_color_summary">使用自訂色彩而非桌布取色</string>
-    <string name="monet_engine_color_override_title">自訂顏色</string>
-    <string name="monet_engine_linear_lightness_title">使用自定義亮度比例</string>
-    <string name="monet_engine_linear_lightness_summary">It allows using the custom color brightness scale</string>
-    <string name="monet_engine_white_luminance_user_title">亮度比例</string>
-    <string name="monet_engine_accurate_shades_title">使用更精準的色調</string>
-    <string name="monet_engine_accurate_shades_summary">Better contrast and depth, but duller colors</string>
-    <string name="monet_engine_chroma_factor_title">飽和度</string>
     <!-- Hotspot VPN -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">允許用戶端使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允許熱點用戶端使用此裝置的 VPN 連線進行上游連線</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">反轉導覽列配置</string>
+    <string name="navbar_invert_info">對換導覽列上的返回及總覽鍵</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">找到位於平板電腦前方的指紋感應器</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">找到位於裝置前方的指紋感應器</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">找到位於手機前方的指紋感應器</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">找到位於平板後方的指紋感應器</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">找到位於裝置後方的指紋感應器</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">找到位於手機後方的指紋感應器</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">找到位於平板側面的指紋感應器</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">找到位於裝置側面的指紋感應器</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">找到位於手機側面的指紋感應器</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">輕觸位於平板前方的指紋感應器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">輕觸位於裝置前方的指紋感應器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">輕觸位於手機前方的指紋感應器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">輕觸位於平板後方的指紋感應器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">輕觸位於裝置後方的指紋感應器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">輕觸位於手機後方的指紋感應器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">輕觸位於平板側面的指紋感應器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">輕觸位於裝置側面的指紋感應器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">輕觸位於手機側面的指紋感應器</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">將音量面板顯示於左側</string>
+    <string name="volume_panel_on_left_summary">將音量面板的位置顯示於畫面左側</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">波紋效果</string>
     <string name="enable_fingerprint_ripple_effect_summary">指紋解鎖時顯示波紋效果</string>

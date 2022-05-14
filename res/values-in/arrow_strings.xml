@@ -18,14 +18,14 @@
     <string name="device_info_protected_single_press">Sentuh untuk melihat info</string>
     <!-- ArrowOS Installation Stats -->
     <string name="arrow_stats_title">Statistik ArrowOS</string>
-    <string name="arrow_stats_summary">Hanya menghitung banyaknya perangkat yang kami jalankan</string>
+    <string name="arrow_stats_summary">Hanya menghitung berapa banyak perangkat yang kami jalankan</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Laju menyegar minimum</string>
     <string name="max_refresh_rate_title">Laju menyegar maksimal</string>
     <string name="battery_saver_refresh_rate_title">Kurangi laju menyegar</string>
     <string name="battery_saver_refresh_rate_summary">Gunakan kecepatan refresh layar 60 Hz untuk menghemat daya saat Penghemat Baterai aktif</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Hubungkan volume nada dering &amp; notifikasi</string>
+    <string name="volume_link_notification_title">Gabungkan volume nada dering &amp; volume notifikasi</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Usap untuk menangkap layar</string>
     <string name="three_finger_gesture_summary">Usap tiga jari ke bawah untuk menangkap layar</string>
@@ -45,7 +45,7 @@
     <string name="arrow_version">Versi ArrowOS</string>
     <string name="about_device_name">Perangkat</string>
     <!-- Double Tap to Sleep Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Ketuk dua kali untuk tidur</string>
+    <string name="double_tap_sleep_gesture_title">Ketuk untuk tidur</string>
     <string name="double_tap_sleep_gesture_summary">Ketuk dua kali pada bilah status untuk mematikan layar</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Apa yang harus dilakukan</string>
@@ -54,10 +54,10 @@
     <string name="volume_button_music_control_title">Kontrol Pemutaran</string>
     <string name="volume_button_music_control_summary">Ketika layar mati, tahan tombol volume untuk melewati trek musik</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume membangunkan</string>
+    <string name="volume_rocker_wake_title">Nyalakan dengan volume</string>
     <string name="volume_rocker_wake_summary">Membangunkan perangkat Anda dengan menekan tombol volume</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Opsi getar dalam panggilan</string>
+    <string name="incall_vibration_category">Opsi getaran panggilan masuk</string>
     <string name="incall_vibrate_connect_title">Bergetar saat terhubung</string>
     <string name="incall_vibrate_call_wait_title">Bergetar saat menunggu panggilan</string>
     <string name="incall_vibrate_disconnect_title">Bergetar saat terputus</string>
@@ -67,7 +67,7 @@
     <string name="customization_category_title">Kustomisasi</string>
     <!-- Annoying Notifications -->
     <string name="notification_sound_vib_screen_on_title">Notifikasi Mengganggu</string>
-    <string name="notification_sound_vib_screen_on_summary">Memutar suara dan getaran untuk notifikasi ketika layar hidup</string>
+    <string name="notification_sound_vib_screen_on_summary">Memutar suara dan getaran untuk pemberitahuan ketika layar hidup</string>
     <!-- Less boring heads up -->
     <string name="less_boring_heads_up_title">Kurangi notifikasi mengambang</string>
     <string name="less_boring_heads_up_summary">Nonaktifkan notifikasi mengambang dengan cepat untuk semua aplikasi tetapi tetap aktif untuk aplikasi telepon dan pesan</string>
@@ -92,29 +92,6 @@
     <string name="show_navbar_gesture_bar_summary">Tampilkan bilah gestur di bagian bawah layar</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Earbud tersimpan</string>
-    <!-- Statusbar Battery -->
-    <string name="battery_style_title">Gaya ikon baterai</string>
-    <string name="battery_style_summary">Sesuaikan ikon baterai, sembunyikan atau tampilkan persentase</string>
-    <string name="battery_percent_title">Persentase baterai di Bilah Status</string>
-    <string name="battery_style_category_title">Ikon Baterai</string>
-    <string name="status_bar_battery_style_title">Gaya Baterai</string>
-    <string name="status_bar_battery_style_icon_portrait">Ikon tegak (standar)</string>
-    <string name="status_bar_battery_style_circle">Lingkaran</string>
-    <string name="status_bar_battery_style_dotted_circle">Lingkaran (Putus-putus)</string>
-    <string name="status_bar_battery_style_filled_circle">Lingkaran (Terisi)</string>
-    <string name="status_bar_battery_style_big_circle">Lingkaran besar</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Lingkaran besar putus-putus</string>
-    <string name="status_bar_battery_style_text">Teks</string>
-    <string name="status_bar_battery_style_hidden">Tersembunyi</string>
-    <string name="status_bar_battery_percentage_title">Persentase Baterai</string>
-    <string name="status_bar_battery_percentage_default">Tersembunyi (standar)</string>
-    <string name="status_bar_battery_percentage_text_inside">Di dalam ikon</string>
-    <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
-    <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">Paksa kecil jam layar kunci</string>
-    <string name="lockscreen_small_clock_summary">Jangan beralih ke jam besar saat tidak ada notifikasi</string>
-    <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Balikkan tata letak bilah navigasi</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Lampu pengisian baterai</string>
     <string name="battery_light_summary">Perilaku lampu baterai saat di DND, baterai lemah</string>
@@ -126,21 +103,35 @@
     <string name="battery_light_medium_color">Baterai sedang</string>
     <string name="battery_light_full_color">Baterai hampir penuh</string>
     <string name="battery_light_reallyfull_color">Baterai penuh (100%)</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_title">Mesin Monet</string>
-    <string name="monet_engine_summary">Sesuaikan parameter monet</string>
-    <string name="monet_engine_custom_color_title">Gunakan warna kustom</string>
-    <string name="monet_engine_custom_color_summary">Gunakan warna kustom untuk mesin monet alih-alih warna wallpaper</string>
-    <string name="monet_engine_color_override_title">Warna kustom</string>
-    <string name="monet_engine_linear_lightness_title">Gunakan skala kecerahan kustom</string>
-    <string name="monet_engine_linear_lightness_summary">Ini memungkinkan penggunaan skala kecerahan warna kustom</string>
-    <string name="monet_engine_white_luminance_user_title">Skala kecerahan</string>
-    <string name="monet_engine_accurate_shades_title">Gunakan nuansa yang akurat</string>
-    <string name="monet_engine_accurate_shades_summary">Kontras dan kedalaman yang lebih baik, tetapi warna yang lebih kusam</string>
-    <string name="monet_engine_chroma_factor_title">Penuh warna</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN perangkat\u2019 ini untuk konektivitas upstream</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Balikkan tata letak bilah navigasi</string>
+    <string name="navbar_invert_info">Tukar posisi tombol \"Kembali\" dan tombol \"Menu\" di bilah Navigasi</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Letak sensor sidik jari di bagian depan Tablet Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Letak sensor sidik jari di bagian depan Perangkat Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Temukan lokasi sensor sidik jari di bagian depan telepon Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Letak sensor sidik jari di bagian belakang Tablet Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Letak sensor sidik jari di bagian belakang Perangkat Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Letak sensor sidik jari di bagian belakang Telepon Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Letak sensor sidik jari di bagian samping Tablet Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Letak sensor sidik jari di bagian samping Perangkat Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Letak sensor sidik jari di bagian samping Telepon Anda.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Sentuh Sensor di bagian depan Tablet Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Sentuh Sensor di bagian depan Perangkat Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Sentuh sensor di bagian depan Telepon Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Sentuh sensor di bagian belakang Tablet Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Sentuh sensor di bagian belakang Perangkat Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Sentuh sensor di bagian belakang Telepon Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Sentuh sensor di bagian samping Tablet Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Sentuh sensor di bagian samping Perangkat Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Sentuh sensor di bagian samping Telepon Anda.</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Tampilkan panel volume di kiri</string>
+    <string name="volume_panel_on_left_summary">Tampilkan panel volume di sisi kiri layar</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Efek riak</string>
     <string name="enable_fingerprint_ripple_effect_summary">Tampilkan efek riak saat membuka kunci dengan sidik jari</string>

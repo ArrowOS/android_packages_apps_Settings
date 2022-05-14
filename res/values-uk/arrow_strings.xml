@@ -55,12 +55,12 @@
     <string name="volume_button_music_control_summary">Коли екран вимкнений, тривале натискання клавіш регулювання гучності буде перемикати музичні композиції</string>
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Пробудження гучності</string>
-    <string name="volume_rocker_wake_summary">Вимкніть пристрій, натиснувши клавіші гучності</string>
+    <string name="volume_rocker_wake_summary">Увімкніть пристрій, натиснувши клавіші гучності</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Параметри вібрації під час дзвінка</string>
-    <string name="incall_vibrate_connect_title">Вібрація при з\'єднанні</string>
+    <string name="incall_vibration_category">Налаштування вібрації під час дзвінка</string>
+    <string name="incall_vibrate_connect_title">Вібрувати при з\'єднанні</string>
     <string name="incall_vibrate_call_wait_title">Вібрувати при паралельному виклику</string>
-    <string name="incall_vibrate_disconnect_title">Вібрація при роз\'єднанні</string>
+    <string name="incall_vibrate_disconnect_title">Вібрувати при роз\'єднанні</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Елементи рядку стану</string>
     <!-- Display customization category -->
@@ -72,7 +72,7 @@
     <string name="less_boring_heads_up_title">Зменшити кількість спливаючих сповіщень</string>
     <string name="less_boring_heads_up_summary">Швидко вимкнути спливаючі сповіщення для всіх програм, але зменшити їх увімкненими для дзвінків і програм обміну повідомлень</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Увімкніть ліхтарик, коли екран вимкнено</string>
+    <string name="torch_power_button_gesture_title">Увімкніть ліхтарик при вимкненому екрані</string>
     <string name="torch_power_button_gesture_none">Вимкнено</string>
     <string name="torch_power_button_gesture_dt">Подвійне натискання кнопки живлення (вимикає функцію швидкого відкриття камери та додає затримку пробудження на 170 мс)</string>
     <string name="torch_power_button_gesture_lp">Довге натискання кнопки живлення</string>
@@ -85,62 +85,53 @@
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Усього доступно ОЗП</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Скинути статистику</string>
-    <string name="battery_stats_message">Історію використання батареї буде скинуто</string>
+    <string name="battery_stats_reset">Очистити статистику</string>
+    <string name="battery_stats_message">Історію використання батареї буде очищено</string>
     <!-- Navigation bar hint -->
     <string name="show_navbar_gesture_bar_title">Панель жестів</string>
     <string name="show_navbar_gesture_bar_summary">Показувати панель жестів внизу екрану</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Збережені навушники</string>
-    <!-- Statusbar Battery -->
-    <string name="battery_style_title">Стиль іконки батареї</string>
-    <string name="battery_style_summary">Налаштування піктограми батареї та індикатора заряду</string>
-    <string name="battery_percent_title">Відсоток акумулятора в рядку стану</string>
-    <string name="battery_style_category_title">Іконка батареї</string>
-    <string name="status_bar_battery_style_title">Стиль іконки батареї</string>
-    <string name="status_bar_battery_style_icon_portrait">Портретна іконка (за замовчуванням)</string>
-    <string name="status_bar_battery_style_circle">Коло</string>
-    <string name="status_bar_battery_style_dotted_circle">Коло (пунктирне)</string>
-    <string name="status_bar_battery_style_filled_circle">Коло (заповнене)</string>
-    <string name="status_bar_battery_style_big_circle">Велике коло</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Велике пунктирне коло</string>
-    <string name="status_bar_battery_style_text">Текст</string>
-    <string name="status_bar_battery_style_hidden">Приховано</string>
-    <string name="status_bar_battery_percentage_title">Відсоток заряду</string>
-    <string name="status_bar_battery_percentage_default">Приховано (за замовчуванням)</string>
-    <string name="status_bar_battery_percentage_text_inside">Всередині іконки</string>
-    <string name="status_bar_battery_percentage_text_next">Поруч з іконкою</string>
-    <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">Маленький годинник</string>
-    <string name="lockscreen_small_clock_summary">Не відображати великий годинник, якщо немає сповіщень</string>
-    <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Інвертувати панель навігації</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Індикація зарядки акумулятора</string>
     <string name="battery_light_summary">Індикація батареї в режимі \"Не турбувати\", низький заряд акумулятора</string>
     <string name="battery_light_enable">Індикація батареї</string>
-    <string name="battery_light_allow_on_dnd_title">Індикатор заряду в режимі \"Не турбувати\"</string>
-    <string name="battery_light_low_blinking_title">Блимання індикатора при низькому заряді</string>
-    <string name="battery_light_cat">Колір індикатора під час заряджання</string>
+    <string name="battery_light_allow_on_dnd_title">Індикація батареї в режимі \"Не турбувати\"</string>
+    <string name="battery_light_low_blinking_title">Блимання індикатора при низькому заряді батареї</string>
+    <string name="battery_light_cat">Колір індикації під час заряджання батареї</string>
     <string name="battery_light_low_color">Низький заряд батареї</string>
     <string name="battery_light_medium_color">Середній заряд батареї</string>
     <string name="battery_light_full_color">Майже повний заряд батареї</string>
     <string name="battery_light_reallyfull_color">Повний заряд батареї (100%)</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_title">Налаштування Monet</string>
-    <string name="monet_engine_summary">Налаштування параметрів monet</string>
-    <string name="monet_engine_custom_color_title">Використовувати свій колір</string>
-    <string name="monet_engine_custom_color_summary">Використовувати свій колір для Monet замість кольорів шпалер</string>
-    <string name="monet_engine_color_override_title">Власний колір</string>
-    <string name="monet_engine_linear_lightness_title">Використовувати свою шкалу яскравості</string>
-    <string name="monet_engine_linear_lightness_summary">Дозволяє використовувати власну шкалу яскравості кольору</string>
-    <string name="monet_engine_white_luminance_user_title">Шкала яскравості</string>
-    <string name="monet_engine_accurate_shades_title">Використовувати точні відтінки</string>
-    <string name="monet_engine_accurate_shades_summary">Кращий контраст і глибина, але більш тьмяні кольори</string>
-    <string name="monet_engine_chroma_factor_title">Насиченість</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Дозволити клієнтам використовувати VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Дозволити клієнтам точки доступу використовувати VPN-з\'єднання цього пристрою для підключення до мережі</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Інвертувати панель навігації</string>
+    <string name="navbar_invert_info">Поміняти кнопки \"Назад\" та \"Нещодавні\" на панелі навігації</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Знайдіть сканер відбитків пальців на передній панелі вашого планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Знайдіть сканер відбитків пальців на передній панелі вашого пристрою.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Знайдіть сенсор відбитків пальців на передній панелі вашого смартфона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Знайдіть сканер відбитків пальців на задній панелі вашого планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Знайдіть сенсор відбитків пальців на задній панелі вашого пристрою.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Знайдіть сканер відбитків пальців на задній панелі вашого смартфона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Знайдіть сканер відбитків пальців на бічній грані вашого планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Знайдіть сканер відбитків пальців на бічній грані вашого пристрою.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Знайдіть сканер відбитків пальців на бічній грані вашого смартфона.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Натисніть сенсор на передній панелі вашого планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Натисніть сенсор на передній панелі вашого пристрою.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Натисніть сенсор на передній панелі вашого телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Торкніться сенсору ззаду вашого планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touch the sensor on the back of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touch the sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touch the sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Показувати панель гучності ліворуч</string>
+    <string name="volume_panel_on_left_summary">Відображати панель гучності у лівій частині екрану</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Ефект пульсації</string>
     <string name="enable_fingerprint_ripple_effect_summary">Відображати ефект пульсації під час розблокування відбитком пальця</string>

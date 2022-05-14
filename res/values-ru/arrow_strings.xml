@@ -92,29 +92,6 @@
     <string name="show_navbar_gesture_bar_summary">Показывать панель жестов в нижней части экрана</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Сохраненные наушники</string>
-    <!-- Statusbar Battery -->
-    <string name="battery_style_title">Стиль значка батареи</string>
-    <string name="battery_style_summary">Настроить стиль значка батареи, скрыть или показать процент заряда батареи</string>
-    <string name="battery_percent_title">Процент батареи</string>
-    <string name="battery_style_category_title">Иконка батареи</string>
-    <string name="status_bar_battery_style_title">Стиль значка батареи</string>
-    <string name="status_bar_battery_style_icon_portrait">Вертикальный (По умолчанию)</string>
-    <string name="status_bar_battery_style_circle">Круг</string>
-    <string name="status_bar_battery_style_dotted_circle">Круг (Точечный)</string>
-    <string name="status_bar_battery_style_filled_circle">Круг (Заполненный)</string>
-    <string name="status_bar_battery_style_big_circle">Большой круг</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Большой точечный круг</string>
-    <string name="status_bar_battery_style_text">Текст</string>
-    <string name="status_bar_battery_style_hidden">Не показывать</string>
-    <string name="status_bar_battery_percentage_title">Процент заряда батареи</string>
-    <string name="status_bar_battery_percentage_default">Скрыт (По умолчанию)</string>
-    <string name="status_bar_battery_percentage_text_inside">Внутри значка</string>
-    <string name="status_bar_battery_percentage_text_next">Рядом со значком</string>
-    <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">Маленькие часы</string>
-    <string name="lockscreen_small_clock_summary">Не переключаться на большие часы, когда нет уведомлений</string>
-    <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Инвертировать ракладку панели навигации</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Индикация зарядки батареи</string>
     <string name="battery_light_summary">Индикация батареи в режиме \"Не беспокоить\", низкий уровень заряда батареи</string>
@@ -126,21 +103,35 @@
     <string name="battery_light_medium_color">Средний заряд батареи</string>
     <string name="battery_light_full_color">Почти полный заряд батареи</string>
     <string name="battery_light_reallyfull_color">Полный заряд батареи (100%)</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_title">Настройки Monet</string>
-    <string name="monet_engine_summary">Настройка параметров Monet</string>
-    <string name="monet_engine_custom_color_title">Пользовательский цвет</string>
-    <string name="monet_engine_custom_color_summary">Использовать пользовательский цвет для Monet вместо цветов обоев</string>
-    <string name="monet_engine_color_override_title">Пользовательский цвет</string>
-    <string name="monet_engine_linear_lightness_title">Пользовательская шкала яркости</string>
-    <string name="monet_engine_linear_lightness_summary">Позволяет использовать пользовательскую шкалу яркости цвета</string>
-    <string name="monet_engine_white_luminance_user_title">Шкала яркости</string>
-    <string name="monet_engine_accurate_shades_title">Использовать точные оттенки</string>
-    <string name="monet_engine_accurate_shades_summary">Лучший контраст и глубина, но более тусклые цвета</string>
-    <string name="monet_engine_chroma_factor_title">Насыщенность</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Разрешить клиентам точки доступа использовать VPN-соединения этого устройства для подключения к сети</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Инвертировать ракладку панели навигации</string>
+    <string name="navbar_invert_info">Поменять местами кнопки «Назад» и «Недавние» на панели навигации</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите сканер отпечатков пальцев на передней поверхности вашего планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Найдите сканер отпечатков пальцев на передней поверхности вашего устройства.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Найдите сканер отпечатков пальцев на передней поверхности вашего телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Найдите сканер отпечатков пальцев на задней поверхности вашего планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Найдите сканер отпечатков пальцев на задней поверхности вашего устройства.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Найдите сканер отпечатков пальцев на задней поверхности вашего телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Найдите сканер отпечатков пальцев на боковой грани вашего планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Найдите сканер отпечатков пальцев на боковой грани вашего устройства.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Найдите сканер отпечатков пальцев на боковой грани вашего телефона.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Коснитесь сенсора на передней поверхности вашего планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Коснитесь сенсора на передней поверхности вашего устройства.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Коснитесь сенсора на передней поверхности вашего телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Коснитесь сенсора на задней поверхности вашего планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Коснитесь сенсора на задней поверхности вашего устройства.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Коснитесь сенсора на задней поверхности вашего телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Коснитесь сенсора на боковой грани вашего планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Коснитесь сенсора на боковой грани вашего устройства.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Коснитесь сенсора на боковой грани вашего телефона.</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Показывать панель громкости слева</string>
+    <string name="volume_panel_on_left_summary">Отображать панель громкости в левой части экрана</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Эффект пульсации</string>
     <string name="enable_fingerprint_ripple_effect_summary">Показывать эффект пульсации при разблокировке с помощью отпечатка пальца</string>

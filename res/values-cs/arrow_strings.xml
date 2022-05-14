@@ -92,29 +92,6 @@
     <string name="show_navbar_gesture_bar_summary">Zobrazit panel gesta v dolní části obrazovky</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Uložená sluchátka</string>
-    <!-- Statusbar Battery -->
-    <string name="battery_style_title">Styl ikony baterie</string>
-    <string name="battery_style_summary">Přizpůsobit styl ikony baterie, skrýt nebo zobrazit procenta</string>
-    <string name="battery_percent_title">Procenta baterie ve stavovém řádku</string>
-    <string name="battery_style_category_title">Ikona baterie</string>
-    <string name="status_bar_battery_style_title">Styl baterie</string>
-    <string name="status_bar_battery_style_icon_portrait">Ikona na výšku (výchozí)</string>
-    <string name="status_bar_battery_style_circle">Kruh</string>
-    <string name="status_bar_battery_style_dotted_circle">Kruh (přerušovaný)</string>
-    <string name="status_bar_battery_style_filled_circle">Kruh (plný)</string>
-    <string name="status_bar_battery_style_big_circle">Velký kruh</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Velký přerušovaný kruh</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Nezobrazovat</string>
-    <string name="status_bar_battery_percentage_title">Procenta baterie</string>
-    <string name="status_bar_battery_percentage_default">Skryté (výchozí)</string>
-    <string name="status_bar_battery_percentage_text_inside">Uvnitř ikony</string>
-    <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
-    <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">Vynutit malé hodiny</string>
-    <string name="lockscreen_small_clock_summary">Nepřepínat na velké hodiny, když nejsou přítomna žádná oznámení</string>
-    <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Převrátit rozložení navigačního panelu</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Kontrolka nabíjení baterie</string>
     <string name="battery_light_summary">Chování kontrolky baterie při DND, nízký stav baterie</string>
@@ -126,21 +103,35 @@
     <string name="battery_light_medium_color">Střední stav baterie</string>
     <string name="battery_light_full_color">Téměř nabito</string>
     <string name="battery_light_reallyfull_color">Plně nabito (100%)</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_title">Monet Engine</string>
-    <string name="monet_engine_summary">Přizpůsobit parametry Monetu</string>
-    <string name="monet_engine_custom_color_title">Použít vlastní barvu</string>
-    <string name="monet_engine_custom_color_summary">Použít vlastní barvu pro engine Monetu namísto barev tapety</string>
-    <string name="monet_engine_color_override_title">Vlastní barva</string>
-    <string name="monet_engine_linear_lightness_title">Použít vlastní stupnici jasu</string>
-    <string name="monet_engine_linear_lightness_summary">Umožňuje použití vlastní stupnici jasu barev</string>
-    <string name="monet_engine_white_luminance_user_title">Stupnice jasu</string>
-    <string name="monet_engine_accurate_shades_title">Použít přesné odstíny</string>
-    <string name="monet_engine_accurate_shades_summary">Lepší kontrast a hloubka, ale matnější barvy</string>
-    <string name="monet_engine_chroma_factor_title">Barevnost</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Umožnit klientům používat VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Povolit klientům hotspotu používat připojení VPN tohoto zařízení pro odchozí připojení</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Převrátit rozložení navigačního panelu</string>
+    <string name="navbar_invert_info">Prohodit tlačítka \"Zpět\" a \"Nedávné\" na navigačním panelu</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Vyhledejte snímač otisků prstů na přední straně tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Vyhledejte snímač otisků prstů na přední straně zařízení.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Vyhledejte snímač otisků prstů na přední straně telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Vyhledejte snímač otisků prstů na zadní straně tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Vyhledejte snímač otisků prstů na zadní straně zařízení.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Vyhledejte snímač otisků prstů na zadní straně telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Vyhledejte snímač otisků prstů na boční straně tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Vyhledejte snímač otisků prstů na boční straně zařízení.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Vyhledejte snímač otisků prstů na boční straně telefonu.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Dotkněte se senzoru na přední straně tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Dotkněte se senzoru na přední straně zařízení.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Dotkněte se senzoru na přední straně telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Dotkněte se senzoru na zadní straně tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Dotkněte se senzoru na zadní straně zařízení.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Dotkněte se senzoru na zadní straně telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Dotkněte se senzoru na boční straně tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Dotkněte se senzoru na boční straně zařízení.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Dotkněte se senzoru na boční straně telefonu.</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Zobrazit panel hlasitosti vlevo</string>
+    <string name="volume_panel_on_left_summary">Zobrazit panel hlasitosti na levé straně obrazovky</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Efekt zvlnění</string>
     <string name="enable_fingerprint_ripple_effect_summary">Zobrazit efekt zvlnění při odemknutí zařízení pomocí otisku prstu</string>

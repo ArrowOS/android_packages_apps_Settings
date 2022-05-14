@@ -35,113 +35,104 @@
     <string name="global_actions_advanced_reboot_title">उन्नत पुनरारंभ सक्षम करें</string>
     <string name="global_actions_advanced_reboot_summary">रिकवरी और बूटलोडर के लिए पावर मेन्यू में विकल्प दिखाएं</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
-    <string name="color_mode_balance_category">Color balance</string>
-    <string name="color_mode_balance_red">Red strength</string>
-    <string name="color_mode_balance_green">Green strength</string>
-    <string name="color_mode_balance_blue">Blue strength</string>
+    <string name="color_mode_balance_category">रंग संतुलन</string>
+    <string name="color_mode_balance_red">लाल ताकत</string>
+    <string name="color_mode_balance_green">हरी ताकत</string>
+    <string name="color_mode_balance_blue">नीली ताकत</string>
     <string name="keywords_color_balance">रंग, रंग अनुकूलता, रंग सही करे, लाल, हरा, नीला, लाइव प्रदर्शन</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">निर्माण दिनांक</string>
     <string name="arrow_version">ArrowOS संस्करण</string>
-    <string name="about_device_name">Device</string>
+    <string name="about_device_name">उपकरण</string>
     <!-- Double Tap to Sleep Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
-    <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
+    <string name="double_tap_sleep_gesture_title">सोने के लिए टैप करें</string>
+    <string name="double_tap_sleep_gesture_summary">डिवाइस को सुप्त अवस्था में रखने के लिए स्थिति पट्टी पर कहीं भी दो बार टैप करें</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">What to do</string>
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <string name="lockscreen_tweaks_category_title">क्या करें</string>
+    <string name="double_tap_sleep_lockscreen_title">लॉकस्क्रीन पर सोने के लिए दो बार टैप करें</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">प्लेबैक नियंत्रण</string>
+    <string name="volume_button_music_control_summary">जब स्क्रीन बंद हो, तो वॉल्यूम कुंजियों को लंबे समय तक दबाएं संगीत ट्रैक छोड़ देगा</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
-    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    <string name="volume_rocker_wake_title">वॉल्यूम वेक</string>
+    <string name="volume_rocker_wake_summary">वॉल्यूम कुंजियों को दबाकर अपने डिवाइस को जगाएं</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">इन-कॉल कंपन विकल्प</string>
+    <string name="incall_vibrate_connect_title">कनेक्ट होने पर कंपन करें</string>
+    <string name="incall_vibrate_call_wait_title">कॉल प्रतीक्षा पर कंपन</string>
+    <string name="incall_vibrate_disconnect_title">डिस्कनेक्ट होने पर कंपन करें</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">स्टेटसबार आइटम</string>
     <!-- Display customization category -->
     <string name="customization_category_title">Customization</string>
     <!-- Annoying Notifications -->
-    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">कष्टप्रद सूचनाएं</string>
+    <string name="notification_sound_vib_screen_on_summary">स्क्रीन चालू होने पर सूचनाओं के लिए ध्वनि चलाएं और कंपन करें</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Saner Heads-Up</string>
-    <string name="less_boring_heads_up_summary">Quickly disable heads up for all apps but keep them enabled for dialer and messaging apps</string>
+    <string name="less_boring_heads_up_title">सैनर हेड्स-अप</string>
+    <string name="less_boring_heads_up_summary">सभी ऐप्स के लिए त्वरित रूप से हेड अप अक्षम करें लेकिन डायलर और मैसेजिंग ऐप्स के लिए उन्हें सक्षम रखें</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double press power button (Disables Quickly open camera feature and adds 170ms wakeup delay)</string>
-    <string name="torch_power_button_gesture_lp">Long press power button</string>
+    <string name="torch_power_button_gesture_title">स्क्रीन बंद होने पर टॉर्च टॉगल करें</string>
+    <string name="torch_power_button_gesture_none">अक्षम</string>
+    <string name="torch_power_button_gesture_dt">डबल प्रेस पावर बटन (अक्षम त्वरित रूप से खुला कैमरा सुविधाएँ और 170ms वेकअप विलंब जोड़ता है)</string>
+    <string name="torch_power_button_gesture_lp">लंबे समय तक पावर बटन दबाएं</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen from Double Tap 2 Wake gesture</string>
+    <string name="proximity_wake_title">आकस्मिक जागरण को रोकें</string>
+    <string name="proximity_wake_summary">स्क्रीन को जगाने से पहले निकटता सेंसर की जाँच करें डबल टैप 2 वेक जेस्चर</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
+    <string name="platform_revision">प्लैटफ़ॉर्म</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total available RAM</string>
+    <string name="total_ram">कुल उपलब्ध RAM</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">आँकड़े रीसेट करें</string>
+    <string name="battery_stats_message">बैटरी इतिहास के आंकड़े रीसेट होने जा रहे हैं</string>
     <!-- Navigation bar hint -->
-    <string name="show_navbar_gesture_bar_title">Gesture bar</string>
-    <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
+    <string name="show_navbar_gesture_bar_title">हावभाव बार</string>
+    <string name="show_navbar_gesture_bar_summary">स्क्रीन के नीचे जेस्चर बार दिखाएं</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
-    <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
-    <string name="battery_percent_title">Status bar battery percentage</string>
-    <string name="battery_style_category_title">Battery icon</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_big_circle">Big circle</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Big dotted circle</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
-    <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">Force small clock</string>
-    <string name="lockscreen_small_clock_summary">Don\'t switch to the big clock when there are no notifications</string>
-    <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
+    <string name="connected_tws_device_saved_title">सहेजे गए ईयरबड</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Battery charging light</string>
-    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
-    <string name="battery_light_enable">Battery light</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_title">Monet Engine</string>
-    <string name="monet_engine_summary">Customise monet parameters</string>
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_linear_lightness_title">Use custom brightness scale</string>
-    <string name="monet_engine_linear_lightness_summary">It allows using the custom color brightness scale</string>
-    <string name="monet_engine_white_luminance_user_title">Brightness scale</string>
-    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
-    <string name="monet_engine_accurate_shades_summary">Better contrast and depth, but duller colors</string>
-    <string name="monet_engine_chroma_factor_title">Colorfulness</string>
+    <string name="battery_light_settings">बैटरी चार्जिंग लाइट</string>
+    <string name="battery_light_summary">बैटरी का हल्का व्यवहार जो डीएनडी पर होता है, कम बैटरी</string>
+    <string name="battery_light_enable">बैटरी लाइट</string>
+    <string name="battery_light_allow_on_dnd_title">डू नॉट डिस्टर्ब मोड में बैटरी लाइट</string>
+    <string name="battery_light_low_blinking_title">कम बैटरी पर टिमटिमाती रोशनी</string>
+    <string name="battery_light_cat">चार्ज करते समय बैटरी का हल्का रंग</string>
+    <string name="battery_light_low_color">लो बैटरी</string>
+    <string name="battery_light_medium_color">मध्यम बैटरी</string>
+    <string name="battery_light_full_color">लगभग पूरी बैटरी</string>
+    <string name="battery_light_reallyfull_color">फुल (100) बैटरी</string>
     <!-- Hotspot VPN -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">क्लाइंट को VPN का उपयोग करने दें</string>
+    <string name="tethering_allow_vpn_upstreams_summary">हॉटस्पॉट क्लाइंट को अपस्ट्रीम कनेक्टिविटी के लिए इस डिवाइस के वीपीएन कनेक्शन का उपयोग करने की अनुमति दें</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">नेविगेशन बार लेआउट को उल्टा करें</string>
+    <string name="navbar_invert_info">नेविगेशन बार पर \"वापस\" और \"हाल के\" बटन स्वैप करें</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">अपने टेबलेट के सामने फ़िंगरप्रिंट सेंसर का पता लगाएँ</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">अपने डिवाइस के सामने फ़िंगरप्रिंट सेंसर का पता लगाएँ</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">अपने फ़ोन के सामने फ़िंगरप्रिंट सेंसर का पता लगाएँ</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">अपने टेबलेट के पीछे फ़िंगरप्रिंट सेंसर का पता लगाएँ</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">अपने डिवाइस के पीछे फ़िंगरप्रिंट सेंसर का पता लगाएँ</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">अपने फ़ोन के पीछे फ़िंगरप्रिंट सेंसर का पता लगाएँ</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">अपने टेबलेट के किनारे फ़िंगरप्रिंट सेंसर का पता लगाएँ</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">अपने डिवाइस के किनारे फ़िंगरप्रिंट सेंसर का पता लगाएँ</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">अपने फ़ोन के किनारे फ़िंगरप्रिंट सेंसर का पता लगाएँ</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">अपने टेबलेट के सामने वाले सेंसर को स्पर्श करें</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">अपने डिवाइस के सामने वाले सेंसर को स्पर्श करें</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">अपने फ़ोन के सामने वाले सेंसर को स्पर्श करें</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">अपने टेबलेट के पीछे स्थित सेंसर को स्पर्श करें.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">अपने डिवाइस के पीछे सेंसर को स्पर्श करें</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">अपने फ़ोन के पीछे सेंसर को स्पर्श करें</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">अपने टेबलेट के किनारे स्थित सेंसर को स्पर्श करें</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">अपने डिवाइस के किनारे स्थित सेंसर को स्पर्श करें</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">अपने फ़ोन के किनारे स्थित सेंसर को स्पर्श करें</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">बाईं ओर वॉल्यूम पैनल दिखाएं</string>
+    <string name="volume_panel_on_left_summary">स्क्रीन के बाईं ओर वॉल्यूम पैनल प्रदर्शित करें</string>
     <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
-    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+    <string name="enable_fingerprint_ripple_effect_title">तरंग प्रभाव</string>
+    <string name="enable_fingerprint_ripple_effect_summary">फ़िंगरप्रिंट के साथ अनलॉक पर तरंग प्रभाव दिखाएं</string>
 </resources>
