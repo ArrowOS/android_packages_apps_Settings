@@ -108,27 +108,27 @@
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın\u2019s VPN bağlantısını kullanmasına izin ver</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Gezinme çubuğu düzenini tersine çevir</string>
-    <string name="navbar_invert_info">Navigasyon çubuğunda \"Geri Gitme\" ve \"Uygulamalar Arası Geçiş\" tuşlarının yerlerini değiştirin</string>
+    <string name="navbar_invert_info">Gezinme çubuğunda \"Geri\" ve \"Son uygulamalar\" tuşlarının yerini değiştirin</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Tabletinizin önünde bulunan parmak izi sensörünü bulun.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Telefonunuzun önünde bulunan parmak izi sensörünü bulun.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Telefonunuzun önündeki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Cihazınızın önünde bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Telefonunuzun önünde bulunan parmak izi sensörünü bulun.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Tabletinizin arkasındaki parmak izi sensörünü bulun.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Cihazınızın arkasındaki parmak izi sensörünü bulun.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonunuzun arkasındaki parmak izi sensörünü bulun.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Tabletinizin yan tarafındaki parmak izi sensörünü bulun.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Cihazınızın yan tarafında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Cihazınızın yan tarafındaki parmak izi sensörünü bulun.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="default">Telefonunuzun yan tarafındaki parmak izi sensörünü bulun.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Tabletinizin önündeki sensöre dokunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Cihazınızın önündeki sensöre dokunun.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Telefonunuzun önünde bulunan parmak izi sensörüne dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Telefonunuzun önündeki sensörüne dokunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Tabletinizin arkasındaki sensöre dokunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Cihazınızın arkasındaki sensöre dokunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Telefonunuzun arkasındaki sensöre dokunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Tabletinizin yan tarafındaki sensöre dokunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Cihazınızın yan tarafındaki sensöre dokunun.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Telefonunuzun yan tarafında bulunan parmak izi sensörüne dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Telefonunuzun yan tarafındaki sensörüne dokunun.</string>
     <!-- Left volume panel -->
     <string name="volume_panel_on_left_title">Ses panelini solda göster</string>
     <string name="volume_panel_on_left_summary">Ses panelini ekranın sol tarafında göster</string>

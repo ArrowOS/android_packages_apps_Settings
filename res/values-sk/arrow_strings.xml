@@ -108,30 +108,30 @@
     <string name="tethering_allow_vpn_upstreams_summary">Povoliť klientom hotspotu používať pripojenie VPN tohto zariadenia pre upstream konektivitu</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Prevrátiť rozloženie navigačného panela</string>
-    <string name="navbar_invert_info">Swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
+    <string name="navbar_invert_info">Prehodiť tlačidlá \"Späť\" a \"Nedávne\" na navigačnom paneli</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Locate the fingerprint sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Locate the fingerprint sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Vyhľadajte snímač odtlačkov prstov na prednej strane tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Vyhľadajte snímač odtlačkov prstov na prednej strane zariadenia.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Vyhľadajte snímač odtlačkov prstov na prednej strane telefónu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Vyhľadajte snímač odtlačkov prstov na zadnej strane tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Vyhľadajte snímač odtlačkov prstov na zadnej strane zariadenia.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Vyhľadajte snímač odtlačkov prstov na zadnej strane telefónu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Vyhľadajte snímač odtlačkov prstov na bočnej strane tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Vyhľadajte snímač odtlačkov prstov na bočnej strane zariadenia.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Vyhľadajte snímač odtlačkov prstov na  bočnej strane telefónu.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Touch the sensor on the front of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touch the sensor on the front of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touch the sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Touch the sensor on the back of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touch the sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touch the sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touch the sensor on the side of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Dotknite sa senzora na prednej strane tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Dotknite sa senzora na prednej strane zariadenia.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Dotknite sa senzora na prednej strane telefónu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Dotknite sa senzora na zadnej strane tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Dotknite sa senzora na zadnej strane zariadenia.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Dotknite sa senzora na zadnej strane telefónu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Dotknite sa senzora na bočnej strane tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Dotknite sa senzora na bočnej strane zariadenia.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Dotknite sa senzora na bočnej strane telefónu.</string>
     <!-- Left volume panel -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
-    <string name="volume_panel_on_left_summary">Display volume panel on the left side of the screen</string>
+    <string name="volume_panel_on_left_title">Zobraziť panel hlasitosti vľavo</string>
+    <string name="volume_panel_on_left_summary">Zobraziť panel hlasitosti na ľavej strane obrazovky</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Efekt zvlnenia</string>
     <string name="enable_fingerprint_ripple_effect_summary">Zobraziť efekt zvlnenia pri odomknutí zariadenia pomocou odtlačku prsta</string>
