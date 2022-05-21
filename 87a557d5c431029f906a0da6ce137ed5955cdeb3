@@ -16,6 +16,24 @@
       "message": "1. Wrong authorship.",
       "revId": "87a557d5c431029f906a0da6ce137ed5955cdeb3",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb98e5ec_fcf7b19b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 231
+      },
+      "writtenOn": "2022-05-21T22:10:24Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "8041c51d_76b32036",
+      "revId": "87a557d5c431029f906a0da6ce137ed5955cdeb3",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
     }
   ]
 }
