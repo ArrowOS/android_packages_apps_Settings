@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca055f44_387c1639",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 71
+      },
+      "writtenOn": "2022-05-21T21:28:15Z",
+      "side": 1,
+      "message": "1. Wrong authorship.",
+      "revId": "7d3d8e9fce247bc93ed2e1cbe65e1d10582ae4f0",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
