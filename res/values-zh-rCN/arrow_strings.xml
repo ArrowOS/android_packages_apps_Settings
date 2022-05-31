@@ -135,4 +135,13 @@
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">波纹效果</string>
     <string name="enable_fingerprint_ripple_effect_summary">使用指纹解锁时显示波纹效果</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">隐藏锁屏时的电源菜单</string>
+    <string name="power_menu_hide_on_secure_summary">这将会使电源菜单在安全锁屏下被禁用</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">使用黑色主题</string>
+    <string name="system_black_theme_summary">强制使用黑色背景</string>
+    <!-- Game Space -->
+    <string name="game_space_title">游戏空间</string>
+    <string name="game_space_summary">增强您的游戏体验</string>
 </resources>

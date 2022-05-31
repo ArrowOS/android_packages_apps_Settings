@@ -124,15 +124,24 @@
     <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Натисніть сенсор на передній панелі вашого пристрою.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Натисніть сенсор на передній панелі вашого телефона.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Торкніться сенсору ззаду вашого планшета.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touch the sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touch the sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touch the sensor on the side of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Натисніть сенсор на задній панелі вашого пристрою.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Натисніть сенсор на задній панелі вашого телефону.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Натисніть сенсор на бічній межі вашого планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Натисніть сенсор на бічній межі вашого пристрою.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Натисніть сенсор на бічній межі вашого телефону.</string>
     <!-- Left volume panel -->
     <string name="volume_panel_on_left_title">Показувати панель гучності ліворуч</string>
     <string name="volume_panel_on_left_summary">Відображати панель гучності у лівій частині екрану</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Ефект пульсації</string>
     <string name="enable_fingerprint_ripple_effect_summary">Відображати ефект пульсації під час розблокування відбитком пальця</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Не показувати меню живлення на заблокованому екрані</string>
+    <string name="power_menu_hide_on_secure_summary">Вимикає меню живлення лише на заблокованому екрані з паролем</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Використовувати чорну тему</string>
+    <string name="system_black_theme_summary">Примусово чорний колір фону</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Ігровий простір</string>
+    <string name="game_space_summary">Покращіть свій ігровий досвід</string>
 </resources>

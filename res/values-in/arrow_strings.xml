@@ -135,4 +135,13 @@
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Efek riak</string>
     <string name="enable_fingerprint_ripple_effect_summary">Tampilkan efek riak saat membuka kunci dengan sidik jari</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Sembunyikan menu daya pada layar terkunci</string>
+    <string name="power_menu_hide_on_secure_summary">Ini akan menyembunyikan menu daya hanya pada layar kunci yang aman</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Gunakan tema gelap</string>
+    <string name="system_black_theme_summary">Paksa warna latar belakang hitam</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Ruang Game</string>
+    <string name="game_space_summary">Tingkatkan pengalaman bermain game Anda</string>
 </resources>

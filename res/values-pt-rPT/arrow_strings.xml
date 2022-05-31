@@ -135,4 +135,13 @@
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Efeito ondulação</string>
     <string name="enable_fingerprint_ripple_effect_summary">Mostrar efeito cascata ao desbloquear com impressão digital</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Desativar o menu de energia no ecrã de bloqueio</string>
+    <string name="power_menu_hide_on_secure_summary">Esta opção só desativará o menu de energia apenas no ecrã de bloqueio</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Utilizar tema escuro</string>
+    <string name="system_black_theme_summary">Forçar cores de fundo pretas</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Melhore a sua experiência de jogo</string>
 </resources>

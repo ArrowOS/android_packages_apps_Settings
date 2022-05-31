@@ -135,4 +135,13 @@
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Efekt fali</string>
     <string name="enable_fingerprint_ripple_effect_summary">Pokaż efekt fali podczas odblokowywania odciskiem palca</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Ukryj menu zasilania na ekranie blokady</string>
+    <string name="power_menu_hide_on_secure_summary">Spowoduje to ukrycie menu zasilania tylko na zabezpieczonym ekranie blokady</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Użyj czarnego motywu</string>
+    <string name="system_black_theme_summary">Wymuś czarne kolory tła</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Przestrzeń gier</string>
+    <string name="game_space_summary">Popraw swoje doznania w grach</string>
 </resources>

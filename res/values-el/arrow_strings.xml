@@ -135,4 +135,13 @@
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Εφέ κυματισμού</string>
     <string name="enable_fingerprint_ripple_effect_summary">Εμφάνιση εφέ κυματισμού στο ξεκλείδωμα με δακτυλικό αποτύπωμα</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Απόκρυψη μενού ενεργοποίησης στην οθόνη κλειδώματος</string>
+    <string name="power_menu_hide_on_secure_summary">Αυτό θα αποκρύψει το μενού ενεργοποίησης μόνο σε μια ασφαλή οθόνη κλειδώματος</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Χρήση Μαύρου θέματος</string>
+    <string name="system_black_theme_summary">Εξαναγκασμός χρωμάτων μαύρου φόντου</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Χώρος Παιχνιδιού</string>
+    <string name="game_space_summary">Βελτιώστε την εμπειρία παιχνιδιού σας</string>
 </resources>

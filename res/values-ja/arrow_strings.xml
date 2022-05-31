@@ -135,4 +135,13 @@
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">波紋の効果</string>
     <string name="enable_fingerprint_ripple_effect_summary">指紋認証のロック解除時に波紋効果を表示する</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">ロック画面で非表示にする電源メニュー</string>
+    <string name="power_menu_hide_on_secure_summary">保護されたロック画面で電源メニューを非表示にする</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">ブラックテーマを使用</string>
+    <string name="system_black_theme_summary">強制的に黒い背景のテーマを使用する</string>
+    <!-- Game Space -->
+    <string name="game_space_title">ゲームスペース</string>
+    <string name="game_space_summary">ゲーム体験を向上させる</string>
 </resources>

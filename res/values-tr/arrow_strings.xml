@@ -25,7 +25,7 @@
     <string name="battery_saver_refresh_rate_title">Yenileme hızını azalt</string>
     <string name="battery_saver_refresh_rate_summary">Pil tasarrufu açıkken güç tasarrufu yapmak için 60 Hz ekran yenileme hızını kullanın</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Zil sesi ve bildirim sesini bağla</string>
+    <string name="volume_link_notification_title">Zil ve bildirim sesleri düzeyini birleştir</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Üç parmak hareketi</string>
     <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızı ekran üzerinde kaydırın</string>
@@ -62,15 +62,15 @@
     <string name="incall_vibrate_call_wait_title">Arama bekletildiğinde titret</string>
     <string name="incall_vibrate_disconnect_title">Bağlantı kesildiğinde titret</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Durum çubuğu ögeleri</string>
+    <string name="statusbar_items_title">Durum çubuğu öğeleri</string>
     <!-- Display customization category -->
     <string name="customization_category_title">Özelleştirme</string>
     <!-- Annoying Notifications -->
     <string name="notification_sound_vib_screen_on_title">Sıkıcı bildirimler</string>
     <string name="notification_sound_vib_screen_on_summary">Ekran açıkken bildirimler için ses ve titreşim çalın</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Daha az Bildirim pencereleri</string>
-    <string name="less_boring_heads_up_summary">Tüm uygulamalar için bildirim pencerelerini dışı bırakır, sadece arama ve mesajlaşma uygulamaları için göstermeye devam eder</string>
+    <string name="less_boring_heads_up_title">Bildirimleri kısıtla</string>
+    <string name="less_boring_heads_up_summary">Tüm uygulamalar için bildirimleri kısıtlar, sadece arama ve mesajlaşma uygulamaları için göstermeye devam eder</string>
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Ekran kapalıyken fener aç</string>
     <string name="torch_power_button_gesture_none">Devre dışı</string>
@@ -94,9 +94,9 @@
     <string name="connected_tws_device_saved_title">Kayıtlı kulaklıklar</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Pil şarj ışığı</string>
-    <string name="battery_light_summary">Rahatsız etmeyin modunda pil ışığı davranışı, düşük pil</string>
+    <string name="battery_light_summary">Rahatsız etmeyin modunda pil şarj ışığı davranışı</string>
     <string name="battery_light_enable">Pil ışığı</string>
-    <string name="battery_light_allow_on_dnd_title">Rahatsız etmeyinde ışığı yakıp söndür</string>
+    <string name="battery_light_allow_on_dnd_title">Rahatsız etmeyin modunda ışığı yakıp söndür</string>
     <string name="battery_light_low_blinking_title">Düşük pilde ışığı yakıp söndür</string>
     <string name="battery_light_cat">Şarj olurken pil ışığı rengi</string>
     <string name="battery_light_low_color">Düşük pil</string>
@@ -108,31 +108,40 @@
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın\u2019s VPN bağlantısını kullanmasına izin ver</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Gezinme çubuğu düzenini tersine çevir</string>
-    <string name="navbar_invert_info">Navigasyon çubuğunda \"Geri Gitme\" ve \"Uygulamalar Arası Geçiş\" tuşlarının yerlerini değiştirin</string>
+    <string name="navbar_invert_info">Gezinme çubuğunda \"Geri\" ve \"Son uygulamalar\" tuşlarının yerini değiştirin</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Tabletinizin önünde bulunan parmak izi sensörünü bulun.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Telefonunuzun önünde bulunan parmak izi sensörünü bulun.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Telefonunuzun önündeki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Cihazınızın önünde bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Telefonunuzun önünde bulunan parmak izi sensörünü bulun.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Tabletinizin arkasındaki parmak izi sensörünü bulun.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Cihazınızın arkasındaki parmak izi sensörünü bulun.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonunuzun arkasındaki parmak izi sensörünü bulun.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Tabletinizin yan tarafındaki parmak izi sensörünü bulun.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Cihazınızın yan tarafında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Cihazınızın yan tarafındaki parmak izi sensörünü bulun.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="default">Telefonunuzun yan tarafındaki parmak izi sensörünü bulun.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Tabletinizin önündeki sensöre dokunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Cihazınızın önündeki sensöre dokunun.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Telefonunuzun önünde bulunan parmak izi sensörüne dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Telefonunuzun önündeki sensörüne dokunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Tabletinizin arkasındaki sensöre dokunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Cihazınızın arkasındaki sensöre dokunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Telefonunuzun arkasındaki sensöre dokunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Tabletinizin yan tarafındaki sensöre dokunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Cihazınızın yan tarafındaki sensöre dokunun.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Telefonunuzun yan tarafında bulunan parmak izi sensörüne dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Telefonunuzun yan tarafındaki sensörüne dokunun.</string>
     <!-- Left volume panel -->
     <string name="volume_panel_on_left_title">Ses panelini solda göster</string>
     <string name="volume_panel_on_left_summary">Ses panelini ekranın sol tarafında göster</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Dalga etkisi</string>
     <string name="enable_fingerprint_ripple_effect_summary">Parmak izi ile kilit açma sırasında dalgalanma efekti göster</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Kilit ekranında güç menüsünü gizle</string>
+    <string name="power_menu_hide_on_secure_summary">Bu güç menüsünü yalnızca güvenli bir kilit ekranında gizleyecektir</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Siyah temayı kullan</string>
+    <string name="system_black_theme_summary">Siyah arka plan renklerine zorla</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Oyun alanı</string>
+    <string name="game_space_summary">Oyun deneyiminizi geliştirin</string>
 </resources>

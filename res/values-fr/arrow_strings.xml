@@ -104,7 +104,7 @@
     <string name="battery_light_full_color">Batterie presque pleine</string>
     <string name="battery_light_reallyfull_color">Batterie pleine (100%)</string>
     <!-- Hotspot VPN -->
-    <string name="tethering_allow_vpn_upstreams_title">Autoriser les clients à utiliser les connexions VPN</string>
+    <string name="tethering_allow_vpn_upstreams_title">Autoriser les utilisateurs à utiliser les connexions VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permettre aux utilisateurs du point d\'accès d\'utiliser les connexions VPN de l\'appareil \u2019 pour la connectivité sortante</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Inverser la disposition de la barre de navigation</string>
@@ -135,4 +135,13 @@
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Effet d\'ondulation</string>
     <string name="enable_fingerprint_ripple_effect_summary">Afficher l\'effet d\'ondulation en déverrouillant avec l\'empreinte digitale</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Masquer le menu Marche/Arrêt sur l\'écran de verrouillage</string>
+    <string name="power_menu_hide_on_secure_summary">Masquer le menu Marche/Arrêt uniquement sur un écran de verrouillage sécurisé</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Utiliser le thème sombre</string>
+    <string name="system_black_theme_summary">Forcer l\'arrière-plan sombre</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Espace de jeu</string>
+    <string name="game_space_summary">Améliorez votre expérience de jeu</string>
 </resources>

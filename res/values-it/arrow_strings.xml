@@ -135,4 +135,13 @@
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Effetto Increspatura</string>
     <string name="enable_fingerprint_ripple_effect_summary">Mostra l\'effetto increspatura allo sblocco con impronta digitale</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Nascondi menù di spegnimento nella schermata di blocco</string>
+    <string name="power_menu_hide_on_secure_summary">Questo nasconderà il menù di spegnimento solo in una schermata di blocco sicura</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Usa tema nero</string>
+    <string name="system_black_theme_summary">Forza colori di sfondo neri</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Migliora la tua esperienza di gioco</string>
 </resources>

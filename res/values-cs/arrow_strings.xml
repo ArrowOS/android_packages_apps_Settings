@@ -135,4 +135,13 @@
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Efekt zvlnění</string>
     <string name="enable_fingerprint_ripple_effect_summary">Zobrazit efekt zvlnění při odemknutí zařízení pomocí otisku prstu</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Skrýt menu napájení na zamykací obrazovce</string>
+    <string name="power_menu_hide_on_secure_summary">Toto skryje nabídku napájení pouze na zabezpečené uzamčené obrazovce</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Použít černý motiv</string>
+    <string name="system_black_theme_summary">Vynutit černou barvu pozadí</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Herní prostor</string>
+    <string name="game_space_summary">Vylepšete svůj herní zážitek</string>
 </resources>

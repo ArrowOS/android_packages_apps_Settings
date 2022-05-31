@@ -128,11 +128,20 @@
     <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Raak de sensor aan op de achterkant van uw telefoon.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Raak de sensor aan de zijkant van uw tablet aan.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Raak de sensor aan de zijkant van uw apparaat.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Raak de sensor aan op de zijkant van de telefoon.</string>
     <!-- Left volume panel -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
-    <string name="volume_panel_on_left_summary">Display volume panel on the left side of the screen</string>
+    <string name="volume_panel_on_left_title">Toon paneel aan de linkerkant</string>
+    <string name="volume_panel_on_left_summary">Geef het volumepaneel weer aan de linkerkant van het scherm</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Rimpel effect</string>
     <string name="enable_fingerprint_ripple_effect_summary">Toon rimpeleffect bij ontgrendelen met vingerafdruk</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Verberg Aan/Uit menu op vergrendelscherm</string>
+    <string name="power_menu_hide_on_secure_summary">Dit zal het powermenu alleen verbergen op een beveiligd vergrendelscherm</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Gebruik Zwart thema</string>
+    <string name="system_black_theme_summary">Zwarte achtergrondkleuren forceren</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Game Modus</string>
+    <string name="game_space_summary">Verbeter je spelbeleving</string>
 </resources>
