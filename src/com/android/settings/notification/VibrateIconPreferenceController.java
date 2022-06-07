@@ -32,11 +32,11 @@ public class VibrateIconPreferenceController extends SettingPrefController {
             Lifecycle lifecycle) {
         super(context, parent, lifecycle);
         mPreference = new SettingPref(
-            TYPE_SECURE, KEY_VIBRATE_ICON, Secure.STATUS_BAR_SHOW_VIBRATE_ICON, 0 /*default off*/);
+            TYPE_SECURE, KEY_VIBRATE_ICON, Secure.STATUS_BAR_SHOW_VIBRATE_ICON, 1 /*default on*/);
     }
 
     @Override
     public boolean isAvailable() {
-        return true;
+        return false;
     }
 }
