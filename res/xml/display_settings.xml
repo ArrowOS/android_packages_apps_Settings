@@ -151,6 +151,12 @@
             android:title="@string/tap_to_wake"
             android:summary="@string/tap_to_wake_summary"/>
 
+        <SwitchPreference
+	        android:key="qs_footer_data_usage"
+	        android:title="@string/qs_footer_datausage_title"
+	        android:summary="@string/qs_footer_datausage_summary"
+	        android:defaultValue="false" />
+
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"
