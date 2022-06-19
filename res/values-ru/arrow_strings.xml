@@ -142,6 +142,6 @@
     <string name="system_black_theme_title">Использовать черную тему</string>
     <string name="system_black_theme_summary">Принудительный черный цвет фона</string>
     <!-- Game Space -->
-    <string name="game_space_title">Игровое пространство</string>
+    <string name="game_space_title">Игровой режим</string>
     <string name="game_space_summary">Улучшайте свои впечатления от игр</string>
 </resources>

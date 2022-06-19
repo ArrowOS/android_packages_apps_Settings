@@ -108,7 +108,7 @@
     <string name="tethering_allow_vpn_upstreams_summary">Permitir a los clientes de punto de acceso usar las conexiones VPN de este dispositivo\u2019 como conectividad principal</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Invertir el orden de los botones de navegación</string>
-    <string name="navbar_invert_info">Intercambiar los botones \"Atrás\" y \"Recientes\" de la barra de navegación</string>
+    <string name="navbar_invert_info">Intercambiar los botones \"Atrás\" y \"Recientes\" en la barra de navegación</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localiza el sensor de huellas dactilares en la parte frontal de tu tablet.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localiza el sensor de huellas dactilares en la parte frontal de tu dispositivo.</string>
@@ -136,12 +136,12 @@
     <string name="enable_fingerprint_ripple_effect_title">Animación al desbloquear</string>
     <string name="enable_fingerprint_ripple_effect_summary">Muestra una animación al desbloquear el dispositivo con huella dactilar</string>
     <!-- Power menu on lockscreen -->
-    <string name="power_menu_hide_on_secure_title">Hide power menu on lock screen</string>
-    <string name="power_menu_hide_on_secure_summary">This will hide the power menu only on a secure lock screen</string>
+    <string name="power_menu_hide_on_secure_title">Menú de encendido en la pantalla de bloqueo</string>
+    <string name="power_menu_hide_on_secure_summary">Esto ocultará el menú de encendido solo en la pantalla de bloqueo segura</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use Black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="system_black_theme_title">Usar el tema oscuro</string>
+    <string name="system_black_theme_summary">Forzar el color de fondo oscuro</string>
     <!-- Game Space -->
-    <string name="game_space_title">Game Space</string>
-    <string name="game_space_summary">Enhance your gaming experience</string>
+    <string name="game_space_title">Espacio de juego</string>
+    <string name="game_space_summary">Mejora tu experiencia de juego</string>
 </resources>
