@@ -136,12 +136,12 @@
     <string name="enable_fingerprint_ripple_effect_title">Animación al desbloquear</string>
     <string name="enable_fingerprint_ripple_effect_summary">Mostrar animación al desbloquear el dispositivo con huella dactilar</string>
     <!-- Power menu on lockscreen -->
-    <string name="power_menu_hide_on_secure_title">Hide power menu on lock screen</string>
-    <string name="power_menu_hide_on_secure_summary">This will hide the power menu only on a secure lock screen</string>
+    <string name="power_menu_hide_on_secure_title">Ocultar menú de apagado en la pantalla de bloqueo</string>
+    <string name="power_menu_hide_on_secure_summary">Esto ocultará el menú de apagado sólo en una pantalla de bloqueo segura</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use Black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="system_black_theme_title">Usar tema negro</string>
+    <string name="system_black_theme_summary">Forzar colores de fondo negros</string>
     <!-- Game Space -->
-    <string name="game_space_title">Game Space</string>
-    <string name="game_space_summary">Enhance your gaming experience</string>
+    <string name="game_space_title">Espacio de juego</string>
+    <string name="game_space_summary">Mejora tu experiencia de juego</string>
 </resources>

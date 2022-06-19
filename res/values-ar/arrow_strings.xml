@@ -108,40 +108,40 @@
     <string name="tethering_allow_vpn_upstreams_summary">السماح لعملاء نقطة الاتصال باستخدام اتصالات الـVPN لهذا الجهاز\u2019</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">عكس تخطيط شريط التنقل</string>
-    <string name="navbar_invert_info">Swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
+    <string name="navbar_invert_info">مبادلة أزرار \"رجوع\" و \"حديثات\" على شريط التنقل</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Locate the fingerprint sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Locate the fingerprint sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">حدد موقع مستشعر البصمة في مقدمة جهازك اللوحي.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">حدد موقع مستشعر بصمة الإصبع في مقدمة جهازك.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">حدد موقع حساس البصمة في مقدمة هاتفك.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">حدد موقع مستشعر بصمة الإصبع على ظهر جهازك اللوحي.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">حدد موقع مستشعر بصمة الإصبع على الجزء الخلفي من جهازك.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">حدد موقع مستشعر بصمة الإصبع على ظهر هاتفك.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">حدد موقع مستشعر بصمة الإصبع على جانب جهازك اللوحي.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">حدد موقع مستشعر بصمة الإصبع على جانب جهازك.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">حدد موقع مستشعر بصمة الإصبع على جانب هاتفك.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Touch the sensor on the front of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touch the sensor on the front of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touch the sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Touch the sensor on the back of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touch the sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touch the sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touch the sensor on the side of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">المس مستشعر البصمة في الجزء الأمامي من الجهاز اللوحي.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">المس مستشعر بصمة الإصبع في الجزء الأمامي من جهازك.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">المس مستشعر بصمة الإصبع في الجزء الأمامي من هاتفك.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">المس مستشعر البصمة في الجزء الخلفي من الجهاز اللوحي.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">المس مستشعر البصمة في الجزء الخلفي من جهازك.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">المس مستشعر البصمة على الجزء الخلفي من هاتفك.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">المس مستشعر البصمة في الجزء الجانبي من الجهاز اللوحي.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">المس مستشعر البصمة في الجزء الجانبي من جهازك.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">المس مستشعر البصمة على الجزء الجانبي من هاتفك.</string>
     <!-- Left volume panel -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
-    <string name="volume_panel_on_left_summary">Display volume panel on the left side of the screen</string>
+    <string name="volume_panel_on_left_title">لوحة الصوت على اليسار</string>
+    <string name="volume_panel_on_left_summary">اظهار لوحة الصوت على الجانب الأيسر من الشاشة</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">تأثير الموجة</string>
     <string name="enable_fingerprint_ripple_effect_summary">إظهار تأثير تموّج عند إلغاء القُفل باستخدام بصمة الإصبع</string>
     <!-- Power menu on lockscreen -->
-    <string name="power_menu_hide_on_secure_title">Hide power menu on lock screen</string>
-    <string name="power_menu_hide_on_secure_summary">This will hide the power menu only on a secure lock screen</string>
+    <string name="power_menu_hide_on_secure_title">تعطيل قائمة التشغيل على شاشة القفل</string>
+    <string name="power_menu_hide_on_secure_summary">سيؤدي ذلك إلى تعطيل قائمة التشغيل على شاشة القفل المؤمنة فقط</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use Black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="system_black_theme_title">استخدم السمة السوداء</string>
+    <string name="system_black_theme_summary">فرض ألوان الخلفية السوداء</string>
     <!-- Game Space -->
-    <string name="game_space_title">Game Space</string>
-    <string name="game_space_summary">Enhance your gaming experience</string>
+    <string name="game_space_title">وضع الألعاب</string>
+    <string name="game_space_summary">تحسين تجربة اللعب</string>
 </resources>

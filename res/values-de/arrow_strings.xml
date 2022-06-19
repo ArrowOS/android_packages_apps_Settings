@@ -136,12 +136,12 @@
     <string name="enable_fingerprint_ripple_effect_title">Welleneffekt</string>
     <string name="enable_fingerprint_ripple_effect_summary">Welleneffekt beim Entsperren mit Fingerabdruck anzeigen</string>
     <!-- Power menu on lockscreen -->
-    <string name="power_menu_hide_on_secure_title">Hide power menu on lock screen</string>
-    <string name="power_menu_hide_on_secure_summary">This will hide the power menu only on a secure lock screen</string>
+    <string name="power_menu_hide_on_secure_title">Entferne Ein-/Aus-Menü vom Sperrbildschirm</string>
+    <string name="power_menu_hide_on_secure_summary">Diese Option entfernt das Ein-/Aus-Menü nur auf einem gesperrten Sperrbildschirm</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use Black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="system_black_theme_title">Schwarzes Design verwenden</string>
+    <string name="system_black_theme_summary">Schwarze Hintergrundfarben erzwingen</string>
     <!-- Game Space -->
-    <string name="game_space_title">Game Space</string>
-    <string name="game_space_summary">Enhance your gaming experience</string>
+    <string name="game_space_title">Spielraum</string>
+    <string name="game_space_summary">Verbessern Sie Ihr Spielerlebnis</string>
 </resources>

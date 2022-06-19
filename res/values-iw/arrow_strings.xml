@@ -36,23 +36,23 @@
     <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
     <string name="color_mode_balance_category">Color balance</string>
-    <string name="color_mode_balance_red">Red strength</string>
-    <string name="color_mode_balance_green">Green strength</string>
-    <string name="color_mode_balance_blue">Blue strength</string>
-    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+    <string name="color_mode_balance_red">עוצמת אדום</string>
+    <string name="color_mode_balance_green">עוצמת ירוק</string>
+    <string name="color_mode_balance_blue">עוצמת כחול</string>
+    <string name="keywords_color_balance">צבע, איזון צבע, תיקון צבע, אדום, ירוק, כחול, LiveDisplay, תצוגה חיה</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">תאריך יצירה</string>
-    <string name="arrow_version">ArrowOS version</string>
+    <string name="arrow_version">גרסת ArrowOS</string>
     <string name="about_device_name">מכשיר</string>
     <!-- Double Tap to Sleep Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
-    <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
+    <string name="double_tap_sleep_gesture_title">נגיעה להרדמה</string>
+    <string name="double_tap_sleep_gesture_summary">נגיעה כפולה בכל מקום בשורת המצב תרדים את המכשיר</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">מה לעשות</string>
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <string name="double_tap_sleep_lockscreen_title">נגיעה כפולה על מבין הנעילה להרדמה</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">שליטה בנגינה</string>
+    <string name="volume_button_music_control_summary">כאשר המסך כבוי, לחיצה ארוכה על מקשי עוצמת השמע תעבור בין שירים</string>
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume wake</string>
     <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
