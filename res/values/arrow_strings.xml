@@ -148,4 +148,10 @@
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
     <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Touch fingerprint to unlock</string>
+    <string name="fingerprint_wake_unlock_touch">Listens for events while the screen is off</string>
+    <string name="fingerprint_wake_unlock_press">Only listens for events once the screen is on</string>
+
 </resources>
