@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">برای نمایش اطلاعات ضربه بزنید</string>
+    <!-- ArrowOS Installation Stats -->
+    <string name="arrow_stats_title">آمار ArrowOS</string>
+    <string name="arrow_stats_summary">تعداد دستگاه‌هایی که ArrowOS در آن ها اجرا میشود را شمارش میکنیم</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">کمترین نرخ نوسازی صفحه‌نمایش</string>
+    <string name="max_refresh_rate_title">بیشترین نرخ نوسازی صفحه‌نمایش</string>
+    <string name="battery_saver_refresh_rate_title">کاهش نرخ نوسازی صفحه‌نمایش</string>
+    <string name="battery_saver_refresh_rate_summary">وقتی «بهینه‌سازی باتری» روشن است، از نرخ نوسازی صفحه‌نمایش 60 هرتز برای صرفه‌جویی در مصرف انرژی استفاده کنید</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">یکی کردن میزان صدای زنگ &amp; اعلانات</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">کشیدن انگشت برای اسکرین‌شات</string>
+    <string name="three_finger_gesture_summary">برای گرفتن اسکرین‌شات سه انگشت خود را بر روی صفحه نمایشگر به پایین بکشید</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">صدای اسکرین‌شات</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">فعالسازی راه‌اندازی مجدد پیشرفته</string>
+    <string name="global_actions_advanced_reboot_summary">نمایش گزینه های راه‌اندازی مجدد به بوت‌لودر و ریکاوری در منوی پاور</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">تعادل رنگ</string>
+    <string name="color_mode_balance_red">قدرت قرمز</string>
+    <string name="color_mode_balance_green">قدرت سبز</string>
+    <string name="color_mode_balance_blue">قدرت آبی</string>
+    <string name="keywords_color_balance">رنگ، تعادل رنگ، تصحیح رنگ، قرمز، سبز، آبی، LiveDisplay</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">تاریخ ساخت</string>
+    <string name="arrow_version">نسخه ArrowOS</string>
+    <string name="about_device_name">دستگاه</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">ضربه زدن برای خواب</string>
+    <string name="double_tap_sleep_gesture_summary">برای خاموش کردن صفحه نمایش به نوار وضعیت دو بار ضربه بزنید</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">چه میتوان کرد</string>
+    <string name="double_tap_sleep_lockscreen_title">در صفحه‌قفل برای خاموش شدن صفحه دوبار ضربه بزنید</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">کنترل پخش</string>
+    <string name="volume_button_music_control_summary">زمانی که صفحه نمایش خاموش است، با نگه داشتن کلید های تنظیم صدا موسیقی را تغییر دهید</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">بیدار شدن توسط کلید های کنترل صدا</string>
+    <string name="volume_rocker_wake_summary">با فشار دادن کلیدهای صدا، دستگاه خود را بیدار کنید</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">تنظیمات لرزش هنگام تماس</string>
+    <string name="incall_vibrate_connect_title">لرزش در هنگام برقراری تماس</string>
+    <string name="incall_vibrate_call_wait_title">لرزش در هنگام انتظار تماس</string>
+    <string name="incall_vibrate_disconnect_title">لرزش در هنگام قطع تماس</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">آیتم های نوار وضعیت</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">شخصی سازی</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">اعلان های مزاحم</string>
+    <string name="notification_sound_vib_screen_on_summary">پخش صدا و لرزش برای اعلان ها حتی زمانی که صفحه نمایش روشن است</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">هشدار های مواظب باش دقیق‌تر</string>
+    <string name="less_boring_heads_up_summary">به‌سرعت حالت مواظب باش را برای همه برنامه‌ها غیرفعال کنید، اما آنها را برای برنامه‌های شماره‌گیر و پیام‌رسان فعال نگه دارید</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">روشن کردن چراغ هنگامی که صفحه‌نمایش خاموش است</string>
+    <string name="torch_power_button_gesture_none">غیرفعال</string>
+    <string name="torch_power_button_gesture_dt">دکمه روشن/خاموش را دوبار فشار دهید (ویژگی باز کردن سریع دوربین را غیرفعال می کند و ۱۷۰ میلی ثانیه تاخیر بیدار شدن را اضافه می کند)</string>
+    <string name="torch_power_button_gesture_lp">طولانی نگه داشتن دکمه روشن/خاموش</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">جلوگیری از روشن شدن اتفاقی</string>
+    <string name="proximity_wake_summary">سنسور مجاورت را قبل از بیدار کردن صفحه از ژست دوبار ضربه زدن ۲ بیدار بررسی کنید</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">پلتفرم</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">کل RAM در دسترس</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">تنظیم مجدد آمار</string>
+    <string name="battery_stats_message">تاریخچه آمار باتری پاک می‌شود</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">نوار ژست</string>
+    <string name="show_navbar_gesture_bar_summary">نمایش نشانگر ژست‌های حرکتی در انتهای صفحه</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">هدفون های ذخیره شده</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">چراغ اعلان شارژ باتری</string>
+    <string name="battery_light_summary">رفتار چراغ اعلان باتری در حالت مزاحم نشوید،باتری کم</string>
+    <string name="battery_light_enable">چراغ اعلان باتری</string>
+    <string name="battery_light_allow_on_dnd_title">نور چراغ اعلان باتری در زمان فعال بودن حالت مزاحم نشوید</string>
+    <string name="battery_light_low_blinking_title">نور چشمک‌زن در زمان کم بودن باتری</string>
+    <string name="battery_light_cat">رنگ نور چراغ اعلان باتری در زمان شارژ شدن باتری</string>
+    <string name="battery_light_low_color">باتری ضعیف</string>
+    <string name="battery_light_medium_color">شارژ متوسط</string>
+    <string name="battery_light_full_color">باتری تقریبا پر</string>
+    <string name="battery_light_reallyfull_color">باتری کامل(۱۰۰درصد)</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">اجازه دادن به کاربران برای استفاده از وی‌پی‌ان</string>
+    <string name="tethering_allow_vpn_upstreams_summary">به کاربران نقطه اتصال همراه اجازه دهید از وی‌پی‌ان این دستگاه\u2019 برای اتصال بالادستی استفاده کنند</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">معکوس کردن حالت نوار ناوبری</string>
+    <string name="navbar_invert_info">تغییر مکان دکمه های \"برگشت\" و \"اخیر\" در نوار ناوبری</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">حسگر اثر انگشت را در جلوی تبلت خود پیدا کنید.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">حسگر اثر انگشت را در جلوی دستگاه خود پیدا کنید.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">حسگر اثر انگشت را در جلوی گوشی خود پیدا کنید.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">حسگر اثر انگشت را در پشت تبلت خود پیدا کنید.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">حسگر اثر انگشت را در پشت دستگاه خود پیدا کنید.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">حسگر اثر انگشت را در پشت گوشی خود پیدا کنید.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">حسگر اثر انگشت را در کنار تبلت خود پیدا کنید.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">حسگر اثر انگشت را در کنار دستگاه خود پیدا کنید.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">حسگر اثر انگشت را در کنار گوشی خود پیدا کنید.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">حسگر جلوی تبلت خود را لمس کنید.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">حسگر جلوی دستگاه خود را لمس کنید.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">سنسور جلوی گوشی خود را لمس کنید.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">حسگر پشت تبلت خود را لمس کنید.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">حسگر پشت دستگاه خود را لمس کنید.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">سنسور پشت گوشی خود را لمس کنید.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">حسگر کنار تبلت خود را لمس کنید.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">حسگر کنار دستگاه خود را لمس کنید.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">سنسور کنار گوشی خود را لمس کنید.</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">نمایش پنل در سمت چپ</string>
+    <string name="volume_panel_on_left_summary">نمایش پنل صدا در گوشه سمت چپ نمایشگر</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">جلوه موج دار</string>
+    <string name="enable_fingerprint_ripple_effect_summary">نمایش جلوه موج دار در باز کردن قفل با اثر انگشت</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">غیر فعال کردن منوی پاور در صفحه قفل نمایش</string>
+    <string name="power_menu_hide_on_secure_summary">باعث غیر فعال شدن منوی پاور در صفحه قفل دستگاه میشود</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">استفاده از تم مشکی</string>
+    <string name="system_black_theme_summary">اجبار رنگ های مشکی پس‌زمینه</string>
+    <!-- Game Space -->
+    <string name="game_space_title">فضای بازی</string>
+    <string name="game_space_summary">تجربه بازی خود را بهبود دهید</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">اندازه الگو را انتخاب کنید</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">نمایش خطای الگو</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">نمایش نقطه‌های الگو</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">نمایش مصرف روزانه داده در پاورقی تنظیمات سریع</string>
+    <string name="qs_footer_datausage_summary">نمایش خلاصه مصرف روزانه داده در پاورقی تنظیمات سریع</string>
+</resources>

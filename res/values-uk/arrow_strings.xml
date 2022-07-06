@@ -28,9 +28,9 @@
     <string name="volume_link_notification_title">Зв’язати гучність дзвінка &amp; сповіщень</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Провести для знімку екрану</string>
-    <string name="three_finger_gesture_summary">Проведіть вниз трьома пальцями на екрані, щоб зробити знімок екрану</string>
+    <string name="three_finger_gesture_summary">Проведіть вниз трьома пальцями, щоб зробити скріншот</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Звук знімка екрану</string>
+    <string name="screenshot_shutter_sound_title">Звук скріншоту</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Ввімкнути розширене перезавантаження</string>
     <string name="global_actions_advanced_reboot_summary">Показувати параметри відновлення і завантажувача в меню живлення</string>
@@ -49,12 +49,12 @@
     <string name="double_tap_sleep_gesture_summary">Двічі торкніться рядка стану, щоб перевести пристрій у сплячий режим</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Що робити</string>
-    <string name="double_tap_sleep_lockscreen_title">Подвійне натискання для засинання на екрані блокування</string>
+    <string name="double_tap_sleep_lockscreen_title">Подвійний дотик на екрані блокування, щоб перейти в режим сну</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Управління відтворенням</string>
+    <string name="volume_button_music_control_title">Керування відтворенням</string>
     <string name="volume_button_music_control_summary">Коли екран вимкнений, тривале натискання клавіш регулювання гучності буде перемикати музичні композиції</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Пробудження гучності</string>
+    <string name="volume_rocker_wake_title">Пробудження кнопками гучності</string>
     <string name="volume_rocker_wake_summary">Увімкніть пристрій, натиснувши клавіші гучності</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Налаштування вібрації під час дзвінка</string>
@@ -66,7 +66,7 @@
     <!-- Display customization category -->
     <string name="customization_category_title">Персоналізація</string>
     <!-- Annoying Notifications -->
-    <string name="notification_sound_vib_screen_on_title">Набридливі сповіщення</string>
+    <string name="notification_sound_vib_screen_on_title">Надокучливі сповіщення</string>
     <string name="notification_sound_vib_screen_on_summary">Відтворювання звуку та вібрації для сповіщень при увімкненому екрані</string>
     <!-- Less boring heads up -->
     <string name="less_boring_heads_up_title">Зменшити кількість спливаючих сповіщень</string>
@@ -74,7 +74,7 @@
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Увімкніть ліхтарик при вимкненому екрані</string>
     <string name="torch_power_button_gesture_none">Вимкнено</string>
-    <string name="torch_power_button_gesture_dt">Подвійне натискання кнопки живлення (вимикає функцію швидкого відкриття камери та додає затримку пробудження на 170 мс)</string>
+    <string name="torch_power_button_gesture_dt">Подвійне натискання кнопки живлення (вимикає швидкий доступ до камери та додає затримку пробудження на 170 мс)</string>
     <string name="torch_power_button_gesture_lp">Довге натискання кнопки живлення</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Запобігання випадкового пробудження</string>
@@ -93,7 +93,7 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Збережені навушники</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Індикація зарядки акумулятора</string>
+    <string name="battery_light_settings">Світлова індикація заряджання батареї</string>
     <string name="battery_light_summary">Індикація батареї в режимі \"Не турбувати\", низький заряд акумулятора</string>
     <string name="battery_light_enable">Індикація батареї</string>
     <string name="battery_light_allow_on_dnd_title">Індикація батареї в режимі \"Не турбувати\"</string>
@@ -144,4 +144,13 @@
     <!-- Game Space -->
     <string name="game_space_title">Ігровий простір</string>
     <string name="game_space_summary">Покращіть свій ігровий досвід</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Оберіть розмір шаблону</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Показувати помилку при вводі графічного ключа</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Показувати точки</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Щоденне використання даних у швидких налаштуваннях</string>
+    <string name="qs_footer_datausage_summary">Показувати щоденне використання даних у швидких налаштуваннях</string>
 </resources>
