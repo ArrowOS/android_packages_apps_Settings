@@ -16,6 +16,23 @@
       "message": "Any reasons for this?",
       "revId": "c6394c0080bbdf7054ceccd7e7dd4203feb205c5",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "524da2ef_9c2ac3bb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2022-07-18T14:29:14Z",
+      "side": 1,
+      "message": "If you don\u0027t have to show min hz option, just set config_supports_dynamic_refresh_rate_controls to false\n",
+      "revId": "c6394c0080bbdf7054ceccd7e7dd4203feb205c5",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
     }
   ]
 }
