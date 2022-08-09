@@ -45,11 +45,11 @@
     <string name="arrow_version">Version de ArrowOS</string>
     <string name="about_device_name">Appareil</string>
     <!-- Double Tap to Sleep Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Double appui pour mettre en veille</string>
-    <string name="double_tap_sleep_gesture_summary">Double tap n\'importe où sur la barre d\'état pour mettre l\'appareil en veille</string>
+    <string name="double_tap_sleep_gesture_title">Appuyer deux fois pour mettre en veille</string>
+    <string name="double_tap_sleep_gesture_summary">Appuyez deux fois n\'importe où sur la barre d\'état pour mettre l\'appareil en veille</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Que faire</string>
-    <string name="double_tap_sleep_lockscreen_title">Double appui pour mettre en veille sur l\'écran de verrouillage</string>
+    <string name="double_tap_sleep_lockscreen_title">Appuyez deux fois pour mettre en veille sur l\'écran de verrouillage</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Contrôle de lecture</string>
     <string name="volume_button_music_control_summary">Quand l\'écran est étaint, un appui long sur les boutons volume change la chanson</string>
@@ -78,7 +78,7 @@
     <string name="torch_power_button_gesture_lp">Appui prolongé sur le bouton Marche/Arrêt</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Empêcher l\'allumage de l\'écran accidentel</string>
-    <string name="proximity_wake_summary">Vérifier le capteur de proximité avant d\'allumer l\'écran lors d\'un double appui</string>
+    <string name="proximity_wake_summary">Vérifier le capteur de proximité avant d\'allumer l\'écran lors d\'un appui double</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Plateforme</string>
@@ -152,5 +152,36 @@
     <string name="lockpattern_settings_enable_dots_title">Afficher les points du schéma</string>
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Utilisation quotidienne des données dans le pied de page des réglages rapides</string>
-    <string name="qs_footer_datausage_summary">Afficher le résumé quotidien de l\'utilisation des données dans le pied de page des paramètres rapides</string>
+    <string name="qs_footer_datausage_summary">Afficher le résumé quotidien de l\'utilisation des données dans le pied de page des réglages rapides</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Network traffic indicator</string>
+    <string name="network_traffic_summary">Enable or disable network speed indicator in status bar</string>
+    <string name="network_traffic_state_title">Enable \"Network traffic indicator\"</string>
+    <string name="network_options_title">Options</string>
+    <string name="network_traffic_autohide_title">Hide network traffic indicator is inactive</string>
+    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Battery icon style</string>
+    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
+    <string name="battery_style_category_title">Battery icon</string>
+    <string name="status_bar_battery_category_title">In Status Bar</string>
+    <string name="status_bar_battery_percent_title">Battery percentage</string>
+    <string name="status_bar_battery_style_title">Battery style</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
+    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
+    <string name="status_bar_battery_style_big_circle">Big circle</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Big dotted circle</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percent_text_next_right">Next to the icon (right)</string>
+    <string name="status_bar_battery_percent_text_next_left">Next to the icon (left)</string>
+    <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
+    <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
+    <!-- QS battery -->
+    <string name="qs_battery_category_title">In QS Panel</string>
+    <string name="qs_use_status_bar_battery_style">Follow status bar style</string>
 </resources>
