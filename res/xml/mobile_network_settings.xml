@@ -109,6 +109,12 @@
             settings:keywords="@string/keywords_enhance_4g_lte"
             settings:controller="com.android.settings.network.telephony.Enhanced4gLtePreferenceController"/>
 
+        <com.arrow.support.preferences.SystemSettingSwitchPreference
+            android:key="show_volte_icon"
+            android:title="@string/show_volte_title"
+            android:summary="@string/show_volte_summary"
+            android:defaultValue="false" />
+
         <SwitchPreference
             android:key="4g_calling"
             android:title="@string/enhanced_4g_lte_mode_title_4g_calling"
@@ -175,6 +181,12 @@
                     <extra android:name="show_drawer_menu" android:value="true"/>
                 </intent>
             </Preference>
+
+            <com.arrow.support.preferences.SystemSettingSwitchPreference
+                android:key="show_vowifi_icon"
+                android:title="@string/show_vowifi_title"
+                android:summary="@string/show_vowifi_summary"
+                android:defaultValue="false" />
 
             <SwitchPreference
                 android:key="video_calling_key"
