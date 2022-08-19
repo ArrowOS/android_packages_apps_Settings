@@ -72,7 +72,7 @@
     <string name="less_boring_heads_up_title">Notifications flottantes amusantes</string>
     <string name="less_boring_heads_up_summary">Désactiver rapidement les notifications flottantes pour toutes les applications mais les garder activées pour le téléphone et la messagerie</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Raccourci lampe torche écran éteint</string>
+    <string name="torch_power_button_gesture_title">Allumer/éteindre la lampe de poche lorsque l\'écran est éteint</string>
     <string name="torch_power_button_gesture_none">Désactivé</string>
     <string name="torch_power_button_gesture_dt">Double appui sur le bouton Marche/Arrêt (Désactive l\'ouverture rapide de la caméra et ajoute un délai de réveil de 170 secondes)</string>
     <string name="torch_power_button_gesture_lp">Appui prolongé sur le bouton Marche/Arrêt</string>
@@ -154,34 +154,34 @@
     <string name="qs_footer_datausage_title">Utilisation quotidienne des données dans le pied de page des réglages rapides</string>
     <string name="qs_footer_datausage_summary">Afficher le résumé quotidien de l\'utilisation des données dans le pied de page des réglages rapides</string>
     <!-- Network traffic -->
-    <string name="network_traffic_title">Network traffic indicator</string>
-    <string name="network_traffic_summary">Enable or disable network speed indicator in status bar</string>
-    <string name="network_traffic_state_title">Enable \"Network traffic indicator\"</string>
+    <string name="network_traffic_title">Indicateur de trafic réseau</string>
+    <string name="network_traffic_summary">Activer ou désactiver l\'indicateur de vitesse du réseau dans la barre d\'état</string>
+    <string name="network_traffic_state_title">Activer \"Indicateur de trafic réseau\"</string>
     <string name="network_options_title">Options</string>
-    <string name="network_traffic_autohide_title">Hide network traffic indicator is inactive</string>
-    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
+    <string name="network_traffic_autohide_title">Masquer le moniteur réseau lorsqu\'il n\'y a pas d\'activité</string>
+    <string name="network_traffic_autohide_summary">Masquer lorsque l\'indicateur de trafic réseau est inférieur à 1 Ko/s</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
-    <string name="battery_style_category_title">Battery icon</string>
-    <string name="status_bar_battery_category_title">In Status Bar</string>
-    <string name="status_bar_battery_percent_title">Battery percentage</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_big_circle">Big circle</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Big dotted circle</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percent_text_next_right">Next to the icon (right)</string>
-    <string name="status_bar_battery_percent_text_next_left">Next to the icon (left)</string>
-    <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
-    <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
+    <string name="battery_style_title">Style d\'icône de la batterie</string>
+    <string name="battery_style_summary">Personnaliser les icônes de la batterie, masquer ou afficher le pourcentage</string>
+    <string name="battery_style_category_title">Icône de la batterie</string>
+    <string name="status_bar_battery_category_title">Dans la barre d\'état</string>
+    <string name="status_bar_battery_percent_title">Pourcentage de la batterie</string>
+    <string name="status_bar_battery_style_title">Style de l\'icône de la batterie</string>
+    <string name="status_bar_battery_style_icon_portrait">Icône portrait (défaut)</string>
+    <string name="status_bar_battery_style_circle">Cercle</string>
+    <string name="status_bar_battery_style_dotted_circle">Cercle (Pointillé)</string>
+    <string name="status_bar_battery_style_filled_circle">Cercle (Rempli)</string>
+    <string name="status_bar_battery_style_big_circle">Grand cercle</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Grand cercle pointillé</string>
+    <string name="status_bar_battery_style_text">Texte</string>
+    <string name="status_bar_battery_style_hidden">Masqué</string>
+    <string name="status_bar_battery_percentage_default">Masqué (Par défaut)</string>
+    <string name="status_bar_battery_percentage_text_inside">À l\'intérieur de l\'icône</string>
+    <string name="status_bar_battery_percent_text_next_right">À côté de l\'icône (à droite)</string>
+    <string name="status_bar_battery_percent_text_next_left">À côté de l\'icône (à gauche)</string>
+    <string name="status_bar_battery_text_charging_title">Pourcentage de la batterie lors de la charge</string>
+    <string name="status_bar_battery_text_charging_summary">Toujours afficher le pourcentage de la batterie lors de la charge</string>
     <!-- QS battery -->
-    <string name="qs_battery_category_title">In QS Panel</string>
-    <string name="qs_use_status_bar_battery_style">Follow status bar style</string>
+    <string name="qs_battery_category_title">Dans le panneau des réglages rapides</string>
+    <string name="qs_use_status_bar_battery_style">Même style que la barre d\'état</string>
 </resources>

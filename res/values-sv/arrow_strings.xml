@@ -108,24 +108,24 @@
     <string name="tethering_allow_vpn_upstreams_summary">Tillåt surfpunktsklienter att använda den här enheten\u2019s VPN-anslutningar för anslutningar uppströms</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Kasta om ordningen på navigeringsdältet</string>
-    <string name="navbar_invert_info">Swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
+    <string name="navbar_invert_info">Byt ut \"Tillbaka\" och \"Senaste\" knapparna i navigeringsfältet</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Locate the fingerprint sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Locate the fingerprint sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Lokalisera fingeravtryckssensorn på framsidan av din platta.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Lokalisera fingeravtryckssensorn på din enhets framsida.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Lokalisera fingeravtryckssensorn på framsidan av din mobil.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Lokalisera fingeravtryckssensorn på baksidan av din surfplatta.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Lokalisera fingeravtryckssensorn på baksidan av din enhet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Lokalisera fingeravtryckssensorn på baksidan av din telefon.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Lokalisera fingeravtryckssensorn på sidan på din surfplatta.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Lokalisera fingeravtryckssensorn på sidan av din enhet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Lokalisera fingeravtryckssensorn på sidan av din telefon.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Touch the sensor on the front of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touch the sensor on the front of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touch the sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Touch the sensor on the back of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touch the sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touch the sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Tryck på sensorn på framsidan av din surfplatta.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Tryck på sensorn på framsidan av din enhet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Tryck på sensorn på framsidan av din telefon.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Tryck på sensorn på baksidan av din surfplatta.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Tryck på sensorn på baksidan av din enhet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Tryck på sensorn på baksidan av telefonen.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touch the sensor on the side of your tablet.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>

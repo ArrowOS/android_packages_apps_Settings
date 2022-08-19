@@ -55,7 +55,7 @@
     <string name="volume_button_music_control_summary">Коли екран вимкнений, тривале натискання клавіш регулювання гучності буде перемикати музичні композиції</string>
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Пробудження кнопками гучності</string>
-    <string name="volume_rocker_wake_summary">Увімкніть пристрій, натиснувши клавіші гучності</string>
+    <string name="volume_rocker_wake_summary">Пробудження пристрою натисканням кнопок гучності</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Налаштування вібрації під час дзвінка</string>
     <string name="incall_vibrate_connect_title">Вібрувати при з\'єднанні</string>
@@ -72,21 +72,21 @@
     <string name="less_boring_heads_up_title">Зменшити кількість спливаючих сповіщень</string>
     <string name="less_boring_heads_up_summary">Швидко вимкнути спливаючі сповіщення для всіх програм, але зменшити їх увімкненими для дзвінків і програм обміну повідомлень</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Увімкніть ліхтарик при вимкненому екрані</string>
+    <string name="torch_power_button_gesture_title">Вмикати ліхтарик при вимкненому екрані</string>
     <string name="torch_power_button_gesture_none">Вимкнено</string>
-    <string name="torch_power_button_gesture_dt">Подвійне натискання кнопки живлення (вимикає швидкий доступ до камери та додає затримку пробудження на 170 мс)</string>
+    <string name="torch_power_button_gesture_dt">Двічі натисніть кнопку живлення (вимикає швидкий доступ до камери та додає затримку пробудження на 170 мс)</string>
     <string name="torch_power_button_gesture_lp">Довге натискання кнопки живлення</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Запобігання випадкового пробудження</string>
-    <string name="proximity_wake_summary">Перевірити датчик наближення, перш ніж пробудити екран</string>
+    <string name="proximity_wake_title">Запобігати випадковим пробудженням</string>
+    <string name="proximity_wake_summary">Перевірити датчик наближення перед пробудженням подвійним дотиком</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Платформа</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Усього доступно ОЗП</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Очистити статистику</string>
-    <string name="battery_stats_message">Історію використання батареї буде очищено</string>
+    <string name="battery_stats_reset">Скинути статистику</string>
+    <string name="battery_stats_message">Статистику використання батареї буде скинуто</string>
     <!-- Navigation bar hint -->
     <string name="show_navbar_gesture_bar_title">Панель жестів</string>
     <string name="show_navbar_gesture_bar_summary">Показувати панель жестів внизу екрану</string>
@@ -94,7 +94,7 @@
     <string name="connected_tws_device_saved_title">Збережені навушники</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Світлова індикація заряджання батареї</string>
-    <string name="battery_light_summary">Індикація батареї в режимі \"Не турбувати\", низький заряд акумулятора</string>
+    <string name="battery_light_summary">Індикація батареї в режимі \"Не турбувати\", низький заряд батареї</string>
     <string name="battery_light_enable">Індикація батареї</string>
     <string name="battery_light_allow_on_dnd_title">Індикація батареї в режимі \"Не турбувати\"</string>
     <string name="battery_light_low_blinking_title">Блимання індикатора при низькому заряді батареї</string>
@@ -107,43 +107,43 @@
     <string name="tethering_allow_vpn_upstreams_title">Дозволити клієнтам використовувати VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Дозволити клієнтам точки доступу використовувати VPN-з\'єднання цього пристрою для підключення до мережі</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Інвертувати панель навігації</string>
-    <string name="navbar_invert_info">Поміняти кнопки \"Назад\" та \"Нещодавні\" на панелі навігації</string>
+    <string name="navbar_invert_layout_title">Інвертувати розкладку панелі навігації</string>
+    <string name="navbar_invert_info">Поміняти місцями кнопки \"Назад\" та \"Нещодавні\" на панелі навігації</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Знайдіть сканер відбитків пальців на передній панелі вашого планшета.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">Знайдіть сканер відбитків пальців на передній панелі вашого пристрою.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Знайдіть сенсор відбитків пальців на передній панелі вашого смартфона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Знайдіть сканер відбитків пальців на передній панелі вашого смартфона.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Знайдіть сканер відбитків пальців на задній панелі вашого планшета.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Знайдіть сенсор відбитків пальців на задній панелі вашого пристрою.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Знайдіть сканер відбитків пальців на задній панелі вашого пристрою.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Знайдіть сканер відбитків пальців на задній панелі вашого смартфона.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Знайдіть сканер відбитків пальців на бічній грані вашого планшета.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="device">Знайдіть сканер відбитків пальців на бічній грані вашого пристрою.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="default">Знайдіть сканер відбитків пальців на бічній грані вашого смартфона.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Натисніть сенсор на передній панелі вашого планшета.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Натисніть сенсор на передній панелі вашого пристрою.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Натисніть сенсор на передній панелі вашого телефона.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Торкніться сенсору ззаду вашого планшета.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Натисніть сенсор на задній панелі вашого пристрою.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Натисніть сенсор на задній панелі вашого телефону.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Натисніть сенсор на бічній межі вашого планшета.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Натисніть сенсор на бічній межі вашого пристрою.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Натисніть сенсор на бічній межі вашого телефону.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Торкніться сканера на передній панелі вашого планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Торкніться сканера на передній панелі вашого пристрою.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Торкніться сканера на передній панелі вашого телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Торкніться сканера на задній панелі вашого планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Торкніться сканера на задній панелі вашого пристрою.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Торкніться сканера на задній панелі вашого телефону.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Торкніться сканера на бічній грані вашого планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Торкніться сканера на бічній грані вашого пристрою.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Торкніться сканера на бічній грані вашого телефону.</string>
     <!-- Left volume panel -->
-    <string name="volume_panel_on_left_title">Показувати панель гучності ліворуч</string>
+    <string name="volume_panel_on_left_title">Показувати панель гучності зліва</string>
     <string name="volume_panel_on_left_summary">Відображати панель гучності у лівій частині екрану</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Ефект пульсації</string>
     <string name="enable_fingerprint_ripple_effect_summary">Відображати ефект пульсації під час розблокування відбитком пальця</string>
     <!-- Power menu on lockscreen -->
-    <string name="power_menu_hide_on_secure_title">Не показувати меню живлення на заблокованому екрані</string>
-    <string name="power_menu_hide_on_secure_summary">Вимикає меню живлення лише на заблокованому екрані з паролем</string>
+    <string name="power_menu_hide_on_secure_title">Приховати меню кнопки живлення на екрані блокування</string>
+    <string name="power_menu_hide_on_secure_summary">Ця опція вимикає меню кнопки живлення на екрані блокування тільки зі встановленим паролем</string>
     <!-- Black theme -->
     <string name="system_black_theme_title">Використовувати чорну тему</string>
-    <string name="system_black_theme_summary">Примусово чорний колір фону</string>
+    <string name="system_black_theme_summary">Примусово використовувати чорні кольори фону</string>
     <!-- Game Space -->
     <string name="game_space_title">Ігровий простір</string>
-    <string name="game_space_summary">Покращіть свій ігровий досвід</string>
+    <string name="game_space_summary">Покращуйте свій ігровий досвід</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Оберіть розмір шаблону</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -151,37 +151,37 @@
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Показувати точки</string>
     <!-- Data usage info in QS footer -->
-    <string name="qs_footer_datausage_title">Щоденне використання даних у швидких налаштуваннях</string>
-    <string name="qs_footer_datausage_summary">Показувати щоденне використання даних у швидких налаштуваннях</string>
+    <string name="qs_footer_datausage_title">Щоденний трафік у швидких налаштуваннях</string>
+    <string name="qs_footer_datausage_summary">Показувати статистику щоденного використання даних у нижньому колонтитулі швидких налаштувань</string>
     <!-- Network traffic -->
-    <string name="network_traffic_title">Network traffic indicator</string>
-    <string name="network_traffic_summary">Enable or disable network speed indicator in status bar</string>
-    <string name="network_traffic_state_title">Enable \"Network traffic indicator\"</string>
-    <string name="network_options_title">Options</string>
-    <string name="network_traffic_autohide_title">Hide network traffic indicator is inactive</string>
-    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
+    <string name="network_traffic_title">Індикатор мережевого трафіку</string>
+    <string name="network_traffic_summary">Увімкнути або вимкнути індикатор швидкості мережі в рядку стану</string>
+    <string name="network_traffic_state_title">Увімкнути \"Індикатор мережевого трафіку\"</string>
+    <string name="network_options_title">Параметри</string>
+    <string name="network_traffic_autohide_title">Приховати, якщо мережа неактивна</string>
+    <string name="network_traffic_autohide_summary">Приховати, якщо швидкість мережі менше 1 КБ/с</string>
     <!-- Statusbar Battery -->
-    <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Customize battery icons, hide or show percentage</string>
-    <string name="battery_style_category_title">Battery icon</string>
-    <string name="status_bar_battery_category_title">In Status Bar</string>
-    <string name="status_bar_battery_percent_title">Battery percentage</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_big_circle">Big circle</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Big dotted circle</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percent_text_next_right">Next to the icon (right)</string>
-    <string name="status_bar_battery_percent_text_next_left">Next to the icon (left)</string>
-    <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
-    <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
+    <string name="battery_style_title">Стиль іконки батареї</string>
+    <string name="battery_style_summary">Налаштування іконки батареї, приховати або показати відсоток</string>
+    <string name="battery_style_category_title">Іконка батареї</string>
+    <string name="status_bar_battery_category_title">У рядку стану</string>
+    <string name="status_bar_battery_percent_title">Відсоток заряду батареї</string>
+    <string name="status_bar_battery_style_title">Стиль іконки батареї</string>
+    <string name="status_bar_battery_style_icon_portrait">Вертикальна іконка (за замовчуванням)</string>
+    <string name="status_bar_battery_style_circle">Коло</string>
+    <string name="status_bar_battery_style_dotted_circle">Пунктирне коло</string>
+    <string name="status_bar_battery_style_filled_circle">Заповнене коло</string>
+    <string name="status_bar_battery_style_big_circle">Велике коло</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Велике пунктирне коло</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Приховано</string>
+    <string name="status_bar_battery_percentage_default">Приховано (за замовчуванням)</string>
+    <string name="status_bar_battery_percentage_text_inside">Всередині іконки</string>
+    <string name="status_bar_battery_percent_text_next_right">Поруч з іконкою (праворуч)</string>
+    <string name="status_bar_battery_percent_text_next_left">Поруч з іконкою (ліворуч)</string>
+    <string name="status_bar_battery_text_charging_title">Відсоток заряду батареї під час заряджання</string>
+    <string name="status_bar_battery_text_charging_summary">Завжди показувати відсоток заряду батареї при заряджанні</string>
     <!-- QS battery -->
-    <string name="qs_battery_category_title">In QS Panel</string>
-    <string name="qs_use_status_bar_battery_style">Follow status bar style</string>
+    <string name="qs_battery_category_title">У панелі швидких налаштувань</string>
+    <string name="qs_use_status_bar_battery_style">Дотримуватись стилю рядка стану</string>
 </resources>
