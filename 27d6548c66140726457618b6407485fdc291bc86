@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eea99094_fe386613",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 360
+      },
+      "writtenOn": "2022-08-22T07:59:08Z",
+      "side": 1,
+      "message": "This fixes settings crash on side fingerprint add.",
+      "revId": "27d6548c66140726457618b6407485fdc291bc86",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
