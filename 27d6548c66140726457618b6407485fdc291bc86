@@ -16,6 +16,23 @@
       "message": "This fixes settings crash on side fingerprint add.",
       "revId": "27d6548c66140726457618b6407485fdc291bc86",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e1c700f_d409cc3c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2022-08-22T12:43:40Z",
+      "side": 1,
+      "message": "https://review.arrowos.net/c/ArrowOS/android_packages_apps_Settings/+/16630 is a better solution, especially since this lottie is of \"triple tap screen\" which is not even remotely related to side fingerprint",
+      "revId": "27d6548c66140726457618b6407485fdc291bc86",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
     }
   ]
 }
