@@ -153,4 +153,8 @@
     <string name="volume_button_music_control_title">Playback control</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
 
+    <!-- Parallel space -->
+    <string name="laboratory_parallel_space_title">Parallel space</string>
+    <string name="laboratory_parallel_space_summary">Allow running multiple instances of the same application in parallel.</string>
+
 </resources>
