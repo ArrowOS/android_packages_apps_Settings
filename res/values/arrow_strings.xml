@@ -175,4 +175,8 @@
     <string name="custom_theme_espresso">Espresso</string>
     <string name="custom_theme_snowpaintdrop">Paint in the Snow</string>
 
+    <!-- Parallel space -->
+    <string name="laboratory_parallel_space_title">Parallel space</string>
+    <string name="laboratory_parallel_space_summary">Allow running multiple instances of the same application in parallel.</string>
+
 </resources>
