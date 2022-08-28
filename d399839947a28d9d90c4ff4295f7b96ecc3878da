@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b8ee63d_7a665571",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2022-08-28T04:55:42Z",
+      "side": 1,
+      "message": "We\u0027d need to revert this for this I think: https://review.arrowos.net/c/ArrowOS/android_packages_apps_Settings/+/17949/1",
+      "revId": "d399839947a28d9d90c4ff4295f7b96ecc3878da",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
