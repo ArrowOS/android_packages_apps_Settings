@@ -34,6 +34,24 @@
       "parentUuid": "6b8ee63d_7a665571",
       "revId": "d399839947a28d9d90c4ff4295f7b96ecc3878da",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e8d873a8_f0ad4191",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 555
+      },
+      "writtenOn": "2022-08-28T07:01:48Z",
+      "side": 1,
+      "message": "And it seems did not resolve my fingerprint enrollment crash. I still got it crashed and this solved the problem",
+      "parentUuid": "f1b8608b_8ac27fe0",
+      "revId": "d399839947a28d9d90c4ff4295f7b96ecc3878da",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
     }
   ]
 }
