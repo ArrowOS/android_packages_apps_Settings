@@ -16,6 +16,24 @@
       "message": "We\u0027d need to revert this for this I think: https://review.arrowos.net/c/ArrowOS/android_packages_apps_Settings/+/17949/1",
       "revId": "d399839947a28d9d90c4ff4295f7b96ecc3878da",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1b8608b_8ac27fe0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 555
+      },
+      "writtenOn": "2022-08-28T06:56:41Z",
+      "side": 1,
+      "message": "Obviously we can but why don\u0027t we use lottie animations?",
+      "parentUuid": "6b8ee63d_7a665571",
+      "revId": "d399839947a28d9d90c4ff4295f7b96ecc3878da",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
     }
   ]
 }
