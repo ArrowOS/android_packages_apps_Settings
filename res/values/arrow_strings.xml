@@ -137,4 +137,8 @@
     <string name="icon_manager_title">Status bar items</string>
     <string name="icon_manager_summary">Control visibility of status bar icons</string>
 
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use Black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
+
 </resources>
