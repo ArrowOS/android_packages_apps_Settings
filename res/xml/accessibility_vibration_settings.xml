@@ -41,21 +41,6 @@
             app:keywords="@string/keywords_ramping_ringer_vibration"
             app:controller="com.android.settings.accessibility.VibrationRampingRingerTogglePreferenceController"/>
 
-        <com.arrow.support.preferences.SystemSettingSwitchPreference
-            android:key="vibrate_on_connect"
-            android:title="@string/incall_vibrate_connect_title"
-            android:defaultValue="false" />
-
-        <com.arrow.support.preferences.SystemSettingSwitchPreference
-            android:key="vibrate_on_callwaiting"
-            android:title="@string/incall_vibrate_call_wait_title"
-            android:defaultValue="false" />
-
-        <com.arrow.support.preferences.SystemSettingSwitchPreference
-            android:key="vibrate_on_disconnect"
-            android:title="@string/incall_vibrate_disconnect_title"
-            android:defaultValue="false" />
-
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -91,6 +76,28 @@
             android:title="@string/accessibility_media_vibration_title"
             app:keywords="@string/keywords_media_vibration"
             app:controller="com.android.settings.accessibility.MediaVibrationTogglePreferenceController" />
+
+    </PreferenceCategory>
+
+    <!-- Incall vibration options -->
+    <PreferenceCategory
+        android:key="accessibility_incall_vibration_category"
+        android:title="@string/incall_vibration_category" >
+
+        <com.arrow.support.preferences.SystemSettingSwitchPreference
+            android:key="vibrate_on_connect"
+            android:title="@string/incall_vibrate_connect_title"
+            android:defaultValue="false" />
+
+        <com.arrow.support.preferences.SystemSettingSwitchPreference
+            android:key="vibrate_on_callwaiting"
+            android:title="@string/incall_vibrate_call_wait_title"
+            android:defaultValue="false" />
+
+        <com.arrow.support.preferences.SystemSettingSwitchPreference
+            android:key="vibrate_on_disconnect"
+            android:title="@string/incall_vibrate_disconnect_title"
+            android:defaultValue="false" />
 
     </PreferenceCategory>
 
