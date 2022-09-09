@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0a646513_2dc65c9a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2022-09-09T03:25:14Z",
+      "side": 1,
+      "message": "This change has been removed from the HEAD. Solely a mistake while Gerrit chain rebase. New HEAD is 532ce71. (https://github.com/ArrowOS/android_packages_apps_Settings/commit/532ce71003c1cae9828d268aacb7e684cdfb55a0)",
+      "revId": "25736047d2a10fa732247967b91b665203e82b4b",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
