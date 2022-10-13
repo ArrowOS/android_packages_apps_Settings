@@ -164,4 +164,27 @@
         android:summary="@string/show_clip_access_notification_summary"
         settings:controller="com.android.settings.privacy.ShowClipAccessNotificationPreferenceController"/>
 
+    <PreferenceCategory
+        android:title="@string/privacy_indicators_title">
+
+        <com.arrow.support.preferences.SecureSettingSwitchPreference
+            android:key="enable_camera_privacy_indicator"
+            android:title="@string/mic_camera_privacy_indicator_title"
+            android:summary="@string/mic_camera_privacy_indicator_summary"
+            android:defaultValue="true" />
+
+        <com.arrow.support.preferences.SecureSettingSwitchPreference
+            android:key="enable_location_privacy_indicator"
+            android:title="@string/location_privacy_indicator_title"
+            android:summary="@string/location_privacy_indicator_summary"
+            android:defaultValue="true" />
+
+        <com.arrow.support.preferences.SecureSettingSwitchPreference
+            android:key="enable_projection_privacy_indicator"
+            android:title="@string/projection_privacy_indicator_title"
+            android:summary="@string/projection_privacy_indicator_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
