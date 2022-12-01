@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e8c385c_b7563ddc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 279
+      },
+      "writtenOn": "2022-12-01T13:33:59Z",
+      "side": 1,
+      "message": "Tested on nabu, working fine.",
+      "revId": "387a31164fcaf325f8a06997cb4fb9cc80d9ae30",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
