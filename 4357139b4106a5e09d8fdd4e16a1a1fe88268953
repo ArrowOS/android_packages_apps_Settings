@@ -16,6 +16,23 @@
       "message": "Tested on nabu, working fine.",
       "revId": "4357139b4106a5e09d8fdd4e16a1a1fe88268953",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2810949f_e779b9cc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2022-12-05T09:44:07Z",
+      "side": 1,
+      "message": "displayPreference override isn\u0027t needed, since you aren\u0027t adding any custom behavior to it (just calling the same func from super class).",
+      "revId": "4357139b4106a5e09d8fdd4e16a1a1fe88268953",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
     }
   ]
 }
