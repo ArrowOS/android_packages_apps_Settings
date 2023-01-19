@@ -38,6 +38,8 @@ public class ColorInversionPreferenceController extends BasePreferenceController
 
     @Override
     public int getAvailabilityStatus() {
-        return AVAILABLE;
+        return mContext.getResources().getBoolean(
+                com.android.internal.R.bool.config_displayInversionAvailable)
+                ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 }
