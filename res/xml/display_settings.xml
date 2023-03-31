@@ -208,17 +208,17 @@
         </Preference>
 
         <com.arrow.support.preferences.SecureSettingSwitchPreference
-                android:key="qs_show_data_usage"
-                android:title="@string/qs_show_data_usage_title"
-                android:summary="@string/qs_show_data_usage_summary"
-                android:defaultValue="true" />
+            android:key="qs_show_data_usage"
+            android:title="@string/qs_show_data_usage_title"
+            android:summary="@string/qs_show_data_usage_summary"
+            android:defaultValue="true" />
 
-        <com.arrow.support.preferences.SecureSettingSwitchPreference
-               android:key="window_ignore_secure"
-               android:title="@string/ignore_window_secure_title"
-               android:summary="@string/ignore_window_secure_summary"
-               android:defaultValue="false"/>
-
+        <Preference
+            android:key="network_traffic_settings"
+            android:title="@string/network_traffic_title"
+            android:summary="@string/network_traffic_summary"
+            android:order="25"
+            android:fragment="com.android.settings.arrow.NetworkTrafficSettings"/>
     </PreferenceCategory>
 
 </PreferenceScreen>
