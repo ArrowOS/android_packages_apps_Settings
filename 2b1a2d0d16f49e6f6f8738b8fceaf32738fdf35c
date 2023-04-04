@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed298967_3b25029b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 353
+      },
+      "writtenOn": "2023-04-04T11:03:47Z",
+      "side": 1,
+      "message": "Just for repopick",
+      "revId": "2b1a2d0d16f49e6f6f8738b8fceaf32738fdf35c",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
