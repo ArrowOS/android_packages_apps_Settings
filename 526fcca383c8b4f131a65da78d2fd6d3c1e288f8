@@ -16,6 +16,23 @@
       "message": "Remove \"displayPreference\"\nhttps://review.arrowos.net/c/ArrowOS/android_packages_apps_Settings/+/19272",
       "revId": "526fcca383c8b4f131a65da78d2fd6d3c1e288f8",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "88213ae3_7946feed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 408
+      },
+      "writtenOn": "2023-04-19T18:05:49Z",
+      "side": 1,
+      "message": "I tested on MiPad 5 Pro (elish).\nIt fine.",
+      "revId": "526fcca383c8b4f131a65da78d2fd6d3c1e288f8",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
     }
   ]
 }
