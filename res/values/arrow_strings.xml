@@ -228,4 +228,8 @@
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
 
+    <!-- Disable 5G in battery saver -->
+    <string name="battery_saver_5g_title">Turn off 5G</string>
+    <string name="battery_saver_5g_summary">Disable 5G to save power when Battery Saver is on</string>
+
 </resources>
