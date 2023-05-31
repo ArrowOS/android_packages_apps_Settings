@@ -107,6 +107,14 @@
         settings:isPreferenceVisible="@bool/config_show_sim_info"
         settings:controller="com.android.settings.security.ConfirmSimDeletionPreferenceController" />
 
+    <Preference
+        android:order="94"
+        android:key="hide_developer_status_settings"
+        android:title="@string/hide_developer_status_title"
+        android:summary="@string/hide_developer_status_summary"
+        android:fragment="com.android.settings.security.HideDeveloperStatusSettings"
+        settings:controller="com.android.settings.security.HideDeveloperStatusPreferenceController" />
+
     <!-- work profile security section -->
     <PreferenceCategory
         android:order="100"
