@@ -50,11 +50,14 @@ public class ImeiInfoPreferenceController extends BasePreferenceController {
     private final TelephonyManager mTelephonyManager;
     private final List<Preference> mPreferenceList = new ArrayList<>();
     private Fragment mFragment;
+    private boolean mShowDeviceSensitiveInfo, mClickedOnce;
 
     public ImeiInfoPreferenceController(Context context, String key) {
         super(context, key);
         mTelephonyManager = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
         mIsMultiSim = mTelephonyManager.getPhoneCount() > 1;
+        mShowDeviceSensitiveInfo = context.getResources().getBoolean(
+                R.bool.configShowDeviceSensitiveInfo);
     }
 
     public void setHost(Fragment fragment) {
@@ -104,18 +107,23 @@ public class ImeiInfoPreferenceController extends BasePreferenceController {
     }
 
     private CharSequence getSummary(int simSlot) {
-        final int phoneType = getPhoneType(simSlot);
-        if (mContext.getResources().getBoolean(R.bool.configShowDeviceSensitiveInfo)) {
-            return phoneType == PHONE_TYPE_CDMA ? mTelephonyManager.getMeid(simSlot)
-                    : mTelephonyManager.getImei(simSlot);
+        if (!mShowDeviceSensitiveInfo && !mClickedOnce) {
+            return mContext.getString(R.string.device_info_protected_single_press);
         }
-        return mContext.getString(R.string.device_info_protected_single_press);
+        final int phoneType = getPhoneType(simSlot);
+        return phoneType == PHONE_TYPE_CDMA ? mTelephonyManager.getMeid(simSlot)
+                : mTelephonyManager.getImei(simSlot);
     }
 
     @Override
     public boolean handlePreferenceTreeClick(Preference preference) {
         final int simSlot = mPreferenceList.indexOf(preference);
         if (simSlot == -1) {
+            return false;
+        }
+        if (!mShowDeviceSensitiveInfo && !mClickedOnce) {
+            mClickedOnce = true;
+            mPreferenceList.forEach(p -> p.setSummary(getSummary(simSlot)));
             return false;
         }
 
