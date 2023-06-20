@@ -58,9 +58,8 @@ public abstract class AbstractPatternSwitchPreferenceController
     }
 
     private boolean isPatternLock() {
-        return mLockPatternUtils.isSecure(mUserId)
-                && mLockPatternUtils.getKeyguardStoredPasswordQuality(mUserId)
-                == DevicePolicyManager.PASSWORD_QUALITY_SOMETHING;
+        return mLockPatternUtils.getCredentialTypeForUser(mUserId)
+                == LockPatternUtils.CREDENTIAL_TYPE_PATTERN;
     }
 
     @Override

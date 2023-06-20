@@ -1,0 +1,7 @@
+tests/robotests/src/com/android/settings/notification/NotificationVolumePreferenceControllerTest.java
+tests/robotests/src/com/android/settings/notification/SeparateRingVolumePreferenceControllerTest.java
+tests/robotests/src/com/android/settings/notification/RingVolumePreferenceControllerTest.java
+src/com/android/settings/notification/RingVolumePreferenceController.java
+src/com/android/settings/notification/RingerModeAffectedVolumePreferenceController.java
+src/com/android/settings/notification/SeparateRingVolumePreferenceController.java
+src/com/android/settings/notification/NotificationVolumePreferenceController.java

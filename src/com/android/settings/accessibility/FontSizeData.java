@@ -16,6 +16,8 @@
 
 package com.android.settings.accessibility;
 
+import static com.android.settings.accessibility.AccessibilityUtil.State.OFF;
+import static com.android.settings.accessibility.AccessibilityUtil.State.ON;
 import static com.android.settings.display.ToggleFontSizePreferenceFragment.fontSizeValueToIndex;
 
 import android.content.ContentResolver;
@@ -41,7 +43,7 @@ final class FontSizeData extends PreviewSizeData<Float> {
         final Resources resources = getContext().getResources();
         final ContentResolver resolver = getContext().getContentResolver();
         final List<String> strEntryValues =
-                Arrays.asList(resources.getStringArray(R.array.entryvalues_font_size));
+                Arrays.asList(resources.getStringArray(R.array.entryvalues_font_size_percent));
         setDefaultValue(FONT_SCALE_DEF_VALUE);
         final float currentScale =
                 Settings.System.getFloat(resolver, Settings.System.FONT_SCALE, getDefaultValue());
@@ -52,6 +54,12 @@ final class FontSizeData extends PreviewSizeData<Float> {
     @Override
     void commit(int currentProgress) {
         final ContentResolver resolver = getContext().getContentResolver();
+        if (Settings.Secure.getInt(resolver,
+                Settings.Secure.ACCESSIBILITY_FONT_SCALING_HAS_BEEN_CHANGED,
+                /* def= */ OFF) != ON) {
+            Settings.Secure.putInt(resolver,
+                    Settings.Secure.ACCESSIBILITY_FONT_SCALING_HAS_BEEN_CHANGED, ON);
+        }
         Settings.System.putFloat(resolver, Settings.System.FONT_SCALE,
                 getValues().get(currentProgress));
     }
