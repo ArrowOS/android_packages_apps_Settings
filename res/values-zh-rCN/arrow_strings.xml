@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_info_protected_single_press">点击以显示信息</string>
+    <string name="arrow_stats_title">ArrowOS 统计信息</string>
+    <string name="arrow_stats_summary">仅统计我们运行的设备数量</string>
+    <string name="build_date">编译日期</string>
+    <string name="arrow_version">ArrowOS 版本</string>
+    <string name="about_device_name">设备</string>
+    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="min_refresh_rate_title">最低刷新率</string>
+    <string name="max_refresh_rate_title">最高刷新率</string>
+    <string name="preferred_refresh_rate_title">Preferred refresh rate</string>
+    <string name="preferred_refresh_rate_info">Preferred refresh rate will be used as the default refresh rate for user interactions, as long as it\'s within the minimum and maximum refresh rate.</string>
+    <string name="battery_saver_refresh_rate_title">降低刷新率</string>
+    <string name="battery_saver_refresh_rate_summary">在省电模式开启时使用 60 Hz 屏幕刷新率以省电</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">在您的平板正面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">在您的设备正面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">在您的手机正面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">在您的平板背面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">在您的设备背面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">在您的手机背面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">在您的平板侧面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">在您的设备侧面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">在您的手机侧面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">触摸位于平板正面的指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">触摸位于设备正面的指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">触摸位于手机正面的指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">触摸位于平板背面的指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">触摸位于设备背面的指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">触摸位于手机背面的指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">触摸位于平板侧面的指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">触摸位于设备侧面的指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">触摸位于手机侧面的指纹传感器。</string>
+    <string name="color_mode_balance_category">色彩平衡</string>
+    <string name="color_mode_balance_red">红色强度</string>
+    <string name="color_mode_balance_green">绿色强度</string>
+    <string name="color_mode_balance_blue">蓝色强度</string>
+    <string name="keywords_color_balance">颜色、颜色平衡、颜色校正、红色、绿色、蓝色、LiveDisplay</string>
+    <string name="proximity_wake_title">防止意外唤醒</string>
+    <string name="proximity_wake_summary">双击唤醒屏幕前检查距离传感器</string>
+    <string name="volume_rocker_wake_title">音量键唤醒</string>
+    <string name="volume_rocker_wake_summary">使用音量键唤醒您的设备</string>
+    <string name="incall_vibration_category">通话振动选项</string>
+    <string name="incall_vibrate_connect_title">接通时振动</string>
+    <string name="incall_vibrate_call_wait_title">呼叫等待时振动</string>
+    <string name="incall_vibrate_disconnect_title">挂断时振动</string>
+    <string name="notification_sound_vib_screen_on_title">额外的通知效果</string>
+    <string name="notification_sound_vib_screen_on_summary">当屏幕打开时播放声音和振动以进行通知</string>
+    <string name="global_actions_advanced_reboot_title">启用高级重启</string>
+    <string name="global_actions_advanced_reboot_summary">在电源菜单中显示恢复模式和引导模式选项</string>
+    <string name="three_finger_gesture">滑动截屏</string>
+    <string name="three_finger_gesture_summary">三指同时下滑以截取屏幕</string>
+    <string name="radio_info_title">Radio info</string>
+    <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备的 VPN 连接</string>
+    <string name="navbar_invert_layout_title">反转导航栏布局</string>
+    <string name="navbar_invert_info">交换导航栏上的 \"返回\" 和 \"最近任务\" 按钮</string>
+    <string name="show_navbar_gesture_bar_title">手势栏</string>
+    <string name="show_navbar_gesture_bar_summary">在屏幕底部显示手势栏</string>
+    <string name="volume_panel_on_left_title">音量面板居左</string>
+    <string name="volume_panel_on_left_summary">Move volume panel to the left side of the screen</string>
+    <string name="power_button_torch_title">Quick torch</string>
+    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
+    <string name="double_tap_sleep_gesture_title">点按以休眠</string>
+    <string name="double_tap_sleep_gesture_summary">双击状态栏的任何位置来关闭屏幕</string>
+    <string name="low_battery_light_title">Low battery light</string>
+    <string name="low_battery_light_summary">Blink LED when battery is low</string>
+    <string name="network_traffic_title">网络流量指示器</string>
+    <string name="network_traffic_summary">在状态栏中启用或禁用网络速度指示器</string>
+    <string name="network_traffic_state_title">启用“网络流量指示器”</string>
+    <string name="network_options_title">选项</string>
+    <string name="network_traffic_autohide_title">当网络处于非活动状态时隐藏网络流量指示器</string>
+    <string name="network_traffic_autohide_summary">当网络流量指示器小于 1 KB/s 时隐藏</string>
+    <string name="customization_category_title">自定义</string>
+    <string name="qs_show_data_usage_title">Show data usage</string>
+    <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
+    <string name="icon_manager_title">Status bar items</string>
+    <string name="icon_manager_summary">Control visibility of status bar icons</string>
+    <string name="system_black_theme_title">使用黑色主题</string>
+    <string name="system_black_theme_summary">强制使用黑色背景</string>
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <string name="volume_button_music_control_title">播放控制</string>
+    <string name="volume_button_music_control_summary">屏幕关闭时，长按音量键来切换不同曲目</string>
+    <string name="laboratory_parallel_space_title">Parallel space</string>
+    <string name="laboratory_parallel_space_summary">Allow running multiple instances of the same application in parallel.</string>
+    <string name="backup_transport_setting_label">Change backup provider</string>
+    <string name="backup_transport_title">Select backup provider</string>
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <string name="app_lock_title">App lock</string>
+    <plurals name="app_lock_summary">
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Unlock</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_notifications_title">Redact notifications</string>
+    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
+          Heads up notifications will be automatically disabled.
+    </string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_protection">Enable protection</string>
+    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="hide_from_launcher_summary">        Prevent this application from showing up in launcher. Requires a launcher restart for changes to take effect.
+    </string>
+    <string name="enable_fingerprint_ripple_effect_title">波纹效果</string>
+    <string name="enable_fingerprint_ripple_effect_summary">使用指纹解锁时显示波纹效果</string>
+    <string name="screenshot_shutter_sound_title">截屏提示音</string>
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
+    <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
+    <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
+    <string name="battery_stats_reset">Reset stats?</string>
+    <string name="battery_stats_message">Battery usage data will be lost</string>
+    <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
+    <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups.</string>
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Reduces eye strain in low light conditions by minimizing screen flicker. May result in reduced image quality and poor color production, or higher power consumption.</string>
+    <string name="dc_dimming_main_switch_title">Use DC Dimming</string>
+    <string name="keywords_display_dc_dimming">dc dimming, anti, flicker, eye, strain</string>
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+</resources>

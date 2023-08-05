@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_info_protected_single_press">Atingeți pentru a afișa informații</string>
+    <string name="arrow_stats_title">ArrowOS statistici</string>
+    <string name="arrow_stats_summary">Numărând doar câte dispozitive rulăm</string>
+    <string name="build_date">Dată compilare</string>
+    <string name="arrow_version">Versiune ArrowOS</string>
+    <string name="about_device_name">Dizpozitiv</string>
+    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="min_refresh_rate_title">Rata minimă de reîmprospătare</string>
+    <string name="max_refresh_rate_title">Rata maximă de reîmprospătare</string>
+    <string name="preferred_refresh_rate_title">Preferred refresh rate</string>
+    <string name="preferred_refresh_rate_info">Preferred refresh rate will be used as the default refresh rate for user interactions, as long as it\'s within the minimum and maximum refresh rate.</string>
+    <string name="battery_saver_refresh_rate_title">Reduceți rata reîmprospătarii</string>
+    <string name="battery_saver_refresh_rate_summary">Utilizați rata de reîmprospătare 60 Hz pentru a salva baterie când Modul de Economisire baterie este activ</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Găsiți senzorul de amprentă pe partea din faţă a tabletei.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Găsiți senzorul de amprentă pe partea din față a dispozitivului.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Găsiți senzorul de amprentă pe partea din față a telefonului.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Găsiți senzorul de amprentă pe partea din spate a tabletei.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Găsiți senzorul de amprentă pe partea din spate a dispozitivului.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Găsiți senzorul de amprentă pe partea din spate a telefonului.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Găsiți senzorul de amprentă pe partea laterală a tabletei.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Găsiți senzorul de amprentă pe partea laterală a dispozitivului.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Găsiți senzorul de amprentă pe partea laterală a telefonului.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Atingeți senzorul de pe partea din față a tabletei.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Atingeți senzorul de pe partea din față a dispozitivului.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Atingeți senzorul de pe partea din față a telefonului.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Atingeți senzorul de pe partea din spate a tabletei.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Atingeți senzorul de pe partea din spate a dispozitivului.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Atingeți senzorul din partea din spate a telefonului.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Atingeți senzorul de pe partea laterală a tabletei.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Atingeți senzorul de pe partea laterală a dispozitivului.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Atingeți senzorul de pe partea laterală a telefonului.</string>
+    <string name="color_mode_balance_category">Balans de culoare</string>
+    <string name="color_mode_balance_red">Intensitate roșu</string>
+    <string name="color_mode_balance_green">Intensitate verde</string>
+    <string name="color_mode_balance_blue">Intensitate albastru</string>
+    <string name="keywords_color_balance">culoare, balans culoare, corectarea culorilor, roșu, verde, albastru, LiveDisplay</string>
+    <string name="proximity_wake_title">Prevenirea trezirii accidentale</string>
+    <string name="proximity_wake_summary">Verifică senzorul de proximitate înainte de a porni ecranul cu gestul Dublă atingere pentru trezire</string>
+    <string name="volume_rocker_wake_title">Trezire apăsând tastele de volum</string>
+    <string name="volume_rocker_wake_summary">Trezește dispozitivul apăsând tastele de volum</string>
+    <string name="incall_vibration_category">Opțiuni de vibrații în apel</string>
+    <string name="incall_vibrate_connect_title">Vibrare la conectarea apelului</string>
+    <string name="incall_vibrate_call_wait_title">Vibrare când apelul este în așteptare</string>
+    <string name="incall_vibrate_disconnect_title">Vibrare la deconectare apel</string>
+    <string name="notification_sound_vib_screen_on_title">Notificări evervante</string>
+    <string name="notification_sound_vib_screen_on_summary">Redă sunete și vibrații pentru notificări când ecranul este pornit</string>
+    <string name="global_actions_advanced_reboot_title">Activează repornire avansată</string>
+    <string name="global_actions_advanced_reboot_summary">Arată opțiuni pentru modul recuperare și bootloader în meniul de power</string>
+    <string name="three_finger_gesture">Glisează pentru a face captură de ecran</string>
+    <string name="three_finger_gesture_summary">Glisați în jos cu trei degete pentru a realiza o captură de ecran</string>
+    <string name="radio_info_title">Radio info</string>
+    <string name="tethering_allow_vpn_upstreams_title">Permite clienților să utilizeze VPN-uri</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permite clienților hotspot-ului să utilizeze conexiunile VPN ale acestui dispozitiv pentru conexiunea upstream</string>
+    <string name="navbar_invert_layout_title">Inversează aspectul barei de navigare</string>
+    <string name="navbar_invert_info">Schimbă butoanele \"Înapoi\" și \"Recente\" pe bara de navigare</string>
+    <string name="show_navbar_gesture_bar_title">Bară de gesturi</string>
+    <string name="show_navbar_gesture_bar_summary">Arată bara de gesturi în partea de jos a ecranului</string>
+    <string name="volume_panel_on_left_title">Arată panoul de volum în stânga</string>
+    <string name="volume_panel_on_left_summary">Move volume panel to the left side of the screen</string>
+    <string name="power_button_torch_title">Quick torch</string>
+    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
+    <string name="double_tap_sleep_gesture_title">Atinge pentru sleep</string>
+    <string name="double_tap_sleep_gesture_summary">Atinge de două ori oriunde pe bara de stare pentru a pune dizpozitivul în modul sleep</string>
+    <string name="low_battery_light_title">Low battery light</string>
+    <string name="low_battery_light_summary">Blink LED when battery is low</string>
+    <string name="network_traffic_title">Indicator trafic rețea</string>
+    <string name="network_traffic_summary">Activează sau dezactivează indicatorul de viteză a rețelei în bara de stare</string>
+    <string name="network_traffic_state_title">Activare „indicator de trafic de rețea”</string>
+    <string name="network_options_title">Opțiuni</string>
+    <string name="network_traffic_autohide_title">Ascunderea indicatorului de trafic de rețea este inactivă</string>
+    <string name="network_traffic_autohide_summary">Ascunde când indicatorul de trafic în rețea este mai mic de 1 KB/s</string>
+    <string name="customization_category_title">Personalizare</string>
+    <string name="qs_show_data_usage_title">Show data usage</string>
+    <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
+    <string name="icon_manager_title">Status bar items</string>
+    <string name="icon_manager_summary">Control visibility of status bar icons</string>
+    <string name="system_black_theme_title">Folosește tema neagră</string>
+    <string name="system_black_theme_summary">Forțează culorile negre de fundal</string>
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <string name="volume_button_music_control_title">Controlul redării</string>
+    <string name="volume_button_music_control_summary">Când ecranul e oprit apăsarea butoanelor de volum vor omite melodii</string>
+    <string name="laboratory_parallel_space_title">Parallel space</string>
+    <string name="laboratory_parallel_space_summary">Allow running multiple instances of the same application in parallel.</string>
+    <string name="backup_transport_setting_label">Change backup provider</string>
+    <string name="backup_transport_title">Select backup provider</string>
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <string name="app_lock_title">App lock</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
+        <item quantity="few"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Unlock</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_notifications_title">Redact notifications</string>
+    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
+          Heads up notifications will be automatically disabled.
+    </string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_protection">Enable protection</string>
+    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="hide_from_launcher_summary">        Prevent this application from showing up in launcher. Requires a launcher restart for changes to take effect.
+    </string>
+    <string name="enable_fingerprint_ripple_effect_title">Efect ondulare</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Arată efectul de undă la deblocare cu amprenta</string>
+    <string name="screenshot_shutter_sound_title">Sunet de captură de ecran</string>
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
+    <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
+    <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
+    <string name="battery_stats_reset">Reset stats?</string>
+    <string name="battery_stats_message">Battery usage data will be lost</string>
+    <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
+    <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups.</string>
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Reduces eye strain in low light conditions by minimizing screen flicker. May result in reduced image quality and poor color production, or higher power consumption.</string>
+    <string name="dc_dimming_main_switch_title">Use DC Dimming</string>
+    <string name="keywords_display_dc_dimming">dc dimming, anti, flicker, eye, strain</string>
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+</resources>
