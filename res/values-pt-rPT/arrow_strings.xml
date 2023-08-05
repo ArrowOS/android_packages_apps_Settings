@@ -20,11 +20,11 @@
     <string name="build_date">Data de compilação</string>
     <string name="arrow_version">Versão do ArrowOS</string>
     <string name="about_device_name">Dispositivo</string>
-    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_title">Taxa de atualização</string>
     <string name="min_refresh_rate_title">Taxa mínima de atualização</string>
     <string name="max_refresh_rate_title">Taxa máxima de atualização</string>
-    <string name="preferred_refresh_rate_title">Preferred refresh rate</string>
-    <string name="preferred_refresh_rate_info">Preferred refresh rate will be used as the default refresh rate for user interactions, as long as it\'s within the minimum and maximum refresh rate.</string>
+    <string name="preferred_refresh_rate_title">Taxa de atualização preferida</string>
+    <string name="preferred_refresh_rate_info">A taxa de atualização preferida vai ser utilizada como predefinição para as interações, desde que não seja inferior à taxa mínima e não, seja superior à taxa máxima.</string>
     <string name="battery_saver_refresh_rate_title">Reduzir taxa de atualização</string>
     <string name="battery_saver_refresh_rate_summary">Usar a taxa de atualização do ecrã de 60 Hz para economizar energia quando a Economia de bateria estiver ativada</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localize o sensor de impressões digitais à frente do seu tablet.</string>
@@ -64,7 +64,7 @@
     <string name="global_actions_advanced_reboot_summary">Mostrar opções para recuperação e bootloader no menu de energia</string>
     <string name="three_finger_gesture">Deslizar para capturar o ecrã</string>
     <string name="three_finger_gesture_summary">Deslizar para baixo com três dedos no ecrã para tirar uma captura de ecrã</string>
-    <string name="radio_info_title">Radio info</string>
+    <string name="radio_info_title">Informações de rede móvel</string>
     <string name="tethering_allow_vpn_upstreams_title">Permitir que os clientes usem VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes de hotspot usem as ligações VPN deste dispositivo</string>
     <string name="navbar_invert_layout_title">Inverter layout da barra de navegação</string>
@@ -72,13 +72,13 @@
     <string name="show_navbar_gesture_bar_title">Barra de gestos</string>
     <string name="show_navbar_gesture_bar_summary">Mostrar barra de gestos na parte inferior do ecrã</string>
     <string name="volume_panel_on_left_title">Mostrar painel de volume à esquerda</string>
-    <string name="volume_panel_on_left_summary">Move volume panel to the left side of the screen</string>
-    <string name="power_button_torch_title">Quick torch</string>
-    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
+    <string name="volume_panel_on_left_summary">Move o painel de volume para o lado esquerdo do ecrã</string>
+    <string name="power_button_torch_title">Lanterna rápida</string>
+    <string name="power_button_torch_summary">Quando o ecrã estiver desligado, a pressão longa no botão de ligar/desligar ligará a lanterna</string>
     <string name="double_tap_sleep_gesture_title">Toque para desligar</string>
     <string name="double_tap_sleep_gesture_summary">Toque duplo na barra de estado para desligar o ecrã do dispositivo</string>
-    <string name="low_battery_light_title">Low battery light</string>
-    <string name="low_battery_light_summary">Blink LED when battery is low</string>
+    <string name="low_battery_light_title">Luz de bateria fraca</string>
+    <string name="low_battery_light_summary">Piscar o LED quando a bateria estiver fraca</string>
     <string name="network_traffic_title">Indicadores de tráfego de Rede</string>
     <string name="network_traffic_summary">Ativar ou desativar o indicador de velocidade de rede na barra de estado</string>
     <string name="network_traffic_state_title">Ativar \"Indicador de tráfego de rede\"</string>
