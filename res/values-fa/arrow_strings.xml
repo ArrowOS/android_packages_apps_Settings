@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_info_protected_single_press">برای نمایش اطلاعات ضربه بزنید</string>
+    <string name="arrow_stats_title">آمار ArrowOS</string>
+    <string name="arrow_stats_summary">تعداد دستگاه‌هایی که ArrowOS در آن ها اجرا میشود را شمارش میکنیم</string>
+    <string name="build_date">تاریخ ساخت</string>
+    <string name="arrow_version">نسخه ArrowOS</string>
+    <string name="about_device_name">دستگاه</string>
+    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="min_refresh_rate_title">کمترین نرخ نوسازی صفحه‌نمایش</string>
+    <string name="max_refresh_rate_title">بیشترین نرخ نوسازی صفحه‌نمایش</string>
+    <string name="preferred_refresh_rate_title">Preferred refresh rate</string>
+    <string name="preferred_refresh_rate_info">Preferred refresh rate will be used as the default refresh rate for user interactions, as long as it\'s within the minimum and maximum refresh rate.</string>
+    <string name="battery_saver_refresh_rate_title">کاهش نرخ نوسازی صفحه‌نمایش</string>
+    <string name="battery_saver_refresh_rate_summary">وقتی «بهینه‌سازی باتری» روشن است، از نرخ نوسازی صفحه‌نمایش 60 هرتز برای صرفه‌جویی در مصرف انرژی استفاده کنید</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">حسگر اثر انگشت را در جلوی تبلت خود پیدا کنید.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">حسگر اثر انگشت را در جلوی دستگاه خود پیدا کنید.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">حسگر اثر انگشت را در جلوی گوشی خود پیدا کنید.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">حسگر اثر انگشت را در پشت تبلت خود پیدا کنید.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">حسگر اثر انگشت را در پشت دستگاه خود پیدا کنید.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">حسگر اثر انگشت را در پشت گوشی خود پیدا کنید.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">حسگر اثر انگشت را در کنار تبلت خود پیدا کنید.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">حسگر اثر انگشت را در کنار دستگاه خود پیدا کنید.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">حسگر اثر انگشت را در کنار گوشی خود پیدا کنید.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">حسگر جلوی تبلت خود را لمس کنید.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">حسگر جلوی دستگاه خود را لمس کنید.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">سنسور جلوی گوشی خود را لمس کنید.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">حسگر پشت تبلت خود را لمس کنید.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">حسگر پشت دستگاه خود را لمس کنید.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">سنسور پشت گوشی خود را لمس کنید.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">حسگر کنار تبلت خود را لمس کنید.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">حسگر کنار دستگاه خود را لمس کنید.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">سنسور کنار گوشی خود را لمس کنید.</string>
+    <string name="color_mode_balance_category">تعادل رنگ</string>
+    <string name="color_mode_balance_red">قدرت قرمز</string>
+    <string name="color_mode_balance_green">قدرت سبز</string>
+    <string name="color_mode_balance_blue">قدرت آبی</string>
+    <string name="keywords_color_balance">رنگ، تعادل رنگ، تصحیح رنگ، قرمز، سبز، آبی، LiveDisplay</string>
+    <string name="proximity_wake_title">جلوگیری از روشن شدن اتفاقی</string>
+    <string name="proximity_wake_summary">سنسور مجاورت را قبل از بیدار کردن صفحه از ژست دوبار ضربه زدن ۲ بیدار بررسی کنید</string>
+    <string name="volume_rocker_wake_title">بیدار شدن توسط کلید های کنترل صدا</string>
+    <string name="volume_rocker_wake_summary">با فشار دادن کلیدهای صدا، دستگاه خود را بیدار کنید</string>
+    <string name="incall_vibration_category">تنظیمات لرزش هنگام تماس</string>
+    <string name="incall_vibrate_connect_title">لرزش در هنگام برقراری تماس</string>
+    <string name="incall_vibrate_call_wait_title">لرزش در هنگام انتظار تماس</string>
+    <string name="incall_vibrate_disconnect_title">لرزش در هنگام قطع تماس</string>
+    <string name="notification_sound_vib_screen_on_title">اعلان های مزاحم</string>
+    <string name="notification_sound_vib_screen_on_summary">پخش صدا و لرزش برای اعلان ها حتی زمانی که صفحه نمایش روشن است</string>
+    <string name="global_actions_advanced_reboot_title">فعالسازی راه‌اندازی مجدد پیشرفته</string>
+    <string name="global_actions_advanced_reboot_summary">نمایش گزینه های راه‌اندازی مجدد به بوت‌لودر و ریکاوری در منوی پاور</string>
+    <string name="three_finger_gesture">کشیدن انگشت برای اسکرین‌شات</string>
+    <string name="three_finger_gesture_summary">برای گرفتن اسکرین‌شات سه انگشت خود را بر روی صفحه نمایشگر به پایین بکشید</string>
+    <string name="radio_info_title">Radio info</string>
+    <string name="tethering_allow_vpn_upstreams_title">اجازه دادن به کاربران برای استفاده از وی‌پی‌ان</string>
+    <string name="tethering_allow_vpn_upstreams_summary">به کاربران نقطه اتصال همراه اجازه دهید از وی‌پی‌ان این دستگاه\u2019 برای اتصال بالادستی استفاده کنند</string>
+    <string name="navbar_invert_layout_title">معکوس کردن حالت نوار ناوبری</string>
+    <string name="navbar_invert_info">تغییر مکان دکمه های \"برگشت\" و \"اخیر\" در نوار ناوبری</string>
+    <string name="show_navbar_gesture_bar_title">نوار ژست</string>
+    <string name="show_navbar_gesture_bar_summary">نمایش نشانگر ژست‌های حرکتی در انتهای صفحه</string>
+    <string name="volume_panel_on_left_title">نمایش پنل در سمت چپ</string>
+    <string name="volume_panel_on_left_summary">Move volume panel to the left side of the screen</string>
+    <string name="power_button_torch_title">Quick torch</string>
+    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
+    <string name="double_tap_sleep_gesture_title">ضربه زدن برای خواب</string>
+    <string name="double_tap_sleep_gesture_summary">برای خاموش کردن صفحه نمایش به نوار وضعیت دو بار ضربه بزنید</string>
+    <string name="low_battery_light_title">Low battery light</string>
+    <string name="low_battery_light_summary">Blink LED when battery is low</string>
+    <string name="network_traffic_title">نشانگر ترافیک شبکه</string>
+    <string name="network_traffic_summary">فعال یا غیرفعال کردن نشانگر سرعت شبکه در نوار وضعیت</string>
+    <string name="network_traffic_state_title">فعال کردن \"نشانگر ترافیک شبکه\"</string>
+    <string name="network_options_title">گزینه ها</string>
+    <string name="network_traffic_autohide_title">نشانگر پنهان کردن ترافیک شبکه غیرفعال است</string>
+    <string name="network_traffic_autohide_summary">هنگامی که نشانگر ترافیک شبکه کمتر از 1 کیلوبایت بر ثانیه است پنهان شود</string>
+    <string name="customization_category_title">شخصی سازی</string>
+    <string name="qs_show_data_usage_title">Show data usage</string>
+    <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
+    <string name="icon_manager_title">Status bar items</string>
+    <string name="icon_manager_summary">Control visibility of status bar icons</string>
+    <string name="system_black_theme_title">استفاده از تم مشکی</string>
+    <string name="system_black_theme_summary">اجبار رنگ های مشکی پس‌زمینه</string>
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <string name="volume_button_music_control_title">کنترل پخش</string>
+    <string name="volume_button_music_control_summary">زمانی که صفحه نمایش خاموش است، با نگه داشتن کلید های تنظیم صدا موسیقی را تغییر دهید</string>
+    <string name="laboratory_parallel_space_title">Parallel space</string>
+    <string name="laboratory_parallel_space_summary">Allow running multiple instances of the same application in parallel.</string>
+    <string name="backup_transport_setting_label">Change backup provider</string>
+    <string name="backup_transport_title">Select backup provider</string>
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <string name="app_lock_title">App lock</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Unlock</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_notifications_title">Redact notifications</string>
+    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
+          Heads up notifications will be automatically disabled.
+    </string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_protection">Enable protection</string>
+    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="hide_from_launcher_summary">        Prevent this application from showing up in launcher. Requires a launcher restart for changes to take effect.
+    </string>
+    <string name="enable_fingerprint_ripple_effect_title">جلوه موج دار</string>
+    <string name="enable_fingerprint_ripple_effect_summary">نمایش جلوه موج دار در باز کردن قفل با اثر انگشت</string>
+    <string name="screenshot_shutter_sound_title">صدای اسکرین‌شات</string>
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
+    <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
+    <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
+    <string name="battery_stats_reset">Reset stats?</string>
+    <string name="battery_stats_message">Battery usage data will be lost</string>
+    <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
+    <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups.</string>
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Reduces eye strain in low light conditions by minimizing screen flicker. May result in reduced image quality and poor color production, or higher power consumption.</string>
+    <string name="dc_dimming_main_switch_title">Use DC Dimming</string>
+    <string name="keywords_display_dc_dimming">dc dimming, anti, flicker, eye, strain</string>
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+</resources>

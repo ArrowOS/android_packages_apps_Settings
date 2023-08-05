@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_info_protected_single_press">Tik om info te tonen</string>
+    <string name="arrow_stats_title">ArrowOS Statistieken</string>
+    <string name="arrow_stats_summary">Gewoon bijhouden op hoeveel toestellen we draaien</string>
+    <string name="build_date">Compileerdatum</string>
+    <string name="arrow_version">ArrowOS versie</string>
+    <string name="about_device_name">Toestel</string>
+    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="min_refresh_rate_title">Minimale verversingsfrequentie</string>
+    <string name="max_refresh_rate_title">Maximale verversingsfrequentie</string>
+    <string name="preferred_refresh_rate_title">Preferred refresh rate</string>
+    <string name="preferred_refresh_rate_info">Preferred refresh rate will be used as the default refresh rate for user interactions, as long as it\'s within the minimum and maximum refresh rate.</string>
+    <string name="battery_saver_refresh_rate_title">Vernieuwingsfrequentie verlagen</string>
+    <string name="battery_saver_refresh_rate_summary">Gebruik 60 Hz schermverversingssnelheid om energie te besparen wanneer batterijbesparing is ingeschakeld</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Vind de vingerafdruk scanner op de voorkant van uw tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Vind de vingerafdruk scanner op de voorkant van uw apparaat.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Vindt de vingerafdruk scanner op de voorkant van uw telefoon.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Vindt de vingerafdruk scanner op de achterkant van uw tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Vindt de vingerafdruk scanner op de achterkant van uw apparaat.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Vindt de vingerafdruk scanner op de achterkant van uw telefoon.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Vind de vingerafdruk scanner op de zijkant van uw tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Vind de vingerafdruk scanner op de zijkant van uw apparaat.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Vind de vingerafdruk scanner op de zijkant van uw telefoon.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Raak de sensor op de voorkant van uw tablet aan.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Raak de sensor op de voorkant van uw apparaat aan.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Raak de sensor aan op de voorkant van de telefoon.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Raak de sensor aan op de achterkant van uw tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Raak de sensor aan op de achterkant van uw apparaat.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Raak de sensor aan op de achterkant van uw telefoon.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Raak de sensor aan de zijkant van uw tablet aan.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Raak de sensor aan de zijkant van uw apparaat.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Raak de sensor aan op de zijkant van de telefoon.</string>
+    <string name="color_mode_balance_category">Kleurbalans</string>
+    <string name="color_mode_balance_red">Rood sterkte</string>
+    <string name="color_mode_balance_green">Groen sterkte</string>
+    <string name="color_mode_balance_blue">Blauw sterkte</string>
+    <string name="keywords_color_balance">kleurbalans, kleurcorrectie, rood, groen, blauw, LiveDisplay</string>
+    <string name="proximity_wake_title">Per ongeluk ontwaken voorkomen</string>
+    <string name="proximity_wake_summary">Nabijheidssensor gebruiken voorafgaand aan ontwaken van scherm via Dubbel Tik 2 Ontwaken gebaar</string>
+    <string name="volume_rocker_wake_title">Ontwaken met volumeknop</string>
+    <string name="volume_rocker_wake_summary">Apparaat ontwaken door indrukken volumeknop</string>
+    <string name="incall_vibration_category">Tijdens gesprek trilopties</string>
+    <string name="incall_vibrate_connect_title">Trillen tijdens verbinden</string>
+    <string name="incall_vibrate_call_wait_title">Trillen bij wisselgesprek</string>
+    <string name="incall_vibrate_disconnect_title">Trillen tijdens ophangen</string>
+    <string name="notification_sound_vib_screen_on_title">Vervelende meldingen</string>
+    <string name="notification_sound_vib_screen_on_summary">Geluid en trillen afspelen voor meldingen wanneer het scherm aan is</string>
+    <string name="global_actions_advanced_reboot_title">Geavanceerde herstart inschakelen</string>
+    <string name="global_actions_advanced_reboot_summary">Toon opties voor recovery en bootloader in het afsluitmenu</string>
+    <string name="three_finger_gesture">Veeg voor schermopname</string>
+    <string name="three_finger_gesture_summary">Veeg omlaag met drie vingers om een schermafbeelding te maken</string>
+    <string name="radio_info_title">Radio info</string>
+    <string name="tethering_allow_vpn_upstreams_title">Sta cliënten toe VPN\'s te gebruiken</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Sta hotspot-gebruikers toe om de VPN-verbindingen van dit apparaat te gebruiken om te uploaden</string>
+    <string name="navbar_invert_layout_title">Omkeren navigatiebalk lay-out</string>
+    <string name="navbar_invert_info">Verwissel de \"terug\" en \"recent\" knoppen op de nabigatie balk</string>
+    <string name="show_navbar_gesture_bar_title">Gebaren bar</string>
+    <string name="show_navbar_gesture_bar_summary">Toon gebaren balk aan de onderkant van het scherm</string>
+    <string name="volume_panel_on_left_title">Toon paneel aan de linkerkant</string>
+    <string name="volume_panel_on_left_summary">Move volume panel to the left side of the screen</string>
+    <string name="power_button_torch_title">Quick torch</string>
+    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
+    <string name="double_tap_sleep_gesture_title">Dubbeltikken voor slaapstand</string>
+    <string name="double_tap_sleep_gesture_summary">Dubbel tikken op de statusbalk om het apparaat in slaapstand te zetten</string>
+    <string name="low_battery_light_title">Low battery light</string>
+    <string name="low_battery_light_summary">Blink LED when battery is low</string>
+    <string name="network_traffic_title">Netwerk verkeer indicator</string>
+    <string name="network_traffic_summary">Netwerksnelheidsindicator in- of uitschakelen in statusbalk</string>
+    <string name="network_traffic_state_title">Netwerk verkeer indicator aanzetten</string>
+    <string name="network_options_title">Opties</string>
+    <string name="network_traffic_autohide_title">Verberg netwerk verkeer indicator is inactief</string>
+    <string name="network_traffic_autohide_summary">Verbergen wanneer netwerk verkeer indicator onder 1 KB/s is</string>
+    <string name="customization_category_title">Aanpassingen</string>
+    <string name="qs_show_data_usage_title">Show data usage</string>
+    <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
+    <string name="icon_manager_title">Status bar items</string>
+    <string name="icon_manager_summary">Control visibility of status bar icons</string>
+    <string name="system_black_theme_title">Gebruik Zwart thema</string>
+    <string name="system_black_theme_summary">Zwarte achtergrondkleuren forceren</string>
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <string name="volume_button_music_control_title">Afspeelbediening</string>
+    <string name="volume_button_music_control_summary">Wanneer het scherm uit is, zal het langdurig drukken op de volume knoppen muzieknummers overslaan</string>
+    <string name="laboratory_parallel_space_title">Parallel space</string>
+    <string name="laboratory_parallel_space_summary">Allow running multiple instances of the same application in parallel.</string>
+    <string name="backup_transport_setting_label">Change backup provider</string>
+    <string name="backup_transport_title">Select backup provider</string>
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <string name="app_lock_title">App lock</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Unlock</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_notifications_title">Redact notifications</string>
+    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
+          Heads up notifications will be automatically disabled.
+    </string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_protection">Enable protection</string>
+    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="hide_from_launcher_summary">        Prevent this application from showing up in launcher. Requires a launcher restart for changes to take effect.
+    </string>
+    <string name="enable_fingerprint_ripple_effect_title">Rimpel effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Toon rimpeleffect bij ontgrendelen met vingerafdruk</string>
+    <string name="screenshot_shutter_sound_title">Schermafdruk geluid</string>
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
+    <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
+    <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
+    <string name="battery_stats_reset">Reset stats?</string>
+    <string name="battery_stats_message">Battery usage data will be lost</string>
+    <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
+    <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups.</string>
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Reduces eye strain in low light conditions by minimizing screen flicker. May result in reduced image quality and poor color production, or higher power consumption.</string>
+    <string name="dc_dimming_main_switch_title">Use DC Dimming</string>
+    <string name="keywords_display_dc_dimming">dc dimming, anti, flicker, eye, strain</string>
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+</resources>
