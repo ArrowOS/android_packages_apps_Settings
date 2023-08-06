@@ -84,7 +84,7 @@
     <string name="network_traffic_state_title">ネットワーク通信量モニターを有効化</string>
     <string name="network_options_title">オプション</string>
     <string name="network_traffic_autohide_title">ネットワーク通信量モニターを隠す</string>
-    <string name="network_traffic_autohide_summary">1 KB/s未満の場合は通信料モニターを非表示にする</string>
+    <string name="network_traffic_autohide_summary">1 KB/s未満の場合は通信量モニターを非表示にする</string>
     <string name="customization_category_title">カスタマイズ</string>
     <string name="qs_show_data_usage_title">Show data usage</string>
     <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
