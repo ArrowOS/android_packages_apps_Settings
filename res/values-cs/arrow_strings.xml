@@ -20,11 +20,11 @@
     <string name="build_date">Datum sestavení</string>
     <string name="arrow_version">Verze ArrowOS</string>
     <string name="about_device_name">Zařízení</string>
-    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_title">Frekvence obnovení</string>
     <string name="min_refresh_rate_title">Minimální obnovovací frekvence</string>
     <string name="max_refresh_rate_title">Maximální obnovovací frekvence</string>
-    <string name="preferred_refresh_rate_title">Preferred refresh rate</string>
-    <string name="preferred_refresh_rate_info">Preferred refresh rate will be used as the default refresh rate for user interactions, as long as it\'s within the minimum and maximum refresh rate.</string>
+    <string name="preferred_refresh_rate_title">Preferovaná frekvence obnovení</string>
+    <string name="preferred_refresh_rate_info">Preferovaná frekvence obnovení se použije jako výchozí frekvence pro interakce s uživatelem, pokud je v rozsahu minimální a maximální frekvence obnovení.</string>
     <string name="battery_saver_refresh_rate_title">Snížit obnovovací frekvenci</string>
     <string name="battery_saver_refresh_rate_summary">Když je zapnut spořič baterie, použít obnovovací frekvenci 60 Hz pro úsporu energie</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Vyhledejte snímač otisků prstů na přední straně tabletu.</string>
@@ -64,7 +64,7 @@
     <string name="global_actions_advanced_reboot_summary">V menu napájení zobrazit možnosti pro režim recovery a bootloader</string>
     <string name="three_finger_gesture">Snímek obrazovky třemi prsty</string>
     <string name="three_finger_gesture_summary">Přejetím dolů třemi prsty pořídit snímek obrazovky</string>
-    <string name="radio_info_title">Radio info</string>
+    <string name="radio_info_title">Informace o modemu</string>
     <string name="tethering_allow_vpn_upstreams_title">Umožnit klientům používat VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Povolit klientům hotspotu používat připojení VPN tohoto zařízení pro odchozí připojení</string>
     <string name="navbar_invert_layout_title">Převrátit rozložení navigačního panelu</string>
@@ -72,13 +72,13 @@
     <string name="show_navbar_gesture_bar_title">Panel gest</string>
     <string name="show_navbar_gesture_bar_summary">Zobrazit panel gesta v dolní části obrazovky</string>
     <string name="volume_panel_on_left_title">Zobrazit panel hlasitosti vlevo</string>
-    <string name="volume_panel_on_left_summary">Move volume panel to the left side of the screen</string>
-    <string name="power_button_torch_title">Quick torch</string>
-    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
+    <string name="volume_panel_on_left_summary">Přesunout panel hlasitosti na levou stranu obrazovky</string>
+    <string name="power_button_torch_title">Rychlá svítilna</string>
+    <string name="power_button_torch_summary">Když je obrazovka vypnutá, dlouhým stiskem tlačítka napájení zapnete svítilnu</string>
     <string name="double_tap_sleep_gesture_title">Klepnutím uspat</string>
     <string name="double_tap_sleep_gesture_summary">Dvojí poklepání kdekoliv na stavový řádek uvede zařízení do režimu spánku</string>
-    <string name="low_battery_light_title">Low battery light</string>
-    <string name="low_battery_light_summary">Blink LED when battery is low</string>
+    <string name="low_battery_light_title">Kontrolka nízkého stavu baterie</string>
+    <string name="low_battery_light_summary">Blikání LED kontrolky baterie při nízkém stavu</string>
     <string name="network_traffic_title">Indikátor síťového provozu</string>
     <string name="network_traffic_summary">Zapnout nebo vypnout indikátory rychlosti sítě ve stavovém řádku</string>
     <string name="network_traffic_state_title">Zapnout \"Indikátor síťového provozu\"</string>
@@ -86,66 +86,66 @@
     <string name="network_traffic_autohide_title">Skrýt indikátor síťového provozu při neaktivitě</string>
     <string name="network_traffic_autohide_summary">Skrýt indikátor síťového provozu, když je stahování nižší než 1 KB/s</string>
     <string name="customization_category_title">Přizpůsobení</string>
-    <string name="qs_show_data_usage_title">Show data usage</string>
-    <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
-    <string name="icon_manager_title">Status bar items</string>
-    <string name="icon_manager_summary">Control visibility of status bar icons</string>
+    <string name="qs_show_data_usage_title">Zobrazit využití dat</string>
+    <string name="qs_show_data_usage_summary">Zobrazit denní využití mobilních dat/Wi-Fi v zápatí QS</string>
+    <string name="icon_manager_title">Položky stavového řádku</string>
+    <string name="icon_manager_summary">Ovládejte viditelnost ikon stavového řádku</string>
     <string name="system_black_theme_title">Použít černý motiv</string>
     <string name="system_black_theme_summary">Vynutit černou barvu pozadí</string>
-    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
-    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <string name="show_clipboard_overlay_title">Zobrazit dialog schránky</string>
+    <string name="show_clipboard_overlay_summary">Zobrazení překryvného okna v levém dolním rohu obrazovky, když je něco zkopírováno do schránky</string>
     <string name="volume_button_music_control_title">Ovládání přehrávání</string>
     <string name="volume_button_music_control_summary">Pokud je obrazovka vypnutá, dlouhé stisknutí tlačítek hlasitosti přeskočí skladby</string>
-    <string name="laboratory_parallel_space_title">Parallel space</string>
-    <string name="laboratory_parallel_space_summary">Allow running multiple instances of the same application in parallel.</string>
-    <string name="backup_transport_setting_label">Change backup provider</string>
-    <string name="backup_transport_title">Select backup provider</string>
-    <string name="ignore_window_secure_title">Ignore window secure flags</string>
-    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
-    <string name="app_lock_title">App lock</string>
+    <string name="laboratory_parallel_space_title">Paralelní prostor</string>
+    <string name="laboratory_parallel_space_summary">Umožňuje spuštění více instancí téže aplikace současně.</string>
+    <string name="backup_transport_setting_label">Změnit poskytovatele zálohování</string>
+    <string name="backup_transport_title">Vyberte poskytovatele zálohování</string>
+    <string name="ignore_window_secure_title">Ignorovat příznaky zabezpečení oken</string>
+    <string name="ignore_window_secure_summary">Odstranění omezení pro pořizování snímků obrazovky a záznamů obrazovky pro všechny aplikace. To může být v některých případech výhodné, ale může to vést k úniku citlivých dat.</string>
+    <string name="app_lock_title">Zámek aplikace</string>
     <plurals name="app_lock_summary">
-        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
-        <item quantity="few"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
-        <item quantity="many"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> aplikace je chráněna</item>
+        <item quantity="few"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplikace jsou chráněny</item>
+        <item quantity="many"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplikací je chráněno</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplikací je chráněno</item>
     </plurals>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
-    <string name="enable_debugging">Enable debugging</string>
-    <string name="disable_debugging">Disable debugging</string>
-    <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_notifications_title">Redact notifications</string>
-    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
-          Heads up notifications will be automatically disabled.
+    <string name="app_lock_authentication_dialog_title">Odemknout</string>
+    <string name="enable_debugging">Aktivovat ladění aplikace</string>
+    <string name="disable_debugging">Zakázat ladění aplikace</string>
+    <string name="app_lock_packages_title">Chráněné aplikace</string>
+    <string name="app_lock_packages_summary">Vyberte aplikace, které chcete chránit pomocí biometrických údajů nebo přihlašovacími údaji zařízení</string>
+    <string name="app_lock_timeout_title">Doba autom. zamknutí</string>
+    <string name="app_lock_timeout_summary">Doba, po které by měla být odemčená aplikace na pozadí uzamčena</string>
+    <string name="app_lock_notifications_title">Sbalit oznámení</string>
+    <string name="app_lock_notifications_summary">          Obsah oznámení se u vybraných aplikací při jejich uzamčení skryje a sbalí.
+          Plovoucí oznámení budou automaticky vypnuty.
     </string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <string name="enable_protection">Enable protection</string>
-    <string name="hide_from_launcher_title">Hide from launcher</string>
-    <string name="hide_from_launcher_summary">        Prevent this application from showing up in launcher. Requires a launcher restart for changes to take effect.
+    <string name="app_lock_notifications_disabled_summary">Nejprve chránit aplikaci</string>
+    <string name="app_lock_biometrics_allowed_title">Povolit biometriku pro odemykání</string>
+    <string name="app_lock_footer_text">Bubliny se po uplynutí časového limitu automaticky zruší</string>
+    <string name="enable_protection">Povolit ochranu</string>
+    <string name="hide_from_launcher_title">Skrýt ze spouštěče</string>
+    <string name="hide_from_launcher_summary">        Zabránit zobrazení této aplikace ve spouštěči. Aby se změny projevily, je třeba restartovat spouštěč.
     </string>
     <string name="enable_fingerprint_ripple_effect_title">Efekt zvlnění</string>
     <string name="enable_fingerprint_ripple_effect_summary">Zobrazit efekt zvlnění při odemknutí zařízení pomocí otisku prstu</string>
     <string name="screenshot_shutter_sound_title">Zvuk při snímku obrazovky</string>
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
-    <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
-    <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
-    <string name="battery_stats_reset">Reset stats?</string>
-    <string name="battery_stats_message">Battery usage data will be lost</string>
-    <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
-    <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups.</string>
-    <string name="dc_dimming_title">DC Dimming</string>
-    <string name="dc_dimming_info">Reduces eye strain in low light conditions by minimizing screen flicker. May result in reduced image quality and poor color production, or higher power consumption.</string>
-    <string name="dc_dimming_main_switch_title">Use DC Dimming</string>
-    <string name="keywords_display_dc_dimming">dc dimming, anti, flicker, eye, strain</string>
-    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
-    <string name="smart_5g_title">Smart 5G</string>
-    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+    <string name="display_cutout_force_fullscreen_title">Aplikace na celou obrazovku</string>
+    <string name="display_cutout_force_fullscreen_summary">Přinutit aplikace ignorovat výřez</string>
+    <string name="search">Hledat</string>
+    <string name="search_apps">Hledat v aplikacích</string>
+    <string name="quick_settings_quick_pull_down_title">Rychlé stažení QS panelu</string>
+    <string name="quick_settings_quick_pull_down_summary">Stažením stavového řádku z pravé strany dolů rozbalíte rychlá nastavení</string>
+    <string name="battery_stats_reset">Vynulovat statistiky?</string>
+    <string name="battery_stats_message">Data o využití baterie budou ztracena</string>
+    <string name="ambient_display_screen_off_udfps_title">Otisku prstu při AOD</string>
+    <string name="ambient_display_screen_off_udfps_summary">Umožňuje odemknout při vypnuté obrazovce.\nZapnutí může způsobit náhodné probuzení.</string>
+    <string name="dc_dimming_title">DC – Ztlumení</string>
+    <string name="dc_dimming_info">Snižuje namáhání očí při slabém osvětlení tím, že minimalizuje blikání obrazovky. Může to mít za následek sníženou kvalitu obrazu a špatnou produkci barev nebo vyšší spotřebu energie.</string>
+    <string name="dc_dimming_main_switch_title">Použít DC – Ztlumení</string>
+    <string name="keywords_display_dc_dimming">dc ztlumení, proti, blikání, oči, namáhání</string>
+    <string name="wake_when_plugged_or_unplugged_title">Probudit při nabíjení</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Zapnout obrazovku při připojení nebo odpojení zdroje napájení</string>
+    <string name="smart_5g_title">Chytré 5G</string>
+    <string name="smart_5g_summary">Automatické přepnutí mezi 5G a 4G ke snížení spotřeby baterie</string>
 </resources>

@@ -20,11 +20,11 @@
     <string name="build_date">Data de compilació</string>
     <string name="arrow_version">Versió ArrowOS</string>
     <string name="about_device_name">Dispositiu</string>
-    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_title">Freqüència de refresc</string>
     <string name="min_refresh_rate_title">Freqüència de refresc mínima</string>
     <string name="max_refresh_rate_title">Freqüència de refresc màxima</string>
-    <string name="preferred_refresh_rate_title">Preferred refresh rate</string>
-    <string name="preferred_refresh_rate_info">Preferred refresh rate will be used as the default refresh rate for user interactions, as long as it\'s within the minimum and maximum refresh rate.</string>
+    <string name="preferred_refresh_rate_title">Freqüència d\'actualització preferida</string>
+    <string name="preferred_refresh_rate_info">La freqüència d\'actualització preferida s\'utilitzarà com a freqüència d\'actualització predeterminada per a les interaccions dels usuaris, sempre que estigui dins de la freqüència d\'actualització mínima i màxima.</string>
     <string name="battery_saver_refresh_rate_title">Redueix la freqüència de refresc</string>
     <string name="battery_saver_refresh_rate_summary">Utilitza 60Hz com a freqüència de refresc màxima per a reduir el consum energètic quan el mode de d\'estalvi de bateria està encès</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localitzeu el sensor d’empremtes dactilars a la part frontal del tablet.</string>
@@ -64,7 +64,7 @@
     <string name="global_actions_advanced_reboot_summary">Mostra les opcions per a la recuperació i el carregador d\'arrencada al menú d\'engegada</string>
     <string name="three_finger_gesture">Llisca per fer captura de pantalla</string>
     <string name="three_finger_gesture_summary">En lliscar cap avall amb tres dits, voleu que es prengui una captura de pantalla</string>
-    <string name="radio_info_title">Radio info</string>
+    <string name="radio_info_title">Informació de senyal</string>
     <string name="tethering_allow_vpn_upstreams_title">Permet als clients utilitzar VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permet als clients de hotspot utilitzar les connexions VPN d\'aquest dispositiu\u2019s per connectar-se amunt</string>
     <string name="navbar_invert_layout_title">Inverteix la disposició de la barra de navegació</string>
@@ -72,13 +72,13 @@
     <string name="show_navbar_gesture_bar_title">Barra de gestos</string>
     <string name="show_navbar_gesture_bar_summary">Mostra la barra de gestos a la part inferior de la pantalla</string>
     <string name="volume_panel_on_left_title">Mostra el panell de volum a l\'esquerra</string>
-    <string name="volume_panel_on_left_summary">Move volume panel to the left side of the screen</string>
-    <string name="power_button_torch_title">Quick torch</string>
-    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
+    <string name="volume_panel_on_left_summary">Mostrar panell de volum a la banda esquerra de la pantalla</string>
+    <string name="power_button_torch_title">Llanterna ràpida</string>
+    <string name="power_button_torch_summary">Amb la pantalla apagada, mantenir el botó d\'encés activarà la llanterna</string>
     <string name="double_tap_sleep_gesture_title">Pica per posar en repòs</string>
     <string name="double_tap_sleep_gesture_summary">Doble toc a la barra d\'estat per suspendre el dispositiu</string>
-    <string name="low_battery_light_title">Low battery light</string>
-    <string name="low_battery_light_summary">Blink LED when battery is low</string>
+    <string name="low_battery_light_title">Llum de bateria baixa</string>
+    <string name="low_battery_light_summary">El LED parpelleja quan la bateria està baixa</string>
     <string name="network_traffic_title">Indicador de trànsit de xarxa</string>
     <string name="network_traffic_summary">Activa o desactiva l\'indicador de velocitat de xarxa en la barra d\'estat</string>
     <string name="network_traffic_state_title">Indicador de trànsit de xarxa\"</string>
@@ -86,60 +86,60 @@
     <string name="network_traffic_autohide_title">Amaga l\'indicador de trànsit de xarxa si és inactiu</string>
     <string name="network_traffic_autohide_summary">Amaga l\'indicador de trànsit de xarxa si és inferior a 1 kB/s</string>
     <string name="customization_category_title">Personalització</string>
-    <string name="qs_show_data_usage_title">Show data usage</string>
-    <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
-    <string name="icon_manager_title">Status bar items</string>
-    <string name="icon_manager_summary">Control visibility of status bar icons</string>
+    <string name="qs_show_data_usage_title">Mostra l\'ús de dades</string>
+    <string name="qs_show_data_usage_summary">Mostra l\'ús diari de dades mòbils/Wi-Fi al peu de pàgina de la configuració ràpida</string>
+    <string name="icon_manager_title">Elements de la barra d\'estat</string>
+    <string name="icon_manager_summary">Control de la visibilitat de les icones de la barra d\'estat</string>
     <string name="system_black_theme_title">Utilitza un tema fosc</string>
     <string name="system_black_theme_summary">Força els fons de color negre</string>
-    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
-    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <string name="show_clipboard_overlay_title">Mostra el porta-retalls superposat</string>
+    <string name="show_clipboard_overlay_summary">Mostra el contingut del porta-retalls a la part inferior esquerra de la pantalla quan es copia algun element</string>
     <string name="volume_button_music_control_title">Control de reproducció</string>
     <string name="volume_button_music_control_summary">Amb la pantalla apagada, mantenir polsades les tecles de volum canvia la pista de música actual</string>
-    <string name="laboratory_parallel_space_title">Parallel space</string>
-    <string name="laboratory_parallel_space_summary">Allow running multiple instances of the same application in parallel.</string>
-    <string name="backup_transport_setting_label">Change backup provider</string>
-    <string name="backup_transport_title">Select backup provider</string>
-    <string name="ignore_window_secure_title">Ignore window secure flags</string>
-    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
-    <string name="app_lock_title">App lock</string>
+    <string name="laboratory_parallel_space_title">Espai Paral·lel</string>
+    <string name="laboratory_parallel_space_summary">Permet executar simultàniament diferents versions d\'una mateixa aplicació.</string>
+    <string name="backup_transport_setting_label">Canvia el proveïdor de còpies de seguretat</string>
+    <string name="backup_transport_title">Trieu un proveïdor de còpia de seguretat</string>
+    <string name="ignore_window_secure_title">Ignoreu les banderes de seguretat de la finestra</string>
+    <string name="ignore_window_secure_summary">Elimineu els límits de captures de pantalla i registres de pantalla per a totes les aplicacions. Això pot ser convenient en alguns casos, però pot provocar filtracions de privadesa.</string>
+    <string name="app_lock_title">Bloqueig d\'aplicacions</string>
     <plurals name="app_lock_summary">
-        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> aplicació està protegida</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplicacions estan protegides</item>
     </plurals>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
-    <string name="enable_debugging">Enable debugging</string>
-    <string name="disable_debugging">Disable debugging</string>
-    <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_notifications_title">Redact notifications</string>
-    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
-          Heads up notifications will be automatically disabled.
+    <string name="app_lock_authentication_dialog_title">Desbloqueja</string>
+    <string name="enable_debugging">Activa la depuració</string>
+    <string name="disable_debugging">Desactiva la depuració</string>
+    <string name="app_lock_packages_title">Aplicacions protegides</string>
+    <string name="app_lock_packages_summary">Seleccioni les aplicacions per protegir amb dades biomètriques o credencials del dispositiu</string>
+    <string name="app_lock_timeout_title">Temps de bloqueig automàtic</string>
+    <string name="app_lock_timeout_summary">Durada del temps després del qual una aplicació desbloquejada en segon pla ha de ser bloquejada</string>
+    <string name="app_lock_notifications_title">Contraure notificacions</string>
+    <string name="app_lock_notifications_summary">          El contingut de les notificacions s\'amagarà i es replegarà per a les aplicacions seleccionades si estan bloquejades.
+          Les notificacions emergents es desactivaran automàticament.
     </string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <string name="enable_protection">Enable protection</string>
-    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="app_lock_notifications_disabled_summary">Primer, protegeix una aplicació</string>
+    <string name="app_lock_biometrics_allowed_title">Activa la biometria per a desbloquejar</string>
+    <string name="app_lock_footer_text">Les bombolles es descartaran automàticament després del temps d\'espera</string>
+    <string name="enable_protection">Activar protecció</string>
+    <string name="hide_from_launcher_title">Ocultar en launcher</string>
     <string name="hide_from_launcher_summary">        Prevent this application from showing up in launcher. Requires a launcher restart for changes to take effect.
     </string>
     <string name="enable_fingerprint_ripple_effect_title">Efecte d\'ona</string>
     <string name="enable_fingerprint_ripple_effect_summary">Mostra l\'efecte ondulació al desbloquejar amb empremta digital</string>
     <string name="screenshot_shutter_sound_title">So de captura de pantalla</string>
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
-    <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
-    <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
-    <string name="battery_stats_reset">Reset stats?</string>
-    <string name="battery_stats_message">Battery usage data will be lost</string>
-    <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
-    <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups.</string>
-    <string name="dc_dimming_title">DC Dimming</string>
-    <string name="dc_dimming_info">Reduces eye strain in low light conditions by minimizing screen flicker. May result in reduced image quality and poor color production, or higher power consumption.</string>
+    <string name="display_cutout_force_fullscreen_title">Aplicacions a pantalla completa</string>
+    <string name="display_cutout_force_fullscreen_summary">Fes que les aplicacions ignorin l’espai de l’notch</string>
+    <string name="search">Cercar</string>
+    <string name="search_apps">Cerca aplicacions</string>
+    <string name="quick_settings_quick_pull_down_title">Desplegable ràpid QS</string>
+    <string name="quick_settings_quick_pull_down_summary">Tireu cap avall la barra d\'estat des del costat dret per ampliar la configuració ràpida</string>
+    <string name="battery_stats_reset">Restableix les estadístiques?</string>
+    <string name="battery_stats_message">Es perdran les dades d\'ús de la bateria</string>
+    <string name="ambient_display_screen_off_udfps_title">Sempre a l\'empremta digital</string>
+    <string name="ambient_display_screen_off_udfps_summary">Permet desbloquejar la pantalla.\nActivar-lo pot causar enceses accidentals.</string>
+    <string name="dc_dimming_title">Atenuació DC</string>
+    <string name="dc_dimming_info">Redueix la fatiga ocular en condicions de poca llum minimitzant el parpelleig de la pantalla. Pot provocar una reducció de la qualitat de la imatge i una producció de color deficient o un consum d\'energia més elevat.</string>
     <string name="dc_dimming_main_switch_title">Use DC Dimming</string>
     <string name="keywords_display_dc_dimming">dc dimming, anti, flicker, eye, strain</string>
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>

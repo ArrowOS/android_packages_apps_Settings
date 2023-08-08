@@ -86,64 +86,64 @@
     <string name="network_traffic_autohide_title">Ocultar indicador de tráfego de rede está inativo</string>
     <string name="network_traffic_autohide_summary">Ocultar quando o indicador de tráfego de rede estiver abaixo de 1 KB/s</string>
     <string name="customization_category_title">Personalizar</string>
-    <string name="qs_show_data_usage_title">Show data usage</string>
-    <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
-    <string name="icon_manager_title">Status bar items</string>
-    <string name="icon_manager_summary">Control visibility of status bar icons</string>
+    <string name="qs_show_data_usage_title">Mostrar utilização de dados</string>
+    <string name="qs_show_data_usage_summary">Mostrar uso de dados móveis/Wi-Fi no rodapé das definições rápidas</string>
+    <string name="icon_manager_title">Itens da barra de estado</string>
+    <string name="icon_manager_summary">Controlar a visibilidade dos ícones da barra de estado</string>
     <string name="system_black_theme_title">Utilizar tema Escuro</string>
     <string name="system_black_theme_summary">Forçar cores de fundo pretas</string>
-    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
-    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <string name="show_clipboard_overlay_title">Mostrar sobreposição da área de transferência</string>
+    <string name="show_clipboard_overlay_summary">Mostrar uma sobreposição no canto inferior esquerdo do ecrã quando algo for copiado para a área de transferência</string>
     <string name="volume_button_music_control_title">Controlo de reprodução</string>
     <string name="volume_button_music_control_summary">Quando o ecrã está desligado, pressione longamente os botões de volume para alternar as faixas</string>
-    <string name="laboratory_parallel_space_title">Parallel space</string>
-    <string name="laboratory_parallel_space_summary">Allow running multiple instances of the same application in parallel.</string>
-    <string name="backup_transport_setting_label">Change backup provider</string>
-    <string name="backup_transport_title">Select backup provider</string>
-    <string name="ignore_window_secure_title">Ignore window secure flags</string>
-    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
-    <string name="app_lock_title">App lock</string>
+    <string name="laboratory_parallel_space_title">Espaço paralelo</string>
+    <string name="laboratory_parallel_space_summary">Permite executar várias instâncias da mesma aplicação em paralelo.</string>
+    <string name="backup_transport_setting_label">Alterar o fornecedor de cópias de segurança</string>
+    <string name="backup_transport_title">Selecionar o fornecedor de cópias de segurança</string>
+    <string name="ignore_window_secure_title">Ignorar sinalizadores de segurança da janela</string>
+    <string name="ignore_window_secure_summary">Remova restrições de gravação e captura de ecrã para todas as aplicações. Isso pode ser conveniente em alguns casos, mas pode levar a problemas de privacidade.</string>
+    <string name="app_lock_title">Bloqueio de aplicações</string>
     <plurals name="app_lock_summary">
-        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> a aplicação está protegida</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> as aplicações estão protegidas</item>
     </plurals>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
-    <string name="enable_debugging">Enable debugging</string>
-    <string name="disable_debugging">Disable debugging</string>
-    <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_notifications_title">Redact notifications</string>
-    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
-          Heads up notifications will be automatically disabled.
+    <string name="app_lock_authentication_dialog_title">Desbloquear</string>
+    <string name="enable_debugging">Ativar depuração</string>
+    <string name="disable_debugging">Desativar depuração</string>
+    <string name="app_lock_packages_title">Aplicações protegidas</string>
+    <string name="app_lock_packages_summary">Selecione as aplicações a proteger com biometria ou credenciais do dispositivo</string>
+    <string name="app_lock_timeout_title">Tempo de bloqueio automático</string>
+    <string name="app_lock_timeout_summary">Tempo previsto para bloquear uma aplicação em segundo plano</string>
+    <string name="app_lock_notifications_title">Redigir notificações</string>
+    <string name="app_lock_notifications_summary">          O conteúdo das notificações será ocultado para as aplicações selecionadas quando estiverem bloqueadas.
+          As janelas de notificações serão desativadas automaticamente.
     </string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <string name="enable_protection">Enable protection</string>
-    <string name="hide_from_launcher_title">Hide from launcher</string>
-    <string name="hide_from_launcher_summary">        Prevent this application from showing up in launcher. Requires a launcher restart for changes to take effect.
+    <string name="app_lock_notifications_disabled_summary">Proteger primeiro uma aplicação</string>
+    <string name="app_lock_biometrics_allowed_title">Ativar biometria para desbloquear</string>
+    <string name="app_lock_footer_text">Os balões serão automaticamente dispensados após o tempo limite</string>
+    <string name="enable_protection">Ativar proteção</string>
+    <string name="hide_from_launcher_title">Ocultar ícone do lançador</string>
+    <string name="hide_from_launcher_summary">Impedir esta aplicação de ser mostrada no lançador. Requer o reinício do lançador para que as alterações tenham efeito.
     </string>
     <string name="enable_fingerprint_ripple_effect_title">Efeito ondulação</string>
     <string name="enable_fingerprint_ripple_effect_summary">Mostrar efeito cascata ao desbloquear com impressão digital</string>
     <string name="screenshot_shutter_sound_title">Som da captura de ecrã</string>
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
-    <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
-    <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
-    <string name="battery_stats_reset">Reset stats?</string>
-    <string name="battery_stats_message">Battery usage data will be lost</string>
-    <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
-    <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups.</string>
-    <string name="dc_dimming_title">DC Dimming</string>
-    <string name="dc_dimming_info">Reduces eye strain in low light conditions by minimizing screen flicker. May result in reduced image quality and poor color production, or higher power consumption.</string>
-    <string name="dc_dimming_main_switch_title">Use DC Dimming</string>
-    <string name="keywords_display_dc_dimming">dc dimming, anti, flicker, eye, strain</string>
-    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
-    <string name="smart_5g_title">Smart 5G</string>
-    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+    <string name="display_cutout_force_fullscreen_title">Aplicações em ecrã inteiro</string>
+    <string name="display_cutout_force_fullscreen_summary">Forçar aplicações a ignorar o espaço do entalhe</string>
+    <string name="search">Pesquisar</string>
+    <string name="search_apps">Pesquisar aplicações</string>
+    <string name="quick_settings_quick_pull_down_title">Puxar rápido para baixo do painel configurações rápidas</string>
+    <string name="quick_settings_quick_pull_down_summary">Puxe a barra de estado do lado direito, para expandir as configurações rápidas</string>
+    <string name="battery_stats_reset">Repor estatísticas?</string>
+    <string name="battery_stats_message">Os dados de utilização da bateria serão perdidos</string>
+    <string name="ambient_display_screen_off_udfps_title">Impressão digital sempre ativa</string>
+    <string name="ambient_display_screen_off_udfps_summary">Permite desbloquear com o ecrã desligado.\nAtivar esta opção, pode causar que o dispositivo ligue acidentalmente.</string>
+    <string name="dc_dimming_title">Escurecimento por Corrente Contínua</string>
+    <string name="dc_dimming_info">Reduz a fadiga visual em condições de pouca luz, minimizando a oscilação do ecrã. Pode resultar em qualidade de imagem reduzida, produção de cores insatisfatória ou maior consumo de energia.</string>
+    <string name="dc_dimming_main_switch_title">Regulação de intensidade</string>
+    <string name="keywords_display_dc_dimming">escurecimento por corrente continua, cintilação, olhos, esforço, cansaço, ocular, brilho</string>
+    <string name="wake_when_plugged_or_unplugged_title">Ligar ecrã ao detetar o carregador</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Ativar ecrã ao conectar ou desconectar uma fonte de energia</string>
+    <string name="smart_5g_title">5G inteligente</string>
+    <string name="smart_5g_summary">Alternar automaticamente entre 5G e 4G para reduzir o consumo de bateria</string>
 </resources>

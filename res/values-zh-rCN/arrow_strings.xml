@@ -20,10 +20,10 @@
     <string name="build_date">编译日期</string>
     <string name="arrow_version">ArrowOS 版本</string>
     <string name="about_device_name">设备</string>
-    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_title">刷新率</string>
     <string name="min_refresh_rate_title">最低刷新率</string>
     <string name="max_refresh_rate_title">最高刷新率</string>
-    <string name="preferred_refresh_rate_title">Preferred refresh rate</string>
+    <string name="preferred_refresh_rate_title">首选刷新率</string>
     <string name="preferred_refresh_rate_info">Preferred refresh rate will be used as the default refresh rate for user interactions, as long as it\'s within the minimum and maximum refresh rate.</string>
     <string name="battery_saver_refresh_rate_title">降低刷新率</string>
     <string name="battery_saver_refresh_rate_summary">在省电模式开启时使用 60 Hz 屏幕刷新率以省电</string>
